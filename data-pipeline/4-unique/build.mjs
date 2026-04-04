@@ -264,6 +264,8 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
   return sortObjectKeys({
     tripadvisor_id: tripadvisorId,
     tripadvisor_url: pickField(contributors, (contributor) => contributor.stageThreeMatch?.tripadvisor_url),
+    amex_url: pickSourcePageUrl(contributors, ["amex_fhr", "amex_thc"]),
+    hilton_url: pickSourcePageUrl(contributors, ["hilton_aspire_resort_credit"]),
     name: pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_name, contributor.stageOneHotel?.name])
     ),
@@ -360,6 +362,12 @@ function buildUnmatchedRecord(record) {
     source: record.source,
     source_hotel_id: record.sourceHotelId,
     reason: getUnmatchedReason(record.hasStageThreeFile, record.stageThreeMatch),
+    amex_url: isAmexSource(record.source)
+      ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
+      : "",
+    hilton_url: record.source === "hilton_aspire_resort_credit"
+      ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
+      : "",
     name: firstNonEmpty([
       record.stageTwoHotel.detail_name,
       record.stageOneHotel.name
@@ -426,6 +434,27 @@ function buildUnmatchedRecord(record) {
 
 function buildLinkKey(source, sourceHotelId) {
   return `${source}::${sourceHotelId}`;
+}
+
+function pickSourcePageUrl(contributors, sources) {
+  const sourceSet = new Set(sources);
+
+  for (const contributor of contributors) {
+    if (!sourceSet.has(contributor.source)) {
+      continue;
+    }
+
+    const value = firstNonEmpty([contributor.stageTwoHotel?.detail_url, contributor.stageOneHotel?.url]);
+    if (value) {
+      return value;
+    }
+  }
+
+  return "";
+}
+
+function isAmexSource(source) {
+  return source === "amex_fhr" || source === "amex_thc";
 }
 
 function uniqueNonEmptyStrings(values) {

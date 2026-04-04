@@ -403,11 +403,14 @@ function normalizeHotel([id, rawHotel]) {
     longitude,
     priceValue,
     priceLabel: formatCurrency(priceValue, rawHotel.summary_price?.currency || rawHotel.currency || "USD"),
-    priceSubLabel: rawHotel.summary_price?.display
-      ? `Reference display ${rawHotel.summary_price.display}`
-      : rawHotel.record_type === "canonical"
-        ? "Canonical hotel record"
-        : "Fallback hotel record",
+    priceSubLabel:
+      rawHotel.summary_price?.display &&
+      rawHotel.summary_price?.original_currency &&
+      rawHotel.summary_price.original_currency !== (rawHotel.summary_price?.currency || rawHotel.currency || "USD")
+        ? rawHotel.summary_price.display
+        : "",
+    amexUrl: rawHotel.amex_url || "",
+    hiltonUrl: rawHotel.hilton_url || "",
     tripadvisorUrl: rawHotel.tripadvisor_url || "",
     tripadvisorId: rawHotel.tripadvisor_id || "",
     summaryPrice: rawHotel.summary_price || null,
@@ -835,6 +838,16 @@ function renderDetailView() {
   const amenitiesLabel = joinValues(hotel.amenities, "Amenities pending");
   const planPills = renderPlanPills(hotel.planLabels);
   const sampledPricePattern = renderSampledPricePattern(hotel);
+  const sourceActions = [
+    hotel.amexUrl
+      ? `<a class="primary-button" href="${hotel.amexUrl}" target="_blank" rel="noreferrer">Amex</a>`
+      : "",
+    hotel.hiltonUrl
+      ? `<a class="primary-button" href="${hotel.hiltonUrl}" target="_blank" rel="noreferrer">Hilton</a>`
+      : "",
+  ]
+    .filter(Boolean)
+    .join("");
   dom.backToList.hidden = false;
 
   dom.list.innerHTML = `
@@ -847,9 +860,9 @@ function renderDetailView() {
       <p class="detail-location">${escapeHtml(hotel.locationLabel)}</p>
 
       <div class="detail-price-summary ${hotel.priceValue === null ? "detail-price-summary--pending" : ""}">
-        <span class="detail-price-summary__eyebrow">Reference price</span>
+        <span class="detail-price-summary__eyebrow">Lowest price on Hilton page</span>
         <strong>${escapeHtml(hotel.priceLabel)}</strong>
-        <p>${escapeHtml(hotel.priceSubLabel)}</p>
+        ${hotel.priceSubLabel ? `<p>${escapeHtml(hotel.priceSubLabel)}</p>` : ""}
       </div>
 
       ${sampledPricePattern}
@@ -870,6 +883,7 @@ function renderDetailView() {
       </div>
 
       <div class="detail-actions">
+        ${sourceActions}
         ${
           hotel.tripadvisorUrl
             ? `<a class="primary-button" href="${hotel.tripadvisorUrl}" target="_blank" rel="noreferrer">TripAdvisor</a>`

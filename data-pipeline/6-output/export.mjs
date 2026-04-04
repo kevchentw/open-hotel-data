@@ -111,6 +111,8 @@ function buildFallbackHotels(unmatched) {
           record_type: "fallback",
           source: normalizeString(hotel.source),
           source_hotel_id: normalizeString(hotel.source_hotel_id),
+          amex_url: normalizeString(hotel.amex_url),
+          hilton_url: normalizeString(hotel.hilton_url),
           name: normalizeString(hotel.name),
           city: normalizeString(hotel.city),
           state_region: normalizeString(hotel.state_region),
@@ -231,6 +233,8 @@ function normalizeSummaryPrice(summaryPrice) {
 function pickHotelFields(hotel) {
   return {
     record_type: "canonical",
+    amex_url: normalizeString(hotel.amex_url),
+    hilton_url: normalizeString(hotel.hilton_url),
     name: normalizeString(hotel.name),
     city: normalizeString(hotel.city),
     state_region: normalizeString(hotel.state_region),

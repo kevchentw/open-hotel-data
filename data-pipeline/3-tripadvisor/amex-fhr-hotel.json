@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_fhr",
-    "generated_at": "2026-04-04T22:03:59.276Z",
-    "record_count": 1233,
-    "matched_count": 1233,
+    "generated_at": "2026-04-04T22:12:53.917Z",
+    "record_count": 1263,
+    "matched_count": 1263,
     "unmatched_count": 0
   },
   "matches": {
@@ -8643,6 +8643,216 @@
       "search_query": "The Lowell, New York",
       "match_confidence": "medium",
       "matched_at": "2026-04-04T22:03:59.276Z"
+    },
+    "New-York-US/New-York/The-Mark": {
+      "tripadvisor_id": "g60763-d112052",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d112052-Reviews-The_Mark_Hotel-New_York_City_New_York.html",
+      "search_query": "The Mark",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:04:05.219Z"
+    },
+    "New-York-US/New-York/The-New-York-Edition": {
+      "tripadvisor_id": "g60763-d7787303",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d7787303-Reviews-The_New_York_EDITION-New_York_City_New_York.html",
+      "search_query": "The New York EDITION",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:00.898Z"
+    },
+    "New-York-US/New-York/The-Peninsula-New-York": {
+      "tripadvisor_id": "g60763-d113311",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d113311-Reviews-The_Peninsula_New_York-New_York_City_New_York.html",
+      "search_query": "The Peninsula New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:07.288Z"
+    },
+    "New-York-US/New-York/The-Pierre-New-York-a-Taj-Hotel": {
+      "tripadvisor_id": "g60763-d93603",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93603-Reviews-The_Pierre_A_Taj_Hotel-New_York_City_New_York.html",
+      "search_query": "The Pierre, New York, a Taj Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:10:13.295Z"
+    },
+    "New-York-US/New-York/The-Plaza": {
+      "tripadvisor_id": "g60763-d675616",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d675616-Reviews-The_Plaza_New_York_A_Fairmont_Managed_Hotel-New_York_City_New_York.html",
+      "search_query": "The Plaza",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:19.251Z"
+    },
+    "New-York-US/New-York/The-Ritz-carlton-New-York-Central-Park": {
+      "tripadvisor_id": "g60763-d224224",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d224224-Reviews-The_Ritz_Carlton_New_York_Central_Park-New_York_City_New_York.html",
+      "search_query": "The Ritz-Carlton New York, Central Park",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:26.634Z"
+    },
+    "New-York-US/New-York/The-Ritz-carlton-New-York-Nomad": {
+      "tripadvisor_id": "g60763-d23947245",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d23947245-Reviews-The_Ritz_Carlton_New_York_NoMad-New_York_City_New_York.html",
+      "search_query": "The Ritz-Carlton New York, NoMad",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:32.553Z"
+    },
+    "New-York-US/New-York/The-St-Regis-New-York": {
+      "tripadvisor_id": "g60763-d93614",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93614-Reviews-The_St_Regis_New_York-New_York_City_New_York.html",
+      "search_query": "The St. Regis New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:38.465Z"
+    },
+    "New-York-US/New-York/The-Surrey-A-Corinthia-Hotel": {
+      "tripadvisor_id": "g60763-d93566",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93566-Reviews-The_Surrey_A_Corinthia_Hotel-New_York_City_New_York.html",
+      "search_query": "The Surrey, A Corinthia Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:44.563Z"
+    },
+    "New-York-US/New-York/The-Towers-At-Lotte-New-York-Palace": {
+      "tripadvisor_id": "g60763-d4702789",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d4702789-Reviews-The_Towers_at_Lotte_New_York_Palace-New_York_City_New_York.html",
+      "search_query": "The Towers at Lotte New York Palace",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:50.588Z"
+    },
+    "New-York-US/New-York/The-Wall-Street-Hotel": {
+      "tripadvisor_id": "g60763-d21517245",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d21517245-Reviews-The_Wall_Street_Hotel-New_York_City_New_York.html",
+      "search_query": "The Wall Street Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:10:56.545Z"
+    },
+    "New-York-US/New-York/The-Whitby-Hotel": {
+      "tripadvisor_id": "g60763-d10846801",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d10846801-Reviews-The_Whitby_Hotel-New_York_City_New_York.html",
+      "search_query": "The Whitby Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:02.531Z"
+    },
+    "New-York-US/New-York/Trump-International-Hotel--Tower-New-York": {
+      "tripadvisor_id": "g60763-d93623",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93623-Reviews-Trump_International_Hotel_and_Tower_New_York-New_York_City_New_York.html",
+      "search_query": "Trump International Hotel & Tower New York",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:11:08.478Z"
+    },
+    "New-York-US/New-York/Waldorf-Astoria-New-York": {
+      "tripadvisor_id": "g60763-d93618",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93618-Reviews-Waldorf_Astoria_New_York-New_York_City_New_York.html",
+      "search_query": "Waldorf Astoria New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:14.758Z"
+    },
+    "New-York-US/New-York/Warren-Street-Hotel": {
+      "tripadvisor_id": "g60763-d27416337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d27416337-Reviews-Warren_Street_Hotel-New_York_City_New_York.html",
+      "search_query": "Warren Street Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:21.270Z"
+    },
+    "New-York-US/Sloatsburg/The-Ranch-Hudson-Valley": {
+      "tripadvisor_id": "g15895515-d27534838",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g15895515-d27534838-Reviews-The_Ranch_Hudson_Valley-Ramapo_New_York.html",
+      "search_query": "The Ranch Hudson Valley",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:27.213Z"
+    },
+    "New-York-US/White-Lake/The-Chatwal-Lodge": {
+      "tripadvisor_id": "g48882-d23989535",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48882-d23989535-Reviews-The_Chatwal_Lodge_The_Catskills-White_Lake_Catskill_Region_New_York.html",
+      "search_query": "The Chatwal Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:33.160Z"
+    },
+    "New-York-US/White-Plains/The-Opus-Westchester-Autograph-Collection": {
+      "tripadvisor_id": "g48883-d910070",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48883-d910070-Reviews-The_Opus_Westchester_Autograph_Collection-White_Plains_New_York.html",
+      "search_query": "The Opus, Westchester, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:39.130Z"
+    },
+    "New-Zealand/Auckland/Intercontinental-Auckland": {
+      "tripadvisor_id": "g255106-d26243977",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255106-d26243977-Reviews-InterContinental_Auckland_By_IHG-Auckland_Central_North_Island.html",
+      "search_query": "InterContinental Auckland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:45.020Z"
+    },
+    "New-Zealand/Auckland/Park-Hyatt-Auckland": {
+      "tripadvisor_id": "g255106-d18717679",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255106-d18717679-Reviews-or10-Park_Hyatt_Auckland-Auckland_Central_North_Island.html",
+      "search_query": "Park Hyatt Auckland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:51.106Z"
+    },
+    "New-Zealand/Auckland/Sofitel-Auckland-Viaduct-Harbour": {
+      "tripadvisor_id": "g255106-d2205830",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255106-d2205830-Reviews-or2255-Sofitel_Auckland_Viaduct_Harbour-Auckland_Central_North_Island.html",
+      "search_query": "Sofitel Auckland Viaduct Harbour",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:11:57.009Z"
+    },
+    "New-Zealand/Featherston/Wharekauhau-Country-Estate": {
+      "tripadvisor_id": "g657218-d258304",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g657218-d258304-Reviews-Wharekauhau_Country_Estate-Featherston_Wairarapa_Greater_Wellington_North_Island.html",
+      "search_query": "Wharekauhau Country Estate",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:02.998Z"
+    },
+    "New-Zealand/Glenorchy/Blanket-Bay": {
+      "tripadvisor_id": "g1025721-d256487",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1025721-d256487-Reviews-BLANKET_BAY-Glenorchy_Otago_Region_South_Island.html",
+      "search_query": "Blanket Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:08.905Z"
+    },
+    "New-Zealand/Hawke's-Bay/Rosewood-Cape-Kidnappers": {
+      "tripadvisor_id": "g982740-d1234180",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g982740-d1234180-Reviews-Rosewood_Cape_Kidnappers-Te_Awanga_Hawke_s_Bay_Region_North_Island.html",
+      "search_query": "Rosewood Cape Kidnappers",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:14.903Z"
+    },
+    "New-Zealand/Matauri-Bay/Rosewood-Kauri-Cliffs": {
+      "tripadvisor_id": "g1911855-d304269",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1911855-d304269-Reviews-Rosewood_Kauri_Cliffs-Matauri_Bay_Northland_Region_North_Island.html",
+      "search_query": "Rosewood Kauri Cliffs",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:24.144Z"
+    },
+    "New-Zealand/Queenstown/Eichardts-Private-Hotel": {
+      "tripadvisor_id": "g255122-d257990",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255122-d257990-Reviews-Eichardt_s_Private_Hotel-Queenstown_Otago_Region_South_Island.html",
+      "search_query": "Eichardt's Private Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:29.983Z"
+    },
+    "New-Zealand/Queenstown/Rosewood-Matakauri": {
+      "tripadvisor_id": "g255122-d257471",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255122-d257471-Reviews-Rosewood_Matakauri-Queenstown_Otago_Region_South_Island.html",
+      "search_query": "Rosewood Matakauri",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:35.953Z"
+    },
+    "New-Zealand/Tai-Tapu/Otahuna-Lodge": {
+      "tripadvisor_id": "g6073558-d295680",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6073558-d295680-Reviews-Otahuna_Lodge-Tai_Tapu_Canterbury_Region_South_Island.html",
+      "search_query": "Otahuna Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:41.994Z"
+    },
+    "New-Zealand/Taupo/Huka-Lodge": {
+      "tripadvisor_id": "g255113-d257100",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255113-d257100-Reviews-Huka_Lodge-Taupo_Taupo_District_Waikato_Region_North_Island.html",
+      "search_query": "Huka Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:47.964Z"
+    },
+    "Newfoundland-and-Labrador-CA/Joe-Batt's-Arm/Fogo-Island-Inn": {
+      "tripadvisor_id": "g1453896-d4322085",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1453896-d4322085-Reviews-Fogo_Island_Inn-Joe_Batt_s_Arm_Fogo_Island_Newfoundland_Newfoundland_and_Labrador.html",
+      "search_query": "Fogo Island Inn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:12:53.917Z"
     }
   }
 }
