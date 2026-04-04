@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:22:44.775Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g147292-d149217"
+  },
+  "prices": {
+    "2026-05-10": {
+      "cost": "231.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T04:46:43.442Z",
+      "source": "xotelo"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:31:49.287Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g297698-d301929"
+  },
+  "prices": {},
+  "summary_price": {
+    "cost": "131.03",
+    "currency": "USD",
+    "display": "Rp 2,227,940",
+    "fetched_at": "2026-04-04T02:18:35.777Z",
+    "original_currency": "IDR",
+    "source": "hilton_aspire_resort_credit"
+  }
+}

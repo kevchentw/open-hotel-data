@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:29:02.156Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g255072-d1853238"
+  },
+  "prices": {},
+  "summary_price": {
+    "cost": "174.40",
+    "currency": "USD",
+    "display": "AU$253",
+    "fetched_at": "2026-04-04T02:18:35.777Z",
+    "original_currency": "AUD",
+    "source": "hilton_aspire_resort_credit"
+  }
+}

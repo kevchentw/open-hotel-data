@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:22:11.644Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g12520037-d26628262"
+  },
+  "prices": {},
+  "summary_price": {
+    "cost": "158.69",
+    "currency": "USD",
+    "display": "4,171,545₫",
+    "fetched_at": "2026-04-04T02:18:35.777Z",
+    "original_currency": "VND",
+    "source": "hilton_aspire_resort_credit"
+  }
+}

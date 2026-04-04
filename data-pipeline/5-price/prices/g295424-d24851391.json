@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:31:11.991Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g295424-d24851391"
+  },
+  "prices": {},
+  "summary_price": {
+    "cost": "150.31",
+    "currency": "USD",
+    "display": "AED 552",
+    "fetched_at": "2026-04-04T02:18:35.777Z",
+    "original_currency": "AED",
+    "source": "hilton_aspire_resort_credit"
+  }
+}

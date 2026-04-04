@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:22:52.027Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g150792-d12791108"
+  },
+  "prices": {},
+  "summary_price": {
+    "cost": "71.42",
+    "currency": "USD",
+    "display": "Mex$1,277",
+    "fetched_at": "2026-04-04T02:18:35.777Z",
+    "original_currency": "MXN",
+    "source": "hilton_aspire_resort_credit"
+  }
+}

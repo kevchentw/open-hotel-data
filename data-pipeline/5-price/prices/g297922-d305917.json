@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T20:32:03.855Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g297922-d305917"
+  },
+  "prices": {},
+  "summary_price": {
+    "cost": "107.58",
+    "currency": "USD",
+    "display": "฿3,513",
+    "fetched_at": "2026-04-04T02:18:35.777Z",
+    "original_currency": "THB",
+    "source": "hilton_aspire_resort_credit"
+  }
+}
