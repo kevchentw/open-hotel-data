@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_fhr",
-    "generated_at": "2026-04-04T21:57:55.824Z",
-    "record_count": 1196,
-    "matched_count": 1196,
+    "generated_at": "2026-04-04T21:58:01.823Z",
+    "record_count": 1197,
+    "matched_count": 1197,
     "unmatched_count": 0
   },
   "matches": {
@@ -8384,6 +8384,13 @@
       "search_query": "Bellagio",
       "match_confidence": "high",
       "matched_at": "2026-04-04T21:57:55.824Z"
+    },
+    "Nevada-US/Las-Vegas/Crockfords-Las-Vegas-Lxr-Hotels--Resorts": {
+      "tripadvisor_id": "g45963-d23328374",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d23328374-Reviews-Crockfords_Las_Vegas_LXR_Hotels_Resorts_at_Resorts_World-Las_Vegas_Nevada.html",
+      "search_query": "Crockfords Las Vegas, LXR Hotels & Resorts",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:01.823Z"
     }
   }
 }
