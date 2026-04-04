@@ -75,6 +75,7 @@ Useful data to capture here when available:
 
 - address cleanup beyond the stage-1 list page
 - city, state, country, and GPS from the detail page
+- formatted address plus geo provenance or confidence metadata when the source exposes it
 - public lowest price shown on the source page
 - source-native rating and review count
 - amenity coverage such as parking or pool
@@ -97,6 +98,10 @@ Recommended fields when available:
 - `detail_country`
 - `detail_latitude`
 - `detail_longitude`
+- `formatted_address`
+- `geo_provider`
+- `geo_confidence`
+- `geo_status`
 - `lowest_public_price`
 - `price_currency`
 - `source_rating`
@@ -114,6 +119,7 @@ dropping the hotel from the stage output.
 - preserve source-native values even if formatting is inconsistent
 - this stage may improve fields that were rough in stage 1, but it should not overwrite stage-1 source truth files
 - keep enrichment scoped to what the source itself exposes
+- geo cleanup belongs here when it comes from the source or an approved source-specific file
 - TripAdvisor IDs and cross-source matching decisions do not belong here
 
 ## Backfill Behavior

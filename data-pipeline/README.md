@@ -25,8 +25,7 @@ The intended logical order is:
 3. `3-tripadvisor`
 4. `4-unique`
 5. `5-price`
-6. `6-geo`
-7. `7-output`
+6. `6-output`
 
 Each stage owns one step:
 
@@ -35,8 +34,7 @@ Each stage owns one step:
 - `3-tripadvisor`: attach TripAdvisor matches and related identity metadata
 - `4-unique`: build the canonical hotel registry keyed by `tripadvisor_id`
 - `5-price`: attach price snapshots to canonical hotels
-- `6-geo`: attach geo normalization and confidence metadata
-- `7-output`: assemble final exports for pipeline and app consumers
+- `6-output`: assemble final exports for pipeline and app consumers
 
 ## Current Repo Layout
 
@@ -56,6 +54,7 @@ Practical reading rule:
 
 - use the logical stage flow above for planning
 - use the existing directory names when referring to files that already exist in the repo
+- treat `5-geo/` as a legacy holding area for inputs, not as a required standalone stage
 
 ## Why The New Stage 2 Exists
 
@@ -70,6 +69,7 @@ That stage should capture source-native detail such as:
 - source-specific ratings or review counts
 - special tags such as newly built
 - extra geo hints or map coordinates from the source itself
+- formatted addresses and normalized coordinates when available from the source
 
 Keeping this separate prevents TripAdvisor matching from becoming a catch-all
 enrichment step and makes later matching more reliable.
@@ -101,10 +101,10 @@ Expected ownership rules:
 ### Idempotency
 
 - stage 1 may refresh source-truth files on rerun because source pages change
-- stages 2, 3, 5, and 6 should backfill missing enrichment by default
+- stages 2, 3, and 5 should backfill missing enrichment by default
 - force-refresh mode may intentionally overwrite existing enrichment and timestamps
 - stage 4 should rebuild the canonical registry deterministically from upstream artifacts
-- stage 7 should be a pure assembly and export step
+- stage 6 should be a pure assembly and export step
 
 ### Output Philosophy
 
@@ -125,7 +125,7 @@ Expected ownership rules:
 
 - Inputs: stage-1 per-plan JSON plus source-native detail pages or approved source files
 - Outputs: one JSON file per source or plan keyed by `source_hotel_id`
-- Typical fields: `amenities`, `source_rating`, `source_review_count`, `lowest_public_price`, `detail_address`, `detail_latitude`, `detail_longitude`, `tags`, `enriched_at`
+- Typical fields: `amenities`, `source_rating`, `source_review_count`, `lowest_public_price`, `detail_address`, `detail_latitude`, `detail_longitude`, `formatted_address`, `geo_provider`, `geo_confidence`, `geo_status`, `tags`, `enriched_at`
 - Constraint: add detail to source rows without cross-source identity decisions
 
 ### Stage 3: TripAdvisor Match
@@ -151,20 +151,13 @@ Expected ownership rules:
 - Required fields: `tripadvisor_id` in metadata plus date-keyed history entries containing `currency`, `fetched_at`, `source`, and `cost`
 - Constraint: prices attach to canonical hotels, not raw plan-only rows
 
-### Stage 6: Geo
+### Stage 6: Output
 
-- Inputs: canonical hotels from stage 4 and approved geo input files
-- Outputs: geo enrichment keyed by `tripadvisor_id`
-- Required fields: `latitude`, `longitude`, `formatted_address`, `geo_provider`, `geo_confidence`, `geo_status`, `updated_at`
-- Constraint: backfill only missing geo by default
-
-### Stage 7: Output
-
-- Inputs: stages 4, 5, and 6
+- Inputs: canonical hotels from stage 4, price history from stage 5, and geo/address fields already captured in stages 1 and 2
 - Outputs:
   - canonical hotel JSON for pipeline consumers
   - app-facing JSON derived from canonical records
-- Constraint: final output must merge identity, plan membership, TripAdvisor, price, geo, and source enrichment into a coherent export layer
+- Constraint: final output must merge identity, plan membership, TripAdvisor, price, geo, and source enrichment into a coherent export layer without requiring a dedicated geo stage
 
 ## Suggested Run Flow
 
@@ -176,8 +169,7 @@ node data-pipeline/1-list/scripts/amex.mjs
 # node data-pipeline/3-tripadvisor/search.mjs
 # node data-pipeline/4-unique/build.mjs
 # node data-pipeline/5-price/fetch.mjs
-# node data-pipeline/6-geo/backfill.mjs
-# node data-pipeline/7-output/export.mjs
+# node data-pipeline/6-output/export.mjs
 ```
 
 The exact script names may change during migration, but the stage intent should remain stable.

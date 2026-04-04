@@ -2,14 +2,14 @@
 
 ## Purpose
 
-Assemble the final pipeline outputs from canonical identity, links, price, and geo enrichment.
+Assemble the final pipeline outputs from canonical identity, links, price, and geo/address data already captured upstream.
 This stage is the export layer for both pipeline consumers and the current app-facing JSON files.
 
 ## Inputs
 
 - Canonical registry from `data-pipeline/3-unique/hotel.json`
-- Price enrichment from stage 4
-- Geo enrichment from stage 5
+- Price enrichment from stage 5
+- Geo and address fields carried forward from list and enrichment stages
 
 ## Outputs
 
@@ -84,8 +84,8 @@ At export time, the adapter may map canonical TripAdvisor-based records into the
 ## Failure and Retry Expectations
 
 - Stage 6 should fail loudly if stage-3 canonical data is missing or malformed.
-- Missing price or geo enrichment should not prevent hotel export if the canonical record is otherwise valid.
-- A rerun should be deterministic from stages 3, 4, and 5 inputs.
+- Missing price or geo fields should not prevent hotel export if the canonical record is otherwise valid.
+- A rerun should be deterministic from canonical, price, and upstream geo/address inputs.
 
 ## Script Notes
 

@@ -39,8 +39,7 @@ Planned logical flow:
 3. `3-tripadvisor`: attach TripAdvisor identity and review metadata where possible
 4. `4-unique`: build the canonical hotel registry across sources
 5. `5-price`: attach price history
-6. `6-geo`: attach geo normalization and confidence data
-7. `7-output`: export app-facing files
+6. `6-output`: export app-facing files
 
 The important change is the new enrichment stage between raw list collection and
 TripAdvisor matching. That stage is where source-native detail should live, such as:
@@ -48,6 +47,7 @@ TripAdvisor matching. That stage is where source-native detail should live, such
 - amenity coverage
 - special property tags such as newly built
 - first-party geo and address cleanup
+- normalized coordinates and formatted addresses when the source exposes them
 - lowest public price seen on a source page
 - source-native ratings, review counts, or partner metadata when available
 
