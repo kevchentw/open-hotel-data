@@ -3,7 +3,8 @@
 ## Purpose
 
 Match each stage-1 hotel record to a TripAdvisor hotel page and store the enrichment separately.
-TripAdvisor identity becomes the canonical hotel key used by stage 3 and later stages.
+TripAdvisor identity becomes the canonical hotel key used by stage 4 and later
+stages.
 
 ## Inputs
 
@@ -17,15 +18,15 @@ Write one JSON file per plan/source in this directory. The output must be keyed 
 
 Example output paths:
 
-- `data-pipeline/2-tripadvisor/amex-hotel.json`
-- `data-pipeline/2-tripadvisor/aspire-hotel.json`
+- `data-pipeline/3-tripadvisor/amex-fhr-hotel.json`
+- `data-pipeline/3-tripadvisor/aspire-hotel.json`
 
 Target JSON shape:
 
 ```json
 {
   "metadata": {
-    "stage": "2-tripadvisor",
+    "stage": "3-tripadvisor",
     "source": "amex_fhr",
     "generated_at": "2026-04-03T00:00:00.000Z",
     "record_count": 1
@@ -84,5 +85,7 @@ Recommended `match_confidence` values:
 ## Script Notes
 
 - Keep search and URL parsing helpers in shared utilities when the logic becomes reusable.
-- `search.mjs` should read stage-1 files and write only stage-2 artifacts.
-- Logging should make it easy to review low-confidence and unmatched results before stage 3.
+- TripAdvisor scripts should read stage-1 files plus optional stage-2 enrichment
+  when helpful and write only stage-3 artifacts.
+- Logging should make it easy to review low-confidence and unmatched results
+  before stage 4 canonicalization.

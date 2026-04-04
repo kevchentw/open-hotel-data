@@ -51,8 +51,8 @@ TripAdvisor matching. That stage is where source-native detail should live, such
 - lowest public price seen on a source page
 - source-native ratings, review counts, or partner metadata when available
 
-Some directory names and older docs still reflect the earlier numbering model, so
-`data-pipeline/README.md` should be treated as the source of truth for the migration plan.
+The stage directories now match the logical pipeline order under
+`data-pipeline/`.
 
 ## Local scripts
 
@@ -60,11 +60,37 @@ Some directory names and older docs still reflect the earlier numbering model, s
 npm install
 npm run pipeline:stage1:amex
 npm run pipeline:stage1:aspire
+npm run pipeline:stage4:unique
+npm run pipeline:stage5:price
+npm run pipeline:stage6:output
 npm run sync:hotels
 npm run sync:prices
 npm run sync:google-sheet
 npm run dev
 ```
+
+## Stage 5 price notes
+
+Run Stage 5 with:
+
+```bash
+npm run pipeline:stage5:price
+```
+
+Current behavior:
+
+- Hilton Aspire hotels use upstream stage-2 enrichment to write `summary_price`
+- Amex FHR hotels use xotelo to write sampled stay-date `prices`
+- each hotel file is written as soon as that hotel finishes processing
+
+Useful overrides:
+
+- `STAGE5_HOTEL_IDS='g1016927-d2257403,g1049626-d23428437'`
+- `STAGE5_XOTELO_STAY_DATES='2026-05-10,2026-07-09'`
+- `STAGE5_FORCE_REFRESH=true`
+- `STAGE5_FORCE_XOTELO=true`
+
+See `data-pipeline/5-price/README.md` for the full contract and examples.
 
 ## Stage 1 collectors
 
@@ -95,7 +121,13 @@ Useful environment variables:
 
 ## Current export path
 
-The existing sync flow still writes CSVs for the app layer:
+The current repo is transitioning from the older CSV sync flow to stage-6 JSON
+exports for the app layer:
+
+- `data-pipeline/6-output/hotels.json`
+- `public/data/hotels.json`
+
+Older sync targets are still documented here as historical context:
 
 - `public/data/hotels.csv`
 - `public/data/hotel_plan_links.csv`

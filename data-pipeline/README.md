@@ -6,7 +6,7 @@ artifacts before exporting app-facing files.
 This document now serves two jobs:
 
 - define the intended logical pipeline
-- document the current migration, because some folder names still reflect the older stage numbering
+- document the stage contracts that implementation should follow
 
 ## Goals
 
@@ -38,23 +38,20 @@ Each stage owns one step:
 
 ## Current Repo Layout
 
-The current repository still contains older directory names and partial stage docs:
+The current repository stage layout is:
 
 - `1-list`
 - `2-enrichment`
 - `3-tripadvisor`
-- `4-price`
-- `5-geo`
-- `5-unique`
+- `4-unique`
+- `5-price`
 - `6-output`
-
-Interpret this as an in-progress migration, not as the final numbering scheme.
 
 Practical reading rule:
 
 - use the logical stage flow above for planning
-- use the existing directory names when referring to files that already exist in the repo
-- treat `5-geo/` as a legacy holding area for inputs, not as a required standalone stage
+- the directory order now matches the logical stage order
+- treat any removed legacy stage names in older notes as historical only
 
 ## Why The New Stage 2 Exists
 
@@ -148,7 +145,7 @@ Expected ownership rules:
 
 - Inputs: canonical hotels from stage 4
 - Outputs: one price-history JSON file per canonical hotel
-- Required fields: `tripadvisor_id` in metadata plus date-keyed history entries containing `currency`, `fetched_at`, `source`, and `cost`
+- Required fields: `tripadvisor_id` in metadata plus optional summary and sampled USD price data
 - Constraint: prices attach to canonical hotels, not raw plan-only rows
 
 ### Stage 6: Output
@@ -172,7 +169,7 @@ node data-pipeline/1-list/scripts/amex.mjs
 # node data-pipeline/6-output/export.mjs
 ```
 
-The exact script names may change during migration, but the stage intent should remain stable.
+The exact script names may change, but the stage order should remain stable.
 
 ## Completion Criteria
 
