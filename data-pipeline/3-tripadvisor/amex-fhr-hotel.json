@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_fhr",
-    "generated_at": "2026-04-04T03:38:51.339Z",
-    "record_count": 43,
-    "matched_count": 43,
+    "generated_at": "2026-04-04T03:42:24.262Z",
+    "record_count": 75,
+    "matched_count": 75,
     "unmatched_count": 0
   },
   "matches": {
@@ -313,6 +313,230 @@
       "search_query": "Sequoia - Intimate Adults Only Luxury Lodge",
       "match_confidence": "medium",
       "matched_at": "2026-04-04T03:38:51.339Z"
+    },
+    "Australia/Hayman-Island/Intercontinental-Hayman-Great-Barrier-Reef": {
+      "tripadvisor_id": "g255086-d15527228",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255086-d15527228-Reviews-InterContinental_Hayman_Great_Barrier_Reef_by_IHG-Hayman_Island_Whitsunday_Islands_Qu.html",
+      "search_query": "InterContinental Hayman Great Barrier Reef",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:38:57.183Z"
+    },
+    "Australia/Hobart/The-Tasman-a-Luxury-Collection-Hotel-Hobart": {
+      "tripadvisor_id": "g255097-d23610027",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255097-d23610027-Reviews-The_Tasman_a_Luxury_Collection_Hotel_Hobart-Hobart_Greater_Hobart_Tasmania.html",
+      "search_query": "The Tasman, a Luxury Collection Hotel, Hobart",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:03.502Z"
+    },
+    "Australia/Kingscote/Southern-Ocean-Lodge": {
+      "tripadvisor_id": "g2686501-d1064636",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2686501-d1064636-Reviews-Southern_Ocean_Lodge-Karatta_Kangaroo_Island_South_Australia.html",
+      "search_query": "Southern Ocean Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:09.348Z"
+    },
+    "Australia/Marananga/The-Louise": {
+      "tripadvisor_id": "g1123017-d456776",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1123017-d456776-Reviews-The_Louise-Marananga_Barossa_Valley_South_Australia.html",
+      "search_query": "The Louise",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:15.317Z"
+    },
+    "Australia/Melbourne/Crown-Towers": {
+      "tripadvisor_id": "g255060-d22851015",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d22851015-Reviews-or10-Crown_Towers_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Crown Towers",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:21.438Z"
+    },
+    "Australia/Melbourne/Park-Hyatt-Melbourne": {
+      "tripadvisor_id": "g255100-d256844",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d256844-Reviews-Park_Hyatt_Melbourne-Melbourne_Victoria.html",
+      "search_query": "Park Hyatt Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:27.935Z"
+    },
+    "Australia/Melbourne/The-Langham-Melbourne": {
+      "tripadvisor_id": "g255100-d460130",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d460130-Reviews-Quest_on_Dorcas-Melbourne_Victoria.html",
+      "search_query": "The Langham, Melbourne",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:39:33.972Z"
+    },
+    "Australia/Melbourne/The-Ritz-carlton-Melbourne": {
+      "tripadvisor_id": "g255100-d25241298",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d25241298-Reviews-The_Ritz_Carlton_Melbourne-Melbourne_Victoria.html",
+      "search_query": "The Ritz-Carlton, Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:39.870Z"
+    },
+    "Australia/Melbourne/W-Melbourne": {
+      "tripadvisor_id": "g255100-d23153980",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d23153980-Reviews-W_Melbourne-Melbourne_Victoria.html",
+      "search_query": "W Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:48.505Z"
+    },
+    "Australia/Mossman/Silky-Oaks-Lodge": {
+      "tripadvisor_id": "g499676-d1209495",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499676-d1209495-Reviews-Silky_Oaks_Lodge-Mossman_Daintree_Region_Queensland.html",
+      "search_query": "Silky Oaks Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:39:54.394Z"
+    },
+    "Australia/Perth/Como-The-Treasury": {
+      "tripadvisor_id": "g255103-d8490168",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255103-d8490168-Reviews-COMO_The_Treasury-Perth_Greater_Perth_Western_Australia.html",
+      "search_query": "COMO The Treasury",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:00.291Z"
+    },
+    "Australia/Perth/Crown-Towers-Perth": {
+      "tripadvisor_id": "g4212605-d10748736",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4212605-d10748736-Reviews-or830-Crown_Towers_Perth-Burswood_Victoria_Park_Greater_Perth_Western_Australia.html",
+      "search_query": "Crown Towers Perth",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:06.170Z"
+    },
+    "Australia/Perth/The-Ritz-carlton-Perth": {
+      "tripadvisor_id": "g255103-d18721006",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255103-d18721006-Reviews-The_Ritz_Carlton_Perth-Perth_Greater_Perth_Western_Australia.html",
+      "search_query": "The Ritz-Carlton, Perth",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:12.083Z"
+    },
+    "Australia/Surfers-Paradise/Jw-Marriott-Gold-Coast-Resort--Spa": {
+      "tripadvisor_id": "g255072-d255671",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255072-d255671-Reviews-JW_Marriott_Gold_Coast_Resort_Spa-Surfers_Paradise_Gold_Coast_Queensland.html",
+      "search_query": "JW Marriott Gold Coast Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:17.995Z"
+    },
+    "Australia/Surfers-Paradise/The-Langham-Gold-Coast--Jewel-Residences-Managed-By-Langham": {
+      "tripadvisor_id": "g255072-d24090848",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255072-d24090848-Reviews-The_Langham_Gold_Coast-Surfers_Paradise_Gold_Coast_Queensland.html",
+      "search_query": "The Langham Gold Coast & Jewel Residences managed by Langham",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:40:24.032Z"
+    },
+    "Australia/Sydney/Capella-Sydney": {
+      "tripadvisor_id": "g255060-d25186641",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d25186641-Reviews-or20-Capella_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Capella Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:29.880Z"
+    },
+    "Australia/Sydney/Crown-Towers-Sydney": {
+      "tripadvisor_id": "g255060-d22851015",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d22851015-Reviews-or10-Crown_Towers_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Crown Towers Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:35.798Z"
+    },
+    "Australia/Sydney/Four-Seasons-Hotel-Sydney": {
+      "tripadvisor_id": "g255060-d256544",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d256544-Reviews-Four_Seasons_Hotel_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Four Seasons Hotel Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:41.708Z"
+    },
+    "Australia/Sydney/Intercontinental-Sydney": {
+      "tripadvisor_id": "g255060-d256570",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d256570-Reviews-Intercontinental_Sydney_By_IHG-Sydney_New_South_Wales.html",
+      "search_query": "InterContinental Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:47.650Z"
+    },
+    "Australia/Sydney/Park-Hyatt-Sydney": {
+      "tripadvisor_id": "g255060-d256618",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d256618-Reviews-Park_Hyatt_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Park Hyatt Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:53.419Z"
+    },
+    "Australia/Sydney/Shangri-la-Sydney": {
+      "tripadvisor_id": "g255060-d256528",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d256528-Reviews-Shangri_la_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Shangri-La Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:40:59.376Z"
+    },
+    "Australia/Sydney/Sofitel-Sydney-Darling-Harbour": {
+      "tripadvisor_id": "g255060-d11687464",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d11687464-Reviews-or2070-Sofitel_Sydney_Darling_Harbour_Hotel-Sydney_New_South_Wales.html",
+      "search_query": "Sofitel Sydney Darling Harbour",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:41:05.365Z"
+    },
+    "Australia/Sydney/W-Sydney": {
+      "tripadvisor_id": "g255060-d23911507",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d23911507-Reviews-W_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "W Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:41:30.465Z"
+    },
+    "Australia/Yulara/Longitude-131": {
+      "tripadvisor_id": "g255065-d261870",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255065-d261870-Reviews-Longitude_131-Yulara_Red_Centre_Northern_Territory.html",
+      "search_query": "Longitude 131",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:41:36.347Z"
+    },
+    "Austria/Hof-bei-Salzburg/Rosewood-Schloss-Fuschl": {
+      "tripadvisor_id": "g641735-d27689409",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g641735-d27689409-Reviews-Rosewood_Schloss_Fuschl-Hof_bei_Salzburg_Austrian_Alps.html",
+      "search_query": "Rosewood Schloss Fuschl",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:41:42.235Z"
+    },
+    "Austria/Kitzbuehel/Tennerhof-Gourmet--Spa-De-Charme-Hotel": {
+      "tripadvisor_id": "g190446-d206657",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190446-d206657-Reviews-Relais_Chateaux_Hotel_Tennerhof-Kitzbuhel_Tirol_Austrian_Alps.html",
+      "search_query": "Tennerhof Gourmet & Spa de Charme Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:41:48.171Z"
+    },
+    "Austria/Lech/Burg-Vital-Resort": {
+      "tripadvisor_id": "g262035-d291954",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g262035-d291954-Reviews-Burg_Vital_Resort-Lech_Vorarlberg_Austrian_Alps.html",
+      "search_query": "Burg Vital Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:41:54.268Z"
+    },
+    "Austria/Salzburg/Hotel-Goldener-Hirsch-a-Luxury-Collection-Hotel-Salzburg": {
+      "tripadvisor_id": "g190441-d195103",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190441-d195103-Reviews-Hotel_Goldener_Hirsch_A_Luxury_Collection_Hotel_Salzburg-Salzburg_Austrian_Alps.html",
+      "search_query": "Hotel Goldener Hirsch, a Luxury Collection Hotel, Salzburg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:42:00.201Z"
+    },
+    "Austria/Salzburg/Hotel-Sacher-Salzburg": {
+      "tripadvisor_id": "g190441-d253252",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190441-d253252-Reviews-Hotel_Sacher_Salzburg-Salzburg_Austrian_Alps.html",
+      "search_query": "Hotel Sacher Salzburg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:42:06.232Z"
+    },
+    "Austria/Seefeld/Alpin-Resort-Sacher-Seefeld-tirol": {
+      "tripadvisor_id": "g319732-d291520",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g319732-d291520-Reviews-Alpin_Resort_Sacher-Seefeld_in_Tirol_Tirol_Austrian_Alps.html",
+      "search_query": "Alpin Resort Sacher Seefeld–Tirol",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:42:12.285Z"
+    },
+    "Austria/Velden-am-Woerthersee/Falkensteiner-Schlosshotel-Velden": {
+      "tripadvisor_id": "g641727-d651384",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g641727-d651384-Reviews-Falkensteiner_Schlosshotel_Velden-Velden_am_Woerthersee_Carinthia_Austrian_Alps.html",
+      "search_query": "Falkensteiner Schlosshotel Velden",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:42:18.320Z"
+    },
+    "Austria/Vienna/Almanac-Palais-Vienna": {
+      "tripadvisor_id": "g190454-d25170119",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190454-d25170119-Reviews-Almanac_Palais_Vienna-Vienna.html",
+      "search_query": "Almanac Palais Vienna",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:42:24.262Z"
     }
   }
 }
