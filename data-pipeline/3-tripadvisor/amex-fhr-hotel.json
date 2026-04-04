@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_fhr",
-    "generated_at": "2026-04-04T22:03:35.344Z",
-    "record_count": 1229,
-    "matched_count": 1229,
+    "generated_at": "2026-04-04T22:03:59.276Z",
+    "record_count": 1233,
+    "matched_count": 1233,
     "unmatched_count": 0
   },
   "matches": {
@@ -8615,6 +8615,34 @@
       "search_query": "The Dominick",
       "match_confidence": "high",
       "matched_at": "2026-04-04T22:03:35.344Z"
+    },
+    "New-York-US/New-York/The-Fifth-Avenue-Hotel": {
+      "tripadvisor_id": "g60763-d26663114",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d26663114-Reviews-The_Fifth_Avenue_Hotel-New_York_City_New_York.html",
+      "search_query": "The Fifth Avenue Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:41.325Z"
+    },
+    "New-York-US/New-York/The-Greenwich-Hotel": {
+      "tripadvisor_id": "g60763-d1028569",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1028569-Reviews-Greenwich_Hotel-New_York_City_New_York.html",
+      "search_query": "The Greenwich Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:03:47.310Z"
+    },
+    "New-York-US/New-York/The-Langham-New-York-Fifth-Avenue": {
+      "tripadvisor_id": "g60763-d1776857",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1776857-Reviews-The_Langham_New_York_Fifth_Avenue-New_York_City_New_York.html",
+      "search_query": "The Langham, New York, Fifth Avenue",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:53.254Z"
+    },
+    "New-York-US/New-York/The-Lowell-New-York": {
+      "tripadvisor_id": "g60763-d93585",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93585-Reviews-Lowell_Hotel-New_York_City_New_York.html",
+      "search_query": "The Lowell, New York",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:03:59.276Z"
     }
   }
 }

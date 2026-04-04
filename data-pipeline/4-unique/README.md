@@ -81,8 +81,11 @@ The stage output must contain:
 ## Merge Rules
 
 - Exact TripAdvisor ID match means the records refer to the same canonical hotel.
-- Do not merge records across plans unless they share the same trusted
-  `tripadvisor_id`.
+- If a record does not have a trusted TripAdvisor match, it may still merge into
+  an existing canonical hotel when its normalized hotel name matches exactly one
+  canonical hotel name discovered from trusted TripAdvisor matches.
+- Name-based merging is only used when the name maps to a single canonical
+  hotel; ambiguous duplicate names do not merge by name.
 - Preserve source traceability through the `links` object.
 - Canonical fields may choose the best available non-empty source value, but the
   merge strategy must be deterministic.
@@ -90,7 +93,8 @@ The stage output must contain:
 ## Identity Rules
 
 - `tripadvisor_id` is the canonical hotel key in v1.
-- Hotels without a TripAdvisor match must remain in `unmatched`.
+- Hotels without a TripAdvisor match must remain in `unmatched` unless they can
+  be deterministically attached by the name-based rule above.
 - Do not generate a synthetic canonical hotel ID for unmatched records in v1.
 
 ## Behavior Rules

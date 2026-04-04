@@ -29,109 +29,70 @@ const SOURCE_CONFIGS = [
 
 export async function buildCanonicalRegistry() {
   const sourceInputs = await Promise.all(SOURCE_CONFIGS.map(readSourceInputs));
+  const sourceRecords = buildSourceRecords(sourceInputs);
   const hotelsByTripadvisorId = new Map();
+  const canonicalNameToTripadvisorIds = new Map();
   const links = {};
   const unmatched = {};
 
-  for (const input of sourceInputs) {
-    const sourceHotelIds = Object.keys(input.stageOneHotels).sort((left, right) => left.localeCompare(right));
-
-    for (const sourceHotelId of sourceHotelIds) {
-      const stageOneHotel = input.stageOneHotels[sourceHotelId];
-      const stageTwoHotel = input.stageTwoHotels[sourceHotelId] ?? {};
-      const stageThreeMatch = input.stageThreeMatches[sourceHotelId] ?? null;
-      const linkKey = buildLinkKey(input.source, sourceHotelId);
-      const tripadvisorId = normalizeString(stageThreeMatch?.tripadvisor_id);
-      const matchConfidence = normalizeString(stageThreeMatch?.match_confidence).toLowerCase();
-
-      if (isReliableTripadvisorMatch(stageThreeMatch)) {
-        const aggregate = getOrCreateCanonicalAggregate(hotelsByTripadvisorId, tripadvisorId);
-        aggregate.contributors.push({
-          source: input.source,
-          stageOneHotel,
-          stageTwoHotel,
-          stageThreeMatch
-        });
-
-        links[linkKey] = sortObjectKeys({
-          source: input.source,
-          source_hotel_id: sourceHotelId,
-          tripadvisor_id: tripadvisorId,
-          tripadvisor_url: normalizeString(stageThreeMatch?.tripadvisor_url),
-          match_confidence: matchConfidence,
-          matched_at: normalizeString(stageThreeMatch?.matched_at)
-        });
-
-        continue;
-      }
-
-      unmatched[linkKey] = sortObjectKeys({
-        source: input.source,
-        source_hotel_id: sourceHotelId,
-        reason: getUnmatchedReason(input.hasStageThreeFile, stageThreeMatch),
-        name: firstNonEmpty([
-          stageTwoHotel.detail_name,
-          stageOneHotel.name
-        ]),
-        formatted_address: firstNonEmpty([
-          stageTwoHotel.formatted_address,
-          stageOneHotel.address_raw
-        ]),
-        address: firstNonEmpty([
-          stageTwoHotel.detail_address,
-          stageOneHotel.address_raw
-        ]),
-        city: firstNonEmpty([
-          stageTwoHotel.detail_city,
-          stageOneHotel.city
-        ]),
-        state_region: firstNonEmpty([
-          stageTwoHotel.detail_state_region,
-          stageOneHotel.state_region
-        ]),
-        country: firstNonEmpty([
-          stageTwoHotel.detail_country,
-          stageOneHotel.country
-        ]),
-        postal_code: firstNonEmpty([
-          stageTwoHotel.detail_postal_code
-        ]),
-        latitude: firstNonEmpty([
-          stageTwoHotel.detail_latitude,
-          stageOneHotel.latitude
-        ]),
-        longitude: firstNonEmpty([
-          stageTwoHotel.detail_longitude,
-          stageOneHotel.longitude
-        ]),
-        brand: firstNonEmpty([
-          stageOneHotel.brand
-        ]),
-        chain: inferChainFromBrand(
-          firstNonEmpty([
-            stageOneHotel.brand
-          ]),
-          firstNonEmpty([
-            stageOneHotel.chain
-          ])
-        ),
-        geo_provider: firstNonEmpty([
-          stageTwoHotel.geo_provider
-        ]),
-        geo_confidence: firstNonEmpty([
-          stageTwoHotel.geo_confidence
-        ]),
-        geo_status: firstNonEmpty([
-          stageTwoHotel.geo_status
-        ]),
-        amenities: uniqueNonEmptyStrings(stageTwoHotel.amenities ?? []),
-        plans: uniqueNonEmptyStrings([input.source]),
-        match_confidence: matchConfidence,
-        tripadvisor_id: tripadvisorId,
-        tripadvisor_url: normalizeString(stageThreeMatch?.tripadvisor_url),
-        search_query: normalizeString(stageThreeMatch?.search_query)
-      });
+  for (const record of sourceRecords) {
+    if (!record.hasReliableTripadvisorMatch) {
+      continue;
     }
+
+    const aggregate = getOrCreateCanonicalAggregate(hotelsByTripadvisorId, record.tripadvisorId);
+    aggregate.contributors.push({
+      source: record.source,
+      stageOneHotel: record.stageOneHotel,
+      stageTwoHotel: record.stageTwoHotel,
+      stageThreeMatch: record.stageThreeMatch
+    });
+    registerCanonicalName(canonicalNameToTripadvisorIds, record.canonicalName, record.tripadvisorId);
+
+    links[record.linkKey] = sortObjectKeys({
+      source: record.source,
+      source_hotel_id: record.sourceHotelId,
+      tripadvisor_id: record.tripadvisorId,
+      tripadvisor_url: normalizeString(record.stageThreeMatch?.tripadvisor_url),
+      match_confidence: record.matchConfidence,
+      matched_at: normalizeString(record.stageThreeMatch?.matched_at),
+      match_method: "tripadvisor_id"
+    });
+  }
+
+  for (const record of sourceRecords) {
+    if (record.hasReliableTripadvisorMatch) {
+      continue;
+    }
+
+    const matchedTripadvisorId = getCanonicalTripadvisorIdForName(
+      canonicalNameToTripadvisorIds,
+      record.canonicalName
+    );
+
+    if (matchedTripadvisorId) {
+      const aggregate = getOrCreateCanonicalAggregate(hotelsByTripadvisorId, matchedTripadvisorId);
+      aggregate.contributors.push({
+        source: record.source,
+        stageOneHotel: record.stageOneHotel,
+        stageTwoHotel: record.stageTwoHotel,
+        stageThreeMatch: record.stageThreeMatch
+      });
+
+      links[record.linkKey] = sortObjectKeys({
+        source: record.source,
+        source_hotel_id: record.sourceHotelId,
+        tripadvisor_id: matchedTripadvisorId,
+        tripadvisor_url: normalizeString(record.stageThreeMatch?.tripadvisor_url),
+        match_confidence: record.matchConfidence,
+        matched_at: normalizeString(record.stageThreeMatch?.matched_at),
+        match_method: "name"
+      });
+
+      continue;
+    }
+
+    unmatched[record.linkKey] = buildUnmatchedRecord(record);
   }
 
   const hotels = Object.fromEntries(
@@ -152,6 +113,38 @@ export async function buildCanonicalRegistry() {
     links: sortEntriesObject(links),
     unmatched: sortEntriesObject(unmatched)
   };
+}
+
+function buildSourceRecords(sourceInputs) {
+  const records = [];
+
+  for (const input of sourceInputs) {
+    const sourceHotelIds = Object.keys(input.stageOneHotels).sort((left, right) => left.localeCompare(right));
+
+    for (const sourceHotelId of sourceHotelIds) {
+      const stageOneHotel = input.stageOneHotels[sourceHotelId];
+      const stageTwoHotel = input.stageTwoHotels[sourceHotelId] ?? {};
+      const stageThreeMatch = input.stageThreeMatches[sourceHotelId] ?? null;
+      const tripadvisorId = normalizeString(stageThreeMatch?.tripadvisor_id);
+      const matchConfidence = normalizeString(stageThreeMatch?.match_confidence).toLowerCase();
+
+      records.push({
+        source: input.source,
+        sourceHotelId,
+        hasStageThreeFile: input.hasStageThreeFile,
+        stageOneHotel,
+        stageTwoHotel,
+        stageThreeMatch,
+        linkKey: buildLinkKey(input.source, sourceHotelId),
+        tripadvisorId,
+        matchConfidence,
+        hasReliableTripadvisorMatch: isReliableTripadvisorMatch(stageThreeMatch),
+        canonicalName: normalizeHotelName(firstNonEmpty([stageTwoHotel.detail_name, stageOneHotel.name]))
+      });
+    }
+  }
+
+  return records;
 }
 
 export async function writeCanonicalRegistry() {
@@ -231,6 +224,29 @@ function getOrCreateCanonicalAggregate(hotelsByTripadvisorId, tripadvisorId) {
   const created = { contributors: [] };
   hotelsByTripadvisorId.set(tripadvisorId, created);
   return created;
+}
+
+function registerCanonicalName(canonicalNameToTripadvisorIds, canonicalName, tripadvisorId) {
+  if (!canonicalName || !tripadvisorId) {
+    return;
+  }
+
+  const existing = canonicalNameToTripadvisorIds.get(canonicalName) ?? new Set();
+  existing.add(tripadvisorId);
+  canonicalNameToTripadvisorIds.set(canonicalName, existing);
+}
+
+function getCanonicalTripadvisorIdForName(canonicalNameToTripadvisorIds, canonicalName) {
+  if (!canonicalName) {
+    return "";
+  }
+
+  const tripadvisorIds = canonicalNameToTripadvisorIds.get(canonicalName);
+  if (!tripadvisorIds || tripadvisorIds.size !== 1) {
+    return "";
+  }
+
+  return Array.from(tripadvisorIds)[0] ?? "";
 }
 
 function buildCanonicalHotel(tripadvisorId, aggregate) {
@@ -339,6 +355,75 @@ function getUnmatchedReason(hasStageThreeFile, match) {
   return "missing_tripadvisor_match";
 }
 
+function buildUnmatchedRecord(record) {
+  return sortObjectKeys({
+    source: record.source,
+    source_hotel_id: record.sourceHotelId,
+    reason: getUnmatchedReason(record.hasStageThreeFile, record.stageThreeMatch),
+    name: firstNonEmpty([
+      record.stageTwoHotel.detail_name,
+      record.stageOneHotel.name
+    ]),
+    formatted_address: firstNonEmpty([
+      record.stageTwoHotel.formatted_address,
+      record.stageOneHotel.address_raw
+    ]),
+    address: firstNonEmpty([
+      record.stageTwoHotel.detail_address,
+      record.stageOneHotel.address_raw
+    ]),
+    city: firstNonEmpty([
+      record.stageTwoHotel.detail_city,
+      record.stageOneHotel.city
+    ]),
+    state_region: firstNonEmpty([
+      record.stageTwoHotel.detail_state_region,
+      record.stageOneHotel.state_region
+    ]),
+    country: firstNonEmpty([
+      record.stageTwoHotel.detail_country,
+      record.stageOneHotel.country
+    ]),
+    postal_code: firstNonEmpty([
+      record.stageTwoHotel.detail_postal_code
+    ]),
+    latitude: firstNonEmpty([
+      record.stageTwoHotel.detail_latitude,
+      record.stageOneHotel.latitude
+    ]),
+    longitude: firstNonEmpty([
+      record.stageTwoHotel.detail_longitude,
+      record.stageOneHotel.longitude
+    ]),
+    brand: firstNonEmpty([
+      record.stageOneHotel.brand
+    ]),
+    chain: inferChainFromBrand(
+      firstNonEmpty([
+        record.stageOneHotel.brand
+      ]),
+      firstNonEmpty([
+        record.stageOneHotel.chain
+      ])
+    ),
+    geo_provider: firstNonEmpty([
+      record.stageTwoHotel.geo_provider
+    ]),
+    geo_confidence: firstNonEmpty([
+      record.stageTwoHotel.geo_confidence
+    ]),
+    geo_status: firstNonEmpty([
+      record.stageTwoHotel.geo_status
+    ]),
+    amenities: uniqueNonEmptyStrings(record.stageTwoHotel.amenities ?? []),
+    plans: uniqueNonEmptyStrings([record.source]),
+    match_confidence: record.matchConfidence,
+    tripadvisor_id: record.tripadvisorId,
+    tripadvisor_url: normalizeString(record.stageThreeMatch?.tripadvisor_url),
+    search_query: normalizeString(record.stageThreeMatch?.search_query)
+  });
+}
+
 function buildLinkKey(source, sourceHotelId) {
   return `${source}::${sourceHotelId}`;
 }
@@ -377,6 +462,10 @@ function normalizeString(value) {
   }
 
   return String(value).trim();
+}
+
+function normalizeHotelName(value) {
+  return normalizeString(value).toLowerCase().replace(/\s+/gu, " ");
 }
 
 function sortEntriesObject(object) {
