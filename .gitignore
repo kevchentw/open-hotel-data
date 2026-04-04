@@ -1,0 +1,17 @@
+.DS_Store
+.cache/
+.playwright-cli/
+dist/
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

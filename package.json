@@ -1,0 +1,24 @@
+{
+  "name": "open-hotel-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pipeline:stage1:amex": "node data-pipeline/1-list/scripts/amex.mjs",
+    "pipeline:stage1:aspire": "node data-pipeline/1-list/scripts/aspire-hotel.mjs",
+    "crawl:hilton-aspire": "node scripts/crawl-hilton-aspire-hotels.mjs",
+    "sync:hotels": "node scripts/sync-hotels.mjs",
+    "sync:prices": "node scripts/sync-prices.mjs",
+    "sync:google-sheet": "node scripts/sync-google-sheet.mjs"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.3",
+    "playwright": "^1.59.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}
