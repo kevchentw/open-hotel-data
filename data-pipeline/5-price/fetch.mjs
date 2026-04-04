@@ -790,7 +790,20 @@ function parseDisplayAmount(display, currency) {
 
 function inferDecimalSeparator(value, currency) {
   if (currency === "EUR" || currency === "PLN") {
-    return value.includes(",") && !value.includes(".") ? "," : ".";
+    if (value.includes(",") && !value.includes(".")) {
+      const parts = value.split(",");
+      if (
+        parts.length === 2 &&
+        /^\d{1,3}$/u.test(parts[0]) &&
+        /^\d{3}$/u.test(parts[1])
+      ) {
+        return ".";
+      }
+
+      return ",";
+    }
+
+    return ".";
   }
 
   return ".";

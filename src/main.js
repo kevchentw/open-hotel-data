@@ -770,6 +770,7 @@ function createHotelRow(hotel) {
       <p>${escapeHtml(hotel.locationLabel)}</p>
       <div class="hotel-row__meta">
         <span class="brand-pill">${escapeHtml(hotel.brand)}</span>
+        <span class="brand-pill">${escapeHtml(hotel.rawHotel.chain || hotel.brand)}</span>
         <span>${escapeHtml(joinValues(hotel.planLabels))}</span>
       </div>
     </div>

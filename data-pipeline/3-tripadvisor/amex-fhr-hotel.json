@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_fhr",
-    "generated_at": "2026-04-04T21:58:01.823Z",
-    "record_count": 1197,
-    "matched_count": 1197,
+    "generated_at": "2026-04-04T22:03:35.344Z",
+    "record_count": 1229,
+    "matched_count": 1229,
     "unmatched_count": 0
   },
   "matches": {
@@ -8391,6 +8391,230 @@
       "search_query": "Crockfords Las Vegas, LXR Hotels & Resorts",
       "match_confidence": "high",
       "matched_at": "2026-04-04T21:58:01.823Z"
+    },
+    "Nevada-US/Las-Vegas/Fontainebleau-Las-Vegas": {
+      "tripadvisor_id": "g45963-d26850750",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d26850750-Reviews-Fontainebleau_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Fontainebleau Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:07.804Z"
+    },
+    "Nevada-US/Las-Vegas/Four-Seasons-Hotel-Las-Vegas": {
+      "tripadvisor_id": "g45963-d91674",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d91674-Reviews-Four_Seasons_Hotel_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Four Seasons Hotel Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:13.729Z"
+    },
+    "Nevada-US/Las-Vegas/Palazzo-At-The-Venetian": {
+      "tripadvisor_id": "g45963-d675000",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d675000-Reviews-The_Palazzo_At_The_Venetian-Las_Vegas_Nevada.html",
+      "search_query": "Palazzo at The Venetian",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:19.618Z"
+    },
+    "Nevada-US/Las-Vegas/The-Cosmopolitan-Of-Las-Vegas": {
+      "tripadvisor_id": "g45963-d1829539",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d1829539-Reviews-The_Cosmopolitan_of_Las_Vegas_Autograph_Collection-Las_Vegas_Nevada.html",
+      "search_query": "The Cosmopolitan of Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:25.766Z"
+    },
+    "Nevada-US/Las-Vegas/Waldorf-Astoria-Las-Vegas": {
+      "tripadvisor_id": "g45963-d1456410",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d1456410-Reviews-Waldorf_Astoria_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Waldorf Astoria Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:31.717Z"
+    },
+    "Nevada-US/Las-Vegas/Wynn-And-Encore-Las-Vegas": {
+      "tripadvisor_id": "g45963-d1123368",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d1123368-Reviews-Encore_At_Wynn_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Wynn and Encore Las Vegas",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:58:37.681Z"
+    },
+    "Nevada-US/Stateline/Edgewood-Tahoe": {
+      "tripadvisor_id": "g46004-d12103761",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46004-d12103761-Reviews-Edgewood_Tahoe_Resort-Stateline_Lake_Tahoe_Nevada_Nevada.html",
+      "search_query": "Edgewood Tahoe",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:43.639Z"
+    },
+    "New-Jersey-US/Asbury-Park/Asbury-Ocean-Club": {
+      "tripadvisor_id": "g29748-d17692337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29748-d17692337-Reviews-Asbury_Ocean_Club_Hotel-Asbury_Park_New_Jersey.html",
+      "search_query": "Asbury Ocean Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:58:49.540Z"
+    },
+    "New-Jersey-US/Peapack/Pendry-Natirar": {
+      "tripadvisor_id": "g46720-d27786614",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46720-d27786614-Reviews-Pendry_Natirar-Peapack_Gladstone_New_Jersey.html",
+      "search_query": "Pendry Natirar",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:10.633Z"
+    },
+    "New-Mexico-US/Santa-Fe/Bishops-Lodge-Auberge-Collection": {
+      "tripadvisor_id": "g47227-d280334",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47227-d280334-Reviews-Bishop_s_Lodge_Auberge_Collection-Tesuque_New_Mexico.html",
+      "search_query": "Bishop's Lodge, Auberge Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:16.595Z"
+    },
+    "New-Mexico-US/Santa-Fe/Four-Seasons-Resort-Rancho-Encantado-Santa-Fe": {
+      "tripadvisor_id": "g60958-d1026062",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60958-d1026062-Reviews-Four_Seasons_Resort_Rancho_Encantado_Santa_Fe-Santa_Fe_New_Mexico.html",
+      "search_query": "Four Seasons Resort Rancho Encantado Santa Fe",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:22.589Z"
+    },
+    "New-Mexico-US/Santa-Fe/Rosewood-Inn-Of-The-Anasazi-Santa-Fe": {
+      "tripadvisor_id": "g60958-d115674",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60958-d115674-Reviews-Rosewood_Inn_of_the_Anasazi-Santa_Fe_New_Mexico.html",
+      "search_query": "Rosewood Inn of the Anasazi, Santa Fe",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:01:28.586Z"
+    },
+    "New-Mexico-US/Santa-Fe/The-Inn-Of-The-Five-Graces": {
+      "tripadvisor_id": "g60958-d309172",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60958-d309172-Reviews-The_Inn_Of_The_Five_Graces-Santa_Fe_New_Mexico.html",
+      "search_query": "The Inn of The Five Graces",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:34.464Z"
+    },
+    "New-York-US/Gardiner/Wildflower-Farms-Auberge-Collection": {
+      "tripadvisor_id": "g47771-d24096438",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47771-d24096438-Reviews-Wildflower_Farms_Auberge_Collection-Gardiner_Catskill_Region_New_York.html",
+      "search_query": "Wildflower Farms, Auberge Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:40.402Z"
+    },
+    "New-York-US/Hampton-Bays/Canoe-Place-Inn--Cottages": {
+      "tripadvisor_id": "g47855-d24076985",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47855-d24076985-Reviews-Canoe_Place_Inn_And_Cottages-Hampton_Bays_Southampton_Long_Island_New_York.html",
+      "search_query": "Canoe Place Inn & Cottages",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:01:46.403Z"
+    },
+    "New-York-US/New-York/Aman-New-York": {
+      "tripadvisor_id": "g60763-d23951860",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d23951860-Reviews-Aman_New_York-New_York_City_New_York.html",
+      "search_query": "Aman New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:52.318Z"
+    },
+    "New-York-US/New-York/Baccarat-Hotel-New-York": {
+      "tripadvisor_id": "g60763-d7314002",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d7314002-Reviews-Baccarat_Hotel_New_York-New_York_City_New_York.html",
+      "search_query": "Baccarat Hotel New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:01:58.355Z"
+    },
+    "New-York-US/New-York/Casa-Cipriani-New-York": {
+      "tripadvisor_id": "g60763-d23092379",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d23092379-Reviews-Casa_Cipriani_New_York-New_York_City_New_York.html",
+      "search_query": "Casa Cipriani New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:04.417Z"
+    },
+    "New-York-US/New-York/Conrad-New-York-Downtown": {
+      "tripadvisor_id": "g60763-d208452",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d208452-Reviews-Conrad_New_York_Downtown-New_York_City_New_York.html",
+      "search_query": "Conrad New York Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:10.403Z"
+    },
+    "New-York-US/New-York/Equinox-Hotel-New-York": {
+      "tripadvisor_id": "g60763-d17780633",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d17780633-Reviews-Equinox_Hotel_New_York-New_York_City_New_York.html",
+      "search_query": "Equinox Hotel New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:16.762Z"
+    },
+    "New-York-US/New-York/Four-Seasons-Hotel-New-York": {
+      "tripadvisor_id": "g60763-d113298",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d113298-Reviews-Four_Seasons_Hotel_New_York-New_York_City_New_York.html",
+      "search_query": "Four Seasons Hotel New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:22.832Z"
+    },
+    "New-York-US/New-York/Four-Seasons-Hotel-New-York-Downtown": {
+      "tripadvisor_id": "g60763-d10330604",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d10330604-Reviews-Four_Seasons_Hotel_New_York_Downtown-New_York_City_New_York.html",
+      "search_query": "Four Seasons Hotel New York Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:28.844Z"
+    },
+    "New-York-US/New-York/Hotel-Barriere-Fouquets-New-York": {
+      "tripadvisor_id": "g60763-d25148057",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d25148057-Reviews-Fouquet_s_New_York-New_York_City_New_York.html",
+      "search_query": "Hotel Barriere Fouquet's New York",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:02:34.830Z"
+    },
+    "New-York-US/New-York/Loews-Regency-New-York-Hotel": {
+      "tripadvisor_id": "g60763-d93607",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93607-Reviews-Loews_Regency_New_York_Hotel-New_York_City_New_York.html",
+      "search_query": "Loews Regency New York Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:40.802Z"
+    },
+    "New-York-US/New-York/Mandarin-Oriental-New-York": {
+      "tripadvisor_id": "g60763-d281071",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d281071-Reviews-Mandarin_Oriental_New_York-New_York_City_New_York.html",
+      "search_query": "Mandarin Oriental, New York New York New York United States",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T22:02:46.733Z"
+    },
+    "New-York-US/New-York/Nine-Orchard": {
+      "tripadvisor_id": "g60763-d24350794",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d24350794-Reviews-Nine_Orchard-New_York_City_New_York.html",
+      "search_query": "Nine Orchard",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:02:58.780Z"
+    },
+    "New-York-US/New-York/Park-Hyatt-New-York": {
+      "tripadvisor_id": "g60763-d6582176",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d6582176-Reviews-Park_Hyatt_New_York-New_York_City_New_York.html",
+      "search_query": "Park Hyatt New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:04.871Z"
+    },
+    "New-York-US/New-York/Pendry-Manhattan-West": {
+      "tripadvisor_id": "g60763-d23528665",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d23528665-Reviews-Pendry_Manhattan_West-New_York_City_New_York.html",
+      "search_query": "Pendry Manhattan West",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:11.216Z"
+    },
+    "New-York-US/New-York/The-Beekman-A-Thompson-Hotel": {
+      "tripadvisor_id": "g60763-d8615610",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d8615610-Reviews-The_Beekman_A_Thompson_Hotel_by_Hyatt-New_York_City_New_York.html",
+      "search_query": "The Beekman, A Thompson Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:17.547Z"
+    },
+    "New-York-US/New-York/The-Carlyle-A-Rosewood-Hotel": {
+      "tripadvisor_id": "g60763-d93419",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93419-Reviews-The_Carlyle_A_Rosewood_Hotel-New_York_City_New_York.html",
+      "search_query": "The Carlyle, A Rosewood Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:23.452Z"
+    },
+    "New-York-US/New-York/The-Chatwal-New-York": {
+      "tripadvisor_id": "g60763-d1641016",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1641016-Reviews-The_Chatwal_New_York-New_York_City_New_York.html",
+      "search_query": "The Chatwal, New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:29.370Z"
+    },
+    "New-York-US/New-York/The-Dominick": {
+      "tripadvisor_id": "g60763-d1456416",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1456416-Reviews-The_Dominick-New_York_City_New_York.html",
+      "search_query": "The Dominick",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T22:03:35.344Z"
     }
   }
 }
