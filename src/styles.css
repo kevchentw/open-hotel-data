@@ -174,8 +174,10 @@ select {
   padding: 10px;
   display: grid;
   grid-template-columns:
-    minmax(0, 1.6fr)
-    minmax(160px, 0.8fr)
+    minmax(0, 1.35fr)
+    minmax(165px, 0.75fr)
+    minmax(165px, 0.75fr)
+    minmax(165px, 0.75fr)
     minmax(180px, 0.9fr)
     minmax(140px, 0.7fr)
     minmax(220px, 1fr);
@@ -480,6 +482,127 @@ select {
   color: var(--muted);
 }
 
+.sampled-price-pattern {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(20, 93, 90, 0.14);
+  background: rgba(20, 93, 90, 0.045);
+}
+
+.sampled-price-pattern__header {
+  display: grid;
+  gap: 4px;
+}
+
+.sampled-price-pattern__eyebrow {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
+.sampled-price-pattern__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.sampled-month-chip {
+  padding: 10px 11px;
+  border-radius: 14px;
+  border: 1px solid rgba(23, 35, 42, 0.08);
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.sampled-month-chip__topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.sampled-month-chip__topline strong {
+  font-size: 0.95rem;
+}
+
+.sampled-month-chip__topline span {
+  color: var(--teal-deep);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.sampled-month-chip__rows {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.sampled-month-chip__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.sampled-month-chip__row span {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.sampled-month-chip__row strong {
+  font-size: 0.84rem;
+  line-height: 1;
+}
+
+.sampled-month-chip__row.is-muted strong,
+.sampled-month-chip__row.is-muted span {
+  color: rgba(91, 109, 115, 0.58);
+}
+
+.sampled-price-detail {
+  margin-top: 12px;
+  border-top: 1px solid rgba(23, 35, 42, 0.08);
+  padding-top: 10px;
+}
+
+.sampled-price-detail summary {
+  cursor: pointer;
+  color: var(--teal-deep);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.sampled-price-detail__list {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.sampled-price-detail__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid rgba(23, 35, 42, 0.06);
+}
+
+.sampled-price-detail__row:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.sampled-price-detail__row span {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.sampled-price-detail__row strong {
+  font-size: 0.82rem;
+}
+
 .detail-grid {
   display: grid;
   gap: 12px;
@@ -641,6 +764,10 @@ select {
 
   .detail-actions {
     flex-direction: column;
+  }
+
+  .sampled-price-pattern__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .card-topline,

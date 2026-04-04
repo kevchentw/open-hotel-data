@@ -80,13 +80,16 @@ npm run pipeline:stage5:price
 Current behavior:
 
 - Hilton Aspire hotels use upstream stage-2 enrichment to write `summary_price`
-- Amex FHR hotels use xotelo to write sampled stay-date `prices`
+- Amex FHR hotels use xotelo to write representative sampled stay-date `prices`
+- sampled backfills persist `sample_attempts` for no-data and retryable fetch errors
 - each hotel file is written as soon as that hotel finishes processing
 
 Useful overrides:
 
 - `STAGE5_HOTEL_IDS='g1016927-d2257403,g1049626-d23428437'`
 - `STAGE5_XOTELO_STAY_DATES='2026-05-10,2026-07-09'`
+- `STAGE5_SAMPLE_MONTHS=12`
+- `STAGE5_XOTELO_CONCURRENCY=5`
 - `STAGE5_FORCE_REFRESH=true`
 - `STAGE5_FORCE_XOTELO=true`
 

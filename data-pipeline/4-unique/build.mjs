@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { inferChainFromBrand } from "../shared/brand-chain.mjs";
 
 const STAGE = "4-unique";
 const OUTPUT_FILE_URL = new URL("./hotel.json", import.meta.url);
@@ -106,9 +107,14 @@ export async function buildCanonicalRegistry() {
         brand: firstNonEmpty([
           stageOneHotel.brand
         ]),
-        chain: firstNonEmpty([
-          stageOneHotel.chain
-        ]),
+        chain: inferChainFromBrand(
+          firstNonEmpty([
+            stageOneHotel.brand
+          ]),
+          firstNonEmpty([
+            stageOneHotel.chain
+          ])
+        ),
         geo_provider: firstNonEmpty([
           stageTwoHotel.geo_provider
         ]),
@@ -256,7 +262,9 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     ),
     postal_code: pickField(contributors, (contributor) => contributor.stageTwoHotel?.detail_postal_code),
     brand: pickField(contributors, (contributor) => contributor.stageOneHotel?.brand),
-    chain: pickField(contributors, (contributor) => contributor.stageOneHotel?.chain),
+    chain: pickField(contributors, (contributor) =>
+      inferChainFromBrand(contributor.stageOneHotel?.brand, contributor.stageOneHotel?.chain)
+    ),
     latitude: pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_latitude, contributor.stageOneHotel?.latitude])
     ),

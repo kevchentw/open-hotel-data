@@ -6,106 +6,153 @@ const CANONICAL_INPUT_URL = new URL("../4-unique/hotel.json", import.meta.url);
 const ASPIRE_ENRICHMENT_URL = new URL("../2-enrichment/hilton-aspire-hotel.json", import.meta.url);
 const PRICE_DIRECTORY_URL = new URL("./prices/", import.meta.url);
 const XOTELO_ENDPOINT = "https://data.xotelo.com/api/rates";
-const DEFAULT_SAMPLE_OFFSETS = [30, 90];
-const DEFAULT_XOTELO_CONCURRENCY = 4;
+const DEFAULT_XOTELO_CONCURRENCY = 5;
 const DEFAULT_STAY_NIGHTS = 1;
+const DEFAULT_SAMPLE_MODE = "representative";
+const DEFAULT_SAMPLE_MONTHS = 12;
+const DEFAULT_SAMPLE_WEEKDAY = 2;
+const DEFAULT_SAMPLE_WEEKEND = 6;
+const REPRESENTATIVE_WEEKEND_DAYS = new Set([0, 6]);
 const FORCE_REFRESH = parseBoolean(process.env.STAGE5_FORCE_REFRESH);
 const FORCE_XOTELO = parseBoolean(process.env.STAGE5_FORCE_XOTELO);
 const XOTELO_CONCURRENCY = parsePositiveInteger(process.env.STAGE5_XOTELO_CONCURRENCY, DEFAULT_XOTELO_CONCURRENCY);
 const STAY_NIGHTS = parsePositiveInteger(process.env.STAGE5_STAY_NIGHTS, DEFAULT_STAY_NIGHTS);
+const SAMPLE_MODE = getSampleMode();
 const SAMPLE_STAY_DATES = getSampleStayDates();
 const FILTER_HOTEL_IDS = getFilterHotelIds();
 const CURRENCY_TO_USD = Object.freeze({
   USD: 1,
-  AED: 0.27229408,
-  AUD: 0.68932335,
-  CAD: 0.71767828,
-  CNY: 0.14511227,
-  EUR: 1.15288793,
-  FJD: 0.44333394,
-  IDR: 0.00005881,
-  INR: 0.01072347,
-  JOD: 1.41043724,
-  JPY: 0.00626832,
-  KRW: 0.00066228,
-  MAD: 0.10676457,
-  MXN: 0.0559244,
-  MYR: 0.24801021,
-  NZD: 0.56956301,
-  OMR: 2.60080053,
-  PHP: 0.01653939,
-  PLN: 0.26963721,
-  QAR: 0.27472527,
-  THB: 0.03062289,
-  VND: 0.00003804,
-  XPF: 0.00966122
+  AED: 0.27229,   // pegged ~3.6725/USD — stable, unchanged
+  AUD: 0.69090,   // 1.4474 AUD/USD (x-rates Apr 3)
+  CAD: 0.71820,   // 1.3924 CAD/USD (x-rates Apr 3)
+  CNY: 0.14535,   // 6.8800 CNY/USD (x-rates Apr 3)
+  EUR: 1.15355,   // 0.8669 EUR/USD (x-rates Apr 3) — nearly unchanged from your original
+  FJD: 0.44949,   // ~2.225 FJD/USD (Wise/exchange-rates.org Mar–Apr 2026)
+  IDR: 0.00005880, // ~17,006 IDR/USD (x-rates Apr 3)
+  INR: 0.01077,   // 92.89 INR/USD (x-rates Apr 3)
+  JOD: 1.41044,   // pegged ~0.7090 JOD/USD — stable (exchange-rates.org Apr 4)
+  JPY: 0.00626,   // ~159.6 JPY/USD (TradingEconomics Apr 3)
+  KRW: 0.000662,  // ~1,509.7 KRW/USD (x-rates Apr 3)
+  MAD: 0.10638,   // ~9.40 MAD/USD (XE Apr 4)
+  MXN: 0.05598,   // 17.863 MXN/USD (x-rates Apr 3)
+  MYR: 0.24785,   // 4.0347 MYR/USD (x-rates Apr 3)
+  NZD: 0.57121,   // 1.7507 NZD/USD (x-rates Apr 3)
+  OMR: 2.59820,   // pegged ~0.3849 OMR/USD (x-rates Apr 3)
+  PHP: 0.01657,   // 60.349 PHP/USD (x-rates Apr 3)
+  PLN: 0.26965,   // 3.7086 PLN/USD (x-rates Apr 3)
+  QAR: 0.27473,   // pegged ~3.64 QAR/USD — stable
+  THB: 0.03062,   // 32.663 THB/USD (x-rates Apr 3)
+  VND: 0.00003796, // ~26,340 VND/USD (TradingEconomics/XE Apr 3–4)
+  XPF: 0.00967,   // ~103.4 XPF/USD (Wise Mar–Apr 2026)
 });
 
 export async function buildPriceArtifacts() {
-  const { aspireHotels, existingArtifacts, hotels } = await loadPriceStageInputs();
-  const artifactEntries = [];
-
-  for (const [tripadvisorId, hotel] of hotels) {
-    artifactEntries.push([
-      tripadvisorId,
-      await buildPriceArtifact({
-        tripadvisorId,
-        hotel,
-        aspireHotels,
-        existingArtifact: existingArtifacts.get(tripadvisorId) ?? null
-      })
-    ]);
-  }
-
-  return {
-    metadata: {
-      stage: STAGE,
-      generated_at: new Date().toISOString(),
-      hotel_count: artifactEntries.length,
-      stay_date_count: SAMPLE_STAY_DATES.length,
-      force_refresh: FORCE_REFRESH,
-      force_xotelo: FORCE_XOTELO
-    },
-    artifacts: new Map(artifactEntries)
-  };
+  return runPriceStage({ persistArtifacts: false });
 }
 
 export async function writePriceArtifacts() {
+  return runPriceStage({ persistArtifacts: true });
+}
+
+async function runPriceStage({ persistArtifacts }) {
   const startedAt = new Date().toISOString();
   const { aspireHotels, existingArtifacts, hotels } = await loadPriceStageInputs();
-  await mkdir(PRICE_DIRECTORY_URL, { recursive: true });
   const artifacts = new Map();
+  const hotelStates = new Map();
+  const progress = {
+    completedTasks: 0,
+    totalTasks: 0
+  };
+
+  if (persistArtifacts) {
+    await mkdir(PRICE_DIRECTORY_URL, { recursive: true });
+  }
 
   console.log(
     `[stage5] starting price fetch for ${hotels.length} hotels ` +
-      `(sample stay dates: ${SAMPLE_STAY_DATES.join(", ") || "none"})`
+      `(sample mode: ${SAMPLE_MODE}, stay dates: ${SAMPLE_STAY_DATES.join(", ") || "none"})`
   );
 
   for (const [tripadvisorId, hotel] of hotels) {
-    const artifact = await buildPriceArtifact({
+    const hotelState = buildHotelState({
       tripadvisorId,
       hotel,
       aspireHotels,
       existingArtifact: existingArtifacts.get(tripadvisorId) ?? null
     });
-
-    await writeJson(new URL(`${tripadvisorId}.json`, PRICE_DIRECTORY_URL), artifact);
-    artifacts.set(tripadvisorId, artifact);
-    console.log(formatArtifactLogLine(tripadvisorId, hotel, artifact));
+    hotelStates.set(tripadvisorId, hotelState);
   }
 
-  const metadata = {
+  const taskQueue = buildCoverageFirstTaskQueue(
+    hotels
+      .map(([tripadvisorId]) => {
+        const state = hotelStates.get(tripadvisorId);
+        return {
+          tripadvisorId,
+          dates: state?.datesToFetch ?? []
+        };
+      })
+      .filter(({ dates }) => dates.length)
+  );
+  progress.totalTasks = taskQueue.length;
+
+  for (const [tripadvisorId, hotel] of hotels) {
+    const state = hotelStates.get(tripadvisorId);
+    if (!state || state.pendingTaskCount > 0) {
+      continue;
+    }
+
+    await finalizeHotelState({ state, artifacts, persistArtifacts });
+    console.log(formatArtifactLogLine(tripadvisorId, hotel, state.artifact));
+  }
+
+  await mapWithConcurrency(
+    taskQueue,
+    XOTELO_CONCURRENCY,
+    async (task) => ({
+      task,
+      result: await fetchXoteloPrice(task.tripadvisorId, task.stayDate)
+    }),
+    async ({ task, result }) => {
+      const state = hotelStates.get(task.tripadvisorId);
+      if (!state) {
+        return;
+      }
+
+      applyFetchResult({
+        state,
+        stayDate: task.stayDate,
+        result
+      });
+
+      state.pendingTaskCount -= 1;
+      progress.completedTasks += 1;
+      logStageProgress(progress, task, result);
+      if (state.pendingTaskCount === 0) {
+        await finalizeHotelState({ state, artifacts, persistArtifacts });
+        console.log(formatArtifactLogLine(task.tripadvisorId, state.hotel, state.artifact));
+      }
+    }
+  );
+
+  const metadata = sortObjectKeys({
     stage: STAGE,
     generated_at: startedAt,
     hotel_count: artifacts.size,
     stay_date_count: SAMPLE_STAY_DATES.length,
+    sample_mode: SAMPLE_MODE,
+    sample_months: SAMPLE_MODE === "representative"
+      ? parsePositiveInteger(process.env.STAGE5_SAMPLE_MONTHS, DEFAULT_SAMPLE_MONTHS)
+      : 0,
     force_refresh: FORCE_REFRESH,
-    force_xotelo: FORCE_XOTELO
-  };
+    force_xotelo: FORCE_XOTELO,
+    xotelo_concurrency: XOTELO_CONCURRENCY
+  });
 
   console.log(
-    `[stage5] wrote ${artifacts.size} price artifacts to ${fileURLToPath(PRICE_DIRECTORY_URL)} ` +
-      `(sample stay dates: ${SAMPLE_STAY_DATES.join(", ") || "none"})`
+    `[stage5] ${persistArtifacts ? "wrote" : "built"} ${artifacts.size} price artifacts ` +
+      `${persistArtifacts ? `to ${fileURLToPath(PRICE_DIRECTORY_URL)} ` : ""}` +
+      `(sample mode: ${SAMPLE_MODE}, stay dates: ${SAMPLE_STAY_DATES.join(", ") || "none"})`
   );
 
   return { metadata, artifacts };
@@ -129,33 +176,65 @@ async function loadPriceStageInputs() {
   };
 }
 
-async function buildPriceArtifact({ tripadvisorId, hotel, aspireHotels, existingArtifact }) {
-  const generatedAt = new Date().toISOString();
+function buildHotelState({ tripadvisorId, hotel, aspireHotels, existingArtifact }) {
   const previousSummary = normalizeSummaryPrice(existingArtifact?.summary_price);
   const previousPrices = normalizePrices(existingArtifact?.prices);
+  const previousSampleAttempts = normalizeSampleAttempts(existingArtifact?.sample_attempts);
   let summaryPrice = previousSummary;
-  let prices = previousPrices;
 
   const aspireResult = buildAspireSummaryPrice(hotel, aspireHotels);
   if (aspireResult && (FORCE_REFRESH || !summaryPrice)) {
     summaryPrice = aspireResult;
   }
 
-  if (shouldFetchFhrPrices(hotel, summaryPrice, prices)) {
-    prices = await mergeXoteloPrices({ tripadvisorId, existingPrices: prices });
+  const datesToFetch = getDatesToFetchForHotel({
+    hotel,
+    summaryPrice,
+    prices: previousPrices,
+    sampleAttempts: previousSampleAttempts,
+    sampleStayDates: SAMPLE_STAY_DATES
+  });
+
+  return {
+    tripadvisorId,
+    hotel,
+    summaryPrice,
+    prices: { ...previousPrices },
+    sampleAttempts: { ...previousSampleAttempts },
+    datesToFetch,
+    pendingTaskCount: datesToFetch.length,
+    artifact: null,
+    finalized: false
+  };
+}
+
+async function finalizeHotelState({ state, artifacts, persistArtifacts }) {
+  if (state.finalized) {
+    return;
   }
 
+  state.artifact = buildArtifactFromState(state);
+  state.finalized = true;
+  artifacts.set(state.tripadvisorId, state.artifact);
+
+  if (persistArtifacts) {
+    await writeJson(new URL(`${state.tripadvisorId}.json`, PRICE_DIRECTORY_URL), state.artifact);
+  }
+}
+
+function buildArtifactFromState(state) {
   const artifact = {
     metadata: sortObjectKeys({
       stage: STAGE,
-      generated_at: generatedAt,
-      tripadvisor_id: tripadvisorId
+      generated_at: new Date().toISOString(),
+      tripadvisor_id: state.tripadvisorId
     }),
-    prices
+    prices: sortEntriesObject(state.prices),
+    sample_attempts: sortEntriesObject(state.sampleAttempts)
   };
 
-  if (summaryPrice) {
-    artifact.summary_price = summaryPrice;
+  if (state.summaryPrice) {
+    artifact.summary_price = state.summaryPrice;
   }
 
   return sortObjectKeys(artifact);
@@ -205,45 +284,125 @@ function buildAspireSummaryPrice(hotel, aspireHotels) {
   });
 }
 
-function shouldFetchFhrPrices(hotel, summaryPrice, prices) {
-  const plans = normalizeStringArray(hotel.plans);
+export function getDatesToFetchForHotel({ hotel, summaryPrice, prices, sampleAttempts, sampleStayDates }) {
+  const plans = normalizeStringArray(hotel?.plans);
   if (!plans.includes("amex_fhr")) {
-    return false;
+    return [];
   }
 
   if (summaryPrice && !FORCE_XOTELO && !FORCE_REFRESH) {
-    return false;
+    return [];
   }
 
   if (FORCE_REFRESH) {
-    return true;
+    return [...sampleStayDates];
   }
 
-  return SAMPLE_STAY_DATES.some((stayDate) => !isRecord(prices[stayDate]));
+  return sampleStayDates.filter((stayDate) => {
+    if (isRecord(prices[stayDate])) {
+      return false;
+    }
+
+    return !isTerminalNoDataAttempt(sampleAttempts[stayDate]);
+  });
 }
 
-async function mergeXoteloPrices({ tripadvisorId, existingPrices }) {
-  const prices = { ...existingPrices };
-  const datesToFetch = FORCE_REFRESH
-    ? SAMPLE_STAY_DATES
-    : SAMPLE_STAY_DATES.filter((stayDate) => !isRecord(prices[stayDate]));
+export function buildCoverageFirstTaskQueue(hotelDatePlans) {
+  const taskQueue = [];
+  const maxDepth = hotelDatePlans.reduce((max, plan) => Math.max(max, plan.dates.length), 0);
 
-  const fetchedEntries = await mapWithConcurrency(
-    datesToFetch,
-    XOTELO_CONCURRENCY,
-    async (stayDate) => [stayDate, await fetchXoteloPrice(tripadvisorId, stayDate)]
-  );
+  for (let index = 0; index < maxDepth; index += 1) {
+    for (const plan of hotelDatePlans) {
+      const stayDate = plan.dates[index];
+      if (!stayDate) {
+        continue;
+      }
 
-  for (const [stayDate, priceEntry] of fetchedEntries) {
-    if (priceEntry) {
-      prices[stayDate] = priceEntry;
+      taskQueue.push({
+        tripadvisorId: plan.tripadvisorId,
+        stayDate
+      });
     }
   }
 
-  return sortEntriesObject(prices);
+  return taskQueue;
+}
+
+function applyFetchResult({ state, stayDate, result }) {
+  const fetchedAt = new Date().toISOString();
+  const attempts = Array.isArray(result?.attempts) && result.attempts.length
+    ? result.attempts
+    : [{ stayDate, ...result }];
+
+  for (const attempt of attempts) {
+    delete state.sampleAttempts[attempt.stayDate];
+
+    if (attempt.status === "price" && attempt.priceEntry) {
+      state.prices[attempt.stayDate] = attempt.priceEntry;
+      continue;
+    }
+
+    if (attempt.status === "no_data" || attempt.status === "fetch_error") {
+      state.sampleAttempts[attempt.stayDate] = sortObjectKeys({
+        fetched_at: fetchedAt,
+        source: "xotelo",
+        status: attempt.status,
+        detail: normalizeString(attempt.detail),
+        http_status: normalizeString(attempt.httpStatus)
+      });
+    }
+  }
 }
 
 async function fetchXoteloPrice(tripadvisorId, stayDate) {
+  const stayDatesToTry = SAMPLE_MODE === "representative"
+    ? [stayDate, ...buildRepresentativeFallbackStayDates(stayDate)]
+    : [stayDate];
+  const attempts = [];
+
+  for (const candidateStayDate of stayDatesToTry) {
+    const result = await fetchSingleXoteloPrice(tripadvisorId, candidateStayDate);
+    attempts.push({
+      stayDate: candidateStayDate,
+      ...result
+    });
+
+    if (result.status === "price") {
+      return {
+        status: "price",
+        effectiveStayDate: candidateStayDate,
+        priceEntry: result.priceEntry,
+        attempts
+      };
+    }
+
+    if (result.status === "fetch_error") {
+      return {
+        status: "fetch_error",
+        effectiveStayDate: candidateStayDate,
+        detail: result.detail,
+        httpStatus: result.httpStatus,
+        attempts
+      };
+    }
+  }
+
+  const lastAttempt = attempts[attempts.length - 1] ?? {
+    stayDate,
+    status: "no_data",
+    detail: "no_usable_rates"
+  };
+
+  return {
+    status: "no_data",
+    effectiveStayDate: lastAttempt.stayDate,
+    detail: lastAttempt.detail,
+    httpStatus: lastAttempt.httpStatus,
+    attempts
+  };
+}
+
+async function fetchSingleXoteloPrice(tripadvisorId, stayDate) {
   const checkOutDate = addDays(stayDate, STAY_NIGHTS);
   const url = new URL(XOTELO_ENDPOINT);
   url.searchParams.set("hotel_key", tripadvisorId);
@@ -259,7 +418,11 @@ async function fetchXoteloPrice(tripadvisorId, stayDate) {
 
     if (!response.ok) {
       console.warn(`Stage 5 xotelo fetch failed for ${tripadvisorId} ${stayDate}: HTTP ${response.status}`);
-      return null;
+      return {
+        status: "fetch_error",
+        detail: "http_error",
+        httpStatus: String(response.status)
+      };
     }
 
     const payload = await response.json();
@@ -269,18 +432,27 @@ async function fetchXoteloPrice(tripadvisorId, stayDate) {
     const lowestCost = getLowestXoteloUsdCost(rates, currency);
     if (!lowestCost) {
       console.warn(`Stage 5 xotelo returned no usable rates for ${tripadvisorId} ${stayDate}`);
-      return null;
+      return {
+        status: "no_data",
+        detail: "no_usable_rates"
+      };
     }
 
-    return sortObjectKeys({
-      currency: "USD",
-      fetched_at: new Date().toISOString(),
-      source: "xotelo",
-      cost: lowestCost
-    });
+    return {
+      status: "price",
+      priceEntry: sortObjectKeys({
+        currency: "USD",
+        fetched_at: new Date().toISOString(),
+        source: "xotelo",
+        cost: lowestCost
+      })
+    };
   } catch (error) {
     console.warn(`Stage 5 xotelo fetch failed for ${tripadvisorId} ${stayDate}: ${error.message}`);
-    return null;
+    return {
+      status: "fetch_error",
+      detail: normalizeString(error.message) || "fetch_exception"
+    };
   }
 }
 
@@ -392,6 +564,63 @@ function normalizePrices(prices) {
   );
 }
 
+export function normalizeSampleAttempts(sampleAttempts) {
+  if (!isRecord(sampleAttempts)) {
+    return {};
+  }
+
+  return sortEntriesObject(
+    Object.fromEntries(
+      Object.entries(sampleAttempts)
+        .filter(([stayDate]) => isIsoDate(stayDate))
+        .map(([stayDate, attempt]) => [
+          stayDate,
+          sortObjectKeys({
+            fetched_at: normalizeString(attempt?.fetched_at),
+            source: normalizeString(attempt?.source),
+            status: normalizeString(attempt?.status),
+            detail: normalizeString(attempt?.detail),
+            http_status: normalizeString(attempt?.http_status)
+          })
+        ])
+        .filter(([, attempt]) => attempt.status === "no_data" || attempt.status === "fetch_error")
+    )
+  );
+}
+
+export function buildRepresentativeFallbackStayDates(stayDate) {
+  if (!isIsoDate(stayDate)) {
+    return [];
+  }
+
+  const parsedDate = new Date(`${stayDate}T00:00:00.000Z`);
+  if (Number.isNaN(parsedDate.getTime())) {
+    return [];
+  }
+
+  const isWeekendSeed = REPRESENTATIVE_WEEKEND_DAYS.has(parsedDate.getUTCDay());
+  const currentMonth = parsedDate.getUTCMonth();
+  const candidate = new Date(parsedDate);
+  const fallbackDates = [];
+
+  candidate.setUTCDate(candidate.getUTCDate() + 1);
+
+  while (candidate.getUTCMonth() === currentMonth) {
+    const candidateIsWeekend = REPRESENTATIVE_WEEKEND_DAYS.has(candidate.getUTCDay());
+    if (candidateIsWeekend === isWeekendSeed) {
+      fallbackDates.push(candidate.toISOString().slice(0, 10));
+    }
+
+    candidate.setUTCDate(candidate.getUTCDate() + 1);
+  }
+
+  return fallbackDates;
+}
+
+function isTerminalNoDataAttempt(attempt) {
+  return isRecord(attempt) && normalizeString(attempt.status) === "no_data";
+}
+
 function getSourceHotelId(hotel, source) {
   const sourceKeys = normalizeStringArray(hotel?.source_keys);
   for (const sourceKey of sourceKeys) {
@@ -408,7 +637,10 @@ function formatArtifactLogLine(tripadvisorId, hotel, artifact) {
   const plans = normalizeStringArray(hotel?.plans);
   const summaryPrice = normalizeSummaryPrice(artifact?.summary_price);
   const prices = normalizePrices(artifact?.prices);
+  const sampleAttempts = normalizeSampleAttempts(artifact?.sample_attempts);
   const stayDates = Object.keys(prices);
+  const noDataCount = Object.values(sampleAttempts).filter((attempt) => attempt.status === "no_data").length;
+  const retryableErrorCount = Object.values(sampleAttempts).filter((attempt) => attempt.status === "fetch_error").length;
   const route = plans.includes("hilton_aspire_resort_credit")
     ? "aspire-upstream"
     : plans.includes("amex_fhr")
@@ -420,7 +652,9 @@ function formatArtifactLogLine(tripadvisorId, hotel, artifact) {
     tripadvisorId,
     route,
     `summary=${summaryPrice ? summaryPrice.cost : "none"}`,
-    `stays=${stayDates.length}`
+    `stays=${stayDates.length}`,
+    `no_data=${noDataCount}`,
+    `retryable_errors=${retryableErrorCount}`
   ];
 
   if (stayDates.length) {
@@ -428,6 +662,32 @@ function formatArtifactLogLine(tripadvisorId, hotel, artifact) {
   }
 
   return parts.join(" ");
+}
+
+function logStageProgress(progress, task, result) {
+  if (!progress.totalTasks) {
+    return;
+  }
+
+  const status = normalizeString(result?.status) || "unknown";
+  const effectiveStayDate = normalizeString(result?.effectiveStayDate);
+  const resolvedSuffix = effectiveStayDate && effectiveStayDate !== task.stayDate
+    ? ` -> ${effectiveStayDate}`
+    : "";
+  const percent = Math.floor((progress.completedTasks / progress.totalTasks) * 100);
+  console.log(
+    `[stage5] progress ${progress.completedTasks}/${progress.totalTasks} (${percent}%) ` +
+      `${task.tripadvisorId} ${task.stayDate}${resolvedSuffix} ${status}`
+  );
+}
+
+function getSampleMode() {
+  if (normalizeString(process.env.STAGE5_XOTELO_STAY_DATES)) {
+    return "explicit";
+  }
+
+  const requestedMode = normalizeString(process.env.STAGE5_SAMPLE_MODE).toLowerCase();
+  return requestedMode === "explicit" ? "explicit" : DEFAULT_SAMPLE_MODE;
 }
 
 function getSampleStayDates() {
@@ -443,7 +703,55 @@ function getSampleStayDates() {
     ).sort((left, right) => left.localeCompare(right));
   }
 
-  return DEFAULT_SAMPLE_OFFSETS.map((offset) => addDays(new Date().toISOString().slice(0, 10), offset));
+  if (SAMPLE_MODE === "explicit") {
+    return [];
+  }
+
+  const sampleMonths = parsePositiveInteger(process.env.STAGE5_SAMPLE_MONTHS, DEFAULT_SAMPLE_MONTHS);
+  const workday = normalizeDayOfWeek(process.env.STAGE5_SAMPLE_WEEKDAY, DEFAULT_SAMPLE_WEEKDAY);
+  const weekend = normalizeDayOfWeek(process.env.STAGE5_SAMPLE_WEEKEND, DEFAULT_SAMPLE_WEEKEND);
+  return buildRepresentativeStayDates({
+    startDate: getCurrentMonthAnchorDate(),
+    months: sampleMonths,
+    weekday: workday,
+    weekendDay: weekend
+  });
+}
+
+export function buildRepresentativeStayDates({ startDate, months, weekday, weekendDay }) {
+  const normalizedStartDate = isIsoDate(startDate) ? startDate : new Date().toISOString().slice(0, 10);
+  const start = new Date(`${normalizedStartDate}T00:00:00.000Z`);
+  const sampleDates = [];
+
+  for (let offset = 0; offset < Math.max(0, months); offset += 1) {
+    const year = start.getUTCFullYear();
+    const monthIndex = start.getUTCMonth() + offset;
+    const currentYear = year + Math.floor(monthIndex / 12);
+    const currentMonth = monthIndex % 12;
+
+    sampleDates.push(getNthWeekdayOfMonth({ year: currentYear, monthIndex: currentMonth, dayOfWeek: weekday, occurrence: 2 }));
+    sampleDates.push(getNthWeekdayOfMonth({ year: currentYear, monthIndex: currentMonth, dayOfWeek: weekendDay, occurrence: 2 }));
+  }
+
+  return Array.from(new Set(sampleDates)).sort((left, right) => left.localeCompare(right));
+}
+
+function getCurrentMonthAnchorDate() {
+  const now = new Date();
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)).toISOString().slice(0, 10);
+}
+
+function getNthWeekdayOfMonth({ year, monthIndex, dayOfWeek, occurrence }) {
+  const firstOfMonth = new Date(Date.UTC(year, monthIndex, 1));
+  const firstDayOfWeek = firstOfMonth.getUTCDay();
+  const dayOffset = (dayOfWeek - firstDayOfWeek + 7) % 7;
+  const dayOfMonth = 1 + dayOffset + ((occurrence - 1) * 7);
+  return new Date(Date.UTC(year, monthIndex, dayOfMonth)).toISOString().slice(0, 10);
+}
+
+function normalizeDayOfWeek(value, fallback) {
+  const parsed = Number.parseInt(String(value ?? ""), 10);
+  return Number.isInteger(parsed) && parsed >= 0 && parsed <= 6 ? parsed : fallback;
 }
 
 function getFilterHotelIds() {
@@ -509,7 +817,7 @@ function addDays(dateString, days) {
   return date.toISOString().slice(0, 10);
 }
 
-async function mapWithConcurrency(values, concurrency, mapper) {
+export async function mapWithConcurrency(values, concurrency, mapper, onResult) {
   const results = new Array(values.length);
   let nextIndex = 0;
 
@@ -519,6 +827,9 @@ async function mapWithConcurrency(values, concurrency, mapper) {
         const currentIndex = nextIndex;
         nextIndex += 1;
         results[currentIndex] = await mapper(values[currentIndex], currentIndex);
+        if (typeof onResult === "function") {
+          await onResult(results[currentIndex], currentIndex);
+        }
       }
     })
   );

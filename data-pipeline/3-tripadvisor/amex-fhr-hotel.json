@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_fhr",
-    "generated_at": "2026-04-04T20:38:35.346Z",
-    "record_count": 995,
-    "matched_count": 995,
+    "generated_at": "2026-04-04T21:57:55.824Z",
+    "record_count": 1196,
+    "matched_count": 1196,
     "unmatched_count": 0
   },
   "matches": {
@@ -6977,6 +6977,1413 @@
       "search_query": "JW Marriott Venice Resort & Spa",
       "match_confidence": "high",
       "matched_at": "2026-04-04T20:38:35.346Z"
+    },
+    "Italy/Venice/Londra-Palace-Venezia": {
+      "tripadvisor_id": "g187870-d202728",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d202728-Reviews-Londra_Palace_Venezia-Venice_Veneto.html",
+      "search_query": "Londra Palace Venezia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:07:38.605Z"
+    },
+    "Italy/Venice/Nolinski-Venezia---Evok-Collection": {
+      "tripadvisor_id": "g187870-d25365451",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d25365451-Reviews-Nolinski_Venezia_Evok_Collection-Venice_Veneto.html",
+      "search_query": "Nolinski Venezia - Evok Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:09:53.977Z"
+    },
+    "Italy/Venice/Palazzo-Venart-Luxury-Hotel": {
+      "tripadvisor_id": "g187870-d10804768",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d10804768-Reviews-Palazzo_Venart_Luxury_Hotel-Venice_Veneto.html",
+      "search_query": "Palazzo Venart Luxury Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:09:59.910Z"
+    },
+    "Italy/Venice/San-Clemente-Palace": {
+      "tripadvisor_id": "g187870-d275960",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d275960-Reviews-San_Clemente_Palace_Venice-Venice_Veneto.html",
+      "search_query": "San Clemente Palace",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:05.911Z"
+    },
+    "Italy/Venice/The-Gritti-Palace-a-Luxury-Collection-Hotel-Venice": {
+      "tripadvisor_id": "g187870-d230427",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d230427-Reviews-The_Gritti_Palace_a_Luxury_Collection_Hotel_Venice-Venice_Veneto.html",
+      "search_query": "The Gritti Palace, a Luxury Collection Hotel, Venice",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:14.108Z"
+    },
+    "Italy/Venice/The-St-Regis-Venice": {
+      "tripadvisor_id": "g187870-d202693",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d202693-Reviews-The_St_Regis_Venice-Venice_Veneto.html",
+      "search_query": "The St. Regis Venice",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:19.960Z"
+    },
+    "Italy/Venice/The-Venice-Venice-Hotel": {
+      "tripadvisor_id": "g187870-d25331703",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d25331703-Reviews-The_Venice_Venice_Hotel-Venice_Veneto.html",
+      "search_query": "The Venice Venice Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:25.948Z"
+    },
+    "Italy/Venice/Violino-Doro-Venezia": {
+      "tripadvisor_id": "g187870-d238969",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d238969-Reviews-Violino_d_Oro_Venezia-Venice_Veneto.html",
+      "search_query": "Violino d'Oro Venezia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:32.607Z"
+    },
+    "Italy/Verona/Vista-Verona": {
+      "tripadvisor_id": "g187871-d238851",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187871-d238851-Reviews-Vista_Verona-Verona_Province_of_Verona_Veneto.html",
+      "search_query": "Vista Verona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:38.458Z"
+    },
+    "Italy/Viareggio/Grand-Hotel-Principe-Di-Piemonte": {
+      "tripadvisor_id": "g194946-d265536",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194946-d265536-Reviews-Grand_Hotel_Principe_di_Piemonte-Viareggio_Province_of_Lucca_Tuscany.html",
+      "search_query": "Grand Hotel Principe di Piemonte",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:10:44.451Z"
+    },
+    "Italy/Volterra/Borgo-Pignano-Volterra-Tuscany": {
+      "tripadvisor_id": "g194951-d2311923",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194951-d2311923-Reviews-Borgo_Pignano_Tuscany-Volterra_Province_of_Pisa_Tuscany.html",
+      "search_query": "Borgo Pignano Volterra Tuscany",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:10:50.423Z"
+    },
+    "Jalisco-MX/La-Huerta/Four-Seasons-Resort-Tamarindo-Mexico": {
+      "tripadvisor_id": "g793333-d25093824",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g793333-d25093824-Reviews-Four_Seasons_Resort_Tamarindo-La_Manzanilla_Costalegre.html",
+      "search_query": "Four Seasons Resort Tamarindo, Mexico",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:10:56.313Z"
+    },
+    "Jamaica/Montego-Bay/Half-Moon": {
+      "tripadvisor_id": "g660724-d148799",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g660724-d148799-Reviews-Half_Moon-Rose_Hall_Montego_Bay_Saint_James_Parish_Jamaica.html",
+      "search_query": "Half Moon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:02.369Z"
+    },
+    "Jamaica/Montego-Bay/Round-Hill-Hotel-And-Villas": {
+      "tripadvisor_id": "g2307447-d147496",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2307447-d147496-Reviews-Round_Hill_Hotel_and_Villas-Hopewell_Montego_Bay_Saint_James_Parish_Jamaica.html",
+      "search_query": "Round Hill Hotel and Villas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:08.361Z"
+    },
+    "Japan/Beppu/Ana-Intercontinental-Beppu-Resort--Spa": {
+      "tripadvisor_id": "g298219-d16935868",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298219-d16935868-Reviews-ANA_InterContinental_Beppu_Resort_Spa-Beppu_Oita_Prefecture_Kyushu.html",
+      "search_query": "ANA InterContinental Beppu Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:14.333Z"
+    },
+    "Japan/Fukuoka/The-Ritz-carlton-Fukuoka": {
+      "tripadvisor_id": "g14127491-d25455800",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14127491-d25455800-Reviews-The_Ritz_Carlton_Fukuoka-Chuo_Fukuoka_Fukuoka_Prefecture_Kyushu.html",
+      "search_query": "The Ritz-Carlton Fukuoka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:20.260Z"
+    },
+    "Japan/Hakone/Espacio-The-Hakone-Geihinkan-Rin-Poh-Ki-Ryu": {
+      "tripadvisor_id": "g298171-d32825963",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298171-d32825963-Reviews-Espacio_The_Hakone_Geihinkan_Rin_Poh_Ki_Ryu-Hakone_machi_Ashigarashimo_gun_Kanagawa_P.html",
+      "search_query": "ESPACIO The Hakone Geihinkan Rin Poh Ki Ryu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:26.201Z"
+    },
+    "Japan/Kyoto/Aman-Kyoto": {
+      "tripadvisor_id": "g298564-d19385498",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d19385498-Reviews-Aman_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Aman Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:32.349Z"
+    },
+    "Japan/Kyoto/Dusit-Thani-Kyoto": {
+      "tripadvisor_id": "g298564-d26361005",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d26361005-Reviews-Dusit_Thani_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Dusit Thani Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:38.270Z"
+    },
+    "Japan/Kyoto/Fauchon-Lhotel-Kyoto": {
+      "tripadvisor_id": "g298564-d23259874",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d23259874-Reviews-Fauchon_Hotel_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "FAUCHON L'Hotel Kyoto",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:11:44.223Z"
+    },
+    "Japan/Kyoto/Four-Seasons-Hotel-Kyoto": {
+      "tripadvisor_id": "g298564-d10532611",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d10532611-Reviews-Four_Seasons_Hotel_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Four Seasons Hotel Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:50.114Z"
+    },
+    "Japan/Kyoto/Hotel-The-Mitsui-Kyoto-a-Luxury-Collection-Hotel--Spa": {
+      "tripadvisor_id": "g298564-d21150651",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d21150651-Reviews-Hotel_The_Mitsui_Kyoto_A_Luxury_Collection_Hotel_Spa-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "HOTEL THE MITSUI KYOTO, a Luxury Collection Hotel & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:11:55.994Z"
+    },
+    "Japan/Kyoto/Park-Hyatt-Kyoto": {
+      "tripadvisor_id": "g298564-d17637198",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d17637198-Reviews-Park_Hyatt_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Park Hyatt Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:01.956Z"
+    },
+    "Japan/Kyoto/Roku-Kyoto-Lxr-Hotels--Resorts": {
+      "tripadvisor_id": "g298564-d23331390",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d23331390-Reviews-ROKU_KYOTO_LXR_Hotels_Resorts-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "ROKU KYOTO, LXR Hotels & Resorts",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:07.903Z"
+    },
+    "Japan/Kyoto/Six-Senses-Kyoto": {
+      "tripadvisor_id": "g298564-d26855201",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d26855201-Reviews-Six_Senses_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Six Senses Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:13.798Z"
+    },
+    "Japan/Kyoto/Suiran-a-Luxury-Collection-Hotel-Kyoto": {
+      "tripadvisor_id": "g298564-d7767288",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d7767288-Reviews-Suiran_a_Luxury_Collection_Hotel_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Suiran, a Luxury Collection Hotel, Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:19.725Z"
+    },
+    "Japan/Kyoto/The-Hotel-Seiryu-Kyoto-Kiyomizu": {
+      "tripadvisor_id": "g298564-d19603731",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d19603731-Reviews-The_Hotel_Seiryu_Kyoto_Kiyomizu-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "The Hotel Seiryu Kyoto Kiyomizu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:25.659Z"
+    },
+    "Japan/Kyoto/The-Ritz-carlton-Kyoto": {
+      "tripadvisor_id": "g298564-d5977426",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d5977426-Reviews-The_Ritz_Carlton_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "The Ritz-Carlton, Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:31.574Z"
+    },
+    "Japan/Miyakojima/Iraph-Sui-a-Luxury-Collection-Hotel-Miyako-Okinawa": {
+      "tripadvisor_id": "g680765-d15051010",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g680765-d15051010-Reviews-IRAPH_SUI_a_Luxury_Collection_Hotel_Miyako_Okinawa-Miyakojima_Okinawa_Prefecture_Kyus.html",
+      "search_query": "IRAPH SUI, a Luxury Collection Hotel, Miyako Okinawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:37.438Z"
+    },
+    "Japan/Miyakojima/Rosewood-Miyakojima": {
+      "tripadvisor_id": "g680765-d32710420",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g680765-d32710420-Reviews-Rosewood_Miyakojima-Miyakojima_Okinawa_Prefecture_Kyushu.html",
+      "search_query": "Rosewood Miyakojima",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:43.222Z"
+    },
+    "Japan/Nago/The-Ritz-carlton-Okinawa": {
+      "tripadvisor_id": "g1023465-d2528913",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1023465-d2528913-Reviews-The_Ritz_Carlton_Okinawa-Nago_Okinawa_Prefecture_Kyushu.html",
+      "search_query": "The Ritz-Carlton, Okinawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:12:49.731Z"
+    },
+    "Japan/Nagoya/Tiad-Autograph-Collection": {
+      "tripadvisor_id": "g298106-d25599388",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298106-d25599388-Reviews-TIAD_Autograph_Collection-Nagoya_Aichi_Prefecture_Tokai_Chubu.html",
+      "search_query": "TIAD, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:13.625Z"
+    },
+    "Japan/Nara/Jw-Marriott-Hotel-Nara": {
+      "tripadvisor_id": "g298198-d20160902",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298198-d20160902-Reviews-Jw_Marriott_Hotel_Nara-Nara_Nara_Prefecture_Kinki.html",
+      "search_query": "JW Marriott Hotel Nara",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:19.641Z"
+    },
+    "Japan/Nikko/The-Ritz-carlton-Nikko": {
+      "tripadvisor_id": "g298182-d20382177",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298182-d20382177-Reviews-The_Ritz_Carlton_Nikko-Nikko_Tochigi_Prefecture_Kanto.html",
+      "search_query": "The Ritz-Carlton, Nikko",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:25.542Z"
+    },
+    "Japan/Niseko/Park-Hyatt-Niseko-Hanazono": {
+      "tripadvisor_id": "g1025639-d19116832",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1025639-d19116832-Reviews-Park_Hyatt_Niseko_Hanazono-Kutchan_cho_Abuta_gun_Hokkaido.html",
+      "search_query": "Park Hyatt Niseko Hanazono",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:31.425Z"
+    },
+    "Japan/Niseko/The-Higashiyama-Niseko-Village-a-Ritz-Carlton-Reserve": {
+      "tripadvisor_id": "g321549-d23002488",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g321549-d23002488-Reviews-Higashiyama_Niseko_Village_A_Ritz_Carlton_Reserve-Niseko_cho_Abuta_gun_Hokkaido.html",
+      "search_query": "The Higashiyama Niseko Village, a Ritz Carlton Reserve",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:13:37.257Z"
+    },
+    "Japan/Okinawa/Halekulani-Okinawa": {
+      "tripadvisor_id": "g1120809-d17231152",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1120809-d17231152-Reviews-Halekulani_Okinawa-Onna_son_Kunigami_gun_Okinawa_Prefecture_Kyushu.html",
+      "search_query": "Halekulani Okinawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:43.100Z"
+    },
+    "Japan/Onomichi/Azumi-Setoda": {
+      "tripadvisor_id": "g651649-d23593318",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g651649-d23593318-Reviews-Azumi_setoda-Onomichi_Hiroshima_Prefecture_Chugoku.html",
+      "search_query": "Azumi Setoda",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:49.070Z"
+    },
+    "Japan/Osaka/Conrad-Osaka": {
+      "tripadvisor_id": "g298566-d12279129",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d12279129-Reviews-Conrad_Osaka-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "Conrad Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:13:54.959Z"
+    },
+    "Japan/Osaka/Four-Seasons-Hotel-Osaka": {
+      "tripadvisor_id": "g298566-d27744309",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d27744309-Reviews-Four_Seasons_Hotel_Osaka-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "Four Seasons Hotel Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:01.067Z"
+    },
+    "Japan/Osaka/Intercontinental-Osaka": {
+      "tripadvisor_id": "g298566-d4041964",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d4041964-Reviews-InterContinental_Osaka_by_IHG-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "InterContinental Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:07.023Z"
+    },
+    "Japan/Osaka/The-Ritz-carlton-Osaka": {
+      "tripadvisor_id": "g298566-d302242",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d302242-Reviews-The_Ritz_Carlton_Osaka-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "The Ritz-Carlton, Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:13.218Z"
+    },
+    "Japan/Osaka/The-St-Regis-Osaka": {
+      "tripadvisor_id": "g14127623-d1830576",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14127623-d1830576-Reviews-The_St_Regis_Osaka-Chuo_Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "The St. Regis Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:19.222Z"
+    },
+    "Japan/Osaka/W-Osaka": {
+      "tripadvisor_id": "g14127623-d23115695",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14127623-d23115695-Reviews-W_Osaka-Chuo_Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "W Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:25.160Z"
+    },
+    "Japan/Osaka/Waldorf-Astoria-Osaka": {
+      "tripadvisor_id": "g298566-d32993428",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d32993428-Reviews-Waldorf_Astoria_Osaka-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "Waldorf Astoria Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:31.341Z"
+    },
+    "Japan/Shima-shi/Amanemu": {
+      "tripadvisor_id": "g1019679-d9776409",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1019679-d9776409-Reviews-Amanemu-Shima_Mie_Prefecture_Tokai_Chubu.html",
+      "search_query": "Amanemu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:37.310Z"
+    },
+    "Japan/Shizuoka/Fuji-Speedway-Hotel": {
+      "tripadvisor_id": "g1121213-d24895813",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1121213-d24895813-Reviews-Fuji_Speedway_Hotel-Oyama_cho_Sunto_gun_Shizuoka_Prefecture_Tokai_Chubu.html",
+      "search_query": "Fuji Speedway Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:43.208Z"
+    },
+    "Japan/Tokyo/Aman-Tokyo": {
+      "tripadvisor_id": "g14129477-d7371377",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129477-d7371377-Reviews-Aman_Tokyo-Otemachi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Aman Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:49.133Z"
+    },
+    "Japan/Tokyo/Andaz-Tokyo-Toranomon-Hills": {
+      "tripadvisor_id": "g14129647-d6485175",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129647-d6485175-Reviews-Andaz_Tokyo_Toranomon_Hills-Toranomon_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Andaz Tokyo Toranomon Hills",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:14:55.186Z"
+    },
+    "Japan/Tokyo/Bellustar-Tokyo-A-Pan-Pacific-Hotel": {
+      "tripadvisor_id": "g14133667-d25267573",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14133667-d25267573-Reviews-BELLUSTAR_TOKYO_A_Pan_Pacific_Hotel-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "BELLUSTAR TOKYO, A Pan Pacific Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:01.208Z"
+    },
+    "Japan/Tokyo/Bvlgari-Hotel-Tokyo": {
+      "tripadvisor_id": "g14129520-d26496949",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129520-d26496949-Reviews-Bvlgari_Hotel_Tokyo-Yaesu_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Bvlgari Hotel Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:07.427Z"
+    },
+    "Japan/Tokyo/Conrad-Tokyo": {
+      "tripadvisor_id": "g1066451-d571809",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066451-d571809-Reviews-Conrad_Tokyo-Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Conrad Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:13.486Z"
+    },
+    "Japan/Tokyo/Four-Seasons-Hotel-Tokyo-At-Marunouchi": {
+      "tripadvisor_id": "g14129528-d301911",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129528-d301911-Reviews-Four_Seasons_Hotel_Tokyo_At_Marunouchi-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kant.html",
+      "search_query": "Four Seasons Hotel Tokyo at Marunouchi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:19.480Z"
+    },
+    "Japan/Tokyo/Four-Seasons-Hotel-Tokyo-At-Otemachi": {
+      "tripadvisor_id": "g14129477-d20057286",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129477-d20057286-Reviews-Four_Seasons_Hotel_Tokyo_at_Otemachi-Otemachi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Four Seasons Hotel Tokyo at Otemachi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:25.554Z"
+    },
+    "Japan/Tokyo/Grand-Hyatt-Tokyo": {
+      "tripadvisor_id": "g14129735-d306610",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129735-d306610-Reviews-Grand_Hyatt_Tokyo-Roppongi_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Grand Hyatt Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:31.622Z"
+    },
+    "Japan/Tokyo/Hotel-New-Otani-Tokyo-Executive-House-Zen": {
+      "tripadvisor_id": "g1066443-d8844729",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066443-d8844729-Reviews-Hotel_New_Otani_Tokyo_EXECUTIVE_HOUSE_ZEN-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Hotel New Otani Tokyo Executive House Zen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:37.674Z"
+    },
+    "Japan/Tokyo/Janu-Tokyo": {
+      "tripadvisor_id": "g1066451-d27094092",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066451-d27094092-Reviews-Janu_Tokyo-Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Janu Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:43.816Z"
+    },
+    "Japan/Tokyo/Mandarin-Oriental-Tokyo": {
+      "tripadvisor_id": "g1066444-d585204",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066444-d585204-Reviews-Mandarin_Oriental_Tokyo-Chuo_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Mandarin Oriental, Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:49.824Z"
+    },
+    "Japan/Tokyo/Palace-Hotel-Tokyo": {
+      "tripadvisor_id": "g14129528-d2528953",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129528-d2528953-Reviews-Palace_Hotel_Tokyo-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Palace Hotel Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:15:55.883Z"
+    },
+    "Japan/Tokyo/Park-Hyatt-Tokyo": {
+      "tripadvisor_id": "g14133673-d307368",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14133673-d307368-Reviews-Park_Hyatt_Tokyo-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Park Hyatt Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:16:01.781Z"
+    },
+    "Japan/Tokyo/Shangri-la-Tokyo": {
+      "tripadvisor_id": "g14129528-d1235856",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129528-d1235856-Reviews-Shangri_La_Tokyo-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Shangri-La Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:16:07.832Z"
+    },
+    "Japan/Tokyo/The-Okura-Tokyo": {
+      "tripadvisor_id": "g14129647-d17545078",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129647-d17545078-Reviews-The_Okura_Tokyo-Toranomon_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Okura Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:23:44.915Z"
+    },
+    "Japan/Tokyo/The-Peninsula-Tokyo": {
+      "tripadvisor_id": "g14129536-d580687",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129536-d580687-Reviews-The_Peninsula_Tokyo-Yurakucho_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Peninsula Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:23:50.977Z"
+    },
+    "Japan/Tokyo/The-Prince-Gallery-Tokyo-Kioicho-a-Luxury-Collection-Hotel": {
+      "tripadvisor_id": "g1066443-d10031117",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066443-d10031117-Reviews-The_Prince_Gallery_Tokyo_Kioicho_A_Luxury_Collection_Hotel-Chiyoda_Tokyo_Tokyo_Prefe.html",
+      "search_query": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:23:57.044Z"
+    },
+    "Japan/Tokyo/The-Ritz-carlton-Tokyo": {
+      "tripadvisor_id": "g14129743-d634263",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129743-d634263-Reviews-The_Ritz_Carlton_Tokyo-Akasaka_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Ritz-Carlton, Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:03.056Z"
+    },
+    "Japan/Tokyo/The-Tokyo-Edition-Ginza": {
+      "tripadvisor_id": "g14129573-d26769725",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129573-d26769725-Reviews-The_Tokyo_EDITION_Ginza-Ginza_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Tokyo EDITION, Ginza",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:09.042Z"
+    },
+    "Japan/Tokyo/The-Tokyo-Edition-Toranomon": {
+      "tripadvisor_id": "g14129647-d20377084",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129647-d20377084-Reviews-The_Tokyo_EDITION_Toranomon-Toranomon_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Tokyo EDITION, Toranomon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:15.143Z"
+    },
+    "Japan/Yokohama/The-Kahala-Hotel--Resort-Yokohama": {
+      "tripadvisor_id": "g14134875-d18816209",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14134875-d18816209-Reviews-The_Kahala_Hotel_Resort_Yokohama-Minatomirai_Nishi_Yokohama_Kanagawa_Prefecture_Kan.html",
+      "search_query": "The Kahala Hotel & Resort Yokohama",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:21.198Z"
+    },
+    "Jordan/Amman/Four-Seasons-Hotel-Amman": {
+      "tripadvisor_id": "g293986-d301873",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293986-d301873-Reviews-Four_Seasons_Hotel_Amman-Amman_Amman_Governorate.html",
+      "search_query": "Four Seasons Hotel Amman",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:27.183Z"
+    },
+    "Jordan/Amman/The-St-Regis-Amman": {
+      "tripadvisor_id": "g293986-d15121935",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293986-d15121935-Reviews-The_St_Regis_Amman-Amman_Amman_Governorate.html",
+      "search_query": "The St. Regis Amman",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:33.140Z"
+    },
+    "Kazakhstan/Astana/The-St-Regis-Astana": {
+      "tripadvisor_id": "g293944-d12249823",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293944-d12249823-Reviews-The_St_Regis_Astana-Astana_Akmola_Province.html",
+      "search_query": "The St. Regis Astana",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:39.069Z"
+    },
+    "Kenya/Masai-Mara/Jw-Marriott-Masai-Mara-Lodge": {
+      "tripadvisor_id": "g12559429-d25348962",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12559429-d25348962-Reviews-JW_Marriott_Masai_Mara_Lodge-Talek_Rift_Valley_Province.html",
+      "search_query": "JW Marriott Masai Mara Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:45.041Z"
+    },
+    "Kenya/Nairobi/Hemingways-Nairobi": {
+      "tripadvisor_id": "g294207-d23129242",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294207-d23129242-Reviews-Hemingways_Eden_Residence-Nairobi.html",
+      "search_query": "Hemingways Nairobi",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:24:50.982Z"
+    },
+    "Kuwait/Kuwait-City/Four-Seasons-Hotel-Kuwait-At-Burj-Alshaya": {
+      "tripadvisor_id": "g294003-d12059033",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294003-d12059033-Reviews-Four_Seasons_Hotel_Kuwait_at_Burj_Alshaya-Kuwait_City.html",
+      "search_query": "Four Seasons Hotel Kuwait at Burj Alshaya",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:24:56.841Z"
+    },
+    "Kuwait/Kuwait-City/The-St-Regis-Kuwait": {
+      "tripadvisor_id": "g294003-d23894138",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294003-d23894138-Reviews-The_St_Regis_Kuwait-Kuwait_City.html",
+      "search_query": "The St. Regis Kuwait",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:02.663Z"
+    },
+    "Kuwait/Kuwait-City/Waldorf-Astoria-Kuwait": {
+      "tripadvisor_id": "g294003-d23617600",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294003-d23617600-Reviews-Waldorf_Astoria_Kuwait-Kuwait_City.html",
+      "search_query": "Waldorf Astoria Kuwait",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:08.686Z"
+    },
+    "Laos/Luang-Prabang/Amantaka": {
+      "tripadvisor_id": "g295415-d1503487",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295415-d1503487-Reviews-Amantaka-Luang_Prabang_Luang_Prabang_Province.html",
+      "search_query": "Amantaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:14.586Z"
+    },
+    "Laos/Luang-Prabang/Rosewood-Luang-Prabang": {
+      "tripadvisor_id": "g295415-d13569022",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295415-d13569022-Reviews-Rosewood_Luang_Prabang-Luang_Prabang_Luang_Prabang_Province.html",
+      "search_query": "Rosewood Luang Prabang",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:20.579Z"
+    },
+    "Louisiana-US/New-Orleans/Four-Seasons-Hotel-New-Orleans": {
+      "tripadvisor_id": "g60864-d23162833",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d23162833-Reviews-Four_Seasons_Hotel_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "Four Seasons Hotel New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:26.489Z"
+    },
+    "Louisiana-US/New-Orleans/Maison-Metier-By-Hyatt": {
+      "tripadvisor_id": "g60864-d16714005",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d16714005-Reviews-Maison_Metier_The_Unbound_Collection_by_Hyatt-New_Orleans_Louisiana.html",
+      "search_query": "Maison Metier by Hyatt",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:25:32.429Z"
+    },
+    "Louisiana-US/New-Orleans/The-Ritz-carlton-New-Orleans": {
+      "tripadvisor_id": "g60864-d120852",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d120852-Reviews-The_Ritz_Carlton_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "The Ritz-Carlton, New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:38.380Z"
+    },
+    "Louisiana-US/New-Orleans/The-Roosevelt-New-Orleans-a-Waldorf-Astoria-Hotel": {
+      "tripadvisor_id": "g60864-d111970",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d111970-Reviews-The_Roosevelt_New_Orleans_A_Waldorf_Astoria_Hotel-New_Orleans_Louisiana.html",
+      "search_query": "The Roosevelt New Orleans, a Waldorf Astoria Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:44.345Z"
+    },
+    "Louisiana-US/New-Orleans/The-Windsor-Court-New-Orleans": {
+      "tripadvisor_id": "g60864-d89158",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d89158-Reviews-The_Windsor_Court-New_Orleans_Louisiana.html",
+      "search_query": "The Windsor Court, New Orleans",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:25:50.233Z"
+    },
+    "Maine-US/Kennebunk/White-Barn-Inn-Auberge-Collection": {
+      "tripadvisor_id": "g40693-d77321",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g40693-d77321-Reviews-White_Barn_Inn_Auberge_Collection-Kennebunk_Kennebunks_Maine.html",
+      "search_query": "White Barn Inn, Auberge Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:25:56.129Z"
+    },
+    "Malaysia/Bandar-Penawar/Mandarin-Oriental-Desaru-Coast": {
+      "tripadvisor_id": "g4564007-d33272859",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4564007-d33272859-Reviews-Mandarin_Oriental_Desaru_Coast-Bandar_Penawar_Kota_Tinggi_District_Johor.html",
+      "search_query": "Mandarin Oriental, Desaru Coast",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:02.164Z"
+    },
+    "Malaysia/Johor/Anantara-Desaru-Coast-Resort--Villas": {
+      "tripadvisor_id": "g4564007-d19432062",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4564007-d19432062-Reviews-Anantara_Desaru_Coast_Resort_Villas-Bandar_Penawar_Kota_Tinggi_District_Johor.html",
+      "search_query": "Anantara Desaru Coast Resort & Villas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:08.736Z"
+    },
+    "Malaysia/Kuala-Lumpur/Four-Seasons-Hotel-Kuala-Lumpur": {
+      "tripadvisor_id": "g298570-d13424907",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298570-d13424907-Reviews-Four_Seasons_Hotel_Kuala_Lumpur-Kuala_Lumpur_Wilayah_Persekutuan.html",
+      "search_query": "Four Seasons Hotel Kuala Lumpur",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:14.644Z"
+    },
+    "Malaysia/Kuala-Lumpur/Mandarin-Oriental-Kuala-Lumpur": {
+      "tripadvisor_id": "g298570-d301416",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298570-d301416-Reviews-or20-Mandarin_Oriental_Kuala_Lumpur-Kuala_Lumpur_Wilayah_Persekutuan.html",
+      "search_query": "Mandarin Oriental, Kuala Lumpur",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:20.600Z"
+    },
+    "Malaysia/Kuala-Lumpur/The-St-Regis-Kuala-Lumpur": {
+      "tripadvisor_id": "g298570-d9998062",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298570-d9998062-Reviews-The_St_Regis_Kuala_Lumpur-Kuala_Lumpur_Wilayah_Persekutuan.html",
+      "search_query": "The St. Regis Kuala Lumpur",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:26.676Z"
+    },
+    "Malaysia/Langkawi/Four-Seasons-Resort-Langkawi": {
+      "tripadvisor_id": "g10838062-d311053",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g10838062-d311053-Reviews-or1275-Four_Seasons_Resort_Langkawi_Malaysia-Tanjung_Rhu_Langkawi_Langkawi_District_K.html",
+      "search_query": "Four Seasons Resort Langkawi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:32.556Z"
+    },
+    "Malaysia/Langkawi/The-Ritz-carlton-Langkawi": {
+      "tripadvisor_id": "g298283-d12445137",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298283-d12445137-Reviews-The_Ritz_Carlton_Langkawi-Langkawi_Langkawi_District_Kedah.html",
+      "search_query": "The Ritz-Carlton, Langkawi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:26:38.485Z"
+    },
+    "Malaysia/Langkawi/The-St-Regis-Langkawi": {
+      "tripadvisor_id": "g298283-d8523437",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298283-d8523437-Reviews-The_St_Regis_Langkawi-Langkawi_Langkawi_District_Kedah.html",
+      "search_query": "The St. Regis Langkawi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:31:54.214Z"
+    },
+    "Maldives/Baa-Atoll/Four-Seasons-Maldives-Landaa-Giraavaru": {
+      "tripadvisor_id": "g6855191-d602515",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6855191-d602515-Reviews-Four_Seasons_Resort_Maldives_At_Landaa_Giraavaru-Landaagiraavaru_Island.html",
+      "search_query": "Four Seasons Maldives Landaa Giraavaru",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:32:00.173Z"
+    },
+    "Maldives/Baa-Atoll/Soneva-Fushi": {
+      "tripadvisor_id": "g3252668-d301967",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g3252668-d301967-Reviews-Soneva_Fushi-Kunfunadhoo.html",
+      "search_query": "Soneva Fushi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:06.076Z"
+    },
+    "Maldives/Dhaalu-Atoll/The-St-Regis-Maldives-Vommuli-Resort": {
+      "tripadvisor_id": "g27987203-d10366347",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g27987203-d10366347-Reviews-The_St_Regis_Maldives_Vommuli_Resort-Vommuli_Island.html",
+      "search_query": "The St. Regis Maldives Vommuli Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:11.907Z"
+    },
+    "Maldives/Finolhas/Amilla-Maldives": {
+      "tripadvisor_id": "g25339862-d7192898",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g25339862-d7192898-Reviews-Amilla_Maldives-Amilla_Fushi.html",
+      "search_query": "Amilla Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:17.768Z"
+    },
+    "Maldives/Laamu-Atoll/Six-Senses-Laamu": {
+      "tripadvisor_id": "g2050017-d2045398",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2050017-d2045398-Reviews-Six_Senses_Laamu-Olhuveli_Island.html",
+      "search_query": "Six Senses Laamu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:23.706Z"
+    },
+    "Maldives/Lhaviyani/Kudadoo-Maldives-Private-Island": {
+      "tripadvisor_id": "g23885297-d15213304",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23885297-d15213304-Reviews-Kudadoo_Maldives_Private_Island_by_Hurawalhi-Kudadhoo.html",
+      "search_query": "Kudadoo Maldives Private Island",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:29.548Z"
+    },
+    "Maldives/Makunudhoo-Atoll/Soneva-Secret": {
+      "tripadvisor_id": "g27706485-d27703269",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g27706485-d27703269-Reviews-Soneva_Secret-Dhipparufushi.html",
+      "search_query": "Soneva Secret",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:35.504Z"
+    },
+    "Maldives/Malé/Cheval-Blanc-Randheli": {
+      "tripadvisor_id": "g6697246-d4361946",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6697246-d4361946-Reviews-Cheval_Blanc_Randheli-Randheli_Island.html",
+      "search_query": "Cheval Blanc Randheli",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:41.455Z"
+    },
+    "Maldives/Malé/Jumeirah-Maldives-Olhahali-Island": {
+      "tripadvisor_id": "g15708796-d15572029",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g15708796-d15572029-Reviews-or120-Jumeirah_Maldives_Olhahali_Island-Olhahali.html",
+      "search_query": "Jumeirah Maldives Olhahali Island",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:47.243Z"
+    },
+    "Maldives/Noonu-Atoll/Soneva-Jani": {
+      "tripadvisor_id": "g12219089-d10517660",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12219089-d10517660-Reviews-Soneva_Jani-Medhufaru.html",
+      "search_query": "Soneva Jani",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:53.524Z"
+    },
+    "Maldives/Noonu-Atoll/Velaa-Private-Island": {
+      "tripadvisor_id": "g6695192-d3948884",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6695192-d3948884-Reviews-Velaa_Private_Island-Velaa_Island.html",
+      "search_query": "Velaa Private Island",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:32:59.820Z"
+    },
+    "Maldives/North-Ari-Atoll/W-Maldives": {
+      "tripadvisor_id": "g6854871-d316949",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6854871-d316949-Reviews-W_Maldives-Fesdhoo_Island.html",
+      "search_query": "W Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:05.756Z"
+    },
+    "Maldives/North-Malé-Atoll/Four-Seasons-Maldives-Kuda-Huraa": {
+      "tripadvisor_id": "g6855168-d301894",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6855168-d301894-Reviews-Four_Seasons_Resort_Maldives_at_Kuda_Huraa-Huraa_Island.html",
+      "search_query": "Four Seasons Maldives Kuda Huraa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:33:11.404Z"
+    },
+    "Maldives/North-Malé-Atoll/Gili-Lankanfushi-Maldives": {
+      "tripadvisor_id": "g4522345-d301969",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4522345-d301969-Reviews-Gili_Lankanfushi_Maldives-Lankanfushi.html",
+      "search_query": "Gili Lankanfushi, Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:17.247Z"
+    },
+    "Maldives/North-Malé-Atoll/Oneonly-Reethi-Rah": {
+      "tripadvisor_id": "g6855076-d563828",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g6855076-d563828-Reviews-One_Only_Reethi_Rah-Reethirah_Island.html",
+      "search_query": "One&Only Reethi Rah",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:23.168Z"
+    },
+    "Maldives/North-Malé-Atoll/Patina-Maldives-Fari-Islands": {
+      "tripadvisor_id": "g26224257-d21346833",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26224257-d21346833-Reviews-Patina_Maldives_Fari_Islands-Fari_Islands.html",
+      "search_query": "Patina Maldives, Fari Islands",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:28.960Z"
+    },
+    "Maldives/North-Malé-Atoll/The-Ritz-carlton-Maldives-Fari-Islands": {
+      "tripadvisor_id": "g26224257-d23300306",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26224257-d23300306-Reviews-The_Ritz_Carlton_Maldives_Fari_Islands-Fari_Islands.html",
+      "search_query": "The Ritz-Carlton Maldives, Fari Islands",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:34.832Z"
+    },
+    "Maldives/Raa-Atoll/Joali-Being": {
+      "tripadvisor_id": "g23629975-d23629976",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23629975-d23629976-Reviews-JOALI_BEING-Bodufushi.html",
+      "search_query": "JOALI Being",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:40.819Z"
+    },
+    "Maldives/Raa-Atoll/Joali-Maldives": {
+      "tripadvisor_id": "g15007903-d14010269",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g15007903-d14010269-Reviews-JOALI_Maldives-Muravandhoo.html",
+      "search_query": "JOALI Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:46.674Z"
+    },
+    "Maldives/South-Ari-Atoll/Conrad-Maldives-Rangali-Island": {
+      "tripadvisor_id": "g298325-d300676",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298325-d300676-Reviews-Conrad_Maldives_Rangali_Island-Rangali_Island.html",
+      "search_query": "Conrad Maldives Rangali Island",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:52.603Z"
+    },
+    "Maldives/South-Malé-Atoll/Taj-Exotica-Resort--Spa-Maldives": {
+      "tripadvisor_id": "g1752120-d302458",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1752120-d302458-Reviews-Taj_Exotica_Resort_Spa_Maldives-Emboodhu_Finolhu.html",
+      "search_query": "Taj Exotica Resort & Spa, Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:33:58.415Z"
+    },
+    "Maldives/South-Malé-Atoll/Waldorf-Astoria-Maldives-Ithaafushi": {
+      "tripadvisor_id": "g23960542-d15618284",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23960542-d15618284-Reviews-Waldorf_Astoria_Maldives_Ithaafushi-Ithaafushi_Island.html",
+      "search_query": "Waldorf Astoria Maldives Ithaafushi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:34:04.191Z"
+    },
+    "Malta/Floriana/The-Phoenicia-malta": {
+      "tripadvisor_id": "g1605648-d229113",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1605648-d229113-Reviews-The_Phoenicia_Malta-Floriana_Island_of_Malta.html",
+      "search_query": "The Phoenicia-Malta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:34:10.017Z"
+    },
+    "Malta/St-Julians/Me-Malta": {
+      "tripadvisor_id": "g227101-d1052587",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g227101-d1052587-Reviews-St_Julian_s_Bay_Hotel-Saint_Julian_s_Island_of_Malta.html",
+      "search_query": "ME Malta St Julians Malta",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:34:16.398Z"
+    },
+    "Malta/Valletta/Iniala-Harbour-House--Residences": {
+      "tripadvisor_id": "g190328-d21347208",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190328-d21347208-Reviews-Iniala_Harbour_House-Valletta_Island_of_Malta.html",
+      "search_query": "Iniala Harbour House & Residences",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:34:29.221Z"
+    },
+    "Maryland-US/Baltimore/Four-Seasons-Hotel-Baltimore": {
+      "tripadvisor_id": "g60811-d2322597",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60811-d2322597-Reviews-Four_Seasons_Hotel_Baltimore-Baltimore_Maryland.html",
+      "search_query": "Four Seasons Hotel Baltimore",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:34:35.311Z"
+    },
+    "Maryland-US/Baltimore/Pendry-Baltimore": {
+      "tripadvisor_id": "g60811-d11982631",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60811-d11982631-Reviews-Pendry_Baltimore-Baltimore_Maryland.html",
+      "search_query": "Pendry Baltimore",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:34:41.224Z"
+    },
+    "Maryland-US/Baltimore/The-Ivy-Hotel-Baltimore": {
+      "tripadvisor_id": "g60811-d7171583",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60811-d7171583-Reviews-The_Ivy_Hotel-Baltimore_Maryland.html",
+      "search_query": "The Ivy Hotel Baltimore",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:34:47.143Z"
+    },
+    "Maryland-US/St.-Michaels/Inn-At-Perry-Cabin": {
+      "tripadvisor_id": "g41364-d89534",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41364-d89534-Reviews-Inn_At_Perry_Cabin-St_Michaels_Talbot_County_Maryland.html",
+      "search_query": "Inn at Perry Cabin",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:38:40.268Z"
+    },
+    "Massachusetts-US/Boston/Boston-Harbor-Hotel": {
+      "tripadvisor_id": "g60745-d89575",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89575-Reviews-Boston_Harbor_Hotel-Boston_Massachusetts.html",
+      "search_query": "Boston Harbor Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:38:46.403Z"
+    },
+    "Massachusetts-US/Boston/Four-Seasons-Hotel-Boston": {
+      "tripadvisor_id": "g60745-d89585",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89585-Reviews-Four_Seasons_Hotel_Boston-Boston_Massachusetts.html",
+      "search_query": "Four Seasons Hotel Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:38:52.411Z"
+    },
+    "Massachusetts-US/Boston/Four-Seasons-Hotel-One-Dalton-Street-Boston": {
+      "tripadvisor_id": "g60745-d16901250",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d16901250-Reviews-Four_Seasons_Hotel_One_Dalton_Street_Boston-Boston_Massachusetts.html",
+      "search_query": "Four Seasons Hotel One Dalton Street, Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:38:58.424Z"
+    },
+    "Massachusetts-US/Boston/Mandarin-Oriental-Boston": {
+      "tripadvisor_id": "g60745-d1136705",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d1136705-Reviews-Mandarin_Oriental_Boston-Boston_Massachusetts.html",
+      "search_query": "Mandarin Oriental, Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:04.357Z"
+    },
+    "Massachusetts-US/Boston/Raffles-Boston": {
+      "tripadvisor_id": "g60745-d26176272",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d26176272-Reviews-Raffles_Boston-Boston_Massachusetts.html",
+      "search_query": "Raffles Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:10.355Z"
+    },
+    "Massachusetts-US/Boston/The-Langham-Boston": {
+      "tripadvisor_id": "g60745-d114149",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d114149-Reviews-The_Langham_Boston-Boston_Massachusetts.html",
+      "search_query": "The Langham, Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:16.413Z"
+    },
+    "Massachusetts-US/Boston/The-Newbury-Boston": {
+      "tripadvisor_id": "g60745-d89615",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89615-Reviews-The_Newbury_Boston-Boston_Massachusetts.html",
+      "search_query": "The Newbury Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:22.385Z"
+    },
+    "Massachusetts-US/Boston/The-Ritz-carlton-Boston": {
+      "tripadvisor_id": "g60745-d222955",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d222955-Reviews-The_Ritz_Carlton_Boston-Boston_Massachusetts.html",
+      "search_query": "The Ritz-Carlton, Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:28.691Z"
+    },
+    "Massachusetts-US/Boston/Xv-Beacon-Hotel": {
+      "tripadvisor_id": "g60745-d94337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d94337-Reviews-XV_Beacon_Hotel-Boston_Massachusetts.html",
+      "search_query": "XV Beacon Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:34.625Z"
+    },
+    "Massachusetts-US/Cambridge/The-Charles-Hotel": {
+      "tripadvisor_id": "g60890-d214890",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60890-d214890-Reviews-The_Charles_Hotel-Cambridge_Massachusetts.html",
+      "search_query": "The Charles Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:41.108Z"
+    },
+    "Massachusetts-US/Chatham/Chatham-Bars-Inn-Resort--Spa": {
+      "tripadvisor_id": "g41499-d89650",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41499-d89650-Reviews-Chatham_Bars_Inn-Chatham_Cape_Cod_Massachusetts.html",
+      "search_query": "Chatham Bars Inn Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:39:47.142Z"
+    },
+    "Massachusetts-US/Chatham/Chatham-Inn-Relais--Chateaux": {
+      "tripadvisor_id": "g41499-d77649",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41499-d77649-Reviews-Chatham_Inn_Relais_Chateaux-Chatham_Cape_Cod_Massachusetts.html",
+      "search_query": "Chatham Inn Relais & Chateaux",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:39:53.087Z"
+    },
+    "Massachusetts-US/Edgartown/Harbor-View-Hotel": {
+      "tripadvisor_id": "g41558-d89776",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41558-d89776-Reviews-Harbor_View_Hotel-Edgartown_Martha_s_Vineyard_Massachusetts.html",
+      "search_query": "Harbor View Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:39:58.988Z"
+    },
+    "Massachusetts-US/Everett/Encore-Boston-Harbor": {
+      "tripadvisor_id": "g41562-d17469241",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41562-d17469241-Reviews-Encore_Boston_Harbor-Everett_Massachusetts.html",
+      "search_query": "Encore Boston Harbor",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:04.896Z"
+    },
+    "Massachusetts-US/Harwich/Wequassett-Resort-And-Golf-Club": {
+      "tripadvisor_id": "g41601-d226567",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41601-d226567-Reviews-Wequassett_Resort_And_Golf_Club-Harwich_Cape_Cod_Massachusetts.html",
+      "search_query": "Wequassett Resort and Golf Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:11.370Z"
+    },
+    "Massachusetts-US/Lenox/Miraval-Berkshires": {
+      "tripadvisor_id": "g41639-d20378432",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41639-d20378432-Reviews-Miraval_Berkshires-Lenox_Massachusetts.html",
+      "search_query": "Miraval Berkshires",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:17.554Z"
+    },
+    "Massachusetts-US/Nantucket/The-Wauwinet": {
+      "tripadvisor_id": "g29527-d189985",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29527-d189985-Reviews-The_Wauwinet-Nantucket_Massachusetts.html",
+      "search_query": "The Wauwinet",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:23.877Z"
+    },
+    "Mauritius/Beauchamp/Four-Seasons-Resort-Mauritius-At-Anahita": {
+      "tripadvisor_id": "g1152294-d1152299",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1152294-d1152299-Reviews-Four_Seasons_Resort_Mauritius_at_Anahita-Beau_Champ.html",
+      "search_query": "Four Seasons Resort Mauritius at Anahita",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:29.479Z"
+    },
+    "Mauritius/Flacq/Oneonly-Le-Saint-Geran": {
+      "tripadvisor_id": "g298342-d302524",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298342-d302524-Reviews-or40-One_Only_Le_Saint_Geran-Belle_Mare.html",
+      "search_query": "One&Only Le Saint Geran",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:35.388Z"
+    },
+    "Mauritius/Flic-en-Flac/Maradiva-Villas-Resort--Spa": {
+      "tripadvisor_id": "g298343-d507657",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298343-d507657-Reviews-Maradiva_Villas_Resort_Spa-Flic_En_Flac.html",
+      "search_query": "Maradiva Villas Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:41.368Z"
+    },
+    "Mauritius/Le-Morne/The-St-Regis-Le-Morne-Resort-Mauritius": {
+      "tripadvisor_id": "g488105-d2655689",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488105-d2655689-Reviews-The_St_Regis_Le_Morne_Resort_Mauritius-Le_Morne.html",
+      "search_query": "The St. Regis Le Morne Resort, Mauritius",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:47.271Z"
+    },
+    "Mauritius/Trou-d'Eau-Douce/Shangri-la-Le-Touessrok-Mauritius": {
+      "tripadvisor_id": "g488107-d302533",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488107-d302533-Reviews-Shangri_la_Le_Touessrok_Mauritius-Trou_d_eau_Douce.html",
+      "search_query": "Shangri-La Le Touessrok, Mauritius",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:53.259Z"
+    },
+    "Mexico-City-MX/Mexico-City/Casa-Polanco": {
+      "tripadvisor_id": "g150800-d24058986",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d24058986-Reviews-Casa_Polanco_Hotel_Boutique-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Casa Polanco",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:40:59.128Z"
+    },
+    "Mexico-City-MX/Mexico-City/Four-Seasons-Hotel-Mexico-City": {
+      "tripadvisor_id": "g150800-d152463",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d152463-Reviews-Four_Seasons_Hotel_Mexico_City-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Four Seasons Hotel Mexico City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:41:05.395Z"
+    },
+    "Mexico-City-MX/Mexico-City/Hotel-Alexander": {
+      "tripadvisor_id": "g188113-d228238",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188113-d228238-Reviews-Hotel_Alexander-Zurich.html",
+      "search_query": "Hotel Alexander",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:41:11.302Z"
+    },
+    "Mexico-City-MX/Mexico-City/Jw-Marriott-Mexico-City-Polanco": {
+      "tripadvisor_id": "g150800-d185406",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d185406-Reviews-JW_Marriott_Hotel_Mexico_City_Polanco-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "JW Marriott Mexico City Polanco",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:41:17.379Z"
+    },
+    "Mexico-City-MX/Mexico-City/Las-Alcobas-A-Luxury-Collection-Hotel-Mexico-City": {
+      "tripadvisor_id": "g150800-d1652453",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d1652453-Reviews-Las_Alcobas_a_Luxury_Collection_Hotel_Mexico_City-Mexico_City_Central_Mexico_and_Gulf_.html",
+      "search_query": "Las Alcobas, A Luxury Collection Hotel, Mexico City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:41:23.341Z"
+    },
+    "Mexico-City-MX/Mexico-City/Sofitel-Mexico-City-Reforma": {
+      "tripadvisor_id": "g150800-d17614022",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d17614022-Reviews-Sofitel_Mexico_City_Reforma-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Sofitel Mexico City Reforma",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:41:29.199Z"
+    },
+    "Mexico-City-MX/Mexico-City/The-Ritz-carlton-Mexico-City": {
+      "tripadvisor_id": "g150800-d20098631",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d20098631-Reviews-The_Ritz_Carlton_Mexico_City-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "The Ritz-Carlton, Mexico City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:41:35.143Z"
+    },
+    "Mexico-City-MX/Mexico-City/The-St-Regis-Mexico-City": {
+      "tripadvisor_id": "g150800-d1235434",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d1235434-Reviews-The_St_Regis_Mexico_City-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "The St. Regis Mexico City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:51:51.219Z"
+    },
+    "Michigan-US/Detroit/Shinola-Hotel": {
+      "tripadvisor_id": "g42139-d15558901",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g42139-d15558901-Reviews-The_Shinola_Hotel-Detroit_Michigan.html",
+      "search_query": "Shinola Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:51:57.132Z"
+    },
+    "Minnesota-US/Minneapolis/Four-Seasons-Hotel-Minneapolis": {
+      "tripadvisor_id": "g43323-d23947747",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d23947747-Reviews-Four_Seasons_Hotel_Minneapolis-Minneapolis_Minnesota.html",
+      "search_query": "Four Seasons Hotel Minneapolis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:05.110Z"
+    },
+    "Minnesota-US/Minneapolis/Hotel-Ivy-a-Luxury-Collection-Hotel-Minneapolis": {
+      "tripadvisor_id": "g43323-d982749",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d982749-Reviews-Hotel_Ivy_A_Luxury_Collection_Hotel_Minneapolis-Minneapolis_Minnesota.html",
+      "search_query": "Hotel Ivy, a Luxury Collection Hotel, Minneapolis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:10.956Z"
+    },
+    "Missouri-US/St.-Louis/Four-Seasons-Hotel-St-Louis": {
+      "tripadvisor_id": "g44881-d940582",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44881-d940582-Reviews-Four_Seasons_Hotel_St_Louis-Saint_Louis_Missouri.html",
+      "search_query": "Four Seasons Hotel St. Louis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:16.856Z"
+    },
+    "Missouri-US/St.-Louis/The-Ritz-carlton-St-Louis": {
+      "tripadvisor_id": "g44244-d91083",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44244-d91083-Reviews-The_Ritz_Carlton_St_Louis-Clayton_Saint_Louis_Missouri.html",
+      "search_query": "The Ritz-Carlton, St. Louis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:22.752Z"
+    },
+    "Monaco/Monte-Carlo/Hotel-De-Paris-Monte-carlo": {
+      "tripadvisor_id": "g190409-d196746",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190409-d196746-Reviews-Hotel_de_Paris-Monte_Carlo.html",
+      "search_query": "Hotel de Paris Monte-Carlo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:52:28.787Z"
+    },
+    "Monaco/Monte-Carlo/Hotel-Hermitage-Monte-carlo": {
+      "tripadvisor_id": "g190409-d196745",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190409-d196745-Reviews-Hotel_Hermitage_Monte_Carlo-Monte_Carlo.html",
+      "search_query": "Hotel Hermitage Monte-Carlo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:52:35.159Z"
+    },
+    "Monaco/Monte-Carlo/Hotel-Metropole-Monte-Carlo": {
+      "tripadvisor_id": "g190409-d196744",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190409-d196744-Reviews-Hotel_Metropole_Monte_Carlo-Monte_Carlo.html",
+      "search_query": "Hotel Metropole Monte Carlo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:40.865Z"
+    },
+    "Mongolia/Ulaanbaatar/Shangri-la-Ulaanbaatar": {
+      "tripadvisor_id": "g293956-d7799662",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293956-d7799662-Reviews-Shangri_La_Ulaanbaatar-Ulaanbaatar.html",
+      "search_query": "Shangri-La Ulaanbaatar",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:46.748Z"
+    },
+    "Montana-US/Big-Sky/Montage-Big-Sky": {
+      "tripadvisor_id": "g45082-d23651162",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45082-d23651162-Reviews-Montage_Big_Sky-Big_Sky_Montana.html",
+      "search_query": "Montage Big Sky",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:52.541Z"
+    },
+    "Montana-US/Greenough/Paws-Up-Montana": {
+      "tripadvisor_id": "g45199-d528223",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45199-d528223-Reviews-Paws_Up_Montana-Greenough_Montana.html",
+      "search_query": "Paws Up Montana",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:52:58.493Z"
+    },
+    "Montana-US/Philipsburg/The-Ranch-At-Rock-Creek": {
+      "tripadvisor_id": "g45303-d1868316",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45303-d1868316-Reviews-The_Ranch_At_Rock_Creek-Philipsburg_Montana.html",
+      "search_query": "The Ranch at Rock Creek",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:04.459Z"
+    },
+    "Montenegro/Herceg-Novi/Oneonly-Portonovi": {
+      "tripadvisor_id": "g12552625-d20260251",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12552625-d20260251-Reviews-One_Only_Portonovi-Kumbor_Herceg_Novi_Municipality.html",
+      "search_query": "One&Only Portonovi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:10.561Z"
+    },
+    "Montenegro/Tivat/Regent-Porto-Montenegro": {
+      "tripadvisor_id": "g12873170-d6677752",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12873170-d6677752-Reviews-Regent_Porto_Montenegro-Tivat_Tivat_Municipality.html",
+      "search_query": "Regent Porto Montenegro",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:16.804Z"
+    },
+    "Morocco/Asni/Kasbah-Tamadot": {
+      "tripadvisor_id": "g676158-d536204",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g676158-d536204-Reviews-Kasbah_Tamadot_Sir_Richard_Branson_s_Moroccan_Retreat-Asni_Marrakech_Safi.html",
+      "search_query": "Kasbah Tamadot",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:23.397Z"
+    },
+    "Morocco/Casablanca/Four-Seasons-Hotel-Casablanca": {
+      "tripadvisor_id": "g293732-d8782614",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293732-d8782614-Reviews-Four_Seasons_Hotel_Casablanca-Casablanca_Casablanca_Settat.html",
+      "search_query": "Four Seasons Hotel Casablanca",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:29.401Z"
+    },
+    "Morocco/Casablanca/Royal-Mansour-Casablanca": {
+      "tripadvisor_id": "g293732-d302633",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293732-d302633-Reviews-Royal_Mansour_Casablanca-Casablanca_Casablanca_Settat.html",
+      "search_query": "Royal Mansour Casablanca",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:35.425Z"
+    },
+    "Morocco/Fnideq/The-St-Regis-La-Bahia-Blanca-Resort-Tamuda-Bay": {
+      "tripadvisor_id": "g2549698-d21323500",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2549698-d21323500-Reviews-The_St_Regis_La_Bahia_Blanca_Resort_Tamuda_Bay-Restinga_Smir_Tanger_Tetouan_Al_Hocei.html",
+      "search_query": "The St. Regis La Bahia Blanca Resort, Tamuda Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:41.518Z"
+    },
+    "Morocco/Marrakech/Amanjena": {
+      "tripadvisor_id": "g293734-d308203",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d308203-Reviews-Amanjena-Marrakech_Marrakech_Safi.html",
+      "search_query": "Amanjena",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:47.329Z"
+    },
+    "Morocco/Marrakech/Four-Seasons-Resort-Marrakech": {
+      "tripadvisor_id": "g293734-d2052505",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d2052505-Reviews-or50-Four_Seasons_Resort_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "Four Seasons Resort Marrakech",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:53.273Z"
+    },
+    "Morocco/Marrakech/La-Mamounia": {
+      "tripadvisor_id": "g293734-d301256",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d301256-Reviews-La_Mamounia_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "La Mamounia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:53:59.125Z"
+    },
+    "Morocco/Marrakech/Mandarin-Oriental-Marrakech": {
+      "tripadvisor_id": "g293734-d8562183",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d8562183-Reviews-or20-Mandarin_Oriental_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "Mandarin Oriental, Marrakech",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:05.129Z"
+    },
+    "Morocco/Marrakech/Park-Hyatt-Marrakech": {
+      "tripadvisor_id": "g293734-d25222275",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d25222275-Reviews-Park_Hyatt_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "Park Hyatt Marrakech",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:10.994Z"
+    },
+    "Morocco/Marrakech/Royal-Mansour-Marrakech": {
+      "tripadvisor_id": "g293734-d6621142",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d6621142-Reviews-TUI_BLUE_Medina_Gardens-Marrakech_Marrakech_Safi.html",
+      "search_query": "Royal Mansour Marrakech",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:54:16.825Z"
+    },
+    "Morocco/Marrakech/The-Oberoi-Marrakech": {
+      "tripadvisor_id": "g293734-d19141477",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d19141477-Reviews-The_Oberoi_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "The Oberoi, Marrakech",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:22.770Z"
+    },
+    "Morocco/Rabat/Conrad-Rabat-Arzana": {
+      "tripadvisor_id": "g293736-d25054745",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293736-d25054745-Reviews-Conrad_Rabat_Arzana-Rabat_Rabat_Sale_Kenitra.html",
+      "search_query": "Conrad Rabat Arzana",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:29.233Z"
+    },
+    "Morocco/Tangier/Fairmont-Tazi-Palace-Tangier": {
+      "tripadvisor_id": "g293737-d25109105",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293737-d25109105-Reviews-Fairmont_Tazi_Palace_Tangier-Tangier_Tanger_Tetouan_Al_Hoceima.html",
+      "search_query": "Fairmont Tazi Palace Tangier",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:35.254Z"
+    },
+    "Mozambique/Vilankulo/Kisawa-Sanctuary": {
+      "tripadvisor_id": "g488112-d26634034",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488112-d26634034-Reviews-Kisawa_Sanctuary-Benguerra_Island_Bazaruto_Archipelago_Inhambane_Province.html",
+      "search_query": "Kisawa Sanctuary",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:41.189Z"
+    },
+    "Nayarit-MX/El-Monteón/Rosewood-Mandarina": {
+      "tripadvisor_id": "g20172182-d28150550",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g20172182-d28150550-Reviews-Rosewood_Mandarina-Monteon_Pacific_Coast.html",
+      "search_query": "Rosewood Mandarina",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:54:47.189Z"
+    },
+    "Nayarit-MX/La-Peñita-de-Jaltemba/Siari-a-Ritz-carlton-Reserve": {
+      "tripadvisor_id": "g644395-d33404647",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g644395-d33404647-Reviews-Siari_Riviera_Nayarit_a_Ritz_Carlton_Reserve-La_Penita_de_Jaltemba_Pacific_Coast.html",
+      "search_query": "Siari, a Ritz-Carlton Reserve",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:55:56.271Z"
+    },
+    "Nayarit-MX/Municipio-de-Compostela/Oneonly-Mandarina": {
+      "tripadvisor_id": "g20172182-d19984651",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g20172182-d19984651-Reviews-One_Only_Mandarina-Monteon_Pacific_Coast.html",
+      "search_query": "One&Only Mandarina",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:02.318Z"
+    },
+    "Nayarit-MX/Punta-de-Mita/Conrad-Punta-De-Mita": {
+      "tripadvisor_id": "g499443-d18921196",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d18921196-Reviews-Conrad_Punta_De_Mita-Punta_de_Mita_Pacific_Coast.html",
+      "search_query": "Conrad Punta de Mita",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:08.146Z"
+    },
+    "Nayarit-MX/Punta-de-Mita/Four-Seasons-Resort-Punta-Mita": {
+      "tripadvisor_id": "g499443-d153285",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d153285-Reviews-Four_Seasons_Resort_Punta_Mita-Punta_de_Mita_Pacific_Coast.html",
+      "search_query": "Four Seasons Resort Punta Mita",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:14.071Z"
+    },
+    "Nayarit-MX/Punta-de-Mita/Susurros-Del-Corazon-Auberge-Collection": {
+      "tripadvisor_id": "g499443-d24096328",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d24096328-Reviews-Susurros_Del_Corazon_Auberge_Collection-Punta_de_Mita_Pacific_Coast.html",
+      "search_query": "Susurros del Corazon, Auberge Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:56:19.984Z"
+    },
+    "Nayarit-MX/Punta-de-Mita/The-St-Regis-Punta-Mita-Resort": {
+      "tripadvisor_id": "g499443-d1177214",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d1177214-Reviews-The_St_Regis_Punta_Mita_Resort-Punta_de_Mita_Pacific_Coast.html",
+      "search_query": "The St. Regis Punta Mita Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:25.868Z"
+    },
+    "Nayarit-MX/Punta-Mita/Naviva-A-Four-Seasons-Resort-Punta-Mita---All-Inclusive": {
+      "tripadvisor_id": "g499443-d25326042",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d25326042-Reviews-Naviva_A_Four_Seasons_Resort_Punta_Mita_Mexico-Punta_de_Mita_Pacific_Coast.html",
+      "search_query": "Naviva, A Four Seasons Resort, Punta Mita - All Inclusive",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:56:31.804Z"
+    },
+    "Netherlands/Amsterdam/Anantara-Grand-Hotel-Krasnapolsky-Amsterdam": {
+      "tripadvisor_id": "g188590-d229182",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d229182-Reviews-Anantara_Grand_Hotel_Krasnapolsky_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Anantara Grand Hotel Krasnapolsky Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:37.675Z"
+    },
+    "Netherlands/Amsterdam/De-Leurope-Amsterdam": {
+      "tripadvisor_id": "g188590-d232492",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d232492-Reviews-De_L_Europe_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "De L'Europe Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:43.867Z"
+    },
+    "Netherlands/Amsterdam/Intercontinental-Amstel-Amsterdam": {
+      "tripadvisor_id": "g188590-d190614",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d190614-Reviews-Intercontinental_Amstel_Amsterdam_By_Ihg-Amsterdam_North_Holland_Province.html",
+      "search_query": "InterContinental Amstel Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:56:49.911Z"
+    },
+    "Netherlands/Amsterdam/Mandarin-Oriental-Conservatorium-Amsterdam": {
+      "tripadvisor_id": "g188590-d2418096",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d2418096-Reviews-Mandarin_Oriental_Conservatorium-Amsterdam_North_Holland_Province.html",
+      "search_query": "Mandarin Oriental Conservatorium, Amsterdam",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T21:56:56.368Z"
+    },
+    "Netherlands/Amsterdam/Pillows-Grand-Boutique-Hotel-Maurits-At-The-Park": {
+      "tripadvisor_id": "g188590-d23873032",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d23873032-Reviews-Pillows_Grand_Boutique_Hotel_Maurits_At_The_Park-Amsterdam_North_Holland_Province.html",
+      "search_query": "Pillows Grand Boutique Hotel Maurits at the Park",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:02.314Z"
+    },
+    "Netherlands/Amsterdam/Pulitzer-Amsterdam": {
+      "tripadvisor_id": "g188590-d189387",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d189387-Reviews-Pulitzer_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Pulitzer Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:08.314Z"
+    },
+    "Netherlands/Amsterdam/Rosewood-Amsterdam": {
+      "tripadvisor_id": "g188590-d32814486",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d32814486-Reviews-Rosewood_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Rosewood Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:13.935Z"
+    },
+    "Netherlands/Amsterdam/Sofitel-Legend-The-Grand-Amsterdam": {
+      "tripadvisor_id": "g188590-d189389",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d189389-Reviews-Sofitel_Legend_The_Grand_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Sofitel Legend The Grand Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:19.782Z"
+    },
+    "Netherlands/Amsterdam/The-Dylan-Amsterdam": {
+      "tripadvisor_id": "g188590-d190667",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d190667-Reviews-or30-The_Dylan_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "The Dylan Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:25.706Z"
+    },
+    "Netherlands/Amsterdam/Tivoli-Doelen": {
+      "tripadvisor_id": "g188590-d229171",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d229171-Reviews-Tivoli_Doelen_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Tivoli Doelen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:31.619Z"
+    },
+    "Netherlands/Amsterdam/Waldorf-Astoria-Amsterdam": {
+      "tripadvisor_id": "g188590-d5555141",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d5555141-Reviews-Waldorf_Astoria_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Waldorf Astoria Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:37.536Z"
+    },
+    "Netherlands/The-Hague/Hotel-Des-Indes": {
+      "tripadvisor_id": "g188633-d233021",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188633-d233021-Reviews-Hotel_Des_Indes_The_Hague-The_Hague_South_Holland_Province.html",
+      "search_query": "Hotel Des Indes",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:43.546Z"
+    },
+    "Nevada-US/Incline-Village/Hyatt-Regency-Lake-Tahoe-Resort-Spa-And-Casino": {
+      "tripadvisor_id": "g45956-d84627",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45956-d84627-Reviews-Hyatt_Regency_Lake_Tahoe_Resort_Spa_And_Casino-Incline_Village_Lake_Tahoe_Nevada_Nevada.html",
+      "search_query": "Hyatt Regency Lake Tahoe Resort, Spa and Casino",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:49.633Z"
+    },
+    "Nevada-US/Las-Vegas/Bellagio": {
+      "tripadvisor_id": "g45963-d91703",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d91703-Reviews-Bellagio_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Bellagio",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T21:57:55.824Z"
     }
   }
 }

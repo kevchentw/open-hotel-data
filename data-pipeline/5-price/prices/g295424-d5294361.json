@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T20:31:11.992Z",
+    "generated_at": "2026-04-04T21:52:24.189Z",
     "stage": "5-price",
     "tripadvisor_id": "g295424-d5294361"
   },
   "prices": {},
+  "sample_attempts": {},
   "summary_price": {
     "cost": "123.89",
     "currency": "USD",

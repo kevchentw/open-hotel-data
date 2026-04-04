@@ -1,8 +1,165 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T20:21:51.160Z",
+    "generated_at": "2026-04-04T21:52:24.178Z",
     "stage": "5-price",
     "tripadvisor_id": "g1155135-d446833"
   },
-  "prices": {}
+  "prices": {
+    "2026-04-11": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:30:38.548Z",
+      "source": "xotelo"
+    },
+    "2026-04-14": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:30:41.214Z",
+      "source": "xotelo"
+    },
+    "2026-10-10": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:03.469Z",
+      "source": "xotelo"
+    },
+    "2026-10-13": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:06.283Z",
+      "source": "xotelo"
+    },
+    "2026-11-10": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:09.028Z",
+      "source": "xotelo"
+    },
+    "2026-11-14": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:09.198Z",
+      "source": "xotelo"
+    },
+    "2026-12-08": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:10.626Z",
+      "source": "xotelo"
+    },
+    "2026-12-12": {
+      "cost": "2656.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:11.933Z",
+      "source": "xotelo"
+    },
+    "2027-01-09": {
+      "cost": "3215.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:12.138Z",
+      "source": "xotelo"
+    },
+    "2027-01-12": {
+      "cost": "2656.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:13.758Z",
+      "source": "xotelo"
+    },
+    "2027-02-09": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:14.908Z",
+      "source": "xotelo"
+    },
+    "2027-02-13": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:15.096Z",
+      "source": "xotelo"
+    },
+    "2027-03-09": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:16.748Z",
+      "source": "xotelo"
+    },
+    "2027-03-13": {
+      "cost": "2516.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:31:17.853Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {
+    "2026-05-09": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:30:45.495Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:30:45.807Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-06-09": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:30:48.651Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-06-13": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:30:52.709Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-07-11": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:30:53.034Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-07-14": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:30:55.941Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-08-08": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:31:00.529Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-08-11": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:31:00.449Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-09-08": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:31:03.313Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-09-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T21:31:07.716Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    }
+  }
 }

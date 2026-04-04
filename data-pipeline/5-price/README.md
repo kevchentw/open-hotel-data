@@ -15,7 +15,8 @@ combine:
 - source-native lowest-price fields already captured during stage-2 enrichment
 
 If there is already a usable summary price from upstream enrichment, default to
-skip additional xotelo fetching for that hotel in order to keep the stage light.
+skip additional xotelo fetching for that hotel in order to keep the stage light
+unless force mode is enabled.
 
 ## Inputs
 
@@ -27,9 +28,9 @@ skip additional xotelo fetching for that hotel in order to keep the stage light.
 
 Write one JSON file per canonical hotel under `data-pipeline/5-price/prices/`.
 
-The current implementation writes each hotel file immediately after that hotel
-finishes processing. A partial run should therefore leave completed hotel files
-on disk instead of waiting until the very end of the stage.
+The current implementation writes each hotel file as soon as that hotel becomes
+complete for the current run. A partial run should therefore leave completed
+hotel files on disk instead of waiting until the very end of the stage.
 
 Recommended output paths:
 
@@ -41,6 +42,7 @@ Each file should contain:
 - metadata about the generated artifact
 - an optional `summary_price` value for the known lowest displayed price
 - a `prices` object keyed by stay date
+- a `sample_attempts` object keyed by stay date for no-data and retryable errors
 
 Target JSON shape:
 
@@ -59,17 +61,26 @@ Target JSON shape:
     "fetched_at": "2026-04-03T00:00:00.000Z"
   },
   "prices": {
-    "2026-04-05": {
+    "2026-04-14": {
       "currency": "USD",
       "fetched_at": "2026-04-03T00:00:00.000Z",
       "source": "xotelo",
       "cost": "640.00"
     },
-    "2026-05-05": {
+    "2026-05-12": {
       "currency": "USD",
       "fetched_at": "2026-04-03T00:00:00.000Z",
       "source": "xotelo",
       "cost": "910.00"
+    }
+  },
+  "sample_attempts": {
+    "2026-06-13": {
+      "fetched_at": "2026-04-03T00:00:00.000Z",
+      "source": "xotelo",
+      "status": "no_data",
+      "detail": "no_usable_rates",
+      "http_status": ""
     }
   }
 }
@@ -80,6 +91,7 @@ Target JSON shape:
 - `metadata.tripadvisor_id`
 - `metadata.generated_at`
 - zero or more stay-date keys inside `prices`
+- zero or more stay-date keys inside `sample_attempts`
 
 If `summary_price` is present, it should contain:
 
@@ -95,6 +107,17 @@ Each price entry must contain:
 - `source`
 - `cost`
 
+Each `sample_attempts` entry must contain:
+
+- `fetched_at`
+- `source`
+- `status`
+
+Optional `sample_attempts` fields:
+
+- `detail`
+- `http_status`
+
 ## Pricing Rules
 
 - Normalize all stored prices to USD before writing stage output.
@@ -106,6 +129,7 @@ Each price entry must contain:
 - `summary_price` is the coarse "known lowest displayed price" from an upstream
   source page and does not represent a sampled stay-date quote.
 - `prices` should only contain sampled stay-date quotes, not arbitrary summaries.
+- `sample_attempts` should only record sampled-date misses or retryable failures.
 
 ### Currency Transform Map
 
@@ -119,6 +143,24 @@ Recommended behavior:
 - fail loudly or skip the write when a currency has no approved transform rule
 - keep the transform map versioned in code so reruns remain explainable
 - allow force-refresh to recompute older converted prices if the transform map changes
+
+## Representative Sampling
+
+Default sampled pricing now uses representative dates instead of only one or two
+hard-coded offsets.
+
+Default behavior:
+
+- sample the current calendar month plus the next `11` calendar months
+- choose one deterministic workday sample and one deterministic weekend sample per month
+- default workday anchor is the second Tuesday of each month
+- default weekend anchor is the second Saturday of each month
+- anchor the month set to the first day of the current UTC month, not the exact run day
+- process work breadth-first across hotels so more hotels receive initial
+  coverage before one hotel receives many sampled dates
+
+If `STAGE5_XOTELO_STAY_DATES` is provided, that explicit list overrides the
+representative schedule for that run.
 
 ## Source-Specific Rules
 
@@ -150,7 +192,8 @@ stay-date sampling yet:
 For providers that support sampled room-rate collection:
 
 - use the canonical hotel record as the lookup target
-- insert one entry per sampled stay date into `prices`
+- insert one successful entry per sampled stay date into `prices`
+- write terminal no-data and retryable fetch errors into `sample_attempts`
 - default to skip sampled fetching when a trustworthy `summary_price` already
   exists, unless force-refresh or a targeted backfill requests sampled coverage
 
@@ -169,6 +212,11 @@ The current script uses separate handlers by source:
   exist in the price files.
 - A hotel with an existing `summary_price` may be considered complete enough to
   skip xotelo by default.
+- A sampled stay date with an existing `prices[stayDate]` value is treated as complete.
+- A sampled stay date with a `sample_attempts[stayDate].status` of `no_data` is
+  treated as complete and skipped on reruns.
+- A sampled stay date with a `sample_attempts[stayDate].status` of `fetch_error`
+  remains retryable on reruns.
 - Force-refresh may intentionally replace existing sampled prices and timestamps.
 - Partial provider coverage is acceptable as long as the canonical hotel remains
   traceable and the file stays internally consistent.
@@ -178,6 +226,8 @@ The current script uses separate handlers by source:
 - Partial failures must not erase previously stored prices unless replacement
   data has been written successfully.
 - Failed lookups should be visible in logs or metadata so reruns can target them.
+- Retryable fetch failures should remain visible in `sample_attempts` but should
+  not block reruns for the same stay date.
 - Rerunning any subset of canonical hotels should be safe.
 
 ## How To Run
@@ -219,6 +269,12 @@ Override the sampled stay dates used for xotelo:
 STAGE5_XOTELO_STAY_DATES='2026-05-10,2026-07-09' npm run pipeline:stage5:price
 ```
 
+Switch between representative and explicit sampling modes:
+
+```bash
+STAGE5_SAMPLE_MODE=representative npm run pipeline:stage5:price
+```
+
 Force a refresh of existing files and sampled dates:
 
 ```bash
@@ -235,9 +291,13 @@ STAGE5_FORCE_XOTELO=true npm run pipeline:stage5:price
 
 - `STAGE5_HOTEL_IDS`: comma-separated list of canonical `tripadvisor_id` values to process
 - `STAGE5_XOTELO_STAY_DATES`: comma-separated stay dates in `YYYY-MM-DD` format
+- `STAGE5_SAMPLE_MODE`: `representative` by default, or `explicit` to require `STAGE5_XOTELO_STAY_DATES`
+- `STAGE5_SAMPLE_MONTHS`: number of future months to sample in representative mode; default is `12`
+- `STAGE5_SAMPLE_WEEKDAY`: weekday used for the monthly workday anchor (`0` = Sunday, `2` = Tuesday by default)
+- `STAGE5_SAMPLE_WEEKEND`: weekday used for the monthly weekend anchor (`0` = Sunday, `6` = Saturday by default)
 - `STAGE5_FORCE_REFRESH=true`: overwrite existing sampled prices and refresh summary data when available
 - `STAGE5_FORCE_XOTELO=true`: allow xotelo fetches even when a usable summary price already exists
-- `STAGE5_XOTELO_CONCURRENCY`: limit parallel xotelo requests per hotel
+- `STAGE5_XOTELO_CONCURRENCY`: limit global parallel xotelo requests across the full run; default is `5`
 - `STAGE5_STAY_NIGHTS`: number of nights used for xotelo sampling; default is `1`
 
 ### Logging
@@ -247,10 +307,10 @@ The script logs one line per hotel after the file is written.
 Example:
 
 ```text
-[stage5] starting price fetch for 2 hotels (sample stay dates: 2026-05-10)
-[stage5] g1016927-d2257403 aspire-upstream summary=63.99 stays=0
-[stage5] g1049626-d23428437 fhr-xotelo summary=none stays=1 dates=2026-05-10
-[stage5] wrote 2 price artifacts to /Users/kuanyinchen/Repo/open-hotel-data/data-pipeline/5-price/prices/ (sample stay dates: 2026-05-10)
+[stage5] starting price fetch for 2 hotels (sample mode: representative, stay dates: 2026-04-11, 2026-04-14, ...)
+[stage5] g1016927-d2257403 aspire-upstream summary=63.99 stays=0 no_data=0 retryable_errors=0
+[stage5] g1049626-d23428437 fhr-xotelo summary=none stays=2 no_data=1 retryable_errors=0 dates=2026-04-14,2026-05-12
+[stage5] wrote 2 price artifacts to /Users/kuanyinchen/Repo/open-hotel-data/data-pipeline/5-price/prices/ (sample mode: representative, stay dates: 2026-04-11, 2026-04-14, ...)
 ```
 
 ## Script Notes
@@ -260,3 +320,5 @@ Example:
   artifacts in this directory.
 - If multiple providers are used, normalize them into this per-hotel contract
   before the output stage consumes them.
+- Stage 6 currently ignores `sample_attempts`; they are stored for stage-5
+  backfill and retry behavior rather than app display.

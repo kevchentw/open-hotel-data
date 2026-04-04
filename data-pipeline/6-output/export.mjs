@@ -1,5 +1,6 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { inferChainFromBrand } from "../shared/brand-chain.mjs";
 
 const STAGE = "6-output";
 const CANONICAL_INPUT_URL = new URL("../4-unique/hotel.json", import.meta.url);
@@ -120,7 +121,7 @@ function buildFallbackHotels(unmatched) {
           latitude: normalizeString(hotel.latitude),
           longitude: normalizeString(hotel.longitude),
           brand: normalizeString(hotel.brand),
-          chain: normalizeString(hotel.chain),
+          chain: inferChainFromBrand(hotel.brand, hotel.chain),
           plans: normalizeStringArray(hotel.plans).length ? normalizeStringArray(hotel.plans) : inferPlansFromSource(hotel.source),
           amenities: normalizeStringArray(hotel.amenities),
           fallback_reason: normalizeString(hotel.reason),
@@ -240,7 +241,7 @@ function pickHotelFields(hotel) {
     latitude: normalizeString(hotel.latitude),
     longitude: normalizeString(hotel.longitude),
     brand: normalizeString(hotel.brand),
-    chain: normalizeString(hotel.chain),
+    chain: inferChainFromBrand(hotel.brand, hotel.chain),
     plans: normalizeStringArray(hotel.plans),
     amenities: normalizeStringArray(hotel.amenities),
     geo_provider: normalizeString(hotel.geo_provider),

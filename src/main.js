@@ -1,7 +1,7 @@
 import "./styles.css";
 
 const HOTELS_URL = "./data/hotels.json";
-const DEFAULT_BUCKET = "thc";
+const DEFAULT_BUCKET = "aspire";
 const LIST_PAGE_SIZE = 120;
 const PRICE_BUCKET_SIZE = 100;
 const PRICE_COLOR_STOPS = [
@@ -21,11 +21,11 @@ const WORLD_VIEW = {
 };
 
 const PLAN_CONFIG = {
-  thc: {
-    key: "thc",
-    label: "Amex THC",
-    plans: ["amex_thc"],
-    description: "Hotel Collection properties from the latest export.",
+  aspire: {
+    key: "aspire",
+    label: "Aspire",
+    plans: ["hilton_aspire_resort_credit"],
+    description: "Hilton Aspire resorts that are not also in Amex FHR or THC.",
   },
   fhr: {
     key: "fhr",
@@ -33,18 +33,18 @@ const PLAN_CONFIG = {
     plans: ["amex_fhr"],
     description: "Fine Hotels + Resorts properties, including shared Aspire resorts.",
   },
-  aspire: {
-    key: "aspire",
-    label: "Aspire",
-    plans: ["hilton_aspire_resort_credit"],
-    description: "Hilton Aspire resorts that are not also in Amex FHR or THC.",
+  thc: {
+    key: "thc",
+    label: "THC",
+    plans: ["amex_thc"],
+    description: "Hotel Collection properties from the latest export.",
   },
 };
 
 const PLAN_LABELS = {
-  amex_thc: "Amex THC",
-  amex_fhr: "FHR",
   hilton_aspire_resort_credit: "Aspire",
+  amex_fhr: "FHR",
+  amex_thc: "THC",
 };
 
 const state = {
@@ -57,6 +57,8 @@ const state = {
   listPanelMode: "list",
   bucket: DEFAULT_BUCKET,
   search: "",
+  brand: "all",
+  chain: "all",
   country: "all",
   overlapPlan: "all",
   amenities: [],
@@ -118,6 +120,18 @@ function formatCurrency(value, currency = "USD") {
     style: "currency",
     currency,
     maximumFractionDigits: value >= 1000 ? 0 : 0,
+  }).format(value);
+}
+
+function formatCompactCurrency(value, currency = "USD") {
+  if (typeof value !== "number" || Number.isNaN(value)) {
+    return "—";
+  }
+
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: 0,
   }).format(value);
 }
 
@@ -186,6 +200,85 @@ function buildPriceValue(rawHotel) {
   return sampledPrices.length ? Math.min(...sampledPrices) : null;
 }
 
+function buildSampledPriceSummary(rawHotel) {
+  const priceEntries = Object.entries(rawHotel.prices || {})
+    .filter(([date]) => /^\d{4}-\d{2}-\d{2}$/u.test(date))
+    .map(([date, entry]) => {
+      const priceValue = toFiniteNumber(entry?.cost);
+      if (priceValue === null) {
+        return null;
+      }
+
+      const parsedDate = new Date(`${date}T00:00:00.000Z`);
+      if (Number.isNaN(parsedDate.getTime())) {
+        return null;
+      }
+
+      return {
+        date,
+        monthKey: date.slice(0, 7),
+        monthLabel: parsedDate.toLocaleDateString("en-US", {
+          month: "short",
+          timeZone: "UTC",
+        }),
+        isWeekend: parsedDate.getUTCDay() === 0 || parsedDate.getUTCDay() === 6,
+        value: priceValue,
+        currency: entry?.currency || rawHotel.summary_price?.currency || rawHotel.currency || "USD",
+      };
+    })
+    .filter(Boolean)
+    .sort((left, right) => left.date.localeCompare(right.date));
+
+  if (!priceEntries.length) {
+    return {
+      count: 0,
+      helperText: "",
+      months: [],
+    };
+  }
+
+  const monthMap = new Map();
+  priceEntries.forEach((entry) => {
+    if (!monthMap.has(entry.monthKey)) {
+      monthMap.set(entry.monthKey, {
+        key: entry.monthKey,
+        label: entry.monthLabel,
+        currency: entry.currency,
+        weekdayValue: null,
+        weekendValue: null,
+        minValue: entry.value,
+        maxValue: entry.value,
+      });
+    }
+
+    const month = monthMap.get(entry.monthKey);
+    month.minValue = Math.min(month.minValue, entry.value);
+    month.maxValue = Math.max(month.maxValue, entry.value);
+
+    if (entry.isWeekend) {
+      month.weekendValue = entry.value;
+    } else {
+      month.weekdayValue = entry.value;
+    }
+  });
+
+  const months = [...monthMap.values()].sort((left, right) => left.key.localeCompare(right.key));
+  const hasWeekday = months.some((month) => month.weekdayValue !== null);
+  const hasWeekend = months.some((month) => month.weekendValue !== null);
+  const helperText = hasWeekday && hasWeekend
+    ? `${months.length} months sampled · weekday and weekend snapshots`
+    : hasWeekend
+      ? `${months.length} months sampled · weekend snapshots only`
+      : `${months.length} months sampled · weekday snapshots only`;
+
+  return {
+    count: priceEntries.length,
+    helperText,
+    months,
+    entries: priceEntries,
+  };
+}
+
 function formatPlanLabel(plan) {
   return PLAN_LABELS[plan] || plan;
 }
@@ -206,6 +299,68 @@ function renderPlanPills(labels = []) {
     .join("");
 }
 
+function renderSampledPricePattern(hotel) {
+  if (!hotel.sampledPriceSummary?.months?.length) {
+    return "";
+  }
+
+  const detailRows = hotel.sampledPriceSummary.entries
+    .map((entry) => {
+      const dayLabel = entry.isWeekend ? "Weekend" : "Weekday";
+      return `
+        <div class="sampled-price-detail__row">
+          <span>${escapeHtml(entry.date)}</span>
+          <span>${escapeHtml(dayLabel)}</span>
+          <strong>${escapeHtml(formatCompactCurrency(entry.value, entry.currency))}</strong>
+        </div>
+      `;
+    })
+    .join("");
+
+  const chips = hotel.sampledPriceSummary.months
+    .map((month) => {
+      const weekdayPrice = formatCompactCurrency(month.weekdayValue, month.currency);
+      const weekendPrice = formatCompactCurrency(month.weekendValue, month.currency);
+
+      return `
+        <article class="sampled-month-chip">
+          <div class="sampled-month-chip__topline">
+            <strong>${escapeHtml(month.label)}</strong>
+            <span>${escapeHtml(formatCompactCurrency(month.minValue, month.currency))}</span>
+          </div>
+          <div class="sampled-month-chip__rows">
+            <div class="sampled-month-chip__row ${month.weekdayValue === null ? "is-muted" : ""}">
+              <span>Weekday</span>
+              <strong>${escapeHtml(weekdayPrice)}</strong>
+            </div>
+            <div class="sampled-month-chip__row ${month.weekendValue === null ? "is-muted" : ""}">
+              <span>Weekend</span>
+              <strong>${escapeHtml(weekendPrice)}</strong>
+            </div>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+
+  return `
+    <section class="sampled-price-pattern" aria-label="Sampled price pattern">
+      <div class="sampled-price-pattern__header">
+        <span class="sampled-price-pattern__eyebrow">Sampled price pattern</span>
+      </div>
+      <div class="sampled-price-pattern__grid">
+        ${chips}
+      </div>
+      <details class="sampled-price-detail">
+        <summary>Show detailed sampled prices</summary>
+        <div class="sampled-price-detail__list">
+          ${detailRows}
+        </div>
+      </details>
+    </section>
+  `;
+}
+
 function normalizeHotel([id, rawHotel]) {
   const latitude = toFiniteNumber(rawHotel.latitude);
   const longitude = toFiniteNumber(rawHotel.longitude);
@@ -214,6 +369,7 @@ function normalizeHotel([id, rawHotel]) {
   const locationLabel = buildLocationLabel(rawHotel);
   const priceValue = buildPriceValue(rawHotel);
   const quality = buildQuality(rawHotel, hasCoordinates);
+  const sampledPriceSummary = buildSampledPriceSummary(rawHotel);
 
   const amenityValues = unique(rawHotel.amenities || []);
   const normalizedAmenities = unique(amenityValues.map(normalizeText));
@@ -268,6 +424,7 @@ function normalizeHotel([id, rawHotel]) {
     sourceHotelId: rawHotel.source_hotel_id || "",
     sourceKeys: rawHotel.source_keys || [],
     generatedSource: rawHotel.display_state || rawHotel.record_type || "",
+    sampledPriceSummary,
     marker: null,
   };
 
@@ -306,8 +463,79 @@ function getBucketHotels(bucket = state.bucket) {
   return state.hotels.filter((hotel) => hotelMatchesBucket(hotel, bucket));
 }
 
+function getHotelChain(hotel) {
+  return hotel.rawHotel.chain || hotel.brand;
+}
+
 function readCountries(hotels) {
   return unique(hotels.map((hotel) => hotel.country)).sort((a, b) => a.localeCompare(b));
+}
+
+function readBrands(hotels) {
+  return unique(hotels.map((hotel) => hotel.brand)).sort((a, b) => a.localeCompare(b));
+}
+
+function readChains(hotels) {
+  return unique(hotels.map((hotel) => getHotelChain(hotel))).sort((a, b) => a.localeCompare(b));
+}
+
+function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
+  const excluded = new Set(excludedFilters);
+  const search = normalizeText(state.search);
+
+  if (!excluded.has("search") && search && !hotel.searchText.includes(search)) {
+    return false;
+  }
+
+  if (!excluded.has("country") && state.country !== "all" && hotel.country !== state.country) {
+    return false;
+  }
+
+  if (!excluded.has("brand") && state.brand !== "all" && hotel.brand !== state.brand) {
+    return false;
+  }
+
+  if (!excluded.has("chain") && state.chain !== "all" && getHotelChain(hotel) !== state.chain) {
+    return false;
+  }
+
+  if (!excluded.has("overlapPlan") && state.overlapPlan !== "all" && !hotel.plans.includes(state.overlapPlan)) {
+    return false;
+  }
+
+  if (
+    !excluded.has("amenities") &&
+    state.amenities.length &&
+    !state.amenities.every((amenity) => hotel.normalizedAmenities.includes(amenity))
+  ) {
+    return false;
+  }
+
+  return true;
+}
+
+function getScopedHotels(excludedFilters = [], bucket = state.bucket) {
+  return getBucketHotels(bucket).filter((hotel) => hotelMatchesActiveFilters(hotel, excludedFilters));
+}
+
+function readCountedOptions(hotels, getValue, getLabel = (value) => value) {
+  const counts = new Map();
+
+  hotels.forEach((hotel) => {
+    const value = getValue(hotel);
+    if (!value) {
+      return;
+    }
+
+    counts.set(value, (counts.get(value) || 0) + 1);
+  });
+
+  return [...counts.entries()]
+    .sort((left, right) => getLabel(left[0]).localeCompare(getLabel(right[0])))
+    .map(([value, count]) => ({
+      value,
+      label: `${getLabel(value)} (${formatNumber(count)})`,
+    }));
 }
 
 function populateSelect(select, options, defaultLabel) {
@@ -427,15 +655,31 @@ function updateBucketTabs() {
 
 function updateFilterOptions() {
   const bucketHotels = getBucketHotels();
-  const countries = readCountries(bucketHotels);
-  populateSelect(dom.country, countries, "All countries");
+  const brandOptions = readCountedOptions(getScopedHotels(["brand"]), (hotel) => hotel.brand);
+  populateSelect(dom.brand, brandOptions, "All brands");
 
-  if (state.country !== "all" && !countries.includes(state.country)) {
+  if (state.brand !== "all" && !brandOptions.some((option) => option.value === state.brand)) {
+    state.brand = "all";
+  }
+  dom.brand.value = state.brand;
+
+  const chainOptions = readCountedOptions(getScopedHotels(["chain"]), (hotel) => getHotelChain(hotel));
+  populateSelect(dom.chain, chainOptions, "All chains");
+
+  if (state.chain !== "all" && !chainOptions.some((option) => option.value === state.chain)) {
+    state.chain = "all";
+  }
+  dom.chain.value = state.chain;
+
+  const countryOptions = readCountedOptions(getScopedHotels(["country"]), (hotel) => hotel.country);
+  populateSelect(dom.country, countryOptions, "All countries");
+
+  if (state.country !== "all" && !countryOptions.some((option) => option.value === state.country)) {
     state.country = "all";
   }
   dom.country.value = state.country;
 
-  const overlapOptions = readOverlapOptions(bucketHotels);
+  const overlapOptions = readOverlapOptions(getScopedHotels(["overlapPlan"]));
   populateSelect(dom.overlapPlan, overlapOptions, "Any overlap");
 
   if (state.overlapPlan !== "all" && !overlapOptions.some((option) => option.value === state.overlapPlan)) {
@@ -445,7 +689,7 @@ function updateFilterOptions() {
   dom.overlapPlan.disabled = overlapOptions.length === 0;
   dom.overlapPlan.value = state.overlapPlan;
 
-  const amenityOptions = readAmenityOptions(bucketHotels);
+  const amenityOptions = readAmenityOptions(getScopedHotels(["amenities"]));
   const amenityValues = new Set(amenityOptions.map((option) => option.value));
   state.amenities = state.amenities.filter((amenity) => amenityValues.has(amenity));
 
@@ -474,32 +718,7 @@ function updateFilterOptions() {
 }
 
 function applyFilters() {
-  const search = normalizeText(state.search);
-
-  state.filteredHotels = getBucketHotels()
-    .filter((hotel) => {
-      if (search && !hotel.searchText.includes(search)) {
-        return false;
-      }
-
-      if (state.country !== "all" && hotel.country !== state.country) {
-        return false;
-      }
-
-      if (state.overlapPlan !== "all" && !hotel.plans.includes(state.overlapPlan)) {
-        return false;
-      }
-
-      if (
-        state.amenities.length &&
-        !state.amenities.every((amenity) => hotel.normalizedAmenities.includes(amenity))
-      ) {
-        return false;
-      }
-
-      return true;
-    })
-    .sort(compareHotels);
+  state.filteredHotels = getScopedHotels().sort(compareHotels);
   syncListToMapViewport();
 }
 
@@ -550,7 +769,7 @@ function createHotelRow(hotel) {
       </div>
       <p>${escapeHtml(hotel.locationLabel)}</p>
       <div class="hotel-row__meta">
-        <span>${escapeHtml(hotel.brand)}</span>
+        <span class="brand-pill">${escapeHtml(hotel.brand)}</span>
         <span>${escapeHtml(joinValues(hotel.planLabels))}</span>
       </div>
     </div>
@@ -614,6 +833,7 @@ function renderDetailView() {
 
   const amenitiesLabel = joinValues(hotel.amenities, "Amenities pending");
   const planPills = renderPlanPills(hotel.planLabels);
+  const sampledPricePattern = renderSampledPricePattern(hotel);
   dom.backToList.hidden = false;
 
   dom.list.innerHTML = `
@@ -630,6 +850,8 @@ function renderDetailView() {
         <strong>${escapeHtml(hotel.priceLabel)}</strong>
         <p>${escapeHtml(hotel.priceSubLabel)}</p>
       </div>
+
+      ${sampledPricePattern}
 
       <div class="detail-grid">
         <div class="detail-row">
@@ -977,9 +1199,9 @@ function buildShell() {
 
           <section class="bucket-strip">
             <div class="bucket-tabs">
-              <button class="bucket-tab" data-bucket="thc" type="button"></button>
-              <button class="bucket-tab" data-bucket="fhr" type="button"></button>
               <button class="bucket-tab" data-bucket="aspire" type="button"></button>
+              <button class="bucket-tab" data-bucket="fhr" type="button"></button>
+              <button class="bucket-tab" data-bucket="thc" type="button"></button>
             </div>
           </section>
         </section>
@@ -989,6 +1211,16 @@ function buildShell() {
         <label class="toolbar-group toolbar-group--search">
           <span>Search</span>
           <input id="search-input" type="search" placeholder="Hotel, brand, city, country" />
+        </label>
+
+        <label class="toolbar-group">
+          <span>Brand</span>
+          <select id="brand-select"></select>
+        </label>
+
+        <label class="toolbar-group">
+          <span>Chain</span>
+          <select id="chain-select"></select>
         </label>
 
         <label class="toolbar-group">
@@ -1058,6 +1290,8 @@ function buildShell() {
     resultsCount: document.querySelector("#results-count"),
     generatedAt: document.querySelector("#generated-at"),
     search: document.querySelector("#search-input"),
+    brand: document.querySelector("#brand-select"),
+    chain: document.querySelector("#chain-select"),
     country: document.querySelector("#country-select"),
     overlapPlan: document.querySelector("#overlap-plan-select"),
     sort: document.querySelector("#sort-select"),
@@ -1086,6 +1320,8 @@ function bindEvents() {
 
       state.bucket = nextBucket;
       state.listLimit = LIST_PAGE_SIZE;
+      state.brand = "all";
+      state.chain = "all";
       state.country = "all";
       state.overlapPlan = "all";
       state.amenities = [];
@@ -1097,6 +1333,22 @@ function bindEvents() {
 
   dom.search.addEventListener("input", (event) => {
     state.search = event.target.value;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.brand.addEventListener("change", (event) => {
+    state.brand = event.target.value;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.chain.addEventListener("change", (event) => {
+    state.chain = event.target.value;
     state.listLimit = LIST_PAGE_SIZE;
     state.shouldResetMapView = true;
     state.listPanelMode = "list";

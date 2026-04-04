@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { collectAmexLiveHotels } from "./shared/amex-live.mjs";
+import { inferChainFromBrand } from "../../shared/brand-chain.mjs";
 
 const OUTPUT_DIRECTORY_URL = new URL("../", import.meta.url);
 const OUTPUT_FILE_BY_SOURCE = {
@@ -90,7 +91,7 @@ function toStageOneHotel(hotel, generatedAt) {
     url: normalizeString(hotel.websiteUrl),
     plan: PLAN_NAME_BY_SOURCE[hotel.source] ?? "",
     brand: normalizeString(hotel.brand),
-    chain: normalizeString(hotel.chain),
+    chain: inferChainFromBrand(hotel.brand, hotel.chain),
     latitude: normalizeString(hotel.latitude),
     longitude: normalizeString(hotel.longitude),
     collected_at: generatedAt
