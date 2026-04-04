@@ -1,0 +1,3 @@
+2026/04/03-23:16:42.433 3e4702 Reusing MANIFEST /Users/kuanyinchen/Repo/open-hotel-data/data-pipeline/3-tripadvisor/.patchright/tripadvisor-profile/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/04/03-23:16:42.433 3e4702 Recovering log #3
+2026/04/03-23:16:42.434 3e4702 Reusing old log /Users/kuanyinchen/Repo/open-hotel-data/data-pipeline/3-tripadvisor/.patchright/tripadvisor-profile/Default/Sync Data/LevelDB/000003.log 

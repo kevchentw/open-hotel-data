@@ -1,0 +1,2 @@
+2026/04/03-23:12:20.392 3e2cd3 Creating DB /Users/kuanyinchen/Repo/open-hotel-data/data-pipeline/3-tripadvisor/.patchright/tripadvisor-profile/Default/Sync Data/LevelDB since it was missing.
+2026/04/03-23:12:20.412 3e2cd3 Reusing MANIFEST /Users/kuanyinchen/Repo/open-hotel-data/data-pipeline/3-tripadvisor/.patchright/tripadvisor-profile/Default/Sync Data/LevelDB/MANIFEST-000001

@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "stage": "3-tripadvisor",
+    "source": "amex_fhr",
+    "generated_at": "2026-04-04T03:38:51.339Z",
+    "record_count": 43,
+    "matched_count": 43,
+    "unmatched_count": 0
+  },
+  "matches": {
+    "Alberta-CA/Banff/Fairmont-Banff-Springs": {
+      "tripadvisor_id": "g154911-d184171",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154911-d184171-Reviews-Fairmont_Banff_Springs-Banff_Banff_National_Park_Alberta.html",
+      "search_query": "Fairmont Banff Springs",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:20:26.799Z"
+    },
+    "Alberta-CA/Jasper/The-Fairmont-Jasper-Park-Lodge": {
+      "tripadvisor_id": "g154918-d182311",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154918-d182311-Reviews-Fairmont_Jasper_Park_Lodge-Jasper_Jasper_National_Park_Alberta.html",
+      "search_query": "The Fairmont Jasper Park Lodge",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:24:47.249Z"
+    },
+    "Alberta-CA/Lake-Louise/Fairmont-Chateau-Lake-Louise": {
+      "tripadvisor_id": "g154912-d186815",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154912-d186815-Reviews-Fairmont_Chateau_Lake_Louise-Lake_Louise_Banff_National_Park_Alberta.html",
+      "search_query": "Fairmont Chateau Lake Louise",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:27:24.742Z",
+      "tripadvisor_rating": "",
+      "tripadvisor_review_count": "",
+      "tripadvisor_phone": "",
+      "tripadvisor_address": "",
+      "profile_links": []
+    },
+    "Anguilla/Barnes-Bay/Four-Seasons-Resort-And-Residences-Anguilla": {
+      "tripadvisor_id": "g671490-d1456492",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g671490-d1456492-Reviews-Four_Seasons_Resort_and_Residences_Anguilla-West_End_Village_Anguilla.html",
+      "search_query": "Four Seasons Resort and Residences Anguilla",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:31:24.537Z"
+    },
+    "Anguilla/Maundays-Bay/Cap-Juluca-A-Belmond-Hotel-Anguilla": {
+      "tripadvisor_id": "g671490-d147964",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g671490-d147964-Reviews-Cap_Juluca_A_Belmond_Hotel_Anguilla-West_End_Village_Anguilla.html",
+      "search_query": "Cap Juluca, A Belmond Hotel, Anguilla",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:33:25.214Z"
+    },
+    "Anguilla/Meads-Bay/Malliouhana-Resort-Anguilla": {
+      "tripadvisor_id": "g671490-d6427309",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g671490-d6427309-Reviews-Malliouhana_Resort-West_End_Village_Anguilla.html",
+      "search_query": "Malliouhana Resort Anguilla",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:33:57.366Z"
+    },
+    "Anguilla/Rendezvous-Bay/Aurora-Anguilla-Resort--Golf-Club": {
+      "tripadvisor_id": "g10622147-d147747",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g10622147-d147747-Reviews-Aurora_Anguilla_Resort_Golf_Club-Rendezvous_Bay_Anguilla.html",
+      "search_query": "Aurora Anguilla Resort & Golf Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:03.275Z"
+    },
+    "Anguilla/The-Valley/Zemi-Beach-House---Anguilla": {
+      "tripadvisor_id": "g7092973-d8865337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g7092973-d8865337-Reviews-Zemi_Beach_House_LXR_Hotels_Resorts-Shoal_Bay_Village_Anguilla.html",
+      "search_query": "Zemi Beach House - Anguilla",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:34:09.167Z"
+    },
+    "Antigua/Jumby-Bay-Island/Jumby-Bay-Island-Oetker-Hotels": {
+      "tripadvisor_id": "g26829253-d148078",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26829253-d148078-Reviews-Jumby_Bay_Island_Oetker_Hotels-Long_Island_Antigua_Antigua_and_Barbuda.html",
+      "search_query": "Jumby Bay Island, Oetker Hotels",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:15.053Z"
+    },
+    "Antigua/St.-John's/Hermitage-Bay": {
+      "tripadvisor_id": "g1184718-d634067",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1184718-d634067-Reviews-Hermitage_Bay-Saint_Mary_s_Antigua_Antigua_and_Barbuda.html",
+      "search_query": "Hermitage Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:20.953Z"
+    },
+    "Antigua/St.-Mary's/Carlisle-Bay": {
+      "tripadvisor_id": "g1184718-d287666",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1184718-d287666-Reviews-Carlisle_Bay_Antigua-Saint_Mary_s_Antigua_Antigua_and_Barbuda.html",
+      "search_query": "Carlisle Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:26.969Z"
+    },
+    "Argentina/Buenos-Aires/Alvear-Palace-Hotel": {
+      "tripadvisor_id": "g312741-d301972",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d301972-Reviews-Alvear_Palace_Hotel-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "Alvear Palace Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:32.818Z"
+    },
+    "Argentina/Buenos-Aires/Faena-Buenos-Aires": {
+      "tripadvisor_id": "g312741-d306696",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d306696-Reviews-Faena_Hotel_Buenos_Aires-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "Faena Buenos Aires",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:34:39.346Z"
+    },
+    "Argentina/Buenos-Aires/Four-Seasons-Hotel-Buenos-Aires": {
+      "tripadvisor_id": "g312741-d302496",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d302496-Reviews-Four_Seasons_Hotel_Buenos_Aires-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "Four Seasons Hotel Buenos Aires",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:45.473Z"
+    },
+    "Argentina/Buenos-Aires/Palacio-Duhau---Park-Hyatt-Buenos-Aires": {
+      "tripadvisor_id": "g312741-d604652",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d604652-Reviews-Palacio_Duhau_Park_Hyatt_Buenos_Aires-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "Palacio Duhau - Park Hyatt Buenos Aires",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:51.420Z"
+    },
+    "Argentina/Puerto-Iguazú/Gran-Melia-Iguazu": {
+      "tripadvisor_id": "g312804-d301940",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312804-d301940-Reviews-Gran_Melia_Iguazu-Iguazu_National_Park_Province_of_Misiones_Litoral.html",
+      "search_query": "Gran Melia Iguazu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:34:57.462Z"
+    },
+    "Argentina/San-Carlos-de-Bariloche/Llao-Llao-Resort-Golf--Spa": {
+      "tripadvisor_id": "g312848-d301975",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312848-d301975-Reviews-Llao_Llao_Resort-San_Carlos_de_Bariloche_Province_of_Rio_Negro_Patagonia.html",
+      "search_query": "Llao Llao Resort, Golf & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:35:03.410Z"
+    },
+    "Argentina/Tunuyan/The-Vines-Resort--Spa": {
+      "tripadvisor_id": "g2081372-d5556223",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2081372-d5556223-Reviews-The_Vines_Resort_Spa-Los_Sauces_Tunuyan_Department_Province_of_Mendoza_Cuyo.html",
+      "search_query": "The Vines Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:09.271Z"
+    },
+    "Argentina/Ushuaia/Arakur-Ushuaia-Resort--Spa": {
+      "tripadvisor_id": "g312855-d32759084",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312855-d32759084-Reviews-Arakur_Ushuaia_Resort_Spa-Ushuaia_Province_of_Tierra_del_Fuego_Patagonia.html",
+      "search_query": "Arakur Ushuaia Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:15.114Z"
+    },
+    "Arizona-US/Carefree/Civana-Wellness-Resort-And-Spa": {
+      "tripadvisor_id": "g31181-d74372",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31181-d74372-Reviews-CIVANA_Wellness_Resort_Spa-Carefree_Arizona.html",
+      "search_query": "CIVANA Wellness Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:35:21.017Z"
+    },
+    "Arizona-US/Marana/The-Ritz-carlton-Dove-Mountain": {
+      "tripadvisor_id": "g31274-d1526971",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31274-d1526971-Reviews-The_Ritz_Carlton_Dove_Mountain-Marana_Arizona.html",
+      "search_query": "The Ritz-Carlton, Dove Mountain",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:26.979Z"
+    },
+    "Arizona-US/Morristown/Castle-Hot-Springs": {
+      "tripadvisor_id": "g31286-d16814558",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31286-d16814558-Reviews-Castle_Hot_Springs-Morristown_Arizona.html",
+      "search_query": "Castle Hot Springs",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:32.816Z"
+    },
+    "Arizona-US/Paradise-Valley/Sanctuary-Camelback-Mountain-Resort-And-Spa": {
+      "tripadvisor_id": "g31300-d189075",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31300-d189075-Reviews-Sanctuary_Camelback_Mountain-Paradise_Valley_Arizona.html",
+      "search_query": "Sanctuary Camelback Mountain Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:35:38.763Z"
+    },
+    "Arizona-US/Phoenix/Arizona-Biltmore-Lxr-Hotels--Resorts": {
+      "tripadvisor_id": "g31310-d115484",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d115484-Reviews-Arizona_Biltmore_LXR_Hotels_Resorts-Phoenix_Arizona.html",
+      "search_query": "Arizona Biltmore, LXR Hotels & Resorts",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:44.680Z"
+    },
+    "Arizona-US/Phoenix/Royal-Palms-Resort-And-Spa": {
+      "tripadvisor_id": "g31310-d73943",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d73943-Reviews-Royal_Palms_Resort_and_Spa-Phoenix_Arizona.html",
+      "search_query": "Royal Palms Resort and Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:50.628Z"
+    },
+    "Arizona-US/Phoenix/The-Global-Ambassador": {
+      "tripadvisor_id": "g31310-d26844552",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d26844552-Reviews-The_Global_Ambassador-Phoenix_Arizona.html",
+      "search_query": "The Global Ambassador",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:35:56.356Z"
+    },
+    "Arizona-US/Scottsdale/Andaz-Scottsdale-Resort--Bungalows": {
+      "tripadvisor_id": "g31350-d10596080",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d10596080-Reviews-Andaz_Scottsdale_Resort_Bungalows-Scottsdale_Arizona.html",
+      "search_query": "Andaz Scottsdale Resort & Bungalows",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:02.299Z"
+    },
+    "Arizona-US/Scottsdale/Four-Seasons-Resort-Scottsdale-At-Troon-North": {
+      "tripadvisor_id": "g31350-d119324",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d119324-Reviews-Four_Seasons_Resort_Scottsdale_at_Troon_North-Scottsdale_Arizona.html",
+      "search_query": "Four Seasons Resort Scottsdale at Troon North",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:08.048Z"
+    },
+    "Arizona-US/Scottsdale/The-Canyon-Suites-At-The-Phoenician-a-Luxury-Collection-Resort-Scottsdale": {
+      "tripadvisor_id": "g31350-d1646985",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d1646985-Reviews-The_Canyon_Suites_at_The_Phoenician_a_Luxury_Collection_Resort_Scottsdale-Scottsdale_Ar.html",
+      "search_query": "The Canyon Suites at The Phoenician, a Luxury Collection Resort, Scottsdale",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:13.962Z"
+    },
+    "Arizona-US/Scottsdale/The-Phoenician-a-Luxury-Collection-Resort-Scottsdale": {
+      "tripadvisor_id": "g31350-d74199",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d74199-Reviews-The_Phoenician_A_Luxury_Collection_Resort_Scottsdale-Scottsdale_Arizona.html",
+      "search_query": "The Phoenician, a Luxury Collection Resort, Scottsdale",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:19.786Z"
+    },
+    "Arizona-US/Sedona/Ambiente-Sedona": {
+      "tripadvisor_id": "g31352-d25315445",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d25315445-Reviews-Ambiente_Sedona_A_Landscape_Hotel-Sedona_Arizona.html",
+      "search_query": "Ambiente Sedona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:25.653Z"
+    },
+    "Arizona-US/Sedona/Enchantment": {
+      "tripadvisor_id": "g31352-d74253",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d74253-Reviews-Enchantment_Resort-Sedona_Arizona.html",
+      "search_query": "Enchantment",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:31.529Z"
+    },
+    "Arizona-US/Sedona/Lauberge-De-Sedona": {
+      "tripadvisor_id": "g31352-d115335",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d115335-Reviews-L_Auberge_De_Sedona-Sedona_Arizona.html",
+      "search_query": "L'Auberge de Sedona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:38.039Z"
+    },
+    "Arizona-US/Sedona/Mii-Amo": {
+      "tripadvisor_id": "g31352-d1902128",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d1902128-Reviews-Mii_amo-Sedona_Arizona.html",
+      "search_query": "Mii amo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:36:43.873Z"
+    },
+    "Arizona-US/Tucson/Canyon-Ranch-Tucson": {
+      "tripadvisor_id": "g60950-d112487",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60950-d112487-Reviews-Canyon_Ranch_Wellness_Resort_Tucson-Tucson_Arizona.html",
+      "search_query": "Canyon Ranch Tucson",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:36:49.775Z"
+    },
+    "Arizona-US/Tucson/Loews-Ventana-Canyon-Resort": {
+      "tripadvisor_id": "g60950-d74515",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60950-d74515-Reviews-Loews_Ventana_Canyon_Resort-Tucson_Arizona.html",
+      "search_query": "Loews Ventana Canyon Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:38:09.934Z"
+    },
+    "Arizona-US/Tucson/Miraval-Arizona": {
+      "tripadvisor_id": "g31186-d112501",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31186-d112501-Reviews-Miraval_Arizona_Resort_and_Spa-Catalina_Arizona.html",
+      "search_query": "Miraval Arizona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:38:15.934Z"
+    },
+    "Aruba/Palm-Beach/Hyatt-Regency-Aruba-Resort-Spa--Casino": {
+      "tripadvisor_id": "g147249-d149892",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147249-d149892-Reviews-Hyatt_Regency_Aruba_Resort_Spa_and_Casino-Palm_Eagle_Beach_Aruba.html",
+      "search_query": "Hyatt Regency Aruba Resort, Spa & Casino",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:38:21.764Z"
+    },
+    "Aruba/Palm-Beach/The-Ritz-carlton-Aruba": {
+      "tripadvisor_id": "g488162-d4996021",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488162-d4996021-Reviews-The_Ritz_carlton_Aruba-Noord_Aruba.html",
+      "search_query": "The Ritz-Carlton, Aruba",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:38:27.722Z"
+    },
+    "Aruba/Palm-Beach/The-St-Regis-Aruba-Resort": {
+      "tripadvisor_id": "g488162-d29011711",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488162-d29011711-Reviews-The_St_Regis_Aruba_Resort-Noord_Aruba.html",
+      "search_query": "The St. Regis Aruba Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:38:33.531Z"
+    },
+    "Australia/Brisbane/W-Brisbane": {
+      "tripadvisor_id": "g255068-d13394680",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255068-d13394680-Reviews-or10-W_Brisbane-Brisbane_Brisbane_Region_Queensland.html",
+      "search_query": "W Brisbane",
+      "match_confidence": "high",
+      "matched_at": "2026-04-04T03:38:39.505Z"
+    },
+    "Australia/Crafers/Mount-Lofty-House-Boutique-Estate": {
+      "tripadvisor_id": "g1049626-d256970",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1049626-d256970-Reviews-Mount_Lofty_House_Estate_Adelaide_Hills_Adults_Retreat-Crafers_Adelaide_Hills_Greater_.html",
+      "search_query": "Mount Lofty House Boutique Estate",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:38:45.405Z"
+    },
+    "Australia/Crafers/Sequoia---Intimate-Adults-Only-Luxury-Lodge": {
+      "tripadvisor_id": "g1049626-d23428437",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1049626-d23428437-Reviews-Sequoia_Lodge_Exclusive_Adults_Only_Luxury-Crafers_Adelaide_Hills_Greater_Adelaide_S.html",
+      "search_query": "Sequoia - Intimate Adults Only Luxury Lodge",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-04T03:38:51.339Z"
+    }
+  }
+}

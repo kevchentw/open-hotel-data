@@ -11,6 +11,7 @@
     "pipeline:stage1:aspire": "node data-pipeline/1-list/scripts/aspire-hotel.mjs",
     "pipeline:stage2:amex": "node data-pipeline/2-enrichment/amex-hotel.mjs",
     "pipeline:stage2:hilton-resorts": "node data-pipeline/2-enrichment/hilton-resort.mjs",
+    "pipeline:stage3:fhr": "node data-pipeline/3-tripadvisor/amex-fhr-hotel.mjs",
     "pipeline:stage3:aspire": "node data-pipeline/3-tripadvisor/aspire-hotel.mjs",
     "crawl:hilton-aspire": "node scripts/crawl-hilton-aspire-hotels.mjs",
     "sync:hotels": "node scripts/sync-hotels.mjs",
@@ -18,6 +19,7 @@
     "sync:google-sheet": "node scripts/sync-google-sheet.mjs"
   },
   "dependencies": {
+    "camoufox-js": "^0.9.3",
     "papaparse": "^5.5.3",
     "playwright": "^1.59.1"
   },
