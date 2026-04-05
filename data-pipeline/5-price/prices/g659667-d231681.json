@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-05T06:27:31.169Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g659667-d231681"
+  },
+  "prices": {
+    "2026-04-23": {
+      "cost": "320.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "source": "xotelo"
+    },
+    "2026-04-25": {
+      "cost": "369.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T03:52:56.073Z",
+      "source": "xotelo"
+    },
+    "2026-05-10": {
+      "cost": "412.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T05:17:27.768Z",
+      "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "412.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T06:27:31.169Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {
+    "2026-04-11": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T03:52:56.073Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T03:52:56.073Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-14": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-15": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-16": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-17": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-18": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T03:52:56.073Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-19": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T03:52:56.073Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-20": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-21": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-22": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T04:44:11.274Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-09": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T05:17:27.768Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    }
+  }
+}
