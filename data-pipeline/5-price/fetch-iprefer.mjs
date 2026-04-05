@@ -93,6 +93,44 @@ export function aggregateCashMonths(results) {
   );
 }
 
+export function buildMonthlyStats(pointsMonths, cashMonths) {
+  const allMonths = new Set([...Object.keys(pointsMonths), ...Object.keys(cashMonths)]);
+  if (!allMonths.size) {
+    return {};
+  }
+
+  const merged = {};
+  for (const month of [...allMonths].sort()) {
+    const entry = {};
+    const cash = cashMonths[month];
+    const points = pointsMonths[month];
+
+    if (cash) {
+      entry.cash_min = cash.cash_min;
+      entry.cash_max = cash.cash_max;
+      entry.cash_available_nights = cash.cash_available_nights;
+    }
+
+    if (points) {
+      entry.points_min = points.points_min;
+      entry.points_max = points.points_max;
+      entry.points_available_nights = points.points_available_nights;
+    }
+
+    merged[month] = sortObjectKeys(entry);
+  }
+
+  return merged;
+}
+
+export function shouldFetchIprefer(artifact, forceRefresh) {
+  if (forceRefresh) {
+    return true;
+  }
+
+  return !isRecord(artifact?.iprefer);
+}
+
 // --- helpers ---
 
 function isAvailableNight(entry) {
