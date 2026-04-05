@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { aggregatePointsMonths } from "./fetch-iprefer.mjs";
+import { aggregatePointsMonths, aggregateCashMonths } from "./fetch-iprefer.mjs";
 
 test("aggregatePointsMonths groups available nights by month", () => {
   const results = {
@@ -27,4 +27,31 @@ test("aggregatePointsMonths skips nights with zero or missing points", () => {
 
 test("aggregatePointsMonths returns empty object for empty results", () => {
   assert.deepEqual(aggregatePointsMonths({}), {});
+});
+
+test("aggregateCashMonths groups available nights by month using rate+tax", () => {
+  const results = {
+    "2026-04-10": { is_available: true, has_inventory: true, allows_check_in: true, rate: 168, tax: 33 },
+    "2026-04-11": { is_available: true, has_inventory: true, allows_check_in: true, rate: 300, tax: 60 },
+    "2026-04-12": { is_available: false, has_inventory: true, allows_check_in: true, rate: 100, tax: 20 },
+    "2026-05-01": { is_available: true, has_inventory: true, allows_check_in: true, rate: 200, tax: 40 }
+  };
+  assert.deepEqual(aggregateCashMonths(results), {
+    "2026-04": { cash_min: "201.00", cash_max: "360.00", cash_available_nights: 2 },
+    "2026-05": { cash_min: "240.00", cash_max: "240.00", cash_available_nights: 1 }
+  });
+});
+
+test("aggregateCashMonths skips nights where rate is zero or negative", () => {
+  const results = {
+    "2026-04-10": { is_available: true, has_inventory: true, allows_check_in: true, rate: 0, tax: 0 },
+    "2026-04-11": { is_available: true, has_inventory: true, allows_check_in: true, rate: 200, tax: 40 }
+  };
+  assert.deepEqual(aggregateCashMonths(results), {
+    "2026-04": { cash_min: "240.00", cash_max: "240.00", cash_available_nights: 1 }
+  });
+});
+
+test("aggregateCashMonths returns empty object for empty results", () => {
+  assert.deepEqual(aggregateCashMonths({}), {});
 });

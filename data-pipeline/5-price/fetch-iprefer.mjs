@@ -48,7 +48,52 @@ export function aggregatePointsMonths(results) {
   );
 }
 
-// --- helpers (more functions added in later tasks) ---
+export function aggregateCashMonths(results) {
+  if (!isRecord(results)) {
+    return {};
+  }
+
+  const byMonth = {};
+
+  for (const [date, entry] of Object.entries(results)) {
+    if (!isAvailableNight(entry)) {
+      continue;
+    }
+
+    const rate = Number.parseFloat(String(entry.rate ?? ""));
+    const tax = Number.parseFloat(String(entry.tax ?? ""));
+    if (!Number.isFinite(rate) || rate <= 0) {
+      continue;
+    }
+
+    const total = rate + (Number.isFinite(tax) ? tax : 0);
+    const month = date.slice(0, 7);
+
+    if (!byMonth[month]) {
+      byMonth[month] = { min: total, max: total, count: 0 };
+    } else {
+      byMonth[month].min = Math.min(byMonth[month].min, total);
+      byMonth[month].max = Math.max(byMonth[month].max, total);
+    }
+
+    byMonth[month].count += 1;
+  }
+
+  return sortObjectKeys(
+    Object.fromEntries(
+      Object.entries(byMonth).map(([month, { min, max, count }]) => [
+        month,
+        {
+          cash_min: min.toFixed(2),
+          cash_max: max.toFixed(2),
+          cash_available_nights: count
+        }
+      ])
+    )
+  );
+}
+
+// --- helpers ---
 
 function isAvailableNight(entry) {
   return Boolean(entry?.is_available) && Boolean(entry?.has_inventory) && Boolean(entry?.allows_check_in);
