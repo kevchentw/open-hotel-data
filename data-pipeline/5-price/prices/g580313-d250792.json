@@ -1,58 +1,34 @@
 {
-  "iprefer": {
-    "currency": "USD",
-    "fetched_at": "2026-04-05T02:40:16.868Z",
-    "months": {
-      "2026-04": {
-        "cash_available_nights": 26,
-        "cash_max": "1164.00",
-        "cash_min": "776.00"
-      },
-      "2026-05": {
-        "cash_available_nights": 24,
-        "cash_max": "1913.00",
-        "cash_min": "1088.00"
-      },
-      "2026-06": {
-        "cash_available_nights": 2,
-        "cash_max": "2234.00",
-        "cash_min": "1747.00"
-      },
-      "2026-07": {
-        "cash_available_nights": 1,
-        "cash_max": "1747.00",
-        "cash_min": "1747.00"
-      },
-      "2026-09": {
-        "cash_available_nights": 4,
-        "cash_max": "1333.00",
-        "cash_min": "1333.00"
-      },
-      "2026-10": {
-        "cash_available_nights": 28,
-        "cash_max": "1370.00",
-        "cash_min": "1017.00"
-      },
-      "2026-11": {
-        "cash_available_nights": 30,
-        "cash_max": "725.00",
-        "cash_min": "633.00"
-      },
-      "2026-12": {
-        "cash_available_nights": 29,
-        "cash_max": "830.00",
-        "cash_min": "633.00"
-      },
-      "2027-01": {
-        "cash_available_nights": 6,
-        "cash_max": "888.00",
-        "cash_min": "725.00"
-      }
-    }
-  },
   "metadata": {
-    "generated_at": "2026-04-05T02:40:16.868Z",
+    "generated_at": "2026-04-05T05:55:42.079Z",
     "stage": "5-price",
     "tripadvisor_id": "g580313-d250792"
-  }
+  },
+  "prices": {
+    "2026-04-11": {
+      "cost": "950.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T03:48:41.140Z",
+      "source": "xotelo"
+    },
+    "2026-04-14": {
+      "cost": "776.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T04:35:05.611Z",
+      "source": "xotelo"
+    },
+    "2026-05-09": {
+      "cost": "1088.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T05:12:56.814Z",
+      "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "1334.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T05:55:42.079Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {}
 }

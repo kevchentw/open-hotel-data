@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-05T05:40:44.898Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g293974-d10619176"
+  },
+  "prices": {
+    "2026-04-11": {
+      "cost": "333.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T03:36:56.568Z",
+      "source": "xotelo"
+    },
+    "2026-04-14": {
+      "cost": "333.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T04:19:41.126Z",
+      "source": "xotelo"
+    },
+    "2026-05-09": {
+      "cost": "353.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T05:02:02.149Z",
+      "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "358.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T05:40:44.897Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {}
+}
