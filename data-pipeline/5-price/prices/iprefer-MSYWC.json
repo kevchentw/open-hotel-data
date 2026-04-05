@@ -1,0 +1,97 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:14:30.555Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 21,
+        "cash_max": "1530.00",
+        "cash_min": "425.00",
+        "points_available_nights": 16,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-05": {
+        "cash_available_nights": 30,
+        "cash_max": "1647.00",
+        "cash_min": "425.00",
+        "points_available_nights": 25,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "572.00",
+        "cash_min": "425.00",
+        "points_available_nights": 30,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "842.00",
+        "cash_min": "413.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "460.00",
+        "cash_min": "419.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-09": {
+        "cash_available_nights": 29,
+        "cash_max": "590.00",
+        "cash_min": "437.00",
+        "points_available_nights": 29,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-10": {
+        "cash_available_nights": 27,
+        "cash_max": "9402.00",
+        "cash_min": "590.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 29,
+        "cash_max": "936.00",
+        "cash_min": "460.00",
+        "points_available_nights": 21,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-12": {
+        "cash_available_nights": 28,
+        "cash_max": "2940.00",
+        "cash_min": "472.00",
+        "points_available_nights": 9,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-01": {
+        "cash_available_nights": 28,
+        "cash_max": "819.00",
+        "cash_min": "548.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 26,
+        "cash_max": "1412.00",
+        "cash_min": "584.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 15,
+        "cash_max": "819.00",
+        "cash_min": "707.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:14:30.555Z",
+    "iprefer_source_id": "MSYWC",
+    "stage": "5-price"
+  }
+}

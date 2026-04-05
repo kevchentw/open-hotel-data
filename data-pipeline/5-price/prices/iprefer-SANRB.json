@@ -1,0 +1,83 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:18:09.907Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 24,
+        "cash_max": "507.00",
+        "cash_min": "373.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "530.00",
+        "cash_min": "330.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 29,
+        "cash_max": "627.00",
+        "cash_min": "379.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 29,
+        "cash_max": "524.00",
+        "cash_min": "398.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "495.00",
+        "cash_min": "379.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "485.00",
+        "cash_min": "388.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 27,
+        "cash_max": "476.00",
+        "cash_min": "388.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "466.00",
+        "cash_min": "388.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "473.00",
+        "cash_min": "388.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "530.00",
+        "cash_min": "450.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "541.00",
+        "cash_min": "450.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "564.00",
+        "cash_min": "450.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 22,
+        "cash_max": "895.00",
+        "cash_min": "473.00"
+      },
+      "2027-05": {
+        "cash_available_nights": 2,
+        "cash_max": "507.00",
+        "cash_min": "507.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:18:09.907Z",
+    "iprefer_source_id": "SANRB",
+    "stage": "5-price"
+  }
+}

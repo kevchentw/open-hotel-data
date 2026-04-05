@@ -1,0 +1,50 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:16:49.545Z",
+    "months": {
+      "2026-11": {
+        "cash_available_nights": 9,
+        "cash_max": "577.00",
+        "cash_min": "509.00",
+        "points_available_nights": 9,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2026-12": {
+        "cash_available_nights": 4,
+        "cash_max": "835.00",
+        "cash_min": "632.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "863.00",
+        "cash_min": "554.00",
+        "points_available_nights": 3,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "554.00",
+        "cash_min": "554.00",
+        "points_available_nights": 28,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "802.00",
+        "cash_min": "657.00",
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:16:49.545Z",
+    "iprefer_source_id": "PMICB",
+    "stage": "5-price"
+  }
+}

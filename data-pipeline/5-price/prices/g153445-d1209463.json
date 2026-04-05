@@ -1,15 +1,150 @@
 {
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T03:58:35.030Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 27,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 27,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 30,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 30,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "504.00",
+        "cash_min": "504.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "541.00",
+        "cash_min": "504.00",
+        "points_available_nights": 30,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-12": {
+        "cash_available_nights": 26,
+        "cash_max": "715.00",
+        "cash_min": "504.00",
+        "points_available_nights": 26,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "780.00",
+        "cash_min": "530.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-02": {
+        "cash_available_nights": 26,
+        "cash_max": "530.00",
+        "cash_min": "530.00",
+        "points_available_nights": 26,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "530.00",
+        "cash_min": "530.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-04": {
+        "cash_available_nights": 4,
+        "cash_max": "520.00",
+        "cash_min": "520.00",
+        "points_available_nights": 4,
+        "points_max": "75000",
+        "points_min": "75000"
+      }
+    }
+  },
   "metadata": {
-    "generated_at": "2026-04-04T20:22:59.261Z",
+    "generated_at": "2026-04-05T03:58:35.030Z",
     "stage": "5-price",
     "tripadvisor_id": "g153445-d1209463"
   },
   "prices": {
+    "2026-04-11": {
+      "cost": "303.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T21:56:53.870Z",
+      "source": "xotelo"
+    },
+    "2026-04-14": {
+      "cost": "303.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T22:42:08.437Z",
+      "source": "xotelo"
+    },
+    "2026-05-09": {
+      "cost": "423.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T00:17:08.723Z",
+      "source": "xotelo"
+    },
     "2026-05-10": {
       "cost": "298.00",
       "currency": "USD",
       "fetched_at": "2026-04-04T20:02:17.085Z",
       "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "298.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T01:30:36.349Z",
+      "source": "xotelo"
     }
-  }
+  },
+  "sample_attempts": {}
 }

@@ -1,0 +1,80 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T03:58:47.131Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 27,
+        "cash_max": "1255.00",
+        "cash_min": "800.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "1986.00",
+        "cash_min": "927.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 29,
+        "cash_max": "1698.00",
+        "cash_min": "1019.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 29,
+        "cash_max": "1064.00",
+        "cash_min": "927.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "927.00",
+        "cash_min": "840.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 24,
+        "cash_max": "927.00",
+        "cash_min": "927.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "1053.00",
+        "cash_min": "840.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 7,
+        "cash_max": "840.00",
+        "cash_min": "800.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T03:58:47.131Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g187895-d1439378"
+  },
+  "prices": {
+    "2026-04-11": {
+      "cost": "703.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T22:05:36.523Z",
+      "source": "xotelo"
+    },
+    "2026-04-14": {
+      "cost": "725.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T23:02:34.560Z",
+      "source": "xotelo"
+    },
+    "2026-05-09": {
+      "cost": "946.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T00:49:19.652Z",
+      "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "1010.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T01:51:29.319Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {}
+}

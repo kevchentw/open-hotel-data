@@ -1,0 +1,108 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:19:14.562Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 27,
+        "cash_max": "6678.00",
+        "cash_min": "779.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 30,
+        "cash_max": "4122.00",
+        "cash_min": "756.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "3294.00",
+        "cash_min": "756.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "792.00",
+        "cash_min": "671.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "671.00",
+        "cash_min": "555.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "555.00",
+        "cash_min": "555.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 29,
+        "cash_max": "668.00",
+        "cash_min": "651.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "939.00",
+        "cash_min": "695.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 22,
+        "cash_max": "567.00",
+        "cash_min": "567.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "1000.00",
+        "cash_min": "684.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 23,
+        "cash_max": "841.00",
+        "cash_min": "684.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 24,
+        "cash_max": "684.00",
+        "cash_min": "573.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 30,
+        "cash_max": "573.00",
+        "cash_min": "573.00"
+      },
+      "2027-05": {
+        "cash_available_nights": 31,
+        "cash_max": "573.00",
+        "cash_min": "573.00"
+      },
+      "2027-06": {
+        "cash_available_nights": 30,
+        "cash_max": "573.00",
+        "cash_min": "573.00"
+      },
+      "2027-07": {
+        "cash_available_nights": 31,
+        "cash_max": "605.00",
+        "cash_min": "573.00"
+      },
+      "2027-08": {
+        "cash_available_nights": 31,
+        "cash_max": "605.00",
+        "cash_min": "500.00"
+      },
+      "2027-09": {
+        "cash_available_nights": 30,
+        "cash_max": "500.00",
+        "cash_min": "454.00"
+      },
+      "2027-10": {
+        "cash_available_nights": 3,
+        "cash_max": "517.00",
+        "cash_min": "517.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:19:14.562Z",
+    "iprefer_source_id": "SJDGZ",
+    "stage": "5-price"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:14:59.323Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 27,
+        "cash_max": "909.00",
+        "cash_min": "631.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "1606.00",
+        "cash_min": "684.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 24,
+        "cash_max": "1212.00",
+        "cash_min": "901.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "932.00",
+        "cash_min": "818.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "995.00",
+        "cash_min": "745.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "1139.00",
+        "cash_min": "745.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "818.00",
+        "cash_min": "496.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "465.00",
+        "cash_min": "383.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "684.00",
+        "cash_min": "383.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "631.00",
+        "cash_min": "352.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:14:59.323Z",
+    "iprefer_source_id": "NCEMA",
+    "stage": "5-price"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:21:21.167Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 6,
+        "cash_max": "570.00",
+        "cash_min": "330.00",
+        "points_available_nights": 2,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-12": {
+        "cash_available_nights": 11,
+        "cash_max": "514.00",
+        "cash_min": "264.00",
+        "points_available_nights": 23,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-01": {
+        "cash_available_nights": 14,
+        "cash_max": "530.00",
+        "cash_min": "330.00",
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-02": {
+        "cash_available_nights": 7,
+        "cash_max": "430.00",
+        "cash_min": "405.00",
+        "points_available_nights": 24,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-03": {
+        "cash_available_nights": 18,
+        "cash_max": "480.00",
+        "cash_min": "314.00",
+        "points_available_nights": 27,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-04": {
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-05": {
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-06": {
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-07": {
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-08": {
+        "points_available_nights": 27,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-09": {
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-10": {
+        "points_available_nights": 2,
+        "points_max": "100000",
+        "points_min": "100000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:21:21.167Z",
+    "iprefer_source_id": "TRNVC",
+    "stage": "5-price"
+  }
+}

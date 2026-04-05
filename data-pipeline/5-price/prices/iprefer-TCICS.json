@@ -1,0 +1,18 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:20:42.115Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 10,
+        "cash_max": "1055.00",
+        "cash_min": "556.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:20:42.115Z",
+    "iprefer_source_id": "TCICS",
+    "stage": "5-price"
+  }
+}

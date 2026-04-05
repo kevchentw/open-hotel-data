@@ -1,0 +1,78 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:10:15.686Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 22,
+        "cash_max": "813.00",
+        "cash_min": "270.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 26,
+        "cash_max": "867.00",
+        "cash_min": "379.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 22,
+        "cash_max": "1051.00",
+        "cash_min": "357.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 27,
+        "cash_max": "726.00",
+        "cash_min": "357.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "726.00",
+        "cash_min": "400.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 22,
+        "cash_max": "1156.00",
+        "cash_min": "390.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 25,
+        "cash_max": "943.00",
+        "cash_min": "411.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "943.00",
+        "cash_min": "247.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "433.00",
+        "cash_min": "238.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "413.00",
+        "cash_min": "270.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "840.00",
+        "cash_min": "270.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 30,
+        "cash_max": "411.00",
+        "cash_min": "270.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 3,
+        "cash_max": "458.00",
+        "cash_min": "444.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:10:15.686Z",
+    "iprefer_source_id": "LEBHI",
+    "stage": "5-price"
+  }
+}

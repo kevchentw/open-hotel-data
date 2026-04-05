@@ -1,0 +1,227 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T03:58:57.997Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 6,
+        "cash_max": "1203.00",
+        "cash_min": "396.00",
+        "points_available_nights": 3,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2026-05": {
+        "cash_available_nights": 22,
+        "cash_max": "1237.00",
+        "cash_min": "396.00",
+        "points_available_nights": 14,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2026-06": {
+        "cash_available_nights": 29,
+        "cash_max": "1698.00",
+        "cash_min": "535.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 29,
+        "cash_max": "1479.00",
+        "cash_min": "650.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 21,
+        "cash_max": "1894.00",
+        "cash_min": "661.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "1687.00",
+        "cash_min": "535.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "1871.00",
+        "cash_min": "535.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "1433.00",
+        "cash_min": "443.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 16,
+        "cash_max": "811.00",
+        "cash_min": "696.00"
+      },
+      "2027-01": {
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-02": {
+        "points_available_nights": 28,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-03": {
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-04": {
+        "points_available_nights": 30,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-05": {
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-06": {
+        "points_available_nights": 30,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-07": {
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-08": {
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-09": {
+        "points_available_nights": 30,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-10": {
+        "points_available_nights": 3,
+        "points_max": "150000",
+        "points_min": "150000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T03:58:57.997Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g608933-d17651436"
+  },
+  "prices": {
+    "2026-04-11": {
+      "cost": "476.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T22:25:49.891Z",
+      "source": "xotelo"
+    },
+    "2026-05-09": {
+      "cost": "925.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T01:18:14.852Z",
+      "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "362.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T02:33:06.773Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {
+    "2026-04-14": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-15": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-16": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-17": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-20": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-21": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-22": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-23": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-24": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-27": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-28": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-29": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-30": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:49:02.661Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    }
+  }
+}

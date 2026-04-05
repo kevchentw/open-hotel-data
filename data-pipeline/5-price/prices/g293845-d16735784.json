@@ -1,8 +1,297 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T20:30:06.973Z",
+    "generated_at": "2026-04-05T03:22:28.460Z",
     "stage": "5-price",
     "tripadvisor_id": "g293845-d16735784"
   },
-  "prices": {}
+  "prices": {},
+  "sample_attempts": {
+    "2026-04-11": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:13:53.185Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:13:53.185Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-14": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-15": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-16": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-17": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-18": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:13:53.185Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-19": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:13:53.185Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-20": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-21": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-22": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-23": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-24": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-25": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:13:53.185Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-26": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:13:53.185Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-27": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-28": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-29": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-30": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:20:01.202Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-09": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-10": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-13": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-14": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-15": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-16": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-17": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-18": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-19": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-20": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-21": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-22": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-23": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-24": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-25": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-26": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-27": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-28": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-29": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T02:08:05.814Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-30": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-31": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:59:39.713Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    }
+  }
 }

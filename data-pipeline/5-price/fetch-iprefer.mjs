@@ -6,7 +6,7 @@ const IPREFER_POINTS_INPUT_URL = new URL("../1-list/iprefer-points-hotel.json", 
 const CANONICAL_INPUT_URL = new URL("../4-unique/hotel.json", import.meta.url);
 const PRICE_DIRECTORY_URL = new URL("./prices/", import.meta.url);
 const FORCE_REFRESH = parseBoolean(process.env.STAGE5_IPREFER_FORCE_REFRESH);
-const DEFAULT_CONCURRENCY = 5;
+const DEFAULT_CONCURRENCY = 1;
 const CONCURRENCY = parsePositiveInteger(process.env.STAGE5_IPREFER_CONCURRENCY, DEFAULT_CONCURRENCY);
 const FILTER_HOTEL_IDS = getFilterHotelIds();
 
@@ -196,7 +196,9 @@ export async function writeIpreferArtifacts() {
   ]);
 
   const nidLookup = buildNidLookup(ipreferPointsPayload.hotels ?? {});
-  const hotels = Object.entries(canonicalRegistry.hotels)
+
+  // Hotels in canonical registry matched to a TripAdvisor ID
+  const canonicalHotels = Object.entries(canonicalRegistry.hotels)
     .filter(([tripadvisorId, hotel]) => {
       if (FILTER_HOTEL_IDS.size && !FILTER_HOTEL_IDS.has(tripadvisorId)) {
         return false;
@@ -206,14 +208,31 @@ export async function writeIpreferArtifacts() {
     })
     .sort(([left], [right]) => left.localeCompare(right));
 
-  console.log(`[iprefer] processing ${hotels.length} hotels with iprefer_synxis_id`);
+  // Track which synxis_ids are already covered by canonical hotels
+  const coveredSynxisIds = new Set(
+    canonicalHotels.map(([, hotel]) => hotel.iprefer_synxis_id.trim())
+  );
+
+  // Fallback: iprefer hotels not matched to any TripAdvisor canonical hotel
+  const fallbackHotels = FILTER_HOTEL_IDS.size
+    ? []
+    : Object.values(ipreferPointsPayload.hotels ?? {})
+        .filter((hotel) => {
+          const synxisId = typeof hotel?.synxis_id === "string" ? hotel.synxis_id.trim() : "";
+          const sourceHotelId = typeof hotel?.source_hotel_id === "string" ? hotel.source_hotel_id.trim() : "";
+          const nid = typeof hotel?.nid === "string" ? hotel.nid.trim() : "";
+          return sourceHotelId && nid && !coveredSynxisIds.has(synxisId);
+        })
+        .sort((left, right) => left.source_hotel_id.localeCompare(right.source_hotel_id));
+
+  console.log(`[iprefer] processing ${canonicalHotels.length} canonical hotels, ${fallbackHotels.length} fallback hotels`);
 
   let fetched = 0;
   let skipped = 0;
   let failed = 0;
   let noData = 0;
 
-  await mapWithConcurrency(hotels, CONCURRENCY, async ([tripadvisorId, hotel]) => {
+  await mapWithConcurrency(canonicalHotels, CONCURRENCY, async ([tripadvisorId, hotel]) => {
     const synxisId = hotel.iprefer_synxis_id.trim();
     const nid = nidLookup.get(synxisId);
 
@@ -250,6 +269,37 @@ export async function writeIpreferArtifacts() {
     }
   });
 
+  await mapWithConcurrency(fallbackHotels, CONCURRENCY, async (hotel) => {
+    const sourceHotelId = hotel.source_hotel_id.trim();
+    const nid = hotel.nid.trim();
+    const artifactKey = `iprefer-${sourceHotelId}`;
+    const artifactUrl = new URL(`${artifactKey}.json`, PRICE_DIRECTORY_URL);
+    const existing = await readJsonOptional(artifactUrl);
+
+    if (!shouldFetchIprefer(existing, FORCE_REFRESH)) {
+      skipped += 1;
+      return;
+    }
+
+    try {
+      const ipreferData = await fetchIpreferRates(nid);
+
+      if (!ipreferData) {
+        console.warn(`[iprefer] no data returned for ${artifactKey} (nid=${nid})`);
+        noData += 1;
+        return;
+      }
+
+      const updated = sortObjectKeys({ ...(existing ?? {}), iprefer: ipreferData, metadata: buildFallbackMetadata(sourceHotelId, existing) });
+      await writeFile(artifactUrl, `${JSON.stringify(updated, null, 2)}\n`, "utf8");
+      fetched += 1;
+      console.log(`[iprefer] ${artifactKey} months=${Object.keys(ipreferData.months).length}`);
+    } catch (error) {
+      console.warn(`[iprefer] fetch failed for ${artifactKey}: ${error.message}`);
+      failed += 1;
+    }
+  });
+
   console.log(`[iprefer] done: fetched=${fetched} skipped=${skipped} no_data=${noData} failed=${failed}`);
 }
 
@@ -259,6 +309,15 @@ function buildMetadata(tripadvisorId, existing) {
     generated_at: new Date().toISOString(),
     stage: "5-price",
     tripadvisor_id: tripadvisorId
+  });
+}
+
+function buildFallbackMetadata(iprefer_source_id, existing) {
+  return sortObjectKeys({
+    ...(isRecord(existing?.metadata) ? existing.metadata : {}),
+    generated_at: new Date().toISOString(),
+    iprefer_source_id,
+    stage: "5-price"
   });
 }
 

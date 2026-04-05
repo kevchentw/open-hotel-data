@@ -1,0 +1,84 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:22:28.714Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 25,
+        "cash_max": "469.00",
+        "cash_min": "251.00",
+        "points_available_nights": 23,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-05": {
+        "cash_available_nights": 18,
+        "cash_max": "414.00",
+        "cash_min": "283.00",
+        "points_available_nights": 16,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-06": {
+        "cash_available_nights": 14,
+        "cash_max": "447.00",
+        "cash_min": "370.00",
+        "points_available_nights": 13,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-08": {
+        "cash_available_nights": 2,
+        "cash_max": "403.00",
+        "cash_min": "403.00",
+        "points_available_nights": 2,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-09": {
+        "cash_available_nights": 22,
+        "cash_max": "403.00",
+        "cash_min": "206.00",
+        "points_available_nights": 22,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-10": {
+        "cash_available_nights": 21,
+        "cash_max": "206.00",
+        "cash_min": "185.00",
+        "points_available_nights": 21,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-11": {
+        "cash_available_nights": 1,
+        "cash_max": "185.00",
+        "cash_min": "185.00",
+        "points_available_nights": 1,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-08": {
+        "points_available_nights": 14,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-09": {
+        "points_available_nights": 30,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-10": {
+        "points_available_nights": 3,
+        "points_max": "100000",
+        "points_min": "100000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:22:28.714Z",
+    "iprefer_source_id": "VCEAJ",
+    "stage": "5-price"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:13:16.666Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 26,
+        "cash_max": "1267.00",
+        "cash_min": "523.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 29,
+        "cash_max": "1267.00",
+        "cash_min": "513.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 28,
+        "cash_max": "1077.00",
+        "cash_min": "563.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 28,
+        "cash_max": "1077.00",
+        "cash_min": "462.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "493.00",
+        "cash_min": "362.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "563.00",
+        "cash_min": "372.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 20,
+        "cash_max": "663.00",
+        "cash_min": "462.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 22,
+        "cash_max": "774.00",
+        "cash_min": "493.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 17,
+        "cash_max": "965.00",
+        "cash_min": "392.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:13:16.666Z",
+    "iprefer_source_id": "MIAEA",
+    "stage": "5-price"
+  }
+}

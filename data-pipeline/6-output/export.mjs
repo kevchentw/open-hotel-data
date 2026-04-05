@@ -12,9 +12,9 @@ export async function buildStageSixOutputs() {
   const canonicalRegistry = await readJsonRequired(CANONICAL_INPUT_URL);
   validateCanonicalRegistry(canonicalRegistry);
 
-  const priceByTripadvisorId = await readPriceDirectory();
+  const { byTripadvisorId: priceByTripadvisorId, byIpreferId: priceByIpreferId } = await readPriceDirectory();
   const canonicalHotels = buildCanonicalHotels(canonicalRegistry.hotels, priceByTripadvisorId);
-  const fallbackHotels = buildFallbackHotels(canonicalRegistry.unmatched);
+  const fallbackHotels = buildFallbackHotels(canonicalRegistry.unmatched, priceByIpreferId);
   const appHotels = buildAppHotels(canonicalHotels, fallbackHotels);
   const generatedAt = new Date().toISOString();
 
@@ -26,7 +26,7 @@ export async function buildStageSixOutputs() {
         canonical_count: Object.keys(canonicalHotels).length,
         fallback_count: Object.keys(fallbackHotels).length,
         app_hotel_count: appHotels.length,
-        price_file_count: priceByTripadvisorId.size
+        price_file_count: priceByTripadvisorId.size + priceByIpreferId.size
       }),
       hotels: sortEntriesObject(canonicalHotels),
       fallback_hotels: sortEntriesObject(fallbackHotels)
@@ -92,6 +92,10 @@ function buildCanonicalHotels(hotels, priceByTripadvisorId) {
           canonicalHotel.summary_price = priceSummary.summaryPrice;
         }
 
+        if (priceSummary.ipreferPrices) {
+          canonicalHotel.iprefer_prices = priceSummary.ipreferPrices;
+        }
+
         return [
           tripadvisorId,
           sortObjectKeys(canonicalHotel)
@@ -100,23 +104,27 @@ function buildCanonicalHotels(hotels, priceByTripadvisorId) {
   );
 }
 
-function buildFallbackHotels(unmatched) {
+function buildFallbackHotels(unmatched, priceByIpreferId) {
   return Object.fromEntries(
     Object.entries(unmatched)
       .sort(([left], [right]) => left.localeCompare(right))
-      .map(([fallbackId, hotel]) => [
-        fallbackId,
-        sortObjectKeys({
+      .map(([fallbackId, hotel]) => {
+        const ipreferSourceId = normalizeString(hotel.source_hotel_id);
+        const priceSummary = ipreferSourceId ? summarizePrices(priceByIpreferId.get(ipreferSourceId)) : null;
+        const entry = sortObjectKeys({
           id: fallbackId,
           record_type: "fallback",
           source: normalizeString(hotel.source),
           source_hotel_id: normalizeString(hotel.source_hotel_id),
           amex_url: normalizeString(hotel.amex_url),
           hilton_url: normalizeString(hotel.hilton_url),
+          iprefer_url: normalizeString(hotel.iprefer_url),
+          iprefer_points: normalizeString(hotel.iprefer_points),
+          iprefer_synxis_id: normalizeString(hotel.iprefer_synxis_id),
           name: normalizeString(hotel.name),
           city: normalizeString(hotel.city),
           state_region: normalizeString(hotel.state_region),
-          country: normalizeString(hotel.country),
+          country: normalizeCountry(hotel.country),
           formatted_address: normalizeString(hotel.formatted_address),
           address: normalizeString(hotel.address),
           postal_code: normalizeString(hotel.postal_code),
@@ -131,8 +139,14 @@ function buildFallbackHotels(unmatched) {
           tripadvisor_url: normalizeString(hotel.tripadvisor_url),
           match_confidence: normalizeString(hotel.match_confidence),
           search_query: normalizeString(hotel.search_query)
-        })
-      ])
+        });
+
+        if (priceSummary?.ipreferPrices) {
+          entry.iprefer_prices = priceSummary.ipreferPrices;
+        }
+
+        return [fallbackId, sortObjectKeys(entry)];
+      })
   );
 }
 
@@ -160,17 +174,30 @@ async function readPriceDirectory() {
   try {
     const names = await readdir(PRICE_DIRECTORY_URL);
     const jsonNames = names.filter((name) => name.endsWith(".json")).sort((left, right) => left.localeCompare(right));
-    const entries = await Promise.all(
-      jsonNames.map(async (name) => {
-        const payload = await readJsonRequired(new URL(name, PRICE_DIRECTORY_URL));
-        return [normalizeString(payload?.metadata?.tripadvisor_id || name.replace(/\.json$/u, "")), payload];
-      })
+    const payloads = await Promise.all(
+      jsonNames.map((name) => readJsonRequired(new URL(name, PRICE_DIRECTORY_URL)))
     );
 
-    return new Map(entries.filter(([tripadvisorId]) => tripadvisorId));
+    const byTripadvisorId = new Map();
+    const byIpreferId = new Map();
+
+    for (const payload of payloads) {
+      const tripadvisorId = normalizeString(payload?.metadata?.tripadvisor_id);
+      const ipreferId = normalizeString(payload?.metadata?.iprefer_source_id);
+
+      if (tripadvisorId) {
+        byTripadvisorId.set(tripadvisorId, payload);
+      }
+
+      if (ipreferId) {
+        byIpreferId.set(ipreferId, payload);
+      }
+    }
+
+    return { byTripadvisorId, byIpreferId };
   } catch (error) {
     if (error && error.code === "ENOENT") {
-      return new Map();
+      return { byTripadvisorId: new Map(), byIpreferId: new Map() };
     }
 
     throw error;
@@ -182,7 +209,8 @@ function summarizePrices(payload) {
     return {
       prices: {},
       currency: "",
-      summaryPrice: null
+      summaryPrice: null,
+      ipreferPrices: null
     };
   }
 
@@ -206,8 +234,52 @@ function summarizePrices(payload) {
   return {
     prices,
     currency: normalizeString(firstPrice.currency) || normalizeString(summaryPrice?.currency),
-    summaryPrice
+    summaryPrice,
+    ipreferPrices: summarizeIpreferPrices(payload.iprefer)
   };
+}
+
+function summarizeIpreferPrices(iprefer) {
+  if (!isRecord(iprefer) || !isRecord(iprefer.months)) {
+    return null;
+  }
+
+  const months = sortEntriesObject(
+    Object.fromEntries(
+      Object.entries(iprefer.months)
+        .map(([month, data]) => {
+          if (!isRecord(data)) {
+            return null;
+          }
+
+          const entry = {};
+          const cashMin = normalizeString(data.cash_min);
+          const cashMax = normalizeString(data.cash_max);
+          const pointsMin = normalizeString(data.points_min);
+          const pointsMax = normalizeString(data.points_max);
+
+          if (cashMin) entry.cash_min = cashMin;
+          if (cashMax) entry.cash_max = cashMax;
+          if (typeof data.cash_available_nights === "number") entry.cash_available_nights = data.cash_available_nights;
+          if (pointsMin) entry.points_min = pointsMin;
+          if (pointsMax) entry.points_max = pointsMax;
+          if (typeof data.points_available_nights === "number") entry.points_available_nights = data.points_available_nights;
+
+          return [month, sortObjectKeys(entry)];
+        })
+        .filter(Boolean)
+    )
+  );
+
+  if (!Object.keys(months).length) {
+    return null;
+  }
+
+  return sortObjectKeys({
+    currency: normalizeString(iprefer.currency),
+    fetched_at: normalizeString(iprefer.fetched_at),
+    months
+  });
 }
 
 function normalizeSummaryPrice(summaryPrice) {
@@ -235,6 +307,7 @@ function pickHotelFields(hotel) {
     record_type: "canonical",
     amex_url: normalizeString(hotel.amex_url),
     hilton_url: normalizeString(hotel.hilton_url),
+    iprefer_url: normalizeString(hotel.iprefer_url),
     name: normalizeString(hotel.name),
     city: normalizeString(hotel.city),
     state_region: normalizeString(hotel.state_region),
@@ -246,6 +319,8 @@ function pickHotelFields(hotel) {
     longitude: normalizeString(hotel.longitude),
     brand: normalizeString(hotel.brand),
     chain: inferChainFromBrand(hotel.brand, hotel.chain),
+    iprefer_points: normalizeString(hotel.iprefer_points),
+    iprefer_synxis_id: normalizeString(hotel.iprefer_synxis_id),
     plans: normalizeStringArray(hotel.plans),
     amenities: normalizeStringArray(hotel.amenities),
     geo_provider: normalizeString(hotel.geo_provider),
@@ -299,6 +374,12 @@ function normalizeString(value) {
   }
 
   return String(value).trim();
+}
+
+function normalizeCountry(value) {
+  const s = normalizeString(value);
+  if (s === "Taiwan China") return "Taiwan";
+  return s;
 }
 
 function isRecord(value) {

@@ -1,0 +1,23 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:23:54.253Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 8,
+        "cash_max": "1326.00",
+        "cash_min": "872.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 4,
+        "cash_max": "708.00",
+        "cash_min": "634.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:23:54.253Z",
+    "iprefer_source_id": "ZERHZ",
+    "stage": "5-price"
+  }
+}

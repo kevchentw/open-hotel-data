@@ -1,15 +1,90 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T20:34:57.476Z",
+    "generated_at": "2026-04-05T03:22:28.516Z",
     "stage": "5-price",
     "tripadvisor_id": "g482941-d25174901"
   },
   "prices": {
+    "2026-04-19": {
+      "cost": "529.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T22:23:06.457Z",
+      "source": "xotelo"
+    },
+    "2026-04-20": {
+      "cost": "559.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T23:42:37.323Z",
+      "source": "xotelo"
+    },
+    "2026-05-09": {
+      "cost": "506.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T01:15:39.052Z",
+      "source": "xotelo"
+    },
     "2026-05-10": {
       "cost": "506.00",
       "currency": "USD",
       "fetched_at": "2026-04-04T20:13:06.415Z",
       "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "572.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T02:29:24.526Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {
+    "2026-04-11": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:23:06.457Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:23:06.457Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-14": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:42:37.323Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-15": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:42:37.323Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-16": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:42:37.323Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-17": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T23:42:37.323Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-04-18": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:23:06.457Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
     }
   }
 }

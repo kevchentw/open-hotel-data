@@ -1,0 +1,68 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:16:31.489Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 27,
+        "cash_max": "506.00",
+        "cash_min": "390.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 26,
+        "cash_max": "1164.00",
+        "cash_min": "437.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 24,
+        "cash_max": "906.00",
+        "cash_min": "598.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 29,
+        "cash_max": "777.00",
+        "cash_min": "437.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "483.00",
+        "cash_min": "368.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 24,
+        "cash_max": "621.00",
+        "cash_min": "506.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 21,
+        "cash_max": "598.00",
+        "cash_min": "460.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 25,
+        "cash_max": "506.00",
+        "cash_min": "437.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 26,
+        "cash_max": "529.00",
+        "cash_min": "437.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 28,
+        "cash_max": "690.00",
+        "cash_min": "368.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "390.00",
+        "cash_min": "368.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:16:31.489Z",
+    "iprefer_source_id": "PARNA",
+    "stage": "5-price"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:16:45.120Z",
+    "months": {
+      "2027-01": {
+        "cash_available_nights": 28,
+        "cash_max": "856.00",
+        "cash_min": "844.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "1189.00",
+        "cash_min": "952.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "1189.00",
+        "cash_min": "1189.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 9,
+        "cash_max": "1189.00",
+        "cash_min": "1189.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:16:45.120Z",
+    "iprefer_source_id": "PLJTI",
+    "stage": "5-price"
+  }
+}

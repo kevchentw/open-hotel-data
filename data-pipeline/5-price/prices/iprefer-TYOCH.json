@@ -1,0 +1,78 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:21:33.873Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 27,
+        "cash_max": "1926.00",
+        "cash_min": "714.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "1926.00",
+        "cash_min": "607.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "714.00",
+        "cash_min": "571.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "607.00",
+        "cash_min": "571.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "714.00",
+        "cash_min": "571.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "714.00",
+        "cash_min": "571.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "1071.00",
+        "cash_min": "856.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "999.00",
+        "cash_min": "785.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "1570.00",
+        "cash_min": "714.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 29,
+        "cash_max": "1285.00",
+        "cash_min": "571.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "1428.00",
+        "cash_min": "678.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "1712.00",
+        "cash_min": "856.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 3,
+        "cash_max": "856.00",
+        "cash_min": "785.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:21:33.873Z",
+    "iprefer_source_id": "TYOCH",
+    "stage": "5-price"
+  }
+}

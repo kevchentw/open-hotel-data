@@ -24,6 +24,12 @@ const SOURCE_CONFIGS = [
     stageOneUrl: new URL("../1-list/aspire-hotel.json", import.meta.url),
     stageTwoUrl: new URL("../2-enrichment/hilton-aspire-hotel.json", import.meta.url),
     stageThreeUrl: new URL("../3-tripadvisor/aspire-hotel.json", import.meta.url)
+  },
+  {
+    source: "iprefer_points",
+    stageOneUrl: new URL("../1-list/iprefer-points-hotel.json", import.meta.url),
+    stageTwoUrl: new URL("../2-enrichment/iprefer-points-hotel.json", import.meta.url),
+    stageThreeUrl: new URL("../3-tripadvisor/iprefer-points-hotel.json", import.meta.url)
   }
 ];
 
@@ -266,6 +272,7 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     tripadvisor_url: pickField(contributors, (contributor) => contributor.stageThreeMatch?.tripadvisor_url),
     amex_url: pickSourcePageUrl(contributors, ["amex_fhr", "amex_thc"]),
     hilton_url: pickSourcePageUrl(contributors, ["hilton_aspire_resort_credit"]),
+    iprefer_url: pickSourcePageUrl(contributors, ["iprefer_points"]),
     name: pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_name, contributor.stageOneHotel?.name])
     ),
@@ -275,9 +282,9 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     state_region: pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_state_region, contributor.stageOneHotel?.state_region])
     ),
-    country: pickField(contributors, (contributor) =>
+    country: normalizeCountry(pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_country, contributor.stageOneHotel?.country])
-    ),
+    )),
     postal_code: pickField(contributors, (contributor) => contributor.stageTwoHotel?.detail_postal_code),
     brand: pickField(contributors, (contributor) => contributor.stageOneHotel?.brand),
     chain: pickField(contributors, (contributor) =>
@@ -299,6 +306,12 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     geo_confidence: pickField(contributors, (contributor) => contributor.stageTwoHotel?.geo_confidence),
     geo_status: pickField(contributors, (contributor) => contributor.stageTwoHotel?.geo_status),
     amenities,
+    iprefer_points: pickField(contributors, (contributor) =>
+      contributor.source === "iprefer_points" ? contributor.stageOneHotel?.points : ""
+    ),
+    iprefer_synxis_id: pickField(contributors, (contributor) =>
+      contributor.source === "iprefer_points" ? contributor.stageOneHotel?.synxis_id : ""
+    ),
     plans,
     source_count: contributors.length,
     source_keys: sourceKeys
@@ -368,6 +381,15 @@ function buildUnmatchedRecord(record) {
     hilton_url: record.source === "hilton_aspire_resort_credit"
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
       : "",
+    iprefer_url: record.source === "iprefer_points"
+      ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
+      : "",
+    iprefer_points: record.source === "iprefer_points"
+      ? normalizeString(record.stageOneHotel.points)
+      : "",
+    iprefer_synxis_id: record.source === "iprefer_points"
+      ? normalizeString(record.stageOneHotel.synxis_id)
+      : "",
     name: firstNonEmpty([
       record.stageTwoHotel.detail_name,
       record.stageOneHotel.name
@@ -388,10 +410,10 @@ function buildUnmatchedRecord(record) {
       record.stageTwoHotel.detail_state_region,
       record.stageOneHotel.state_region
     ]),
-    country: firstNonEmpty([
+    country: normalizeCountry(firstNonEmpty([
       record.stageTwoHotel.detail_country,
       record.stageOneHotel.country
-    ]),
+    ])),
     postal_code: firstNonEmpty([
       record.stageTwoHotel.detail_postal_code
     ]),
@@ -491,6 +513,12 @@ function normalizeString(value) {
   }
 
   return String(value).trim();
+}
+
+function normalizeCountry(value) {
+  const s = normalizeString(value);
+  if (s === "Taiwan China") return "Taiwan";
+  return s;
 }
 
 function normalizeHotelName(value) {

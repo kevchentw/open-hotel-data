@@ -1,0 +1,18 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T03:59:06.686Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 26,
+        "cash_max": "887.00",
+        "cash_min": "530.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T03:59:06.686Z",
+    "iprefer_source_id": "ACECL",
+    "stage": "5-price"
+  }
+}

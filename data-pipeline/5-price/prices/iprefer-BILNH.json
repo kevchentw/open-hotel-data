@@ -1,0 +1,146 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:02:36.856Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 26,
+        "cash_max": "285.00",
+        "cash_min": "207.00",
+        "points_available_nights": 24,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "275.00",
+        "cash_min": "226.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "265.00",
+        "cash_min": "226.00",
+        "points_available_nights": 30,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "265.00",
+        "cash_min": "226.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "324.00",
+        "cash_min": "226.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "265.00",
+        "cash_min": "226.00",
+        "points_available_nights": 30,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "265.00",
+        "cash_min": "226.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 30,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-01": {
+        "cash_available_nights": 31,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 28,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-04": {
+        "cash_available_nights": 30,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 30,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-05": {
+        "cash_available_nights": 31,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-06": {
+        "cash_available_nights": 30,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 30,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-07": {
+        "cash_available_nights": 30,
+        "cash_max": "236.00",
+        "cash_min": "207.00",
+        "points_available_nights": 31,
+        "points_max": "50000",
+        "points_min": "50000"
+      },
+      "2027-08": {
+        "points_available_nights": 1,
+        "points_max": "50000",
+        "points_min": "50000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:02:36.856Z",
+    "iprefer_source_id": "BILNH",
+    "stage": "5-price"
+  }
+}

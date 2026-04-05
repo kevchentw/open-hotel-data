@@ -15,6 +15,17 @@ const PRICE_COLOR_STOPS = [
   { bucketStart: 3000, color: "#5c4d7d" },
   { bucketStart: 5000, color: "#355070" },
 ];
+const POINTS_BUCKET_SIZE = 5000;
+const POINTS_COLOR_STOPS = [
+  { bucketStart: 0, color: "#2a9d8f" },
+  { bucketStart: 10000, color: "#65b96f" },
+  { bucketStart: 20000, color: "#e9c46a" },
+  { bucketStart: 35000, color: "#f4a261" },
+  { bucketStart: 50000, color: "#e76f51" },
+  { bucketStart: 75000, color: "#c8553d" },
+  { bucketStart: 100000, color: "#7d4e57" },
+  { bucketStart: 150000, color: "#355070" },
+];
 const WORLD_VIEW = {
   center: [20, 0],
   zoom: 2,
@@ -173,7 +184,16 @@ function buildIpreferSummary(rawHotel) {
       ? monthKey
       : parsedDate.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
 
-    months.push({ key: monthKey, label: monthLabel, pointsMin: pMin, pointsMax: pMax, cashMin: cMin, cashMax: cMax });
+    months.push({
+      key: monthKey,
+      label: monthLabel,
+      pointsMin: pMin,
+      pointsMax: pMax,
+      cashMin: cMin,
+      cashMax: cMax,
+      cashAvailableNights: typeof data.cash_available_nights === "number" ? data.cash_available_nights : null,
+      pointsAvailableNights: typeof data.points_available_nights === "number" ? data.points_available_nights : null,
+    });
   }
 
   months.sort((left, right) => left.key.localeCompare(right.key));
@@ -444,12 +464,18 @@ function renderIpreferPricePattern(hotel) {
 
   const rows = hotel.ipreferMonths
     .map((month) => {
+      const cashNights = month.cashAvailableNights !== null
+        ? ` <span class="iprefer-table__muted">${escapeHtml(String(month.cashAvailableNights))}d</span>`
+        : "";
       const cashCell = month.cashMin !== null
-        ? `${escapeHtml(formatCompactCurrency(month.cashMin, hotel.ipreferCurrency))}${month.cashMax !== null && month.cashMax !== month.cashMin ? `–${escapeHtml(formatCompactCurrency(month.cashMax, hotel.ipreferCurrency))}` : ""}`
+        ? `${escapeHtml(formatCompactCurrency(month.cashMin, hotel.ipreferCurrency))}${month.cashMax !== null && month.cashMax !== month.cashMin ? `–${escapeHtml(formatCompactCurrency(month.cashMax, hotel.ipreferCurrency))}` : ""}${cashNights}`
         : `<span class="iprefer-table__muted">—</span>`;
 
+      const ptsNights = month.pointsAvailableNights !== null
+        ? ` <span class="iprefer-table__muted">${escapeHtml(String(month.pointsAvailableNights))}d</span>`
+        : "";
       const ptsCell = month.pointsMin !== null
-        ? `${escapeHtml(formatNumber(month.pointsMin))}${month.pointsMax !== null && month.pointsMax !== month.pointsMin ? `–${escapeHtml(formatNumber(month.pointsMax))}` : ""}`
+        ? `${escapeHtml(formatNumber(month.pointsMin))}${month.pointsMax !== null && month.pointsMax !== month.pointsMin ? `–${escapeHtml(formatNumber(month.pointsMax))}` : ""}${ptsNights}`
         : `<span class="iprefer-table__muted">—</span>`;
 
       return `
@@ -1106,37 +1132,29 @@ function markerHtml(hotel) {
 
 function mapPinClass(hotel) {
   if (state.bucket === "iprefer") {
-    if (state.ipreferMapMode === "points") {
-      return hotel.ipreferPointsMin !== null ? "map-pin--iprefer-pts" : "map-pin--pending";
-    }
-
-    return hotel.ipreferCashMin !== null ? "map-pin--priced" : "map-pin--pending";
+    const hasValue = state.ipreferMapMode === "points"
+      ? hotel.ipreferPointsMin !== null
+      : hotel.ipreferCashMin !== null;
+    return hasValue ? "map-pin--priced" : "map-pin--pending";
   }
 
   return hotel.priceValue === null ? "map-pin--pending" : "map-pin--priced";
 }
 
-function getPriceBucketStart(priceValue) {
-  if (typeof priceValue !== "number" || Number.isNaN(priceValue)) {
-    return null;
-  }
-
-  return Math.max(0, Math.floor(priceValue / PRICE_BUCKET_SIZE) * PRICE_BUCKET_SIZE);
-}
-
-function getPriceBucketColor(priceValue) {
-  const bucketStart = getPriceBucketStart(priceValue);
-  if (bucketStart === null) {
+function getBucketColor(value, bucketSize, colorStops) {
+  if (typeof value !== "number" || Number.isNaN(value)) {
     return "var(--pin-pending)";
   }
 
-  if (bucketStart <= PRICE_COLOR_STOPS[0].bucketStart) {
-    return PRICE_COLOR_STOPS[0].color;
+  const bucketStart = Math.max(0, Math.floor(value / bucketSize) * bucketSize);
+
+  if (bucketStart <= colorStops[0].bucketStart) {
+    return colorStops[0].color;
   }
 
-  for (let index = 1; index < PRICE_COLOR_STOPS.length; index += 1) {
-    const leftStop = PRICE_COLOR_STOPS[index - 1];
-    const rightStop = PRICE_COLOR_STOPS[index];
+  for (let index = 1; index < colorStops.length; index += 1) {
+    const leftStop = colorStops[index - 1];
+    const rightStop = colorStops[index];
     if (bucketStart > rightStop.bucketStart) {
       continue;
     }
@@ -1147,16 +1165,24 @@ function getPriceBucketColor(priceValue) {
     return interpolateHexColor(leftStop.color, rightStop.color, progress);
   }
 
-  return PRICE_COLOR_STOPS[PRICE_COLOR_STOPS.length - 1].color;
+  return colorStops[colorStops.length - 1].color;
+}
+
+function getPriceBucketColor(priceValue) {
+  return getBucketColor(priceValue, PRICE_BUCKET_SIZE, PRICE_COLOR_STOPS);
+}
+
+function getPointsBucketColor(pointsValue) {
+  return getBucketColor(pointsValue, POINTS_BUCKET_SIZE, POINTS_COLOR_STOPS);
 }
 
 function mapPinStyle(hotel) {
   if (state.bucket === "iprefer") {
-    if (state.ipreferMapMode === "cash") {
-      return `--pin-color: ${getPriceBucketColor(hotel.ipreferCashMin)};`;
+    if (state.ipreferMapMode === "points") {
+      return `--pin-color: ${getPointsBucketColor(hotel.ipreferPointsMin)};`;
     }
 
-    return "";
+    return `--pin-color: ${getPriceBucketColor(hotel.ipreferCashMin)};`;
   }
 
   return `--pin-color: ${getPriceBucketColor(hotel.priceValue)};`;

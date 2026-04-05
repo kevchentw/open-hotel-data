@@ -1,0 +1,96 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:16:13.035Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 23,
+        "cash_max": "747.00",
+        "cash_min": "368.00",
+        "points_available_nights": 13,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-05": {
+        "cash_available_nights": 27,
+        "cash_max": "1036.00",
+        "cash_min": "402.00",
+        "points_available_nights": 20,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "747.00",
+        "cash_min": "402.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "460.00",
+        "cash_min": "368.00",
+        "points_available_nights": 21,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "368.00",
+        "cash_min": "345.00",
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "483.00",
+        "cash_min": "426.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "483.00",
+        "cash_min": "402.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "379.00",
+        "cash_min": "379.00",
+        "points_available_nights": 30,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "460.00",
+        "cash_min": "379.00",
+        "points_available_nights": 27,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-01": {
+        "points_available_nights": 30,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-02": {
+        "points_available_nights": 27,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-03": {
+        "points_available_nights": 31,
+        "points_max": "75000",
+        "points_min": "75000"
+      },
+      "2027-04": {
+        "points_available_nights": 4,
+        "points_max": "75000",
+        "points_min": "75000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:16:13.035Z",
+    "iprefer_source_id": "PARHK",
+    "stage": "5-price"
+  }
+}

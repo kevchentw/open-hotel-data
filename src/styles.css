@@ -23,6 +23,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html,
 body {
   margin: 0;
@@ -688,10 +692,6 @@ select {
 .map-mode-toggle__btn.is-active {
   background: var(--teal);
   color: white;
-}
-
-.map-pin--iprefer-pts {
-  background: #5c4d7d;
 }
 
 .map-pin {

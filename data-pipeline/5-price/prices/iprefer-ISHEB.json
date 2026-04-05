@@ -1,0 +1,38 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:09:20.584Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 7,
+        "cash_max": "483.00",
+        "cash_min": "483.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 28,
+        "cash_max": "690.00",
+        "cash_min": "483.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 14,
+        "cash_max": "1002.00",
+        "cash_min": "944.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 4,
+        "cash_max": "863.00",
+        "cash_min": "863.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 10,
+        "cash_max": "863.00",
+        "cash_min": "483.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:09:20.584Z",
+    "iprefer_source_id": "ISHEB",
+    "stage": "5-price"
+  }
+}

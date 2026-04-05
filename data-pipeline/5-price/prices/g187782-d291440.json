@@ -1,7 +1,7 @@
 {
   "iprefer": {
     "currency": "USD",
-    "fetched_at": "2026-04-05T02:39:11.469Z",
+    "fetched_at": "2026-04-05T03:58:46.389Z",
     "months": {
       "2026-04": {
         "cash_available_nights": 27,
@@ -101,7 +101,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T02:39:11.470Z",
+    "generated_at": "2026-04-05T03:58:46.389Z",
     "stage": "5-price",
     "tripadvisor_id": "g187782-d291440"
   },

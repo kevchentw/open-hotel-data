@@ -1,0 +1,126 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:08:33.610Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 26,
+        "cash_max": "1304.00",
+        "cash_min": "763.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "740.00",
+        "cash_min": "585.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "740.00",
+        "cash_min": "585.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "911.00",
+        "cash_min": "585.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "585.00",
+        "cash_min": "585.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 14,
+        "cash_max": "585.00",
+        "cash_min": "585.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "585.00",
+        "cash_min": "585.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "884.00",
+        "cash_min": "884.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 22,
+        "cash_max": "1238.00",
+        "cash_min": "884.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 25,
+        "cash_max": "1511.00",
+        "cash_min": "1157.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "1469.00",
+        "cash_min": "884.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "884.00",
+        "cash_min": "884.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 30,
+        "cash_max": "884.00",
+        "cash_min": "884.00"
+      },
+      "2027-05": {
+        "cash_available_nights": 31,
+        "cash_max": "585.00",
+        "cash_min": "543.00",
+        "points_available_nights": 16,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-06": {
+        "cash_available_nights": 30,
+        "cash_max": "543.00",
+        "cash_min": "543.00",
+        "points_available_nights": 30,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-07": {
+        "cash_available_nights": 31,
+        "cash_max": "543.00",
+        "cash_min": "543.00",
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-08": {
+        "cash_available_nights": 31,
+        "cash_max": "543.00",
+        "cash_min": "543.00",
+        "points_available_nights": 31,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-09": {
+        "cash_available_nights": 30,
+        "cash_max": "543.00",
+        "cash_min": "543.00",
+        "points_available_nights": 30,
+        "points_max": "150000",
+        "points_min": "150000"
+      },
+      "2027-10": {
+        "cash_available_nights": 3,
+        "cash_max": "543.00",
+        "cash_min": "543.00",
+        "points_available_nights": 3,
+        "points_max": "150000",
+        "points_min": "150000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:08:33.610Z",
+    "iprefer_source_id": "HKTAR",
+    "stage": "5-price"
+  }
+}

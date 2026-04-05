@@ -1,15 +1,157 @@
 {
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T03:58:53.370Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 25,
+        "cash_max": "1381.00",
+        "cash_min": "431.00",
+        "points_available_nights": 19,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-05": {
+        "cash_available_nights": 21,
+        "cash_max": "626.00",
+        "cash_min": "431.00",
+        "points_available_nights": 17,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-06": {
+        "cash_available_nights": 25,
+        "cash_max": "529.00",
+        "cash_min": "431.00",
+        "points_available_nights": 23,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-07": {
+        "cash_available_nights": 8,
+        "cash_max": "1381.00",
+        "cash_min": "460.00",
+        "points_available_nights": 4,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-08": {
+        "cash_available_nights": 10,
+        "cash_max": "835.00",
+        "cash_min": "460.00",
+        "points_available_nights": 8,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-09": {
+        "cash_available_nights": 22,
+        "cash_max": "529.00",
+        "cash_min": "483.00",
+        "points_available_nights": 20,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-10": {
+        "cash_available_nights": 18,
+        "cash_max": "483.00",
+        "cash_min": "431.00",
+        "points_available_nights": 18,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-11": {
+        "cash_available_nights": 4,
+        "cash_max": "402.00",
+        "cash_min": "362.00",
+        "points_available_nights": 4,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-12": {
+        "cash_available_nights": 1,
+        "cash_max": "402.00",
+        "cash_min": "402.00",
+        "points_available_nights": 1,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-02": {
+        "points_available_nights": 7,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-03": {
+        "points_available_nights": 14,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-04": {
+        "points_available_nights": 18,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-05": {
+        "points_available_nights": 21,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-06": {
+        "points_available_nights": 20,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-10": {
+        "points_available_nights": 1,
+        "points_max": "100000",
+        "points_min": "100000"
+      }
+    }
+  },
   "metadata": {
-    "generated_at": "2026-04-04T20:29:16.946Z",
+    "generated_at": "2026-04-05T03:58:53.370Z",
     "stage": "5-price",
     "tripadvisor_id": "g2630355-d212642"
   },
   "prices": {
+    "2026-04-12": {
+      "cost": "529.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T22:12:09.956Z",
+      "source": "xotelo"
+    },
+    "2026-04-14": {
+      "cost": "513.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-04T23:14:15.657Z",
+      "source": "xotelo"
+    },
     "2026-05-10": {
       "cost": "529.00",
       "currency": "USD",
-      "fetched_at": "2026-04-04T20:29:19.956Z",
+      "fetched_at": "2026-04-05T00:56:33.649Z",
       "source": "xotelo"
+    },
+    "2026-05-12": {
+      "cost": "521.00",
+      "currency": "USD",
+      "fetched_at": "2026-04-05T02:01:34.457Z",
+      "source": "xotelo"
+    }
+  },
+  "sample_attempts": {
+    "2026-04-11": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-04T22:12:09.957Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-09": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-05T00:56:33.649Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
     }
   }
 }

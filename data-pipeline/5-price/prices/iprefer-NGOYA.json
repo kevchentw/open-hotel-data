@@ -1,0 +1,78 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:15:05.251Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 26,
+        "cash_max": "209.00",
+        "cash_min": "74.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "344.00",
+        "cash_min": "78.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 30,
+        "cash_max": "180.00",
+        "cash_min": "78.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "180.00",
+        "cash_min": "78.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "180.00",
+        "cash_min": "74.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 29,
+        "cash_max": "344.00",
+        "cash_min": "74.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "281.00",
+        "cash_min": "88.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "180.00",
+        "cash_min": "78.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "180.00",
+        "cash_min": "78.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 30,
+        "cash_max": "237.00",
+        "cash_min": "71.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "237.00",
+        "cash_min": "230.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 31,
+        "cash_max": "281.00",
+        "cash_min": "230.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 4,
+        "cash_max": "259.00",
+        "cash_min": "259.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:15:05.251Z",
+    "iprefer_source_id": "NGOYA",
+    "stage": "5-price"
+  }
+}

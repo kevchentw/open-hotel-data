@@ -1,0 +1,33 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:20:12.042Z",
+    "months": {
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "310.00",
+        "cash_min": "276.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "333.00",
+        "cash_min": "276.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "276.00",
+        "cash_min": "276.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 30,
+        "cash_max": "396.00",
+        "cash_min": "276.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:20:12.042Z",
+    "iprefer_source_id": "SVQSS",
+    "stage": "5-price"
+  }
+}

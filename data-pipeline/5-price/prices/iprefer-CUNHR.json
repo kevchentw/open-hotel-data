@@ -1,0 +1,38 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-05T04:04:56.678Z",
+    "months": {
+      "2026-12": {
+        "points_available_nights": 8,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-01": {
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-02": {
+        "points_available_nights": 28,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-03": {
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-04": {
+        "points_available_nights": 4,
+        "points_max": "100000",
+        "points_min": "100000"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-05T04:04:56.678Z",
+    "iprefer_source_id": "CUNHR",
+    "stage": "5-price"
+  }
+}
