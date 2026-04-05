@@ -180,7 +180,8 @@ select {
     minmax(165px, 0.75fr)
     minmax(180px, 0.9fr)
     minmax(140px, 0.7fr)
-    minmax(220px, 1fr);
+    minmax(200px, 0.9fr)
+    minmax(180px, 0.8fr);
   gap: 10px;
   position: relative;
   z-index: 20;
@@ -490,75 +491,60 @@ select {
   background: rgba(20, 93, 90, 0.045);
 }
 
-.sampled-price-pattern__header {
-  display: grid;
-  gap: 4px;
-}
-
 .sampled-price-pattern__eyebrow {
+  display: block;
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
+  margin-bottom: 10px;
 }
 
-.sampled-price-pattern__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 10px;
-  margin-top: 12px;
+.iprefer-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
 }
 
-.sampled-month-chip {
-  padding: 10px 11px;
-  border-radius: 14px;
-  border: 1px solid rgba(23, 35, 42, 0.08);
-  background: rgba(255, 255, 255, 0.78);
-}
-
-.sampled-month-chip__topline {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  align-items: baseline;
-}
-
-.sampled-month-chip__topline strong {
-  font-size: 0.95rem;
-}
-
-.sampled-month-chip__topline span {
-  color: var(--teal-deep);
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.sampled-month-chip__rows {
-  display: grid;
-  gap: 6px;
-  margin-top: 10px;
-}
-
-.sampled-month-chip__row {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  align-items: center;
-}
-
-.sampled-month-chip__row span {
+.iprefer-table thead th {
+  text-align: left;
   font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   color: var(--muted);
+  padding: 0 10px 6px 0;
+  border-bottom: 1px solid rgba(23, 35, 42, 0.1);
 }
 
-.sampled-month-chip__row strong {
-  font-size: 0.84rem;
-  line-height: 1;
+.iprefer-table tbody tr:not(:last-child) td {
+  border-bottom: 1px solid rgba(23, 35, 42, 0.06);
 }
 
-.sampled-month-chip__row.is-muted strong,
-.sampled-month-chip__row.is-muted span {
-  color: rgba(91, 109, 115, 0.58);
+.iprefer-table td {
+  padding: 7px 10px 7px 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.iprefer-table__month {
+  color: var(--muted);
+  font-size: 0.82rem;
+  width: 6rem;
+}
+
+.iprefer-table__cash {
+  font-weight: 600;
+  color: var(--teal-deep);
+}
+
+.iprefer-table__points {
+  font-weight: 600;
+  color: var(--fg);
+}
+
+.iprefer-table__muted {
+  color: rgba(91, 109, 115, 0.45);
+  font-weight: 400;
 }
 
 .sampled-price-detail {
@@ -638,6 +624,74 @@ select {
   background: var(--teal);
   border-color: var(--teal);
   color: white;
+}
+
+.filter-toggle-btn {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background-color 140ms ease,
+    color 140ms ease,
+    border-color 140ms ease;
+}
+
+.filter-toggle-btn.is-active {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: white;
+}
+
+.row-price-iprefer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.row-price-cash {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.map-mode-toggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  background: white;
+}
+
+.map-mode-toggle__btn {
+  padding: 5px 13px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.map-mode-toggle__btn.is-active {
+  background: var(--teal);
+  color: white;
+}
+
+.map-pin--iprefer-pts {
+  background: #5c4d7d;
 }
 
 .map-pin {
@@ -764,10 +818,6 @@ select {
 
   .detail-actions {
     flex-direction: column;
-  }
-
-  .sampled-price-pattern__grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .card-topline,

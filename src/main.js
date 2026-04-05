@@ -39,12 +39,19 @@ const PLAN_CONFIG = {
     plans: ["amex_thc"],
     description: "Hotel Collection properties from the latest export.",
   },
+  iprefer: {
+    key: "iprefer",
+    label: "iPrefer",
+    plans: ["iprefer_points"],
+    description: "I Prefer hotels that support points redemption.",
+  },
 };
 
 const PLAN_LABELS = {
   hilton_aspire_resort_credit: "Aspire",
   amex_fhr: "FHR",
   amex_thc: "THC",
+  iprefer_points: "iPrefer",
 };
 
 const state = {
@@ -67,6 +74,8 @@ const state = {
   meta: {},
   shouldResetMapView: true,
   preserveDetailUntil: 0,
+  ipreferMapMode: "cash",
+  ipreferHasPoints: false,
 };
 
 let map = null;
@@ -99,6 +108,11 @@ function normalizeText(value) {
   return String(value ?? "").trim().toLowerCase();
 }
 
+function normalizeCountry(value) {
+  if (value === "Taiwan China") return "Taiwan";
+  return value;
+}
+
 function titleCaseWords(value) {
   return String(value ?? "")
     .split(/\s+/)
@@ -109,6 +123,62 @@ function titleCaseWords(value) {
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en-US").format(value || 0);
+}
+
+function formatPointsLabel(pointsRaw) {
+  if (!pointsRaw) return "Reward Nights";
+  const parts = String(pointsRaw).split("-").map((p) => {
+    const n = Number(p.trim());
+    return Number.isFinite(n) ? formatNumber(n) : p.trim();
+  });
+  return `${parts.join("–")} pts/night`;
+}
+
+function formatIpreferPointsLabel(pointsMin, pointsMax) {
+  if (pointsMin === null) return "N/A";
+  if (pointsMax === null || pointsMin === pointsMax) return `${formatNumber(pointsMin)} pts`;
+  return `${formatNumber(pointsMin)}–${formatNumber(pointsMax)} pts`;
+}
+
+function buildIpreferSummary(rawHotel) {
+  const ipreferPrices = rawHotel.iprefer_prices;
+  if (!ipreferPrices || typeof ipreferPrices !== "object" || Array.isArray(ipreferPrices)) {
+    return { pointsMin: null, pointsMax: null, cashMin: null, cashMax: null, currency: "USD", months: [] };
+  }
+
+  const currency = ipreferPrices.currency || "USD";
+  let pointsMin = null;
+  let pointsMax = null;
+  let cashMin = null;
+  let cashMax = null;
+  const months = [];
+
+  for (const [monthKey, data] of Object.entries(ipreferPrices.months || {})) {
+    if (!data || typeof data !== "object") {
+      continue;
+    }
+
+    const pMin = toFiniteNumber(data.points_min);
+    const pMax = toFiniteNumber(data.points_max);
+    const cMin = toFiniteNumber(data.cash_min);
+    const cMax = toFiniteNumber(data.cash_max);
+
+    if (pMin !== null) pointsMin = pointsMin === null ? pMin : Math.min(pointsMin, pMin);
+    if (pMax !== null) pointsMax = pointsMax === null ? pMax : Math.max(pointsMax, pMax);
+    if (cMin !== null) cashMin = cashMin === null ? cMin : Math.min(cashMin, cMin);
+    if (cMax !== null) cashMax = cashMax === null ? cMax : Math.max(cashMax, cMax);
+
+    const parsedDate = new Date(`${monthKey}-01T00:00:00.000Z`);
+    const monthLabel = Number.isNaN(parsedDate.getTime())
+      ? monthKey
+      : parsedDate.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+
+    months.push({ key: monthKey, label: monthLabel, pointsMin: pMin, pointsMax: pMax, cashMin: cMin, cashMax: cMax });
+  }
+
+  months.sort((left, right) => left.key.localeCompare(right.key));
+
+  return { pointsMin, pointsMax, cashMin, cashMax, currency, months };
 }
 
 function formatCurrency(value, currency = "USD") {
@@ -158,6 +228,10 @@ function buildBucketKey(plans = []) {
 
   if (plans.includes("amex_fhr")) {
     return "fhr";
+  }
+
+  if (plans.includes("iprefer_points")) {
+    return "iprefer";
   }
 
   if (plans.includes("hilton_aspire_resort_credit")) {
@@ -361,6 +435,49 @@ function renderSampledPricePattern(hotel) {
   `;
 }
 
+function renderIpreferPricePattern(hotel) {
+  if (!hotel.ipreferMonths?.length) {
+    return "";
+  }
+
+  const hasPoints = hotel.ipreferMonths.some((m) => m.pointsMin !== null);
+
+  const rows = hotel.ipreferMonths
+    .map((month) => {
+      const cashCell = month.cashMin !== null
+        ? `${escapeHtml(formatCompactCurrency(month.cashMin, hotel.ipreferCurrency))}${month.cashMax !== null && month.cashMax !== month.cashMin ? `–${escapeHtml(formatCompactCurrency(month.cashMax, hotel.ipreferCurrency))}` : ""}`
+        : `<span class="iprefer-table__muted">—</span>`;
+
+      const ptsCell = month.pointsMin !== null
+        ? `${escapeHtml(formatNumber(month.pointsMin))}${month.pointsMax !== null && month.pointsMax !== month.pointsMin ? `–${escapeHtml(formatNumber(month.pointsMax))}` : ""}`
+        : `<span class="iprefer-table__muted">—</span>`;
+
+      return `
+        <tr>
+          <td class="iprefer-table__month">${escapeHtml(month.label)}</td>
+          <td class="iprefer-table__cash">${cashCell}</td>
+          ${hasPoints ? `<td class="iprefer-table__points">${ptsCell}</td>` : ""}
+        </tr>`;
+    })
+    .join("");
+
+  return `
+    <section class="sampled-price-pattern" aria-label="iPrefer price availability">
+      <span class="sampled-price-pattern__eyebrow">iPrefer availability by month</span>
+      <table class="iprefer-table">
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Cash</th>
+            ${hasPoints ? "<th>Points</th>" : ""}
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </section>
+  `;
+}
+
 function normalizeHotel([id, rawHotel]) {
   const latitude = toFiniteNumber(rawHotel.latitude);
   const longitude = toFiniteNumber(rawHotel.longitude);
@@ -373,6 +490,7 @@ function normalizeHotel([id, rawHotel]) {
 
   const amenityValues = unique(rawHotel.amenities || []);
   const normalizedAmenities = unique(amenityValues.map(normalizeText));
+  const ipreferSummary = buildIpreferSummary(rawHotel);
 
   const hotel = {
     id,
@@ -381,7 +499,7 @@ function normalizeHotel([id, rawHotel]) {
     brand: rawHotel.brand || rawHotel.chain || "Independent",
     city: rawHotel.city || "",
     region: rawHotel.state_region || "",
-    country: rawHotel.country || "",
+    country: normalizeCountry(rawHotel.country || ""),
     locationLabel,
     plans: rawHotel.plans || [],
     planLabels: (rawHotel.plans || []).map(formatPlanLabel),
@@ -402,6 +520,14 @@ function normalizeHotel([id, rawHotel]) {
     latitude,
     longitude,
     priceValue,
+    ipreferPoints: ipreferSummary.pointsMin,
+    ipreferPointsMin: ipreferSummary.pointsMin,
+    ipreferPointsMax: ipreferSummary.pointsMax,
+    ipreferCashMin: ipreferSummary.cashMin,
+    ipreferCashMax: ipreferSummary.cashMax,
+    ipreferCurrency: ipreferSummary.currency,
+    ipreferMonths: ipreferSummary.months,
+    ipreferPriceLabel: formatIpreferPointsLabel(ipreferSummary.pointsMin, ipreferSummary.pointsMax),
     priceLabel: formatCurrency(priceValue, rawHotel.summary_price?.currency || rawHotel.currency || "USD"),
     priceSubLabel:
       rawHotel.summary_price?.display &&
@@ -411,6 +537,7 @@ function normalizeHotel([id, rawHotel]) {
         : "",
     amexUrl: rawHotel.amex_url || "",
     hiltonUrl: rawHotel.hilton_url || "",
+    ipreferUrl: rawHotel.iprefer_url || "",
     tripadvisorUrl: rawHotel.tripadvisor_url || "",
     tripadvisorId: rawHotel.tripadvisor_id || "",
     summaryPrice: rawHotel.summary_price || null,
@@ -439,8 +566,12 @@ function compareHotels(left, right) {
     return left.name.localeCompare(right.name);
   }
 
-  const leftPrice = left.priceValue;
-  const rightPrice = right.priceValue;
+  const leftPrice = state.bucket === "iprefer"
+    ? (state.ipreferMapMode === "points" ? left.ipreferPointsMin : left.ipreferCashMin)
+    : left.priceValue;
+  const rightPrice = state.bucket === "iprefer"
+    ? (state.ipreferMapMode === "points" ? right.ipreferPointsMin : right.ipreferCashMin)
+    : right.priceValue;
 
   if (leftPrice !== null && rightPrice !== null && leftPrice !== rightPrice) {
     return state.sort === "price-desc" ? rightPrice - leftPrice : leftPrice - rightPrice;
@@ -511,6 +642,10 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
     state.amenities.length &&
     !state.amenities.every((amenity) => hotel.normalizedAmenities.includes(amenity))
   ) {
+    return false;
+  }
+
+  if (!excluded.has("ipreferHasPoints") && state.ipreferHasPoints && hotel.ipreferPointsMin === null) {
     return false;
   }
 
@@ -633,6 +768,7 @@ function getBucketCounts() {
     thc: 0,
     fhr: 0,
     aspire: 0,
+    iprefer: 0,
   };
 
   Object.keys(counts).forEach((bucket) => {
@@ -764,11 +900,18 @@ function createHotelRow(hotel) {
   button.type = "button";
   button.className = "hotel-row";
   button.dataset.hotelId = hotel.id;
+  const rowPriceHtml = state.bucket === "iprefer"
+    ? `<div class="row-price-iprefer">
+        <span class="row-price">${escapeHtml(hotel.ipreferPriceLabel)}</span>
+        ${hotel.ipreferCashMin !== null ? `<span class="row-price-cash">${escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency))}</span>` : ""}
+      </div>`
+    : `<span class="row-price">${escapeHtml(hotel.priceLabel)}</span>`;
+
   button.innerHTML = `
     <div class="hotel-row__main">
       <div class="hotel-row__headline">
         <strong>${escapeHtml(hotel.name)}</strong>
-        <span class="row-price">${escapeHtml(hotel.priceLabel)}</span>
+        ${rowPriceHtml}
       </div>
       <p>${escapeHtml(hotel.locationLabel)}</p>
       <div class="hotel-row__meta">
@@ -838,12 +981,16 @@ function renderDetailView() {
   const amenitiesLabel = joinValues(hotel.amenities, "Amenities pending");
   const planPills = renderPlanPills(hotel.planLabels);
   const sampledPricePattern = renderSampledPricePattern(hotel);
+  const ipreferPricePattern = state.bucket === "iprefer" ? renderIpreferPricePattern(hotel) : "";
   const sourceActions = [
     hotel.amexUrl
       ? `<a class="primary-button" href="${hotel.amexUrl}" target="_blank" rel="noreferrer">Amex</a>`
       : "",
     hotel.hiltonUrl
       ? `<a class="primary-button" href="${hotel.hiltonUrl}" target="_blank" rel="noreferrer">Hilton</a>`
+      : "",
+    hotel.ipreferUrl
+      ? `<a class="primary-button" href="${hotel.ipreferUrl}" target="_blank" rel="noreferrer">iPrefer</a>`
       : "",
   ]
     .filter(Boolean)
@@ -854,17 +1001,19 @@ function renderDetailView() {
     <article class="detail-card detail-card--in-list">
       <div class="card-topline">
         ${planPills ? `<div class="detail-plan-pills detail-plan-pills--inline">${planPills}</div>` : "<div></div>"}
-        <span class="price-pill">${escapeHtml(hotel.priceLabel)}</span>
+        <span class="price-pill">${escapeHtml(state.bucket === "iprefer" ? hotel.ipreferPriceLabel : hotel.priceLabel)}</span>
       </div>
       <h2>${escapeHtml(hotel.name)}</h2>
       <p class="detail-location">${escapeHtml(hotel.locationLabel)}</p>
 
+      ${state.bucket !== "iprefer" ? `
       <div class="detail-price-summary ${hotel.priceValue === null ? "detail-price-summary--pending" : ""}">
         <span class="detail-price-summary__eyebrow">Lowest price on Hilton page</span>
         <strong>${escapeHtml(hotel.priceLabel)}</strong>
         ${hotel.priceSubLabel ? `<p>${escapeHtml(hotel.priceSubLabel)}</p>` : ""}
-      </div>
+      </div>` : ""}
 
+      ${ipreferPricePattern}
       ${sampledPricePattern}
 
       <div class="detail-grid">
@@ -926,6 +1075,28 @@ function syncListToMapViewport() {
 }
 
 function markerHtml(hotel) {
+  if (state.bucket === "iprefer") {
+    if (state.ipreferMapMode === "points") {
+      const label = hotel.ipreferPointsMin !== null
+        ? `${formatNumber(hotel.ipreferPointsMin / 1000)}k`
+        : "N/A";
+      return `
+        <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
+          <span>${escapeHtml(label)}</span>
+        </div>
+      `;
+    }
+
+    const label = hotel.ipreferCashMin !== null
+      ? formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency)
+      : "—";
+    return `
+      <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
+        <span>${escapeHtml(label)}</span>
+      </div>
+    `;
+  }
+
   return `
     <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
       <span>${escapeHtml(hotel.priceValue !== null ? formatCurrency(hotel.priceValue) : "View")}</span>
@@ -934,6 +1105,14 @@ function markerHtml(hotel) {
 }
 
 function mapPinClass(hotel) {
+  if (state.bucket === "iprefer") {
+    if (state.ipreferMapMode === "points") {
+      return hotel.ipreferPointsMin !== null ? "map-pin--iprefer-pts" : "map-pin--pending";
+    }
+
+    return hotel.ipreferCashMin !== null ? "map-pin--priced" : "map-pin--pending";
+  }
+
   return hotel.priceValue === null ? "map-pin--pending" : "map-pin--priced";
 }
 
@@ -972,6 +1151,14 @@ function getPriceBucketColor(priceValue) {
 }
 
 function mapPinStyle(hotel) {
+  if (state.bucket === "iprefer") {
+    if (state.ipreferMapMode === "cash") {
+      return `--pin-color: ${getPriceBucketColor(hotel.ipreferCashMin)};`;
+    }
+
+    return "";
+  }
+
   return `--pin-color: ${getPriceBucketColor(hotel.priceValue)};`;
 }
 
@@ -998,20 +1185,31 @@ function hexToRgb(hex) {
 }
 
 function getLowestPriceHotel(hotels) {
+  const getValue = (hotel) => {
+    if (state.bucket === "iprefer") {
+      return state.ipreferMapMode === "points" ? hotel.ipreferPointsMin : hotel.ipreferCashMin;
+    }
+
+    return hotel.priceValue;
+  };
+
   return hotels.reduce((lowestHotel, hotel) => {
     if (!lowestHotel) {
       return hotel;
     }
 
-    if (typeof hotel.priceValue !== "number" || Number.isNaN(hotel.priceValue)) {
+    const value = getValue(hotel);
+    const lowestValue = getValue(lowestHotel);
+
+    if (typeof value !== "number" || Number.isNaN(value)) {
       return lowestHotel;
     }
 
-    if (typeof lowestHotel.priceValue !== "number" || Number.isNaN(lowestHotel.priceValue)) {
+    if (typeof lowestValue !== "number" || Number.isNaN(lowestValue)) {
       return hotel;
     }
 
-    return hotel.priceValue < lowestHotel.priceValue ? hotel : lowestHotel;
+    return value < lowestValue ? hotel : lowestHotel;
   }, null);
 }
 
@@ -1056,11 +1254,15 @@ function renderMap() {
       }),
     });
 
+    const popupPriceHtml = state.bucket === "iprefer"
+      ? `<span>${escapeHtml(hotel.ipreferPriceLabel)}${hotel.ipreferCashMin !== null ? ` · ${escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency))}` : ""}</span>`
+      : `<span>${escapeHtml(hotel.priceLabel)}</span>`;
+
     marker.bindPopup(`
       <div class="popup-card">
         <strong>${escapeHtml(hotel.name)}</strong>
         <span>${escapeHtml(hotel.locationLabel)}</span>
-        <span>${escapeHtml(hotel.priceLabel)}</span>
+        ${popupPriceHtml}
       </div>
     `);
 
@@ -1140,6 +1342,10 @@ function render() {
   updateBucketTabs();
   updateFilterOptions();
   applyFilters();
+  const isIprefer = state.bucket === "iprefer";
+  dom.ipreferMapToggle.hidden = !isIprefer;
+  dom.ipreferHasPointsGroup.hidden = !isIprefer;
+  dom.ipreferHasPointsBtn.classList.toggle("is-active", state.ipreferHasPoints);
   renderMap();
   ensureSelectedHotel();
   updateMeta();
@@ -1217,6 +1423,7 @@ function buildShell() {
               <button class="bucket-tab" data-bucket="aspire" type="button"></button>
               <button class="bucket-tab" data-bucket="fhr" type="button"></button>
               <button class="bucket-tab" data-bucket="thc" type="button"></button>
+              <button class="bucket-tab" data-bucket="iprefer" type="button"></button>
             </div>
           </section>
         </section>
@@ -1257,6 +1464,11 @@ function buildShell() {
           </select>
         </label>
 
+        <label id="iprefer-has-points-group" class="toolbar-group" hidden>
+          <span>iPrefer filter</span>
+          <button id="iprefer-has-points-btn" class="filter-toggle-btn" type="button">Has points ability</button>
+        </label>
+
         <label class="toolbar-group toolbar-group--amenities">
           <span>Amenities</span>
           <div class="filter-dropdown" id="amenities-dropdown">
@@ -1293,6 +1505,10 @@ function buildShell() {
           <section class="content-panel">
             <div class="panel-header">
               <h2>Map</h2>
+              <div id="iprefer-map-toggle" class="map-mode-toggle" hidden>
+                <button class="map-mode-toggle__btn is-active" data-mode="cash" type="button">Cash</button>
+                <button class="map-mode-toggle__btn" data-mode="points" type="button">Points</button>
+              </div>
             </div>
             <div id="map"></div>
           </section>
@@ -1319,6 +1535,9 @@ function buildShell() {
     backToList: document.querySelector("#back-to-list"),
     loadMore: document.querySelector("#load-more"),
     map: document.querySelector("#map"),
+    ipreferMapToggle: document.querySelector("#iprefer-map-toggle"),
+    ipreferHasPointsGroup: document.querySelector("#iprefer-has-points-group"),
+    ipreferHasPointsBtn: document.querySelector("#iprefer-has-points-btn"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
@@ -1340,6 +1559,7 @@ function bindEvents() {
       state.country = "all";
       state.overlapPlan = "all";
       state.amenities = [];
+      state.ipreferHasPoints = false;
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
       render();
@@ -1427,6 +1647,27 @@ function bindEvents() {
 
   dom.backToList.addEventListener("click", () => {
     showListPanel();
+  });
+
+  dom.ipreferHasPointsBtn.addEventListener("click", () => {
+    state.ipreferHasPoints = !state.ipreferHasPoints;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.ipreferMapToggle.addEventListener("click", (event) => {
+    const btn = event.target.closest("[data-mode]");
+    if (!btn || btn.dataset.mode === state.ipreferMapMode) return;
+
+    state.ipreferMapMode = btn.dataset.mode;
+    dom.ipreferMapToggle.querySelectorAll("[data-mode]").forEach((b) => {
+      b.classList.toggle("is-active", b.dataset.mode === state.ipreferMapMode);
+    });
+    applyFilters();
+    renderMap();
+    renderListPanel();
   });
 }
 
