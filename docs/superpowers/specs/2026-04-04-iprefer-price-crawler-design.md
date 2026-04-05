@@ -37,20 +37,33 @@ Adds a new top-level `iprefer` field to each `prices/{tripadvisor_id}.json` arti
 {
   "metadata": { "...existing fields..." },
   "iprefer": {
-    "points": "50000",
-    "cash": "201.00",
     "currency": "USD",
-    "fetched_at": "2026-04-04T12:00:00.000Z"
+    "fetched_at": "2026-04-04T12:00:00.000Z",
+    "months": {
+      "2026-04": {
+        "cash_min": "168.00",
+        "cash_max": "522.00",
+        "cash_available_nights": 18,
+        "points_min": "50000",
+        "points_max": "50000",
+        "points_available_nights": 20
+      },
+      "2026-05": { "..." }
+    }
   },
   "prices": { "...existing xotelo prices..." },
   "sample_attempts": { "...existing..." }
 }
 ```
 
-- `points` — minimum points value across available dates (string); omitted if no data
-- `cash` — lowest `rate + tax` across available dates in next 12 months (USD string); omitted if no data
+- `months` — keyed by `YYYY-MM`; only months with at least one available night included
+- `cash_min` / `cash_max` — lowest/highest `rate + tax` across available cash nights in the month; omitted if no cash data
+- `cash_available_nights` — count of nights available for cash booking; omitted if no cash data
+- `points_min` / `points_max` — lowest/highest `points` value across available points nights; omitted if no points data
+- `points_available_nights` — count of nights available for points booking; omitted if no points data
+- A night is "available" when `is_available: true`, `has_inventory: true`, `allows_check_in: true`
 - `currency` — always `"USD"` (API returns USD)
-- If neither points nor cash data is found, `iprefer` is omitted
+- If no data is found for either call, `iprefer` is omitted from the artifact
 
 ## Skip Logic
 
