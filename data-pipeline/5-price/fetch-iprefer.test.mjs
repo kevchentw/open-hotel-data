@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { aggregatePointsMonths, aggregateCashMonths, buildMonthlyStats, shouldFetchIprefer } from "./fetch-iprefer.mjs";
+import { aggregatePointsMonths, aggregateCashMonths, buildMonthlyStats, shouldFetchIprefer, buildNidLookup } from "./fetch-iprefer.mjs";
 
 test("aggregatePointsMonths groups available nights by month", () => {
   const results = {
@@ -95,4 +95,24 @@ test("shouldFetchIprefer returns false when iprefer already present and no force
 
 test("shouldFetchIprefer returns true when force refresh is set even if iprefer exists", () => {
   assert.equal(shouldFetchIprefer({ iprefer: { months: {} } }, true), true);
+});
+
+test("buildNidLookup maps synxis_id to nid, skips entries missing either field", () => {
+  const ipreferHotels = {
+    "SINAM": { nid: "414821", synxis_id: "49391" },
+    "ZPCVV": { nid: "306010", synxis_id: "NONE" },
+    "NOSY1": { nid: "", synxis_id: "12345" },
+    "NOSY2": { nid: "999", synxis_id: "" }
+  };
+  assert.deepEqual(
+    buildNidLookup(ipreferHotels),
+    new Map([
+      ["49391", "414821"],
+      ["NONE", "306010"]
+    ])
+  );
+});
+
+test("buildNidLookup returns empty map for empty input", () => {
+  assert.deepEqual(buildNidLookup({}), new Map());
 });

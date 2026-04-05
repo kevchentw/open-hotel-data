@@ -131,6 +131,20 @@ export function shouldFetchIprefer(artifact, forceRefresh) {
   return !isRecord(artifact?.iprefer);
 }
 
+export function buildNidLookup(ipreferHotels) {
+  const map = new Map();
+
+  for (const hotel of Object.values(ipreferHotels)) {
+    const nid = typeof hotel?.nid === "string" ? hotel.nid.trim() : "";
+    const synxisId = typeof hotel?.synxis_id === "string" ? hotel.synxis_id.trim() : "";
+    if (nid && synxisId) {
+      map.set(synxisId, nid);
+    }
+  }
+
+  return map;
+}
+
 // --- helpers ---
 
 function isAvailableNight(entry) {
