@@ -145,6 +145,162 @@ export function buildNidLookup(ipreferHotels) {
   return map;
 }
 
+async function fetchRateCalendar(nid, rateCode) {
+  const url = new URL(RATE_CALENDAR_BASE);
+  url.searchParams.set("nid", nid);
+  url.searchParams.set("adults", "2");
+  url.searchParams.set("children", "0");
+  if (rateCode) {
+    url.searchParams.set("rateCode", rateCode);
+  }
+
+  const response = await fetch(url, {
+    headers: { accept: "application/json" }
+  });
+
+  if (!response.ok) {
+    throw new Error(`iPrefer rate calendar fetch failed: HTTP ${response.status} for nid=${nid}`);
+  }
+
+  const payload = await response.json();
+  return isRecord(payload?.results) ? payload.results : {};
+}
+
+async function fetchIpreferRates(nid) {
+  const [pointsResults, cashResults] = await Promise.all([
+    fetchRateCalendar(nid, "IPPOINTS"),
+    fetchRateCalendar(nid, null)
+  ]);
+
+  const pointsMonths = aggregatePointsMonths(pointsResults);
+  const cashMonths = aggregateCashMonths(cashResults);
+  const months = buildMonthlyStats(pointsMonths, cashMonths);
+
+  if (!Object.keys(months).length) {
+    return null;
+  }
+
+  return sortObjectKeys({
+    currency: "USD",
+    fetched_at: new Date().toISOString(),
+    months
+  });
+}
+
+export async function writeIpreferArtifacts() {
+  await mkdir(PRICE_DIRECTORY_URL, { recursive: true });
+
+  const [canonicalRegistry, ipreferPointsPayload] = await Promise.all([
+    readJsonRequired(CANONICAL_INPUT_URL),
+    readJsonRequired(IPREFER_POINTS_INPUT_URL)
+  ]);
+
+  const nidLookup = buildNidLookup(ipreferPointsPayload.hotels ?? {});
+  const hotels = Object.entries(canonicalRegistry.hotels)
+    .filter(([tripadvisorId, hotel]) => {
+      if (FILTER_HOTEL_IDS.size && !FILTER_HOTEL_IDS.has(tripadvisorId)) {
+        return false;
+      }
+
+      return typeof hotel?.iprefer_synxis_id === "string" && hotel.iprefer_synxis_id.trim();
+    })
+    .sort(([left], [right]) => left.localeCompare(right));
+
+  console.log(`[iprefer] processing ${hotels.length} hotels with iprefer_synxis_id`);
+
+  let fetched = 0;
+  let skipped = 0;
+  let failed = 0;
+  let noData = 0;
+
+  await mapWithConcurrency(hotels, CONCURRENCY, async ([tripadvisorId, hotel]) => {
+    const synxisId = hotel.iprefer_synxis_id.trim();
+    const nid = nidLookup.get(synxisId);
+
+    if (!nid) {
+      console.warn(`[iprefer] no nid found for ${tripadvisorId} (synxis_id=${synxisId}), skipping`);
+      skipped += 1;
+      return;
+    }
+
+    const artifactUrl = new URL(`${tripadvisorId}.json`, PRICE_DIRECTORY_URL);
+    const existing = await readJsonOptional(artifactUrl);
+
+    if (!shouldFetchIprefer(existing, FORCE_REFRESH)) {
+      skipped += 1;
+      return;
+    }
+
+    try {
+      const ipreferData = await fetchIpreferRates(nid);
+
+      if (!ipreferData) {
+        console.warn(`[iprefer] no data returned for ${tripadvisorId} (nid=${nid})`);
+        noData += 1;
+        return;
+      }
+
+      const updated = sortObjectKeys({ ...(existing ?? {}), iprefer: ipreferData, metadata: buildMetadata(tripadvisorId, existing) });
+      await writeFile(artifactUrl, `${JSON.stringify(updated, null, 2)}\n`, "utf8");
+      fetched += 1;
+      console.log(`[iprefer] ${tripadvisorId} months=${Object.keys(ipreferData.months).length}`);
+    } catch (error) {
+      console.warn(`[iprefer] fetch failed for ${tripadvisorId}: ${error.message}`);
+      failed += 1;
+    }
+  });
+
+  console.log(`[iprefer] done: fetched=${fetched} skipped=${skipped} no_data=${noData} failed=${failed}`);
+}
+
+function buildMetadata(tripadvisorId, existing) {
+  return sortObjectKeys({
+    ...(isRecord(existing?.metadata) ? existing.metadata : {}),
+    generated_at: new Date().toISOString(),
+    stage: "5-price",
+    tripadvisor_id: tripadvisorId
+  });
+}
+
+async function readJsonRequired(url) {
+  const raw = await readFile(url, "utf8");
+  return JSON.parse(raw);
+}
+
+async function readJsonOptional(url) {
+  try {
+    const raw = await readFile(url, "utf8");
+    return JSON.parse(raw);
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return null;
+    }
+
+    throw error;
+  }
+}
+
+async function mapWithConcurrency(values, concurrency, mapper) {
+  let nextIndex = 0;
+
+  await Promise.all(
+    Array.from({ length: Math.max(1, Math.min(concurrency, values.length || 1)) }, async () => {
+      while (nextIndex < values.length) {
+        const currentIndex = nextIndex;
+        nextIndex += 1;
+        await mapper(values[currentIndex], currentIndex);
+      }
+    })
+  );
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  writeIpreferArtifacts().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
 // --- helpers ---
 
 function isAvailableNight(entry) {
