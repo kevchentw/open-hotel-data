@@ -36,6 +36,12 @@ const SOURCE_CONFIGS = [
     stageOneUrl: new URL("../1-list/chase-edit-hotel.json", import.meta.url),
     stageTwoUrl: new URL("../2-enrichment/chase-edit-hotel.json", import.meta.url),
     stageThreeUrl: new URL("../3-tripadvisor/chase-edit-hotel.json", import.meta.url)
+  },
+  {
+    source: "hilton_brands",
+    stageOneUrl: new URL("../1-list/hilton-brands-hotel.json", import.meta.url),
+    stageTwoUrl: new URL("../2-enrichment/hilton-brands-hotel.json", import.meta.url),
+    stageThreeUrl: new URL("../3-tripadvisor/hilton-brands-hotel.json", import.meta.url)
   }
 ];
 
@@ -278,7 +284,16 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     tripadvisor_url: pickField(contributors, (contributor) => contributor.stageThreeMatch?.tripadvisor_url),
     amex_url: pickSourcePageUrl(contributors, ["amex_fhr", "amex_thc"]),
     chase_url: pickSourcePageUrl(contributors, ["chase_edit"]),
-    hilton_url: pickSourcePageUrl(contributors, ["hilton_aspire_resort_credit"]),
+    hilton_url: pickSourcePageUrl(contributors, ["hilton_aspire_resort_credit", "hilton_brands"]),
+    hilton_cash_currency: pickField(contributors, (contributor) =>
+      contributor.source === "hilton_brands" ? contributor.stageOneHotel?.lowest_cash_price_currency : ""
+    ),
+    hilton_cash_price: pickField(contributors, (contributor) =>
+      contributor.source === "hilton_brands" ? contributor.stageOneHotel?.lowest_cash_price : ""
+    ),
+    hilton_points_price: pickField(contributors, (contributor) =>
+      contributor.source === "hilton_brands" ? contributor.stageOneHotel?.lowest_points_price : ""
+    ),
     iprefer_url: pickSourcePageUrl(contributors, ["iprefer_points"]),
     name: pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_name, contributor.stageOneHotel?.name])
@@ -391,8 +406,17 @@ function buildUnmatchedRecord(record) {
     chase_url: record.source === "chase_edit"
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
       : "",
-    hilton_url: record.source === "hilton_aspire_resort_credit"
+    hilton_url: (record.source === "hilton_aspire_resort_credit" || record.source === "hilton_brands")
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
+      : "",
+    hilton_cash_currency: record.source === "hilton_brands"
+      ? normalizeString(record.stageOneHotel.lowest_cash_price_currency)
+      : "",
+    hilton_cash_price: record.source === "hilton_brands"
+      ? normalizeString(record.stageOneHotel.lowest_cash_price)
+      : "",
+    hilton_points_price: record.source === "hilton_brands"
+      ? normalizeString(record.stageOneHotel.lowest_points_price)
       : "",
     iprefer_url: record.source === "iprefer_points"
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
