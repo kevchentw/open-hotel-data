@@ -642,6 +642,10 @@ function normalizeHotel([id, rawHotel]) {
     aspireCreditWithStay: rawHotel.aspire_credit_with_stay || null,
     generatedSource: rawHotel.display_state || rawHotel.record_type || "",
     sampledPriceSummary,
+    hiltonPointsPrice: toFiniteNumber(rawHotel.hilton_points_price),
+    hiltonCashPriceUsd: toFiniteNumber(rawHotel.hilton_cash_price_usd),
+    hiltonCpp: toFiniteNumber(rawHotel.hilton_cpp),
+    hiltonCashCurrency: rawHotel.hilton_cash_currency || "",
     marker: null,
   };
 
@@ -655,10 +659,14 @@ function compareHotels(left, right) {
 
   const leftPrice = state.bucket === "iprefer"
     ? (state.ipreferMapMode === "points" ? left.ipreferPointsMin : left.ipreferCashMin)
-    : left.priceValue;
+    : state.bucket === "hilton"
+      ? (state.hiltonMapMode === "points" ? left.hiltonPointsPrice : left.hiltonCashPriceUsd)
+      : left.priceValue;
   const rightPrice = state.bucket === "iprefer"
     ? (state.ipreferMapMode === "points" ? right.ipreferPointsMin : right.ipreferCashMin)
-    : right.priceValue;
+    : state.bucket === "hilton"
+      ? (state.hiltonMapMode === "points" ? right.hiltonPointsPrice : right.hiltonCashPriceUsd)
+      : right.priceValue;
 
   if (leftPrice !== null && rightPrice !== null && leftPrice !== rightPrice) {
     return state.sort === "price-desc" ? rightPrice - leftPrice : leftPrice - rightPrice;
@@ -1012,7 +1020,16 @@ function createHotelRow(hotel) {
         <span class="row-price">${escapeHtml(hotel.ipreferPriceLabel)}</span>
         ${hotel.ipreferCashMin !== null ? `<span class="row-price-cash">${escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency))}</span>` : ""}
       </div>`
-    : `<span class="row-price">${escapeHtml(hotel.priceLabel)}</span>`;
+    : state.bucket === "hilton"
+      ? `<div class="row-price-iprefer">
+          <span class="row-price">${escapeHtml(
+            state.hiltonMapMode === "points"
+              ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
+              : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A")
+          )}</span>
+          ${hotel.hiltonCpp !== null ? `<span class="row-price-cash">${escapeHtml(hotel.hiltonCpp.toFixed(4))}¢/pt</span>` : ""}
+        </div>`
+      : `<span class="row-price">${escapeHtml(hotel.priceLabel)}</span>`;
 
   button.innerHTML = `
     <div class="hotel-row__main">
@@ -1091,6 +1108,29 @@ function renderDetailView() {
   const planPills = renderPlanPills(hotel.planLabels);
   const sampledPricePattern = renderSampledPricePattern(hotel);
   const ipreferPricePattern = state.bucket === "iprefer" ? renderIpreferPricePattern(hotel) : "";
+  const hiltonPricingSection = state.bucket === "hilton" && (hotel.hiltonPointsPrice !== null || hotel.hiltonCashPriceUsd !== null)
+    ? `
+      <section class="sampled-price-pattern" aria-label="Hilton pricing">
+        <span class="sampled-price-pattern__eyebrow">Hilton pricing</span>
+        <div class="detail-grid">
+          ${hotel.hiltonPointsPrice !== null ? `
+          <div class="detail-row">
+            <span>Points/night</span>
+            <strong>${escapeHtml(formatNumber(hotel.hiltonPointsPrice))} pts</strong>
+          </div>` : ""}
+          ${hotel.hiltonCashPriceUsd !== null ? `
+          <div class="detail-row">
+            <span>Cash/night (USD)</span>
+            <strong>${escapeHtml(formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD"))}${hotel.hiltonCashCurrency && hotel.hiltonCashCurrency !== "USD" ? ` <span style="opacity:0.6">(${escapeHtml(hotel.hiltonCashCurrency)})</span>` : ""}</strong>
+          </div>` : ""}
+          ${hotel.hiltonCpp !== null ? `
+          <div class="detail-row">
+            <span>CPP</span>
+            <strong>${escapeHtml(hotel.hiltonCpp.toFixed(4))}¢/pt</strong>
+          </div>` : ""}
+        </div>
+      </section>`
+    : "";
   const sourceActions = [
     hotel.amexUrl
       ? `<a class="primary-button" href="${hotel.amexUrl}" target="_blank" rel="noreferrer" data-analytics-link="amex">Amex</a>`
@@ -1113,7 +1153,15 @@ function renderDetailView() {
     <article class="detail-card detail-card--in-list">
       <div class="card-topline">
         ${planPills ? `<div class="detail-plan-pills detail-plan-pills--inline">${planPills}</div>` : "<div></div>"}
-        <span class="price-pill">${escapeHtml(state.bucket === "iprefer" ? hotel.ipreferPriceLabel : hotel.priceLabel)}</span>
+        <span class="price-pill">${escapeHtml(
+          state.bucket === "iprefer"
+            ? hotel.ipreferPriceLabel
+            : state.bucket === "hilton"
+              ? (state.hiltonMapMode === "points"
+                  ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
+                  : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A"))
+              : hotel.priceLabel
+        )}</span>
       </div>
       <h2>${escapeHtml(hotel.name)}</h2>
       <p class="detail-location">${escapeHtml(hotel.locationLabel)}</p>
@@ -1126,6 +1174,7 @@ function renderDetailView() {
       </div>` : ""}
 
       ${ipreferPricePattern}
+      ${hiltonPricingSection}
       ${sampledPricePattern}
 
       <div class="detail-grid">
@@ -1287,6 +1336,28 @@ function markerHtml(hotel) {
     `;
   }
 
+  if (state.bucket === "hilton") {
+    if (state.hiltonMapMode === "points") {
+      const label = hotel.hiltonPointsPrice !== null
+        ? `${formatNumber(hotel.hiltonPointsPrice / 1000)}k`
+        : "N/A";
+      return `
+        <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
+          <span>${escapeHtml(label)}</span>
+        </div>
+      `;
+    }
+
+    const label = hotel.hiltonCashPriceUsd !== null
+      ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD")
+      : "—";
+    return `
+      <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
+        <span>${escapeHtml(label)}</span>
+      </div>
+    `;
+  }
+
   return `
     <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
       <span>${escapeHtml(hotel.priceValue !== null ? formatCurrency(hotel.priceValue) : "View")}</span>
@@ -1299,6 +1370,13 @@ function mapPinClass(hotel) {
     const hasValue = state.ipreferMapMode === "points"
       ? hotel.ipreferPointsMin !== null
       : hotel.ipreferCashMin !== null;
+    return hasValue ? "map-pin--priced" : "map-pin--pending";
+  }
+
+  if (state.bucket === "hilton") {
+    const hasValue = state.hiltonMapMode === "points"
+      ? hotel.hiltonPointsPrice !== null
+      : hotel.hiltonCashPriceUsd !== null;
     return hasValue ? "map-pin--priced" : "map-pin--pending";
   }
 
@@ -1349,6 +1427,14 @@ function mapPinStyle(hotel) {
     return `--pin-color: ${getPriceBucketColor(hotel.ipreferCashMin)};`;
   }
 
+  if (state.bucket === "hilton") {
+    if (state.hiltonMapMode === "points") {
+      return `--pin-color: ${getPointsBucketColor(hotel.hiltonPointsPrice)};`;
+    }
+
+    return `--pin-color: ${getPriceBucketColor(hotel.hiltonCashPriceUsd)};`;
+  }
+
   return `--pin-color: ${getPriceBucketColor(hotel.priceValue)};`;
 }
 
@@ -1378,6 +1464,10 @@ function getLowestPriceHotel(hotels) {
   const getValue = (hotel) => {
     if (state.bucket === "iprefer") {
       return state.ipreferMapMode === "points" ? hotel.ipreferPointsMin : hotel.ipreferCashMin;
+    }
+
+    if (state.bucket === "hilton") {
+      return state.hiltonMapMode === "points" ? hotel.hiltonPointsPrice : hotel.hiltonCashPriceUsd;
     }
 
     return hotel.priceValue;
@@ -1446,7 +1536,13 @@ function renderMap() {
 
     const popupPriceHtml = state.bucket === "iprefer"
       ? `<span>${escapeHtml(hotel.ipreferPriceLabel)}${hotel.ipreferCashMin !== null ? ` · ${escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency))}` : ""}</span>`
-      : `<span>${escapeHtml(hotel.priceLabel)}</span>`;
+      : state.bucket === "hilton"
+        ? `<span>${escapeHtml(
+            state.hiltonMapMode === "points"
+              ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
+              : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A")
+          )}${hotel.hiltonCpp !== null ? ` · ${escapeHtml(hotel.hiltonCpp.toFixed(4))}¢/pt` : ""}</span>`
+        : `<span>${escapeHtml(hotel.priceLabel)}</span>`;
 
     marker.bindPopup(`
       <div class="popup-card">
