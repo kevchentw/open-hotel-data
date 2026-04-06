@@ -95,6 +95,8 @@ const state = {
   preserveDetailUntil: 0,
   ipreferMapMode: "cash",
   hiltonMapMode: "points",
+  hiltonStandardOnly: true,
+  hiltonUnder60k: true,
   ipreferHasPoints: false,
   editSelectHotels: false,
   aspireCreditWithStayFilter: false,
@@ -646,6 +648,7 @@ function normalizeHotel([id, rawHotel]) {
     hiltonCashPriceUsd: toFiniteNumber(rawHotel.hilton_cash_price_usd),
     hiltonCpp: toFiniteNumber(rawHotel.hilton_cpp),
     hiltonCashCurrency: rawHotel.hilton_cash_currency || "",
+    hiltonPointsRewardType: rawHotel.hilton_points_reward_type || "",
     marker: null,
   };
 
@@ -759,6 +762,22 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
     !excluded.has("aspireCreditWithStayFilter") &&
     state.aspireCreditWithStayFilter &&
     hotel.aspireCreditWithStay?.status !== "success"
+  ) {
+    return false;
+  }
+
+  if (
+    !excluded.has("hiltonStandardOnly") &&
+    state.hiltonStandardOnly &&
+    hotel.hiltonPointsRewardType !== "Standard Room Reward"
+  ) {
+    return false;
+  }
+
+  if (
+    !excluded.has("hiltonUnder60k") &&
+    state.hiltonUnder60k &&
+    (hotel.hiltonPointsPrice === null || hotel.hiltonPointsPrice > 60000)
   ) {
     return false;
   }
@@ -1682,6 +1701,9 @@ function render() {
   dom.hiltonMapToggle.querySelectorAll("[data-mode]").forEach((b) => {
     b.classList.toggle("is-active", b.dataset.mode === state.hiltonMapMode);
   });
+  dom.hiltonFiltersGroup.hidden = !isHilton;
+  dom.hiltonStandardOnlyBtn.classList.toggle("is-active", state.hiltonStandardOnly);
+  dom.hiltonUnder60kBtn.classList.toggle("is-active", state.hiltonUnder60k);
   dom.ipreferHasPointsBtn.classList.toggle("is-active", state.ipreferHasPoints);
   const isEdit = state.bucket === "edit";
   dom.editSelectHotelsGroup.hidden = !isEdit;
@@ -1832,6 +1854,12 @@ function buildShell() {
           <button id="aspire-credit-with-stay-btn" class="filter-toggle-btn" type="button">Credit without Stay</button>
         </label>
 
+        <label id="hilton-filters-group" class="toolbar-group" hidden>
+          <span>Hilton filters</span>
+          <button id="hilton-standard-only-btn" class="filter-toggle-btn" type="button">Standard reward</button>
+          <button id="hilton-under-60k-btn" class="filter-toggle-btn" type="button">≤ 60k pts</button>
+        </label>
+
         <label class="toolbar-group toolbar-group--amenities">
           <span>Amenities</span>
           <div class="filter-dropdown" id="amenities-dropdown">
@@ -1912,6 +1940,9 @@ function buildShell() {
     aspireCreditWithStayGroup: document.querySelector("#aspire-credit-with-stay-group"),
     aspireCreditWithStayBtn: document.querySelector("#aspire-credit-with-stay-btn"),
     fhrThcToggle: document.querySelector("#fhr-thc-toggle"),
+    hiltonFiltersGroup: document.querySelector("#hilton-filters-group"),
+    hiltonStandardOnlyBtn: document.querySelector("#hilton-standard-only-btn"),
+    hiltonUnder60kBtn: document.querySelector("#hilton-under-60k-btn"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
@@ -1937,6 +1968,8 @@ function bindEvents() {
       state.editSelectHotels = false;
       state.aspireCreditWithStayFilter = false;
       state.fhrThcSubFilter = "fhr";
+      state.hiltonStandardOnly = true;
+      state.hiltonUnder60k = true;
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
       state.selectedHotelId = null;
@@ -2063,6 +2096,22 @@ function bindEvents() {
     applyFilters();
     renderMap();
     renderListPanel();
+  });
+
+  dom.hiltonStandardOnlyBtn.addEventListener("click", () => {
+    state.hiltonStandardOnly = !state.hiltonStandardOnly;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.hiltonUnder60kBtn.addEventListener("click", () => {
+    state.hiltonUnder60k = !state.hiltonUnder60k;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
   });
 
   dom.hiltonMapToggle.addEventListener("click", (event) => {
