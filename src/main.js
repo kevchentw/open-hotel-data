@@ -38,17 +38,11 @@ const PLAN_CONFIG = {
     plans: ["hilton_aspire_resort_credit"],
     description: "Hilton Aspire resorts that are not also in Amex FHR or THC.",
   },
-  fhr: {
-    key: "fhr",
-    label: "FHR",
-    plans: ["amex_fhr"],
-    description: "Fine Hotels + Resorts properties, including shared Aspire resorts.",
-  },
-  thc: {
-    key: "thc",
-    label: "THC",
-    plans: ["amex_thc"],
-    description: "Hotel Collection properties from the latest export.",
+  fhr_thc: {
+    key: "fhr_thc",
+    label: "FHR/THC",
+    plans: ["amex_fhr", "amex_thc"],
+    description: "Amex Fine Hotels + Resorts and The Hotel Collection properties.",
   },
   iprefer: {
     key: "iprefer",
@@ -293,12 +287,8 @@ function formatDateTime(value) {
 }
 
 function buildBucketKey(plans = []) {
-  if (plans.includes("amex_thc")) {
-    return "thc";
-  }
-
-  if (plans.includes("amex_fhr")) {
-    return "fhr";
+  if (plans.includes("amex_thc") || plans.includes("amex_fhr")) {
+    return "fhr_thc";
   }
 
   if (plans.includes("iprefer_points")) {
