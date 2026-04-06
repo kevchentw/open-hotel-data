@@ -29,6 +29,8 @@ Defined as a top-level constant in `hilton-brands.mjs`, easy to extend:
 const BRAND_SLUGS = [
   { slug: "small-luxury-hotels-slh",  brand: "Small Luxury Hotels of the World" },
   { slug: "waldorf-astoria",          brand: "Waldorf Astoria Hotels & Resorts" },
+  { slug: "lxr-hotels",              brand: "LXR Hotels & Resorts" },
+  { slug: "conrad-hotels",           brand: "Conrad Hotels & Resorts" },
 ];
 ```
 
@@ -107,7 +109,9 @@ The points field paths must be confirmed by inspecting the live extract JSON at 
     "record_count": 123,
     "source_urls": [
       "https://www.hilton.com/en/locations/small-luxury-hotels-slh/",
-      "https://www.hilton.com/en/locations/waldorf-astoria/"
+      "https://www.hilton.com/en/locations/waldorf-astoria/",
+      "https://www.hilton.com/en/locations/lxr-hotels/",
+      "https://www.hilton.com/en/locations/conrad-hotels/"
     ]
   },
   "hotels": { ... }
