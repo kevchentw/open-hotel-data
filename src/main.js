@@ -131,6 +131,7 @@ function normalizeText(value) {
 
 function normalizeCountry(value) {
   if (value === "Taiwan China") return "Taiwan";
+  if (value === "USA") return "United States";
   return value;
 }
 
