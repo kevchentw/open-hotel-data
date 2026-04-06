@@ -1576,7 +1576,7 @@ function render() {
   dom.aspireCreditWithStayGroup.hidden = !isAspire;
   dom.aspireCreditWithStayBtn.classList.toggle("is-active", state.aspireCreditWithStayFilter);
   const isFhrThc = state.bucket === "fhr_thc";
-  dom.fhrThcToggleGroup.hidden = !isFhrThc;
+  dom.fhrThcToggle.hidden = !isFhrThc;
   dom.fhrThcToggle.querySelectorAll("[data-subfilter]").forEach((btn) => {
     btn.classList.toggle("is-active", btn.dataset.subfilter === state.fhrThcSubFilter);
   });
@@ -1659,6 +1659,11 @@ function buildShell() {
               <button class="bucket-tab" data-bucket="iprefer" type="button"></button>
               <button class="bucket-tab" data-bucket="edit" type="button"></button>
             </div>
+            <div id="fhr-thc-toggle" class="map-mode-toggle" hidden>
+              <button class="map-mode-toggle__btn is-active" data-subfilter="fhr" type="button">FHR</button>
+              <button class="map-mode-toggle__btn" data-subfilter="thc" type="button">THC</button>
+              <button class="map-mode-toggle__btn" data-subfilter="fhr+thc" type="button">FHR+THC</button>
+            </div>
           </section>
         </section>
 
@@ -1695,15 +1700,6 @@ function buildShell() {
             <option value="price-desc">Highest price</option>
             <option value="name">Name</option>
           </select>
-        </label>
-
-        <label id="fhr-thc-toggle-group" class="toolbar-group" hidden>
-          <span>Amex filter</span>
-          <div id="fhr-thc-toggle" class="map-mode-toggle">
-            <button class="map-mode-toggle__btn is-active" data-subfilter="fhr" type="button">FHR</button>
-            <button class="map-mode-toggle__btn" data-subfilter="thc" type="button">THC</button>
-            <button class="map-mode-toggle__btn" data-subfilter="fhr+thc" type="button">FHR + THC</button>
-          </div>
         </label>
 
         <label id="iprefer-has-points-group" class="toolbar-group" hidden>
@@ -1795,7 +1791,6 @@ function buildShell() {
     editSelectHotelsBtn: document.querySelector("#edit-select-hotels-btn"),
     aspireCreditWithStayGroup: document.querySelector("#aspire-credit-with-stay-group"),
     aspireCreditWithStayBtn: document.querySelector("#aspire-credit-with-stay-btn"),
-    fhrThcToggleGroup: document.querySelector("#fhr-thc-toggle-group"),
     fhrThcToggle: document.querySelector("#fhr-thc-toggle"),
   };
 
