@@ -1642,8 +1642,7 @@ function buildShell() {
           <section class="bucket-strip">
             <div class="bucket-tabs">
               <button class="bucket-tab" data-bucket="aspire" type="button"></button>
-              <button class="bucket-tab" data-bucket="fhr" type="button"></button>
-              <button class="bucket-tab" data-bucket="thc" type="button"></button>
+              <button class="bucket-tab" data-bucket="fhr_thc" type="button"></button>
               <button class="bucket-tab" data-bucket="iprefer" type="button"></button>
               <button class="bucket-tab" data-bucket="edit" type="button"></button>
             </div>
@@ -1683,6 +1682,15 @@ function buildShell() {
             <option value="price-desc">Highest price</option>
             <option value="name">Name</option>
           </select>
+        </label>
+
+        <label id="fhr-thc-toggle-group" class="toolbar-group" hidden>
+          <span>Amex filter</span>
+          <div id="fhr-thc-toggle" class="map-mode-toggle">
+            <button class="map-mode-toggle__btn is-active" data-subfilter="fhr" type="button">FHR</button>
+            <button class="map-mode-toggle__btn" data-subfilter="thc" type="button">THC</button>
+            <button class="map-mode-toggle__btn" data-subfilter="fhr+thc" type="button">FHR + THC</button>
+          </div>
         </label>
 
         <label id="iprefer-has-points-group" class="toolbar-group" hidden>
@@ -1774,6 +1782,8 @@ function buildShell() {
     editSelectHotelsBtn: document.querySelector("#edit-select-hotels-btn"),
     aspireCreditWithStayGroup: document.querySelector("#aspire-credit-with-stay-group"),
     aspireCreditWithStayBtn: document.querySelector("#aspire-credit-with-stay-btn"),
+    fhrThcToggleGroup: document.querySelector("#fhr-thc-toggle-group"),
+    fhrThcToggle: document.querySelector("#fhr-thc-toggle"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
