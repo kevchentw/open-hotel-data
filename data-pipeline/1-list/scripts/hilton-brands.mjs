@@ -66,7 +66,7 @@ export function buildHotelRecord(extractHotel, brand, collectedAt, standardLowes
     latitude: stringifyNumber(coordinate.latitude),
     longitude: stringifyNumber(coordinate.longitude),
     lowest_cash_price: stringifyNumber(lowestCash.rateAmount),
-    lowest_cash_price_currency: extractHotel?.localization?.currencyCode ?? "",
+    lowest_cash_price_currency: lowestCash.rateAmount != null ? "USD" : "",
     lowest_cash_price_display: lowestCash.rateAmountFmt ?? "",
     lowest_points_price: stringifyNumber(hhonorsLead.dailyRmPointsRate),
     points_reward_type: mapPointsRewardType(pointsTypeRaw),

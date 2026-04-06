@@ -297,6 +297,9 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     hilton_points_reward_type: pickField(contributors, (contributor) =>
       contributor.source === "hilton_brands" ? contributor.stageOneHotel?.points_reward_type : ""
     ),
+    hilton_standard_points_price: pickField(contributors, (contributor) =>
+      contributor.source === "hilton_brands" ? contributor.stageOneHotel?.standard_lowest_points_price : ""
+    ),
     iprefer_url: pickSourcePageUrl(contributors, ["iprefer_points"]),
     name: pickField(contributors, (contributor) =>
       firstNonEmpty([contributor.stageTwoHotel?.detail_name, contributor.stageOneHotel?.name])
@@ -423,6 +426,9 @@ function buildUnmatchedRecord(record) {
       : "",
     hilton_points_reward_type: record.source === "hilton_brands"
       ? normalizeString(record.stageOneHotel.points_reward_type)
+      : "",
+    hilton_standard_points_price: record.source === "hilton_brands"
+      ? normalizeString(record.stageOneHotel.standard_lowest_points_price)
       : "",
     iprefer_url: record.source === "iprefer_points"
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])

@@ -2,10 +2,10 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_thc",
-    "generated_at": "2026-04-06T21:36:24.380Z",
-    "record_count": 500,
-    "matched_count": 500,
-    "unmatched_count": 0
+    "generated_at": "2026-04-06T22:07:40.928Z",
+    "record_count": 521,
+    "matched_count": 520,
+    "unmatched_count": 1
   },
   "matches": {
     "Alabama-US/Auburn/Graduate-By-Hilton-Auburn-Al": {
@@ -3777,6 +3777,153 @@
       "search_query": "Kimpton Sylvan Hotel",
       "match_confidence": "high",
       "matched_at": "2026-04-06T21:36:24.380Z"
+    },
+    "Georgia-US/Atlanta/Omni-Hotel-At-The-Battery-Atlanta": {
+      "tripadvisor_id": "g60898-d12867528",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d12867528-Reviews-Omni_Hotel_at_the_Battery_Atlanta-Atlanta_Georgia.html",
+      "search_query": "Omni Hotel at The Battery Atlanta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:30.423Z"
+    },
+    "Georgia-US/Atlanta/The-Tess-Autograph-Collection": {
+      "tripadvisor_id": "g60898-d23469483",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d23469483-Reviews-The_Tess_Autograph_Collection-Atlanta_Georgia.html",
+      "search_query": "The Tess, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:36.339Z"
+    },
+    "Georgia-US/Jekyll-Island/Jekyll-Island-Club": {
+      "tripadvisor_id": "g35034-d12378306",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35034-d12378306-Reviews-Jekyll_Ocean_Club-Jekyll_Island_Golden_Isles_of_Georgia_Georgia.html",
+      "search_query": "Jekyll Island Club",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:36:42.262Z"
+    },
+    "Georgia-US/Jekyll-Island/Jekyll-Ocean-Club": {
+      "tripadvisor_id": "g35034-d12378306",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35034-d12378306-Reviews-Jekyll_Ocean_Club-Jekyll_Island_Golden_Isles_of_Georgia_Georgia.html",
+      "search_query": "Jekyll Ocean Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:48.189Z"
+    },
+    "Georgia-US/Rising-Fawn/Cloudland-At-Mclemore-Resort-Lookout-Mountain-Curio-By-Hilton": {
+      "tripadvisor_id": "g35223-d26811868",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35223-d26811868-Reviews-Cloudland_At_McLemore_Resort_Lookout_Mountain_Curio_By_Hilton-Rising_Fawn_Georgia.html",
+      "search_query": "Cloudland at McLemore Resort Lookout Mountain, Curio by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:54.179Z"
+    },
+    "Georgia-US/Savannah/Andaz-Savannah": {
+      "tripadvisor_id": "g60814-d1159237",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60814-d1159237-Reviews-Andaz_Savannah-Savannah_Georgia.html",
+      "search_query": "Andaz Savannah",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:59.938Z"
+    },
+    "Georgia-US/Savannah/Jw-Marriott-Savannah-Plant-Riverside-District": {
+      "tripadvisor_id": "g60814-d15531002",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60814-d15531002-Reviews-JW_Marriott_Savannah_Plant_Riverside_District-Savannah_Georgia.html",
+      "search_query": "JW Marriott Savannah Plant Riverside District",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:37:05.773Z"
+    },
+    "Georgia-US/Savannah/The-Alida-Hotel-A-Tribute-Portfolio": {
+      "tripadvisor_id": "g60814-d14947811",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60814-d14947811-Reviews-The_Alida_Savannah_A_Tribute_Portfolio_Hotel-Savannah_Georgia.html",
+      "search_query": "The Alida Hotel, A Tribute Portfolio",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:37:11.760Z"
+    },
+    "Georgia-US/Savannah/The-Brice-a-Kimpton-Hotel": {
+      "tripadvisor_id": "g60814-d86783",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60814-d86783-Reviews-Kimpton_Brice_Hotel_by_IHG-Savannah_Georgia.html",
+      "search_query": "The BRICE, a Kimpton Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:37:17.707Z"
+    },
+    "Georgia-US/Savannah/The-Drayton-Hotel-Savannah-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g60814-d17521370",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60814-d17521370-Reviews-The_Drayton_Hotel_Savannah_Curio_Collection_By_Hilton-Savannah_Georgia.html",
+      "search_query": "The Drayton Hotel Savannah, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:37:24.237Z"
+    },
+    "Germany/Baden-Baden/Roomers-Baden-baden": {
+      "tripadvisor_id": "g187278-d10199201",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187278-d10199201-Reviews-Roomers_Baden_Baden_Autograph_Collection-Baden_Baden_Baden_Wurttemberg.html",
+      "search_query": "Roomers Baden-Baden",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:37:30.090Z"
+    },
+    "Germany/Berlin/Grand-Hyatt-Berlin": {
+      "tripadvisor_id": "g187323-d230572",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d230572-Reviews-Grand_Hyatt_Berlin-Berlin.html",
+      "search_query": "Grand Hyatt Berlin",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:06:39.252Z"
+    },
+    "Germany/Berlin/Hilton-Berlin": {
+      "tripadvisor_id": "g187323-d191438",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d191438-Reviews-Hilton_Berlin-Berlin.html",
+      "search_query": "Hilton Berlin",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:06:45.287Z"
+    },
+    "Germany/Berlin/Intercontinental-Berlin": {
+      "tripadvisor_id": "",
+      "tripadvisor_url": "",
+      "search_query": "InterContinental Berlin",
+      "match_confidence": "none",
+      "matched_at": "2026-04-06T22:06:51.997Z"
+    },
+    "Germany/Berlin/Soho-House-Berlin": {
+      "tripadvisor_id": "g187323-d1776962",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d1776962-Reviews-Soho_House_Berlin-Berlin.html",
+      "search_query": "Soho House Berlin",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:05.001Z"
+    },
+    "Germany/Berlin/The-Hoxton-Charlottenburg": {
+      "tripadvisor_id": "g187323-d25323748",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d25323748-Reviews-The_Hoxton_Charlottenburg-Berlin.html",
+      "search_query": "The Hoxton, Charlottenburg",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:07:11.047Z"
+    },
+    "Germany/Berlin/The-Mandala-Hotel": {
+      "tripadvisor_id": "g187323-d248857",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d248857-Reviews-The_Mandala_Hotel-Berlin.html",
+      "search_query": "The Mandala Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:16.958Z"
+    },
+    "Germany/Düsseldorf/Hotel-Ko59-Dusseldorf---Member-Of-Hommage-Luxury-Hotels-Collection": {
+      "tripadvisor_id": "g187373-d581356",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187373-d581356-Reviews-Hotel_Ko59-Dusseldorf_North_Rhine_Westphalia.html",
+      "search_query": "Hotel Kö59 Düsseldorf - Member of Hommage Luxury Hotels Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:07:23.013Z"
+    },
+    "Germany/Frankfurt/Avani-Frankfurt-City": {
+      "tripadvisor_id": "g187337-d280630",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187337-d280630-Reviews-Avani_Frankfurt_City_Hotel-Frankfurt_Hesse.html",
+      "search_query": "Avani Frankfurt City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:29.058Z"
+    },
+    "Germany/Frankfurt/Jw-Marriott-Hotel-Frankfurt": {
+      "tripadvisor_id": "g187337-d2148823",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187337-d2148823-Reviews-JW_Marriott_Hotel_Frankfurt-Frankfurt_Hesse.html",
+      "search_query": "JW Marriott Hotel Frankfurt",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:35.020Z"
+    },
+    "Germany/Frankfurt/Nh-Collection-Frankfurt-Spin-Tower": {
+      "tripadvisor_id": "g187337-d25083983",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187337-d25083983-Reviews-NH_Collection_Frankfurt_Spin_Tower-Frankfurt_Hesse.html",
+      "search_query": "NH Collection Frankfurt Spin Tower",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:40.928Z"
     }
   }
 }

@@ -612,6 +612,9 @@ function normalizeHotel([id, rawHotel]) {
     ipreferCashMax: ipreferSummary.cashMax,
     ipreferCurrency: ipreferSummary.currency,
     ipreferMonths: ipreferSummary.months,
+    ipreferCpp: (ipreferSummary.cashMin !== null && ipreferSummary.pointsMin !== null && ipreferSummary.pointsMin > 0)
+      ? ipreferSummary.cashMin / ipreferSummary.pointsMin * 100
+      : null,
     ipreferPriceLabel: formatIpreferPointsLabel(ipreferSummary.pointsMin, ipreferSummary.pointsMax),
     priceLabel: formatCurrency(priceValue, rawHotel.summary_price?.currency || rawHotel.currency || "USD"),
     priceSubLabel:
@@ -644,6 +647,8 @@ function normalizeHotel([id, rawHotel]) {
     generatedSource: rawHotel.display_state || rawHotel.record_type || "",
     sampledPriceSummary,
     hiltonPointsPrice: toFiniteNumber(rawHotel.hilton_points_price),
+    hiltonStandardPointsPrice: toFiniteNumber(rawHotel.hilton_standard_points_price),
+    hiltonEffectivePointsPrice: toFiniteNumber(rawHotel.hilton_standard_points_price) ?? toFiniteNumber(rawHotel.hilton_points_price),
     hiltonCashPriceUsd: toFiniteNumber(rawHotel.hilton_cash_price_usd),
     hiltonCpp: toFiniteNumber(rawHotel.hilton_cpp),
     hiltonCashCurrency: rawHotel.hilton_cash_currency || "",
@@ -660,8 +665,8 @@ function compareHotels(left, right) {
   }
 
   if (state.sort === "cpp-desc") {
-    const leftCpp = left.hiltonCpp;
-    const rightCpp = right.hiltonCpp;
+    const leftCpp = state.bucket === "iprefer" ? left.ipreferCpp : left.hiltonCpp;
+    const rightCpp = state.bucket === "iprefer" ? right.ipreferCpp : right.hiltonCpp;
     if (leftCpp !== null && rightCpp !== null && leftCpp !== rightCpp) {
       return rightCpp - leftCpp;
     }
@@ -673,12 +678,12 @@ function compareHotels(left, right) {
   const leftPrice = state.bucket === "iprefer"
     ? (state.ipreferMapMode === "points" ? left.ipreferPointsMin : left.ipreferCashMin)
     : state.bucket === "hilton"
-      ? (state.hiltonMapMode === "points" ? left.hiltonPointsPrice : left.hiltonCashPriceUsd)
+      ? (state.hiltonMapMode === "points" ? left.hiltonEffectivePointsPrice : left.hiltonCashPriceUsd)
       : left.priceValue;
   const rightPrice = state.bucket === "iprefer"
     ? (state.ipreferMapMode === "points" ? right.ipreferPointsMin : right.ipreferCashMin)
     : state.bucket === "hilton"
-      ? (state.hiltonMapMode === "points" ? right.hiltonPointsPrice : right.hiltonCashPriceUsd)
+      ? (state.hiltonMapMode === "points" ? right.hiltonEffectivePointsPrice : right.hiltonCashPriceUsd)
       : right.priceValue;
 
   if (leftPrice !== null && rightPrice !== null && leftPrice !== rightPrice) {
@@ -780,7 +785,8 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
     !excluded.has("hiltonStandardOnly") &&
     state.bucket === "hilton" &&
     state.hiltonStandardOnly &&
-    hotel.hiltonPointsRewardType !== "Standard Room Reward"
+    hotel.hiltonPointsRewardType !== "Standard Room Reward" &&
+    hotel.hiltonStandardPointsPrice === null
   ) {
     return false;
   }
@@ -964,6 +970,7 @@ function updateFilterOptions() {
 
   dom.overlapPlan.disabled = overlapOptions.length === 0;
   dom.overlapPlan.value = state.overlapPlan;
+  dom.sort.value = state.sort;
 
   const amenityOptions = readAmenityOptions(getScopedHotels(["amenities"]));
   const amenityValues = new Set(amenityOptions.map((option) => option.value));
@@ -1046,7 +1053,7 @@ function createHotelRow(hotel) {
       ? `<div class="row-price-iprefer">
           <span class="row-price">${escapeHtml(
             state.hiltonMapMode === "points"
-              ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
+              ? (hotel.hiltonEffectivePointsPrice !== null ? `${formatNumber(hotel.hiltonEffectivePointsPrice)} pts` : "N/A")
               : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A")
           )}</span>
           ${hotel.hiltonCpp !== null ? `<span class="row-price-cash">${escapeHtml(hotel.hiltonCpp.toFixed(2))}¢/pt</span>` : ""}
@@ -1140,6 +1147,11 @@ function renderDetailView() {
             <span>Points/night</span>
             <strong>${escapeHtml(formatNumber(hotel.hiltonPointsPrice))} pts</strong>
           </div>` : ""}
+          ${hotel.hiltonStandardPointsPrice !== null ? `
+          <div class="detail-row">
+            <span>Standard reward</span>
+            <strong>${escapeHtml(formatNumber(hotel.hiltonStandardPointsPrice))} pts</strong>
+          </div>` : ""}
           ${hotel.hiltonCashPriceUsd !== null ? `
           <div class="detail-row">
             <span>Cash/night (USD)</span>
@@ -1180,7 +1192,7 @@ function renderDetailView() {
             ? hotel.ipreferPriceLabel
             : state.bucket === "hilton"
               ? (state.hiltonMapMode === "points"
-                  ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
+                  ? (hotel.hiltonEffectivePointsPrice !== null ? `${formatNumber(hotel.hiltonEffectivePointsPrice)} pts` : "N/A")
                   : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A"))
               : hotel.priceLabel
         )}</span>
@@ -1360,8 +1372,8 @@ function markerHtml(hotel) {
 
   if (state.bucket === "hilton") {
     if (state.hiltonMapMode === "points") {
-      const label = hotel.hiltonPointsPrice !== null
-        ? `${formatNumber(hotel.hiltonPointsPrice / 1000)}k`
+      const label = hotel.hiltonEffectivePointsPrice !== null
+        ? `${formatNumber(hotel.hiltonEffectivePointsPrice / 1000)}k`
         : "N/A";
       return `
         <div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">
@@ -1397,7 +1409,7 @@ function mapPinClass(hotel) {
 
   if (state.bucket === "hilton") {
     const hasValue = state.hiltonMapMode === "points"
-      ? hotel.hiltonPointsPrice !== null
+      ? hotel.hiltonEffectivePointsPrice !== null
       : hotel.hiltonCashPriceUsd !== null;
     return hasValue ? "map-pin--priced" : "map-pin--pending";
   }
@@ -1451,7 +1463,7 @@ function mapPinStyle(hotel) {
 
   if (state.bucket === "hilton") {
     if (state.hiltonMapMode === "points") {
-      return `--pin-color: ${getPointsBucketColor(hotel.hiltonPointsPrice)};`;
+      return `--pin-color: ${getPointsBucketColor(hotel.hiltonEffectivePointsPrice)};`;
     }
 
     return `--pin-color: ${getPriceBucketColor(hotel.hiltonCashPriceUsd)};`;
@@ -1489,7 +1501,7 @@ function getLowestPriceHotel(hotels) {
     }
 
     if (state.bucket === "hilton") {
-      return state.hiltonMapMode === "points" ? hotel.hiltonPointsPrice : hotel.hiltonCashPriceUsd;
+      return state.hiltonMapMode === "points" ? hotel.hiltonEffectivePointsPrice : hotel.hiltonCashPriceUsd;
     }
 
     return hotel.priceValue;
@@ -1561,7 +1573,7 @@ function renderMap() {
       : state.bucket === "hilton"
         ? `<span>${escapeHtml(
             state.hiltonMapMode === "points"
-              ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
+              ? (hotel.hiltonEffectivePointsPrice !== null ? `${formatNumber(hotel.hiltonEffectivePointsPrice)} pts` : "N/A")
               : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A")
           )}${hotel.hiltonCpp !== null ? ` · ${escapeHtml(hotel.hiltonCpp.toFixed(2))}¢/pt` : ""}</span>`
         : `<span>${escapeHtml(hotel.priceLabel)}</span>`;
@@ -1644,6 +1656,11 @@ function syncStateFromUrl() {
     // Set sub-filter for legacy URLs
     if (bucket === "thc") {
       state.fhrThcSubFilter = "thc";
+    }
+    // Apply iprefer defaults when loading directly onto the iprefer tab
+    if (resolvedBucket === "iprefer") {
+      state.sort = "cpp-desc";
+      state.ipreferHasPoints = true;
     }
   }
   if (hotelId) {
@@ -1965,8 +1982,8 @@ function bindEvents() {
       state.country = "all";
       state.overlapPlan = "all";
       state.amenities = [];
-      state.sort = nextBucket === "hilton" ? "cpp-desc" : "price-asc";
-      state.ipreferHasPoints = false;
+      state.sort = (nextBucket === "hilton" || nextBucket === "iprefer") ? "cpp-desc" : "price-asc";
+      state.ipreferHasPoints = nextBucket === "iprefer";
       state.editSelectHotels = false;
       state.aspireCreditWithStayFilter = false;
       state.fhrThcSubFilter = "fhr";

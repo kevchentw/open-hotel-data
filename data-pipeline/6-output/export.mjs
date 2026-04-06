@@ -113,7 +113,7 @@ function buildCanonicalHotels(hotels, priceByTripadvisorId, aspireCreditByTripad
 
         const rawCash = canonicalHotel.hilton_cash_price;
         const rawCurrency = canonicalHotel.hilton_cash_currency;
-        const rawPoints = canonicalHotel.hilton_points_price;
+        const rawPoints = canonicalHotel.hilton_standard_points_price || canonicalHotel.hilton_points_price;
         if (rawCash && rawCurrency && rawPoints) {
           try {
             const cashUsd = convertToUsd(rawCash, rawCurrency);
@@ -159,6 +159,7 @@ function buildFallbackHotels(unmatched, priceByIpreferId) {
           hilton_cash_price: normalizeString(hotel.hilton_cash_price),
           hilton_points_price: normalizeString(hotel.hilton_points_price),
           hilton_points_reward_type: normalizeString(hotel.hilton_points_reward_type),
+          hilton_standard_points_price: normalizeString(hotel.hilton_standard_points_price),
           name: normalizeString(hotel.name),
           city: normalizeString(hotel.city),
           state_region: normalizeString(hotel.state_region),
@@ -185,7 +186,7 @@ function buildFallbackHotels(unmatched, priceByIpreferId) {
 
         const rawCash = entry.hilton_cash_price;
         const rawCurrency = entry.hilton_cash_currency;
-        const rawPoints = entry.hilton_points_price;
+        const rawPoints = entry.hilton_standard_points_price || entry.hilton_points_price;
         if (rawCash && rawCurrency && rawPoints) {
           try {
             const cashUsd = convertToUsd(rawCash, rawCurrency);

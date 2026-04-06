@@ -168,7 +168,7 @@ test("buildHotelRecord maps address and coordinates", () => {
 test("buildHotelRecord maps cash price fields", () => {
   const record = buildHotelRecord(MOCK_EXTRACT_HOTEL, "LXR Hotels & Resorts", "2026-04-06T00:00:00.000Z");
   assert.equal(record.lowest_cash_price, "300");
-  assert.equal(record.lowest_cash_price_currency, "GBP");
+  assert.equal(record.lowest_cash_price_currency, "USD");
   assert.equal(record.lowest_cash_price_display, "£300");
 });
 
