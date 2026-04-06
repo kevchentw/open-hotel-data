@@ -1813,6 +1813,7 @@ function bindEvents() {
       state.ipreferHasPoints = false;
       state.editSelectHotels = false;
       state.aspireCreditWithStayFilter = false;
+      state.fhrThcSubFilter = "fhr";
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
       state.selectedHotelId = null;
@@ -1939,6 +1940,17 @@ function bindEvents() {
     applyFilters();
     renderMap();
     renderListPanel();
+  });
+
+  dom.fhrThcToggle.addEventListener("click", (event) => {
+    const btn = event.target.closest("[data-subfilter]");
+    if (!btn || btn.dataset.subfilter === state.fhrThcSubFilter) return;
+
+    state.fhrThcSubFilter = btn.dataset.subfilter;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
   });
 
   window.addEventListener("popstate", () => {
