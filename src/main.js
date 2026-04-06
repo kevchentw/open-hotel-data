@@ -56,12 +56,19 @@ const PLAN_CONFIG = {
     plans: ["iprefer_points"],
     description: "I Prefer hotels that support points redemption.",
   },
+  edit: {
+    key: "edit",
+    label: "Edit",
+    plans: ["chase_edit"],
+    description: "Chase Edit hotels from the 2026 stack source (Award Helper). Indicates whether each hotel has chase_2026_credit.",
+  },
 };
 
 const PLAN_LABELS = {
   hilton_aspire_resort_credit: "Aspire",
   amex_fhr: "FHR",
   amex_thc: "THC",
+  chase_edit: "Edit",
   iprefer_points: "iPrefer",
 };
 
@@ -87,6 +94,8 @@ const state = {
   preserveDetailUntil: 0,
   ipreferMapMode: "cash",
   ipreferHasPoints: false,
+  editSelectHotels: false,
+  lastTrackedBucket: null,
 };
 
 let map = null;
@@ -134,6 +143,46 @@ function titleCaseWords(value) {
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en-US").format(value || 0);
+}
+
+function trackEvent(name, params = {}) {
+  if (typeof window === "undefined" || typeof window.gtag !== "function") {
+    return;
+  }
+
+  window.gtag("event", name, params);
+}
+
+function getBucketLabel(bucket) {
+  return PLAN_CONFIG[bucket]?.label || bucket;
+}
+
+function getHotelAnalyticsParams(hotel) {
+  return {
+    hotel_id: hotel.id,
+    hotel_name: hotel.name,
+    hotel_brand: hotel.brand,
+    hotel_city: hotel.city,
+    hotel_country: hotel.country,
+    hotel_bucket: hotel.bucket,
+    hotel_bucket_label: getBucketLabel(hotel.bucket),
+    hotel_plans: hotel.plans.join(","),
+    hotel_plan_labels: hotel.planLabels.join(","),
+  };
+}
+
+function trackBucketView() {
+  if (state.lastTrackedBucket === state.bucket) {
+    return;
+  }
+
+  state.lastTrackedBucket = state.bucket;
+  const bucketHotels = getBucketHotels();
+  trackEvent("hotel_plan_view", {
+    hotel_bucket: state.bucket,
+    hotel_bucket_label: getBucketLabel(state.bucket),
+    hotel_count: bucketHotels.length,
+  });
 }
 
 function formatPointsLabel(pointsRaw) {
@@ -256,6 +305,10 @@ function buildBucketKey(plans = []) {
 
   if (plans.includes("hilton_aspire_resort_credit")) {
     return "aspire";
+  }
+
+  if (plans.includes("chase_edit")) {
+    return "edit";
   }
 
   return null;
@@ -562,6 +615,7 @@ function normalizeHotel([id, rawHotel]) {
         ? rawHotel.summary_price.display
         : "",
     amexUrl: rawHotel.amex_url || "",
+    chaseUrl: rawHotel.chase_url || "",
     hiltonUrl: rawHotel.hilton_url || "",
     ipreferUrl: rawHotel.iprefer_url || "",
     tripadvisorUrl: rawHotel.tripadvisor_url || "",
@@ -579,6 +633,7 @@ function normalizeHotel([id, rawHotel]) {
     sourceCount: toFiniteNumber(rawHotel.source_count),
     sourceHotelId: rawHotel.source_hotel_id || "",
     sourceKeys: rawHotel.source_keys || [],
+    chase2026Credit: (rawHotel.chase_2026_credit || "").toUpperCase() === "TRUE",
     generatedSource: rawHotel.display_state || rawHotel.record_type || "",
     sampledPriceSummary,
     marker: null,
@@ -672,6 +727,10 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
   }
 
   if (!excluded.has("ipreferHasPoints") && state.ipreferHasPoints && hotel.ipreferPointsMin === null) {
+    return false;
+  }
+
+  if (!excluded.has("editSelectHotels") && state.editSelectHotels && !hotel.chase2026Credit) {
     return false;
   }
 
@@ -795,6 +854,7 @@ function getBucketCounts() {
     fhr: 0,
     aspire: 0,
     iprefer: 0,
+    edit: 0,
   };
 
   Object.keys(counts).forEach((bucket) => {
@@ -944,12 +1004,13 @@ function createHotelRow(hotel) {
         <span class="brand-pill">${escapeHtml(hotel.brand)}</span>
         <span class="brand-pill">${escapeHtml(hotel.rawHotel.chain || hotel.brand)}</span>
         <span>${escapeHtml(joinValues(hotel.planLabels))}</span>
+        ${state.bucket === "edit" && hotel.chase2026Credit ? `<span class="brand-pill">$250 Chase Travel Credit Eligible</span>` : ""}
       </div>
     </div>
   `;
 
   button.addEventListener("click", () => {
-    selectHotel(hotel.id, { focusMap: true });
+    selectHotel(hotel.id, { focusMap: true, source: "list" });
   });
 
   return button;
@@ -1010,13 +1071,16 @@ function renderDetailView() {
   const ipreferPricePattern = state.bucket === "iprefer" ? renderIpreferPricePattern(hotel) : "";
   const sourceActions = [
     hotel.amexUrl
-      ? `<a class="primary-button" href="${hotel.amexUrl}" target="_blank" rel="noreferrer">Amex</a>`
+      ? `<a class="primary-button" href="${hotel.amexUrl}" target="_blank" rel="noreferrer" data-analytics-link="amex">Amex</a>`
+      : "",
+    hotel.chaseUrl
+      ? `<a class="primary-button" href="${hotel.chaseUrl}" target="_blank" rel="noreferrer" data-analytics-link="chase">Chase</a>`
       : "",
     hotel.hiltonUrl
-      ? `<a class="primary-button" href="${hotel.hiltonUrl}" target="_blank" rel="noreferrer">Hilton</a>`
+      ? `<a class="primary-button" href="${hotel.hiltonUrl}" target="_blank" rel="noreferrer" data-analytics-link="hilton">Hilton</a>`
       : "",
     hotel.ipreferUrl
-      ? `<a class="primary-button" href="${hotel.ipreferUrl}" target="_blank" rel="noreferrer">iPrefer</a>`
+      ? `<a class="primary-button" href="${hotel.ipreferUrl}" target="_blank" rel="noreferrer" data-analytics-link="iprefer">iPrefer</a>`
       : "",
   ]
     .filter(Boolean)
@@ -1032,9 +1096,9 @@ function renderDetailView() {
       <h2>${escapeHtml(hotel.name)}</h2>
       <p class="detail-location">${escapeHtml(hotel.locationLabel)}</p>
 
-      ${state.bucket !== "iprefer" ? `
-      <div class="detail-price-summary ${hotel.priceValue === null ? "detail-price-summary--pending" : ""}">
-        <span class="detail-price-summary__eyebrow">Lowest price on Hilton page</span>
+      ${state.bucket !== "iprefer" && hotel.summaryPrice ? `
+      <div class="detail-price-summary">
+        <span class="detail-price-summary__eyebrow">Lowest sampled price</span>
         <strong>${escapeHtml(hotel.priceLabel)}</strong>
         ${hotel.priceSubLabel ? `<p>${escapeHtml(hotel.priceSubLabel)}</p>` : ""}
       </div>` : ""}
@@ -1061,13 +1125,23 @@ function renderDetailView() {
         ${sourceActions}
         ${
           hotel.tripadvisorUrl
-            ? `<a class="primary-button" href="${hotel.tripadvisorUrl}" target="_blank" rel="noreferrer">TripAdvisor</a>`
+            ? `<a class="primary-button" href="${hotel.tripadvisorUrl}" target="_blank" rel="noreferrer" data-analytics-link="tripadvisor">TripAdvisor</a>`
             : ""
         }
-        <a class="ghost-button" href="${buildGoogleMapsUrl(hotel)}" target="_blank" rel="noreferrer">Google Map</a>
+        <a class="ghost-button" href="${buildGoogleMapsUrl(hotel)}" target="_blank" rel="noreferrer" data-analytics-link="google_maps">Google Map</a>
       </div>
     </article>
   `;
+
+  dom.list.querySelectorAll("[data-analytics-link]").forEach((link) => {
+    link.addEventListener("click", () => {
+      trackEvent("hotel_outbound_click", {
+        ...getHotelAnalyticsParams(hotel),
+        link_type: link.dataset.analyticsLink,
+      });
+    });
+  });
+
   dom.loadMore.hidden = true;
 }
 
@@ -1293,7 +1367,7 @@ function renderMap() {
     `);
 
     marker.on("click", () => {
-      selectHotel(hotel.id, { showDetail: true });
+      selectHotel(hotel.id, { showDetail: true, source: "map" });
     });
 
     marker.hotel = hotel;
@@ -1349,8 +1423,19 @@ function showDetailPanel() {
   renderListPanel();
 }
 
-function selectHotel(hotelId, { focusMap = false, showDetail = true } = {}) {
+function selectHotel(hotelId, { focusMap = false, showDetail = true, source = "unknown" } = {}) {
   state.selectedHotelId = hotelId;
+  const hotel = getSelectedHotel();
+
+  if (hotel) {
+    trackEvent("hotel_select", {
+      ...getHotelAnalyticsParams(hotel),
+      interaction_source: source,
+      detail_opened: showDetail,
+      map_focused: focusMap,
+    });
+  }
+
   highlightSelection();
 
   if (showDetail) {
@@ -1368,10 +1453,14 @@ function render() {
   updateBucketTabs();
   updateFilterOptions();
   applyFilters();
+  trackBucketView();
   const isIprefer = state.bucket === "iprefer";
   dom.ipreferMapToggle.hidden = !isIprefer;
   dom.ipreferHasPointsGroup.hidden = !isIprefer;
   dom.ipreferHasPointsBtn.classList.toggle("is-active", state.ipreferHasPoints);
+  const isEdit = state.bucket === "edit";
+  dom.editSelectHotelsGroup.hidden = !isEdit;
+  dom.editSelectHotelsBtn.classList.toggle("is-active", state.editSelectHotels);
   renderMap();
   ensureSelectedHotel();
   updateMeta();
@@ -1450,6 +1539,7 @@ function buildShell() {
               <button class="bucket-tab" data-bucket="fhr" type="button"></button>
               <button class="bucket-tab" data-bucket="thc" type="button"></button>
               <button class="bucket-tab" data-bucket="iprefer" type="button"></button>
+              <button class="bucket-tab" data-bucket="edit" type="button"></button>
             </div>
           </section>
         </section>
@@ -1493,6 +1583,11 @@ function buildShell() {
         <label id="iprefer-has-points-group" class="toolbar-group" hidden>
           <span>iPrefer filter</span>
           <button id="iprefer-has-points-btn" class="filter-toggle-btn" type="button">Has points ability</button>
+        </label>
+
+        <label id="edit-select-hotels-group" class="toolbar-group" hidden>
+          <span>Edit filter</span>
+          <button id="edit-select-hotels-btn" class="filter-toggle-btn" type="button">$250 Select Hotels</button>
         </label>
 
         <label class="toolbar-group toolbar-group--amenities">
@@ -1564,6 +1659,8 @@ function buildShell() {
     ipreferMapToggle: document.querySelector("#iprefer-map-toggle"),
     ipreferHasPointsGroup: document.querySelector("#iprefer-has-points-group"),
     ipreferHasPointsBtn: document.querySelector("#iprefer-has-points-btn"),
+    editSelectHotelsGroup: document.querySelector("#edit-select-hotels-group"),
+    editSelectHotelsBtn: document.querySelector("#edit-select-hotels-btn"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
@@ -1586,6 +1683,7 @@ function bindEvents() {
       state.overlapPlan = "all";
       state.amenities = [];
       state.ipreferHasPoints = false;
+      state.editSelectHotels = false;
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
       render();
@@ -1677,6 +1775,14 @@ function bindEvents() {
 
   dom.ipreferHasPointsBtn.addEventListener("click", () => {
     state.ipreferHasPoints = !state.ipreferHasPoints;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.editSelectHotelsBtn.addEventListener("click", () => {
+    state.editSelectHotels = !state.editSelectHotels;
     state.listLimit = LIST_PAGE_SIZE;
     state.shouldResetMapView = true;
     state.listPanelMode = "list";

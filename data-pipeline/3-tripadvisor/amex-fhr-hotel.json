@@ -701,7 +701,8 @@
       "matched_at": "2026-04-04T03:41:48.171Z",
       "quality_score": 0.33,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/6 name tokens found in slug"
+      "quality_reason": "2/6 name tokens found in slug",
+      "quality_review": "approved"
     },
     "Austria/Lech/Burg-Vital-Resort": {
       "tripadvisor_id": "g262035-d291954",
@@ -4632,7 +4633,8 @@
       "matched_at": "2026-04-04T04:31:56.618Z",
       "quality_score": 0.33,
       "quality_flag": "likely_wrong",
-      "quality_reason": "1/3 name tokens found in slug"
+      "quality_reason": "1/3 name tokens found in slug",
+      "quality_review": "approved"
     },
     "England/London/The-Langham-London": {
       "tripadvisor_id": "g186338-d187569",
@@ -4692,7 +4694,8 @@
       "matched_at": "2026-04-04T04:32:51.639Z",
       "quality_score": 0.4,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/5 name tokens found in slug"
+      "quality_reason": "2/5 name tokens found in slug",
+      "quality_review": "approved"
     },
     "England/New-Milton/Chewton-Glen-Hotel--Spa": {
       "tripadvisor_id": "g503837-d188548",
@@ -6174,7 +6177,8 @@
       "matched_at": "2026-04-04T13:47:36.292Z",
       "quality_score": 0.25,
       "quality_flag": "likely_wrong",
-      "quality_reason": "1/4 name tokens found in slug"
+      "quality_reason": "1/4 name tokens found in slug",
+      "quality_review": "approved"
     },
     "French-Polynesia/Bora-Bora/Conrad-Bora-Bora-Nui": {
       "tripadvisor_id": "g311415-d304568",
@@ -6464,7 +6468,8 @@
       "matched_at": "2026-04-04T19:33:23.172Z",
       "quality_score": 0.29,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/7 name tokens found in slug"
+      "quality_reason": "2/7 name tokens found in slug",
+      "quality_review": "approved"
     },
     "Germany/Frankfurt/Sofitel-Frankfurt-Opera": {
       "tripadvisor_id": "g187337-d8618706",
@@ -6934,7 +6939,9 @@
       "matched_at": "2026-04-04T19:46:44.637Z",
       "quality_score": 0.4,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/5 name tokens found in slug"
+      "quality_reason": "2/5 name tokens found in slug",
+      "quality_review": "wrong",
+      "quality_corrected_url": "https://www.tripadvisor.com/Hotel_Review-g667488-d23941309-Reviews-Myconian_O_Hotel-Ornos_Mykonos_Cyclades_South_Aegean.html"
     },
     "Greece/Mykonos/Nomad-Mykonos": {
       "tripadvisor_id": "g6376021-d23221223",
@@ -9354,7 +9361,8 @@
       "matched_at": "2026-04-04T20:30:29.083Z",
       "quality_score": 0.4,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/5 name tokens found in slug"
+      "quality_reason": "2/5 name tokens found in slug",
+      "quality_review": "approved"
     },
     "Italy/Perugia/Borgo-Dei-Conti-Resort": {
       "tripadvisor_id": "g7923513-d2153003",
@@ -9804,7 +9812,8 @@
       "matched_at": "2026-04-04T20:36:59.161Z",
       "quality_score": 0.4,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/5 name tokens found in slug"
+      "quality_reason": "2/5 name tokens found in slug",
+      "quality_review": "approved"
     },
     "Italy/Siena/Grand-Hotel-Continental": {
       "tripadvisor_id": "g294458-d304775",
@@ -11707,14 +11716,16 @@
       "quality_reason": "3/3 name tokens found in slug"
     },
     "Morocco/Marrakech/Royal-Mansour-Marrakech": {
-      "tripadvisor_id": "g293734-d6621142",
-      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d6621142-Reviews-TUI_BLUE_Medina_Gardens-Marrakech_Marrakech_Safi.html",
+      "tripadvisor_id": "g293734-d1676197",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d1676197-Reviews-Royal_Mansour_Marrakech_Hotel-Marrakech_Marrakech_Safi.html",
       "search_query": "Royal Mansour Marrakech",
       "match_confidence": "medium",
       "matched_at": "2026-04-04T21:54:16.825Z",
       "quality_score": 0.33,
       "quality_flag": "likely_wrong",
-      "quality_reason": "1/3 name tokens found in slug"
+      "quality_reason": "1/3 name tokens found in slug",
+      "quality_review": "wrong",
+      "quality_corrected_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d1676197-Reviews-Royal_Mansour_Marrakech_Hotel-Marrakech_Marrakech_Safi.html"
     },
     "Morocco/Marrakech/The-Oberoi-Marrakech": {
       "tripadvisor_id": "g293734-d19141477",
@@ -13344,7 +13355,8 @@
       "matched_at": "2026-04-04T22:54:02.096Z",
       "quality_score": 0.33,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/6 name tokens found in slug"
+      "quality_reason": "2/6 name tokens found in slug",
+      "quality_review": "approved"
     },
     "Portugal/Ponta-Delgada/Octant-Ponta-Delgada": {
       "tripadvisor_id": "g189135-d10266760",
@@ -16899,14 +16911,16 @@
       "quality_reason": "5/5 name tokens found in slug"
     },
     "The-Bahamas/Dunmore-Town/Pink-Sands-Resort": {
-      "tripadvisor_id": "g562685-d147674",
-      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g562685-d147674-Reviews-Cambridge_Beaches_Resort_Spa-Sandys_Parish_Bermuda.html",
+      "tripadvisor_id": "g1937793-d181715",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1937793-d181715-Reviews-Pink_Sands_Resort-Dunmore_Town_Harbour_Island_Out_Islands_Bahamas.html",
       "search_query": "Pink Sands Resort",
       "match_confidence": "medium",
       "matched_at": "2026-04-05T02:30:57.600Z",
       "quality_score": 0.33,
       "quality_flag": "likely_wrong",
-      "quality_reason": "1/3 name tokens found in slug"
+      "quality_reason": "1/3 name tokens found in slug",
+      "quality_review": "wrong",
+      "quality_corrected_url": "https://www.tripadvisor.com/Hotel_Review-g1937793-d181715-Reviews-Pink_Sands_Resort-Dunmore_Town_Harbour_Island_Out_Islands_Bahamas.html"
     },
     "The-Bahamas/Gregory-Town/The-Cove-Eleuthera": {
       "tripadvisor_id": "g1957465-d149666",
@@ -17626,7 +17640,8 @@
       "matched_at": "2026-04-05T02:47:00.665Z",
       "quality_score": 0.4,
       "quality_flag": "likely_wrong",
-      "quality_reason": "2/5 name tokens found in slug"
+      "quality_reason": "2/5 name tokens found in slug",
+      "quality_review": "approved"
     },
     "United-Arab-Emirates/Dubai/The-St-Regis-Downtown-Dubai": {
       "tripadvisor_id": "g295424-d12553755",

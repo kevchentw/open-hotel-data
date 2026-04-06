@@ -30,6 +30,12 @@ const SOURCE_CONFIGS = [
     stageOneUrl: new URL("../1-list/iprefer-points-hotel.json", import.meta.url),
     stageTwoUrl: new URL("../2-enrichment/iprefer-points-hotel.json", import.meta.url),
     stageThreeUrl: new URL("../3-tripadvisor/iprefer-points-hotel.json", import.meta.url)
+  },
+  {
+    source: "chase_edit",
+    stageOneUrl: new URL("../1-list/chase-edit-hotel.json", import.meta.url),
+    stageTwoUrl: new URL("../2-enrichment/chase-edit-hotel.json", import.meta.url),
+    stageThreeUrl: new URL("../3-tripadvisor/chase-edit-hotel.json", import.meta.url)
   }
 ];
 
@@ -271,6 +277,7 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     tripadvisor_id: tripadvisorId,
     tripadvisor_url: pickField(contributors, (contributor) => contributor.stageThreeMatch?.tripadvisor_url),
     amex_url: pickSourcePageUrl(contributors, ["amex_fhr", "amex_thc"]),
+    chase_url: pickSourcePageUrl(contributors, ["chase_edit"]),
     hilton_url: pickSourcePageUrl(contributors, ["hilton_aspire_resort_credit"]),
     iprefer_url: pickSourcePageUrl(contributors, ["iprefer_points"]),
     name: pickField(contributors, (contributor) =>
@@ -311,6 +318,9 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     ),
     iprefer_synxis_id: pickField(contributors, (contributor) =>
       contributor.source === "iprefer_points" ? contributor.stageOneHotel?.synxis_id : ""
+    ),
+    chase_2026_credit: pickField(contributors, (contributor) =>
+      contributor.source === "chase_edit" ? contributor.stageOneHotel?.chase_2026_credit : ""
     ),
     plans,
     source_count: contributors.length,
@@ -376,6 +386,9 @@ function buildUnmatchedRecord(record) {
     source_hotel_id: record.sourceHotelId,
     reason: getUnmatchedReason(record.hasStageThreeFile, record.stageThreeMatch),
     amex_url: isAmexSource(record.source)
+      ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
+      : "",
+    chase_url: record.source === "chase_edit"
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
       : "",
     hilton_url: record.source === "hilton_aspire_resort_credit"
@@ -446,6 +459,9 @@ function buildUnmatchedRecord(record) {
       record.stageTwoHotel.geo_status
     ]),
     amenities: uniqueNonEmptyStrings(record.stageTwoHotel.amenities ?? []),
+    chase_2026_credit: record.source === "chase_edit"
+      ? normalizeString(record.stageOneHotel.chase_2026_credit)
+      : "",
     plans: uniqueNonEmptyStrings([record.source]),
     match_confidence: record.matchConfidence,
     tripadvisor_id: record.tripadvisorId,

@@ -20,6 +20,7 @@ const STAY_NIGHTS = parsePositiveInteger(process.env.STAGE5_STAY_NIGHTS, DEFAULT
 const SAMPLE_MODE = getSampleMode();
 const SAMPLE_STAY_DATES = getSampleStayDates();
 const FILTER_HOTEL_IDS = getFilterHotelIds();
+const FILTER_HOTEL_PLANS = getFilterHotelPlans();
 const CURRENCY_TO_USD = Object.freeze({
   USD: 1,
   AED: 0.27229,   // pegged ~3.6725/USD — stable, unchanged
@@ -286,7 +287,7 @@ function buildAspireSummaryPrice(hotel, aspireHotels) {
 
 export function getDatesToFetchForHotel({ hotel, summaryPrice, prices, sampleAttempts, sampleStayDates }) {
   const plans = normalizeStringArray(hotel?.plans);
-  if (!plans.includes("amex_fhr")) {
+  if (!plans.some((plan) => FILTER_HOTEL_PLANS.has(plan))) {
     return [];
   }
 
@@ -686,6 +687,10 @@ function getSampleMode() {
     return "explicit";
   }
 
+  if (normalizeString(process.env.STAGE5_XOTELO_STAY_MONTHS)) {
+    return "months";
+  }
+
   const requestedMode = normalizeString(process.env.STAGE5_SAMPLE_MODE).toLowerCase();
   return requestedMode === "explicit" ? "explicit" : DEFAULT_SAMPLE_MODE;
 }
@@ -703,6 +708,17 @@ function getSampleStayDates() {
     ).sort((left, right) => left.localeCompare(right));
   }
 
+  const explicitMonths = normalizeString(process.env.STAGE5_XOTELO_STAY_MONTHS);
+  if (explicitMonths) {
+    const workday = normalizeDayOfWeek(process.env.STAGE5_SAMPLE_WEEKDAY, DEFAULT_SAMPLE_WEEKDAY);
+    const weekend = normalizeDayOfWeek(process.env.STAGE5_SAMPLE_WEEKEND, DEFAULT_SAMPLE_WEEKEND);
+    return buildStayDatesForMonths({
+      months: explicitMonths.split(",").map((value) => normalizeString(value)).filter(isIsoYearMonth),
+      weekday: workday,
+      weekendDay: weekend
+    });
+  }
+
   if (SAMPLE_MODE === "explicit") {
     return [];
   }
@@ -716,6 +732,19 @@ function getSampleStayDates() {
     weekday: workday,
     weekendDay: weekend
   });
+}
+
+export function buildStayDatesForMonths({ months, weekday, weekendDay }) {
+  const sampleDates = [];
+
+  for (const yearMonth of months) {
+    const [year, month] = yearMonth.split("-").map(Number);
+    const monthIndex = month - 1;
+    sampleDates.push(getNthWeekdayOfMonth({ year, monthIndex, dayOfWeek: weekday, occurrence: 2 }));
+    sampleDates.push(getNthWeekdayOfMonth({ year, monthIndex, dayOfWeek: weekendDay, occurrence: 2 }));
+  }
+
+  return Array.from(new Set(sampleDates)).sort((left, right) => left.localeCompare(right));
 }
 
 export function buildRepresentativeStayDates({ startDate, months, weekday, weekendDay }) {
@@ -761,6 +790,14 @@ function getFilterHotelIds() {
       .map((value) => normalizeString(value))
       .filter(Boolean)
   );
+}
+
+function getFilterHotelPlans() {
+  const explicit = normalizeString(process.env.STAGE5_HOTEL_PLANS)
+    .split(",")
+    .map((value) => normalizeString(value))
+    .filter(Boolean);
+  return new Set(explicit.length ? explicit : ["amex_fhr"]);
 }
 
 function parseDisplayAmount(display, currency) {
@@ -884,6 +921,10 @@ function normalizeDecimal(value) {
 
 function isIsoDate(value) {
   return /^\d{4}-\d{2}-\d{2}$/u.test(normalizeString(value));
+}
+
+function isIsoYearMonth(value) {
+  return /^\d{4}-\d{2}$/u.test(normalizeString(value));
 }
 
 function isRecord(value) {

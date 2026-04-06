@@ -5,6 +5,7 @@ import {
   buildCoverageFirstTaskQueue,
   buildRepresentativeFallbackStayDates,
   buildRepresentativeStayDates,
+  buildStayDatesForMonths,
   getDatesToFetchForHotel,
   mapWithConcurrency,
   normalizeSampleAttempts
@@ -25,6 +26,24 @@ test("buildRepresentativeStayDates returns deterministic second Tuesday and Satu
       "2026-05-12",
       "2026-06-09",
       "2026-06-13"
+    ]
+  );
+});
+
+test("buildStayDatesForMonths picks second weekday and weekend for each specified month", () => {
+  assert.deepEqual(
+    buildStayDatesForMonths({
+      months: ["2026-06", "2026-09", "2026-12"],
+      weekday: 2,
+      weekendDay: 6
+    }),
+    [
+      "2026-06-09",
+      "2026-06-13",
+      "2026-09-08",
+      "2026-09-12",
+      "2026-12-08",
+      "2026-12-12"
     ]
   );
 });
