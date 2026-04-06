@@ -66,6 +66,8 @@ select {
 
 .top-card {
   padding: 14px 18px 14px;
+  position: relative;
+  z-index: 2;
 }
 
 .top-card__row {

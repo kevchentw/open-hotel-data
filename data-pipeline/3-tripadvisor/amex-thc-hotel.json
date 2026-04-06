@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_thc",
-    "generated_at": "2026-04-05T19:34:30.155Z",
-    "record_count": 90,
-    "matched_count": 90,
+    "generated_at": "2026-04-06T16:12:48.734Z",
+    "record_count": 146,
+    "matched_count": 146,
     "unmatched_count": 0
   },
   "matches": {
@@ -907,6 +907,398 @@
       "quality_score": 1,
       "quality_flag": "ok",
       "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Belize/Cayo/Kaana-Resort": {
+      "tripadvisor_id": "g291971-d650430",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g291971-d650430-Reviews-Ka_ana_Resort-San_Ignacio_Cayo.html",
+      "search_query": "Ka'ana Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:49:17.911Z"
+    },
+    "Belize/San-Pedro/Alaia-Belize-Autograph-Collection": {
+      "tripadvisor_id": "g291962-d21309594",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g291962-d21309594-Reviews-Alaia_Belize_Autograph_Collection-San_Pedro_Ambergris_Caye_Belize_Cayes.html",
+      "search_query": "Alaia Belize, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:50:16.431Z"
+    },
+    "Bermuda/Sandys/Cambridge-Beaches-Resort--Spa": {
+      "tripadvisor_id": "g562685-d147674",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g562685-d147674-Reviews-Cambridge_Beaches_Resort_Spa-Sandys_Parish_Bermuda.html",
+      "search_query": "Cambridge Beaches Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:50:22.341Z"
+    },
+    "Brazil/São-Paulo/Canopy-By-Hilton-Sao-Paulo-Jardins": {
+      "tripadvisor_id": "g303631-d20404630",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g303631-d20404630-Reviews-Canopy_by_Hilton_Sao_Paulo_Jardins-Sao_Paulo_State_of_Sao_Paulo.html",
+      "search_query": "Canopy by Hilton São Paulo Jardins",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:50:28.238Z"
+    },
+    "Brazil/São-Paulo/Grand-Hyatt-Sao-Paulo": {
+      "tripadvisor_id": "g303631-d306518",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g303631-d306518-Reviews-Grand_Hyatt_Sao_Paulo-Sao_Paulo_State_of_Sao_Paulo.html",
+      "search_query": "Grand Hyatt Sao Paulo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:50:34.222Z"
+    },
+    "British-Columbia-CA/Rossland/The-Josie-Hotel-Autograph-Collection": {
+      "tripadvisor_id": "g154940-d14147274",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154940-d14147274-Reviews-The_Josie_Hotel_Autograph_Collection-Rossland_Kootenay_Rockies_British_Columbia.html",
+      "search_query": "The Josie Hotel, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:50:40.163Z"
+    },
+    "British-Columbia-CA/Vancouver/Azur-Legacy-Collection-Hotel": {
+      "tripadvisor_id": "g154943-d26592015",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154943-d26592015-Reviews-Azur_Legacy_Collection_Hotel-Vancouver_British_Columbia.html",
+      "search_query": "AZUR Legacy Collection Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:50:46.197Z"
+    },
+    "British-Columbia-CA/Vancouver/Fairmont-Hotel-Vancouver": {
+      "tripadvisor_id": "g154943-d220237",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154943-d220237-Reviews-Fairmont_Hotel_Vancouver-Vancouver_British_Columbia.html",
+      "search_query": "Fairmont Hotel Vancouver",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:50:52.190Z"
+    },
+    "British-Columbia-CA/Vancouver/Pan-Pacific-Vancouver": {
+      "tripadvisor_id": "g154943-d155558",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154943-d155558-Reviews-or10-Pan_Pacific_Vancouver-Vancouver_British_Columbia.html",
+      "search_query": "Pan Pacific Vancouver",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:50:58.073Z"
+    },
+    "British-Columbia-CA/Vancouver/The-Douglas-Autograph-Collection-Hotels-Vancouver": {
+      "tripadvisor_id": "g154943-d12619583",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154943-d12619583-Reviews-The_DOUGLAS_Autograph_Collection-Vancouver_British_Columbia.html",
+      "search_query": "The DOUGLAS, Autograph Collection Hotels, Vancouver",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:51:04.130Z"
+    },
+    "British-Columbia-CA/Vancouver/The-Westin-Bayshore-Vancouver": {
+      "tripadvisor_id": "g154943-d156094",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154943-d156094-Reviews-The_Westin_Bayshore_Vancouver-Vancouver_British_Columbia.html",
+      "search_query": "The Westin Bayshore, Vancouver",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:10.048Z"
+    },
+    "British-Columbia-CA/Vancouver/Wedgewood-Hotel-And-Spa": {
+      "tripadvisor_id": "g154943-d156564",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154943-d156564-Reviews-Wedgewood_Hotel_Spa-Vancouver_British_Columbia.html",
+      "search_query": "Wedgewood Hotel and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:51:16.069Z"
+    },
+    "California-US/Anaheim/Jw-Marriott-Anaheim-Resort": {
+      "tripadvisor_id": "g29092-d19266128",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29092-d19266128-Reviews-JW_Marriott_Anaheim_Resort-Anaheim_California.html",
+      "search_query": "JW Marriott, Anaheim Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:22.139Z"
+    },
+    "California-US/Berkeley/Claremont-Resort--Club": {
+      "tripadvisor_id": "g32810-d80965",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32810-d80965-Reviews-Claremont_Resort_Club-Oakland_California.html",
+      "search_query": "Claremont Resort & Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:28.170Z"
+    },
+    "California-US/Beverly-Hills/Avalon-Beverly-Hills": {
+      "tripadvisor_id": "g32070-d113239",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32070-d113239-Reviews-Avalon_Hotel_Beverly_Hills-Beverly_Hills_California.html",
+      "search_query": "Avalon Beverly Hills",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:51:34.103Z"
+    },
+    "California-US/Beverly-Hills/Sixty-Beverly-Hills": {
+      "tripadvisor_id": "g32070-d810986",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32070-d810986-Reviews-SIXTY_Beverly_Hills-Beverly_Hills_California.html",
+      "search_query": "SIXTY Beverly Hills",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:40.039Z"
+    },
+    "California-US/Carlsbad/Cape-Rey-Carlsbad-Beach-a-Hilton-Resort-And-Spa": {
+      "tripadvisor_id": "g32171-d2614364",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32171-d2614364-Reviews-Cape_Rey_Carlsbad_Beach_A_Hilton_Resort_And_Spa-Carlsbad_California.html",
+      "search_query": "Cape Rey Carlsbad Beach, a Hilton Resort and Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:46.061Z"
+    },
+    "California-US/Carlsbad/Omni-La-Costa-Resort--Spa": {
+      "tripadvisor_id": "g32171-d76354",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32171-d76354-Reviews-Omni_La_Costa_Resort_Spa-Carlsbad_California.html",
+      "search_query": "Omni La Costa Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:51.917Z"
+    },
+    "California-US/Coronado/Hotel-Del-Coronado": {
+      "tripadvisor_id": "g32250-d125137",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32250-d125137-Reviews-Hotel_Del_Coronado-Coronado_California.html",
+      "search_query": "Hotel del Coronado",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:51:57.875Z"
+    },
+    "California-US/Coronado/Loews-Coronado-Bay-Resort": {
+      "tripadvisor_id": "g32250-d76611",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32250-d76611-Reviews-Loews_Coronado_Bay_Resort-Coronado_California.html",
+      "search_query": "Loews Coronado Bay Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:03.904Z"
+    },
+    "California-US/Culver-City/The-Shay": {
+      "tripadvisor_id": "g32272-d23394947",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32272-d23394947-Reviews-The_Shay-Culver_City_California.html",
+      "search_query": "The Shay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:09.854Z"
+    },
+    "California-US/Guerneville/Dawn-Ranch": {
+      "tripadvisor_id": "g32465-d139173",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32465-d139173-Reviews-Dawn_Ranch-Guerneville_Sonoma_County_California.html",
+      "search_query": "Dawn Ranch",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:15.772Z"
+    },
+    "California-US/Healdsburg/Hotel-Healdsburg": {
+      "tripadvisor_id": "g32482-d225066",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32482-d225066-Reviews-Hotel_Healdsburg-Healdsburg_Sonoma_County_California.html",
+      "search_query": "Hotel Healdsburg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:21.529Z"
+    },
+    "California-US/Healdsburg/The-Madrona": {
+      "tripadvisor_id": "g32482-d73582",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32482-d73582-Reviews-The_Madrona-Healdsburg_Sonoma_County_California.html",
+      "search_query": "The Madrona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:27.644Z"
+    },
+    "California-US/Huntington-Beach/Hyatt-Regency-Huntington-Beach-Resort-And-Spa": {
+      "tripadvisor_id": "g32513-d252509",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32513-d252509-Reviews-Hyatt_Regency_Huntington_Beach_Resort_Spa-Huntington_Beach_California.html",
+      "search_query": "Hyatt Regency Huntington Beach Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:52:33.599Z"
+    },
+    "California-US/Huntington-Beach/Kimpton-Shorebreak-Resort": {
+      "tripadvisor_id": "g32513-d1231115",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32513-d1231115-Reviews-Kimpton_Shorebreak_Huntington_Beach_Resort-Huntington_Beach_California.html",
+      "search_query": "Kimpton Shorebreak Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T15:52:39.557Z"
+    },
+    "California-US/Huntington-Beach/Pasea-Hotel--Spa": {
+      "tripadvisor_id": "g32513-d9566846",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32513-d9566846-Reviews-Pasea_Hotel_Spa-Huntington_Beach_California.html",
+      "search_query": "Pasea Hotel & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:45.990Z"
+    },
+    "California-US/Huntington-Beach/The-Waterfront-Beach-Resort-a-Hilton-Hotel": {
+      "tripadvisor_id": "g32513-d77306",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32513-d77306-Reviews-The_Waterfront_Beach_Resort_A_Hilton_Hotel-Huntington_Beach_California.html",
+      "search_query": "The Waterfront Beach Resort, a Hilton Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:51.956Z"
+    },
+    "California-US/Indian-Wells/Tommy-Bahama-Miramonte-Resort--Spa": {
+      "tripadvisor_id": "g32523-d77733",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32523-d77733-Reviews-Tommy_Bahama_Miramonte_Resort_Spa-Indian_Wells_Greater_Palm_Springs_California.html",
+      "search_query": "Tommy Bahama Miramonte Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:52:57.918Z"
+    },
+    "California-US/Jenner/Timber-Cove-Resort": {
+      "tripadvisor_id": "g26234814-d255988",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26234814-d255988-Reviews-Timber_Cove_Resort-Timber_Cove_Sonoma_County_California.html",
+      "search_query": "Timber Cove Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:53:03.768Z"
+    },
+    "California-US/La-Jolla/Hotel-La-Jolla-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g32578-d119731",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32578-d119731-Reviews-Hotel_La_Jolla_Curio_Collection_By_Hilton-La_Jolla_San_Diego_California.html",
+      "search_query": "Hotel La Jolla, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T15:53:09.744Z"
+    },
+    "California-US/La-Jolla/La-Valencia-Hotel": {
+      "tripadvisor_id": "g32578-d115605",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32578-d115605-Reviews-La_Valencia_Hotel-La_Jolla_San_Diego_California.html",
+      "search_query": "La Valencia Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:10:24.656Z"
+    },
+    "California-US/La-Quinta/La-Quinta-Resort--Club-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g32584-d77460",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32584-d77460-Reviews-La_Quinta_Resort_Club_Curio_Collection_by_Hilton-La_Quinta_Greater_Palm_Springs_Californi.html",
+      "search_query": "La Quinta Resort & Club, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:10:30.618Z"
+    },
+    "California-US/Laguna-Beach/The-Ranch-At-Laguna-Beach": {
+      "tripadvisor_id": "g32588-d7171596",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32588-d7171596-Reviews-The_Ranch_At_Laguna_Beach-Laguna_Beach_California.html",
+      "search_query": "The Ranch at Laguna Beach",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:10:36.818Z"
+    },
+    "California-US/Los-Angeles/Dream-Hollywood": {
+      "tripadvisor_id": "g32655-d9862520",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d9862520-Reviews-Dream_Hollywood-Los_Angeles_California.html",
+      "search_query": "Dream Hollywood",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:10:42.776Z"
+    },
+    "California-US/Los-Angeles/Fairmont-Century-Plaza-Los-Angeles-At-Beverly-Hills": {
+      "tripadvisor_id": "g32655-d19852062",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d19852062-Reviews-Fairmont_Century_Plaza-Los_Angeles_California.html",
+      "search_query": "Fairmont Century Plaza Los Angeles at Beverly Hills",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T16:10:48.787Z"
+    },
+    "California-US/Los-Angeles/Hollywood-Roosevelt": {
+      "tripadvisor_id": "g32655-d77274",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d77274-Reviews-Hollywood_Roosevelt_Hotel-Los_Angeles_California.html",
+      "search_query": "Hollywood Roosevelt",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:10:54.704Z"
+    },
+    "California-US/Los-Angeles/Hotel-Figueroa": {
+      "tripadvisor_id": "g32655-d124956",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d124956-Reviews-Hotel_Figueroa_Unbound_Collection_by_Hyatt-Los_Angeles_California.html",
+      "search_query": "Hotel Figueroa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:00.790Z"
+    },
+    "California-US/Los-Angeles/Hotel-Per-La": {
+      "tripadvisor_id": "g32655-d12934528",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d12934528-Reviews-Hotel_Per_La_Autograph_Collection-Los_Angeles_California.html",
+      "search_query": "Hotel Per La",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:06.839Z"
+    },
+    "California-US/Los-Angeles/Intercontinental-Los-Angeles-Downtown": {
+      "tripadvisor_id": "g32655-d8678267",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d8678267-Reviews-Intercontinental_Los_Angeles_Downtown_By_IHG-Los_Angeles_California.html",
+      "search_query": "InterContinental Los Angeles Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:13.171Z"
+    },
+    "California-US/Los-Angeles/Loews-Hollywood-Hotel": {
+      "tripadvisor_id": "g32655-d224168",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d224168-Reviews-Loews_Hollywood_Hotel-Los_Angeles_California.html",
+      "search_query": "Loews Hollywood Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:18.991Z"
+    },
+    "California-US/Los-Angeles/Moxy-Downtown-Los-Angeles": {
+      "tripadvisor_id": "g32655-d25259222",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d25259222-Reviews-Moxy_Downtown_Los_Angeles-Los_Angeles_California.html",
+      "search_query": "Moxy Downtown Los Angeles",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:25.201Z"
+    },
+    "California-US/Los-Angeles/Palomar-Los-Angeles-Kimpton-Hotel": {
+      "tripadvisor_id": "g32655-d77775",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d77775-Reviews-Kimpton_Hotel_Palomar_Los_Angeles_Beverly_Hills-Los_Angeles_California.html",
+      "search_query": "Palomar Los Angeles Kimpton Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T16:11:31.191Z"
+    },
+    "California-US/Los-Angeles/Sofitel-Los-Angeles-At-Beverly-Hills": {
+      "tripadvisor_id": "g32655-d76083",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d76083-Reviews-Sofitel_Los_Angeles_at_Beverly_Hills-Los_Angeles_California.html",
+      "search_query": "Sofitel Los Angeles at Beverly Hills",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:37.113Z"
+    },
+    "California-US/Los-Angeles/The-Hollywood-Grande-Autograph-Collection": {
+      "tripadvisor_id": "g32655-d23115577",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d23115577-Reviews-The_Hollywood_Grande_Autograph_Collection-Los_Angeles_California.html",
+      "search_query": "The Hollywood Grande, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:43.079Z"
+    },
+    "California-US/Los-Angeles/The-Hoxton-Downtown-La": {
+      "tripadvisor_id": "g32655-d19049463",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32655-d19049463-Reviews-The_Hoxton_Downtown_LA-Los_Angeles_California.html",
+      "search_query": "The Hoxton, Downtown LA",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:49.013Z"
+    },
+    "California-US/Malibu/Malibu-Beach-Inn": {
+      "tripadvisor_id": "g32676-d113240",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32676-d113240-Reviews-Malibu_Beach_Inn-Malibu_California.html",
+      "search_query": "Malibu Beach Inn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:11:54.977Z"
+    },
+    "California-US/Manhattan-Beach/Shade-Hotel-Manhattan-Beach": {
+      "tripadvisor_id": "g32678-d577866",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32678-d577866-Reviews-Shade_Hotel-Manhattan_Beach_California.html",
+      "search_query": "Shade Hotel Manhattan Beach",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T16:12:00.905Z"
+    },
+    "California-US/Marina/The-Sanctuary-Beach-Resort": {
+      "tripadvisor_id": "g32683-d1176828",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32683-d1176828-Reviews-The_Sanctuary_Beach_Resort-Marina_California.html",
+      "search_query": "The Sanctuary Beach Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:12:06.833Z"
+    },
+    "California-US/Menlo-Park/Hotel-Nia": {
+      "tripadvisor_id": "g32704-d13086529",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32704-d13086529-Reviews-Hotel_Nia-Menlo_Park_California.html",
+      "search_query": "Hotel Nia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:12:12.782Z"
+    },
+    "California-US/Monterey/Monterey-Beach-Hotel": {
+      "tripadvisor_id": "g32737-d78347",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32737-d78347-Reviews-Monterey_Beach_Hotel_A_Tribute_Portfolio_Hotel-Monterey_Monterey_County_California.html",
+      "search_query": "Monterey Beach Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:12:18.732Z"
+    },
+    "California-US/Monterey/Monterey-Plaza-Hotel-And-Spa": {
+      "tripadvisor_id": "g32737-d80560",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32737-d80560-Reviews-Monterey_Plaza_Hotel_Spa-Monterey_Monterey_County_California.html",
+      "search_query": "Monterey Plaza Hotel and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T16:12:24.838Z"
+    },
+    "California-US/Mountain-View/Shashi-Hotel-Mountain-View": {
+      "tripadvisor_id": "g32761-d23278590",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32761-d23278590-Reviews-Shashi_Hotel_Mountain_View_an_Urban_Resort-Mountain_View_California.html",
+      "search_query": "Shashi Hotel Mountain View",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:12:30.766Z"
+    },
+    "California-US/Napa/The-Meritage-Resort--Spa": {
+      "tripadvisor_id": "g580460-d587487",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580460-d587487-Reviews-The_Meritage_Resort_And_Spa-Napa_Valley_Napa.html",
+      "search_query": "The Meritage Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T16:12:36.720Z"
+    },
+    "California-US/Newport-Beach/Balboa-Bay-Resort": {
+      "tripadvisor_id": "g32780-d84037",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32780-d84037-Reviews-Balboa_Bay_Resort-Newport_Beach_California.html",
+      "search_query": "Balboa Bay Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T16:12:42.574Z"
+    },
+    "California-US/Newport-Beach/Lido-House-Hotel-Autograph-Collection": {
+      "tripadvisor_id": "g32780-d12832333",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32780-d12832333-Reviews-Lido_House_Autograph_Collection-Newport_Beach_California.html",
+      "search_query": "Lido House Hotel, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T16:12:48.734Z"
     }
   }
 }
