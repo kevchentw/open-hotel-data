@@ -1504,8 +1504,16 @@ function syncStateFromUrl() {
   const hash = window.location.hash.slice(1); // remove leading #
   if (!hash) return;
   const [bucket, hotelId] = hash.split("/");
-  if (PLAN_CONFIG[bucket]) {
-    state.bucket = bucket;
+
+  // Redirect legacy fhr/thc hashes to the merged tab
+  const resolvedBucket = (bucket === "fhr" || bucket === "thc") ? "fhr_thc" : bucket;
+
+  if (PLAN_CONFIG[resolvedBucket]) {
+    state.bucket = resolvedBucket;
+    // Set sub-filter for legacy URLs
+    if (bucket === "thc") {
+      state.fhrThcSubFilter = "thc";
+    }
   }
   if (hotelId) {
     state.selectedHotelId = hotelId;
