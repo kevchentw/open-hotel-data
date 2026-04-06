@@ -407,6 +407,17 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "4268043",
+    "hotel_name": "Casa da Companhia Hotel & Spa, Vignette Collection by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189180-d23505840-Reviews-Casa_da_Companhia_Vignette_Collection_by_IHG-Porto_Porto_District_Northern_Portugal.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "6/8 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "hilton_aspire",
     "source_hotel_id": "eywcmqq-casa-marina-key-west",
     "hotel_name": "Casa Marina Key West, Curio Collection by Hilton",
@@ -480,6 +491,17 @@
     "quality_score": 0.67,
     "quality_flag": "suspect",
     "quality_reason": "2/3 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "21244",
+    "hotel_name": "Condesa df, Mexico City, a Member of Design Hotels",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d518345-Reviews-Condesa_DF-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+    "quality_score": 0.57,
+    "quality_flag": "suspect",
+    "quality_reason": "4/7 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -715,6 +737,28 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "27780",
+    "hotel_name": "Four Seasons Hotel Istanbul at Sultanahmet - Special Class",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293974-d294663-Reviews-Four_Seasons_Hotel_Istanbul_At_Sultanahmet-Istanbul.html",
+    "quality_score": 0.71,
+    "quality_flag": "suspect",
+    "quality_reason": "5/7 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "27823",
+    "hotel_name": "Four Seasons Hotel Los Angeles at Westlake Village",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33258-d623631-Reviews-Four_Seasons_Hotel_Westlake_Village_California-Westlake_Village_California.html",
+    "quality_score": 0.71,
+    "quality_flag": "suspect",
+    "quality_reason": "5/7 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "amex_fhr",
     "source_hotel_id": "Baja-California-Sur-MX/La-Ribera/Four-Seasons-Resort-And-Residences-Los-Cabos-At-Costa-Palmas",
     "hotel_name": "Four Seasons Resort and Residences Los Cabos at Costa Palmas",
@@ -836,6 +880,17 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "21285",
+    "hotel_name": "Haymarket Hotel, Firmdale Hotels",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d651511-Reviews-Haymarket_Hotel-London_England.html",
+    "quality_score": 0.5,
+    "quality_flag": "suspect",
+    "quality_reason": "2/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "hilton_aspire",
     "source_hotel_id": "agprhqq-higueron-hotel-malaga",
     "hotel_name": "Higueron Hotel Malaga, Curio Collection by Hilton",
@@ -876,6 +931,17 @@
     "quality_score": 0.5,
     "quality_flag": "suspect",
     "quality_reason": "2/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "21368",
+    "hotel_name": "Hospes Las Casas del Rey de Baeza, a Member of Design Hotels",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187443-d234543-Reviews-Hospes_Las_Casas_del_Rey_de_Baeza-Seville_Province_of_Seville_Andalucia.html",
+    "quality_score": 0.7,
+    "quality_flag": "suspect",
+    "quality_reason": "7/10 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -979,6 +1045,17 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "254",
+    "hotel_name": "Hotel Lungarno - Lungarno Collection",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187895-d195006-Reviews-Hotel_Lungarno-Florence_Tuscany.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "hilton_aspire",
     "source_hotel_id": "fllucqq-hotel-maren-fort-lauderdale-beach",
     "hotel_name": "Hotel Maren Fort Lauderdale Beach, Curio Collection by Hilton",
@@ -986,6 +1063,17 @@
     "quality_score": 0,
     "quality_flag": "suspect",
     "quality_reason": "url has no slug text to compare",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "9971",
+    "hotel_name": "Hotel Principe Di Savoia",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d194975-Reviews-Principe_di_Savoia-Milan_Lombardy.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -1034,6 +1122,28 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "6058933",
+    "hotel_name": "InterContinental Presidente Monterrey by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1154799-d32882336-Reviews-InterContinental_Presidente_Monterrey-San_Pedro_Garza_Garcia_Monterrey_Northern_Mexi.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "42910",
+    "hotel_name": "InterContinental São Paulo by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g303631-d324517-Reviews-Intercontinental_Sao_Paulo_By_IHG-Sao_Paulo_State_of_Sao_Paulo.html",
+    "quality_score": 0.6,
+    "quality_flag": "suspect",
+    "quality_reason": "3/5 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "hilton_aspire",
     "source_hotel_id": "athibqq-isla-brown-corinthia-resort-and-spa",
     "hotel_name": "Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton",
@@ -1052,6 +1162,127 @@
     "quality_score": 0,
     "quality_flag": "suspect",
     "quality_reason": "url has no slug text to compare",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "6136825",
+    "hotel_name": "Kimpton Atlântico Algarve by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g5784636-d1775388-Reviews-Kimpton_Atlantico_Algarve_by_IHG-Sesmarias_Albufeira_Faro_District_Algarve.html",
+    "quality_score": 0.6,
+    "quality_flag": "suspect",
+    "quality_reason": "3/5 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "394190",
+    "hotel_name": "Kimpton Canary Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33045-d524006-Reviews-Kimpton_Canary_Hotel_Santa_Barbara-Santa_Barbara_California.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4181401",
+    "hotel_name": "Kimpton Cottonwood by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60885-d21397540-Reviews-Kimpton_Cottonwood_Hotel-Omaha_Nebraska.html",
+    "quality_score": 0.67,
+    "quality_flag": "suspect",
+    "quality_reason": "2/3 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "1617115",
+    "hotel_name": "Kimpton Journeyman Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60097-d10061230-Reviews-Kimpton_Journeyman_Hotel-Milwaukee_Wisconsin.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4075030",
+    "hotel_name": "Kimpton Pittman Hotel – Downtown Dallas by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g55711-d21092437-Reviews-Kimpton_Pittman_Hotel-Dallas_Texas.html",
+    "quality_score": 0.67,
+    "quality_flag": "suspect",
+    "quality_reason": "4/6 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "91332",
+    "hotel_name": "Kimpton Riverplace Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52024-d96143-Reviews-Kimpton_RiverPlace_Hotel-Portland_Oregon.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "2502301",
+    "hotel_name": "Kimpton Sawyer Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32999-d12426000-Reviews-Kimpton_Sawyer_Hotel-Sacramento_California.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4713480",
+    "hotel_name": "Kimpton Shane Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d24099679-Reviews-Kimpton_Shane_Hotel-Atlanta_Georgia.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4300734",
+    "hotel_name": "Kimpton Sylvan Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d21503613-Reviews-Kimpton_Sylvan_Hotel-Atlanta_Georgia.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4812445",
+    "hotel_name": "Kimpton The Forum Hotel by IHG",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g57592-d25442243-Reviews-Kimpton_The_Forum_Hotel-Charlottesville_Virginia.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4930671",
+    "hotel_name": "Kimpton Virgilio Hotel",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d27420298-Reviews-Kimpton_Virgilio_Polanco_by_IHG-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+    "quality_score": 0.67,
+    "quality_flag": "suspect",
+    "quality_reason": "2/3 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -1107,6 +1338,17 @@
     "quality_score": 0,
     "quality_flag": "suspect",
     "quality_reason": "url has no slug text to compare",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "549",
+    "hotel_name": "La Réserve Eden au Lac Zurich",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188113-d269534-Reviews-La_Reserve_Eden_au_Lac_Zurich-Zurich.html",
+    "quality_score": 0.71,
+    "quality_flag": "suspect",
+    "quality_reason": "5/7 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -1173,6 +1415,17 @@
     "quality_score": 0,
     "quality_flag": "suspect",
     "quality_reason": "url has no slug text to compare",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "20845",
+    "hotel_name": "Le Meurice - Dorchester Collection",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d188732-Reviews-Le_Meurice-Paris_Ile_de_France.html",
+    "quality_score": 0.5,
+    "quality_flag": "suspect",
+    "quality_reason": "2/4 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -1364,6 +1617,17 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "27068",
+    "hotel_name": "Rocco Forte The Charles Hotel",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d656270-Reviews-The_Charles_Hotel-Munich_Upper_Bavaria_Bavaria.html",
+    "quality_score": 0.5,
+    "quality_flag": "suspect",
+    "quality_reason": "2/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "amex_fhr",
     "source_hotel_id": "District-of-Columbia-US/Washington/Rosewood-Washington-Dc",
     "hotel_name": "Rosewood Washington, D.C",
@@ -1371,6 +1635,17 @@
     "quality_score": 0.5,
     "quality_flag": "suspect",
     "quality_reason": "2/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "21023",
+    "hotel_name": "Royal Palms Resort and Spa, part of Hyatt",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d73943-Reviews-Royal_Palms_Resort_and_Spa-Phoenix_Arizona.html",
+    "quality_score": 0.67,
+    "quality_flag": "suspect",
+    "quality_reason": "4/6 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
@@ -1498,6 +1773,17 @@
   {
     "source": "amex_fhr",
     "source_hotel_id": "India/Dehradun/Six-Senses-Vana---A-Wellness-Retreat",
+    "hotel_name": "Six Senses Vana - A Wellness Retreat",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297687-d24182168-Reviews-Six_Senses_Vana-Dehradun_Dehradun_District_Uttarakhand.html",
+    "quality_score": 0.6,
+    "quality_flag": "suspect",
+    "quality_reason": "3/5 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4829297",
     "hotel_name": "Six Senses Vana - A Wellness Retreat",
     "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297687-d24182168-Reviews-Six_Senses_Vana-Dehradun_Dehradun_District_Uttarakhand.html",
     "quality_score": 0.6,
@@ -1782,6 +2068,17 @@
     "corrected_url": ""
   },
   {
+    "source": "chase_edit",
+    "source_hotel_id": "15539",
+    "hotel_name": "The Soho Hotel, Firmdale Hotels",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d497689-Reviews-The_Soho_Hotel-London_England.html",
+    "quality_score": 0.5,
+    "quality_flag": "suspect",
+    "quality_reason": "2/4 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
     "source": "amex_fhr",
     "source_hotel_id": "Serbia/Belgrade/The-St-Regis-Hotel-And-Residences-Belgrade",
     "hotel_name": "The St. Regis Hotel and Residences Belgrade",
@@ -1811,6 +2108,28 @@
     "quality_score": 0,
     "quality_flag": "suspect",
     "quality_reason": "url has no slug text to compare",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "42488",
+    "hotel_name": "Tivoli Avenida Liberdade Lisboa – A Leading hotel of the world",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d207174-Reviews-Tivoli_Avenida_Liberdade_Lisboa-Lisbon_Lisbon_District_Central_Portugal.html",
+    "quality_score": 0.57,
+    "quality_flag": "suspect",
+    "quality_reason": "4/7 name tokens found in slug",
+    "verdict": "",
+    "corrected_url": ""
+  },
+  {
+    "source": "chase_edit",
+    "source_hotel_id": "4854095",
+    "hotel_name": "Tivoli Doelen Amsterdam Hotel",
+    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d229171-Reviews-Tivoli_Doelen_Amsterdam-Amsterdam_North_Holland_Province.html",
+    "quality_score": 0.75,
+    "quality_flag": "suspect",
+    "quality_reason": "3/4 name tokens found in slug",
     "verdict": "",
     "corrected_url": ""
   },
