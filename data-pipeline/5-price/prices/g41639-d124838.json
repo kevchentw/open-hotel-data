@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-06T05:30:42.811Z",
+    "stage": "5-price",
+    "tripadvisor_id": "g41639-d124838"
+  },
+  "prices": {},
+  "sample_attempts": {
+    "2026-05-09": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-06T05:27:57.431Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    },
+    "2026-05-12": {
+      "detail": "no_usable_rates",
+      "fetched_at": "2026-04-06T05:30:42.811Z",
+      "http_status": "",
+      "source": "xotelo",
+      "status": "no_data"
+    }
+  }
+}

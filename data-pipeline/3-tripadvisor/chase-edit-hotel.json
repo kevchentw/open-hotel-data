@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "chase_edit",
-    "generated_at": "2026-04-06T05:29:05.514Z",
-    "record_count": 1036,
-    "matched_count": 1036,
+    "generated_at": "2026-04-06T05:48:10.667Z",
+    "record_count": 1128,
+    "matched_count": 1128,
     "unmatched_count": 0
   },
   "matches": {
@@ -6742,12 +6742,68 @@
       "match_confidence": "high",
       "matched_at": "2026-04-06T05:29:05.514Z"
     },
+    "3951117": {
+      "tripadvisor_id": "g29092-d19266128",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29092-d19266128-Reviews-JW_Marriott_Anaheim_Resort-Anaheim_California.html",
+      "search_query": "JW Marriott Anaheim Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:29:11.433Z"
+    },
     "3951308": {
       "tripadvisor_id": "g14133673-d19601940",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14133673-d19601940-Reviews-Kimpton_Shinjuku_Tokyo_By_IHG-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
       "search_query": "Kimpton Shinjuku Tokyo by IHG",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:51:00.142Z"
+    },
+    "3953577": {
+      "tripadvisor_id": "g150793-d155190",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150793-d155190-Reviews-Casa_Velas-Puerto_Vallarta.html",
+      "search_query": "Casa Velas Adults Only All Inclusive",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:29:18.653Z"
+    },
+    "3957477": {
+      "tripadvisor_id": "g14129477-d20057286",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129477-d20057286-Reviews-Four_Seasons_Hotel_Tokyo_at_Otemachi-Otemachi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Four Seasons Hotel Tokyo at Otemachi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:29:24.781Z"
+    },
+    "3964279": {
+      "tripadvisor_id": "g60982-d86983",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d86983-Reviews-Espacio_The_Jewel_Of_Waikiki-Honolulu_Oahu_Hawaii.html",
+      "search_query": "Espacio The Jewel Of Waikiki",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:30:32.130Z"
+    },
+    "3975324": {
+      "tripadvisor_id": "g293916-d20302573",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293916-d20302573-Reviews-Sindhorn_Kempinski_Hotel_Bangkok-Bangkok.html",
+      "search_query": "Sindhorn Kempinski Hotel Bangkok",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:30:37.977Z"
+    },
+    "3980699": {
+      "tripadvisor_id": "g482942-d17484020",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g482942-d17484020-Reviews-Katikies_Garden_Santorini-Fira_Santorini_Cyclades_South_Aegean.html",
+      "search_query": "Katikies Garden Santorini",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:30:43.923Z"
+    },
+    "3994214": {
+      "tripadvisor_id": "g189400-d19892005",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189400-d19892005-Reviews-Athens_Capital_Center_Hotel_MGallery_Collection-Athens_Attica.html",
+      "search_query": "Athens Capital Center Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:30:49.896Z"
+    },
+    "4002963": {
+      "tripadvisor_id": "g33252-d21297244",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33252-d21297244-Reviews-The_Sun_Rose_West_Hollywood-West_Hollywood_California.html",
+      "search_query": "The Sun Rose West Hollywood",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:30:55.632Z"
     },
     "4009213": {
       "tripadvisor_id": "g55229-d19857104",
@@ -6756,12 +6812,89 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:51:08.508Z"
     },
+    "4009922": {
+      "tripadvisor_id": "g194821-d239208",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194821-d239208-Reviews-Grand_Hotel_Victoria_Concept_Spa-Menaggio_Lake_Como_Lombardy.html",
+      "search_query": "Grand Hotel Victoria Concept & Spa, by R Collection Hotels",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:31:01.704Z"
+    },
+    "4010895": {
+      "tripadvisor_id": "g187514-d20255744",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187514-d20255744-Reviews-Four_Seasons_Hotel_Madrid-Madrid.html",
+      "search_query": "Four Seasons Hotel Madrid",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:07.596Z"
+    },
     "4031131": {
       "tripadvisor_id": "g45095-d20804618",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45095-d20804618-Reviews-Kimpton_Armory_Hotel_Bozeman-Bozeman_Montana.html",
       "search_query": "Kimpton Armory Hotel Bozeman by IHG",
       "match_confidence": "medium",
       "matched_at": "2026-04-05T23:51:14.350Z"
+    },
+    "4033459": {
+      "tripadvisor_id": "g298564-d20264752",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d20264752-Reviews-Ace_Hotel_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Ace Hotel Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:13.672Z"
+    },
+    "4036474": {
+      "tripadvisor_id": "g294314-d2568957",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294314-d2568957-Reviews-Palacio_Nazarenas_A_Belmond_Hotel-Cusco_Cusco_Region.html",
+      "search_query": "Palacio Nazarenas, A Belmond Hotel, Cusco",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:31:19.581Z"
+    },
+    "4039297": {
+      "tripadvisor_id": "g29092-d19842738",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29092-d19842738-Reviews-The_Westin_Anaheim_Resort-Anaheim_California.html",
+      "search_query": "The Westin Anaheim Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:25.441Z"
+    },
+    "4042864": {
+      "tripadvisor_id": "g14129647-d20377084",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129647-d20377084-Reviews-The_Tokyo_EDITION_Toranomon-Toranomon_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Tokyo EDITION, Toranomon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:31.321Z"
+    },
+    "4044640": {
+      "tripadvisor_id": "g298182-d20382177",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298182-d20382177-Reviews-The_Ritz_Carlton_Nikko-Nikko_Tochigi_Prefecture_Kanto.html",
+      "search_query": "The Ritz-Carlton, Nikko",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:37.301Z"
+    },
+    "4044652": {
+      "tripadvisor_id": "g297696-d19626656",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297696-d19626656-Reviews-Raffles_Bali-Jimbaran_South_Kuta_Bali.html",
+      "search_query": "Raffles Bali",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:43.168Z"
+    },
+    "4045828": {
+      "tripadvisor_id": "g186338-d2554787",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d2554787-Reviews-Bvlgari_Hotel_London-London_England.html",
+      "search_query": "Bulgari Hotel London",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:31:49.025Z"
+    },
+    "4047890": {
+      "tripadvisor_id": "g297700-d20374021",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297700-d20374021-Reviews-Andaz_Bali-Sanur_Denpasar_Bali.html",
+      "search_query": "Andaz Bali",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:31:55.099Z"
+    },
+    "4068982": {
+      "tripadvisor_id": "g187870-d275960",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d275960-Reviews-San_Clemente_Palace_Venice-Venice_Veneto.html",
+      "search_query": "San Clemente Palace Kempinski, Venice",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:32:01.107Z"
     },
     "4075030": {
       "tripadvisor_id": "g55711-d21092437",
@@ -6770,6 +6903,13 @@
       "match_confidence": "medium",
       "matched_at": "2026-04-05T23:51:20.237Z"
     },
+    "4094598": {
+      "tripadvisor_id": "g54171-d19827816",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54171-d19827816-Reviews-Emeline-Charleston_South_Carolina.html",
+      "search_query": "Emeline",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:07.124Z"
+    },
     "4097086": {
       "tripadvisor_id": "g294217-d305068",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294217-d305068-Reviews-Regent_Hong_Kong_by_IHG-Hong_Kong.html",
@@ -6777,12 +6917,138 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:51:26.755Z"
     },
+    "4115191": {
+      "tripadvisor_id": "g29806-d121851",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29806-d121851-Reviews-The_Roundtree_Amagansett-Amagansett_Long_Island_New_York.html",
+      "search_query": "The Roundtree, Amagansett",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:13.163Z"
+    },
+    "4115652": {
+      "tripadvisor_id": "g291962-d21309594",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g291962-d21309594-Reviews-Alaia_Belize_Autograph_Collection-San_Pedro_Ambergris_Caye_Belize_Cayes.html",
+      "search_query": "Alaia Belize, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:19.065Z"
+    },
+    "4135078": {
+      "tripadvisor_id": "g60978-d20949649",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60978-d20949649-Reviews-The_Brenton_Hotel-Newport_Rhode_Island.html",
+      "search_query": "Brenton Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:24.929Z"
+    },
+    "4140340": {
+      "tripadvisor_id": "g1077182-d23264061",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1077182-d23264061-Reviews-Maslina_Resort-Stari_Grad_Hvar_Island_Split_Dalmatia_County_Dalmatia.html",
+      "search_query": "Maslina Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:30.896Z"
+    },
+    "4151989": {
+      "tripadvisor_id": "g35805-d20951654",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d20951654-Reviews-Nobu_Hotel_Chicago-Chicago_Illinois.html",
+      "search_query": "Nobu Hotel Chicago",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:36.823Z"
+    },
+    "4172904": {
+      "tripadvisor_id": "g255100-d23153980",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d23153980-Reviews-W_Melbourne-Melbourne_Victoria.html",
+      "search_query": "W Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:42.820Z"
+    },
+    "4174726": {
+      "tripadvisor_id": "g3175953-d21275120",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g3175953-d21275120-Reviews-Banyan_Tree_Krabi-Nong_Thale_Krabi_Town_Krabi_Province.html",
+      "search_query": "Banyan Tree Krabi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:48.764Z"
+    },
     "4181401": {
       "tripadvisor_id": "g60885-d21397540",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60885-d21397540-Reviews-Kimpton_Cottonwood_Hotel-Omaha_Nebraska.html",
       "search_query": "Kimpton Cottonwood by IHG",
       "match_confidence": "medium",
       "matched_at": "2026-04-05T23:51:32.681Z"
+    },
+    "4184186": {
+      "tripadvisor_id": "g60878-d21059395",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60878-d21059395-Reviews-Lotte_Hotel_Seattle-Seattle_Washington.html",
+      "search_query": "Lotte Hotel Seattle",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:32:54.636Z"
+    },
+    "4203136": {
+      "tripadvisor_id": "g57009-d21330872",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g57009-d21330872-Reviews-Black_Rock_Mountain_Resort_Park_City-Heber_City_Utah.html",
+      "search_query": "Black Rock Mountain Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:33:00.498Z"
+    },
+    "4207008": {
+      "tripadvisor_id": "g294197-d20886229",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294197-d20886229-Reviews-Mondrian_Seoul_Itaewon-Seoul.html",
+      "search_query": "Mondrian Seoul Itaewon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:33:06.393Z"
+    },
+    "4210427": {
+      "tripadvisor_id": "g44535-d21164465",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44535-d21164465-Reviews-Hotel_Kansas_City-Kansas_City_Missouri.html",
+      "search_query": "Hotel Kansas City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:33:12.351Z"
+    },
+    "4210489": {
+      "tripadvisor_id": "g60827-d23289322",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60827-d23289322-Reviews-Ace_Hotel_Brooklyn-Brooklyn_New_York.html",
+      "search_query": "Ace Hotel Brooklyn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:33:18.603Z"
+    },
+    "4210493": {
+      "tripadvisor_id": "g55711-d21296495",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g55711-d21296495-Reviews-Thompson_Dallas_by_Hyatt-Dallas_Texas.html",
+      "search_query": "Thompson Dallas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:33:24.625Z"
+    },
+    "4225839": {
+      "tripadvisor_id": "g2368218-d15528388",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2368218-d15528388-Reviews-Devasom_Khao_Lak_Beach_Resort_Villas-Khuk_Khak_Khao_Lak_Takua_Pa_Phang_Nga_Province.html",
+      "search_query": "Devasom Khao Lak Beach Resort & Villas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:33:50.564Z"
+    },
+    "4225899": {
+      "tripadvisor_id": "g194745-d1581479",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194745-d1581479-Reviews-Grand_Hotel_Savoia_Cortina_d_Ampezzo_A_Radisson_Collection_Hotel-Cortina_d_Ampezzo_Pro.html",
+      "search_query": "Grand Hotel Savoia by Radisson Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:33:59.211Z"
+    },
+    "4237916": {
+      "tripadvisor_id": "g33676-d119953",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33676-d119953-Reviews-Vail_Residences_at_Cascade_Village-Vail_Colorado.html",
+      "search_query": "Vail Residences at Cascade Village",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:05.167Z"
+    },
+    "4245617": {
+      "tripadvisor_id": "g150807-d19987759",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d19987759-Reviews-SLS_Cancun-Cancun_Yucatan_Peninsula.html",
+      "search_query": "SLS Cancun",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:11.055Z"
+    },
+    "4266946": {
+      "tripadvisor_id": "g47102-d7938500",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47102-d7938500-Reviews-Magdalena_Hall_Hotel-Magdalena_New_Mexico.html",
+      "search_query": "Hotel Magdalena",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:16.957Z"
     },
     "4268043": {
       "tripadvisor_id": "g189180-d23505840",
@@ -6798,12 +7064,68 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:51:44.609Z"
     },
+    "4273297": {
+      "tripadvisor_id": "g150812-d2299038",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d2299038-Reviews-Paradisus_Playa_del_Carmen_Riviera_Maya-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "search_query": "Paradisus Playa del Carmen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:23.033Z"
+    },
+    "4282090": {
+      "tripadvisor_id": "g2231206-d3419049",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2231206-d3419049-Reviews-Corrib_View_Country_House-Province_of_Connacht_Western_Ireland.html",
+      "search_query": "Glenlo Abbey Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:34:28.656Z"
+    },
     "4282447": {
       "tripadvisor_id": "g186605-d4062795",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186605-d4062795-Reviews-Anantara_The_Marker_Dublin_Hotel-Dublin_County_Dublin.html",
       "search_query": "Anantara The Marker Hotel Dublin Hotel",
       "match_confidence": "medium",
       "matched_at": "2026-04-05T23:51:50.466Z"
+    },
+    "4289885": {
+      "tripadvisor_id": "g32355-d23109265",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32355-d23109265-Reviews-Alila_Marea_Beach_Resort_Encinitas-Encinitas_California.html",
+      "search_query": "Alila Marea Beach Resort, a Hyatt Luxury Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:34:34.653Z"
+    },
+    "4291923": {
+      "tripadvisor_id": "g20172182-d19984651",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g20172182-d19984651-Reviews-One_Only_Mandarina-Monteon_Pacific_Coast.html",
+      "search_query": "One&Only Mandarina",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:40.466Z"
+    },
+    "4291924": {
+      "tripadvisor_id": "g652117-d9791268",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g652117-d9791268-Reviews-Cap_Vermell_Grand_Hotel-Canyamel_Capdepera_Majorca_Balearic_Islands.html",
+      "search_query": "Cap Vermell Grand Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:46.498Z"
+    },
+    "4295693": {
+      "tripadvisor_id": "g2015037-d23262225",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2015037-d23262225-Reviews-Casa_di_Langa-Cerretto_Langhe_Province_of_Cuneo_Piedmont.html",
+      "search_query": "Casa di Langa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:52.518Z"
+    },
+    "4297486": {
+      "tripadvisor_id": "g190328-d21347208",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190328-d21347208-Reviews-Iniala_Harbour_House-Valletta_Island_of_Malta.html",
+      "search_query": "Iniala Harbour House",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:34:58.536Z"
+    },
+    "4297562": {
+      "tripadvisor_id": "g34515-d19266135",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d19266135-Reviews-JW_Marriott_Orlando_Bonnet_Creek_Resort_Spa-Orlando_Florida.html",
+      "search_query": "JW Marriott Orlando Bonnet Creek Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:04.581Z"
     },
     "4300405": {
       "tripadvisor_id": "g51560-d21511318",
@@ -6812,12 +7134,40 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:51:56.613Z"
     },
+    "4300624": {
+      "tripadvisor_id": "g41639-d20378432",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41639-d20378432-Reviews-Miraval_Berkshires-Lenox_Massachusetts.html",
+      "search_query": "Miraval Berkshires",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:10.524Z"
+    },
+    "4300652": {
+      "tripadvisor_id": "g147417-d507175",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147417-d507175-Reviews-The_Royal_At_Atlantis-Paradise_Island_New_Providence_Island_Bahamas.html",
+      "search_query": "Atlantis The Royal",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:16.448Z"
+    },
     "4300734": {
       "tripadvisor_id": "g60898-d21503613",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d21503613-Reviews-Kimpton_Sylvan_Hotel-Atlanta_Georgia.html",
       "search_query": "Kimpton Sylvan Hotel by IHG",
       "match_confidence": "medium",
       "matched_at": "2026-04-05T23:52:02.509Z"
+    },
+    "4333308": {
+      "tripadvisor_id": "g1874997-d21365965",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1874997-d21365965-Reviews-or10-Fairmont_Windsor_Park-Englefield_Green_Surrey_England.html",
+      "search_query": "Fairmont Windsor Park",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:22.402Z"
+    },
+    "4359958": {
+      "tripadvisor_id": "g311415-d307150",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g311415-d307150-Reviews-Le_Bora_Bora_By_Pearl_Resorts-Bora_Bora_Society_Islands.html",
+      "search_query": "Le Bora Bora",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:28.335Z"
     },
     "4362108": {
       "tripadvisor_id": "g1184676-d21334413",
@@ -6826,12 +7176,124 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:08.424Z"
     },
+    "4380589": {
+      "tripadvisor_id": "g33388-d23186395",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33388-d23186395-Reviews-The_Rally_Hotel_at_McGregor_Square-Denver_Colorado.html",
+      "search_query": "The Rally Hotel at McGregor Square",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:34.297Z"
+    },
+    "4380853": {
+      "tripadvisor_id": "g60956-d21373738",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60956-d21373738-Reviews-Thompson_San_Antonio_Riverwalk_by_Hyatt-San_Antonio_Texas.html",
+      "search_query": "Thompson San Antonio River Walk",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:35:40.374Z"
+    },
     "4383897": {
       "tripadvisor_id": "g35805-d23228472",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d23228472-Reviews-Pendry_Chicago-Chicago_Illinois.html",
       "search_query": "Pendry Chicago",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:14.376Z"
+    },
+    "4384906": {
+      "tripadvisor_id": "g60745-d89615",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89615-Reviews-The_Newbury_Boston-Boston_Massachusetts.html",
+      "search_query": "The Newbury Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:46.458Z"
+    },
+    "4385166": {
+      "tripadvisor_id": "g652022-d22872909",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g652022-d22872909-Reviews-Il_San_Corrado_Di_Noto_Resort_In_Sicily-Noto_Province_of_Syracuse_Sicily.html",
+      "search_query": "Il San Corrado di Noto Luxury Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:35:52.393Z"
+    },
+    "4385241": {
+      "tripadvisor_id": "g14127623-d23115695",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14127623-d23115695-Reviews-W_Osaka-Chuo_Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "W Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:35:58.274Z"
+    },
+    "4385262": {
+      "tripadvisor_id": "g11810696-d8110922",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g11810696-d8110922-Reviews-Chable_Yucatan-Chochola_Yucatan_Peninsula.html",
+      "search_query": "Chable Yucatan",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:04.370Z"
+    },
+    "4386330": {
+      "tripadvisor_id": "g295424-d23169343",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d23169343-Reviews-SLS_Dubai_Hotel_Residences-Dubai_Emirate_of_Dubai.html",
+      "search_query": "SLS Dubai Hotel & Residences",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:10.216Z"
+    },
+    "4390626": {
+      "tripadvisor_id": "g580230-d23479272",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580230-d23479272-Reviews-Rocco_Forte_Private_Villas-Sciacca_Province_of_Agrigento_Sicily.html",
+      "search_query": "Rocco Forte Private Villas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:16.156Z"
+    },
+    "4392377": {
+      "tripadvisor_id": "g187849-d23337771",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d23337771-Reviews-Palazzo_Touring_Club_Milan_A_Radisson_Collection_Hotel-Milan_Lombardy.html",
+      "search_query": "Palazzo Touring Club Milan, A Radisson Collection Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:22.013Z"
+    },
+    "4392408": {
+      "tripadvisor_id": "g187870-d23372191",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d23372191-Reviews-Radisson_Collection_Hotel_Palazzo_Nani_Venice-Venice_Veneto.html",
+      "search_query": "Radisson Collection Palazzo Nani, Venice",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:36:27.946Z"
+    },
+    "4392538": {
+      "tripadvisor_id": "g472673-d478226",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g472673-d478226-Reviews-Xigera_Safari_Lodge-Okavango_Delta_North_West_District.html",
+      "search_query": "Xigera Safari Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:33.994Z"
+    },
+    "4393908": {
+      "tripadvisor_id": "g147399-d23283953",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147399-d23283953-Reviews-The_Ritz_Carlton_Turks_Caicos-Providenciales_Turks_and_Caicos.html",
+      "search_query": "The Ritz-Carlton, Turks & Caicos",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:39.899Z"
+    },
+    "4394167": {
+      "tripadvisor_id": "g60763-d21517245",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d21517245-Reviews-The_Wall_Street_Hotel-New_York_City_New_York.html",
+      "search_query": "The Wall Street Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:36:45.744Z"
+    },
+    "4395759": {
+      "tripadvisor_id": "g155019-d1456256",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d1456256-Reviews-1_Hotel_Toronto-Toronto_Ontario.html",
+      "search_query": "1 Hotel Toronto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:22.574Z"
+    },
+    "4395779": {
+      "tripadvisor_id": "g293924-d23174805",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293924-d23174805-Reviews-Capella_Hanoi-Hanoi.html",
+      "search_query": "Capella Hanoi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:28.713Z"
+    },
+    "4396245": {
+      "tripadvisor_id": "g60491-d23336388",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60491-d23336388-Reviews-The_Cloudveil_Autograph_Collection-Jackson_Jackson_Hole_Wyoming.html",
+      "search_query": "The Cloudveil, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:34.735Z"
     },
     "4406116": {
       "tripadvisor_id": "g60745-d23469598",
@@ -6840,12 +7302,26 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:20.327Z"
     },
+    "4408069": {
+      "tripadvisor_id": "g297672-d23506656",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297672-d23506656-Reviews-Raffles_Udaipur-Udaipur_Udaipur_District_Rajasthan.html",
+      "search_query": "Raffles Udaipur",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:40.667Z"
+    },
     "4408346": {
       "tripadvisor_id": "g60864-d23463644",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d23463644-Reviews-Virgin_Hotels_New_Orleans-New_Orleans_Louisiana.html",
       "search_query": "Virgin Hotels New Orleans",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:26.258Z"
+    },
+    "4408750": {
+      "tripadvisor_id": "g60628-d114056",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60628-d114056-Reviews-Sensei_Lanai_A_Four_Seasons_Resort-Lanai_City_Lanai_Hawaii.html",
+      "search_query": "Sensei Lanai, A Four Seasons Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:46.570Z"
     },
     "4409396": {
       "tripadvisor_id": "g667128-d23341248",
@@ -6854,12 +7330,68 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:32.905Z"
     },
+    "4409528": {
+      "tripadvisor_id": "g60814-d23394946",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60814-d23394946-Reviews-Thompson_Savannah_by_Hyatt-Savannah_Georgia.html",
+      "search_query": "Thompson Savannah",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:52.394Z"
+    },
+    "4409615": {
+      "tripadvisor_id": "g30196-d23391560",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30196-d23391560-Reviews-Thompson_Austin_By_Hyatt-Austin_Texas.html",
+      "search_query": "Thompson Austin, by Hyatt",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:45:58.334Z"
+    },
+    "4411183": {
+      "tripadvisor_id": "g186338-d21346666",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d21346666-Reviews-NoMad_London-London_England.html",
+      "search_query": "NoMad London",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:04.552Z"
+    },
+    "4414568": {
+      "tripadvisor_id": "g294260-d1397858",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294260-d1397858-Reviews-Shangri_La_Boracay-Boracay_Malay_Aklan_Province_Panay_Island_Visayas.html",
+      "search_query": "Shangri-La Boracay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:10.497Z"
+    },
     "4419396": {
       "tripadvisor_id": "g297671-d23345520",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297671-d23345520-Reviews-Six_Senses_Fort_Barwara-Sawai_Madhopur_Sawai_Madhopur_District_Rajasthan.html",
       "search_query": "Six Senses Fort Barwara",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:38.783Z"
+    },
+    "4420291": {
+      "tripadvisor_id": "g60864-d23162833",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d23162833-Reviews-Four_Seasons_Hotel_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "Four Seasons Hotel New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:16.435Z"
+    },
+    "4420538": {
+      "tripadvisor_id": "g10622147-d147747",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g10622147-d147747-Reviews-Aurora_Anguilla_Resort_Golf_Club-Rendezvous_Bay_Anguilla.html",
+      "search_query": "Aurora Anguilla Resort & Golf Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:22.331Z"
+    },
+    "4423845": {
+      "tripadvisor_id": "g34439-d256986",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34439-d256986-Reviews-Loews_Miami_Beach_Hotel-Miami_Beach_Florida.html",
+      "search_query": "Loews Miami Beach Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:28.464Z"
+    },
+    "4426231": {
+      "tripadvisor_id": "g187871-d238851",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187871-d238851-Reviews-Vista_Verona-Verona_Province_of_Verona_Veneto.html",
+      "search_query": "Vista Verona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:34.476Z"
     },
     "4430774": {
       "tripadvisor_id": "g60763-d23528665",
@@ -6868,12 +7400,75 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:44.710Z"
     },
+    "4432112": {
+      "tripadvisor_id": "g150800-d20098631",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d20098631-Reviews-The_Ritz_Carlton_Mexico_City-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "The Ritz-Carlton, Mexico City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:40.347Z"
+    },
+    "4435326": {
+      "tripadvisor_id": "g187497-d23425371",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187497-d23425371-Reviews-ME_Barcelona-Barcelona_Catalonia.html",
+      "search_query": "ME Barcelona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:46.323Z"
+    },
     "4439805": {
       "tripadvisor_id": "g189541-d23438123",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189541-d23438123-Reviews-NH_Collection_Copenhagen-Copenhagen_Zealand.html",
       "search_query": "NH Collection Copenhagen",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:52:50.844Z"
+    },
+    "4439846": {
+      "tripadvisor_id": "g33388-d23527617",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33388-d23527617-Reviews-Thompson_Denver_By_Hyatt-Denver_Colorado.html",
+      "search_query": "Thompson Denver",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:52.486Z"
+    },
+    "4462639": {
+      "tripadvisor_id": "g60763-d23092379",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d23092379-Reviews-Casa_Cipriani_New_York-New_York_City_New_York.html",
+      "search_query": "Casa Cipriani New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:46:58.486Z"
+    },
+    "4467673": {
+      "tripadvisor_id": "g295424-d302457",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d302457-Reviews-Jumeirah_Burj_Al_Arab-Dubai_Emirate_of_Dubai.html",
+      "search_query": "Jumeirah Burj Al Arab Dubai",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:47:04.770Z"
+    },
+    "4472343": {
+      "tripadvisor_id": "g147293-d611193",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147293-d611193-Reviews-or230-Tortuga_Bay_Puntacana_Resort_Club-Punta_Cana_La_Altagracia_Province_Dominican_Rep.html",
+      "search_query": "Tortuga Bay Puntacana Resort & Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:10.750Z"
+    },
+    "4477365": {
+      "tripadvisor_id": "g297476-d23673107",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297476-d23673107-Reviews-Sofitel_Baru_Cartagena-Cartagena_Cartagena_District_Bolivar_Department.html",
+      "search_query": "Sofitel Barú Cartagena Beach Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T05:47:16.697Z"
+    },
+    "4478175": {
+      "tripadvisor_id": "g294229-d23535623",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294229-d23535623-Reviews-The_Langham_Jakarta-Jakarta_Java.html",
+      "search_query": "The Langham, Jakarta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:22.712Z"
+    },
+    "4478675": {
+      "tripadvisor_id": "g34088-d1230197",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34088-d1230197-Reviews-Beach_Club_At_The_Boca_Raton-Boca_Raton_Florida.html",
+      "search_query": "Beach Club at The Boca Raton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:28.858Z"
     },
     "4479216": {
       "tripadvisor_id": "g187147-d23134690",
@@ -6882,12 +7477,61 @@
       "match_confidence": "medium",
       "matched_at": "2026-04-05T23:52:56.901Z"
     },
+    "4480447": {
+      "tripadvisor_id": "g1068062-d578044",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1068062-d578044-Reviews-Finca_Serena_Mallorca-Montuiri_Majorca_Balearic_Islands.html",
+      "search_query": "Finca Serena, Mallorca",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:34.743Z"
+    },
+    "4482399": {
+      "tripadvisor_id": "g60713-d506418",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60713-d506418-Reviews-1_Hotel_San_Francisco-San_Francisco_California.html",
+      "search_query": "1 Hotel San Francisco",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:40.717Z"
+    },
     "4483502": {
       "tripadvisor_id": "g1893002-d23695029",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1893002-d23695029-Reviews-Kimpton_Kitalay_Samui_By_IHG-Choeng_Mon_Bophut_Ko_Samui_Surat_Thani_Province.html",
       "search_query": "Kimpton Kitalay Samui by IHG",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:53:02.900Z"
+    },
+    "4484020": {
+      "tripadvisor_id": "g29141-d18031954",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29141-d18031954-Reviews-W_Aspen-Aspen_Colorado.html",
+      "search_query": "W Aspen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:46.811Z"
+    },
+    "4553481": {
+      "tripadvisor_id": "g154976-d23610475",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154976-d23610475-Reviews-Muir_A_Luxury_Collection_Hotel_Halifax-Halifax_Halifax_Regional_Municipality_Nova_Sco.html",
+      "search_query": "Muir, a Luxury Collection Hotel, Halifax",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:52.820Z"
+    },
+    "4555197": {
+      "tripadvisor_id": "g274707-d23651163",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274707-d23651163-Reviews-Andaz_Prague_By_Hyatt-Prague_Bohemia.html",
+      "search_query": "Andaz Prague",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:47:58.751Z"
+    },
+    "4556373": {
+      "tripadvisor_id": "g190479-d23759813",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190479-d23759813-Reviews-Sommerro-Oslo_Eastern_Norway.html",
+      "search_query": "Sommerro",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:48:04.665Z"
+    },
+    "4558788": {
+      "tripadvisor_id": "g12324125-d23645850",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12324125-d23645850-Reviews-1_Hotel_Nashville-Davidson_County_Nashville.html",
+      "search_query": "1 Hotel Nashville",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T05:48:10.667Z"
     },
     "4558793": {
       "tripadvisor_id": "g45082-d23651162",

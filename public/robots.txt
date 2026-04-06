@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kevchentw.github.io/open-hotel-data/sitemap.xml
