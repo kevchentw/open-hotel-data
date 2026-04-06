@@ -40,6 +40,8 @@ export const CURRENCY_TO_USD = Object.freeze({
   SGD: 0.74515,   // ~1.343 SGD/USD (x-rates Apr 2026)
   TWD: 0.03058,   // ~32.7 TWD/USD (x-rates Apr 2026)
   ZAR: 0.05411,   // ~18.5 ZAR/USD (x-rates Apr 2026)
+  ISK: 0.00730,   // ~137 ISK/USD (x-rates Apr 2026)
+  RUB: 0.01176,   // ~85 RUB/USD (x-rates Apr 2026)
 });
 
 export function convertToUsd(amount, currency) {

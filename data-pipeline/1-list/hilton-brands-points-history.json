@@ -1,2191 +1,2967 @@
 {
   "metadata": {
-    "updated_at": "2026-04-06T20:33:32.392Z"
+    "updated_at": "2026-04-06T21:17:41.783Z"
   },
   "hotels": {
     "adllmlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "adbkalx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "agppslx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "agpnmlx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "albwwlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "amdchlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "amspglx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "amstslx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "anrdwlx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "anuehlx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "anuhblx": {
       "standard_lowest_points_price": "230000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "anuthlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "athaslx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "avlzdlx": {
       "standard_lowest_points_price": "73000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "avnvvlx": {
       "standard_lowest_points_price": "76000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "avnlblx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "axamalx": {
       "standard_lowest_points_price": "160000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bcnhblx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bcncelx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bcnhclx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bcngdlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bcntdlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "begstlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bdscblx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bdsnblx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bdsmplx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "beyomlx": {
       "standard_lowest_points_price": "35000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bfscelx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bgooplx": {
       "standard_lowest_points_price": "63000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bgyhvlx": {
       "standard_lowest_points_price": "170000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bialrlx": {
       "standard_lowest_points_price": "57000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkkatlx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkksblx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkkmplx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkktrlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "blqrrlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bodyhlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "boscdlx": {
       "standard_lowest_points_price": "94000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bostmlx": {
       "standard_lowest_points_price": "89000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bqubblx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bqutllx": {
       "standard_lowest_points_price": "74000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "brisalx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "briimlx": {
       "standard_lowest_points_price": "79000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "brstglx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "brshhlx": {
       "standard_lowest_points_price": "99000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "brscslx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "brujblx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "budbblx": {
       "standard_lowest_points_price": "54000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "budkhlx": {
       "standard_lowest_points_price": "56000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzemrlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzekalx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzeirlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzoarlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzomblx": {
       "standard_lowest_points_price": "125000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzohslx": {
       "standard_lowest_points_price": "104000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bzrchlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "canlnlx": {
       "standard_lowest_points_price": "35000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cbpqllx": {
       "standard_lowest_points_price": "56000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cdgcflx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cdgmflx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "chcghlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "chqcdlx": {
       "standard_lowest_points_price": "71000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "chswmlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cljtrlx": {
       "standard_lowest_points_price": "43000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cmbtllx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cmbablx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cmbtflx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cmbtmlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cmblelx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cmbtvlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cnxamlx": {
       "standard_lowest_points_price": "45000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cnycrlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cphpllx": {
       "standard_lowest_points_price": "93000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cphnilx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cpttclx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cptlqlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cpttmlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ctgcglx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ctadclx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ctavnlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ctapalx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ctuytlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cufbrlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cunmalx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cunbelx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cunlvlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cunwhlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cunmelx": {
       "standard_lowest_points_price": "57000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "czxzylx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "densvlx": {
       "standard_lowest_points_price": "91000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dluhdlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dliamlx": {
       "standard_lowest_points_price": "45000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dndshlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dnhjdlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dndptlx": {
       "standard_lowest_points_price": "91000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dolmdlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpslrlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpsvblx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpsdhlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpshhlx": {
       "standard_lowest_points_price": "76000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpsrwlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpsgblx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dubdylx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dubwtlx": {
       "standard_lowest_points_price": "74000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dusbhlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "easahlx": {
       "standard_lowest_points_price": "31000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "eatcllx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "edinclx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "edirelx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "evnghlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "eyweclx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "faoeslx": {
       "standard_lowest_points_price": "57000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "eywwblx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "eywlhlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "eywrhlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "faopclx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "faoptlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcolrlx": {
       "standard_lowest_points_price": "127000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcophlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcomalx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcobalx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcotglx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcopmlx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcoptlx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fcorrlx": {
       "standard_lowest_points_price": "250000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fezhslx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flgaslx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flltplx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flrjslx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flrhllx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flrhrlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flrohlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "flrvplx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "frasklx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "frsbhlx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "gigerlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "glacblx": {
       "standard_lowest_points_price": "66000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "goavmlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "goacrlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "goasglx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "goagblx": {
       "standard_lowest_points_price": "87000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "gotdhlx": {
       "standard_lowest_points_price": "62000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "gropflx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "grueslx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "gvaehlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "gvacolx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "gvalalx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hanjhlx": {
       "standard_lowest_points_price": "45000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "heraslx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hersnlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "herbplx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hermslx": {
       "standard_lowest_points_price": "49000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "herrblx": {
       "standard_lowest_points_price": "34000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hereglx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hghphlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hghmslx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hghvhlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hhqvhlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hkglplx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hktcklx": {
       "standard_lowest_points_price": "54000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hktkrlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hkttclx": {
       "standard_lowest_points_price": "66000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hkttwlx": {
       "standard_lowest_points_price": "72000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hkttmlx": {
       "standard_lowest_points_price": "72000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hndkhlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ibzgblx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ibzhalx": {
       "standard_lowest_points_price": "91000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ibziblx": {
       "standard_lowest_points_price": "153000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ibztclx": {
       "standard_lowest_points_price": "92000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "icnhtlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "innsllx": {
       "standard_lowest_points_price": "190000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "inndplx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "inviclx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "isptrlx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "itmhclx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "isttslx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "itmcjlx": {
       "standard_lowest_points_price": "87000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "itmfklx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ixcallx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jacrplx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jairrlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jdhnblx": {
       "standard_lowest_points_price": "15000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jerahlx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jfktrlx": {
       "standard_lowest_points_price": "99000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jfkhglx": {
       "standard_lowest_points_price": "69000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jfkhrlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jfkwhlx": {
       "standard_lowest_points_price": "76000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jjnkblx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jjnkrlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jmkbolx": {
       "standard_lowest_points_price": "113000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jnxlclx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jnxnclx": {
       "standard_lowest_points_price": "113000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jsasjlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jrosvlx": {
       "standard_lowest_points_price": "68000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrsalx": {
       "standard_lowest_points_price": "79000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtraslx": {
       "standard_lowest_points_price": "83000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrcelx": {
       "standard_lowest_points_price": "191000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrcolx": {
       "standard_lowest_points_price": "182000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrsulx": {
       "standard_lowest_points_price": "240000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrgslx": {
       "standard_lowest_points_price": "76000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrotlx": {
       "standard_lowest_points_price": "68000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrsslx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kefhrlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kirchlx": {
       "standard_lowest_points_price": "71000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kinshlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "klxrslx": {
       "standard_lowest_points_price": "58000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kirlklx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kixsklx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "klxerlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "klusslx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kmgyllx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kojshlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ktetjlx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kulchlx": {
       "standard_lowest_points_price": "35000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kuamrlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "laptslx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lapvslx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "laxmtlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lcaahlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ldydllx": {
       "standard_lowest_points_price": "107000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "leubhlx": {
       "standard_lowest_points_price": "68000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lgwghlx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lgwadlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lgwahlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lgktdlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrmilx": {
       "standard_lowest_points_price": "81000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrmhlx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrtalx": {
       "standard_lowest_points_price": "84000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrtflx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrtrlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrfelx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lhrvmlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lirrplx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lirnblx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lispelx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lispllx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lispglx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "listllx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "listvlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "liscplx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ljuvplx": {
       "standard_lowest_points_price": "73000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lkpmrlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "longflx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lonctlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lonfmlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lonpalx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lopvtlx": {
       "standard_lowest_points_price": "69000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lpqtnlx": {
       "standard_lowest_points_price": "44000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lszallx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "luggrlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lugtvlx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lttmslx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "madhulx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "madumlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mahhtlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "manrmlx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mbjshlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "manlhlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mbjbblx": {
       "standard_lowest_points_price": "220000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mellrlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mexbhlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mexlvlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mexrhlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mexpdlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mgayrlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mgamrlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "miagmlx": {
       "standard_lowest_points_price": "82000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mialmlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "midddlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "milvilx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mkzmnlx": {
       "standard_lowest_points_price": "25000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mlacelx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mleamlx": {
       "standard_lowest_points_price": "180000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mlehmlx": {
       "standard_lowest_points_price": "190000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mlemilx": {
       "standard_lowest_points_price": "190000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mlebmlx": {
       "standard_lowest_points_price": "180000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mlevelx": {
       "standard_lowest_points_price": "126000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mrslplx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mrsaclx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mstbblx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mxpgvlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mxpgrlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mxpmplx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mxptplx": {
       "standard_lowest_points_price": "160000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nannrlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "naplmlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "napfglx": {
       "standard_lowest_points_price": "240000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "naprhlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nasgwlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "navvrlx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "napcolx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "navallx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ncebrlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ncecalx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ncecelx": {
       "standard_lowest_points_price": "115000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nbohnlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nceuplx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ncelplx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ngosklx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ngothlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nkgnjlx": {
       "standard_lowest_points_price": "30000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nkmnklx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nqncllx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ntecmlx": {
       "standard_lowest_points_price": "63000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ntemmlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "oaxvmlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "obnielx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "olbcrlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "olbdllx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "opoavlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "opocblx": {
       "standard_lowest_points_price": "67000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "opohilx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "opotrlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "orkcllx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "orktmlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "orkbhlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "oxfdhlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ovdpllx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "oxftflx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "parlnlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "parghlx": {
       "standard_lowest_points_price": "135000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "parhplx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "parnhlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pbhgllx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pbhbslx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pcpsplx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pdxhllx": {
       "standard_lowest_points_price": "46000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pekeblx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pekyvlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pegvplx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "peneblx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pentelx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pghmblx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pfocblx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pfocplx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "phltqlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pkgpllx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pmovalx": {
       "standard_lowest_points_price": "77000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "plspglx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "plztplx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pmolclx": {
       "standard_lowest_points_price": "126000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pmicflx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pmicrlx": {
       "standard_lowest_points_price": "220000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "plssblx": {
       "standard_lowest_points_price": "210000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "popcclx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "prgbhlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "psaaplx": {
       "standard_lowest_points_price": "68000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ptyatlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "puysclx": {
       "standard_lowest_points_price": "106000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pwmtllx": {
       "standard_lowest_points_price": "53000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "qrolvlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rakkclx": {
       "standard_lowest_points_price": "200000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "raknmlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "repahlx": {
       "standard_lowest_points_price": "30000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rhordlx": {
       "standard_lowest_points_price": "86000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rixgplx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rjkhnlx": {
       "standard_lowest_points_price": "53000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rnslnlx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "romhdlx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "romdrlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "romsllx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ruhaalx": {
       "standard_lowest_points_price": "43000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sanrtlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "scldslx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sdftglx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sdqsrlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "seasnlx": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sezlrlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sezerlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sfocrlx": {
       "standard_lowest_points_price": "170000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sfosclx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "shahrlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "shasslx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "shmfslx": {
       "standard_lowest_points_price": "200000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjolclx": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjotrlx": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjottlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjotslx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjoallx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjosmlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjuoblx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "skbsrlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "skgealx": {
       "standard_lowest_points_price": "71000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "skgehlx": {
       "standard_lowest_points_price": "45000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "skgorlx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "slcsqlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "slcsllx": {
       "standard_lowest_points_price": "220000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "slmhzlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "smvlmlx": {
       "standard_lowest_points_price": "167000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "snngclx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "snngalx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "southlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "soubhlx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "spudrlx": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "spuvplx": {
       "standard_lowest_points_price": "62000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "stsajlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "stobhlx": {
       "standard_lowest_points_price": "79000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "stolylx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ststslx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "svgeslx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "svqpvlx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sydcblx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "szggolx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tczmmlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tlvaclx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tllshlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tpebslx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tpegvlx": {
       "standard_lowest_points_price": "54000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "trnvrlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "trnlmlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tsfvslx": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tufrclx": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tunmdlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "txgemlx": {
       "standard_lowest_points_price": "102000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tysrwlx": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "usmcflx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "usmmslx": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "varhblx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vcearlx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vcecalx": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vcecdlx": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vcecplx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vcepslx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vieavlx": {
       "standard_lowest_points_price": "87000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "viebdlx": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vllmvlx": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vnonhlx": {
       "standard_lowest_points_price": "49000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vrnbalx": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vrnellx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "vrnvplx": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "wawnwlx": {
       "standard_lowest_points_price": "58000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "wuhiclx": {
       "standard_lowest_points_price": "51000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "xiyyhlx": {
       "standard_lowest_points_price": "62000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "xmneslx": {
       "standard_lowest_points_price": "107000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "xmnhtlx": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "xscsrlx": {
       "standard_lowest_points_price": "200000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "yntlvlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "yqbmjlx": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "zqnehlx": {
       "standard_lowest_points_price": "200000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "zqnmclx": {
       "standard_lowest_points_price": "220000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "zrhhhlx": {
       "standard_lowest_points_price": "200000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "zrhbglx": {
       "standard_lowest_points_price": "103000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "zrhgplx": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "zrhhalx": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "amswawa": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "atlwawa": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "berwawa": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bjswawa": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkkwawa": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "caiwewa": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cdgtpwa": {
       "standard_lowest_points_price": "86000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "chiwawa": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ctuwawa": {
       "standard_lowest_points_price": "46000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cunwawa": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dcawawa": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dohnzwa": {
       "standard_lowest_points_price": "49000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dohqtwa": {
       "standard_lowest_points_price": "78000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dxbpdwa": {
       "standard_lowest_points_price": "74000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dxbwawa": {
       "standard_lowest_points_price": "78000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "helwcwa": {
       "standard_lowest_points_price": "106000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jedwawa": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jhmgwwa": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "kwiwawa": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "laswdwa": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "laxwawa": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lirguwa": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mctahwa": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mleonwa": {
       "standard_lowest_points_price": "250000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "msqwawa": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "msyrhwa": {
       "standard_lowest_points_price": "77000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "orlbcwa": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "osawawa": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ptytpwa": {
       "standard_lowest_points_price": "45000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rktwawa": {
       "standard_lowest_points_price": "53000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "romhiwa": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sezpiwa": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "shaqtwa": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "shawawa": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sjdwawa": {
       "standard_lowest_points_price": "250000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "slcdmwa": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "snamowa": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "xmnwawa": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "axazbol": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bjvlxol": {
       "standard_lowest_points_price": "87000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dohpaol": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dohqkol": {
       "standard_lowest_points_price": "150000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dohtpol": {
       "standard_lowest_points_price": "52000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dpsolol": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hnlwiol": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "itmolol": {
       "standard_lowest_points_price": "140000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jtrblol": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lascfol": {
       "standard_lowest_points_price": "100000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "laxmcol": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "paretol": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "phxbmol": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sezitol": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "smoolol": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "athgrci": {
       "standard_lowest_points_price": "120000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "auhetci": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bahfhci": {
       "standard_lowest_points_price": "65000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bjscici": {
       "standard_lowest_points_price": "47000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkkcici": {
       "standard_lowest_points_price": "45000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bkkreci": {
       "standard_lowest_points_price": "43000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "blrkrci": {
       "standard_lowest_points_price": "37000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bnaleci": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "bpncici": {
       "standard_lowest_points_price": "55000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "canxwci": {
       "standard_lowest_points_price": "51000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "ckgcici": {
       "standard_lowest_points_price": "40000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "cuncici": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dlczdci": {
       "standard_lowest_points_price": "36000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dubhcci": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "dxbcdci": {
       "standard_lowest_points_price": "35000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "faoapci": {
       "standard_lowest_points_price": "101000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "fllcici": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hamshci": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hghfrci": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hghyfci": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "hkghcci": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "indcici": {
       "standard_lowest_points_price": "75000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "isthcci": {
       "standard_lowest_points_price": "44000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "jzhcici": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "lascdci": {
       "standard_lowest_points_price": "64000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "laxavci": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "makcici": {
       "standard_lowest_points_price": "53000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mfmcsci": {
       "standard_lowest_points_price": "50000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mlehici": {
       "standard_lowest_points_price": "160000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "mnlmbci": {
       "standard_lowest_points_price": "52000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "nyccici": {
       "standard_lowest_points_price": "105000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "olbclci": {
       "standard_lowest_points_price": "91000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "orlcici": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "osacici": {
       "standard_lowest_points_price": "90000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pnqcici": {
       "standard_lowest_points_price": "36000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "pvrpmci": {
       "standard_lowest_points_price": "95000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "rbacici": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "selcici": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "shawsci": {
       "standard_lowest_points_price": "60000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sheyaci": {
       "standard_lowest_points_price": "34000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sincici": {
       "standard_lowest_points_price": "80000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "sinodci": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "szxcici": {
       "standard_lowest_points_price": "70000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tsntnci": {
       "standard_lowest_points_price": "31000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "tyocici": {
       "standard_lowest_points_price": "130000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "urccici": {
       "standard_lowest_points_price": "41000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "usmksci": {
       "standard_lowest_points_price": "110000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "wascici": {
       "standard_lowest_points_price": "85000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
     },
     "xmncici": {
       "standard_lowest_points_price": "52000",
-      "captured_at": "2026-04-06T20:33:32.392Z"
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "abqanqq": {
+      "standard_lowest_points_price": "54000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "agscuqq": {
+      "standard_lowest_points_price": "47000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "agprhqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "alccaqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "athibqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "athadqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "atlctqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "atlcdqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "atlokqq": {
+      "standard_lowest_points_price": "90000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "atltwqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "auhrrqq": {
+      "standard_lowest_points_price": "25000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "auhwbqq": {
+      "standard_lowest_points_price": "67000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "avlcuqq": {
+      "standard_lowest_points_price": "63000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bcnmaqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bctbuqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bhmcuqq": {
+      "standard_lowest_points_price": "47000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bhmrmqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bjzpgqq": {
+      "standard_lowest_points_price": "31000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bkkqqqq": {
+      "standard_lowest_points_price": "40000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "blittqq": {
+      "standard_lowest_points_price": "79000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bnamoqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bnasqqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bogspqq": {
+      "standard_lowest_points_price": "39000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bosdoqq": {
+      "standard_lowest_points_price": "72000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "bttvtqq": {
+      "standard_lowest_points_price": "48000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "buebaqq": {
+      "standard_lowest_points_price": "33000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "canqqqq": {
+      "standard_lowest_points_price": "32000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "cgnwtqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "chabsqq": {
+      "standard_lowest_points_price": "46000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "chilhqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "chipiqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "chsonqq": {
+      "standard_lowest_points_price": "90000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "cnycuqq": {
+      "standard_lowest_points_price": "90000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "ctgmaqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "ctasiqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "ctshnqq": {
+      "standard_lowest_points_price": "42000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "cuncuqq": {
+      "standard_lowest_points_price": "37000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "curmgqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "cvgccqq": {
+      "standard_lowest_points_price": "52000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "cwbprqq": {
+      "standard_lowest_points_price": "40000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "cwbspqq": {
+      "standard_lowest_points_price": "47000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dalcuqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dcahhqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dcanoqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "denrtqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dfwstqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "doharqq": {
+      "standard_lowest_points_price": "27000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dohmoqq": {
+      "standard_lowest_points_price": "36000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dsmcuqq": {
+      "standard_lowest_points_price": "46000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dtwdxqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dxbasqq": {
+      "standard_lowest_points_price": "20000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "dxbvhqq": {
+      "standard_lowest_points_price": "31000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "ednchqq": {
+      "standard_lowest_points_price": "92000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "etzmhqq": {
+      "standard_lowest_points_price": "33000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "eywcmqq": {
+      "standard_lowest_points_price": "110000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "eywqqqq": {
+      "standard_lowest_points_price": "105000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "fcoahqq": {
+      "standard_lowest_points_price": "120000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "flldhqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "fllucqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "flrorqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "goasaqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "gpsrpqq": {
+      "standard_lowest_points_price": "76000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "grrqqqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "heribqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "herbsqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "herniqq": {
+      "standard_lowest_points_price": "48000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "herrsqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "hghtmqq": {
+      "standard_lowest_points_price": "26000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "houcuqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "houtnqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "hsvhuqq": {
+      "standard_lowest_points_price": "44000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "ibzseqq": {
+      "standard_lowest_points_price": "79000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "iahwrqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "isterqq": {
+      "standard_lowest_points_price": "41000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "isthsqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "jedgaqq": {
+      "standard_lowest_points_price": "49000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "jmkmbqq": {
+      "standard_lowest_points_price": "130000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "jtrsbqq": {
+      "standard_lowest_points_price": "79000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "krkshqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "kylcuqq": {
+      "standard_lowest_points_price": "105000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lasvgqq": {
+      "standard_lowest_points_price": "37000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "laxcaqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "laxmoqq": {
+      "standard_lowest_points_price": "90000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lctlhqq": {
+      "standard_lowest_points_price": "69000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lexqqqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lisboqq": {
+      "standard_lowest_points_price": "57000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lisemqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lonbtqq": {
+      "standard_lowest_points_price": "110000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lonerqq": {
+      "standard_lowest_points_price": "69000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lonccqq": {
+      "standard_lowest_points_price": "63000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "loncuqq": {
+      "standard_lowest_points_price": "52000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "longaqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lonlkqq": {
+      "standard_lowest_points_price": "52000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "loslhqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lonsdqq": {
+      "standard_lowest_points_price": "64000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lyaqqqq": {
+      "standard_lowest_points_price": "30000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "lyhcuqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mademqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mdeykqq": {
+      "standard_lowest_points_price": "44000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mdzahqq": {
+      "standard_lowest_points_price": "42000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "melnxqq": {
+      "standard_lowest_points_price": "42000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "memcuqq": {
+      "standard_lowest_points_price": "56000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mexubqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mialtqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "midvmqq": {
+      "standard_lowest_points_price": "35000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "miltoqq": {
+      "standard_lowest_points_price": "39000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mkccuqq": {
+      "standard_lowest_points_price": "43000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mlegsqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mmjkzqq": {
+      "standard_lowest_points_price": "69000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mpecuqq": {
+      "standard_lowest_points_price": "82000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mowchqq": {
+      "standard_lowest_points_price": "39000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mspcuqq": {
+      "standard_lowest_points_price": "43000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "msqcuqq": {
+      "standard_lowest_points_price": "40000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mthfbqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "msyrvqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mtymmqq": {
+      "standard_lowest_points_price": "35000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "mvdsoqq": {
+      "standard_lowest_points_price": "34000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "napvpqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "napbnqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "nboknqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "ncecoqq": {
+      "standard_lowest_points_price": "76000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "nyccuqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "okcolqq": {
+      "standard_lowest_points_price": "56000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "olbbrqq": {
+      "standard_lowest_points_price": "78000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "olbccqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "omaneqq": {
+      "standard_lowest_points_price": "44000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "opobgqq": {
+      "standard_lowest_points_price": "33000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "opopoqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "parahqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "parfrqq": {
+      "standard_lowest_points_price": "56000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pbisiqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pbitrqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pdxbeqq": {
+      "standard_lowest_points_price": "42000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pdxcuqq": {
+      "standard_lowest_points_price": "43000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pgdchqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "phlqqqq": {
+      "standard_lowest_points_price": "62000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "phxrsqq": {
+      "standard_lowest_points_price": "95000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "phxssqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "phxttqq": {
+      "standard_lowest_points_price": "90000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pitktqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pjmcrqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pqcpqqq": {
+      "standard_lowest_points_price": "40000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "psplqqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "pujmiqq": {
+      "standard_lowest_points_price": "117000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "qkbbrqq": {
+      "standard_lowest_points_price": "55000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "rapssqq": {
+      "standard_lowest_points_price": "29000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "rekcuqq": {
+      "standard_lowest_points_price": "72000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "rekpsqq": {
+      "standard_lowest_points_price": "74000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "rholiqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "roacuqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "rtmccqq": {
+      "standard_lowest_points_price": "37000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sancrqq": {
+      "standard_lowest_points_price": "69000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sancuqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sanqqqq": {
+      "standard_lowest_points_price": "100000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "saocrqq": {
+      "standard_lowest_points_price": "36000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "satmkqq": {
+      "standard_lowest_points_price": "110000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "savemqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sbpqqqq": {
+      "standard_lowest_points_price": "61000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sbpprqq": {
+      "standard_lowest_points_price": "88000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sdfstqq": {
+      "standard_lowest_points_price": "71000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "seacuqq": {
+      "standard_lowest_points_price": "59000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sguchqq": {
+      "standard_lowest_points_price": "95000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "shvlvqq": {
+      "standard_lowest_points_price": "40000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sjcccqq": {
+      "standard_lowest_points_price": "34000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sjchmqq": {
+      "standard_lowest_points_price": "56000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sjocuqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sjuppqq": {
+      "standard_lowest_points_price": "80000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "skbkrqq": {
+      "standard_lowest_points_price": "46000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sluhcqq": {
+      "standard_lowest_points_price": "79000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "slksnqq": {
+      "standard_lowest_points_price": "33000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "smfsaqq": {
+      "standard_lowest_points_price": "65000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "stisaqq": {
+      "standard_lowest_points_price": "45000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "stlcuqq": {
+      "standard_lowest_points_price": "60000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "stncaqq": {
+      "standard_lowest_points_price": "49000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "sydwhqq": {
+      "standard_lowest_points_price": "43000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "syxcuqq": {
+      "standard_lowest_points_price": "17000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "syrslqq": {
+      "standard_lowest_points_price": "81000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "taoqqqq": {
+      "standard_lowest_points_price": "16000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "teaibqq": {
+      "standard_lowest_points_price": "58000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tlnleqq": {
+      "standard_lowest_points_price": "71000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tlnspqq": {
+      "standard_lowest_points_price": "51000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tparkqq": {
+      "standard_lowest_points_price": "85000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tparwqq": {
+      "standard_lowest_points_price": "58000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tsaqqqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tsrplqq": {
+      "standard_lowest_points_price": "33000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tultcqq": {
+      "standard_lowest_points_price": "50000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "tzambqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "vieasqq": {
+      "standard_lowest_points_price": "54000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "vnodeqq": {
+      "standard_lowest_points_price": "41000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "xmnxcqq": {
+      "standard_lowest_points_price": "21000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "yulmqqq": {
+      "standard_lowest_points_price": "75000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "yyzdtqq": {
+      "standard_lowest_points_price": "70000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "zagopqq": {
+      "standard_lowest_points_price": "46000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
+    },
+    "zaddyqq": {
+      "standard_lowest_points_price": "36000",
+      "captured_at": "2026-04-06T21:17:41.783Z"
     }
   }
 }
