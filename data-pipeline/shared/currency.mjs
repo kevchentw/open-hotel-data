@@ -22,6 +22,24 @@ export const CURRENCY_TO_USD = Object.freeze({
   THB: 0.03062,   // 32.663 THB/USD (x-rates Apr 3)
   VND: 0.00003796, // ~26,340 VND/USD (TradingEconomics/XE Apr 3–4)
   XPF: 0.00967,   // ~103.4 XPF/USD (Wise Mar–Apr 2026)
+  // Additional currencies for Hilton global coverage
+  AMD: 0.00259,   // ~386 AMD/USD (XE Apr 2026)
+  BHD: 2.65252,   // pegged ~0.3770 BHD/USD (CBB)
+  BRL: 0.18248,   // ~5.48 BRL/USD (x-rates Apr 2026)
+  CHF: 1.12500,   // ~0.889 CHF/USD (x-rates Apr 2026)
+  COP: 0.00023419, // ~4270 COP/USD (x-rates Apr 2026)
+  DKK: 0.14194,   // ~7.05 DKK/USD (x-rates Apr 2026)
+  GBP: 1.29050,   // ~0.775 GBP/USD (x-rates Apr 2026)
+  HKD: 0.12853,   // pegged ~7.78 HKD/USD
+  KWD: 3.25490,   // ~0.307 KWD/USD (x-rates Apr 2026)
+  MOP: 0.12453,   // pegged ~8.03 MOP/USD (linked to HKD)
+  NOK: 0.09284,   // ~10.77 NOK/USD (x-rates Apr 2026)
+  RON: 0.22222,   // ~4.50 RON/USD (x-rates Apr 2026)
+  SAR: 0.26667,   // pegged ~3.75 SAR/USD
+  SEK: 0.09579,   // ~10.44 SEK/USD (x-rates Apr 2026)
+  SGD: 0.74515,   // ~1.343 SGD/USD (x-rates Apr 2026)
+  TWD: 0.03058,   // ~32.7 TWD/USD (x-rates Apr 2026)
+  ZAR: 0.05411,   // ~18.5 ZAR/USD (x-rates Apr 2026)
 });
 
 export function convertToUsd(amount, currency) {

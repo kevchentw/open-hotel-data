@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { inferChainFromBrand } from "../shared/brand-chain.mjs";
+import { convertToUsd } from "../shared/currency.mjs";
 
 const STAGE = "6-output";
 const CANONICAL_INPUT_URL = new URL("../4-unique/hotel.json", import.meta.url);
@@ -110,6 +111,23 @@ function buildCanonicalHotels(hotels, priceByTripadvisorId, aspireCreditByTripad
           canonicalHotel.iprefer_prices = priceSummary.ipreferPrices;
         }
 
+        const rawCash = canonicalHotel.hilton_cash_price;
+        const rawCurrency = canonicalHotel.hilton_cash_currency;
+        const rawPoints = canonicalHotel.hilton_points_price;
+        if (rawCash && rawCurrency && rawPoints) {
+          try {
+            const cashUsd = convertToUsd(rawCash, rawCurrency);
+            const pointsNum = Number.parseFloat(rawPoints);
+            const cashUsdNum = Number.parseFloat(cashUsd);
+            if (cashUsd && Number.isFinite(pointsNum) && pointsNum > 0 && Number.isFinite(cashUsdNum)) {
+              canonicalHotel.hilton_cash_price_usd = cashUsd;
+              canonicalHotel.hilton_cpp = ((cashUsdNum / pointsNum) * 100).toFixed(4);
+            }
+          } catch (e) {
+            console.warn(`[hilton] skipping CPP computation: ${e.message}`);
+          }
+        }
+
         return [
           tripadvisorId,
           sortObjectKeys(canonicalHotel)
@@ -137,6 +155,9 @@ function buildFallbackHotels(unmatched, priceByIpreferId) {
           iprefer_points: normalizeString(hotel.iprefer_points),
           iprefer_synxis_id: normalizeString(hotel.iprefer_synxis_id),
           chase_2026_credit: normalizeString(hotel.chase_2026_credit),
+          hilton_cash_currency: normalizeString(hotel.hilton_cash_currency),
+          hilton_cash_price: normalizeString(hotel.hilton_cash_price),
+          hilton_points_price: normalizeString(hotel.hilton_points_price),
           name: normalizeString(hotel.name),
           city: normalizeString(hotel.city),
           state_region: normalizeString(hotel.state_region),
@@ -159,6 +180,23 @@ function buildFallbackHotels(unmatched, priceByIpreferId) {
 
         if (priceSummary?.ipreferPrices) {
           entry.iprefer_prices = priceSummary.ipreferPrices;
+        }
+
+        const rawCash = entry.hilton_cash_price;
+        const rawCurrency = entry.hilton_cash_currency;
+        const rawPoints = entry.hilton_points_price;
+        if (rawCash && rawCurrency && rawPoints) {
+          try {
+            const cashUsd = convertToUsd(rawCash, rawCurrency);
+            const pointsNum = Number.parseFloat(rawPoints);
+            const cashUsdNum = Number.parseFloat(cashUsd);
+            if (cashUsd && Number.isFinite(pointsNum) && pointsNum > 0 && Number.isFinite(cashUsdNum)) {
+              entry.hilton_cash_price_usd = cashUsd;
+              entry.hilton_cpp = ((cashUsdNum / pointsNum) * 100).toFixed(4);
+            }
+          } catch (e) {
+            console.warn(`[hilton] skipping CPP computation: ${e.message}`);
+          }
         }
 
         return [fallbackId, sortObjectKeys(entry)];
@@ -402,6 +440,9 @@ function pickHotelFields(hotel) {
     iprefer_points: normalizeString(hotel.iprefer_points),
     iprefer_synxis_id: normalizeString(hotel.iprefer_synxis_id),
     chase_2026_credit: normalizeString(hotel.chase_2026_credit),
+    hilton_cash_currency: normalizeString(hotel.hilton_cash_currency),
+    hilton_cash_price: normalizeString(hotel.hilton_cash_price),
+    hilton_points_price: normalizeString(hotel.hilton_points_price),
     plans: normalizeStringArray(hotel.plans),
     amenities: normalizeStringArray(hotel.amenities),
     geo_provider: normalizeString(hotel.geo_provider),
