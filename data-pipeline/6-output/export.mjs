@@ -5,15 +5,24 @@ import { inferChainFromBrand } from "../shared/brand-chain.mjs";
 const STAGE = "6-output";
 const CANONICAL_INPUT_URL = new URL("../4-unique/hotel.json", import.meta.url);
 const PRICE_DIRECTORY_URL = new URL("../5-price/prices/", import.meta.url);
+const ASPIRE_TALLY_URL = new URL("../2-enrichment/aspire-tally-submissions.json", import.meta.url);
 const PIPELINE_OUTPUT_URL = new URL("./hotels.json", import.meta.url);
 const APP_OUTPUT_URL = new URL("../../public/data/hotels.json", import.meta.url);
+
+const TALLY_QUESTION = {
+  HOTEL_ID: "xQZOWJ",
+  CREDIT_WITH_STAY: "R4LE2j",
+  VENUE: "oBOXgx",
+  STAY_DATE: "lARJgv",
+};
 
 export async function buildStageSixOutputs() {
   const canonicalRegistry = await readJsonRequired(CANONICAL_INPUT_URL);
   validateCanonicalRegistry(canonicalRegistry);
 
   const { byTripadvisorId: priceByTripadvisorId, byIpreferId: priceByIpreferId } = await readPriceDirectory();
-  const canonicalHotels = buildCanonicalHotels(canonicalRegistry.hotels, priceByTripadvisorId);
+  const aspireCreditByTripadvisorId = await readAspireCreditWithStay();
+  const canonicalHotels = buildCanonicalHotels(canonicalRegistry.hotels, priceByTripadvisorId, aspireCreditByTripadvisorId);
   const fallbackHotels = buildFallbackHotels(canonicalRegistry.unmatched, priceByIpreferId);
   const appHotels = buildAppHotels(canonicalHotels, fallbackHotels);
   const generatedAt = new Date().toISOString();
@@ -73,12 +82,13 @@ function validateCanonicalRegistry(payload) {
   }
 }
 
-function buildCanonicalHotels(hotels, priceByTripadvisorId) {
+function buildCanonicalHotels(hotels, priceByTripadvisorId, aspireCreditByTripadvisorId = new Map()) {
   return Object.fromEntries(
     Object.entries(hotels)
       .sort(([left], [right]) => left.localeCompare(right))
       .map(([tripadvisorId, hotel]) => {
         const priceSummary = summarizePrices(priceByTripadvisorId.get(tripadvisorId));
+        const aspireCreditWithStay = aspireCreditByTripadvisorId.get(tripadvisorId) ?? null;
         const canonicalHotel = {
           ...pickHotelFields(hotel),
           tripadvisor_id: normalizeString(hotel.tripadvisor_id) || tripadvisorId,
@@ -87,6 +97,10 @@ function buildCanonicalHotels(hotels, priceByTripadvisorId) {
           prices: priceSummary.prices,
           currency: priceSummary.currency
         };
+
+        if (aspireCreditWithStay) {
+          canonicalHotel.aspire_credit_with_stay = aspireCreditWithStay;
+        }
 
         if (priceSummary.summaryPrice) {
           canonicalHotel.summary_price = priceSummary.summaryPrice;
@@ -170,6 +184,69 @@ function buildAppHotels(canonicalHotels, fallbackHotels) {
       })
     )
   ].sort(compareAppHotels);
+}
+
+async function readAspireCreditWithStay() {
+  let payload;
+  try {
+    payload = await readJsonRequired(ASPIRE_TALLY_URL);
+  } catch {
+    return new Map();
+  }
+
+  const submissions = Array.isArray(payload?.submissions) ? payload.submissions : [];
+  const byTripadvisorId = new Map();
+
+  for (const submission of submissions) {
+    if (!submission.isCompleted) continue;
+
+    const responses = Array.isArray(submission.responses) ? submission.responses : [];
+    const byQuestion = Object.fromEntries(responses.map((r) => [r.questionId, r.answer]));
+
+    const rawHotelId = byQuestion[TALLY_QUESTION.HOTEL_ID];
+    const hotelId = normalizeString(typeof rawHotelId === "object" ? rawHotelId?.hotel_id : rawHotelId);
+    if (!hotelId) continue;
+
+    const creditAnswer = Array.isArray(byQuestion[TALLY_QUESTION.CREDIT_WITH_STAY])
+      ? byQuestion[TALLY_QUESTION.CREDIT_WITH_STAY][0]
+      : byQuestion[TALLY_QUESTION.CREDIT_WITH_STAY];
+    const creditYes = normalizeString(creditAnswer).toLowerCase() === "yes";
+
+    const venue = normalizeString(byQuestion[TALLY_QUESTION.VENUE]);
+    const stayDate = normalizeString(byQuestion[TALLY_QUESTION.STAY_DATE]);
+
+    if (!byTripadvisorId.has(hotelId)) {
+      byTripadvisorId.set(hotelId, { yesCount: 0, noCount: 0, venues: [], lastReported: "" });
+    }
+
+    const entry = byTripadvisorId.get(hotelId);
+    if (creditYes) {
+      entry.yesCount += 1;
+    } else {
+      entry.noCount += 1;
+    }
+    if (venue) entry.venues.push(venue);
+    if (stayDate && stayDate > entry.lastReported) entry.lastReported = stayDate;
+  }
+
+  const result = new Map();
+  for (const [hotelId, entry] of byTripadvisorId) {
+    const status =
+      entry.yesCount > 0 && entry.noCount === 0
+        ? "success"
+        : entry.yesCount === 0 && entry.noCount > 0
+          ? "failure"
+          : "mixed";
+    result.set(hotelId, sortObjectKeys({
+      last_reported: entry.lastReported,
+      no_count: entry.noCount,
+      status,
+      venues: [...new Set(entry.venues)].sort(),
+      yes_count: entry.yesCount
+    }));
+  }
+
+  return result;
 }
 
 async function readPriceDirectory() {

@@ -95,6 +95,7 @@ const state = {
   ipreferMapMode: "cash",
   ipreferHasPoints: false,
   editSelectHotels: false,
+  aspireCreditWithStayFilter: false,
   lastTrackedBucket: null,
 };
 
@@ -634,6 +635,7 @@ function normalizeHotel([id, rawHotel]) {
     sourceHotelId: rawHotel.source_hotel_id || "",
     sourceKeys: rawHotel.source_keys || [],
     chase2026Credit: (rawHotel.chase_2026_credit || "").toUpperCase() === "TRUE",
+    aspireCreditWithStay: rawHotel.aspire_credit_with_stay || null,
     generatedSource: rawHotel.display_state || rawHotel.record_type || "",
     sampledPriceSummary,
     marker: null,
@@ -731,6 +733,14 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
   }
 
   if (!excluded.has("editSelectHotels") && state.editSelectHotels && !hotel.chase2026Credit) {
+    return false;
+  }
+
+  if (
+    !excluded.has("aspireCreditWithStayFilter") &&
+    state.aspireCreditWithStayFilter &&
+    hotel.aspireCreditWithStay?.status !== "success"
+  ) {
     return false;
   }
 
@@ -1005,6 +1015,7 @@ function createHotelRow(hotel) {
         <span class="brand-pill">${escapeHtml(hotel.rawHotel.chain || hotel.brand)}</span>
         <span>${escapeHtml(joinValues(hotel.planLabels))}</span>
         ${state.bucket === "edit" && hotel.chase2026Credit ? `<span class="brand-pill">$250 Chase Travel Credit Eligible</span>` : ""}
+        ${state.bucket === "aspire" && hotel.aspireCreditWithStay?.yes_count > 0 ? `<span class="brand-pill">Credit without Stay</span>` : ""}
       </div>
     </div>
   `;
@@ -1121,6 +1132,48 @@ function renderDetailView() {
         </div>
       </div>
 
+      ${
+        hotel.plans.includes("hilton_aspire_resort_credit")
+          ? `
+      <div class="aspire-resort-credit-info">
+        <h3>Hilton Aspire Resort Credit</h3>
+
+        <p class="aspire-resort-credit-question">Did you receive the resort credit without stay?</p>
+        <div class="aspire-resort-credit-status">
+          ${
+            hotel.aspireCreditWithStay
+              ? `
+            <div class="status-badge-container">
+              <span class="status-badge status-badge--${hotel.aspireCreditWithStay.status}">
+                ${
+                  hotel.aspireCreditWithStay.status === "success"
+                    ? "✅ Yes"
+                    : hotel.aspireCreditWithStay.status === "failure"
+                      ? "❌ No"
+                      : "⚠️ Mixed"
+                }
+              </span>
+              ${hotel.aspireCreditWithStay.last_reported ? `<span class="status-date">As of ${escapeHtml(hotel.aspireCreditWithStay.last_reported)}</span>` : ""}
+            </div>
+            ${
+              hotel.aspireCreditWithStay.venues?.length
+                ? `<p class="status-restaurants">Used at: ${escapeHtml(hotel.aspireCreditWithStay.venues.join(", "))}</p>`
+                : ""
+            }
+          `
+              : '<p class="status-placeholder">No reports yet. Be the first to help!</p>'
+          }
+        </div>
+
+        <button class="ghost-button tally-button" id="tally-open-btn">
+          Report your experience
+        </button>
+        <div id="tally-embed-container" class="tally-embed-container"></div>
+      </div>
+      `
+          : ""
+      }
+
       <div class="detail-actions">
         ${sourceActions}
         ${
@@ -1132,6 +1185,32 @@ function renderDetailView() {
       </div>
     </article>
   `;
+
+  const tallyBtn = dom.list.querySelector("#tally-open-btn");
+  if (tallyBtn) {
+    tallyBtn.addEventListener("click", () => {
+      const container = dom.list.querySelector("#tally-embed-container");
+      if (container.innerHTML === "") {
+        container.innerHTML = `
+          <iframe 
+            data-tally-src="https://tally.so/embed/QKYpak?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&hotel_name=${encodeURIComponent(hotel.name)}&hotel_id=${encodeURIComponent(hotel.id)}" 
+            loading="lazy" 
+            width="100%" 
+            height="500" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0" 
+            title="Hilton Aspire Resort Credit - Dining Experience">
+          </iframe>
+        `;
+        if (window.Tally) {
+          window.Tally.loadEmbeds();
+        }
+      }
+      container.classList.toggle("is-visible");
+      tallyBtn.textContent = container.classList.contains("is-visible") ? "Close form" : "Report your experience";
+    });
+  }
 
   dom.list.querySelectorAll("[data-analytics-link]").forEach((link) => {
     link.addEventListener("click", () => {
@@ -1461,6 +1540,9 @@ function render() {
   const isEdit = state.bucket === "edit";
   dom.editSelectHotelsGroup.hidden = !isEdit;
   dom.editSelectHotelsBtn.classList.toggle("is-active", state.editSelectHotels);
+  const isAspire = state.bucket === "aspire";
+  dom.aspireCreditWithStayGroup.hidden = !isAspire;
+  dom.aspireCreditWithStayBtn.classList.toggle("is-active", state.aspireCreditWithStayFilter);
   renderMap();
   ensureSelectedHotel();
   updateMeta();
@@ -1590,6 +1672,11 @@ function buildShell() {
           <button id="edit-select-hotels-btn" class="filter-toggle-btn" type="button">$250 Select Hotels</button>
         </label>
 
+        <label id="aspire-credit-with-stay-group" class="toolbar-group" hidden>
+          <span>Aspire filter</span>
+          <button id="aspire-credit-with-stay-btn" class="filter-toggle-btn" type="button">Credit without Stay</button>
+        </label>
+
         <label class="toolbar-group toolbar-group--amenities">
           <span>Amenities</span>
           <div class="filter-dropdown" id="amenities-dropdown">
@@ -1661,6 +1748,8 @@ function buildShell() {
     ipreferHasPointsBtn: document.querySelector("#iprefer-has-points-btn"),
     editSelectHotelsGroup: document.querySelector("#edit-select-hotels-group"),
     editSelectHotelsBtn: document.querySelector("#edit-select-hotels-btn"),
+    aspireCreditWithStayGroup: document.querySelector("#aspire-credit-with-stay-group"),
+    aspireCreditWithStayBtn: document.querySelector("#aspire-credit-with-stay-btn"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
@@ -1684,6 +1773,7 @@ function bindEvents() {
       state.amenities = [];
       state.ipreferHasPoints = false;
       state.editSelectHotels = false;
+      state.aspireCreditWithStayFilter = false;
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
       render();
@@ -1783,6 +1873,14 @@ function bindEvents() {
 
   dom.editSelectHotelsBtn.addEventListener("click", () => {
     state.editSelectHotels = !state.editSelectHotels;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.aspireCreditWithStayBtn.addEventListener("click", () => {
+    state.aspireCreditWithStayFilter = !state.aspireCreditWithStayFilter;
     state.listLimit = LIST_PAGE_SIZE;
     state.shouldResetMapView = true;
     state.listPanelMode = "list";

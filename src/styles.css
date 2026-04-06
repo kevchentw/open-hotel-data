@@ -826,3 +826,98 @@ select {
     align-items: start;
   }
 }
+
+/* Aspire Resort Credit Section */
+.aspire-resort-credit-info {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.aspire-resort-credit-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  color: var(--aspire);
+}
+
+.aspire-resort-credit-question {
+  margin: 0 0 16px 0;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+.aspire-resort-credit-status {
+  margin-bottom: 16px;
+}
+
+.status-badge-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-badge--success {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge--failure {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.status-badge--mixed {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-date {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.status-restaurants {
+  font-size: 0.85rem;
+  margin: 4px 0 0 0;
+  color: #495057;
+}
+
+.status-placeholder {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.tally-button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.tally-embed-container {
+  display: none;
+  margin-top: 16px;
+  border-top: 1px solid #e9ecef;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+.tally-embed-container.is-visible {
+  display: block;
+}
+
+.tally-embed-container iframe {
+  width: 100%;
+  border: none;
+}

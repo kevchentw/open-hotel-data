@@ -1,0 +1,1513 @@
+{
+  "metadata": {
+    "stage": "2-enrichment",
+    "source": "aspire_tally_submissions",
+    "form_id": "QKYpak",
+    "generated_at": "2026-04-06T04:28:00.809Z",
+    "record_count": 23
+  },
+  "submissions": [
+    {
+      "id": "gbbXd1P",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:27:42.000Z",
+      "createdAt": "2026-04-06T04:27:42.000Z",
+      "updatedAt": "2026-04-06T04:27:42.000Z",
+      "responses": [
+        {
+          "id": "BAyb5B5",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXd1P",
+          "sessionUuid": "0735343d-8afb-4383-bd78-9fd211e9bb83",
+          "answer": "2026-03-26",
+          "createdAt": "2026-04-06T04:27:42.000Z",
+          "updatedAt": "2026-04-06T04:27:42.000Z"
+        },
+        {
+          "id": "kKoRxZ1",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXd1P",
+          "sessionUuid": "0735343d-8afb-4383-bd78-9fd211e9bb83",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:27:42.000Z",
+          "updatedAt": "2026-04-06T04:27:42.000Z"
+        },
+        {
+          "id": "vEZxb2v",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXd1P",
+          "sessionUuid": "0735343d-8afb-4383-bd78-9fd211e9bb83",
+          "answer": "Lucia Mexican Grill",
+          "createdAt": "2026-04-06T04:27:42.000Z",
+          "updatedAt": "2026-04-06T04:27:42.000Z"
+        },
+        {
+          "id": "bKp4GOg",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXd1P",
+          "sessionUuid": "0735343d-8afb-4383-bd78-9fd211e9bb83",
+          "answer": {
+            "hotel_name": "Virgin Hotels Las Vegas, Curio Collection by Hilton"
+          },
+          "createdAt": "2026-04-06T04:27:42.000Z",
+          "updatedAt": "2026-04-06T04:27:42.000Z"
+        },
+        {
+          "id": "AAgb580",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXd1P",
+          "sessionUuid": "0735343d-8afb-4383-bd78-9fd211e9bb83",
+          "answer": {
+            "hotel_id": "g33040154-d21135111"
+          },
+          "createdAt": "2026-04-06T04:27:42.000Z",
+          "updatedAt": "2026-04-06T04:27:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e558QpQ",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:27:13.000Z",
+      "createdAt": "2026-04-06T04:27:13.000Z",
+      "updatedAt": "2026-04-06T04:27:13.000Z",
+      "responses": [
+        {
+          "id": "kKoRpvr",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e558QpQ",
+          "sessionUuid": "6d3de498-07ed-46c0-8005-c606668cdc75",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:27:13.000Z",
+          "updatedAt": "2026-04-06T04:27:13.000Z"
+        },
+        {
+          "id": "vEZxpKg",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e558QpQ",
+          "sessionUuid": "6d3de498-07ed-46c0-8005-c606668cdc75",
+          "answer": "Lobby Market ",
+          "createdAt": "2026-04-06T04:27:13.000Z",
+          "updatedAt": "2026-04-06T04:27:13.000Z"
+        },
+        {
+          "id": "AAgb0yy",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e558QpQ",
+          "sessionUuid": "6d3de498-07ed-46c0-8005-c606668cdc75",
+          "answer": {
+            "hotel_name": "Hilton Grand Vacations Club on the Las Vegas Strip"
+          },
+          "createdAt": "2026-04-06T04:27:13.000Z",
+          "updatedAt": "2026-04-06T04:27:13.000Z"
+        },
+        {
+          "id": "BAybg0e",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e558QpQ",
+          "sessionUuid": "6d3de498-07ed-46c0-8005-c606668cdc75",
+          "answer": {
+            "hotel_id": "g45963-d277720"
+          },
+          "createdAt": "2026-04-06T04:27:13.000Z",
+          "updatedAt": "2026-04-06T04:27:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "Geea97Q",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:26:52.000Z",
+      "createdAt": "2026-04-06T04:26:52.000Z",
+      "updatedAt": "2026-04-06T04:26:52.000Z",
+      "responses": [
+        {
+          "id": "587qQbE",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea97Q",
+          "sessionUuid": "9c769f3d-2a30-45eb-9ff4-9bf9ec1be39a",
+          "answer": "2025-12-25",
+          "createdAt": "2026-04-06T04:26:52.000Z",
+          "updatedAt": "2026-04-06T04:26:52.000Z"
+        },
+        {
+          "id": "dKM2pEK",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea97Q",
+          "sessionUuid": "9c769f3d-2a30-45eb-9ff4-9bf9ec1be39a",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:26:52.000Z",
+          "updatedAt": "2026-04-06T04:26:52.000Z"
+        },
+        {
+          "id": "Yp6zgPJ",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea97Q",
+          "sessionUuid": "9c769f3d-2a30-45eb-9ff4-9bf9ec1be39a",
+          "answer": "Olivine",
+          "createdAt": "2026-04-06T04:26:52.000Z",
+          "updatedAt": "2026-04-06T04:26:52.000Z"
+        },
+        {
+          "id": "019jldj",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea97Q",
+          "sessionUuid": "9c769f3d-2a30-45eb-9ff4-9bf9ec1be39a",
+          "answer": {
+            "hotel_name": "Grand Wailea, A Waldorf Astoria Resort"
+          },
+          "createdAt": "2026-04-06T04:26:52.000Z",
+          "updatedAt": "2026-04-06T04:26:52.000Z"
+        },
+        {
+          "id": "z29QOj0",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea97Q",
+          "sessionUuid": "9c769f3d-2a30-45eb-9ff4-9bf9ec1be39a",
+          "answer": {
+            "hotel_id": "g609129-d111788"
+          },
+          "createdAt": "2026-04-06T04:26:52.000Z",
+          "updatedAt": "2026-04-06T04:26:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "VppXQDl",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:26:28.000Z",
+      "createdAt": "2026-04-06T04:26:28.000Z",
+      "updatedAt": "2026-04-06T04:26:28.000Z",
+      "responses": [
+        {
+          "id": "BAyb60Q",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "VppXQDl",
+          "sessionUuid": "24aec462-7996-4437-a502-077c6ba09cf2",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:26:28.000Z",
+          "updatedAt": "2026-04-06T04:26:28.000Z"
+        },
+        {
+          "id": "kKoRgvR",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "VppXQDl",
+          "sessionUuid": "24aec462-7996-4437-a502-077c6ba09cf2",
+          "answer": "Nobu",
+          "createdAt": "2026-04-06T04:26:28.000Z",
+          "updatedAt": "2026-04-06T04:26:28.000Z"
+        },
+        {
+          "id": "bKp4gvL",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "VppXQDl",
+          "sessionUuid": "24aec462-7996-4437-a502-077c6ba09cf2",
+          "answer": {
+            "hotel_name": "Grand Wailea, A Waldorf Astoria Resort"
+          },
+          "createdAt": "2026-04-06T04:26:28.000Z",
+          "updatedAt": "2026-04-06T04:26:28.000Z"
+        },
+        {
+          "id": "AAgbayD",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "VppXQDl",
+          "sessionUuid": "24aec462-7996-4437-a502-077c6ba09cf2",
+          "answer": {
+            "hotel_id": "g609129-d111788"
+          },
+          "createdAt": "2026-04-06T04:26:28.000Z",
+          "updatedAt": "2026-04-06T04:26:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "aOOX5ay",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:26:18.000Z",
+      "createdAt": "2026-04-06T04:26:18.000Z",
+      "updatedAt": "2026-04-06T04:26:18.000Z",
+      "responses": [
+        {
+          "id": "j5R9g9Q",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "aOOX5ay",
+          "sessionUuid": "7e8c69b7-63c4-4067-9b4f-bcab11eca004",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:26:18.000Z",
+          "updatedAt": "2026-04-06T04:26:18.000Z"
+        },
+        {
+          "id": "21WxVxe",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "aOOX5ay",
+          "sessionUuid": "7e8c69b7-63c4-4067-9b4f-bcab11eca004",
+          "answer": "Loulu",
+          "createdAt": "2026-04-06T04:26:18.000Z",
+          "updatedAt": "2026-04-06T04:26:18.000Z"
+        },
+        {
+          "id": "rG4rgro",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "aOOX5ay",
+          "sessionUuid": "7e8c69b7-63c4-4067-9b4f-bcab11eca004",
+          "answer": {
+            "hotel_name": "Grand Wailea, A Waldorf Astoria Resort"
+          },
+          "createdAt": "2026-04-06T04:26:18.000Z",
+          "updatedAt": "2026-04-06T04:26:18.000Z"
+        },
+        {
+          "id": "4A6NENr",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "aOOX5ay",
+          "sessionUuid": "7e8c69b7-63c4-4067-9b4f-bcab11eca004",
+          "answer": {
+            "hotel_id": "g609129-d111788"
+          },
+          "createdAt": "2026-04-06T04:26:18.000Z",
+          "updatedAt": "2026-04-06T04:26:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1WWzdNO",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:26:02.000Z",
+      "createdAt": "2026-04-06T04:26:02.000Z",
+      "updatedAt": "2026-04-06T04:26:02.000Z",
+      "responses": [
+        {
+          "id": "kKoRgG6",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzdNO",
+          "sessionUuid": "6622adc3-dbf0-42f4-9ff0-e1a3e31a2d6c",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:26:02.000Z",
+          "updatedAt": "2026-04-06T04:26:02.000Z"
+        },
+        {
+          "id": "vEZxgDA",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzdNO",
+          "sessionUuid": "6622adc3-dbf0-42f4-9ff0-e1a3e31a2d6c",
+          "answer": "Kilolani Spa",
+          "createdAt": "2026-04-06T04:26:02.000Z",
+          "updatedAt": "2026-04-06T04:26:02.000Z"
+        },
+        {
+          "id": "AAgbapB",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzdNO",
+          "sessionUuid": "6622adc3-dbf0-42f4-9ff0-e1a3e31a2d6c",
+          "answer": {
+            "hotel_name": "Grand Wailea, A Waldorf Astoria Resort"
+          },
+          "createdAt": "2026-04-06T04:26:02.000Z",
+          "updatedAt": "2026-04-06T04:26:02.000Z"
+        },
+        {
+          "id": "BAyb6p7",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzdNO",
+          "sessionUuid": "6622adc3-dbf0-42f4-9ff0-e1a3e31a2d6c",
+          "answer": {
+            "hotel_id": "g609129-d111788"
+          },
+          "createdAt": "2026-04-06T04:26:02.000Z",
+          "updatedAt": "2026-04-06T04:26:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "Geea9Y2",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:25:44.000Z",
+      "createdAt": "2026-04-06T04:25:44.000Z",
+      "updatedAt": "2026-04-06T04:25:44.000Z",
+      "responses": [
+        {
+          "id": "aKLrlgy",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea9Y2",
+          "sessionUuid": "31780785-8bda-4d23-b1a7-6349e5a3fe60",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:25:44.000Z",
+          "updatedAt": "2026-04-06T04:25:44.000Z"
+        },
+        {
+          "id": "6AlQVy5",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea9Y2",
+          "sessionUuid": "31780785-8bda-4d23-b1a7-6349e5a3fe60",
+          "answer": "Botero Lounge",
+          "createdAt": "2026-04-06T04:25:44.000Z",
+          "updatedAt": "2026-04-06T04:25:44.000Z"
+        },
+        {
+          "id": "eKJxolo",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea9Y2",
+          "sessionUuid": "31780785-8bda-4d23-b1a7-6349e5a3fe60",
+          "answer": {
+            "hotel_name": "Grand Wailea, A Waldorf Astoria Resort"
+          },
+          "createdAt": "2026-04-06T04:25:44.000Z",
+          "updatedAt": "2026-04-06T04:25:44.000Z"
+        },
+        {
+          "id": "WDWpZBQ",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea9Y2",
+          "sessionUuid": "31780785-8bda-4d23-b1a7-6349e5a3fe60",
+          "answer": {
+            "hotel_id": "g609129-d111788"
+          },
+          "createdAt": "2026-04-06T04:25:44.000Z",
+          "updatedAt": "2026-04-06T04:25:44.000Z"
+        }
+      ]
+    },
+    {
+      "id": "Geea91Z",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:24:20.000Z",
+      "createdAt": "2026-04-06T04:24:20.000Z",
+      "updatedAt": "2026-04-06T04:24:20.000Z",
+      "responses": [
+        {
+          "id": "JXPkMyY",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea91Z",
+          "sessionUuid": "b83b130f-a38b-4dad-a09c-c01c69a8ffe2",
+          "answer": "2026-01-26",
+          "createdAt": "2026-04-06T04:24:20.000Z",
+          "updatedAt": "2026-04-06T04:24:20.000Z"
+        },
+        {
+          "id": "gYlNvB1",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea91Z",
+          "sessionUuid": "b83b130f-a38b-4dad-a09c-c01c69a8ffe2",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:24:20.000Z",
+          "updatedAt": "2026-04-06T04:24:20.000Z"
+        },
+        {
+          "id": "yjQqzOp",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea91Z",
+          "sessionUuid": "b83b130f-a38b-4dad-a09c-c01c69a8ffe2",
+          "answer": "Kings Land Bistro",
+          "createdAt": "2026-04-06T04:24:20.000Z",
+          "updatedAt": "2026-04-06T04:24:20.000Z"
+        },
+        {
+          "id": "1De26jO",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea91Z",
+          "sessionUuid": "b83b130f-a38b-4dad-a09c-c01c69a8ffe2",
+          "answer": {
+            "hotel_name": "Hilton Grand Vacations Club Kings’ Land Waikoloa"
+          },
+          "createdAt": "2026-04-06T04:24:20.000Z",
+          "updatedAt": "2026-04-06T04:24:20.000Z"
+        },
+        {
+          "id": "Mv4dM0g",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea91Z",
+          "sessionUuid": "b83b130f-a38b-4dad-a09c-c01c69a8ffe2",
+          "answer": {
+            "hotel_id": "g60608-d1404166"
+          },
+          "createdAt": "2026-04-06T04:24:20.000Z",
+          "updatedAt": "2026-04-06T04:24:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rDDRa6R",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:23:48.000Z",
+      "createdAt": "2026-04-06T04:23:48.000Z",
+      "updatedAt": "2026-04-06T04:23:48.000Z",
+      "responses": [
+        {
+          "id": "LvrMkJ2",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRa6R",
+          "sessionUuid": "de2055ea-1bd6-4935-8012-cf5004c52495",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:23:48.000Z",
+          "updatedAt": "2026-04-06T04:23:48.000Z"
+        },
+        {
+          "id": "pREPv7E",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRa6R",
+          "sessionUuid": "de2055ea-1bd6-4935-8012-cf5004c52495",
+          "answer": "Islander Terrace",
+          "createdAt": "2026-04-06T04:23:48.000Z",
+          "updatedAt": "2026-04-06T04:23:48.000Z"
+        },
+        {
+          "id": "vEZxKO8",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRa6R",
+          "sessionUuid": "de2055ea-1bd6-4935-8012-cf5004c52495",
+          "answer": {
+            "hotel_name": "Hilton Guam Resort & Spa"
+          },
+          "createdAt": "2026-04-06T04:23:48.000Z",
+          "updatedAt": "2026-04-06T04:23:48.000Z"
+        },
+        {
+          "id": "KvEBkJK",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRa6R",
+          "sessionUuid": "de2055ea-1bd6-4935-8012-cf5004c52495",
+          "answer": {
+            "hotel_id": "g60678-d307181"
+          },
+          "createdAt": "2026-04-06T04:23:48.000Z",
+          "updatedAt": "2026-04-06T04:23:48.000Z"
+        }
+      ]
+    },
+    {
+      "id": "OQQK4GY",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:23:20.000Z",
+      "createdAt": "2026-04-06T04:23:20.000Z",
+      "updatedAt": "2026-04-06T04:23:20.000Z",
+      "responses": [
+        {
+          "id": "Mv4d7Zg",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "OQQK4GY",
+          "sessionUuid": "4b623fc0-7d8e-49de-8e66-6253b2be03e7",
+          "answer": "2025-12-24",
+          "createdAt": "2026-04-06T04:23:20.000Z",
+          "updatedAt": "2026-04-06T04:23:20.000Z"
+        },
+        {
+          "id": "pREPkqZ",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "OQQK4GY",
+          "sessionUuid": "4b623fc0-7d8e-49de-8e66-6253b2be03e7",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:23:20.000Z",
+          "updatedAt": "2026-04-06T04:23:20.000Z"
+        },
+        {
+          "id": "1De2p0O",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "OQQK4GY",
+          "sessionUuid": "4b623fc0-7d8e-49de-8e66-6253b2be03e7",
+          "answer": "Mainstreet Market",
+          "createdAt": "2026-04-06T04:23:20.000Z",
+          "updatedAt": "2026-04-06T04:23:20.000Z"
+        },
+        {
+          "id": "KvEBa2k",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "OQQK4GY",
+          "sessionUuid": "4b623fc0-7d8e-49de-8e66-6253b2be03e7",
+          "answer": {
+            "hotel_name": "Hilton Orlando Lake Buena Vista - Disney Springs® Area"
+          },
+          "createdAt": "2026-04-06T04:23:20.000Z",
+          "updatedAt": "2026-04-06T04:23:20.000Z"
+        },
+        {
+          "id": "LvrM6xO",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "OQQK4GY",
+          "sessionUuid": "4b623fc0-7d8e-49de-8e66-6253b2be03e7",
+          "answer": {
+            "hotel_id": "g23869903-d217366"
+          },
+          "createdAt": "2026-04-06T04:23:20.000Z",
+          "updatedAt": "2026-04-06T04:23:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "o99YE7N",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:07:23.000Z",
+      "createdAt": "2026-04-06T04:07:23.000Z",
+      "updatedAt": "2026-04-06T04:07:23.000Z",
+      "responses": [
+        {
+          "id": "587qXqb",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "o99YE7N",
+          "sessionUuid": "9828bd4f-8393-4291-a753-3d1bea8c4c3e",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:07:23.000Z",
+          "updatedAt": "2026-04-06T04:07:23.000Z"
+        },
+        {
+          "id": "dKM2b2N",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "o99YE7N",
+          "sessionUuid": "9828bd4f-8393-4291-a753-3d1bea8c4c3e",
+          "answer": "Toscana Pool Bar and Grill",
+          "createdAt": "2026-04-06T04:07:23.000Z",
+          "updatedAt": "2026-04-06T04:07:23.000Z"
+        },
+        {
+          "id": "019jVjQ",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "o99YE7N",
+          "sessionUuid": "9828bd4f-8393-4291-a753-3d1bea8c4c3e",
+          "answer": {
+            "hotel_name": "Hilton Grand Vacations Club Tuscany Village Orlando"
+          },
+          "createdAt": "2026-04-06T04:07:23.000Z",
+          "updatedAt": "2026-04-06T04:07:23.000Z"
+        },
+        {
+          "id": "z29QEQE",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "o99YE7N",
+          "sessionUuid": "9828bd4f-8393-4291-a753-3d1bea8c4c3e",
+          "answer": {
+            "hotel_id": "g34515-d480622"
+          },
+          "createdAt": "2026-04-06T04:07:23.000Z",
+          "updatedAt": "2026-04-06T04:07:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "Geea6LQ",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:06:59.000Z",
+      "createdAt": "2026-04-06T04:06:59.000Z",
+      "updatedAt": "2026-04-06T04:06:59.000Z",
+      "responses": [
+        {
+          "id": "1De2AYO",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea6LQ",
+          "sessionUuid": "de7b9a03-9252-4d21-b1f8-22a8c2e5160e",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:06:59.000Z",
+          "updatedAt": "2026-04-06T04:06:59.000Z"
+        },
+        {
+          "id": "Mv4de2g",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea6LQ",
+          "sessionUuid": "de7b9a03-9252-4d21-b1f8-22a8c2e5160e",
+          "answer": "Fresco Market and Deli",
+          "createdAt": "2026-04-06T04:06:59.000Z",
+          "updatedAt": "2026-04-06T04:06:59.000Z"
+        },
+        {
+          "id": "LvrMZjO",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea6LQ",
+          "sessionUuid": "de7b9a03-9252-4d21-b1f8-22a8c2e5160e",
+          "answer": {
+            "hotel_name": "Hilton Grand Vacations Club Tuscany Village Orlando"
+          },
+          "createdAt": "2026-04-06T04:06:59.000Z",
+          "updatedAt": "2026-04-06T04:06:59.000Z"
+        },
+        {
+          "id": "pREPbNZ",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Geea6LQ",
+          "sessionUuid": "de7b9a03-9252-4d21-b1f8-22a8c2e5160e",
+          "answer": {
+            "hotel_id": "g34515-d480622"
+          },
+          "createdAt": "2026-04-06T04:06:59.000Z",
+          "updatedAt": "2026-04-06T04:06:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "J11bq67",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:06:13.000Z",
+      "createdAt": "2026-04-06T04:06:13.000Z",
+      "updatedAt": "2026-04-06T04:06:13.000Z",
+      "responses": [
+        {
+          "id": "WDWp9Wk",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11bq67",
+          "sessionUuid": "e56922a1-0dcc-4ef9-8460-01e82a3e1ce9",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:06:13.000Z",
+          "updatedAt": "2026-04-06T04:06:13.000Z"
+        },
+        {
+          "id": "eKJxZJl",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11bq67",
+          "sessionUuid": "e56922a1-0dcc-4ef9-8460-01e82a3e1ce9",
+          "answer": "Breckenridge Brewery Ale & Game House",
+          "createdAt": "2026-04-06T04:06:13.000Z",
+          "updatedAt": "2026-04-06T04:06:13.000Z"
+        },
+        {
+          "id": "QvZB2ZX",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11bq67",
+          "sessionUuid": "e56922a1-0dcc-4ef9-8460-01e82a3e1ce9",
+          "answer": {
+            "hotel_name": "The Inverness Denver, a Hilton Golf & Spa Resort"
+          },
+          "createdAt": "2026-04-06T04:06:13.000Z",
+          "updatedAt": "2026-04-06T04:06:13.000Z"
+        },
+        {
+          "id": "9pkJGk5",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11bq67",
+          "sessionUuid": "e56922a1-0dcc-4ef9-8460-01e82a3e1ce9",
+          "answer": {
+            "hotel_id": "g33412-d83087"
+          },
+          "createdAt": "2026-04-06T04:06:13.000Z",
+          "updatedAt": "2026-04-06T04:06:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "zEE4jyq",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:05:12.000Z",
+      "createdAt": "2026-04-06T04:05:12.000Z",
+      "updatedAt": "2026-04-06T04:05:12.000Z",
+      "responses": [
+        {
+          "id": "x4qPkv9",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "zEE4jyq",
+          "sessionUuid": "27cf1da2-6976-4b6c-a941-edf52b7241ca",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:05:12.000Z",
+          "updatedAt": "2026-04-06T04:05:12.000Z"
+        },
+        {
+          "id": "Zv7z4Dv",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "zEE4jyq",
+          "sessionUuid": "27cf1da2-6976-4b6c-a941-edf52b7241ca",
+          "answer": "The Set Restaurant",
+          "createdAt": "2026-04-06T04:05:12.000Z",
+          "updatedAt": "2026-04-06T04:05:12.000Z"
+        },
+        {
+          "id": "j5R7dv9",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "zEE4jyq",
+          "sessionUuid": "27cf1da2-6976-4b6c-a941-edf52b7241ca",
+          "answer": {
+            "hotel_name": "Hilton Santa Barbara Beachfront Resort"
+          },
+          "createdAt": "2026-04-06T04:05:12.000Z",
+          "updatedAt": "2026-04-06T04:05:12.000Z"
+        },
+        {
+          "id": "21WJq7b",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "zEE4jyq",
+          "sessionUuid": "27cf1da2-6976-4b6c-a941-edf52b7241ca",
+          "answer": {
+            "hotel_id": "g33045-d81899"
+          },
+          "createdAt": "2026-04-06T04:05:12.000Z",
+          "updatedAt": "2026-04-06T04:05:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "peeXreq",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:04:43.000Z",
+      "createdAt": "2026-04-06T04:04:43.000Z",
+      "updatedAt": "2026-04-06T04:04:43.000Z",
+      "responses": [
+        {
+          "id": "EvRJ4pq",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "peeXreq",
+          "sessionUuid": "fdd3349f-f0e9-4ebf-b16a-9092fba7035b",
+          "answer": "2026-02-26",
+          "createdAt": "2026-04-06T04:04:43.000Z",
+          "updatedAt": "2026-04-06T04:04:43.000Z"
+        },
+        {
+          "id": "rG4dxX5",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "peeXreq",
+          "sessionUuid": "fdd3349f-f0e9-4ebf-b16a-9092fba7035b",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:04:43.000Z",
+          "updatedAt": "2026-04-06T04:04:43.000Z"
+        },
+        {
+          "id": "4A6ogZB",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "peeXreq",
+          "sessionUuid": "fdd3349f-f0e9-4ebf-b16a-9092fba7035b",
+          "answer": "Henry's Coastal Cuisine ",
+          "createdAt": "2026-04-06T04:04:43.000Z",
+          "updatedAt": "2026-04-06T04:04:43.000Z"
+        },
+        {
+          "id": "VveMkrE",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "peeXreq",
+          "sessionUuid": "fdd3349f-f0e9-4ebf-b16a-9092fba7035b",
+          "answer": {
+            "hotel_name": "The Waterfront Beach Resort, a Hilton Hotel"
+          },
+          "createdAt": "2026-04-06T04:04:43.000Z",
+          "updatedAt": "2026-04-06T04:04:43.000Z"
+        },
+        {
+          "id": "PvxXaod",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "peeXreq",
+          "sessionUuid": "fdd3349f-f0e9-4ebf-b16a-9092fba7035b",
+          "answer": {
+            "hotel_id": "g32513-d77306"
+          },
+          "createdAt": "2026-04-06T04:04:43.000Z",
+          "updatedAt": "2026-04-06T04:04:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "EqqeKkX",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:04:23.000Z",
+      "createdAt": "2026-04-06T04:04:23.000Z",
+      "updatedAt": "2026-04-06T04:04:23.000Z",
+      "responses": [
+        {
+          "id": "x4qPe4k",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "EqqeKkX",
+          "sessionUuid": "b86bdaa1-8c65-48b2-a969-590f39da5bad",
+          "answer": "2025-11-25",
+          "createdAt": "2026-04-06T04:04:23.000Z",
+          "updatedAt": "2026-04-06T04:04:23.000Z"
+        },
+        {
+          "id": "Zv7zp15",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "EqqeKkX",
+          "sessionUuid": "b86bdaa1-8c65-48b2-a969-590f39da5bad",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:04:23.000Z",
+          "updatedAt": "2026-04-06T04:04:23.000Z"
+        },
+        {
+          "id": "NMjJebp",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "EqqeKkX",
+          "sessionUuid": "b86bdaa1-8c65-48b2-a969-590f39da5bad",
+          "answer": "Henry's Coastal Cuisine ",
+          "createdAt": "2026-04-06T04:04:23.000Z",
+          "updatedAt": "2026-04-06T04:04:23.000Z"
+        },
+        {
+          "id": "j5R7O51",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "EqqeKkX",
+          "sessionUuid": "b86bdaa1-8c65-48b2-a969-590f39da5bad",
+          "answer": {
+            "hotel_name": "The Waterfront Beach Resort, a Hilton Hotel"
+          },
+          "createdAt": "2026-04-06T04:04:23.000Z",
+          "updatedAt": "2026-04-06T04:04:23.000Z"
+        },
+        {
+          "id": "21WJM1M",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "EqqeKkX",
+          "sessionUuid": "b86bdaa1-8c65-48b2-a969-590f39da5bad",
+          "answer": {
+            "hotel_id": "g32513-d77306"
+          },
+          "createdAt": "2026-04-06T04:04:23.000Z",
+          "updatedAt": "2026-04-06T04:04:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4aaRagY",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:03:54.000Z",
+      "createdAt": "2026-04-06T04:03:54.000Z",
+      "updatedAt": "2026-04-06T04:03:54.000Z",
+      "responses": [
+        {
+          "id": "71AV6A6",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "4aaRagY",
+          "sessionUuid": "8d2d3e13-b46f-471e-bd35-569eb439cc7c",
+          "answer": "2025-11-25",
+          "createdAt": "2026-04-06T04:03:54.000Z",
+          "updatedAt": "2026-04-06T04:03:54.000Z"
+        },
+        {
+          "id": "bKp8bp0",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "4aaRagY",
+          "sessionUuid": "8d2d3e13-b46f-471e-bd35-569eb439cc7c",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:03:54.000Z",
+          "updatedAt": "2026-04-06T04:03:54.000Z"
+        },
+        {
+          "id": "AAgq1go",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "4aaRagY",
+          "sessionUuid": "8d2d3e13-b46f-471e-bd35-569eb439cc7c",
+          "answer": "Henry's Coastal Cuisine",
+          "createdAt": "2026-04-06T04:03:54.000Z",
+          "updatedAt": "2026-04-06T04:03:54.000Z"
+        },
+        {
+          "id": "aKLD7LW",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "4aaRagY",
+          "sessionUuid": "8d2d3e13-b46f-471e-bd35-569eb439cc7c",
+          "answer": {
+            "hotel_name": "The Waterfront Beach Resort, a Hilton Hotel"
+          },
+          "createdAt": "2026-04-06T04:03:54.000Z",
+          "updatedAt": "2026-04-06T04:03:54.000Z"
+        },
+        {
+          "id": "6AlOalo",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "4aaRagY",
+          "sessionUuid": "8d2d3e13-b46f-471e-bd35-569eb439cc7c",
+          "answer": {
+            "hotel_id": "g32513-d77306"
+          },
+          "createdAt": "2026-04-06T04:03:54.000Z",
+          "updatedAt": "2026-04-06T04:03:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "gbbXb2D",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:03:26.000Z",
+      "createdAt": "2026-04-06T04:03:26.000Z",
+      "updatedAt": "2026-04-06T04:03:26.000Z",
+      "responses": [
+        {
+          "id": "LvrJRPG",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXb2D",
+          "sessionUuid": "79085b25-5ca5-4f1c-91d2-40cf2b8e64e7",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:03:26.000Z",
+          "updatedAt": "2026-04-06T04:03:26.000Z"
+        },
+        {
+          "id": "pRE78DV",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXb2D",
+          "sessionUuid": "79085b25-5ca5-4f1c-91d2-40cf2b8e64e7",
+          "answer": "Cabo Wabo Beach Club",
+          "createdAt": "2026-04-06T04:03:26.000Z",
+          "updatedAt": "2026-04-06T04:03:26.000Z"
+        },
+        {
+          "id": "vEZOoPA",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXb2D",
+          "sessionUuid": "79085b25-5ca5-4f1c-91d2-40cf2b8e64e7",
+          "answer": {
+            "hotel_name": "The Waterfront Beach Resort, a Hilton Hotel"
+          },
+          "createdAt": "2026-04-06T04:03:26.000Z",
+          "updatedAt": "2026-04-06T04:03:26.000Z"
+        },
+        {
+          "id": "KvEJdVM",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "gbbXb2D",
+          "sessionUuid": "79085b25-5ca5-4f1c-91d2-40cf2b8e64e7",
+          "answer": {
+            "hotel_id": "g32513-d77306"
+          },
+          "createdAt": "2026-04-06T04:03:26.000Z",
+          "updatedAt": "2026-04-06T04:03:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e5585Xx",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:02:46.000Z",
+      "createdAt": "2026-04-06T04:02:46.000Z",
+      "updatedAt": "2026-04-06T04:02:46.000Z",
+      "responses": [
+        {
+          "id": "JXPJ7DK",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e5585Xx",
+          "sessionUuid": "1267e46c-6893-4bfb-ab43-6861e83f0603",
+          "answer": "2026-01-26",
+          "createdAt": "2026-04-06T04:02:46.000Z",
+          "updatedAt": "2026-04-06T04:02:46.000Z"
+        },
+        {
+          "id": "Mv4JBLk",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e5585Xx",
+          "sessionUuid": "1267e46c-6893-4bfb-ab43-6861e83f0603",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:02:46.000Z",
+          "updatedAt": "2026-04-06T04:02:46.000Z"
+        },
+        {
+          "id": "1DeJ8M1",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e5585Xx",
+          "sessionUuid": "1267e46c-6893-4bfb-ab43-6861e83f0603",
+          "answer": "valet parking",
+          "createdAt": "2026-04-06T04:02:46.000Z",
+          "updatedAt": "2026-04-06T04:02:46.000Z"
+        },
+        {
+          "id": "LvrJlXl",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e5585Xx",
+          "sessionUuid": "1267e46c-6893-4bfb-ab43-6861e83f0603",
+          "answer": {
+            "hotel_name": "Waldorf Astoria Monarch Beach"
+          },
+          "createdAt": "2026-04-06T04:02:46.000Z",
+          "updatedAt": "2026-04-06T04:02:46.000Z"
+        },
+        {
+          "id": "pRE7aG8",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "e5585Xx",
+          "sessionUuid": "1267e46c-6893-4bfb-ab43-6861e83f0603",
+          "answer": {
+            "hotel_id": "g32279-d224779"
+          },
+          "createdAt": "2026-04-06T04:02:46.000Z",
+          "updatedAt": "2026-04-06T04:02:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0VVzV0P",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:02:13.000Z",
+      "createdAt": "2026-04-06T04:02:13.000Z",
+      "updatedAt": "2026-04-06T04:02:13.000Z",
+      "responses": [
+        {
+          "id": "z29rVog",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "0VVzV0P",
+          "sessionUuid": "d0c3f826-fabc-4e73-a2bf-49ac454ca3e9",
+          "answer": [
+            "No"
+          ],
+          "createdAt": "2026-04-06T04:02:13.000Z",
+          "updatedAt": "2026-04-06T04:02:13.000Z"
+        },
+        {
+          "id": "587GNDQ",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "0VVzV0P",
+          "sessionUuid": "d0c3f826-fabc-4e73-a2bf-49ac454ca3e9",
+          "answer": "Part & Parcel",
+          "createdAt": "2026-04-06T04:02:13.000Z",
+          "updatedAt": "2026-04-06T04:02:13.000Z"
+        },
+        {
+          "id": "8ABP9yr",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "0VVzV0P",
+          "sessionUuid": "d0c3f826-fabc-4e73-a2bf-49ac454ca3e9",
+          "answer": {
+            "hotel_name": "Waldorf Astoria Monarch Beach"
+          },
+          "createdAt": "2026-04-06T04:02:13.000Z",
+          "updatedAt": "2026-04-06T04:02:13.000Z"
+        },
+        {
+          "id": "019J4yA",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "0VVzV0P",
+          "sessionUuid": "d0c3f826-fabc-4e73-a2bf-49ac454ca3e9",
+          "answer": {
+            "hotel_id": "g32279-d224779"
+          },
+          "createdAt": "2026-04-06T04:02:13.000Z",
+          "updatedAt": "2026-04-06T04:02:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "Qoopopl",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:01:55.000Z",
+      "createdAt": "2026-04-06T04:01:55.000Z",
+      "updatedAt": "2026-04-06T04:01:55.000Z",
+      "responses": [
+        {
+          "id": "8ABP9Qz",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Qoopopl",
+          "sessionUuid": "ca6d465c-904a-4123-ae40-fcd2d5637f75",
+          "answer": [
+            "No"
+          ],
+          "createdAt": "2026-04-06T04:01:55.000Z",
+          "updatedAt": "2026-04-06T04:01:55.000Z"
+        },
+        {
+          "id": "019J46B",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Qoopopl",
+          "sessionUuid": "ca6d465c-904a-4123-ae40-fcd2d5637f75",
+          "answer": "Bourbon Steak",
+          "createdAt": "2026-04-06T04:01:55.000Z",
+          "updatedAt": "2026-04-06T04:01:55.000Z"
+        },
+        {
+          "id": "yjQEO9X",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Qoopopl",
+          "sessionUuid": "ca6d465c-904a-4123-ae40-fcd2d5637f75",
+          "answer": {
+            "hotel_name": "Waldorf Astoria Monarch Beach"
+          },
+          "createdAt": "2026-04-06T04:01:55.000Z",
+          "updatedAt": "2026-04-06T04:01:55.000Z"
+        },
+        {
+          "id": "X1aMjWL",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "Qoopopl",
+          "sessionUuid": "ca6d465c-904a-4123-ae40-fcd2d5637f75",
+          "answer": {
+            "hotel_id": "g32279-d224779"
+          },
+          "createdAt": "2026-04-06T04:01:55.000Z",
+          "updatedAt": "2026-04-06T04:01:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1WWzWyL",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:01:35.000Z",
+      "createdAt": "2026-04-06T04:01:35.000Z",
+      "updatedAt": "2026-04-06T04:01:35.000Z",
+      "responses": [
+        {
+          "id": "JXPJQbo",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzWyL",
+          "sessionUuid": "6575f5ce-6fa5-4e1f-a16d-54806ccbcd6e",
+          "answer": [
+            "No"
+          ],
+          "createdAt": "2026-04-06T04:01:35.000Z",
+          "updatedAt": "2026-04-06T04:01:35.000Z"
+        },
+        {
+          "id": "yjQEBrg",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzWyL",
+          "sessionUuid": "6575f5ce-6fa5-4e1f-a16d-54806ccbcd6e",
+          "answer": "Aveo Table + Bar",
+          "createdAt": "2026-04-06T04:01:35.000Z",
+          "updatedAt": "2026-04-06T04:01:35.000Z"
+        },
+        {
+          "id": "gYl7EXO",
+          "formId": "QKYpak",
+          "questionId": "G108kk",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzWyL",
+          "sessionUuid": "6575f5ce-6fa5-4e1f-a16d-54806ccbcd6e",
+          "answer": "get reimbursement with amex chat",
+          "createdAt": "2026-04-06T04:01:35.000Z",
+          "updatedAt": "2026-04-06T04:01:35.000Z"
+        },
+        {
+          "id": "1DeJLzp",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzWyL",
+          "sessionUuid": "6575f5ce-6fa5-4e1f-a16d-54806ccbcd6e",
+          "answer": {
+            "hotel_name": "Waldorf Astoria Monarch Beach"
+          },
+          "createdAt": "2026-04-06T04:01:35.000Z",
+          "updatedAt": "2026-04-06T04:01:35.000Z"
+        },
+        {
+          "id": "Mv4JWlM",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "1WWzWyL",
+          "sessionUuid": "6575f5ce-6fa5-4e1f-a16d-54806ccbcd6e",
+          "answer": {
+            "hotel_id": "g32279-d224779"
+          },
+          "createdAt": "2026-04-06T04:01:35.000Z",
+          "updatedAt": "2026-04-06T04:01:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "J11b1od",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:00:32.000Z",
+      "createdAt": "2026-04-06T04:00:32.000Z",
+      "updatedAt": "2026-04-06T04:00:32.000Z",
+      "responses": [
+        {
+          "id": "RvNJNYv",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11b1od",
+          "sessionUuid": "8e651089-9683-4437-86b4-8abd4f719382",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:00:32.000Z",
+          "updatedAt": "2026-04-06T04:00:32.000Z"
+        },
+        {
+          "id": "oKP7Pd5",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11b1od",
+          "sessionUuid": "8e651089-9683-4437-86b4-8abd4f719382",
+          "answer": "Spa at the Boulders",
+          "createdAt": "2026-04-06T04:00:32.000Z",
+          "updatedAt": "2026-04-06T04:00:32.000Z"
+        },
+        {
+          "id": "DA8J8DX",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11b1od",
+          "sessionUuid": "8e651089-9683-4437-86b4-8abd4f719382",
+          "answer": {
+            "hotel_name": "Boulders Resort and Spa, Scottsdale"
+          },
+          "createdAt": "2026-04-06T04:00:32.000Z",
+          "updatedAt": "2026-04-06T04:00:32.000Z"
+        },
+        {
+          "id": "lKG7GWV",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "J11b1od",
+          "sessionUuid": "8e651089-9683-4437-86b4-8abd4f719382",
+          "answer": {
+            "hotel_id": "g31350-d73240"
+          },
+          "createdAt": "2026-04-06T04:00:32.000Z",
+          "updatedAt": "2026-04-06T04:00:32.000Z"
+        }
+      ]
+    }
+  ]
+}

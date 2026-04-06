@@ -13,6 +13,7 @@
     "pipeline:stage1:iprefer": "node data-pipeline/1-list/scripts/iprefer-points.mjs",
     "pipeline:stage2:amex": "node data-pipeline/2-enrichment/amex-hotel.mjs",
     "pipeline:stage2:hilton-resorts": "node data-pipeline/2-enrichment/hilton-resort.mjs",
+    "pipeline:stage2:aspire-tally": "node data-pipeline/2-enrichment/aspire-tally-submissions.mjs",
     "pipeline:stage3:fhr": "node data-pipeline/3-tripadvisor/amex-fhr-hotel.mjs",
     "pipeline:stage3:thc": "node data-pipeline/3-tripadvisor/amex-thc-hotel.mjs",
     "pipeline:stage3:aspire": "node data-pipeline/3-tripadvisor/aspire-hotel.mjs",
