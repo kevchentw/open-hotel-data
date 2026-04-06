@@ -1493,13 +1493,39 @@ function focusHotelOnMap(hotel) {
   hotel.marker.openPopup();
 }
 
+function syncUrlFromState() {
+  const hotelPart = state.listPanelMode === "detail" && state.selectedHotelId
+    ? `/${state.selectedHotelId}`
+    : "";
+  const hash = `#${state.bucket}${hotelPart}`;
+  if (window.location.hash !== hash) {
+    history.pushState(null, "", hash);
+  }
+}
+
+function syncStateFromUrl() {
+  const hash = window.location.hash.slice(1); // remove leading #
+  if (!hash) return;
+  const [bucket, hotelId] = hash.split("/");
+  if (PLAN_CONFIG[bucket]) {
+    state.bucket = bucket;
+  }
+  if (hotelId) {
+    state.selectedHotelId = hotelId;
+    state.listPanelMode = "detail";
+  }
+}
+
 function showListPanel() {
   state.listPanelMode = "list";
+  state.selectedHotelId = null;
+  syncUrlFromState();
   renderListPanel();
 }
 
 function showDetailPanel() {
   state.listPanelMode = "detail";
+  syncUrlFromState();
   renderListPanel();
 }
 
@@ -1626,9 +1652,8 @@ function buildShell() {
             </div>
           </section>
         </section>
-      </section>
 
-      <section class="toolbar">
+        <section class="toolbar">
         <label class="toolbar-group toolbar-group--search">
           <span>Search</span>
           <input id="search-input" type="search" placeholder="Hotel, brand, city, country" />
@@ -1696,6 +1721,7 @@ function buildShell() {
           </div>
           <small id="amenities-info" hidden></small>
         </label>
+        </section>
       </section>
 
       <section class="workspace">
@@ -1777,6 +1803,8 @@ function bindEvents() {
       state.aspireCreditWithStayFilter = false;
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
+      state.selectedHotelId = null;
+      syncUrlFromState();
       render();
     });
   });
@@ -1900,6 +1928,13 @@ function bindEvents() {
     renderMap();
     renderListPanel();
   });
+
+  window.addEventListener("popstate", () => {
+    state.listPanelMode = "list";
+    state.selectedHotelId = null;
+    syncStateFromUrl();
+    render();
+  });
 }
 
 async function loadHotels() {
@@ -1933,7 +1968,12 @@ async function init() {
     initMap();
     bindEvents();
     await loadHotels();
+    syncStateFromUrl();
     render();
+    if (state.listPanelMode === "detail" && state.selectedHotelId) {
+      const hotel = getSelectedHotel();
+      if (hotel) focusHotelOnMap(hotel);
+    }
   } catch (error) {
     console.error(error);
     renderError(error);
