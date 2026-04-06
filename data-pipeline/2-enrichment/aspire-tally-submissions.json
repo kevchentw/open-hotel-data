@@ -3,10 +3,409 @@
     "stage": "2-enrichment",
     "source": "aspire_tally_submissions",
     "form_id": "QKYpak",
-    "generated_at": "2026-04-06T04:28:00.809Z",
-    "record_count": 23
+    "generated_at": "2026-04-06T04:45:18.191Z",
+    "record_count": 29
   },
   "submissions": [
+    {
+      "id": "KppAVWV",
+      "formId": "QKYpak",
+      "respondentId": "q4KQ2M9",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:43:43.000Z",
+      "createdAt": "2026-04-06T04:43:43.000Z",
+      "updatedAt": "2026-04-06T04:43:43.000Z",
+      "responses": [
+        {
+          "id": "Vve9QYv",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "KppAVWV",
+          "sessionUuid": "5654a1f9-6335-4652-b429-cfcfb1ac5435",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:43:43.000Z",
+          "updatedAt": "2026-04-06T04:43:43.000Z"
+        },
+        {
+          "id": "Pvx21Yb",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "KppAVWV",
+          "sessionUuid": "5654a1f9-6335-4652-b429-cfcfb1ac5435",
+          "answer": "Suriyun",
+          "createdAt": "2026-04-06T04:43:43.000Z",
+          "updatedAt": "2026-04-06T04:43:43.000Z"
+        },
+        {
+          "id": "GXGo9Do",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "KppAVWV",
+          "sessionUuid": "5654a1f9-6335-4652-b429-cfcfb1ac5435",
+          "answer": {
+            "hotel_name": "Hilton Okinawa Chatan Resort"
+          },
+          "createdAt": "2026-04-06T04:43:43.000Z",
+          "updatedAt": "2026-04-06T04:43:43.000Z"
+        },
+        {
+          "id": "Od2j4Y8",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "KppAVWV",
+          "sessionUuid": "5654a1f9-6335-4652-b429-cfcfb1ac5435",
+          "answer": {
+            "hotel_id": "g1025634-d6522582"
+          },
+          "createdAt": "2026-04-06T04:43:43.000Z",
+          "updatedAt": "2026-04-06T04:43:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "RWW1D84",
+      "formId": "QKYpak",
+      "respondentId": "q4KQ2M9",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:43:18.000Z",
+      "createdAt": "2026-04-06T04:43:18.000Z",
+      "updatedAt": "2026-04-06T04:43:18.000Z",
+      "responses": [
+        {
+          "id": "Od2jlx8",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "RWW1D84",
+          "sessionUuid": "b6a65359-9d9d-4cf5-baaa-29cb59a05977",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:43:18.000Z",
+          "updatedAt": "2026-04-06T04:43:18.000Z"
+        },
+        {
+          "id": "Vve9jWv",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "RWW1D84",
+          "sessionUuid": "b6a65359-9d9d-4cf5-baaa-29cb59a05977",
+          "answer": "spa",
+          "createdAt": "2026-04-06T04:43:18.000Z",
+          "updatedAt": "2026-04-06T04:43:18.000Z"
+        },
+        {
+          "id": "oKP0D8V",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "RWW1D84",
+          "sessionUuid": "b6a65359-9d9d-4cf5-baaa-29cb59a05977",
+          "answer": {
+            "hotel_name": "ROKU KYOTO, LXR Hotels & Resorts"
+          },
+          "createdAt": "2026-04-06T04:43:18.000Z",
+          "updatedAt": "2026-04-06T04:43:18.000Z"
+        },
+        {
+          "id": "GXGoKOo",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "RWW1D84",
+          "sessionUuid": "b6a65359-9d9d-4cf5-baaa-29cb59a05977",
+          "answer": {
+            "hotel_id": "g298564-d23331390"
+          },
+          "createdAt": "2026-04-06T04:43:18.000Z",
+          "updatedAt": "2026-04-06T04:43:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7XXON9a",
+      "formId": "QKYpak",
+      "respondentId": "q4KQ2M9",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:42:54.000Z",
+      "createdAt": "2026-04-06T04:42:54.000Z",
+      "updatedAt": "2026-04-06T04:42:54.000Z",
+      "responses": [
+        {
+          "id": "JXPVdDY",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "7XXON9a",
+          "sessionUuid": "f34a7301-b8cc-4b45-83d0-3c0033c83be1",
+          "answer": "2026-03-26",
+          "createdAt": "2026-04-06T04:42:54.000Z",
+          "updatedAt": "2026-04-06T04:42:54.000Z"
+        },
+        {
+          "id": "gYlQeZ1",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "7XXON9a",
+          "sessionUuid": "f34a7301-b8cc-4b45-83d0-3c0033c83be1",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:42:54.000Z",
+          "updatedAt": "2026-04-06T04:42:54.000Z"
+        },
+        {
+          "id": "yjQ0Nvp",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "7XXON9a",
+          "sessionUuid": "f34a7301-b8cc-4b45-83d0-3c0033c83be1",
+          "answer": "Uma Beach House",
+          "createdAt": "2026-04-06T04:42:54.000Z",
+          "updatedAt": "2026-04-06T04:42:54.000Z"
+        },
+        {
+          "id": "1DebkvO",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "7XXON9a",
+          "sessionUuid": "f34a7301-b8cc-4b45-83d0-3c0033c83be1",
+          "answer": {
+            "hotel_name": "Umana Bali, LXR Hotels & Resorts"
+          },
+          "createdAt": "2026-04-06T04:42:54.000Z",
+          "updatedAt": "2026-04-06T04:42:54.000Z"
+        },
+        {
+          "id": "Mv4rDYg",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "7XXON9a",
+          "sessionUuid": "f34a7301-b8cc-4b45-83d0-3c0033c83be1",
+          "answer": {
+            "hotel_id": "g1219108-d887047"
+          },
+          "createdAt": "2026-04-06T04:42:54.000Z",
+          "updatedAt": "2026-04-06T04:42:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rDDRoVX",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:42:14.000Z",
+      "createdAt": "2026-04-06T04:42:14.000Z",
+      "updatedAt": "2026-04-06T04:42:14.000Z",
+      "responses": [
+        {
+          "id": "yjQ0M7g",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRoVX",
+          "sessionUuid": "502994a9-2351-4923-b790-3210c05fee49",
+          "answer": "2025-12-25",
+          "createdAt": "2026-04-06T04:42:14.000Z",
+          "updatedAt": "2026-04-06T04:42:14.000Z"
+        },
+        {
+          "id": "X1aRLNg",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRoVX",
+          "sessionUuid": "502994a9-2351-4923-b790-3210c05fee49",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:42:14.000Z",
+          "updatedAt": "2026-04-06T04:42:14.000Z"
+        },
+        {
+          "id": "8ABJqE5",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRoVX",
+          "sessionUuid": "502994a9-2351-4923-b790-3210c05fee49",
+          "answer": "La Veranda",
+          "createdAt": "2026-04-06T04:42:14.000Z",
+          "updatedAt": "2026-04-06T04:42:14.000Z"
+        },
+        {
+          "id": "JXPVqBo",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRoVX",
+          "sessionUuid": "502994a9-2351-4923-b790-3210c05fee49",
+          "answer": {
+            "hotel_name": "Waldorf Astoria Versailles - Trianon Palace"
+          },
+          "createdAt": "2026-04-06T04:42:14.000Z",
+          "updatedAt": "2026-04-06T04:42:14.000Z"
+        },
+        {
+          "id": "gYlQaOO",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "rDDRoVX",
+          "sessionUuid": "502994a9-2351-4923-b790-3210c05fee49",
+          "answer": {
+            "hotel_id": "g187148-d229673"
+          },
+          "createdAt": "2026-04-06T04:42:14.000Z",
+          "updatedAt": "2026-04-06T04:42:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "X55d4qe",
+      "formId": "QKYpak",
+      "respondentId": "rjd9Xoo",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:41:55.000Z",
+      "createdAt": "2026-04-06T04:41:55.000Z",
+      "updatedAt": "2026-04-06T04:41:55.000Z",
+      "responses": [
+        {
+          "id": "4A61Q7b",
+          "formId": "QKYpak",
+          "questionId": "lARJgv",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "X55d4qe",
+          "sessionUuid": "7f761e2b-18a6-4dd9-8aa1-7d3274a3282a",
+          "answer": "2025-09-25",
+          "createdAt": "2026-04-06T04:41:55.000Z",
+          "updatedAt": "2026-04-06T04:41:55.000Z"
+        },
+        {
+          "id": "j5R0ZoR",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "X55d4qe",
+          "sessionUuid": "7f761e2b-18a6-4dd9-8aa1-7d3274a3282a",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:41:55.000Z",
+          "updatedAt": "2026-04-06T04:41:55.000Z"
+        },
+        {
+          "id": "21WbXAp",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "X55d4qe",
+          "sessionUuid": "7f761e2b-18a6-4dd9-8aa1-7d3274a3282a",
+          "answer": "La Veranda",
+          "createdAt": "2026-04-06T04:41:55.000Z",
+          "updatedAt": "2026-04-06T04:41:55.000Z"
+        },
+        {
+          "id": "EvRBKlo",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "X55d4qe",
+          "sessionUuid": "7f761e2b-18a6-4dd9-8aa1-7d3274a3282a",
+          "answer": {
+            "hotel_name": "Waldorf Astoria Versailles - Trianon Palace"
+          },
+          "createdAt": "2026-04-06T04:41:55.000Z",
+          "updatedAt": "2026-04-06T04:41:55.000Z"
+        },
+        {
+          "id": "rG405OM",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "rjd9Xoo",
+          "submissionId": "X55d4qe",
+          "sessionUuid": "7f761e2b-18a6-4dd9-8aa1-7d3274a3282a",
+          "answer": {
+            "hotel_id": "g187148-d229673"
+          },
+          "createdAt": "2026-04-06T04:41:55.000Z",
+          "updatedAt": "2026-04-06T04:41:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e558a6o",
+      "formId": "QKYpak",
+      "respondentId": "q4KQ2M9",
+      "isCompleted": true,
+      "submittedAt": "2026-04-06T04:41:25.000Z",
+      "createdAt": "2026-04-06T04:41:25.000Z",
+      "updatedAt": "2026-04-06T04:41:25.000Z",
+      "responses": [
+        {
+          "id": "Vve9p4v",
+          "formId": "QKYpak",
+          "questionId": "R4LE2j",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "e558a6o",
+          "sessionUuid": "2250c51f-ad7b-41b8-81b1-00ca08f9efad",
+          "answer": [
+            "Yes"
+          ],
+          "createdAt": "2026-04-06T04:41:25.000Z",
+          "updatedAt": "2026-04-06T04:41:25.000Z"
+        },
+        {
+          "id": "Pvx2RGb",
+          "formId": "QKYpak",
+          "questionId": "oBOXgx",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "e558a6o",
+          "sessionUuid": "2250c51f-ad7b-41b8-81b1-00ca08f9efad",
+          "answer": "Sunset Grille",
+          "createdAt": "2026-04-06T04:41:25.000Z",
+          "updatedAt": "2026-04-06T04:41:25.000Z"
+        },
+        {
+          "id": "GXGoeQo",
+          "formId": "QKYpak",
+          "questionId": "2krQ6A",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "e558a6o",
+          "sessionUuid": "2250c51f-ad7b-41b8-81b1-00ca08f9efad",
+          "answer": {
+            "hotel_name": "Hilton Aruba Caribbean Resort & Casino"
+          },
+          "createdAt": "2026-04-06T04:41:25.000Z",
+          "updatedAt": "2026-04-06T04:41:25.000Z"
+        },
+        {
+          "id": "Od2jQo8",
+          "formId": "QKYpak",
+          "questionId": "xQZOWJ",
+          "respondentId": "q4KQ2M9",
+          "submissionId": "e558a6o",
+          "sessionUuid": "2250c51f-ad7b-41b8-81b1-00ca08f9efad",
+          "answer": {
+            "hotel_id": "g147249-d147621"
+          },
+          "createdAt": "2026-04-06T04:41:25.000Z",
+          "updatedAt": "2026-04-06T04:41:25.000Z"
+        }
+      ]
+    },
     {
       "id": "gbbXd1P",
       "formId": "QKYpak",
