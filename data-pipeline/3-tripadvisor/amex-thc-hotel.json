@@ -1,0 +1,912 @@
+{
+  "metadata": {
+    "stage": "3-tripadvisor",
+    "source": "amex_thc",
+    "generated_at": "2026-04-05T19:34:30.155Z",
+    "record_count": 90,
+    "matched_count": 90,
+    "unmatched_count": 0
+  },
+  "matches": {
+    "Alabama-US/Auburn/Graduate-By-Hilton-Auburn-Al": {
+      "tripadvisor_id": "g29006-d27500012",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29006-d27500012-Reviews-Graduate_By_Hilton_Auburn_AL-Auburn_Alabama.html",
+      "search_query": "Graduate by Hilton Auburn, AL",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:00:10.110Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Alabama-US/Auburn/The-Laurel-Hotel-And-Spa": {
+      "tripadvisor_id": "g29006-d24149652",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29006-d24149652-Reviews-The_Laurel_Hotel_And_Spa-Auburn_Alabama.html",
+      "search_query": "The Laurel Hotel and Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:00:33.366Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Alabama-US/Homewood/Valley-Hotel-Homewood-Birmingham-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g30613-d22988171",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30613-d22988171-Reviews-Valley_Hotel_Homewood_Birmingham_Curio_Collection_By_Hilton-Homewood_Alabama.html",
+      "search_query": "Valley Hotel Homewood Birmingham, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:00:40.177Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Alabama-US/Huntsville/106-Jefferson-Huntsville-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g30620-d23408628",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30620-d23408628-Reviews-106_Jefferson_Huntsville_Curio_Collection_by_Hilton-Huntsville_Alabama.html",
+      "search_query": "106 Jefferson Huntsville, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:00:46.096Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
+    },
+    "Alabama-US/Mountain-Brook/Grand-Bohemian-Hotel-Mountain-Brook-Autograph-Collection": {
+      "tripadvisor_id": "g30724-d7728534",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30724-d7728534-Reviews-Grand_Bohemian_Mountain_Brook_Autograph_Collection-Mountain_Brook_Alabama.html",
+      "search_query": "Grand Bohemian Hotel Mountain Brook, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:00:51.987Z",
+      "quality_score": 0.86,
+      "quality_flag": "ok",
+      "quality_reason": "6/7 name tokens found in slug"
+    },
+    "Alberta-CA/Calgary/The-Dorian-Autograph-Collection": {
+      "tripadvisor_id": "g154909-d23768751",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154909-d23768751-Reviews-The_Dorian_Autograph_Collection-Alberta_Calgary.html",
+      "search_query": "The Dorian, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:00:57.894Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Alberta-CA/Edmonton/Fairmont-Hotel-Macdonald": {
+      "tripadvisor_id": "g154914-d155512",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154914-d155512-Reviews-Fairmont_Hotel_Macdonald-Edmonton_Alberta.html",
+      "search_query": "Fairmont Hotel Macdonald",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:01:03.925Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Anguilla/Long-Bay-Village/Quintessence-Hotel": {
+      "tripadvisor_id": "g3200053-d13273595",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g3200053-d13273595-Reviews-Quintessence_Hotel-Long_Bay_Village_Anguilla.html",
+      "search_query": "Quintessence Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:01:09.767Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Antigua/St.-John's/Blue-Waters-Resort-And-Spa": {
+      "tripadvisor_id": "g147243-d150668",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147243-d150668-Reviews-Blue_Waters_Resort_Spa_Antigua-St_John_s_Saint_John_Parish_Antigua_Antigua_and_Barbuda.html",
+      "search_query": "Blue Waters Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:01:15.764Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Argentina/Buenos-Aires/Nh-Collection-Buenos-Aires-Jousten": {
+      "tripadvisor_id": "g312741-d306764",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d306764-Reviews-NH_Collection_Buenos_Aires_Jousten-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "NH Collection Buenos Aires Jousten",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:01:21.652Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Argentina/Buenos-Aires/Park-Tower-Buenos-Aires": {
+      "tripadvisor_id": "g312741-d304483",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d304483-Reviews-Park_Tower_a_Luxury_Collection_Hotel_Buenos_Aires-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "Park Tower Buenos Aires",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:01:27.685Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Argentina/Buenos-Aires/Sls-Puerto-Madero": {
+      "tripadvisor_id": "g312741-d23675234",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312741-d23675234-Reviews-SLS_Buenos_Aires_Puerto_Madero-Buenos_Aires_Capital_Federal_District.html",
+      "search_query": "SLS Puerto Madero",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:01:34.894Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Carefree/Boulders-Resort-And-Spa-Scottsdale": {
+      "tripadvisor_id": "g31350-d73240",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d73240-Reviews-Boulders_Resort_Spa_Scottsdale_Curio_Collection_By_Hilton-Scottsdale_Arizona.html",
+      "search_query": "Boulders Resort and Spa, Scottsdale",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:01:41.196Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Arizona-US/Paradise-Valley/Mountain-Shadows-Resort-Scottsdale": {
+      "tripadvisor_id": "g31300-d12246243",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31300-d12246243-Reviews-Mountain_Shadows_Resort_Scottsdale-Paradise_Valley_Arizona.html",
+      "search_query": "Mountain Shadows Resort Scottsdale",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:01:47.138Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Arizona-US/Paradise-Valley/Omni-Scottsdale-Resort--Spa-At-Montelucia": {
+      "tripadvisor_id": "g31300-d1141427",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31300-d1141427-Reviews-Omni_Scottsdale_Resort_Spa_at_Montelucia-Paradise_Valley_Arizona.html",
+      "search_query": "Omni Scottsdale Resort & Spa at Montelucia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:01:52.998Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Arizona-US/Paradise-Valley/The-Hermosa-Inn": {
+      "tripadvisor_id": "g31300-d112160",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31300-d112160-Reviews-The_Hermosa_Inn-Paradise_Valley_Arizona.html",
+      "search_query": "The Hermosa Inn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:01:58.925Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Arizona-US/Phoenix/Jw-Marriott-Phoenix-Desert-Ridge-Resort-And-Spa": {
+      "tripadvisor_id": "g31310-d223860",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d223860-Reviews-JW_Marriott_Phoenix_Desert_Ridge_Resort_Spa-Phoenix_Arizona.html",
+      "search_query": "JW Marriott Phoenix Desert Ridge Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:02:04.904Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Arizona-US/Phoenix/Kimpton-Hotel-Palomar-Phoenix": {
+      "tripadvisor_id": "g31310-d2627745",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d2627745-Reviews-Kimpton_Hotel_Palomar_Phoenix-Phoenix_Arizona.html",
+      "search_query": "Kimpton Hotel Palomar Phoenix",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:10.752Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Arizona-US/Phoenix/Sheraton-Grand-At-Wild-Horse-Pass": {
+      "tripadvisor_id": "g14863980-d258645",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14863980-d258645-Reviews-Sheraton_Grand_at_Wild_Horse_Pass-Gila_River_Indian_Community_Arizona.html",
+      "search_query": "Sheraton Grand at Wild Horse Pass",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:16.677Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Caesars-Republic-Scottsdale-a-Hilton-Hotel": {
+      "tripadvisor_id": "g31350-d27432953",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d27432953-Reviews-Caesars_Republic_Scottsdale_A_Hilton_Hotel-Scottsdale_Arizona.html",
+      "search_query": "Caesars Republic Scottsdale, a Hilton Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:22.525Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Canopy-By-Hilton-Scottsdale-Old-Town": {
+      "tripadvisor_id": "g31350-d21215426",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d21215426-Reviews-Canopy_by_Hilton_Scottsdale_Old_Town-Scottsdale_Arizona.html",
+      "search_query": "Canopy by Hilton Scottsdale Old Town",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:28.672Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Fairmont-Scottsdale-Princess": {
+      "tripadvisor_id": "g31350-d74190",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d74190-Reviews-Fairmont_Scottsdale_Princess-Scottsdale_Arizona.html",
+      "search_query": "Fairmont Scottsdale Princess",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:34.572Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Grand-Hyatt-Scottsdale-Resort": {
+      "tripadvisor_id": "g31350-d74109",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d74109-Reviews-Grand_Hyatt_Scottsdale_Resort-Scottsdale_Arizona.html",
+      "search_query": "Grand Hyatt Scottsdale Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:40.570Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Hotel-Valley-Ho": {
+      "tripadvisor_id": "g31350-d579764",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d579764-Reviews-Hotel_Valley_Ho-Scottsdale_Arizona.html",
+      "search_query": "Hotel Valley Ho",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:49.364Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Jw-Marriott-Scottsdale-Camelback-Inn-Resort--Spa": {
+      "tripadvisor_id": "g31300-d74115",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31300-d74115-Reviews-JW_Marriott_Scottsdale_Camelback_Inn_Resort_Spa-Paradise_Valley_Arizona.html",
+      "search_query": "JW Marriott Scottsdale Camelback Inn Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:02:55.441Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/Senna-House-Hotel-Scottsdale-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g31350-d23719538",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d23719538-Reviews-Senna_House_Hotel_Scottsdale_Curio_Collection_by_Hilton-Scottsdale_Arizona.html",
+      "search_query": "Senna House Hotel Scottsdale, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:03:01.304Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/The-Scottsdale-Resort-And-Spa-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g31350-d278000",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d278000-Reviews-The_Scottsdale_Resort_And_Spa_Curio_Collection_By_Hilton-Scottsdale_Arizona.html",
+      "search_query": "The Scottsdale Resort and Spa, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:03:07.223Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
+    },
+    "Arizona-US/Scottsdale/The-Westin-Kierland-Resort--Spa": {
+      "tripadvisor_id": "g31350-d258653",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d258653-Reviews-The_Westin_Kierland_Resort_Spa-Scottsdale_Arizona.html",
+      "search_query": "The Westin Kierland Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:03:13.101Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Arizona-US/Sedona/Amara-Resort--Spa": {
+      "tripadvisor_id": "g31352-d282453",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d282453-Reviews-Amara_Resort_and_Spa-Sedona_Arizona.html",
+      "search_query": "Amara Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:03:19.024Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Sedona/The-Wilde-Resort-And-Spa": {
+      "tripadvisor_id": "g31352-d553342",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d553342-Reviews-The_Wilde_Resort_And_Spa-Sedona_Arizona.html",
+      "search_query": "The Wilde Resort and Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:03:24.917Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Tempe/Canopy-By-Hilton-Tempe-Downtown": {
+      "tripadvisor_id": "g31377-d20186984",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31377-d20186984-Reviews-Canopy_by_Hilton_Tempe_Downtown-Tempe_Arizona.html",
+      "search_query": "Canopy by Hilton Tempe Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:03:31.500Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Arizona-US/Tempe/Omni-Tempe-Hotel": {
+      "tripadvisor_id": "g31377-d25166268",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31377-d25166268-Reviews-Omni_Tempe_Hotel_At_Asu-Tempe_Arizona.html",
+      "search_query": "Omni Tempe Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:14:34.158Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Tempe/Tempe-Mission-Palms": {
+      "tripadvisor_id": "g31377-d74341",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31377-d74341-Reviews-Tempe_Mission_Palms-Tempe_Arizona.html",
+      "search_query": "Tempe Mission Palms",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:14:40.034Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Arizona-US/Tucson/Hacienda-Del-Sol-Guest-Ranch-Resort": {
+      "tripadvisor_id": "g60950-d74469",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60950-d74469-Reviews-Hacienda_del_Sol_Guest_Ranch_Resort-Tucson_Arizona.html",
+      "search_query": "Hacienda Del Sol Guest Ranch Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:14:45.996Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
+    },
+    "Arizona-US/Tucson/Omni-Tucson-National-Resort": {
+      "tripadvisor_id": "g60950-d74534",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60950-d74534-Reviews-Omni_Tucson_National_Resort_Spa-Tucson_Arizona.html",
+      "search_query": "Omni Tucson National Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:14:53.048Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Australia/Adelaide/Sofitel-Adelaide": {
+      "tripadvisor_id": "g255093-d23347080",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255093-d23347080-Reviews-Sofitel_Adelaide-Adelaide_Greater_Adelaide_South_Australia.html",
+      "search_query": "Sofitel Adelaide",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:14:58.904Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Australia/Brisbane/Emporium-Hotel-South-Bank": {
+      "tripadvisor_id": "g255068-d13993553",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255068-d13993553-Reviews-Emporium_Hotel_South_Bank-Brisbane_Brisbane_Region_Queensland.html",
+      "search_query": "Emporium Hotel South Bank",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:04.842Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Australia/Brisbane/Hotel-X-Brisbane-Fortitude-Valley-Vignette-Collection": {
+      "tripadvisor_id": "g255068-d23181198",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255068-d23181198-Reviews-or5-Hotel_X_Brisbane_Fortitude_Valley_Vignette_Collection-Brisbane_Brisbane_Region_Qu.html",
+      "search_query": "Hotel X Brisbane Fortitude Valley, Vignette Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:10.686Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Australia/Brisbane/Hyatt-Regency-Brisbane": {
+      "tripadvisor_id": "g255068-d256662",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255068-d256662-Reviews-Hyatt_Regency_Brisbane-Brisbane_Brisbane_Region_Queensland.html",
+      "search_query": "Hyatt Regency Brisbane",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:16.626Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Brisbane/Sofitel-Brisbane-Central": {
+      "tripadvisor_id": "g255068-d256686",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255068-d256686-Reviews-or1000-Sofitel_Brisbane_Central-Brisbane_Brisbane_Region_Queensland.html",
+      "search_query": "Sofitel Brisbane Central",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:22.567Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Burswood/Crown-Metropol-Perth": {
+      "tripadvisor_id": "g4212605-d584990",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4212605-d584990-Reviews-or10-Crown_Metropol_Perth-Burswood_Victoria_Park_Greater_Perth_Western_Australia.html",
+      "search_query": "Crown Metropol Perth",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:28.495Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Canberra/Hyatt-Hotel-Canberra---A-Park-Hyatt-Hotel": {
+      "tripadvisor_id": "g255057-d256303",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255057-d256303-Reviews-Hyatt_Hotel_Canberra-Canberra_Australian_Capital_Territory.html",
+      "search_query": "Hyatt Hotel Canberra - A Park Hyatt Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:15:34.370Z",
+      "quality_score": 0.83,
+      "quality_flag": "ok",
+      "quality_reason": "5/6 name tokens found in slug"
+    },
+    "Australia/Melbourne/Crown-Metropol-Melbourne": {
+      "tripadvisor_id": "g255100-d1719031",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d1719031-Reviews-Crown_Metropol_Melbourne-Melbourne_Victoria.html",
+      "search_query": "Crown Metropol Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:40.270Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Melbourne/Grand-Hyatt-Melbourne": {
+      "tripadvisor_id": "g255100-d256833",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d256833-Reviews-Grand_Hyatt_Melbourne-Melbourne_Victoria.html",
+      "search_query": "Grand Hyatt Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:46.003Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Melbourne/Hilton-Melbourne-Little-Queen-St": {
+      "tripadvisor_id": "g255100-d19493216",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d19493216-Reviews-Hilton_Melbourne_Little_Queen_Street-Melbourne_Victoria.html",
+      "search_query": "Hilton Melbourne Little Queen St",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:51.951Z",
+      "quality_score": 0.8,
+      "quality_flag": "ok",
+      "quality_reason": "4/5 name tokens found in slug"
+    },
+    "Australia/Melbourne/Hyatt-Centric-Melbourne": {
+      "tripadvisor_id": "g255100-d23651164",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d23651164-Reviews-Hyatt_Centric_Melbourne-Melbourne_Victoria.html",
+      "search_query": "Hyatt Centric Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:15:57.832Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Melbourne/Intercontinental-Melbourne-The-Rialto": {
+      "tripadvisor_id": "g255100-d256838",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d256838-Reviews-or10-InterContinental_Melbourne_The_Rialto-Melbourne_Victoria.html",
+      "search_query": "InterContinental Melbourne the Rialto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:03.681Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Melbourne/Jackalope-Hotel": {
+      "tripadvisor_id": "g2492480-d12107347",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2492480-d12107347-Reviews-Jackalope_Hotel-Merricks_North_Mornington_Peninsula_Victoria.html",
+      "search_query": "Jackalope Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:11.008Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Australia/Melbourne/Pan-Pacific-Melbourne": {
+      "tripadvisor_id": "g255100-d1388984",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d1388984-Reviews-or10-Pan_Pacific_Melbourne-Melbourne_Victoria.html",
+      "search_query": "Pan Pacific Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:17.042Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Melbourne/Sofitel-Melbourne-Collins": {
+      "tripadvisor_id": "g255100-d257041",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255100-d257041-Reviews-Sofitel_Melbourne_On_Collins-Melbourne_Victoria.html",
+      "search_query": "Sofitel Melbourne Collins",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T13:16:23.056Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Melbourne/The-Standardx-Melbourne": {
+      "tripadvisor_id": "g1078374-d26867034",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1078374-d26867034-Reviews-The_StandardX_Melbourne-Fitzroy_Yarra_Greater_Melbourne_Victoria.html",
+      "search_query": "The StandardX Melbourne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:29.013Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Australia/Newcastle/Qt-Newcastle": {
+      "tripadvisor_id": "g255325-d23868653",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255325-d23868653-Reviews-or15-QT_Newcastle-Newcastle_Greater_Newcastle_New_South_Wales.html",
+      "search_query": "QT Newcastle",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:34.963Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Australia/Noosa-Heads/Netanya-Noosa": {
+      "tripadvisor_id": "g261678-d579741",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g261678-d579741-Reviews-Netanya_Noosa-Noosa_Sunshine_Coast_Queensland.html",
+      "search_query": "Netanya Noosa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:40.913Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Australia/Palm-Cove/The-Reef-House-Adults-Retreat-Palm-Cove": {
+      "tripadvisor_id": "g261595-d257529",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g261595-d257529-Reviews-The_Reef_House_Adults_Retreat_Palm_Cove-Palm_Cove_Cairns_Region_Queensland.html",
+      "search_query": "The Reef House Adults Retreat Palm Cove",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:46.811Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
+    },
+    "Australia/Perth/Pan-Pacific-Perth": {
+      "tripadvisor_id": "g255103-d256474",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255103-d256474-Reviews-Pan_Pacific_Perth-Perth_Greater_Perth_Western_Australia.html",
+      "search_query": "Pan Pacific Perth",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:52.881Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Sorrento/Intercontinental-Sorrento-Mornington-Peninsula": {
+      "tripadvisor_id": "g552257-d23936124",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g552257-d23936124-Reviews-Intercontinental_Sorrento_Mornington_Peninsula_By_IHG-Sorrento_Mornington_Peninsula_V.html",
+      "search_query": "InterContinental Sorrento Mornington Peninsula",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:16:58.825Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Australia/Sydney/Ace-Hotel-Sydney": {
+      "tripadvisor_id": "g255060-d23935116",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d23935116-Reviews-Ace_Hotel_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Ace Hotel Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:17:04.770Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Sydney/Hilton-Sydney": {
+      "tripadvisor_id": "g255060-d255650",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d255650-Reviews-Hilton_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Hilton Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:17:10.800Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Australia/Sydney/Hyatt-Regency-Sydney": {
+      "tripadvisor_id": "g255060-d256541",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d256541-Reviews-Hyatt_Regency_Sydney-Sydney_New_South_Wales.html",
+      "search_query": "Hyatt Regency Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:17:16.947Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Sydney/Intercontinental-Sydney-Double-Bay": {
+      "tripadvisor_id": "g15607643-d6827689",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g15607643-d6827689-Reviews-Intercontinental_Sydney_Double_Bay_By_IHG-Double_Bay_Woollahra_New_South_Wales.html",
+      "search_query": "InterContinental Sydney Double Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:17:22.891Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Australia/Sydney/Kimpton-Margot-Sydney": {
+      "tripadvisor_id": "g255060-d8776883",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d8776883-Reviews-Kimpton_Margot_Sydney_By_IHG-Sydney_New_South_Wales.html",
+      "search_query": "Kimpton Margot Sydney",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T13:17:28.830Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Australia/Sydney/The-Porter-House-Hotel-Sydney-Mgallery": {
+      "tripadvisor_id": "g255060-d24095584",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255060-d24095584-Reviews-The_Porter_House_Hotel_Sydney_MGallery-Sydney_New_South_Wales.html",
+      "search_query": "The Porter House Hotel Sydney, MGallery",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:31:37.130Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Australia/Whitsundays/Daydream-Island-Resort-And-Living-Reef": {
+      "tripadvisor_id": "g255084-d309990",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255084-d309990-Reviews-Daydream_Island_Resort-Daydream_Island_Whitsunday_Islands_Queensland.html",
+      "search_query": "Daydream Island Resort and Living Reef",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T19:31:43.197Z",
+      "quality_score": 0.6,
+      "quality_flag": "suspect",
+      "quality_reason": "3/5 name tokens found in slug"
+    },
+    "Australia/Yallingup/Smiths-Beach-Resort": {
+      "tripadvisor_id": "g488371-d816440",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488371-d816440-Reviews-or200-Smiths_Beach_Resort-Yallingup_Margaret_River_Region_Western_Australia.html",
+      "search_query": "Smiths Beach Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:31:49.081Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Austria/Salzburg/Hotel-Stein": {
+      "tripadvisor_id": "g190441-d237761",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190441-d237761-Reviews-Hotel_Stein-Salzburg_Austrian_Alps.html",
+      "search_query": "Hotel Stein",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:31:55.012Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Austria/St.-Anton-am-Arlberg/Hotel-Tannenhof": {
+      "tripadvisor_id": "g188098-d238698",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188098-d238698-Reviews-Hotel_Tannenhof-Zermatt_Canton_of_Valais_Swiss_Alps.html",
+      "search_query": "Hotel Tannenhof",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:01.248Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Austria/Vienna/Andaz-Vienna-Am-Belvedere": {
+      "tripadvisor_id": "g190454-d16811712",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190454-d16811712-Reviews-Andaz_Vienna_Am_Belvedere-Vienna.html",
+      "search_query": "Andaz Vienna Am Belvedere",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:07.317Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Austria/Vienna/Hilton-Vienna-Plaza": {
+      "tripadvisor_id": "g190454-d227145",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190454-d227145-Reviews-Hilton_Vienna_Plaza-Vienna.html",
+      "search_query": "Hilton Vienna Plaza",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:13.244Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Austria/Vienna/Hotel-Sans-Souci-Wien": {
+      "tripadvisor_id": "g190454-d3346123",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190454-d3346123-Reviews-Hotel_Sans_Souci_Wien-Vienna.html",
+      "search_query": "Hotel Sans Souci Wien",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:19.377Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Austria/Vienna/So-Vienna": {
+      "tripadvisor_id": "g190454-d1823253",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190454-d1823253-Reviews-SO_Vienna-Vienna.html",
+      "search_query": "SO/ Vienna",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:25.355Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Austria/Zell-am-Ziller/Das-Posthotel": {
+      "tripadvisor_id": "g616041-d607774",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g616041-d607774-Reviews-Das_Posthotel-Zell_im_Zillertal_Tirol_Austrian_Alps.html",
+      "search_query": "Das Posthotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:31.779Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Cabo-San-Lucas/Corazon-Cabo-Resort-And-Spa": {
+      "tripadvisor_id": "g152515-d259432",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152515-d259432-Reviews-Corazon_Cabo_Resort_Spa-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+      "search_query": "Corazon Cabo Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T19:32:37.806Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Cabo-San-Lucas/Garza-Blanca-Resort--Spa-Los-Cabos": {
+      "tripadvisor_id": "g152515-d15054618",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152515-d15054618-Reviews-Garza_Blanca_Resort_Spa_Los_Cabos-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+      "search_query": "Garza Blanca Resort & Spa Los Cabos",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:43.758Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Cabo-San-Lucas/Me-Cabo-By-Melia": {
+      "tripadvisor_id": "g152515-d154394",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152515-d154394-Reviews-ME_Cabo_by_Melia_Adults_Only-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+      "search_query": "ME Cabo By Melia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:49.778Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Cabo-San-Lucas/Nobu-Hotel-Los-Cabos": {
+      "tripadvisor_id": "g152515-d15752722",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152515-d15752722-Reviews-Nobu_Hotel_Los_Cabos-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+      "search_query": "Nobu Hotel Los Cabos",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:32:55.862Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Cabo-San-Lucas/The-Cape-a-Thompson-Hotel": {
+      "tripadvisor_id": "g152515-d7891453",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152515-d7891453-Reviews-The_Cape_A_Thompson_Hotel_By_Hyatt-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+      "search_query": "The Cape, a Thompson Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:01.832Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/El-Pescadero/Kimpton-Mas-Olas-Resort-And-Spa": {
+      "tripadvisor_id": "g1636027-d1538759",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1636027-d1538759-Reviews-Kimpton_Mas_Olas_Resort_And_Spa_By_Ihg-El_Pescadero_Baja_California.html",
+      "search_query": "Kimpton Mas Olas Resort And Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:07.765Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/San-Jose-del-Cabo/Hilton-Los-Cabos": {
+      "tripadvisor_id": "g152516-d225503",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d225503-Reviews-Hilton_Los_Cabos-San_Jose_del_Cabo_Los_Cabos_Baja_California.html",
+      "search_query": "Hilton Los Cabos",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:13.697Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/San-Jose-del-Cabo/Jw-Marriott-Los-Cabos-Beach-Resort--Spa": {
+      "tripadvisor_id": "g152516-d8281886",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d8281886-Reviews-JW_Marriott_Los_Cabos_Beach_Resort_Spa-San_Jose_del_Cabo_Los_Cabos_Baja_California.html",
+      "search_query": "JW Marriott Los Cabos Beach Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:19.409Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/San-Jose-del-Cabo/Le-Blanc-Spa-Resort-Los-Cabos-Adults-Only-All-Inclusive": {
+      "tripadvisor_id": "g152516-d13342469",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d13342469-Reviews-Le_Blanc_Spa_Resort_Los_Cabos-San_Jose_del_Cabo_Los_Cabos_Baja_California.html",
+      "search_query": "Le Blanc Spa Resort Los Cabos Adults Only All Inclusive",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T19:33:25.437Z",
+      "quality_score": 0.6,
+      "quality_flag": "suspect",
+      "quality_reason": "6/10 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/San-Jose-del-Cabo/Paradisus-Los-Cabos-Adults-Only": {
+      "tripadvisor_id": "g152516-d185358",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d185358-Reviews-Paradisus_Los_Cabos_Adults_only_The_Leading_Hotels_of_the_World-San_Jose_del_Cabo_Los_C.html",
+      "search_query": "Paradisus Los Cabos Adults Only",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:31.384Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/San-Jose-del-Cabo/Viceroy-Los-Cabos": {
+      "tripadvisor_id": "g152516-d8461716",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d8461716-Reviews-Viceroy_Los_Cabos-San_Jose_del_Cabo_Los_Cabos_Baja_California.html",
+      "search_query": "Viceroy Los Cabos",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:38.708Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Todos-Santos/Hotel-San-Cristobal": {
+      "tripadvisor_id": "g150777-d12140040",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150777-d12140040-Reviews-Hotel_San_Cristobal-Todos_Santos_Baja_California.html",
+      "search_query": "Hotel San Cristobal",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:44.445Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Todos-Santos/Todos-Santos-Boutique-Hotel": {
+      "tripadvisor_id": "g150777-d27183133",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150777-d27183133-Reviews-Todos_Santos_Boutique_Hotel-Todos_Santos_Baja_California.html",
+      "search_query": "Todos Santos Boutique Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:50.635Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
+    },
+    "Baja-California-Sur-MX/Todos-Santos/Villa-Santa-Cruz": {
+      "tripadvisor_id": "g150777-d1749950",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150777-d1749950-Reviews-Villa_Santa_Cruz-Todos_Santos_Baja_California.html",
+      "search_query": "Villa Santa Cruz",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:33:56.909Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Barbados/St.-James/Fairmont-Royal-Pavilion": {
+      "tripadvisor_id": "g1183234-d149101",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1183234-d149101-Reviews-Fairmont_Royal_Pavilion-Porters_Saint_James_Parish_Barbados.html",
+      "search_query": "Fairmont Royal Pavilion",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:34:03.052Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    },
+    "Belgium/Brussels/Le-Louise-Hotel-Brussels---Mgallery-Hotel-Collection": {
+      "tripadvisor_id": "g1136493-d604552",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1136493-d604552-Reviews-Le_Louise_Hotel_Brussels_Mgallery_Collection-Ixelles_Brussels.html",
+      "search_query": "Le Louise Hotel Brussels - MGallery Hotel Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-05T19:34:08.948Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
+    },
+    "Belgium/Brussels/Nh-Collection-Brussels-Grand-Sablon": {
+      "tripadvisor_id": "g188644-d229564",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188644-d229564-Reviews-NH_Collection_Brussels_Grand_Sablon-Brussels.html",
+      "search_query": "NH Collection Brussels Grand Sablon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:34:14.926Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
+    },
+    "Belgium/Brussels/The-Hoxton-Brussels": {
+      "tripadvisor_id": "g188644-d25181783",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188644-d25181783-Reviews-The_Hoxton_Brussels-Brussels.html",
+      "search_query": "The Hoxton Brussels",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:34:24.246Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
+    },
+    "Belgium/Gent/Nh-Collection-Gent": {
+      "tripadvisor_id": "g188666-d206724",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188666-d206724-Reviews-NH_Collection_Gent-Ghent_East_Flanders_Province.html",
+      "search_query": "NH Collection Gent",
+      "match_confidence": "high",
+      "matched_at": "2026-04-05T19:34:30.155Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
+    }
+  }
+}

@@ -14,2184 +14,3120 @@
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294013-d2154485-Reviews-.html",
       "search_query": "Conrad Abu Dhabi Etihad Towers Abu Dhabi UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "faoapci-conrad-algarve": {
       "tripadvisor_id": "g262054-d2142716",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g262054-d2142716-Reviews-.html",
       "search_query": "Conrad Algarve Almancil Portugal TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "bpncici-conrad-bali": {
       "tripadvisor_id": "g297698-d320013",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297698-d320013-Reviews-.html",
       "search_query": "Conrad Bali Bali Indonesia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "pptbnci-conrad-bora-bora-nui": {
       "tripadvisor_id": "g311415-d304568",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g311415-d304568-Reviews-.html",
       "search_query": "Conrad Bora Bora Nui Bora Bora French Polynesia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "olbclci-conrad-chia-laguna-sardinia": {
       "tripadvisor_id": "g608910-d1457967",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g608910-d1457967-Reviews-.html",
       "search_query": "Conrad Chia Laguna Sardinia Chia Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "fllcici-conrad-fort-lauderdale-beach": {
       "tripadvisor_id": "g34227-d1555519",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34227-d1555519-Reviews-Conrad_Fort_Lauderdale_Beach-Fort_Lauderdale_Broward_County_Florida.html",
       "search_query": "Conrad Fort Lauderdale Beach Fort Lauderdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "hghyfci-conrad-hangzhou-tonglu": {
       "tripadvisor_id": "g660719-d17558173",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g660719-d17558173-Reviews-.html",
       "search_query": "Conrad Hangzhou Tonglu Hangzhou China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "jzhcici-conrad-jiuzhaigou": {
       "tripadvisor_id": "g11966617-d23717603",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g11966617-d23717603-Reviews-Conrad_Jiuzhaigou-Zhangzha_Jiuzhaigou_County_Ngawa_Tibetan_and_Qiang_Autonomous_Pre.html",
       "search_query": "Conrad Jiuzhaigou Jiuzhaigou China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "usmksci-conrad-koh-samui": {
       "tripadvisor_id": "g1925994-d1456417",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1925994-d1456417-Reviews-.html",
       "search_query": "Conrad Koh Samui Koh Samui Thailand TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "rslvhvh-resorts-world-las-vegas/rooms/conrad-las-vegas": {
       "tripadvisor_id": "g45963-d23328327",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d23328327-Reviews-Conrad_Las_Vegas_at_Resorts_World-Las_Vegas_Nevada.html",
       "search_query": "Conrad Las Vegas at Resorts World Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "mlehici-conrad-maldives-rangali-island": {
       "tripadvisor_id": "g298325-d300676",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298325-d300676-Reviews-.html",
       "search_query": "Conrad Maldives Rangali Island Rangali Island Maldives TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "orlcici-conrad-orlando": {
       "tripadvisor_id": "g34515-d25353203",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d25353203-Reviews-.html",
       "search_query": "Conrad Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "pvrpmci-conrad-punta-de-mita": {
       "tripadvisor_id": "g499443-d18921196",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d18921196-Reviews-.html",
       "search_query": "Conrad Punta de Mita Punta de Mita Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "rbacici-conrad-rabat-arzana": {
       "tripadvisor_id": "g293736-d25054745",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293736-d25054745-Reviews-.html",
       "search_query": "Conrad Rabat Arzana Rabat Morocco TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "cuncici-conrad-tulum-riviera-maya": {
       "tripadvisor_id": "g25303625-d23608358",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g25303625-d23608358-Reviews-Conrad_Tulum_Riviera_Maya-Chemuyil_Tulum_Yucatan_Peninsula.html",
       "search_query": "Conrad Tulum Riviera Maya Tulum Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "olbbrqq-baia-di-chia-resort-sardinia": {
       "tripadvisor_id": "g608910-d631016",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g608910-d631016-Reviews-.html",
       "search_query": "Baia di Chia Resort Sardinia, Curio Collection Chia Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "kylcuqq-bakers-cay-resort-key-largo": {
       "tripadvisor_id": "g34344-d207829",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34344-d207829-Reviews-.html",
       "search_query": "Baker's Cay Resort Key Largo, Curio Collection Key Largo USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "opobgqq-boeira-garden-hotel-porto-gaia": {
       "tripadvisor_id": "g580268-d19630255",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580268-d19630255-Reviews-.html",
       "search_query": "Boeira Garden Hotel Porto Gaia, Curio Collection Vila Nova de Gaia Portugal TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "pjmcrqq-botanika-osa-peninsula": {
       "tripadvisor_id": "g309284-d23584149",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g309284-d23584149-Reviews-.html",
       "search_query": "Botanika Osa Peninsula, Curio Collection Osa Peninsula Costa Rica TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "phxrsqq-boulders-resort-and-spa-scottsdale": {
       "tripadvisor_id": "g31350-d73240",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d73240-Reviews-Boulders_Resort_Spa_Scottsdale_Curio_Collection_By_Hilton-Scottsdale_Arizona.html",
       "search_query": "Boulders Resort & Spa Scottsdale, Curio Collection Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "napvpqq-casa-mani-resort-napa-valley": {
       "tripadvisor_id": "g32766-d78593",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32766-d78593-Reviews-Casa_Mani_Resort_Napa_Valley_Curio_Collection_by_Hilton-Napa_Napa_Valley_California.html",
       "search_query": "Casa Mani Resort Napa Valley, Curio Collection Napa Valley USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "eywcmqq-casa-marina-key-west": {
       "tripadvisor_id": "g34345-d209391",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34345-d209391-Reviews-.html",
       "search_query": "Casa Marina Key West, Curio Collection Key West USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "atlokqq-cloudland-at-mclemore-resort-lookout-mountain": {
       "tripadvisor_id": "g35223-d26811868",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35223-d26811868-Reviews-.html",
       "search_query": "Cloudland at McLemore Resort Lookout Mountain, Curio Lookout Mountain USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "flldhqq-the-diplomat-beach-resort-hollywood": {
       "tripadvisor_id": "g34296-d271867",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34296-d271867-Reviews-The_Diplomat_Beach_Resort_Hollywood_Curio_Collection_By_Hilton-Hollywood_Broward_County_.html",
       "search_query": "Diplomat Beach Resort Hollywood, Curio Collection Hollywood USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "herbsqq-domes-aulus-elounda-resort": {
       "tripadvisor_id": "g189416-d265374",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189416-d265374-Reviews-.html",
       "search_query": "Domes Aulus Elounda Resort, Curio by Hilton Elounda Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "mthfbqq-faro-blanco-resort-and-yacht-club-marathon": {
       "tripadvisor_id": "g34347-d6784786",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34347-d6784786-Reviews-.html",
       "search_query": "Faro Blanco Resort & Yacht Club Marathon, Curio Marathon USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "miagsqq-gale-south-beach": {
       "tripadvisor_id": "g34439-d3530470",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34439-d3530470-Reviews-Gale_South_Beach_Curio_Collection_by_Hilton-Miami_Beach_Florida.html",
       "search_query": "Gale South Beach, Curio Collection Miami Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "tlnspqq-grand-hotel-des-sablettes-plage": {
       "tripadvisor_id": "g1080054-d12474245",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1080054-d12474245-Reviews-Grand_Hotel_des_Sablettes_Plage_Curio_Collection_by_Hilton-La_Seyne_sur_Mer_Var_Prov.html",
       "search_query": "Grand Hotel des Sablettes Plage, Curio Collection La Seyne-sur-Mer France TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "sluhcqq-harbor-club-st-lucia": {
       "tripadvisor_id": "g147344-d12720987",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147344-d12720987-Reviews-.html",
       "search_query": "Harbor Club St. Lucia, Curio Collection Rodney Bay Saint Lucia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "agprhqq-higueron-hotel-malaga": {
       "tripadvisor_id": "g315915-d2533313",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g315915-d2533313-Reviews-.html",
       "search_query": "Higueron Hotel Malaga, Curio Collection Fuengirola Spain TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "qkbbrqq-alpenrock-breckenridge": {
       "tripadvisor_id": "g33327-d126246",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33327-d126246-Reviews-.html",
       "search_query": "Hotel Alpenrock Breckenridge, Curio Collection Breckenridge USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "sanqqqq-hotel-del-coronado": {
       "tripadvisor_id": "g32250-d125137",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32250-d125137-Reviews-.html",
       "search_query": "Hotel del Coronado, Curio Collection Coronado USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "fllucqq-hotel-maren-fort-lauderdale-beach": {
       "tripadvisor_id": "g34227-d19901710",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34227-d19901710-Reviews-.html",
       "search_query": "Hotel Maren Fort Lauderdale Beach, Curio Collection Fort Lauderdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "ctasiqq-il-piccolo-etna-golf-resort-and-spa": {
       "tripadvisor_id": "g663798-d1146155",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g663798-d1146155-Reviews-Il_Picciolo_Etna_Golf_Resort_Spa_Curio_Collection_By_Hilton-Castiglione_di_Sicili.html",
       "search_query": "Il Picciolo Etna Golf Resort & Spa, Curio Collection Castiglione di Sicilia Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "9/9 name tokens found in slug"
     },
     "teaibqq-indura-beach-and-golf-resort": {
       "tripadvisor_id": "g297578-d5777227",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297578-d5777227-Reviews-Indura_Beach_Golf_Resort_Curio_Collection_By_Hilton-Tela_Atlantida_Department.html",
       "search_query": "Indura Beach & Golf Resort, Curio Collection Tela Honduras TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "heribqq-isla-brown-resort-chania": {
       "tripadvisor_id": "g644211-d25355174",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g644211-d25355174-Reviews-Isla_Brown_Chania_Resort_Curio_Collection_By_Hilton-Stavros_Chania_Prefecture_Crete.html",
       "search_query": "Isla Brown Chania Resort, Curio Collection Chania Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "athibqq-isla-brown-corinthia-resort-and-spa": {
       "tripadvisor_id": "g4501379-d23341412",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4501379-d23341412-Reviews-.html",
       "search_query": "Isla Brown Corinthia Resort & Spa, Curio Collection Corinthia Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "zagopqq-keight-hotel-opatija": {
       "tripadvisor_id": "g297515-d27430719",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297515-d27430719-Reviews-.html",
       "search_query": "Keight Hotel Opatija, Curio Collection Opatija Croatia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "skbkrqq-koi-resort-saint-kitts": {
       "tripadvisor_id": "g147375-d19736313",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147375-d19736313-Reviews-.html",
       "search_query": "Koi Resort Saint Kitts, Curio Collection Saint Kitts Saint Kitts and Nevis TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "pqcpqqq-la-festa-phu-quoc": {
       "tripadvisor_id": "g12520037-d26628262",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12520037-d26628262-Reviews-.html",
       "search_query": "La Festa Phu Quoc, Curio Collection Phu Quoc Vietnam TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "psplqqq-la-quinta-resort-and-club": {
       "tripadvisor_id": "g32584-d77460",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32584-d77460-Reviews-La_Quinta_Resort_Club_Curio_Collection_by_Hilton-La_Quinta_Greater_Palm_Springs_Californi.html",
       "search_query": "La Quinta Resort & Club, Curio Collection La Quinta USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "tlnleqq-le-hameau-des-pesquiers-ecolodge": {
       "tripadvisor_id": "g187226-d24072981",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187226-d24072981-Reviews-.html",
       "search_query": "Le Hameau des Pesquiers Ecolodge, Curio Collection Hyères France TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "rholiqq-lindian-village-beach-resort-rhodes": {
       "tripadvisor_id": "g776010-d572243",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g776010-d572243-Reviews-.html",
       "search_query": "Aulus Lindos Rhodes Resort, Curio Collection Rhodes Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "olbccqq-mangias-santa-teresa-sardinia": {
       "tripadvisor_id": "g608922-d1143791",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g608922-d1143791-Reviews-.html",
       "search_query": "Mangias Santa Teresa Sardinia, Curio Collection Santa Teresa di Gallura Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "curryqq-mangrove-beach-corendon-curacao-all-inclusive-resort": {
       "tripadvisor_id": "g147278-d19849230",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147278-d19849230-Reviews-Mangrove_Beach_Corendon_Curacao_All_Inclusive_Resort_Curio_by_Hilton-Willemstad_Curac.html",
       "search_query": "",
       "match_confidence": "manual",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "mlegsqq-saii-lagoon-maldives": {
       "tripadvisor_id": "g23353839-d15326480",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23353839-d15326480-Reviews-.html",
       "search_query": "SAii Lagoon Maldives, Curio Collection Maldives Maldives TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "jtrsbqq-sea-breeze-santorini-beach-resort": {
       "tripadvisor_id": "g26295569-d23955731",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26295569-d23955731-Reviews-.html",
       "search_query": "Sea Breeze Santorini Beach Resort, Curio Collection Santorini Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "jmkmbqq-semeli-coast-mykonos": {
       "tripadvisor_id": "g189430-d27702879",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189430-d27702879-Reviews-.html",
       "search_query": "Semeli Coast Mykonos, Curio Collection Mykonos Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "syrslqq-skaneateles-fields-resort-and-spa": {
       "tripadvisor_id": "g48618-d33012530",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48618-d33012530-Reviews-.html",
       "search_query": "Skaneateles Fields Resort & Spa, Curio Collection Skaneateles USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "olbprqq-sulia-house-porto-rotondo": {
       "tripadvisor_id": "g608916-d1799793",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g608916-d1799793-Reviews-.html",
       "search_query": "Sulia House Porto Rotondo, Curio Collection Porto Rotondo Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "ibzseqq-cala-san-miguel-ibiza-resort": {
       "tripadvisor_id": "g775984-d291057",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g775984-d291057-Reviews-.html",
       "search_query": "The Club Cala San Miguel Hotel Ibiza, Curio Collection Ibiza Spain TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "tparkqq-the-hiatus-clearwater-beach": {
       "tripadvisor_id": "g34141-d26813276",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34141-d26813276-Reviews-.html",
       "search_query": "The Hiatus Clearwater Beach, Curio Collection Clearwater Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "eywqqqq-the-reach-key-west": {
       "tripadvisor_id": "g34345-d209392",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34345-d209392-Reviews-.html",
       "search_query": "The Reach Key West, Curio Collection Key West USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "curmgqq-the-rif-at-mangrove-beach-corendon-curacao-all-inclusive": {
       "tripadvisor_id": "g147278-d26803015",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147278-d26803015-Reviews-The_Rif_At_Mangrove_Beach_Corendon_Curacao_All_inclusive_Curio_By_Hilton-Willemstad_C.html",
       "search_query": "The Rif at Mangrove Beach All-Inclusive, Curio Willemstad Curaçao TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "herrsqq-the-royal-senses-resort-and-spa-crete": {
       "tripadvisor_id": "g1177810-d19865453",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1177810-d19865453-Reviews-.html",
       "search_query": "The Royal Senses Resort Crete, Curio Collection Rethymno Greece TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "phxssqq-the-scottsdale-resort-and-spa": {
       "tripadvisor_id": "g31350-d278000",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d278000-Reviews-The_Scottsdale_Resort_And_Spa_Curio_Collection_By_Hilton-Scottsdale_Arizona.html",
       "search_query": "The Scottsdale Resort and Spa, Curio Collection Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "pbisiqq-the-singer-oceanfront-resort": {
       "tripadvisor_id": "g1079181-d213861",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1079181-d213861-Reviews-.html",
       "search_query": "The Singer Oceanfront Resort, Curio Collection Palm Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "auhwbqq-the-wb-abu-dhabi-hotel": {
       "tripadvisor_id": "g294013-d23696373",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294013-d23696373-Reviews-.html",
       "search_query": "The WB Abu Dhabi, Curio Collection Abu Dhabi UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "iahwrqq-the-woodlands-resort": {
       "tripadvisor_id": "g56764-d99136",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g56764-d99136-Reviews-.html",
       "search_query": "The Woodlands Resort, Curio Collection The Woodlands USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "lasvgqq-virgin-hotels-las-vegas": {
       "tripadvisor_id": "g33040154-d21135111",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33040154-d21135111-Reviews-.html",
       "search_query": "Virgin Hotels Las Vegas, Curio Collection Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "bctbuqq-waterstone-resort-and-marina-boca-raton": {
       "tripadvisor_id": "g34088-d84184",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34088-d84184-Reviews-.html",
       "search_query": "Waterstone Resort & Marina Boca Raton, Curio Collection Boca Raton USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "sbazdqq-zachari-dunes-on-mandalay-beach": {
       "tripadvisor_id": "g32837-d78181",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32837-d78181-Reviews-.html",
       "search_query": "Zachari Dunes on Mandalay Beach, Curio Collection Oxnard USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "pujmiqq-zemi-miches-all-inclusive-resort": {
       "tripadvisor_id": "g2441050-d27717397",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2441050-d27717397-Reviews-.html",
       "search_query": "Zemi Miches Punta Cana All-Inclusive Resort, Curio Miches Dominican Republic TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "fllbmdt-bahia-mar-fort-lauderdale-beach": {
       "tripadvisor_id": "g34227-d84482",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34227-d84482-Reviews-Bahia_Mar_Fort_Lauderdale_Beach_A_Doubletree_By_Hilton_Hotel-Fort_Lauderdale_Broward_Coun.html",
       "search_query": "Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton Fort Lauderdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "nornhdt-doubletree-beach-resort-tampa-bay-north-redington-beach": {
       "tripadvisor_id": "g34489-d86127",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34489-d86127-Reviews-Doubletree_Beach_Resort_By_Hilton_Hotel_Tampa_Bay_North_Redington_Beach-North_Redington_B.html",
       "search_query": "DoubleTree Beach Resort Tampa Bay - North Redington Beach North Redington Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "9/9 name tokens found in slug"
     },
     "hnlkadt-doubletree-alana-waikiki-beach": {
       "tripadvisor_id": "g60982-d90017",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d90017-Reviews-DoubleTree_by_Hilton_Alana_Waikiki_Beach-Honolulu_Oahu_Hawaii.html",
       "search_query": "DoubleTree by Hilton Alana - Waikiki Beach Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "aytakdi-doubletree-antalya-kemer-all-inclusive-resort": {
       "tripadvisor_id": "g297966-d12125044",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297966-d12125044-Reviews-Doubletree_By_Hilton_Antalya_kemer_All_inclusive_Resort-Kemer_Turkish_Mediterranean_C.html",
       "search_query": "DoubleTree by Hilton Antalya-Kemer All-Inclusive Resort Kemer Turkey TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "bjvtrdi-doubletree-bodrum-isil-club-all-inclusive-resort": {
       "tripadvisor_id": "g298663-d296937",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298663-d296937-Reviews-Doubletree_By_Hilton_Bodrum_Isil_Club_All_inclusive_Resort-Torba_Bodrum_District_M.html",
       "search_query": "DoubleTree by Hilton Bodrum Isil Club All-Inclusive Resort Bodrum Turkey TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "iphdldi-doubletree-damai-laut-resort": {
       "tripadvisor_id": "g298299-d22898882",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298299-d22898882-Reviews-DoubleTree_by_Hilton_Damai_Laut_Resort-Lumut_Manjung_District_Perak.html",
       "search_query": "DoubleTree by Hilton Damai Laut Resort Lumut Malaysia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dxbthdi-doubletree-dubai-jumeirah-beach": {
       "tripadvisor_id": "g295424-d5294361",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d5294361-Reviews-DoubleTree_by_Hilton_Dubai_Jumeirah_Beach-Dubai_Emirate_of_Dubai.html",
       "search_query": "DoubleTree by Hilton Dubai - Jumeirah Beach Dubai UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "goiabdi-doubletree-goa-arpora-baga": {
       "tripadvisor_id": "g312680-d3370050",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312680-d3370050-Reviews-DoubleTree_by_Hilton_Hotel_Goa_Arpora_Baga-Arpora_North_Goa_District_Goa.html",
       "search_query": "DoubleTree by Hilton Goa - Arpora - Baga Goa India TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "goigddi-doubletree-goa-panaji": {
       "tripadvisor_id": "g5770686-d13626972",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g5770686-d13626972-Reviews-Doubletree_By_Hilton_Goa_Panaji-Chimbel_North_Goa_District_Goa.html",
       "search_query": "DoubleTree by Hilton Goa Panaji Panaji India TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "pspdpdt-doubletree-golf-resort-palm-springs": {
       "tripadvisor_id": "g32186-d250111",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32186-d250111-Reviews-Doubletree_By_Hilton_Hotel_Golf_Resort_Palm_Springs-Cathedral_City_Greater_Palm_Springs_.html",
       "search_query": "DoubleTree by Hilton Golf Resort Palm Springs Palm Springs USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "hevirdi-doubletree-islantilla-beach-golf-resort": {
       "tripadvisor_id": "g644306-d282763",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g644306-d282763-Reviews-DoubleTree_by_Hilton_Islantilla_Beach_Golf_Resort-Islantilla_Costa_de_la_Luz_Andalucia.html",
       "search_query": "DoubleTree by Hilton Islantilla Beach Golf Resort Islantilla Spain TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "mjvltdi-doubletree-la-torre-golf-and-spa-resort": {
       "tripadvisor_id": "g1593231-d12805781",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1593231-d12805781-Reviews-DoubleTree_by_Hilton_La_Torre_Golf_Spa_Resort-Roldan_Torre_Pacheco.html",
       "search_query": "DoubleTree by Hilton La Torre Golf & Spa Resort Murcia Spain TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "pdlladi-doubletree-lagoa-azores": {
       "tripadvisor_id": "g1900300-d27536233",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1900300-d27536233-Reviews-Doubletree_By_Hilton_Lagoa_Azores-Lagoa_Sao_Miguel_Azores.html",
       "search_query": "DoubleTree by Hilton Lagoa Azores Lagoa Portugal TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "mlaspdi-doubletree-malta": {
       "tripadvisor_id": "g608946-d26858038",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g608946-d26858038-Reviews-Doubletree_By_Hilton_Malta-St_Paul_s_Bay_Island_of_Malta.html",
       "search_query": "DoubleTree by Hilton Malta St. Julian's Malta TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "myrdtdt-doubletree-resort-myrtle-beach-oceanfront": {
       "tripadvisor_id": "g54359-d97488",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54359-d97488-Reviews-Doubletree_Resort_By_Hilton_Myrtle_Beach_Oceanfront-Myrtle_Beach_South_Carolina.html",
       "search_query": "DoubleTree by Hilton Myrtle Beach Myrtle Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "noudidi-doubletree-noumea-ilot-maitre-resort": {
       "tripadvisor_id": "g28117576-d1203907",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g28117576-d1203907-Reviews-DoubleTree_by_Hilton_Noumea_Ilot_Maitre_Resort-Ilot_Maitre_Grand_Terre.html",
       "search_query": "DoubleTree by Hilton Noumea Ilot Maitre Resort Noumea New Caledonia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "miaopdt-doubletree-resort-and-spa-ocean-point-north-miami-beach": {
       "tripadvisor_id": "g34486-d85185",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34486-d85185-Reviews-Doubletree_Resort_Spa_By_Hilton_Hotel_Ocean_Point_North_Miami_Beach-North_Miami_Beach_Flo.html",
       "search_query": "DoubleTree by Hilton Ocean Point Resort & Spa - North Miami North Miami Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "okadidi-doubletree-okinawa-chatan-resort": {
       "tripadvisor_id": "g1025634-d13646563",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1025634-d13646563-Reviews-DoubleTree_by_Hilton_Okinawa_Chatan_Resort-Chatan_cho_Nakagami_gun_Okinawa_Prefectur.html",
       "search_query": "DoubleTree by Hilton Okinawa Chatan Resort Chatan Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "mcosrdt-doubletree-orlando-at-seaworld": {
       "tripadvisor_id": "g34515-d85452",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d85452-Reviews-DoubleTree_by_Hilton_Hotel_Orlando_at_SeaWorld-Orlando_Florida.html",
       "search_query": "DoubleTree by Hilton Orlando at SeaWorld Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "slcywdt-doubletree-park-city-the-yarrow": {
       "tripadvisor_id": "g57097-d99844",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g57097-d99844-Reviews-Doubletree_By_Hilton_Hotel_Park_City_The_Yarrow-Park_City_Utah.html",
       "search_query": "DoubleTree by Hilton Park City - The Yarrow Park City USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "hktpadi-doubletree-phuket-banthai-resort": {
       "tripadvisor_id": "g297930-d448627",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297930-d448627-Reviews-DoubleTree_by_Hilton_Phuket_Banthai_Resort-Patong_Kathu_Phuket.html",
       "search_query": "DoubleTree by Hilton Phuket Banthai Resort Phuket Thailand TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "yqbqcdt-doubletree-quebec-resort": {
       "tripadvisor_id": "g155033-d575089",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155033-d575089-Reviews-DoubleTree_by_Hilton_Quebec_Resort-Quebec_City_Quebec.html",
       "search_query": "DoubleTree by Hilton Quebec Resort Quebec City Canada TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "rktmidi-doubletree-resort-and-spa-marjan-island": {
       "tripadvisor_id": "g298063-d6209021",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298063-d6209021-Reviews-DoubleTree_by_Hilton_Resort_Spa_Marjan_Island-Ras_Al_Khaimah_Emirate_of_Ras_Al_Khaimah.html",
       "search_query": "DoubleTree by Hilton Resort & Spa Marjan Island Ras Al Khaimah UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sjudtdt-doubletree-san-juan": {
       "tripadvisor_id": "g147320-d151682",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147320-d151682-Reviews-DoubleTree_by_Hilton_Hotel_San_Juan-San_Juan_Puerto_Rico.html",
       "search_query": "DoubleTree by Hilton San Juan San Juan Puerto Rico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "sezdtdi-doubletree-seychelles-allamanda-resort-and-spa": {
       "tripadvisor_id": "g1193203-d3204699",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1193203-d3204699-Reviews-DoubleTree_by_Hilton_Seychelles_Allamanda_Resort_Spa-Takamaka_Mahe_Island.html",
       "search_query": "DoubleTree by Hilton Seychelles - Allamanda Resort & Spa Mahe Seychelles TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sshsbdi-doubletree-sharm-el-sheikh-sharks-bay-resort": {
       "tripadvisor_id": "g297555-d305090",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297555-d305090-Reviews-Doubletree_By_Hilton_Sharm_El_Sheikh_Sharks_Bay_Resort-Sharm_El_Sheikh_South_Sinai_Red_.html",
       "search_query": "DoubleTree by Hilton Sharm El Sheikh - Sharks Bay Resort Sharm El Sheikh Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "swadidi-doubletree-shanwei": {
       "tripadvisor_id": "g1017047-d17673833",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1017047-d17673833-Reviews-DoubleTree_by_Hilton_Shanwei-Shanwei_Guangdong.html",
       "search_query": "DoubleTree by Hilton Shanwei Shanwei China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "wrzrjdi-doubletree-weerawila-rajawarna-resort": {
       "tripadvisor_id": "g12336477-d14216084",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12336477-d14216084-Reviews-DoubleTree_by_Hilton_Weerawila_Rajawarna_Resort-Weerawila_Southern_Province.html",
       "search_query": "DoubleTree by Hilton Weerawila Rajawarna Resort Weerawila Sri Lanka TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "iagdtdt-doubletree-fallsview-resort-and-spa-niagara-falls": {
       "tripadvisor_id": "g154998-d320106",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154998-d320106-Reviews-DoubleTree_Fallsview_Resort_Spa_by_Hilton_Niagara_Falls-Niagara_Falls_Ontario.html",
       "search_query": "DoubleTree Fallsview Resort & Spa by Hilton - Niagara Falls Niagara Falls Canada TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "nansidi-doubletree-resort-fiji-sonaisali-island": {
       "tripadvisor_id": "g612492-d7927296",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g612492-d7927296-Reviews-DoubleTree_Resort_By_Hilton_Hotel_Fiji_Sonaisali_Island-Sonaisali_Island_Viti_Levu.html",
       "search_query": "DoubleTree Resort by Hilton Fiji - Sonaisali Island Nadi Fiji TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "eywdtdt-doubletree-resort-grand-key-key-west": {
       "tripadvisor_id": "g34345-d209384",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34345-d209384-Reviews-Doubletree_Resort_By_Hilton_Hotel_Grand_Key_Key_West-Key_West_Florida_Keys_Florida.html",
       "search_query": "DoubleTree Resort by Hilton Grand Key - Key West Key West USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "lnswvdt-doubletree-resort-lancaster": {
       "tripadvisor_id": "g52970-d1777008",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52970-d1777008-Reviews-DoubleTree_Resort_by_Hilton_Hotel_Lancaster-Lancaster_Lancaster_County_Pennsylvania.html",
       "search_query": "DoubleTree Resort by Hilton Lancaster Lancaster USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "phxsjdt-doubletree-resort-paradise-valley-scottsdale": {
       "tripadvisor_id": "g31350-d217207",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d217207-Reviews-Doubletree_Resort_By_Hilton_Hotel_Paradise_Valley_Scottsdale-Scottsdale_Arizona.html",
       "search_query": "DoubleTree Resort by Hilton Paradise Valley - Scottsdale Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "penmbdi-doubletree-resort-penang": {
       "tripadvisor_id": "g635527-d9587279",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g635527-d9587279-Reviews-DoubleTree_Resort_By_Hilton_Hotel_Penang-Batu_Ferringhi_Penang_Island_Penang.html",
       "search_query": "DoubleTree Resort by Hilton Penang Penang Malaysia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "hwofldt-doubletree-resort-hollywood-beach": {
       "tripadvisor_id": "g34296-d217356",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34296-d217356-Reviews-DoubleTree_Resort_by_Hilton_Hollywood_Beach-Hollywood_Broward_County_Florida.html",
       "search_query": "DoubleTree Resort Hollywood Beach Hollywood USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "mcofhdt-doubletree-suites-orlando": {
       "tripadvisor_id": "g34515-d216488",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d216488-Reviews-DoubleTree_Suites_by_Hilton_Orlando_Disney_Springs_Area-Orlando_Florida.html",
       "search_query": "DoubleTree Suites by Hilton Orlando - Disney Springs Area Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0.86,
+      "quality_flag": "ok",
+      "quality_reason": "6/7 name tokens found in slug"
     },
     "mztdtdt-doubletree-mazatlan": {
       "tripadvisor_id": "g150792-d12791108",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150792-d12791108-Reviews-DoubleTree_by_Hilton_Mazatlan-Mazatlan_Pacific_Coast.html",
       "search_query": "Doubletree by Hilton Mazatlan Mazatlan Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "itohndt-grand-naniloa-hotel-hilo": {
       "tripadvisor_id": "g60583-d113096",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60583-d113096-Reviews-Grand_Naniloa_Hotel_Hilo_A_Doubletree_By_Hilton-Hilo_Island_of_Hawaii_Hawaii.html",
       "search_query": "Grand Naniloa Hotel Hilo - a DoubleTree by Hilton Hilo USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "egevcdt-highline-vail": {
       "tripadvisor_id": "g33676-d13392161",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33676-d13392161-Reviews-Highline_Vail_a_DoubleTree_by_Hilton-Vail_Colorado.html",
       "search_query": "Highline Vail - a DoubleTree by Hilton Vail USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "auajmes-embassy-suites-aruba-resort": {
       "tripadvisor_id": "g147249-d24927628",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147249-d24927628-Reviews-Embassy_Suites_By_Hilton_Aruba_Beach_Resort-Palm_Eagle_Beach_Aruba.html",
       "search_query": "Embassy Suites by Hilton Aruba Resort Palm Beach Aruba TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "cltcces-embassy-suites-charlotte-concord-golf-resort-and-spa": {
       "tripadvisor_id": "g49049-d623593",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g49049-d623593-Reviews-Embassy_Suites_By_Hilton_Charlotte_Concord_Golf_Resort_Spa-Concord_North_Carolina.html",
       "search_query": "Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa Concord USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "deefles-embassy-suites-deerfield-beach-resort-and-spa": {
       "tripadvisor_id": "g34176-d87427",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34176-d87427-Reviews-Embassy_Suites_By_Hilton_Deerfield_Beach_Resort_Spa-Deerfield_Beach_Broward_County_Florid.html",
       "search_query": "Embassy Suites by Hilton Deerfield Beach Resort & Spa Deerfield Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "dorpres-embassy-suites-dorado-del-mar-beach-resort": {
       "tripadvisor_id": "g147322-d209618",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147322-d209618-Reviews-Embassy_Suites_by_Hilton_Dorado_del_Mar_Beach_Resort-Dorado_Puerto_Rico.html",
       "search_query": "Embassy Suites by Hilton Dorado del Mar Beach Resort Dorado Puerto Rico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "gspeses-embassy-suites-greenville-golf-resort-and-conference-center": {
       "tripadvisor_id": "g54258-d103936",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54258-d103936-Reviews-Embassy_Suites_by_Hilton_Greenville_Golf_Resort_Conference_Center-Greenville_South_Carol.html",
       "search_query": "Embassy Suites by Hilton Greenville Golf Resort & Conf Ctr Greenville USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0.75,
+      "quality_flag": "suspect",
+      "quality_reason": "6/8 name tokens found in slug"
     },
     "gufbees-embassy-suites-gulf-shores-beach-resort": {
       "tripadvisor_id": "g30582-d31691556",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30582-d31691556-Reviews-Embassy_Suites_By_Hilton_Gulf_Shores_Beach_Resort-Gulf_Shores_Alabama.html",
       "search_query": "Embassy Suites by Hilton Gulf Shores Beach Resort Gulf Shores USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "myreses-embassy-suites-myrtle-beach-oceanfront-resort": {
       "tripadvisor_id": "g54359-d115209",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54359-d115209-Reviews-Embassy_Suites_by_Hilton_Myrtle_Beach_Oceanfront_Resort-Myrtle_Beach_South_Carolina.html",
       "search_query": "Embassy Suites by Hilton Myrtle Beach Oceanfront Resort Myrtle Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "mcowdes-embassy-suites-orlando-lake-buena-vista-resort": {
       "tripadvisor_id": "g34515-d84900",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d84900-Reviews-Embassy_Suites_By_Hilton_Orlando_Lake_Buena_Vista_Resort-Orlando_Florida.html",
       "search_query": "Embassy Suites by Hilton Orlando Lake Buena Vista Resort Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "mcostes-embassy-suites-orlando-sunset-walk": {
       "tripadvisor_id": "g34352-d26231990",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34352-d26231990-Reviews-Embassy_Suites_by_Hilton_Orlando_Sunset_Walk-Kissimmee_Florida.html",
       "search_query": "Embassy Suites by Hilton Orlando Sunset Walk Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "ecpppes-embassy-suites-panama-city-beach-resort": {
       "tripadvisor_id": "g34543-d25249369",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34543-d25249369-Reviews-Embassy_Suites_by_Hilton_Panama_City_Beach_Resort-Panama_City_Beach_Florida.html",
       "search_query": "Embassy Suites by Hilton Panama City Beach Resort Panama City Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "scteses-embassy-suites-scottsdale-resort": {
       "tripadvisor_id": "g31350-d74068",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d74068-Reviews-Embassy_Suites_By_Hilton_Scottsdale_Resort-Scottsdale_Arizona.html",
       "search_query": "Embassy Suites by Hilton Scottsdale Resort Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "orfanes-embassy-suites-virginia-beach-oceanfront-resort": {
       "tripadvisor_id": "g58277-d24948986",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g58277-d24948986-Reviews-Embassy_Suites_by_Hilton_Virginia_Beach_Oceanfront_Resort-Virginia_Beach_Virginia.html",
       "search_query": "Embassy Suites by Hilton Virginia Beach Oceanfront Resort Virginia Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "hnleses-embassy-suites-waikiki-beach-walk": {
       "tripadvisor_id": "g60982-d615153",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d615153-Reviews-Embassy_Suites_by_Hilton_Waikiki_Beach_Walk-Honolulu_Oahu_Hawaii.html",
       "search_query": "Embassy Suites by Hilton Waikiki Beach Walk Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "ustboes-embassy-suites-st-augustine-beach-oceanfront-resort": {
       "tripadvisor_id": "g34599-d13859773",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34599-d13859773-Reviews-Embassy_Suites_by_Hilton_St_Augustine_Beach_Oceanfront_Resort-St_Augustine_Florida.html",
       "search_query": "Embassy Suites St Augustine Beach Oceanfront Resort St. Augustine USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "gcmgchx-hampton-grand-cayman-seven-mile-beach": {
       "tripadvisor_id": "g147367-d151089",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147367-d151089-Reviews-Hampton_by_Hilton_Grand_Cayman_Seven_Mile_Beach-Seven_Mile_Beach_Grand_Cayman_Cayman_Is.html",
       "search_query": "Hampton by Hilton Grand Cayman Seven Mile Beach George Town Cayman Islands TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "rktmahx-hampton-marjan-island": {
       "tripadvisor_id": "g298063-d21327906",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298063-d21327906-Reviews-Hampton_by_Hilton_Marjan_Island-Ras_Al_Khaimah_Emirate_of_Ras_Al_Khaimah.html",
       "search_query": "Hampton by Hilton Marjan Island Ras Al Khaimah UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "okasogv-hilton-club-the-beach-resort-sesoko": {
       "tripadvisor_id": "g1120808-d23690729",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1120808-d23690729-Reviews-Hilton_Club_The_Beach_Resort_Sesoko-Motobu_cho_Kunigami_gun_Okinawa_Prefecture_Kyush.html",
       "search_query": "Hilton Club The Beach Resort Sesoko Okinawa Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "myraogv-hilton-grand-vacations-club-anderson-ocean-myrtle-beach": {
       "tripadvisor_id": "g54359-d23206043",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54359-d23206043-Reviews-Hilton_Grand_Vacations_Club_Anderson_Ocean_Myrtle_Beach-Myrtle_Beach_South_Carolina.html",
       "search_query": "Hilton Grand Vacations Club Anderson Ocean Myrtle Beach Myrtle Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "hnlhwgv-hilton-grand-vacations-club-at-hilton-hawaiian-village": {
       "tripadvisor_id": "g60982-d224616",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d224616-Reviews-Hilton_Grand_Vacations_Club_At_Hilton_Hawaiian_Village-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Grand Vacations Club at Hilton Hawaiian Village Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "yyzblgv-hilton-grand-vacations-club-blue-mountain-canada": {
       "tripadvisor_id": "g1022639-d472114",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1022639-d472114-Reviews-Hilton_Grand_Vacations_Club_Blue_Mountain_Canada-Blue_Mountains_Grey_County_Ontario.html",
       "search_query": "Hilton Grand Vacations Club Blue Mountain Canada Blue Mountain Canada TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "lascsgv-hilton-grand-vacations-club-elara-center-strip-las-vegas": {
       "tripadvisor_id": "g45963-d1639337",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d1639337-Reviews-Hilton_Grand_Vacations_Club_Elara_Center_Strip_Las_Vegas-Las_Vegas_Nevada.html",
       "search_query": "Hilton Grand Vacations Club Elara Center Strip Las Vegas Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "9/9 name tokens found in slug"
     },
     "lasflgv-hilton-grand-vacations-club-flamingo-las-vegas": {
       "tripadvisor_id": "g45963-d217597",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d217597-Reviews-Hilton_Grand_Vacations_Club_Flamingo_Las_Vegas-Las_Vegas_Nevada.html",
       "search_query": "Hilton Grand Vacations Club Flamingo Las Vegas Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "hnlgwgv-hilton-grand-vacations-club-grand-waikikian-honolulu": {
       "tripadvisor_id": "g60982-d1199673",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d1199673-Reviews-Hilton_Grand_Vacations_Club_Grand_Waikikian_Honolulu-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Grand Vacations Club Grand Waikikian Honolulu Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "hnlwbgv-hilton-grand-vacations-club-hokulani-waikiki-honolulu": {
       "tripadvisor_id": "g60982-d4604031",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d4604031-Reviews-Hilton_Grand_Vacations_Club_Hokulani_Waikiki_Honolulu-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Grand Vacations Club Hokulani Waikiki Honolulu Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "vpssagv-hilton-grand-vacations-club-in-sandestin-golf-and-beach-resort": {
       "tripadvisor_id": "g34614-d267060",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34614-d267060-Reviews-Hilton_Grand_Vacations_Club_in_Sandestin_Golf_and_Beach_Resort-Sandestin_Miramar_Beach_D.html",
       "search_query": "Hilton Grand Vacations Club in Sandestin Golf & Beach Resort Destin USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "koaklgv-hilton-grand-vacations-club-kings-land-waikoloa": {
       "tripadvisor_id": "g60608-d1404166",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60608-d1404166-Reviews-Hilton_Grand_Vacations_Club_Kings_Land_Waikoloa-Waikoloa_Kohala_Coast_Island_of_Hawaii_.html",
       "search_query": "Hilton Grand Vacations Club Kings' Land Waikoloa Waikoloa USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "koawbgv-hilton-grand-vacations-club-kohala-suites-waikoloa": {
       "tripadvisor_id": "g60608-d967966",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60608-d967966-Reviews-Hilton_Grand_Vacations_Club_Kohala_Suites_Waikoloa-Waikoloa_Kohala_Coast_Island_of_Hawai.html",
       "search_query": "Hilton Grand Vacations Club Kohala Suites Waikoloa Waikoloa USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "sjdgvgv-hilton-grand-vacations-club-la-pacifica-los-cabos": {
       "tripadvisor_id": "g152516-d21294207",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d21294207-Reviews-Hilton_Grand_Vacations_Club_La_Pacifica_Los_Cabos-San_Jose_del_Cabo_Los_Cabos_Baja_Ca.html",
       "search_query": "Hilton Grand Vacations Club La Pacifica Los Cabos Los Cabos Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "mcoubgv-hilton-grand-vacations-club-las-palmeras-orlando": {
       "tripadvisor_id": "g34515-d813133",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d813133-Reviews-Hilton_Grand_Vacations_Club_Las_Palmeras_Orlando-Orlando_Florida.html",
       "search_query": "Hilton Grand Vacations Club Las Palmeras Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "sanmbgv-hilton-grand-vacations-club-marbrisa-carlsbad": {
       "tripadvisor_id": "g32171-d13821720",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32171-d13821720-Reviews-Hilton_Grand_Vacations_Club_MarBrisa_Carlsbad-Carlsbad_California.html",
       "search_query": "Hilton Grand Vacations Club MarBrisa Carlsbad Carlsbad USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "oggmbgv-hilton-grand-vacations-club-maui-bay-villas": {
       "tripadvisor_id": "g60632-d23500368",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60632-d23500368-Reviews-Hilton_Grand_Vacations_Club_Maui_Bay_Villas-Kihei_Maui_Hawaii.html",
       "search_query": "Hilton Grand Vacations Club Maui Bay Villas Maui USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "myrttgv-hilton-grand-vacations-club-ocean-22-myrtle-beach": {
       "tripadvisor_id": "g54359-d7802260",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54359-d7802260-Reviews-Hilton_Grand_Vacations_Club_Ocean_22_Myrtle_Beach-Myrtle_Beach_South_Carolina.html",
       "search_query": "Hilton Grand Vacations Club Ocean 22 Myrtle Beach Myrtle Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "myroegv-hilton-grand-vacations-club-ocean-enclave-myrtle-beach": {
       "tripadvisor_id": "g54359-d16787472",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54359-d16787472-Reviews-Hilton_Grand_Vacations_Club_Ocean_Enclave_Myrtle_Beach-Myrtle_Beach_South_Carolina.html",
       "search_query": "Hilton Grand Vacations Club Ocean Enclave Myrtle Beach Myrtle Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "hhhgvgv-hilton-grand-vacations-club-ocean-oak-resort-hilton-head": {
       "tripadvisor_id": "g54273-d10610838",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54273-d10610838-Reviews-Hilton_Grand_Vacations_Club_Ocean_Oak_Resort_Hilton_Head-Hilton_Head_South_Carolina.html",
       "search_query": "Hilton Grand Vacations Club Ocean Oak Resort Hilton Head Hilton Head USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "9/9 name tokens found in slug"
     },
     "koaotgv-hilton-grand-vacations-club-ocean-tower-waikoloa-village": {
       "tripadvisor_id": "g60608-d15222672",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60608-d15222672-Reviews-Hilton_Grand_Vacations_Club_Ocean_Tower_Waikoloa_Village-Waikoloa_Kohala_Coast_Island_.html",
       "search_query": "Hilton Grand Vacations Club Ocean Tower Waikoloa Village Waikoloa USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "lasvsgv-hilton-grand-vacations-club-on-the-las-vegas-strip": {
       "tripadvisor_id": "g45963-d277720",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d277720-Reviews-Hilton_Grand_Vacations_Club_on_the_Las_Vegas_Strip-Las_Vegas_Nevada.html",
       "search_query": "Hilton Grand Vacations Club on the Las Vegas Strip Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "laslvgv-hilton-grand-vacations-club-paradise-las-vegas": {
       "tripadvisor_id": "g45963-d234836",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d234836-Reviews-Hilton_Grand_Vacations_Club_Paradise_Las_Vegas-Las_Vegas_Nevada.html",
       "search_query": "Hilton Grand Vacations Club Paradise Las Vegas Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "mcomdgv-hilton-grand-vacations-club-parc-soleil-orlando": {
       "tripadvisor_id": "g26663395-d1307623",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26663395-d1307623-Reviews-Hilton_Grand_Vacations_Club_Parc_Soleil_Orlando-Williamsburg_Orlando_Florida.html",
       "search_query": "Hilton Grand Vacations Club Parc Soleil Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "orlswgv-hilton-grand-vacations-club-seaworld-orlando": {
       "tripadvisor_id": "g34515-d223711",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d223711-Reviews-Hilton_Grand_Vacations_Club_SeaWorld_Orlando-Orlando_Florida.html",
       "search_query": "Hilton Grand Vacations Club SeaWorld Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "slcsegv-hilton-grand-vacations-club-sunrise-lodge-park-city": {
       "tripadvisor_id": "g57097-d3606994",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g57097-d3606994-Reviews-Hilton_Grand_Vacations_Club_Sunrise_Lodge_Park_City-Park_City_Utah.html",
       "search_query": "Hilton Grand Vacations Club Sunrise Lodge Park City Park City USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "bgicrgv-hilton-grand-vacations-club-the-crane-barbados": {
       "tripadvisor_id": "g616286-d17573447",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g616286-d17573447-Reviews-Hilton_Grand_Vacations_Club_The_Crane_Barbados-Saint_Philip_Parish_Barbados.html",
       "search_query": "Hilton Grand Vacations Club The Crane Barbados St. Philip Barbados TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "hnldrgv-hilton-grand-vacations-club-the-grand-islander-waikiki-honolulu": {
       "tripadvisor_id": "g60982-d11642160",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d11642160-Reviews-Hilton_Grand_Vacations_Club_The_Grand_Islander_Waikiki_Honolulu-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Grand Vacations Club The Grand Islander Waikiki Honolulu Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "orlingv-hilton-grand-vacations-club-tuscany-village-orlando": {
       "tripadvisor_id": "g34515-d480622",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d480622-Reviews-Hilton_Grand_Vacations_Club_Tuscany_Village_Orlando-Orlando_Florida.html",
       "search_query": "Hilton Grand Vacations Club Tuscany Village Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "qkbvagv-hilton-grand-vacations-club-valdoro-mountain-lodge-breckenridge": {
       "tripadvisor_id": "g33327-d235470",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33327-d235470-Reviews-Hilton_Grand_Vacations_Club_Valdoro_Mountain_Lodge_Breckenridge-Breckenridge_Colorado.html",
       "search_query": "Hilton Grand Vacations Club Valdoro Mountain Lodge Breckenridge Breckenridge USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "ywswhgv-hilton-grand-vacations-club-whistler": {
       "tripadvisor_id": "g154948-d186782",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154948-d186782-Reviews-Hilton_Grand_Vacations_Club_Whistler-Whistler_British_Columbia.html",
       "search_query": "Hilton Grand Vacations Club Whistler Whistler Canada TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "mcotkgv-hilton-vacation-club-aqua-sol-orlando": {
       "tripadvisor_id": "g34745-d86038",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34745-d86038-Reviews-Hilton_Vacation_Club_Aqua_Sol_Orlando_West-Winter_Garden_Florida.html",
       "search_query": "Hilton Vacation Club Aqua Sol Orlando West Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "sjdcagv-hilton-vacation-club-cabo-azul-los-cabos": {
       "tripadvisor_id": "g152516-d652753",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d652753-Reviews-Hilton_Vacation_Club_Cabo_Azul_Los_Cabos-San_Jose_del_Cabo_Los_Cabos_Baja_California.html",
       "search_query": "Hilton Vacation Club Cabo Azul Los Cabos Los Cabos Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "lascngv-hilton-vacation-club-cancun-resort-las-vegas": {
       "tripadvisor_id": "g45963-d277719",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d277719-Reviews-Hilton_Vacation_Club_Cancun_Resort_Las_Vegas-Las_Vegas_Nevada.html",
       "search_query": "Hilton Vacation Club Cancun Resort Las Vegas Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "mcotrgv-hilton-vacation-club-cypress-pointe-orlando": {
       "tripadvisor_id": "g34515-d262665",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d262665-Reviews-Hilton_Vacation_Club_Cypress_Pointe_Orlando-Orlando_Florida.html",
       "search_query": "Hilton Vacation Club Cypress Pointe Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "dabdbgv-hilton-vacation-club-daytona-beach-regency": {
       "tripadvisor_id": "g34172-d84341",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34172-d84341-Reviews-Hilton_Vacation_Club_Daytona_Beach_Regency-Daytona_Beach_Florida.html",
       "search_query": "Hilton Vacation Club Daytona Beach Regency Daytona Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sxmflgv-hilton-vacation-club-flamingo-beach-st-maarten": {
       "tripadvisor_id": "g23085038-d151247",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23085038-d151247-Reviews-Hilton_Vacation_Club_Flamingo_Beach_St_Maarten-Pelican_Key_Sint_Maarten_St_Martin_St_.html",
       "search_query": "Hilton Vacation Club Flamingo Beach St. Maarten St. Maarten Sint Maarten TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "mcobegv-hilton-vacation-club-grand-beach-orlando": {
       "tripadvisor_id": "g34515-d85347",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d85347-Reviews-Hilton_Vacation_Club_Grand_Beach_Orlando-Orlando_Florida.html",
       "search_query": "Hilton Vacation Club Grand Beach Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "phflugv-hilton-vacation-club-greensprings-williamsburg": {
       "tripadvisor_id": "g58313-d239952",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g58313-d239952-Reviews-Hilton_Vacation_Club_Greensprings_Williamsburg-Williamsburg_Virginia.html",
       "search_query": "Hilton Vacation Club Greensprings Williamsburg Williamsburg USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "jhmkagv-hilton-vacation-club-kaanapali-beach-maui": {
       "tripadvisor_id": "g27997695-d120688",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g27997695-d120688-Reviews-Hilton_Vacation_Club_Ka_anapali_Beach_Maui-Kaanapali_Maui_Hawaii.html",
       "search_query": "Hilton Vacation Club Ka'anapali Beach Maui Maui USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "tvlvagv-hilton-vacation-club-lake-tahoe-resort": {
       "tripadvisor_id": "g1798615-d225155",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1798615-d225155-Reviews-Hilton_Vacation_Club_Lake_Tahoe_Resort_South-South_Lake_Tahoe_Lake_Tahoe_California_Ca.html",
       "search_query": "Hilton Vacation Club Lake Tahoe Resort South Lake Tahoe USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "sdxplgv-hilton-vacation-club-los-abrigados-sedona": {
       "tripadvisor_id": "g31352-d74261",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d74261-Reviews-Hilton_Vacation_Club_Los_Abrigados_Resort_Spa_Sedona-Sedona_Arizona.html",
       "search_query": "Hilton Vacation Club Los Abrigados Resort & Spa Sedona Sedona USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "ismmygv-hilton-vacation-club-mystic-dunes-orlando": {
       "tripadvisor_id": "g34127-d254748",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34127-d254748-Reviews-Hilton_Vacation_Club_Mystic_Dunes_Orlando-Celebration_Orlando_Florida.html",
       "search_query": "Hilton Vacation Club Mystic Dunes Orlando Celebration USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "orfavgv-hilton-vacation-ocean-beach-club": {
       "tripadvisor_id": "g58277-d589372",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g58277-d589372-Reviews-Hilton_Vacation_Club_Ocean_Beach_Club_Virginia_Beach-Virginia_Beach_Virginia.html",
       "search_query": "Hilton Vacation Club Ocean Beach Club Virginia Beach Virginia Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "orfaigv-hilton-vacation-club-oceanaire-virginia-beach": {
       "tripadvisor_id": "g58277-d3247018",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g58277-d3247018-Reviews-Hilton_Vacation_Club_Oceanaire_Virginia_Beach-Virginia_Beach_Virginia.html",
       "search_query": "Hilton Vacation Club Oceanaire Virginia Beach Virginia Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "pspspgv-hilton-vacation-club-palm-canyon-palm-springs": {
       "tripadvisor_id": "g32847-d503504",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32847-d503504-Reviews-Hilton_Vacation_Club_Palm_Canyon_Palm_Springs-Palm_Springs_Greater_Palm_Springs_Californ.html",
       "search_query": "Hilton Vacation Club Palm Canyon Palm Springs Palm Springs USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "mcopygv-hilton-vacation-club-polynesian-isles-kissimmee": {
       "tripadvisor_id": "g34352-d88560",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34352-d88560-Reviews-Hilton_Vacation_Club_Polynesian_Isles_Kissimmee-Kissimmee_Florida.html",
       "search_query": "Hilton Vacation Club Polynesian Isles Kissimmee Kissimmee USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "phxragv-hilton-vacation-club-rancho-manana": {
       "tripadvisor_id": "g31187-d2521631",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31187-d2521631-Reviews-Hilton_Vacation_Club_Rancho_Manana_Phoenix_Cave_Creek-Cave_Creek_Arizona.html",
       "search_query": "Hilton Vacation Club Rancho Manana Phoenix/Cave Creek Cave Creek USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "flgrigv-hilton-vacation-club-ridge-on-sedona": {
       "tripadvisor_id": "g4813352-d125249",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4813352-d125249-Reviews-Hilton_Vacation_Club_Ridge_on_Sedona-Village_of_Oak_Creek_Arizona.html",
       "search_query": "Hilton Vacation Club Ridge on Sedona Sedona USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "snarbgv-hilton-vacation-club-riviera-beach-and-shores": {
       "tripadvisor_id": "g32279-d675118",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32279-d675118-Reviews-Hilton_Vacation_Club_Riviera_Beach_Shores-Dana_Point_California.html",
       "search_query": "Hilton Vacation Club Riviera Beach & Shores San Clemente USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sxmrogv-hilton-vacation-club-royal-palm-st-maarten": {
       "tripadvisor_id": "g147347-d151326",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147347-d151326-Reviews-Hilton_Vacation_Club_Royal_Palm_St_Maarten-Philipsburg_Sint_Maarten_St_Martin_St_Maarte.html",
       "search_query": "Hilton Vacation Club Royal Palm St. Maarten St. Maarten Sint Maarten TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "phxregv-hilton-vacation-club-scottsdale-links-resort": {
       "tripadvisor_id": "g31350-d74399",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d74399-Reviews-Hilton_Vacation_Club_Scottsdale_Links_Resort-Scottsdale_Arizona.html",
       "search_query": "Hilton Vacation Club Scottsdale Links Resort Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "phxmrgv-hilton-vacation-club-scottsdale-villa-mirage": {
       "tripadvisor_id": "g31350-d240035",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d240035-Reviews-Hilton_Vacation_Club_Scottsdale_Villa_Mirage-Scottsdale_Arizona.html",
       "search_query": "Hilton Vacation Club Scottsdale Villa Mirage Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "flgsegv-hilton-vacation-club-sedona-summit": {
       "tripadvisor_id": "g31352-d225514",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31352-d225514-Reviews-Hilton_Vacation_Club_Sedona_Summit-Sedona_Arizona.html",
       "search_query": "Hilton Vacation Club Sedona Summit Sedona USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dabcogv-hilton-vacation-club-the-cove-on-ormond-beach": {
       "tripadvisor_id": "g34517-d85506",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34517-d85506-Reviews-Hilton_Vacation_Club_The_Cove_on_Ormond_Beach-Ormond_Beach_Florida.html",
       "search_query": "Hilton Vacation Club The Cove on Ormond Beach Ormond Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "phfpogv-hilton-vacation-club-the-historic-powhatan-williamsburg": {
       "tripadvisor_id": "g58313-d239953",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g58313-d239953-Reviews-Hilton_Vacation_Club_The_Historic_Powhatan_Williamsburg-Williamsburg_Virginia.html",
       "search_query": "Hilton Vacation Club The Historic Powhatan Williamsburg Williamsburg USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "hnlmogv-hilton-vacation-club-the-modern-honolulu": {
       "tripadvisor_id": "g60982-d1818106",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d1818106-Reviews-Hilton_Vacation_Club_The_Modern_Honolulu-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Vacation Club The Modern Honolulu Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "fllfshh-beach-house-fort-lauderdale": {
       "tripadvisor_id": "g34227-d619451",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34227-d619451-Reviews-Beach_House_Fort_Lauderdale_A_Hilton_Resort-Fort_Lauderdale_Broward_County_Florida.html",
       "search_query": "Beach House Fort Lauderdale, a Hilton Resort Fort Lauderdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sanrshf-cape-rey-carlsbad-beach": {
       "tripadvisor_id": "g32171-d2614364",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32171-d2614364-Reviews-Cape_Rey_Carlsbad_Beach_A_Hilton_Resort_And_Spa-Carlsbad_California.html",
       "search_query": "Cape Rey Carlsbad Beach, a Hilton Resort and Spa Carlsbad USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "sjnhihh-caribe-hilton": {
       "tripadvisor_id": "g147320-d149921",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147320-d149921-Reviews-Caribe_Hilton_Hotel-San_Juan_Puerto_Rico.html",
       "search_query": "Caribe Hilton San Juan Puerto Rico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "tushthh-el-conquistador-tucson": {
       "tripadvisor_id": "g60950-d74588",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60950-d74588-Reviews-El_Conquistador_Tucson_A_Hilton_Resort-Tucson_Arizona.html",
       "search_query": "El Conquistador Tucson, A Hilton Resort Tucson USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "auhyihi-hilton-abu-dhabi-yas-island": {
       "tripadvisor_id": "g294013-d23039049",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294013-d23039049-Reviews-Hilton_Abu_Dhabi_Yas_Island-Abu_Dhabi_Emirate_of_Abu_Dhabi.html",
       "search_query": "Hilton Abu Dhabi Yas Island Abu Dhabi UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "alyachi-hilton-alexandria-corniche": {
       "tripadvisor_id": "g295398-d299704",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295398-d299704-Reviews-Hilton_Alexandria_Corniche-Alexandria_Alexandria_Governorate.html",
       "search_query": "Hilton Alexandria Corniche Alexandria Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "alykrhi-hilton-alexandria-kings-ranch": {
       "tripadvisor_id": "g295398-d7319768",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295398-d7319768-Reviews-Hilton_Alexandria_King_s_Ranch-Alexandria_Alexandria_Governorate.html",
       "search_query": "Hilton Alexandria King's Ranch Alexandria Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dfwanhh-hilton-anatole": {
       "tripadvisor_id": "g55711-d98731",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g55711-d98731-Reviews-Hilton_Anatole-Dallas_Texas.html",
       "search_query": "Hilton Anatole Dallas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "auahhhh-hilton-aruba-caribbean-resort-and-casino": {
       "tripadvisor_id": "g147249-d147621",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147249-d147621-Reviews-Hilton_Aruba_Caribbean_Resort_Casino-Palm_Eagle_Beach_Aruba.html",
       "search_query": "Hilton Aruba Caribbean Resort & Casino Palm Beach Aruba TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dpsbahi-hilton-bali-resort": {
       "tripadvisor_id": "g297698-d301929",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297698-d301929-Reviews-Hilton_Bali_Resort-Nusa_Dua_Benoa_South_Kuta_Bali.html",
       "search_query": "Hilton Bali Resort Bali Indonesia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "bgihihh-hilton-barbados-resort": {
       "tripadvisor_id": "g147263-d154114",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147263-d154114-Reviews-Hilton_Barbados_Resort-Bridgetown_Saint_Michael_Parish_Barbados.html",
       "search_query": "Hilton Barbados Resort Bridgetown Barbados TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "hhhrshh-hilton-beachfront-resort-and-spa-hilton-head-island": {
       "tripadvisor_id": "g54273-d223882",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54273-d223882-Reviews-Hilton_Beachfront_Resort_And_Spa_Hilton_Head_Island-Hilton_Head_South_Carolina.html",
       "search_query": "Hilton Beachfront Resort and Spa Hilton Head Island Hilton Head Island USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "miabmhf-hilton-bentley-miami-south-beach": {
       "tripadvisor_id": "g34439-d324044",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34439-d324044-Reviews-Hilton_Bentley_Miami_South_Beach-Miami_Beach_Florida.html",
       "search_query": "Hilton Bentley Miami/South Beach Miami Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "miambhf-hilton-cabana-miami-beach-resort": {
       "tripadvisor_id": "g34439-d4928161",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34439-d4928161-Reviews-Hilton_Cabana_Miami_Beach_Resort-Miami_Beach_Florida.html",
       "search_query": "Hilton Cabana Miami Beach Resort Miami Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "sidcvhi-hilton-cabo-verde-sal-resort": {
       "tripadvisor_id": "g482848-d12617667",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g482848-d12617667-Reviews-Hilton_Cabo_Verde_Sal_Resort-Santa_Maria_Ilha_do_Sal.html",
       "search_query": "Hilton Cabo Verde Sal Resort Sal Cape Verde TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "cunmchh-hilton-cancun-mar-caribe-all-inclusive-resort": {
       "tripadvisor_id": "g150807-d186909",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d186909-Reviews-Hilton_Cancun_Mar_Caribe_All_inclusive_Resort-Cancun_Yucatan_Peninsula.html",
       "search_query": "Hilton Cancun Mar Caribe All-Inclusive Resort Cancun Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "cunqrhh-hilton-cancun": {
       "tripadvisor_id": "g150807-d23146248",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d23146248-Reviews-Hilton_Cancun_an_All_Inclusive_Resort-Cancun_Yucatan_Peninsula.html",
       "search_query": "Hilton Cancun, an All-Inclusive Resort Cancun Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "ctghihh-hilton-cartagena-hotel": {
       "tripadvisor_id": "g297476-d300666",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297476-d300666-Reviews-Hilton_Cartagena_Hotel-Cartagena_Cartagena_District_Bolivar_Department.html",
       "search_query": "Hilton Cartagena Hotel Cartagena Colombia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "chibhhh-hilton-chicago-oak-brook-hills-resort-and-conference-center": {
       "tripadvisor_id": "g36468-d87933",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g36468-d87933-Reviews-Hilton_Chicago_oak_Brook_Hills_Resort_Conference_Center-Oak_Brook_DuPage_County_Illinois.html",
       "search_query": "Hilton Chicago/Oak Brook Hills Resort & Conference Center Oak Brook USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "crkpphi-hilton-clark-sun-valley-resort": {
       "tripadvisor_id": "g3336531-d17438090",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g3336531-d17438090-Reviews-Hilton_Clark_Sun_Valley_Resort-Clark_Freeport_Zone_Pampanga_Province_Central_Luzon_R.html",
       "search_query": "Hilton Clark Sun Valley Resort Clark Philippines TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "piecbhf-hilton-clearwater-beach-resort-and-spa": {
       "tripadvisor_id": "g34141-d84249",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34141-d84249-Reviews-Hilton_Clearwater_Beach_Resort_Spa-Clearwater_Florida.html",
       "search_query": "Hilton Clearwater Beach Resort & Spa Clearwater Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dlmhrhi-hilton-dalaman-sarigerme-resort-and-spa": {
       "tripadvisor_id": "g663346-d1415191",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g663346-d1415191-Reviews-Hilton_Dalaman_Sarigerme_Resort_Spa-Sarigerme_Mugla_Province_Turkish_Aegean_Coast.html",
       "search_query": "Hilton Dalaman Sarigerme Resort & Spa Dalaman Turkey TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dlugthi-hilton-dali-resort-and-spa": {
       "tripadvisor_id": "g303781-d9456815",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g303781-d9456815-Reviews-Hilton_Dali_Resort_SPA-Dali_Dali_Bai_Autonomous_Prefecture_Yunnan.html",
       "search_query": "Hilton Dali Resort & Spa Dali China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "dlugthi-hilton-dali-resort-and-spa--hilton-dalian-golden-pebble-beach-resort": {
       "tripadvisor_id": "g297452-d14135358",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297452-d14135358-Reviews-Hilton_Dalian_Golden_Pebble_Beach_Resort-Dalian_Liaoning.html",
       "search_query": "Hilton Dalian Golden Pebble Beach Resort Dalian China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "dalrwhf-hilton-dallas-rockwall-lakefront": {
       "tripadvisor_id": "g56567-d1028763",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g56567-d1028763-Reviews-Hilton_Dallas_Rockwall_Lakefront-Rockwall_Texas.html",
       "search_query": "Hilton Dallas/Rockwall Lakefront Rockwall USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "dabdhhf-hilton-daytona-beach-oceanfront-resort": {
       "tripadvisor_id": "g34172-d111541",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34172-d111541-Reviews-Hilton_Daytona_Beach_Oceanfront_Resort-Daytona_Beach_Florida.html",
       "search_query": "Hilton Daytona Beach Oceanfront Resort Daytona Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "ammdshi-hilton-dead-sea-resort-and-spa": {
       "tripadvisor_id": "g951923-d7178246",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g951923-d7178246-Reviews-Hilton_Dead_Sea_Resort_Spa-Sweimah_Dead_Sea_Region.html",
       "search_query": "Hilton Dead Sea Resort & Spa Sweimeh Jordan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dohhdhi-hilton-doha": {
       "tripadvisor_id": "g294009-d2216044",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294009-d2216044-Reviews-Hilton_Doha-Doha.html",
       "search_query": "Hilton Doha Doha Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "dohprhi-hilton-doha-the-pearl": {
       "tripadvisor_id": "g294009-d19106093",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294009-d19106093-Reviews-Hilton_Doha_The_Pearl-Doha.html",
       "search_query": "Hilton Doha The Pearl Doha Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "dxbjbhi-hilton-dubai-jumeirah": {
       "tripadvisor_id": "g295424-d306662",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d306662-Reviews-Hilton_Dubai_Jumeirah-Dubai_Emirate_of_Dubai.html",
       "search_query": "Hilton Dubai Jumeirah Dubai UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "dxbpjhi-hilton-dubai-palm-jumeirah": {
       "tripadvisor_id": "g295424-d24851391",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d24851391-Reviews-Hilton_Dubai_Palm_Jumeirah-Dubai_Emirate_of_Dubai.html",
       "search_query": "Hilton Dubai Palm Jumeirah Dubai UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "dxbbrhi-hilton-dubai-the-walk": {
       "tripadvisor_id": "g295424-d2526254",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d2526254-Reviews-Hilton_Dubai_The_Walk-Dubai_Emirate_of_Dubai.html",
       "search_query": "Hilton Dubai The Walk Dubai UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "nanhihi-hilton-fiji-beach-resort-and-spa": {
       "tripadvisor_id": "g612490-d616998",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g612490-d616998-Reviews-Hilton_Fiji_Beach_Resort_Spa-Denarau_Island_Viti_Levu.html",
       "search_query": "Hilton Fiji Beach Resort and Spa Nadi Fiji TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "fllgrhh-hilton-fort-lauderdale-marina": {
       "tripadvisor_id": "g34227-d84471",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34227-d84471-Reviews-Hilton_Fort_Lauderdale_Marina-Fort_Lauderdale_Broward_County_Florida.html",
       "search_query": "Hilton Fort Lauderdale Marina Fort Lauderdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "frahghi-hilton-frankfurt-gravenbruch": {
       "tripadvisor_id": "g198581-d273504",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g198581-d273504-Reviews-Hilton_Frankfurt_Gravenbruch-Neu_Isenburg_Hesse.html",
       "search_query": "Hilton Frankfurt Gravenbruch Frankfurt Germany TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "glsgihf-hilton-galveston-island-resort": {
       "tripadvisor_id": "g55879-d122738",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g55879-d122738-Reviews-Hilton_Galveston_Island_Resort-Galveston_Galveston_Island_Texas.html",
       "search_query": "Hilton Galveston Island Resort Galveston USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "goishhi-hilton-goa-resort": {
       "tripadvisor_id": "g297605-d15236908",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297605-d15236908-Reviews-Hilton_Goa_Resort-Candolim_Bardez_North_Goa_District_Goa.html",
       "search_query": "Hilton Goa Resort Goa India TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "gumhitw-hilton-guam-resort-and-spa": {
       "tripadvisor_id": "g60678-d307181",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60678-d307181-Reviews-Hilton_Guam_Resort_Spa-Tumon_Tamuning_Guam.html",
       "search_query": "Hilton Guam Resort & Spa Tumon Guam TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "kyohitw-hilton-gyeongju": {
       "tripadvisor_id": "g297888-d308055",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297888-d308055-Reviews-Hilton_Gyeongju-Gyeongju_Gyeongsangbuk_do.html",
       "search_query": "Hilton Gyeongju Gyeongju South Korea TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "hghlrhi-hilton-hangzhou-qiandao-lake-resort": {
       "tripadvisor_id": "g635525-d2193576",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g635525-d2193576-Reviews-Hilton_Hangzhou_Qiandao_Lake_Resort-Chun_an_County_Zhejiang.html",
       "search_query": "Hilton Hangzhou Qiandao Lake Resort Hangzhou China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "hnlhvhh-hilton-hawaiian-village-waikiki-beach-resort": {
       "tripadvisor_id": "g60982-d87016",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d87016-Reviews-Hilton_Hawaiian_Village_Waikiki_Beach_Resort-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Hawaiian Village Waikiki Beach Resort Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "ppthihh-hilton-hotel-tahiti": {
       "tripadvisor_id": "g1190275-d23416500",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1190275-d23416500-Reviews-Hilton_Hotel_Tahiti-Faa_a_Tahiti_Society_Islands.html",
       "search_query": "Hilton Hotel Tahiti Papeete French Polynesia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "hhqhihi-hilton-hua-hin-resort-and-spa": {
       "tripadvisor_id": "g297922-d305917",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297922-d305917-Reviews-Hilton_Hua_Hin_Resort_Spa-Hua_Hin_Prachuap_Khiri_Khan_Province.html",
       "search_query": "Hilton Hua Hin Resort & Spa Hua Hin Thailand TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "huzlhhi-hilton-huizhou-longmen-resort": {
       "tripadvisor_id": "g1409044-d12912505",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1409044-d12912505-Reviews-Hilton_Huizhou_Longmen_Resort-Longmen_County_Guangdong.html",
       "search_query": "Hilton Huizhou Longmen Resort Huizhou China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "hrghitw-hilton-hurghada-plaza": {
       "tripadvisor_id": "g297549-d308117",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297549-d308117-Reviews-Hilton_Hurghada_Plaza-Hurghada_Red_Sea_and_Sinai.html",
       "search_query": "Hilton Hurghada Plaza Hurghada Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "santphh-hilton-la-jolla-torrey-pines": {
       "tripadvisor_id": "g32578-d218747",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32578-d218747-Reviews-Hilton_La_Jolla_Torrey_Pines-La_Jolla_San_Diego_California.html",
       "search_query": "Hilton La Jolla Torrey Pines La Jolla USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "laslkhf-hilton-lake-las-vegas-resort-and-spa": {
       "tripadvisor_id": "g45953-d268447",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45953-d268447-Reviews-Hilton_Lake_Las_Vegas_Resort_Spa-Henderson_Nevada.html",
       "search_query": "Hilton Lake Las Vegas Resort & Spa Henderson USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sjdlchh-hilton-los-cabos-beach-and-golf-resort": {
       "tripadvisor_id": "g152516-d225503",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152516-d225503-Reviews-Hilton_Los_Cabos-San_Jose_del_Cabo_Los_Cabos_Baja_California.html",
       "search_query": "",
       "match_confidence": "manual",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0.5,
+      "quality_flag": "suspect",
+      "quality_reason": "3/6 name tokens found in slug"
     },
     "luxhitw-hilton-luxor-resort-and-spa": {
       "tripadvisor_id": "g294205-d305085",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294205-d305085-Reviews-Hilton_Luxor_Resort_Spa-Luxor_Nile_River_Valley.html",
       "search_query": "Hilton Luxor Resort & Spa Luxor Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "mleaihi-hilton-maldives-amingiri-resort-and-spa": {
       "tripadvisor_id": "g298332-d24069570",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298332-d24069570-Reviews-Hilton_Maldives_Amingiri_Resort_Spa-North_Male_Atoll.html",
       "search_query": "Hilton Maldives Amingiri Resort & Spa Amingiri Maldives TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "pmicchi-hilton-mallorca-galatzo": {
       "tripadvisor_id": "g580307-d500716",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580307-d500716-Reviews-Hilton_Mallorca_Galatzo-Peguera_Calvia_Majorca_Balearic_Islands.html",
       "search_query": "Hilton Mallorca Galatzo Mallorca Spain TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "mlahitw-hilton-malta": {
       "tripadvisor_id": "g227101-d227152",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g227101-d227152-Reviews-Hilton_Malta-Saint_Julian_s_Island_of_Malta.html",
       "search_query": "Hilton Malta St. Julian's Malta TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "mrkmhhf-hilton-marco-island-beach-resort-and-spa": {
       "tripadvisor_id": "g34420-d209410",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34420-d209410-Reviews-Hilton_Marco_Island_Beach_Resort_and_Spa-Marco_Island_Florida.html",
       "search_query": "Hilton Marco Island Beach Resort Marco Island USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "rmfhihi-hilton-marsa-alam-nubian-resort": {
       "tripadvisor_id": "g311425-d2149073",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g311425-d2149073-Reviews-Hilton_Marsa_Alam_Nubian_Resort-Marsa_Alam_Red_Sea_and_Sinai.html",
       "search_query": "Hilton Marsa Alam Nubian Resort Marsa Alam Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "mruhihi-hilton-mauritius-resort-and-spa": {
       "tripadvisor_id": "g298343-d299624",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298343-d299624-Reviews-Hilton_Mauritius_Resort_Spa-Flic_En_Flac.html",
       "search_query": "Hilton Mauritius Resort & Spa Flic-en-Flac Mauritius TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "pptmlhh-hilton-moorea-lagoon-resort-and-spa": {
       "tripadvisor_id": "g1918344-d301841",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1918344-d301841-Reviews-Hilton_Moorea_Lagoon_Resort_Spa-Papetoai_Moorea_Society_Islands.html",
       "search_query": "Hilton Moorea Lagoon Resort and Spa Moorea French Polynesia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "myrbhhh-hilton-myrtle-beach-resort": {
       "tripadvisor_id": "g54359-d111927",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54359-d111927-Reviews-Hilton_Myrtle_Beach_Resort-Myrtle_Beach_South_Carolina.html",
       "search_query": "Hilton Myrtle Beach Resort Myrtle Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "nkgnshi-hilton-nanjing-niushoushan": {
       "tripadvisor_id": "g294220-d26109625",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294220-d26109625-Reviews-Hilton_Nanjing_Niushoushan-Nanjing_Jiangsu.html",
       "search_query": "Hilton Nanjing Niushoushan Nanjing China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "ngbqahi-hilton-ningbo-dongqian-lake": {
       "tripadvisor_id": "g297470-d11725429",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297470-d11725429-Reviews-Hilton_Ningbo_Dongqian_Lake-Ningbo_Zhejiang.html",
       "search_query": "Hilton Ningbo Dongqian Lake Ningbo China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "ctsnvhi-hilton-niseko-village": {
       "tripadvisor_id": "g321549-d1149491",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g321549-d1149491-Reviews-Hilton_Niseko_Village-Niseko_cho_Abuta_gun_Hokkaido.html",
       "search_query": "Hilton Niseko Village Niseko Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "sbyofhf-hilton-ocean-city-oceanfront-suites": {
       "tripadvisor_id": "g41298-d601651",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41298-d601651-Reviews-Hilton_Ocean_City_Oceanfront_Suites-Ocean_City_Maryland.html",
       "search_query": "Hilton Ocean City Oceanfront Suites Ocean City USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "tyoodhi-hilton-odawara-resort-and-spa": {
       "tripadvisor_id": "g1021278-d486944",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1021278-d486944-Reviews-Hilton_Odawara_Resort_Spa-Odawara_Kanagawa_Prefecture_Kanto.html",
       "search_query": "Hilton Odawara Resort & Spa Odawara Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "okaochi-hilton-okinawa-chatan-resort": {
       "tripadvisor_id": "g1025634-d6522582",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1025634-d6522582-Reviews-Hilton_Okinawa_Chatan_Resort-Chatan_cho_Nakagami_gun_Okinawa_Prefecture_Kyushu.html",
       "search_query": "Hilton Okinawa Chatan Resort Chatan Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "okamihi-hilton-okinawa-miyako-island-resort": {
       "tripadvisor_id": "g680765-d25352350",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g680765-d25352350-Reviews-Hilton_Okinawa_Miyako_Island_Resort-Miyakojima_Okinawa_Prefecture_Kyushu.html",
       "search_query": "Hilton Okinawa Miyako Island Resort Miyakojima Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "okasehi-hilton-okinawa-sesoko-resort": {
       "tripadvisor_id": "g1120808-d19992016",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1120808-d19992016-Reviews-Hilton_Okinawa_Sesoko_Resort-Motobu_cho_Kunigami_gun_Okinawa_Prefecture_Kyushu.html",
       "search_query": "Hilton Okinawa Sesoko Resort Motobu Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "orlochh-hilton-orlando": {
       "tripadvisor_id": "g34515-d1382900",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d1382900-Reviews-Hilton_Orlando-Orlando_Florida.html",
       "search_query": "Hilton Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "mcobuhh-hilton-orlando-buena-vista-palace": {
       "tripadvisor_id": "g23869903-d85979",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23869903-d85979-Reviews-Hilton_Orlando_Buena_Vista_Palace_Disney_Springs_Area-Lake_Buena_Vista_Florida.html",
       "search_query": "Hilton Orlando Buena Vista Palace Disney Springs Area Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "orldwhh-hilton-orlando-lake-buena-vista": {
       "tripadvisor_id": "g23869903-d217366",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23869903-d217366-Reviews-Hilton_Orlando_Lake_Buena_Vista_Disney_Springs_Area-Lake_Buena_Vista_Florida.html",
       "search_query": "Hilton Orlando Lake Buena Vista - Disney Springs Area Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "psppshf-hilton-palm-springs": {
       "tripadvisor_id": "g32847-d77242",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32847-d77242-Reviews-Hilton_Palm_Springs-Palm_Springs_Greater_Palm_Springs_California.html",
       "search_query": "Hilton Palm Springs Palm Springs USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "bkkhphi-hilton-pattaya": {
       "tripadvisor_id": "g293919-d1876869",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293919-d1876869-Reviews-or40-Hilton_Pattaya-Pattaya_Chonburi_Province.html",
       "search_query": "Hilton Pattaya Pattaya Thailand TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "2/2 name tokens found in slug"
     },
     "pnspehf-hilton-pensacola-beach": {
       "tripadvisor_id": "g1435792-d268649",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1435792-d268649-Reviews-Hilton_Pensacola_Beach-Pensacola_Beach_Florida.html",
       "search_query": "Hilton Pensacola Beach Pensacola Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "phxsppr-hilton-phoenix-resort-at-the-peak": {
       "tripadvisor_id": "g31310-d73957",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d73957-Reviews-Hilton_Phoenix_Resort_At_The_Peak-Phoenix_Arizona.html",
       "search_query": "Hilton Phoenix Resort at the Peak Phoenix USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "phxtcpr-hilton-phoenix-tapatio-cliffs-resort": {
       "tripadvisor_id": "g31310-d277997",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d277997-Reviews-Hilton_Phoenix_Tapatio_Cliffs_Resort-Phoenix_Arizona.html",
       "search_query": "Hilton Phoenix Tapatio Cliffs Resort Phoenix USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "pnchihh-hilton-ponce-golf-and-casino-resort": {
       "tripadvisor_id": "g147323-d151671",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147323-d151671-Reviews-Hilton_Ponce_Golf_Casino_Resort-Ponce_Puerto_Rico.html",
       "search_query": "Hilton Ponce Golf & Casino Resort Ponce Puerto Rico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "caipghi-hilton-pyramids-golf": {
       "tripadvisor_id": "g8363967-d300671",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g8363967-d300671-Reviews-Hilton_Pyramids_Golf-6th_of_October_City_Giza_Governorate.html",
       "search_query": "Hilton Pyramids Golf Giza Egypt TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "zqnhqhi-hilton-queenstown-resort-and-spa": {
       "tripadvisor_id": "g19858883-d2077554",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g19858883-d2077554-Reviews-Hilton_Queenstown_Resort_Spa-Kawarau_Falls_Otago_Region_South_Island.html",
       "search_query": "Hilton Queenstown Resort & Spa Queenstown New Zealand TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "rjkochi-hilton-rijeka-costabella-beach-resort-and-spa": {
       "tripadvisor_id": "g297516-d21400552",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297516-d21400552-Reviews-Hilton_Rijeka_Costabella_Beach_Resort_Spa-Rijeka_Primorje_Gorski_Kotar_County.html",
       "search_query": "Hilton Rijeka Costabella Beach Resort & Spa Rijeka Croatia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sllhihi-hilton-salalah-resort": {
       "tripadvisor_id": "g298419-d301982",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298419-d301982-Reviews-Hilton_Salalah_Resort-Salalah_Dhofar_Governorate.html",
       "search_query": "Hilton Salalah Resort Salalah Oman TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "dohsbhi-hilton-salwa-beach-resort-villas": {
       "tripadvisor_id": "g21509274-d21792606",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g21509274-d21792606-Reviews-Hilton_Salwa_Beach_Resort_Villas-Abu_Samra.html",
       "search_query": "Hilton Salwa Beach Resort & Villas Al Wakrah Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "sandmhf-hilton-san-diego-del-mar": {
       "tripadvisor_id": "g32286-d501946",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32286-d501946-Reviews-Hilton_San_Diego_del_Mar-Del_Mar_California.html",
       "search_query": "Hilton San Diego/Del Mar Del Mar USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "deshihf-hilton-sandestin-beach-golf-resort-and-spa": {
       "tripadvisor_id": "g34614-d224312",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34614-d224312-Reviews-Hilton_Sandestin_Beach_Golf_Resort_Spa-Sandestin_Miramar_Beach_Destin_Florida.html",
       "search_query": "Hilton Sandestin Beach Golf Resort & Spa Destin USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sqdhihi-hilton-sanqingshan-resort": {
       "tripadvisor_id": "g1016927-d2257403",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1016927-d2257403-Reviews-Hilton_Sanqingshan_Resort-Shangrao_Jiangxi.html",
       "search_query": "Hilton Sanqingshan Resort Shangrao China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "sbafphh-hilton-santa-barbara-beachfront-resort": {
       "tripadvisor_id": "g33045-d81899",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33045-d81899-Reviews-Hilton_Santa_Barbara_Beachfront_Resort-Santa_Barbara_California.html",
       "search_query": "Hilton Santa Barbara Beachfront Resort Santa Barbara USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "sfecghh-hilton-santa-fe-buffalo-thunder": {
       "tripadvisor_id": "g30700567-d1146058",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30700567-d1146058-Reviews-Hilton_Santa_Fe_Buffalo_Thunder-Cuyamungue_New_Mexico.html",
       "search_query": "Hilton Santa Fe Buffalo Thunder Santa Fe USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "smrcnhh-hilton-santa-marta": {
       "tripadvisor_id": "g297484-d25084426",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297484-d25084426-Reviews-Hilton_Santa_Marta-Santa_Marta_Santa_Marta_Municipality_Magdalena_Department.html",
       "search_query": "Hilton Santa Marta Santa Marta Colombia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "syxhihi-hilton-sanya-yalong-bay-resort-and-spa": {
       "tripadvisor_id": "g297427-d582794",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297427-d582794-Reviews-Hilton_Sanya_Yalong_Bay_Resort_Spa-Sanya_Hainan.html",
       "search_query": "Hilton Sanya Yalong Bay Resort & Spa Sanya China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sctshhf-hilton-scottsdale-resort-and-villas": {
       "tripadvisor_id": "g31350-d74170",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31350-d74170-Reviews-Hilton_Scottsdale_Resort_Villas-Scottsdale_Arizona.html",
       "search_query": "Hilton Scottsdale Resort & Villas Scottsdale USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "sdxsehh-hilton-sedona-resort-at-bell-rock": {
       "tripadvisor_id": "g4813352-d75461",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4813352-d75461-Reviews-Hilton_Sedona_Resort_At_Bell_Rock-Village_of_Oak_Creek_Arizona.html",
       "search_query": "Hilton Sedona Resort at Bell Rock Sedona USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "sezhihi-hilton-seychelles-northolme-resort-and-spa": {
       "tripadvisor_id": "g488117-d547001",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488117-d547001-Reviews-Hilton_Seychelles_Northolme_Resort_Spa-Glacis_Mahe_Island.html",
       "search_query": "Hilton Seychelles Northolme Resort & Spa Mahe Seychelles TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "rrohihi-hilton-sorrento-palace": {
       "tripadvisor_id": "g187782-d231243",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187782-d231243-Reviews-Hilton_Sorrento_Palace-Sorrento_Province_of_Naples_Campania.html",
       "search_query": "Hilton Sorrento Palace Sorrento Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "szzhihi-hilton-swinoujscie-resort-and-spa": {
       "tripadvisor_id": "g652064-d17886352",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g652064-d17886352-Reviews-Hilton_Swinoujscie_Resort_And_Spa-Swinoujscie_Western_Pomerania_Province_Western_Pola.html",
       "search_query": "Hilton Swinoujscie Resort & Spa Swinoujscie Poland TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "tngahhi-hilton-tangier-al-houara-resort-and-spa": {
       "tripadvisor_id": "g293737-d15132641",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293737-d15132641-Reviews-Hilton_Tangier_Al_Houara_Resort_Spa-Tangier_Tanger_Tetouan_Al_Hoceima.html",
       "search_query": "Hilton Tangier Al Houara Resort & Spa Tangier Morocco TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "tyotbtw-hilton-tokyo-bay": {
       "tripadvisor_id": "g14134868-d304292",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14134868-d304292-Reviews-.html",
       "search_query": "Hilton Tokyo Bay Urayasu Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "cunhihh-hilton-tulum-riviera-maya-all-inclusive-resort": {
       "tripadvisor_id": "g150813-d23608360",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150813-d23608360-Reviews-Hilton_Tulum_Riviera_Maya_All_Inclusive_Resort-Tulum_Yucatan_Peninsula.html",
       "search_query": "Hilton Tulum Riviera Maya All-Inclusive Resort Tulum Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "pvrpahh-hilton-vallarta-riviera-all-inclusive-resort": {
       "tripadvisor_id": "g150793-d8154349",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150793-d8154349-Reviews-Hilton_Puerto_Vallarta_Resort_All_inclusive-Puerto_Vallarta.html",
       "search_query": "Hilton Vallarta Riviera All-Inclusive Resort Puerto Vallarta Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0.83,
+      "quality_flag": "ok",
+      "quality_reason": "5/6 name tokens found in slug"
     },
     "faohihi-hilton-vilamoura-as-cascatas-golf-resort-and-spa": {
       "tripadvisor_id": "g227947-d655576",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g227947-d655576-Reviews-Hilton_Vilamoura_As_Cascatas_Golf_Resort_Spa-Vilamoura_Quarteira_Faro_District_A.html",
       "search_query": "Hilton Vilamoura As Cascatas Golf Resort & Spa Vilamoura Portugal TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "7/7 name tokens found in slug"
     },
     "orfvhhf-hilton-virginia-beach-oceanfront": {
       "tripadvisor_id": "g58277-d518301",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g58277-d518301-Reviews-Hilton_Virginia_Beach_Oceanfront-Virginia_Beach_Virginia.html",
       "search_query": "Hilton Virginia Beach Oceanfront Virginia Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "hnlwahf-hilton-waikiki-beach-resort-and-spa": {
       "tripadvisor_id": "g60982-d209422",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d209422-Reviews-Hilton_Waikiki_Beach_Resort_Spa-Honolulu_Oahu_Hawaii.html",
       "search_query": "Hilton Waikiki Beach Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "koahwhh-hilton-waikoloa-village": {
       "tripadvisor_id": "g60608-d89980",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60608-d89980-Reviews-Hilton_Waikoloa_Village-Waikoloa_Kohala_Coast_Island_of_Hawaii_Hawaii.html",
       "search_query": "Hilton Waikoloa Village Waikoloa USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "ywsvrhf-hilton-whistler-resort-and-spa": {
       "tripadvisor_id": "g154948-d184888",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154948-d184888-Reviews-Hilton_Whistler_Resort_Spa-Whistler_British_Columbia.html",
       "search_query": "Hilton Whistler Resort & Spa Whistler Canada TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "kdwyahi-hilton-yala-resort": {
       "tripadvisor_id": "g3748686-d26194654",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g3748686-d26194654-Reviews-Hilton_Yala_Resort-Palatupana_Yala_National_Park.html",
       "search_query": "Hilton Yala Resort Yala Sri Lanka TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "nkgyfhi-hilton-yuxi-fuxian-lake": {
       "tripadvisor_id": "g1575828-d7927386",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1575828-d7927386-Reviews-Hilton_Yuxi_Fuxian_Lake-Chengjiang_County_Yunnan.html",
       "search_query": "Hilton Yuxi Fuxian Lake Yuxi China TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "rslvhvh-resorts-world-las-vegas": {
       "tripadvisor_id": "g45963-d23328331",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d23328331-Reviews-Las_Vegas_Hilton_at_Resorts_World-Las_Vegas_Nevada.html",
       "search_query": "Las Vegas Hilton at Resorts World Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "oolhihi-hilton-surfers-paradise-hotel-and-residences": {
       "tripadvisor_id": "g255072-d1853238",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255072-d1853238-Reviews-Hilton_Surfers_Paradise_Hotel_Residences-Surfers_Paradise_Gold_Coast_Queensland.html",
       "search_query": "Surfers Paradise Hilton Surfers Paradise Australia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "sjucohh-the-condado-plaza-hotel": {
       "tripadvisor_id": "g147320-d150443",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147320-d150443-Reviews-The_Condado_Plaza_Hotel-San_Juan_Puerto_Rico.html",
       "search_query": "The Condado Plaza Hotel San Juan Puerto Rico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "denirhh-the-inverness-denver-a-hilton-golf-and-spa-resort": {
       "tripadvisor_id": "g33412-d83087",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33412-d83087-Reviews-The_Inverness_Denver_A_Hilton_Golf_Spa_Resort-Englewood_Colorado.html",
       "search_query": "The Inverness Denver, a Hilton Golf & Spa Resort Englewood USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "pnslghh-the-lodge-at-gulf-state-park": {
       "tripadvisor_id": "g30582-d14084829",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30582-d14084829-Reviews-The_Lodge_At_Gulf_State_Park_A_Hilton_Hotel-Gulf_Shores_Alabama.html",
       "search_query": "The Lodge at Gulf State Park, a Hilton Hotel Gulf Shores USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "hubwhhf-the-waterfront-beach-resort": {
       "tripadvisor_id": "g32513-d77306",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32513-d77306-Reviews-The_Waterfront_Beach_Resort_A_Hilton_Hotel-Huntington_Beach_California.html",
       "search_query": "The Waterfront Beach Resort, a Hilton Hotel Huntington Beach USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "yqbmthw-homewood-suites-mont-tremblant-resort": {
       "tripadvisor_id": "g182183-d268131",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g182183-d268131-Reviews-Homewood_Suites_by_Hilton_Mont_Tremblant_Resort-Mont_Tremblant_Quebec.html",
       "search_query": "Homewood Suites by Hilton Mont-Tremblant Resort Mont-Tremblant Canada TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "phxbmol-arizona-biltmore": {
       "tripadvisor_id": "g31310-d115484",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g31310-d115484-Reviews-Arizona_Biltmore_LXR_Hotels_Resorts-Phoenix_Arizona.html",
       "search_query": "Arizona Biltmore, LXR Hotels & Resorts Phoenix USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "sancnol-beach-village-at-the-del": {
       "tripadvisor_id": "g32250-d12791360",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32250-d12791360-Reviews-.html",
       "search_query": "Beach Village at The Del, LXR Hotels & Resorts Coronado USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "rslvhvh-resorts-world-las-vegas--crockfords-las-vegas-lxr-hotels-resorts": {
       "tripadvisor_id": "g45963-d23328374",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d23328374-Reviews-Crockfords_Las_Vegas_LXR_Hotels_Resorts_at_Resorts_World-Las_Vegas_Nevada.html",
       "search_query": "Crockfords Las Vegas, LXR Hotels & Resorts Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "hnlwiol-ka-lai-waikiki-beach": {
       "tripadvisor_id": "g60982-d1484551",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d1484551-Reviews-Ka_La_i_Waikiki_Beach_Lxr_Hotels_Resorts-Honolulu_Oahu_Hawaii.html",
       "search_query": "Ka La'i Waikiki Beach, LXR Hotels & Resorts Honolulu USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "8/8 name tokens found in slug"
     },
     "dohqkol-katara-hills-doha": {
       "tripadvisor_id": "g294009-d25173967",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294009-d25173967-Reviews-Katara_Hills_Doha_Lxr_Hotels_Resorts-Doha.html",
       "search_query": "Katara Hills Doha, LXR Hotels & Resorts Doha Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "sezitol-mango-house-seychelles": {
       "tripadvisor_id": "g488116-d23118132",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488116-d23118132-Reviews-Mango_House_Seychelles_LXR_Hotels_Resorts-Baie_Lazare_Mahe_Island.html",
       "search_query": "Mango House Seychelles, LXR Hotels & Resorts Mahe Seychelles TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "dohpaol-maysan-doha": {
       "tripadvisor_id": "g1592998-d25173962",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1592998-d25173962-Reviews-or20-Maysan_Doha_LXR_Hotels_Resorts-Al_Rayyan.html",
       "search_query": "Maysan Doha, LXR Hotels & Resorts Doha Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "itmolol-roku-kyoto": {
       "tripadvisor_id": "g298564-d23331390",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d23331390-Reviews-ROKU_KYOTO_LXR_Hotels_Resorts-Kyoto_Kyoto_Prefecture_Kinki.html",
       "search_query": "ROKU KYOTO, LXR Hotels & Resorts Kyoto Japan TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "sanrhol-shore-house-at-the-del": {
       "tripadvisor_id": "g32250-d24043297",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Feature-g32250-d24043297-zft6217-Shore_House_at_The_Del_LXR_Hotels_Resorts.html",
       "search_query": "Shore House at The Del, LXR Hotels & Resorts Coronado USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "bjvlxol-susona-bodrum": {
       "tripadvisor_id": "g298663-d20483728",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298663-d20483728-Reviews-Susona_Bodrum_LXR_Hotels_Resorts-Torba_Bodrum_District_Mugla_Province_Turkish_Aegean_.html",
       "search_query": "Susona Bodrum, LXR Hotels & Resorts Bodrum Turkey TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dpsolol-umana-bali-resort": {
       "tripadvisor_id": "g1219108-d887047",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1219108-d887047-Reviews-Umana_Bali_LXR_Hotels_Resorts-Ungasan_Bukit_Peninsula_Bali.html",
       "search_query": "Umana Bali, LXR Hotels & Resorts Bali Indonesia TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "axazbol-zemi-beach-house": {
       "tripadvisor_id": "g7092973-d8865337",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g7092973-d8865337-Reviews-Zemi_Beach_House_LXR_Hotels_Resorts-Shoal_Bay_Village_Anguilla.html",
       "search_query": "Zemi Beach House, LXR Hotels & Resorts Anguilla Anguilla TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "satcnsa-signia-la-cantera-resort-and-spa": {
       "tripadvisor_id": "g60956-d108571",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60956-d108571-Reviews-Signia_by_Hilton_La_Cantera_Resort_Spa-San_Antonio_Texas.html",
       "search_query": "Signia by Hilton La Cantera Resort & Spa San Antonio USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "orlhhsa-signia-by-hilton-orlando-bonnet-creek": {
       "tripadvisor_id": "g34515-d1308392",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d1308392-Reviews-Signia_By_Hilton_Orlando_An_Official_Walt_Disney_WorldR_Hotel-Orlando_Florida.html",
       "search_query": "Signia by Hilton Orlando Bonnet Creek Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0.6,
+      "quality_flag": "suspect",
+      "quality_reason": "3/5 name tokens found in slug"
     },
     "dohkbup-fuwairit-kite-beach": {
       "tripadvisor_id": "g7287821-d25089382",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g7287821-d25089382-Reviews-Fuwairit_Kite_Beach_Tapestry_Collection_By_Hilton-Fuwayrit.html",
       "search_query": "Fuwairit Kite Beach, Tapestry Collection by Hilton Fuwairit Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "www.grandwailea.com": {
       "tripadvisor_id": "g609129-d111788",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g609129-d111788-Reviews-.html",
       "search_query": "Grand Wailea, A Waldorf Astoria Resort Maui USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "romecavalieri.com": {
       "tripadvisor_id": "g187791-d190138",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d190138-Reviews-Rome_Cavalieri_A_Waldorf_Astoria_Hotel-Rome_Lazio.html",
       "search_query": "Rome Cavalieri, A Waldorf Astoria Hotel Rome Italy TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "lirguwa-waldorf-astoria-costa-rica-punta-cacique": {
       "tripadvisor_id": "g27708203-d27704675",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g27708203-d27704675-Reviews-Waldorf_Astoria_Costa_Rica_Punta_Cacique-Punta_Cacique_Province_of_Guanacaste.html",
       "search_query": "Waldorf Astoria Costa Rica Punta Cacique Punta Cacique Costa Rica TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "6/6 name tokens found in slug"
     },
     "dxbpdwa-waldorf-astoria-dubai-palm-jumeirah": {
       "tripadvisor_id": "g295424-d5890945",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295424-d5890945-Reviews-Waldorf_Astoria_Dubai_Palm_Jumeirah-Dubai_Emirate_of_Dubai.html",
       "search_query": "Waldorf Astoria Dubai Palm Jumeirah Dubai UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "laswdwa-waldorf-astoria-las-vegas": {
       "tripadvisor_id": "g45963-d1456410",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d1456410-Reviews-.html",
       "search_query": "Waldorf Astoria Las Vegas Las Vegas USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0,
+      "quality_flag": "suspect",
+      "quality_reason": "url has no slug text to compare"
     },
     "sjdwawa-waldorf-astoria-los-cabos-pedregal": {
       "tripadvisor_id": "g152515-d1200756",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g152515-d1200756-Reviews-Waldorf_Astoria_Los_Cabos_Pedregal-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
       "search_query": "Waldorf Astoria Los Cabos Pedregal Los Cabos Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "dohqtwa-waldorf-astoria-doha-lusail": {
       "tripadvisor_id": "g21179689-d24829423",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g21179689-d24829423-Reviews-Waldorf_Astoria_Doha_Lusail-Lusail.html",
       "search_query": "Waldorf Astoria Lusail, Doha Doha Qatar TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "mleonwa-waldorf-astoria-maldives-ithaafushi": {
       "tripadvisor_id": "g23960542-d15618284",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23960542-d15618284-Reviews-Waldorf_Astoria_Maldives_Ithaafushi-Ithaafushi_Island.html",
       "search_query": "Waldorf Astoria Maldives Ithaafushi Ithaafushi Maldives TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "www.waldorfastoriamonarchbeach.com": {
       "tripadvisor_id": "g32279-d224779",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32279-d224779-Reviews-Waldorf_Astoria_Monarch_Beach_Resort_Club-Dana_Point_California.html",
       "search_query": "Waldorf Astoria Monarch Beach Dana Point USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "orlbcwa-waldorf-astoria-orlando": {
       "tripadvisor_id": "g34515-d1389861",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d1389861-Reviews-Waldorf_Astoria_Orlando-Orlando_Florida.html",
       "search_query": "Waldorf Astoria Orlando Orlando USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "3/3 name tokens found in slug"
     },
     "slcdmwa-waldorf-astoria-park-city": {
       "tripadvisor_id": "g57097-d1237907",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g57097-d1237907-Reviews-Waldorf_Astoria_Park_City-Park_City_Utah.html",
       "search_query": "Waldorf Astoria Park City Park City USA TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "4/4 name tokens found in slug"
     },
     "rktwawa-waldorf-astoria-ras-al-khaimah": {
       "tripadvisor_id": "g298063-d4092412",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298063-d4092412-Reviews-Waldorf_Astoria_Ras_Al_Khaimah-Ras_Al_Khaimah_Emirate_of_Ras_Al_Khaimah.html",
       "search_query": "Waldorf Astoria Ras Al Khaimah Ras Al Khaimah UAE TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "cunwawa-waldorf-astoria-riviera-maya": {
       "tripadvisor_id": "g150807-d23540957",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d23540957-Reviews-Waldorf_Astoria_Riviera_Maya-Cancun_Yucatan_Peninsula.html",
       "search_query": "Waldorf Astoria Riviera Maya Riviera Maya Mexico TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 0.75,
+      "quality_flag": "suspect",
+      "quality_reason": "3/4 name tokens found in slug"
     },
     "sezpiwa-waldorf-astoria-seychelles-platte-island": {
       "tripadvisor_id": "g27149610-d27149613",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g27149610-d27149613-Reviews-Waldorf_Astoria_Seychelles_Platte_Island-Platte_Island.html",
       "search_query": "Waldorf Astoria Seychelles Platte Island Platte Island Seychelles TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     },
     "cdgtpwa-waldorf-astoria-versailles-trianon-palace": {
       "tripadvisor_id": "g187148-d229673",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187148-d229673-Reviews-Waldorf_Astoria_Versailles_Trianon_Palace-Versailles_Yvelines_Ile_de_France.html",
       "search_query": "Waldorf Astoria Versailles - Trianon Palace Versailles France TripAdvisor",
       "match_confidence": "high",
-      "matched_at": "2026-04-04T02:25:18.020Z"
+      "matched_at": "2026-04-04T02:25:18.020Z",
+      "quality_score": 1,
+      "quality_flag": "ok",
+      "quality_reason": "5/5 name tokens found in slug"
     }
   }
 }
