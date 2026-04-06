@@ -1,9 +1,21 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import {
+  buildManualCsvRow,
+  parseManualCsv,
+  parsePointsHistory,
+  resolveStandardPointsPrice,
+  serializeManualCsv,
+  serializePointsHistory,
+  shouldAddToManualCsv,
+  updatePointsHistory,
+} from "./hilton-brands-points-persistence.mjs";
 
 const SOURCE = "hilton_brands";
 const OUTPUT_FILE_URL = new URL("../hilton-brands-hotel.json", import.meta.url);
 const OUTPUT_DIRECTORY_URL = new URL("../", import.meta.url);
+const HISTORY_FILE_URL = new URL("../hilton-brands-points-history.json", import.meta.url);
+const MANUAL_CSV_FILE_URL = new URL("../hilton-brands-points-manual.csv", import.meta.url);
 
 const BRAND_SLUGS = [
   { slug: "small-luxury-hotels-slh",  brand: "Small Luxury Hotels of the World" },
@@ -91,6 +103,13 @@ export async function writeStageOneOutputs() {
   const hotels = {};
   const sourceUrls = [];
 
+  // Load persistence files
+  const historyRaw = await readFileOptional(HISTORY_FILE_URL);
+  const manualCsvRaw = await readFileOptional(MANUAL_CSV_FILE_URL);
+  let history = parsePointsHistory(historyRaw);
+  const manualMap = parseManualCsv(manualCsvRaw);
+  const manualRowsToAdd = new Map();
+
   // Fetch each brand page to get its brandCode and the shared extract URL
   let extractUrl = "";
   const brandConfigs = [];
@@ -126,16 +145,56 @@ export async function writeStageOneOutputs() {
     (h) => h && typeof h === "object"
   );
 
-  // Filter and build records per brand
+  // Filter, resolve persistence, and build records per brand
   for (const { brand, brandCode } of brandConfigs) {
     const brandHotels = extractHotels.filter((h) => h.brandCode === brandCode);
     console.log(`[hilton-brands] ${brand} (${brandCode}): ${brandHotels.length} hotels`);
 
     for (const extractHotel of brandHotels) {
-      const record = buildHotelRecord(extractHotel, brand, collectedAt);
-      if (!record.source_hotel_id) continue;
-      hotels[record.source_hotel_id] = record;
+      const ctyhocn = (extractHotel?.ctyhocn ?? "").toLowerCase();
+      if (!ctyhocn) continue;
+
+      // Determine if this crawl captured Standard pricing
+      const hhonorsLead = extractHotel?.leadRate?.hhonors?.lead ?? {};
+      const pointsType = mapPointsRewardType(hhonorsLead?.ratePlan?.ratePlanName ?? "");
+      const currentStandard = pointsType === "Standard Room Reward"
+        ? stringifyNumber(hhonorsLead.dailyRmPointsRate)
+        : "";
+
+      const historyEntry = history.hotels[ctyhocn] ?? null;
+      const manualEntry = manualMap.get(ctyhocn) ?? null;
+      const manualValue = manualEntry?.standard_points ?? "";
+
+      const standardLowestPointsPrice = resolveStandardPointsPrice(
+        currentStandard,
+        historyEntry,
+        manualValue
+      );
+
+      // Always overwrite history when Standard pricing found this run
+      if (currentStandard) {
+        history = updatePointsHistory(history, ctyhocn, currentStandard, collectedAt);
+      }
+
+      // Queue auto-add to manual CSV if Premium only, no history, not already in CSV
+      if (shouldAddToManualCsv(currentStandard, historyEntry, manualEntry)) {
+        manualRowsToAdd.set(ctyhocn, buildManualCsvRow(ctyhocn, extractHotel?.name ?? ""));
+      }
+
+      hotels[ctyhocn] = buildHotelRecord(extractHotel, brand, collectedAt, standardLowestPointsPrice);
     }
+  }
+
+  // Save updated history
+  await writeFile(HISTORY_FILE_URL, serializePointsHistory(history, collectedAt), "utf8");
+
+  // Append new rows to manual CSV (only hotels not already present)
+  if (manualRowsToAdd.size > 0) {
+    for (const [id, row] of manualRowsToAdd) {
+      manualMap.set(id, { hotel_name: row.hotel_name, standard_points: "", notes: "" });
+    }
+    await writeFile(MANUAL_CSV_FILE_URL, serializeManualCsv(manualMap), "utf8");
+    console.log(`[hilton-brands] auto-added ${manualRowsToAdd.size} hotels to manual CSV`);
   }
 
   const sortedHotels = Object.fromEntries(
@@ -169,6 +228,14 @@ async function fetchJson(url) {
   const response = await fetch(url, { headers: { "user-agent": "open-hotel-data crawler" } });
   if (!response.ok) throw new Error(`[hilton-brands] fetch failed ${url}: ${response.status} ${response.statusText}`);
   return response.json();
+}
+
+async function readFileOptional(fileUrl) {
+  try {
+    return await readFile(fileUrl, "utf8");
+  } catch {
+    return "";
+  }
 }
 
 function extractNextData(html, slug) {
