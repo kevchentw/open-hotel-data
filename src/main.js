@@ -1567,6 +1567,11 @@ function render() {
   const isAspire = state.bucket === "aspire";
   dom.aspireCreditWithStayGroup.hidden = !isAspire;
   dom.aspireCreditWithStayBtn.classList.toggle("is-active", state.aspireCreditWithStayFilter);
+  const isFhrThc = state.bucket === "fhr_thc";
+  dom.fhrThcToggleGroup.hidden = !isFhrThc;
+  dom.fhrThcToggle.querySelectorAll("[data-subfilter]").forEach((btn) => {
+    btn.classList.toggle("is-active", btn.dataset.subfilter === state.fhrThcSubFilter);
+  });
   renderMap();
   ensureSelectedHotel();
   updateMeta();
