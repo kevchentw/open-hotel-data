@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "chase_edit",
-    "generated_at": "2026-04-06T01:01:38.851Z",
-    "record_count": 359,
-    "matched_count": 359,
+    "generated_at": "2026-04-06T01:03:09.573Z",
+    "record_count": 374,
+    "matched_count": 374,
     "unmatched_count": 0
   },
   "matches": {
@@ -1534,12 +1534,117 @@
       "match_confidence": "high",
       "matched_at": "2026-04-06T01:01:38.851Z"
     },
+    "60826": {
+      "tripadvisor_id": "g60742-d1163561",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60742-d1163561-Reviews-Grand_Bohemian_Lodge_Asheville_Autograph_Collection-Asheville_North_Carolina.html",
+      "search_query": "Grand Bohemian Hotel Asheville, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:01:45.336Z"
+    },
+    "60828": {
+      "tripadvisor_id": "g187497-d190616",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187497-d190616-Reviews-Majestic_Hotel_Spa_Barcelona-Barcelona_Catalonia.html",
+      "search_query": "Majestic Hotel & Spa Barcelona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:01:51.271Z"
+    },
     "60831": {
       "tripadvisor_id": "g187323-d33445126",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d33445126-Reviews-Regent_Berlin_By_Ihg-Berlin.html",
       "search_query": "Regent Berlin",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:30:56.548Z"
+    },
+    "60839": {
+      "tripadvisor_id": "g60745-d94337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d94337-Reviews-XV_Beacon_Hotel-Boston_Massachusetts.html",
+      "search_query": "XV Beacon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:01:57.838Z"
+    },
+    "60851": {
+      "tripadvisor_id": "g54296-d283266",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54296-d283266-Reviews-The_Sanctuary_at_Kiawah_Island_Golf_Resort-Kiawah_Island_South_Carolina.html",
+      "search_query": "The Sanctuary at Kiawah Island Golf Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:03.820Z"
+    },
+    "60871": {
+      "tripadvisor_id": "g186605-d601516",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186605-d601516-Reviews-Dylan_Hotel-Dublin_County_Dublin.html",
+      "search_query": "Dylan Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:09.689Z"
+    },
+    "60872": {
+      "tripadvisor_id": "g186605-d209081",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186605-d209081-Reviews-The_Fitzwilliam_Hotel_Dublin-Dublin_County_Dublin.html",
+      "search_query": "The Fitzwilliam Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:15.806Z"
+    },
+    "60894": {
+      "tripadvisor_id": "g60651-d87158",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60651-d87158-Reviews-The_Ritz_Carlton_O_ahu_Turtle_Bay-Kahuku_Oahu_Hawaii.html",
+      "search_query": "The Ritz-Carlton O'ahu, Turtle Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:21.722Z"
+    },
+    "60905": {
+      "tripadvisor_id": "g60897-d115891",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60897-d115891-Reviews-Woodstock_Inn_Resort-Woodstock_Vermont.html",
+      "search_query": "Woodstock Inn & Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:27.668Z"
+    },
+    "60908": {
+      "tripadvisor_id": "g33062-d1019362",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33062-d1019362-Reviews-Cavallo_Point-Sausalito_Marin_County_California.html",
+      "search_query": "Cavallo Point",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:33.624Z"
+    },
+    "60913": {
+      "tripadvisor_id": "g32070-d1088060",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32070-d1088060-Reviews-The_Maybourne_Beverly_Hills-Beverly_Hills_California.html",
+      "search_query": "The Maybourne Beverly Hills, Maybourne",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:02:39.640Z"
+    },
+    "60918": {
+      "tripadvisor_id": "g60625-d1027174",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60625-d1027174-Reviews-Ko_a_Kea_Resort_On_Poipu_Beach-Poipu_Koloa_Kauai_Hawaii.html",
+      "search_query": "Ko'a Kea Resort on Po'ipu Beach",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:02:45.765Z"
+    },
+    "60983": {
+      "tripadvisor_id": "g60750-d1147616",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60750-d1147616-Reviews-Alma_San_Diego_Downtown_A_Tribute_Portfolio_Hotel-San_Diego_California.html",
+      "search_query": "Alma San Diego Downtown, a Tribute Portfolio Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:51.800Z"
+    },
+    "60987": {
+      "tripadvisor_id": "g60750-d781627",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60750-d781627-Reviews-Fairmont_Grand_Del_Mar-San_Diego_California.html",
+      "search_query": "Fairmont Grand Del Mar",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:02:57.665Z"
+    },
+    "60992": {
+      "tripadvisor_id": "g294197-d301253",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294197-d301253-Reviews-The_Shilla_Seoul-Seoul.html",
+      "search_query": "The Shilla Seoul",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:03.651Z"
+    },
+    "60998": {
+      "tripadvisor_id": "g294265-d1845693",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294265-d1845693-Reviews-The_Fullerton_Bay_Hotel_Singapore-Singapore.html",
+      "search_query": "The Fullerton Bay Hotel Singapore",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:09.573Z"
     },
     "61280": {
       "tripadvisor_id": "g294265-d302294",
