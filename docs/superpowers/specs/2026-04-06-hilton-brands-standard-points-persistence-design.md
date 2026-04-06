@@ -45,7 +45,7 @@ Rows are sorted by `source_hotel_id`. Crawler only appends new rows; it never mo
 }
 ```
 
-Keyed by `source_hotel_id`. Only contains hotels where a Standard price has been seen. `standard_lowest_points_price` only ever decreases (newer crawl can lower it, never raise it).
+Keyed by `source_hotel_id`. Only contains hotels where a Standard price has been seen. Always reflects the **most recently seen** Standard price — overwritten on every crawl that finds Standard pricing, regardless of whether higher or lower than the stored value.
 
 ## New Output Field
 
@@ -61,15 +61,13 @@ Empty string `""` when no Standard price is available from any source.
 
 | Current crawl result | In history? | In manual CSV? | `standard_lowest_points_price` | Side-effects |
 |---|---|---|---|---|
-| Standard found | no | — | current value | Write to history |
-| Standard found | yes (higher) | — | current value | Update history (lower) |
-| Standard found | yes (lower) | — | history value | No history update needed |
+| Standard found | any | — | current value | Always overwrite history with current value |
 | Premium only | yes | — | history value | No change |
 | Premium only | no | yes, filled | manual value | No change |
 | Premium only | no | yes, blank | `""` | No change |
 | Premium only | no | no | `""` | Append blank row to CSV |
 
-**Rule:** `standard_lowest_points_price` = minimum of (current Standard if available, history value if any, manual value if filled). Empty string if none.
+**Rule:** `standard_lowest_points_price` = current Standard if available; otherwise history value if any; otherwise manual value if filled; otherwise `""`.
 
 ## Crawler Update Steps (added to `writeStageOneOutputs`)
 
@@ -87,7 +85,7 @@ Empty string `""` when no Standard price is available from any source.
 
 - Never removes rows from the manual CSV
 - Never modifies existing CSV rows (preserves manual edits and notes)
-- Never raises a value in the history file (only lowers or keeps)
+- Never modifies history except when Standard pricing is found in the current crawl (always overwrites with latest)
 
 ## Files to Commit
 
