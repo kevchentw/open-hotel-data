@@ -11,6 +11,7 @@
     "pipeline:stage1:aspire": "node data-pipeline/1-list/scripts/aspire-hotel.mjs",
     "pipeline:stage1:chase-edit": "node data-pipeline/1-list/scripts/chase-edit.mjs",
     "pipeline:stage1:iprefer": "node data-pipeline/1-list/scripts/iprefer-points.mjs",
+    "pipeline:stage1:hilton-brands": "node data-pipeline/1-list/scripts/hilton-brands.mjs",
     "pipeline:stage2:amex": "node data-pipeline/2-enrichment/amex-hotel.mjs",
     "pipeline:stage2:hilton-resorts": "node data-pipeline/2-enrichment/hilton-resort.mjs",
     "pipeline:stage2:aspire-tally": "node data-pipeline/2-enrichment/aspire-tally-submissions.mjs",
@@ -29,6 +30,7 @@
     "pipeline:stage5:iprefer": "node data-pipeline/5-price/fetch-iprefer.mjs",
     "pipeline:stage6:output": "node data-pipeline/6-output/export.mjs",
     "crawl:hilton-aspire": "node scripts/crawl-hilton-aspire-hotels.mjs",
+    "crawl:hilton-brands": "node scripts/crawl-hilton-brands.mjs",
     "sync:hotels": "node scripts/sync-hotels.mjs",
     "sync:prices": "node scripts/sync-prices.mjs",
     "sync:google-sheet": "node scripts/sync-google-sheet.mjs"

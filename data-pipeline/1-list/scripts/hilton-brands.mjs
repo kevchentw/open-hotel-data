@@ -20,6 +20,14 @@ export function extractHotelSummaryExtractUrl(nextData) {
   return geocodeQuery?.state?.data?.geocodePage?.location?.hotelSummaryExtractUrl ?? "";
 }
 
+export function extractBrandCode(nextData) {
+  const queries = nextData?.props?.pageProps?.dehydratedState?.queries ?? [];
+  const geocodeQuery = queries.find(
+    (q) => q?.queryKey?.[0]?.operationName === "hotelSummaryOptions_geocodePage"
+  );
+  return geocodeQuery?.state?.data?.geocodePage?.location?.brandCode ?? "";
+}
+
 export function buildHotelRecord(extractHotel, brand, collectedAt) {
   const address = extractHotel?.address ?? {};
   const coordinate = extractHotel?.localization?.coordinate ?? {};
@@ -82,6 +90,10 @@ export async function writeStageOneOutputs() {
   const hotels = {};
   const sourceUrls = [];
 
+  // Fetch each brand page to get its brandCode and the shared extract URL
+  let extractUrl = "";
+  const brandConfigs = [];
+
   for (const { slug, brand } of BRAND_SLUGS) {
     const pageUrl = `https://www.hilton.com/en/locations/${slug}/`;
     sourceUrls.push(pageUrl);
@@ -89,23 +101,38 @@ export async function writeStageOneOutputs() {
 
     const html = await fetchText(pageUrl);
     const nextData = extractNextData(html, slug);
-    const extractUrl = extractHotelSummaryExtractUrl(nextData);
+    const brandCode = extractBrandCode(nextData);
 
-    if (!extractUrl) {
-      throw new Error(`[hilton-brands] hotelSummaryExtractUrl not found for slug: ${slug}`);
+    if (!brandCode) {
+      throw new Error(`[hilton-brands] brandCode not found in __NEXT_DATA__ for slug: ${slug}`);
     }
 
-    console.log(`[hilton-brands] fetching extract for ${slug}`);
-    const extract = await fetchJson(extractUrl);
+    if (!extractUrl) {
+      extractUrl = extractHotelSummaryExtractUrl(nextData);
+      if (!extractUrl) {
+        throw new Error(`[hilton-brands] hotelSummaryExtractUrl not found for slug: ${slug}`);
+      }
+    }
 
-    for (const extractHotel of Object.values(extract)) {
-      if (!extractHotel || typeof extractHotel !== "object") continue;
+    brandConfigs.push({ brand, brandCode });
+    console.log(`[hilton-brands] ${slug}: brandCode=${brandCode}`);
+  }
+
+  // Fetch the global extract once
+  console.log(`[hilton-brands] fetching hotel extract`);
+  const extract = await fetchJson(extractUrl);
+  const extractHotels = Object.values(extract).filter(
+    (h) => h && typeof h === "object"
+  );
+
+  // Filter and build records per brand
+  for (const { brand, brandCode } of brandConfigs) {
+    const brandHotels = extractHotels.filter((h) => h.brandCode === brandCode);
+    console.log(`[hilton-brands] ${brand} (${brandCode}): ${brandHotels.length} hotels`);
+
+    for (const extractHotel of brandHotels) {
       const record = buildHotelRecord(extractHotel, brand, collectedAt);
       if (!record.source_hotel_id) continue;
-
-      if (hotels[record.source_hotel_id]) {
-        console.warn(`[hilton-brands] duplicate ctyhocn ${record.source_hotel_id} (${brand}), overwriting`);
-      }
       hotels[record.source_hotel_id] = record;
     }
   }

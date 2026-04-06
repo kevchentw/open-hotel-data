@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   buildHotelRecord,
+  extractBrandCode,
   extractHotelSummaryExtractUrl,
   mapPointsRewardType,
   normalizeHiltonHotelUrl,
@@ -51,6 +52,36 @@ test("extractHotelSummaryExtractUrl returns empty string when operationName does
     }
   };
   assert.equal(extractHotelSummaryExtractUrl(nextData), "");
+});
+
+// ── extractBrandCode ──────────────────────────────────────────────────────
+
+test("extractBrandCode returns brandCode from valid __NEXT_DATA__", () => {
+  const nextData = {
+    props: {
+      pageProps: {
+        dehydratedState: {
+          queries: [
+            {
+              queryKey: [{ operationName: "hotelSummaryOptions_geocodePage" }],
+              state: {
+                data: {
+                  geocodePage: {
+                    location: { brandCode: "WA", hotelSummaryExtractUrl: "https://cdn.hilton.com/extract.json" }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  };
+  assert.equal(extractBrandCode(nextData), "WA");
+});
+
+test("extractBrandCode returns empty string when brandCode is missing", () => {
+  assert.equal(extractBrandCode({}), "");
 });
 
 // ── mapPointsRewardType ────────────────────────────────────────────────────
