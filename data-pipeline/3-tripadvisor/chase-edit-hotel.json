@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "chase_edit",
-    "generated_at": "2026-04-06T01:03:09.573Z",
-    "record_count": 374,
-    "matched_count": 374,
+    "generated_at": "2026-04-06T01:22:25.249Z",
+    "record_count": 438,
+    "matched_count": 438,
     "unmatched_count": 0
   },
   "matches": {
@@ -1646,12 +1646,257 @@
       "match_confidence": "high",
       "matched_at": "2026-04-06T01:03:09.573Z"
     },
+    "61003": {
+      "tripadvisor_id": "g1931394-d1091083",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1931394-d1091083-Reviews-Cap_Maison_Resort_Spa-Cap_Estate_Gros_Islet_Quarter_St_Lucia.html",
+      "search_query": "Cap Maison Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:15.428Z"
+    },
+    "61008": {
+      "tripadvisor_id": "g274856-d284135",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274856-d284135-Reviews-Nobu_Hotel_Warsaw-Warsaw_Mazovia_Province_Central_Poland.html",
+      "search_query": "Nobu Hotel Warsaw",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:22.000Z"
+    },
+    "61263": {
+      "tripadvisor_id": "g14129536-d580687",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129536-d580687-Reviews-The_Peninsula_Tokyo-Yurakucho_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Peninsula Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:28.005Z"
+    },
+    "61266": {
+      "tripadvisor_id": "g32070-d76020",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32070-d76020-Reviews-The_Peninsula_Beverly_Hills-Beverly_Hills_California.html",
+      "search_query": "The Peninsula Beverly Hills",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:34.097Z"
+    },
+    "61271": {
+      "tripadvisor_id": "g35805-d225105",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d225105-Reviews-The_Peninsula_Chicago-Chicago_Illinois.html",
+      "search_query": "The Peninsula Chicago",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:03:40.196Z"
+    },
+    "61272": {
+      "tripadvisor_id": "g294212-d302020",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294212-d302020-Reviews-The_Peninsula_Beijing-Beijing.html",
+      "search_query": "The Peninsula Beijing",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:10:55.918Z"
+    },
     "61280": {
       "tripadvisor_id": "g294265-d302294",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294265-d302294-Reviews-or7440-Pan_Pacific_Singapore-Singapore.html",
       "search_query": "Pan Pacific Singapore",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:31:02.606Z"
+    },
+    "61891": {
+      "tripadvisor_id": "g187791-d203140",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d203140-Reviews-Baglioni_Hotel_Regina-Rome_Lazio.html",
+      "search_query": "Baglioni Hotel Regina",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:01.897Z"
+    },
+    "66307": {
+      "tripadvisor_id": "g33030-d258976",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33030-d258976-Reviews-Cordevalle-San_Martin_California.html",
+      "search_query": "CordeValle",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:07.769Z"
+    },
+    "66308": {
+      "tripadvisor_id": "g33045-d81955",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33045-d81955-Reviews-San_Ysidro_Ranch-Santa_Barbara_California.html",
+      "search_query": "San Ysidro Ranch",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:13.815Z"
+    },
+    "66491": {
+      "tripadvisor_id": "g34439-d209406",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34439-d209406-Reviews-The_Ritz_Carlton_South_Beach-Miami_Beach_Florida.html",
+      "search_query": "The Ritz-Carlton, South Beach",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:19.501Z"
+    },
+    "66502": {
+      "tripadvisor_id": "g60745-d222955",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d222955-Reviews-The_Ritz_Carlton_Boston-Boston_Massachusetts.html",
+      "search_query": "The Ritz-Carlton, Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:25.354Z"
+    },
+    "66506": {
+      "tripadvisor_id": "g34984-d242425",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34984-d242425-Reviews-The_Ritz_Carlton_Reynolds_Lake_Oconee-Greensboro_Georgia.html",
+      "search_query": "The Ritz-Carlton Reynolds, Lake Oconee",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:31.311Z"
+    },
+    "66508": {
+      "tripadvisor_id": "g60898-d86260",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d86260-Reviews-The_Ritz_Carlton_Atlanta-Atlanta_Georgia.html",
+      "search_query": "The Ritz-Carlton, Atlanta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:37.136Z"
+    },
+    "66509": {
+      "tripadvisor_id": "g187497-d190635",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187497-d190635-Reviews-Hotel_Arts_Barcelona-Barcelona_Catalonia.html",
+      "search_query": "Hotel Arts Barcelona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:43.054Z"
+    },
+    "66510": {
+      "tripadvisor_id": "g187323-d289019",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d289019-Reviews-The_Ritz_Carlton_Berlin-Berlin.html",
+      "search_query": "The Ritz-Carlton, Berlin",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:49.061Z"
+    },
+    "66513": {
+      "tripadvisor_id": "g50207-d95213",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g50207-d95213-Reviews-The_Ritz_Carlton_Cleveland-Cleveland_Ohio.html",
+      "search_query": "The Ritz-Carlton, Cleveland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:11:54.969Z"
+    },
+    "66514": {
+      "tripadvisor_id": "g55711-d659532",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g55711-d659532-Reviews-The_Ritz_Carlton_Dallas-Dallas_Texas.html",
+      "search_query": "The Ritz-Carlton, Dallas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:00.802Z"
+    },
+    "66515": {
+      "tripadvisor_id": "g33388-d878358",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33388-d878358-Reviews-The_Ritz_Carlton_Denver-Denver_Colorado.html",
+      "search_query": "The Ritz-Carlton, Denver",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:06.664Z"
+    },
+    "66520": {
+      "tripadvisor_id": "g34227-d633139",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34227-d633139-Reviews-The_Ritz_Carlton-Fort_Lauderdale_Broward_County_Florida.html",
+      "search_query": "The Ritz-Carlton, Fort Lauderdale",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:12.558Z"
+    },
+    "66521": {
+      "tripadvisor_id": "g147367-d302259",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147367-d302259-Reviews-The_Ritz_Carlton_Grand_Cayman-Seven_Mile_Beach_Grand_Cayman_Cayman_Islands.html",
+      "search_query": "The Ritz-Carlton, Grand Cayman",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:18.416Z"
+    },
+    "66522": {
+      "tripadvisor_id": "g32469-d226144",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32469-d226144-Reviews-The_Ritz_Carlton_Half_Moon_Bay-Half_Moon_Bay_California.html",
+      "search_query": "The Ritz-Carlton, Half Moon Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:24.173Z"
+    },
+    "66524": {
+      "tripadvisor_id": "g34218-d235544",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34218-d235544-Reviews-The_Ritz_Carlton_Amelia_Island-Fernandina_Beach_Amelia_Island_Florida.html",
+      "search_query": "The Ritz-Carlton, Amelia Island",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:30.048Z"
+    },
+    "66530": {
+      "tripadvisor_id": "g34515-d33420927",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34515-d33420927-Reviews-The_Ritz_Carlton_Residences_Orlando_Grande_Lakes-Orlando_Florida.html",
+      "search_query": "The Ritz-Carlton Residences Orlando, Grande Lakes",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:35.830Z"
+    },
+    "66531": {
+      "tripadvisor_id": "g34342-d209423",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34342-d209423-Reviews-The_Ritz_Carlton_Key_Biscayne_Miami-Key_Biscayne_Florida.html",
+      "search_query": "The Ritz-Carlton Key Biscayne, Miami",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:41.624Z"
+    },
+    "66532": {
+      "tripadvisor_id": "g34438-d213828",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34438-d213828-Reviews-The_Ritz_Carlton_Coconut_Grove_Miami-Miami_Florida.html",
+      "search_query": "The Ritz-Carlton Coconut Grove, Miami",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:47.447Z"
+    },
+    "66538": {
+      "tripadvisor_id": "g60864-d120852",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d120852-Reviews-The_Ritz_Carlton_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "The Ritz-Carlton, New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:53.294Z"
+    },
+    "66542": {
+      "tripadvisor_id": "g298566-d302242",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d302242-Reviews-The_Ritz_Carlton_Osaka-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "The Ritz-Carlton, Osaka",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:12:59.168Z"
+    },
+    "66544": {
+      "tripadvisor_id": "g60795-d122332",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d122332-Reviews-The_Ritz_Carlton_Philadelphia-Philadelphia_Pennsylvania.html",
+      "search_query": "The Ritz-Carlton, Philadelphia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:05.044Z"
+    },
+    "66547": {
+      "tripadvisor_id": "g34467-d85228",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34467-d85228-Reviews-The_Ritz_Carlton_Naples-Naples_Florida.html",
+      "search_query": "The Ritz-Carlton, Naples",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:10.878Z"
+    },
+    "66548": {
+      "tripadvisor_id": "g294305-d302200",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294305-d302200-Reviews-The_Ritz_Carlton_Santiago-Santiago_Santiago_Metropolitan_Region.html",
+      "search_query": "The Ritz-Carlton, Santiago",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:16.722Z"
+    },
+    "66554": {
+      "tripadvisor_id": "g147404-d149038",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147404-d149038-Reviews-The_Ritz_Carlton_St_Thomas-St_Thomas_U_S_Virgin_Islands.html",
+      "search_query": "The Ritz-Carlton, St. Thomas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:22.738Z"
+    },
+    "66557": {
+      "tripadvisor_id": "g32279-d76724",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32279-d76724-Reviews-The_Ritz_Carlton_Laguna_Niguel-Dana_Point_California.html",
+      "search_query": "The Ritz-Carlton, Laguna Niguel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:29.053Z"
+    },
+    "66561": {
+      "tripadvisor_id": "g28970-d253068",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g28970-d253068-Reviews-The_Ritz_Carlton_Georgetown_Washington_D_C-Washington_DC_District_of_Columbia.html",
+      "search_query": "The Ritz-Carlton Georgetown, Washington, D.C.",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:34.866Z"
+    },
+    "66562": {
+      "tripadvisor_id": "g30242-d83956",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g30242-d83956-Reviews-The_Ritz_Carlton_Pentagon_City-Arlington_Virginia.html",
+      "search_query": "The Ritz-Carlton, Pentagon City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:40.865Z"
+    },
+    "66564": {
+      "tripadvisor_id": "g60726-d84023",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60726-d84023-Reviews-The_Ritz_Carlton_Tysons_Corner-McLean_Fairfax_County_Virginia.html",
+      "search_query": "The Ritz-Carlton, Tysons Corner",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:13:46.667Z"
     },
     "66783": {
       "tripadvisor_id": "g60864-d309180",
@@ -1660,6 +1905,27 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:31:08.828Z"
     },
+    "67356": {
+      "tripadvisor_id": "g14129528-d1235856",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129528-d1235856-Reviews-Shangri_La_Tokyo-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Shangri-La Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:19:36.558Z"
+    },
+    "67365": {
+      "tripadvisor_id": "g294217-d302130",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294217-d302130-Reviews-Island_Shangri_la_Hong_Kong-Hong_Kong.html",
+      "search_query": "Island Shangri-La, Hong Kong",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:19:42.593Z"
+    },
+    "67414": {
+      "tripadvisor_id": "g255069-d256449",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255069-d256449-Reviews-Shangri_La_The_Marina_Cairns-Cairns_Cairns_Region_Queensland.html",
+      "search_query": "Shangri-La The Marina, Cairns",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:19:48.607Z"
+    },
     "67676": {
       "tripadvisor_id": "g293919-d572754",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293919-d572754-Reviews-Intercontinental_Pattaya_Resort_By_IHG-Pattaya_Chonburi_Province.html",
@@ -1667,12 +1933,194 @@
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:32:33.630Z"
     },
+    "68250": {
+      "tripadvisor_id": "g187514-d239009",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187514-d239009-Reviews-Hotel_Fenix_Gran_Melia_The_Leading_Hotels_of_the_World-Madrid.html",
+      "search_query": "Hotel Fenix, a Gran Meliá Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:19:54.458Z"
+    },
+    "68316": {
+      "tripadvisor_id": "g187443-d191204",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187443-d191204-Reviews-Hotel_Colon_Gran_Melia-Seville_Province_of_Seville_Andalucia.html",
+      "search_query": "Hotel Colon, a Gran Melia Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:20:01.361Z"
+    },
+    "69337": {
+      "tripadvisor_id": "g60898-d1231097",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d1231097-Reviews-The_St_Regis_Atlanta-Atlanta_Georgia.html",
+      "search_query": "The St. Regis Atlanta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:20:07.462Z"
+    },
+    "71191": {
+      "tripadvisor_id": "g304551-d302182",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g304551-d302182-Reviews-Taj_Mahal_Hotel_New_Delhi-New_Delhi_National_Capital_Territory_of_Delhi.html",
+      "search_query": "Taj Mahal, New Delhi",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:20:13.323Z"
+    },
     "71588": {
       "tripadvisor_id": "g186338-d193051",
       "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d193051-Reviews-Kimpton_Fitzroy_London_By_IHG-London_England.html",
       "search_query": "Kimpton Fitzroy London by IHG",
       "match_confidence": "high",
       "matched_at": "2026-04-05T23:32:39.694Z"
+    },
+    "72124": {
+      "tripadvisor_id": "g635626-d229044",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g635626-d229044-Reviews-Grand_Hotel_Tremezzo-Tremezzina_Lake_Como_Lombardy.html",
+      "search_query": "Grand Hotel Tremezzo, Lake Como",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:20:19.212Z"
+    },
+    "72184": {
+      "tripadvisor_id": "g187147-d188728",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d188728-Reviews-Ritz_Paris-Paris_Ile_de_France.html",
+      "search_query": "Ritz Paris",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:20:25.089Z"
+    },
+    "72324": {
+      "tripadvisor_id": "g190409-d196745",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190409-d196745-Reviews-Hotel_Hermitage_Monte_Carlo-Monte_Carlo.html",
+      "search_query": "Hotel Hermitage Monte-Carlo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:20:31.346Z"
+    },
+    "73726": {
+      "tripadvisor_id": "g315875-d598117",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g315875-d598117-Reviews-Carton_House_A_Fairmont_Managed_Hotel-Maynooth_County_Kildare.html",
+      "search_query": "Carton House a Fairmont Managed Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:20:37.274Z"
+    },
+    "73890": {
+      "tripadvisor_id": "g60763-d93579",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93579-Reviews-Park_Lane_Hotel_NY-New_York_City_New_York.html",
+      "search_query": "Park Lane New York",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:20:43.159Z"
+    },
+    "74132": {
+      "tripadvisor_id": "g60763-d1371825",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1371825-Reviews-Smyth_Tribeca-New_York_City_New_York.html",
+      "search_query": "Smyth Tribeca",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:20:49.166Z"
+    },
+    "75183": {
+      "tripadvisor_id": "g34393-d113467",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g34393-d113467-Reviews-Little_Palm_Island-Little_Torch_Key_Lower_Keys_Florida_Keys_Florida.html",
+      "search_query": "Little Palm Island Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:20:55.082Z"
+    },
+    "76419": {
+      "tripadvisor_id": "g47405-d17829036",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47405-d17829036-Reviews-The_Lake_House_On_Canandaigua-Canandaigua_Finger_Lakes_New_York.html",
+      "search_query": "The Lake House on Canandaigua",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:00.952Z"
+    },
+    "79188": {
+      "tripadvisor_id": "g32438-d169676",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g32438-d169676-Reviews-The_Ritz_Carlton_Bacara_Santa_Barbara-Goleta_California.html",
+      "search_query": "The Ritz-Carlton Bacara, Santa Barbara",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:07.370Z"
+    },
+    "79226": {
+      "tripadvisor_id": "g48194-d93313",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48194-d93313-Reviews-Montauk_Yacht_Club-Montauk_Long_Island_New_York.html",
+      "search_query": "Montauk Yacht Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:13.324Z"
+    },
+    "79490": {
+      "tripadvisor_id": "g33107-d117820",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33107-d117820-Reviews-Macarthur_Place_Hotel_Spa-Sonoma_Sonoma_County_California.html",
+      "search_query": "Macarthur Place",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:19.202Z"
+    },
+    "80173": {
+      "tripadvisor_id": "g33300-d248141",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33300-d248141-Reviews-Hotel_Yountville-Yountville_Napa_Valley_California.html",
+      "search_query": "Hotel Yountville",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:25.543Z"
+    },
+    "80531": {
+      "tripadvisor_id": "g659660-d250638",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g659660-d250638-Reviews-Myconian_Ambassador_Relais_Chateaux_Hotel-Platys_Gialos_Mykonos_Cyclades_South_Aegean.html",
+      "search_query": "Myconian Ambassador Hotel Relais & Chateaux",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T01:21:31.589Z"
+    },
+    "80888": {
+      "tripadvisor_id": "g1136493-d604552",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1136493-d604552-Reviews-Le_Louise_Hotel_Brussels_Mgallery_Collection-Ixelles_Brussels.html",
+      "search_query": "Le Louise Hotel Brussels - MGallery",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:37.594Z"
+    },
+    "80898": {
+      "tripadvisor_id": "g187147-d197531",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197531-Reviews-Sofitel_Paris_Le_Faubourg-Paris_Ile_de_France.html",
+      "search_query": "Sofitel Paris Le Faubourg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:43.627Z"
+    },
+    "80916": {
+      "tripadvisor_id": "g293924-d299548",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293924-d299548-Reviews-Sofitel_Legend_Metropole_Hanoi-Hanoi.html",
+      "search_query": "Sofitel Legend Metropole Hanoi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:49.584Z"
+    },
+    "80930": {
+      "tripadvisor_id": "g297476-d275130",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297476-d275130-Reviews-Sofitel_Legend_Santa_Clara_Cartagena-Cartagena_Cartagena_District_Bolivar_Department.html",
+      "search_query": "Sofitel Legend Santa Clara Cartagena",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:21:55.529Z"
+    },
+    "80935": {
+      "tripadvisor_id": "g303506-d301194",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g303506-d301194-Reviews-Fairmont_Rio_de_Janeiro_Copacabana-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html",
+      "search_query": "Fairmont Rio de Janeiro Copacabana",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:22:01.500Z"
+    },
+    "80947": {
+      "tripadvisor_id": "g60795-d122343",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d122343-Reviews-Sofitel_Philadelphia_at_Rittenhouse_Square-Philadelphia_Pennsylvania.html",
+      "search_query": "Sofitel Philadelphia at Rittenhouse Square",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:22:07.446Z"
+    },
+    "80978": {
+      "tripadvisor_id": "g28970-d235513",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g28970-d235513-Reviews-Sofitel_Washington_DC_Lafayette_Square-Washington_DC_District_of_Columbia.html",
+      "search_query": "Sofitel Washington DC Lafayette Square",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:22:13.348Z"
+    },
+    "80991": {
+      "tripadvisor_id": "g155032-d254354",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d254354-Reviews-or50-Sofitel_Montreal_Golden_Mile-Montreal_Quebec.html",
+      "search_query": "Sofitel Montreal Golden Mile",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:22:19.263Z"
+    },
+    "80999": {
+      "tripadvisor_id": "g188644-d604560",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188644-d604560-Reviews-Sofitel_Brussels_Europe-Brussels.html",
+      "search_query": "Sofitel Brussels Europe",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T01:22:25.249Z"
     },
     "91332": {
       "tripadvisor_id": "g52024-d96143",
