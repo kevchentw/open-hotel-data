@@ -56,6 +56,12 @@ const PLAN_CONFIG = {
     plans: ["chase_edit"],
     description: "Chase Edit hotels from the 2026 stack source (Award Helper). Indicates whether each hotel has chase_2026_credit.",
   },
+  hilton: {
+    key: "hilton",
+    label: "Hilton",
+    plans: ["hilton_brands"],
+    description: "Hilton luxury brands (Conrad, Waldorf Astoria, LXR, SLH) scraped from hilton.com with live points and cash pricing.",
+  },
 };
 
 const PLAN_LABELS = {
@@ -63,6 +69,7 @@ const PLAN_LABELS = {
   amex_fhr: "FHR",
   amex_thc: "THC",
   chase_edit: "Edit",
+  hilton_brands: "Hilton",
   iprefer_points: "iPrefer",
 };
 
@@ -87,6 +94,7 @@ const state = {
   shouldResetMapView: true,
   preserveDetailUntil: 0,
   ipreferMapMode: "cash",
+  hiltonMapMode: "points",
   ipreferHasPoints: false,
   editSelectHotels: false,
   aspireCreditWithStayFilter: false,
@@ -294,6 +302,10 @@ function buildBucketKey(plans = []) {
 
   if (plans.includes("iprefer_points")) {
     return "iprefer";
+  }
+
+  if (plans.includes("hilton_brands")) {
+    return "hilton";
   }
 
   if (plans.includes("hilton_aspire_resort_credit")) {
@@ -863,6 +875,7 @@ function getBucketCounts() {
     aspire: 0,
     iprefer: 0,
     edit: 0,
+    hilton: 0,
   };
 
   Object.keys(counts).forEach((bucket) => {
@@ -1568,6 +1581,11 @@ function render() {
   const isIprefer = state.bucket === "iprefer";
   dom.ipreferMapToggle.hidden = !isIprefer;
   dom.ipreferHasPointsGroup.hidden = !isIprefer;
+  const isHilton = state.bucket === "hilton";
+  dom.hiltonMapToggle.hidden = !isHilton;
+  dom.hiltonMapToggle.querySelectorAll("[data-mode]").forEach((b) => {
+    b.classList.toggle("is-active", b.dataset.mode === state.hiltonMapMode);
+  });
   dom.ipreferHasPointsBtn.classList.toggle("is-active", state.ipreferHasPoints);
   const isEdit = state.bucket === "edit";
   dom.editSelectHotelsGroup.hidden = !isEdit;
@@ -1658,6 +1676,7 @@ function buildShell() {
               <button class="bucket-tab" data-bucket="fhr_thc" type="button"></button>
               <button class="bucket-tab" data-bucket="iprefer" type="button"></button>
               <button class="bucket-tab" data-bucket="edit" type="button"></button>
+              <button class="bucket-tab" data-bucket="hilton" type="button"></button>
             </div>
             <div id="fhr-thc-toggle" class="map-mode-toggle" hidden>
               <button class="map-mode-toggle__btn is-active" data-subfilter="fhr" type="button">FHR</button>
@@ -1758,6 +1777,10 @@ function buildShell() {
                 <button class="map-mode-toggle__btn is-active" data-mode="cash" type="button">Cash</button>
                 <button class="map-mode-toggle__btn" data-mode="points" type="button">Points</button>
               </div>
+              <div id="hilton-map-toggle" class="map-mode-toggle" hidden>
+                <button class="map-mode-toggle__btn" data-mode="cash" type="button">Cash</button>
+                <button class="map-mode-toggle__btn is-active" data-mode="points" type="button">Points</button>
+              </div>
             </div>
             <div id="map"></div>
           </section>
@@ -1785,6 +1808,7 @@ function buildShell() {
     loadMore: document.querySelector("#load-more"),
     map: document.querySelector("#map"),
     ipreferMapToggle: document.querySelector("#iprefer-map-toggle"),
+    hiltonMapToggle: document.querySelector("#hilton-map-toggle"),
     ipreferHasPointsGroup: document.querySelector("#iprefer-has-points-group"),
     ipreferHasPointsBtn: document.querySelector("#iprefer-has-points-btn"),
     editSelectHotelsGroup: document.querySelector("#edit-select-hotels-group"),
@@ -1939,6 +1963,19 @@ function bindEvents() {
     state.ipreferMapMode = btn.dataset.mode;
     dom.ipreferMapToggle.querySelectorAll("[data-mode]").forEach((b) => {
       b.classList.toggle("is-active", b.dataset.mode === state.ipreferMapMode);
+    });
+    applyFilters();
+    renderMap();
+    renderListPanel();
+  });
+
+  dom.hiltonMapToggle.addEventListener("click", (event) => {
+    const btn = event.target.closest("[data-mode]");
+    if (!btn || btn.dataset.mode === state.hiltonMapMode) return;
+
+    state.hiltonMapMode = btn.dataset.mode;
+    dom.hiltonMapToggle.querySelectorAll("[data-mode]").forEach((b) => {
+      b.classList.toggle("is-active", b.dataset.mode === state.hiltonMapMode);
     });
     applyFilters();
     renderMap();
