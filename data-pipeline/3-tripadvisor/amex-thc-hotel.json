@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_thc",
-    "generated_at": "2026-04-06T21:20:43.909Z",
-    "record_count": 463,
-    "matched_count": 463,
+    "generated_at": "2026-04-06T21:36:24.380Z",
+    "record_count": 500,
+    "matched_count": 500,
     "unmatched_count": 0
   },
   "matches": {
@@ -3518,6 +3518,265 @@
       "search_query": "Hotel Balzac",
       "match_confidence": "medium",
       "matched_at": "2026-04-06T21:20:43.909Z"
+    },
+    "France/Paris/Hotel-Bel-Ami": {
+      "tripadvisor_id": "g482939-d1516831",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g482939-d1516831-Reviews-Hotel_Bel_Ami-Pacy_sur_Eure_Eure_Haute_Normandie_Normandy.html",
+      "search_query": "Hotel Bel Ami",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:20:50.004Z"
+    },
+    "France/Paris/Hotel-Bowmann": {
+      "tripadvisor_id": "g187147-d14063657",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d14063657-Reviews-Hotel_Bowmann_Paris-Paris_Ile_de_France.html",
+      "search_query": "Hotel Bowmann",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:20:56.046Z"
+    },
+    "France/Paris/Hotel-Dame-Des-Arts": {
+      "tripadvisor_id": "g187147-d1597586",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d1597586-Reviews-Hotel_Dame_des_Arts-Paris_Ile_de_France.html",
+      "search_query": "Hotel Dame des Arts",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:02.002Z"
+    },
+    "France/Paris/Hotel-Du-Louvre": {
+      "tripadvisor_id": "g187147-d189700",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d189700-Reviews-Hotel_du_Louvre-Paris_Ile_de_France.html",
+      "search_query": "Hotel du Louvre",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:08.239Z"
+    },
+    "France/Paris/Hotel-Elysia-By-Inwood-Hotels": {
+      "tripadvisor_id": "g187147-d270546",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d270546-Reviews-Hotel_Elysia_By_Inwood_Hotels-Paris_Ile_de_France.html",
+      "search_query": "Hotel Elysia by Inwood Hotels",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:14.507Z"
+    },
+    "France/Paris/Hotel-Florida-Paris": {
+      "tripadvisor_id": "g187147-d207859",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d207859-Reviews-Hotel_Florida_Paris-Paris_Ile_de_France.html",
+      "search_query": "Hotel Florida Paris",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:21:20.492Z"
+    },
+    "France/Paris/Hotel-Pavillon-De-La-Reine": {
+      "tripadvisor_id": "g187147-d188738",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d188738-Reviews-Le_Pavillon_De_La_Reine-Paris_Ile_de_France.html",
+      "search_query": "Hotel Pavillon de la Reine",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:26.387Z"
+    },
+    "France/Paris/Hotel-Vernet-Champs-Elysees": {
+      "tripadvisor_id": "g187147-d194306",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d194306-Reviews-Hotel_Vernet-Paris_Ile_de_France.html",
+      "search_query": "Hotel Vernet Champs Elysees",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:32.402Z"
+    },
+    "France/Paris/La-Demeure-Montaigne": {
+      "tripadvisor_id": "g187147-d261990",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d261990-Reviews-La_Demeure_Montaigne-Paris_Ile_de_France.html",
+      "search_query": "La Demeure Montaigne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:21:38.421Z"
+    },
+    "France/Paris/Le-Pavillon-Faubourg-Saint-germain": {
+      "tripadvisor_id": "g187147-d648109",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d648109-Reviews-Pavillon_Faubourg_Saint_Germain-Paris_Ile_de_France.html",
+      "search_query": "Le Pavillon Faubourg Saint-Germain",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:44.592Z"
+    },
+    "France/Paris/Le-Roch-Hotel-And-Spa": {
+      "tripadvisor_id": "g187147-d9993993",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d9993993-Reviews-Le_Roch_Hotel_Spa-Paris_Ile_de_France.html",
+      "search_query": "Le Roch Hotel and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:21:50.528Z"
+    },
+    "France/Paris/Les-Bains": {
+      "tripadvisor_id": "g187147-d7740508",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d7740508-Reviews-Les_Bains-Paris_Ile_de_France.html",
+      "search_query": "Les Bains",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:21:56.455Z"
+    },
+    "France/Paris/Maison-Albar---Le-Pont-neuf": {
+      "tripadvisor_id": "g187147-d11869269",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d11869269-Reviews-Maison_Albar_Le_Pont_Neuf-Paris_Ile_de_France.html",
+      "search_query": "Maison Albar - Le Pont-Neuf",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:22:02.513Z"
+    },
+    "France/Paris/Maison-Albar---Le-Vendome": {
+      "tripadvisor_id": "g187147-d20142346",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d20142346-Reviews-Maison_Albar_Le_Vendome-Paris_Ile_de_France.html",
+      "search_query": "Maison Albar - Le Vendome",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:22:10.612Z"
+    },
+    "France/Paris/Maison-Astor-Paris-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g187144-d229443",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187144-d229443-Reviews-Maison_Astor_Paris-Ile_de_France_Paris.html",
+      "search_query": "Maison Astor Paris, Curio Collection by Hilton",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:22:16.529Z"
+    },
+    "France/Paris/Maison-Colbert-Member-Of-Melia-Collection": {
+      "tripadvisor_id": "g187147-d228850",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d228850-Reviews-Maison_Colbert_member_of_Melia_Collection-Paris_Ile_de_France.html",
+      "search_query": "Maison Colbert, Member of Melia Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:22:22.685Z"
+    },
+    "France/Paris/Molitor-Hotel--Spa-Paris-Mgallery-Collection": {
+      "tripadvisor_id": "g187147-d6534774",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d6534774-Reviews-Molitor_Hotel_Spa_Paris_MGallery_Collection-Paris_Ile_de_France.html",
+      "search_query": "Molitor Hotel & Spa Paris MGallery Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:22:28.721Z"
+    },
+    "France/Paris/Nolinski-Paris---Evok-Collection": {
+      "tripadvisor_id": "g187147-d10410118",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d10410118-Reviews-Nolinski_Paris_Evok_Collection-Paris_Ile_de_France.html",
+      "search_query": "Nolinski Paris - Evok Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:22:34.752Z"
+    },
+    "France/Paris/San-Regis": {
+      "tripadvisor_id": "g187147-d262120",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d262120-Reviews-Hotel_San_Regis-Paris_Ile_de_France.html",
+      "search_query": "San Regis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:34:36.593Z"
+    },
+    "France/Paris/Sofitel-Le-Scribe-Paris-Opera": {
+      "tripadvisor_id": "g187147-d197577",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197577-Reviews-Sofitel_Le_Scribe_Paris_Opera-Paris_Ile_de_France.html",
+      "search_query": "Sofitel Le Scribe Paris Opera",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:34:42.637Z"
+    },
+    "France/Paris/Sofitel-Paris-Arc-De-Triomphe": {
+      "tripadvisor_id": "g187147-d197532",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197532-Reviews-Sofitel_Paris_Arc_de_Triomphe-Paris_Ile_de_France.html",
+      "search_query": "Sofitel Paris Arc de Triomphe",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:34:48.639Z"
+    },
+    "France/Paris/Sofitel-Paris-Baltimore-Tour-Eiffel": {
+      "tripadvisor_id": "g187147-d229450",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d229450-Reviews-Sofitel_Paris_Baltimore_Tour_Eiffel-Paris_Ile_de_France.html",
+      "search_query": "Sofitel Paris Baltimore Tour Eiffel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:34:54.640Z"
+    },
+    "France/Paris/Sofitel-Paris-Le-Faubourg": {
+      "tripadvisor_id": "g187147-d197531",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197531-Reviews-Sofitel_Paris_Le_Faubourg-Paris_Ile_de_France.html",
+      "search_query": "Sofitel Paris Le Faubourg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:00.477Z"
+    },
+    "France/Paris/The-Hoxton-Paris": {
+      "tripadvisor_id": "g187147-d12537470",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d12537470-Reviews-The_Hoxton_Paris-Paris_Ile_de_France.html",
+      "search_query": "The Hoxton, Paris",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:06.635Z"
+    },
+    "France/Puligny-Montrachet/Como-Le-Montrachet": {
+      "tripadvisor_id": "g672979-d206499",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g672979-d206499-Reviews-COMO_Le_Montrachet-Puligny_Montrachet_Beaune_Cote_d_Or_Bourgogne_Franche_Comte.html",
+      "search_query": "COMO Le Montrachet",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:12.611Z"
+    },
+    "France/Strasbourg/Sofitel-Strasbourg-Grande-Ile": {
+      "tripadvisor_id": "g187075-d197342",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187075-d197342-Reviews-Sofitel_Strasbourg_Grande_Ile-Strasbourg_Bas_Rhin_Grand_Est.html",
+      "search_query": "Sofitel Strasbourg Grande Ile",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:35:18.587Z"
+    },
+    "France/Trouville-Sur-Mer/Cures-Marines-Hotel--Spa-Trouville-Mgallery-Collection": {
+      "tripadvisor_id": "g187187-d7392079",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187187-d7392079-Reviews-Cures_Marines_Hotel_Spa_Trouville_MGallery_Collection-Trouville_sur_Mer_Deauville_Calv.html",
+      "search_query": "Cures Marines Hotel & Spa Trouville MGallery Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:24.407Z"
+    },
+    "French-Polynesia/Moorea/Hilton-Moorea-Lagoon-Resort-And-Spa": {
+      "tripadvisor_id": "g1918344-d301841",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1918344-d301841-Reviews-Hilton_Moorea_Lagoon_Resort_Spa-Papetoai_Moorea_Society_Islands.html",
+      "search_query": "Hilton Moorea Lagoon Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:35:30.266Z"
+    },
+    "French-Polynesia/Papeete/Hilton-Hotel-Tahiti": {
+      "tripadvisor_id": "g1190275-d23416500",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1190275-d23416500-Reviews-Hilton_Hotel_Tahiti-Faa_a_Tahiti_Society_Islands.html",
+      "search_query": "Hilton Hotel Tahiti",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:36.142Z"
+    },
+    "Georgia-US/Alpharetta/The-Hamilton-Alpharetta-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g29196-d23312547",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29196-d23312547-Reviews-The_Hamilton_Alpharetta_Curio_Collection_by_Hilton-Alpharetta_Georgia.html",
+      "search_query": "The Hamilton Alpharetta, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:42.044Z"
+    },
+    "Georgia-US/Atlanta/Candler-Hotel-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g60898-d16859065",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d16859065-Reviews-The_Candler_Hotel_Atlanta_Curio_Collection_by_Hilton-Atlanta_Georgia.html",
+      "search_query": "Candler Hotel, Curio Collection by Hilton",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:35:47.883Z"
+    },
+    "Georgia-US/Atlanta/Canopy-By-Hilton-Atlanta-Midtown": {
+      "tripadvisor_id": "g60898-d14770505",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d14770505-Reviews-Canopy_by_Hilton_Atlanta_Midtown-Atlanta_Georgia.html",
+      "search_query": "Canopy by Hilton Atlanta Midtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:53.886Z"
+    },
+    "Georgia-US/Atlanta/Epicurean-Atlanta": {
+      "tripadvisor_id": "g60898-d23337449",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d23337449-Reviews-Epicurean_Atlanta_Autograph_Collection-Atlanta_Georgia.html",
+      "search_query": "Epicurean Atlanta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:35:59.887Z"
+    },
+    "Georgia-US/Atlanta/Grand-Hyatt-Atlanta": {
+      "tripadvisor_id": "g60898-d86179",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d86179-Reviews-Grand_Hyatt_Atlanta_In_Buckhead-Atlanta_Georgia.html",
+      "search_query": "Grand Hyatt Atlanta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:06.016Z"
+    },
+    "Georgia-US/Atlanta/Hyatt-Centric-Buckhead-Atlanta": {
+      "tripadvisor_id": "g60898-d23694704",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d23694704-Reviews-Hyatt_Centric_Buckhead_Atlanta-Atlanta_Georgia.html",
+      "search_query": "Hyatt Centric Buckhead Atlanta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:12.172Z"
+    },
+    "Georgia-US/Atlanta/Kimpton-Shane-Atlanta-Midtown": {
+      "tripadvisor_id": "g60898-d24099679",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d24099679-Reviews-Kimpton_Shane_Hotel-Atlanta_Georgia.html",
+      "search_query": "Kimpton Shane Atlanta Midtown",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T21:36:18.489Z"
+    },
+    "Georgia-US/Atlanta/Kimpton-Sylvan-Hotel": {
+      "tripadvisor_id": "g60898-d21503613",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60898-d21503613-Reviews-Kimpton_Sylvan_Hotel-Atlanta_Georgia.html",
+      "search_query": "Kimpton Sylvan Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T21:36:24.380Z"
     }
   }
 }

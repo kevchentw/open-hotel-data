@@ -778,6 +778,7 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
 
   if (
     !excluded.has("hiltonStandardOnly") &&
+    state.bucket === "hilton" &&
     state.hiltonStandardOnly &&
     hotel.hiltonPointsRewardType !== "Standard Room Reward"
   ) {
