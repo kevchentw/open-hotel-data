@@ -1,61 +1,6 @@
 [
   {
     "source": "amex_fhr",
-    "source_hotel_id": "France/Porto-Vecchio/Casadelmar",
-    "hotel_name": "Casadelmar",
-    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33052-d84331-Reviews-Hotel_Casa_Del_Mar-Santa_Monica_California.html",
-    "quality_score": 0,
-    "quality_flag": "likely_wrong",
-    "quality_reason": "0/1 name tokens found in slug",
-    "verdict": "",
-    "corrected_url": ""
-  },
-  {
-    "source": "amex_fhr",
-    "source_hotel_id": "Saint-Barthelemy/Gustavia/Fouquets-Saint-barth",
-    "hotel_name": "Fouquet's Saint-Barth",
-    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2716236-d19141329-Reviews-Hotel_Barriere_Le_Carl_Gustaf_St_Barth-Lurin_St_Barthelemy.html",
-    "quality_score": 0.25,
-    "quality_flag": "likely_wrong",
-    "quality_reason": "1/4 name tokens found in slug",
-    "verdict": "",
-    "corrected_url": ""
-  },
-  {
-    "source": "amex_fhr",
-    "source_hotel_id": "England/Broadway/Foxhill-Manor",
-    "hotel_name": "Foxhill Manor",
-    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186280-d3608871-Reviews-Home_Farm_B&B-Gloucestershire_Toddington.html",
-    "quality_score": 0,
-    "quality_flag": "likely_wrong",
-    "quality_reason": "0/2 name tokens found in slug",
-    "verdict": "",
-    "corrected_url": ""
-  },
-  {
-    "source": "amex_fhr",
-    "source_hotel_id": "Quintana-Roo-MX/Playa-del-Carmen/Impression-Moxche-By-Secrets",
-    "hotel_name": "Impression Moxche by Secrets",
-    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d535230-Reviews-Acanto_Hotel_Playa_Del_Carmen_Trademark_Collection_by_Wyndham-Playa_del_Carmen_Riviera_.html",
-    "quality_score": 0,
-    "quality_flag": "likely_wrong",
-    "quality_reason": "0/3 name tokens found in slug",
-    "verdict": "",
-    "corrected_url": ""
-  },
-  {
-    "source": "amex_fhr",
-    "source_hotel_id": "Thailand/Chon-Buri/Mason",
-    "hotel_name": "Mason",
-    "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60890-d10241587-Reviews-AC_Hotel_Boston_Cambridge-Cambridge_Massachusetts.html",
-    "quality_score": 0,
-    "quality_flag": "likely_wrong",
-    "quality_reason": "0/1 name tokens found in slug",
-    "verdict": "",
-    "corrected_url": ""
-  },
-  {
-    "source": "amex_fhr",
     "source_hotel_id": "Greece/Mykonos/Myconian-O-a-Member-Of-Design-Hotels",
     "hotel_name": "Myconian O a Member of Design Hotels",
     "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g667488-d23941309-Reviews-Myconian_O_Hotel-Ornos_Mykonos_Cyclades_South_Aegean.html",

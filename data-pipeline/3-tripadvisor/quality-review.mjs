@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, unlink } from "node:fs/promises";
 
 const SOURCES = [
   {
@@ -24,6 +24,7 @@ const SOURCES = [
 ];
 
 const QUEUE_FILE_URL = new URL("./quality-review-queue.json", import.meta.url);
+const PRICES_DIR_URL = new URL("../5-price/prices/", import.meta.url);
 
 async function readJson(fileUrl) {
   const raw = await readFile(fileUrl, "utf8");
@@ -158,9 +159,22 @@ async function applyQueue() {
       if (entry.verdict === "wrong" && entry.corrected_url) {
         const normalizedUrl = normalizeTripadvisorHotelUrl(entry.corrected_url);
         if (normalizedUrl) {
+          const oldTripadvisorId = match.tripadvisor_id;
+          const newTripadvisorId = extractTripadvisorId(normalizedUrl);
+
           match.tripadvisor_url = normalizedUrl;
-          match.tripadvisor_id = extractTripadvisorId(normalizedUrl);
+          match.tripadvisor_id = newTripadvisorId;
           match.quality_corrected_url = entry.corrected_url;
+
+          if (oldTripadvisorId && oldTripadvisorId !== newTripadvisorId) {
+            const priceFileUrl = new URL(`${oldTripadvisorId}.json`, PRICES_DIR_URL);
+            try {
+              await unlink(priceFileUrl);
+              console.log(`  Deleted stale price file: ${oldTripadvisorId}.json`);
+            } catch (error) {
+              if (error?.code !== "ENOENT") throw error;
+            }
+          }
         }
       }
 

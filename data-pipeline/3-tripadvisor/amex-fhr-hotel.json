@@ -4231,7 +4231,8 @@
       "matched_at": "2026-04-04T04:25:19.628Z",
       "quality_score": 0,
       "quality_flag": "likely_wrong",
-      "quality_reason": "0/2 name tokens found in slug"
+      "quality_reason": "0/2 name tokens found in slug",
+      "quality_review": "wrong"
     },
     "England/Cambridge/University-Arms-Hotel-An-Autograph-Collection-Cambridge": {
       "tripadvisor_id": "g186225-d191754",
@@ -5974,14 +5975,16 @@
       "quality_reason": "2/2 name tokens found in slug"
     },
     "France/Porto-Vecchio/Casadelmar": {
-      "tripadvisor_id": "g33052-d84331",
-      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33052-d84331-Reviews-Hotel_Casa_Del_Mar-Santa_Monica_California.html",
+      "tripadvisor_id": "g196484-d293192",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g196484-d293192-Reviews-Hotel_Casadelmar-Porto_Vecchio_Corse_du_Sud_Corsica.html",
       "search_query": "Casadelmar",
       "match_confidence": "medium",
       "matched_at": "2026-04-04T05:01:36.334Z",
       "quality_score": 0,
       "quality_flag": "likely_wrong",
-      "quality_reason": "0/1 name tokens found in slug"
+      "quality_reason": "0/1 name tokens found in slug",
+      "quality_review": "wrong",
+      "quality_corrected_url": "https://www.tripadvisor.com/Hotel_Review-g196484-d293192-Reviews-Hotel_Casadelmar-Porto_Vecchio_Corse_du_Sud_Corsica.html"
     },
     "France/Ramatuelle/La-Reserve-Ramatuelle-Hotel-Spa--Villas": {
       "tripadvisor_id": "g196678-d1485742",
@@ -13814,14 +13817,16 @@
       "quality_reason": "4/4 name tokens found in slug"
     },
     "Quintana-Roo-MX/Playa-del-Carmen/Impression-Moxche-By-Secrets": {
-      "tripadvisor_id": "g150812-d535230",
-      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d535230-Reviews-Acanto_Hotel_Playa_Del_Carmen_Trademark_Collection_by_Wyndham-Playa_del_Carmen_Riviera_.html",
+      "tripadvisor_id": "g150812-d25179780",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d25179780-Reviews-Impression_Moxche_by_Secrets-Playa_del_Carmen_Yucatan_Peninsula.html",
       "search_query": "Impression Moxche by Secrets",
       "match_confidence": "medium",
       "matched_at": "2026-04-04T23:13:06.754Z",
       "quality_score": 0,
       "quality_flag": "likely_wrong",
-      "quality_reason": "0/3 name tokens found in slug"
+      "quality_reason": "0/3 name tokens found in slug",
+      "quality_review": "wrong",
+      "quality_corrected_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d25179780-Reviews-Impression_Moxche_by_Secrets-Playa_del_Carmen_Yucatan_Peninsula.html"
     },
     "Quintana-Roo-MX/Playa-del-Carmen/La-Casa-De-La-Playa": {
       "tripadvisor_id": "g150812-d23651944",
@@ -14021,7 +14026,8 @@
       "matched_at": "2026-04-04T23:27:26.942Z",
       "quality_score": 0.25,
       "quality_flag": "likely_wrong",
-      "quality_reason": "1/4 name tokens found in slug"
+      "quality_reason": "1/4 name tokens found in slug",
+      "quality_review": "wrong"
     },
     "Saint-Barthelemy/Pointe-Milou/Hotel-Christopher": {
       "tripadvisor_id": "g6761302-d150630",
@@ -16671,14 +16677,16 @@
       "quality_reason": "3/4 name tokens found in slug"
     },
     "Thailand/Chon-Buri/Mason": {
-      "tripadvisor_id": "g60890-d10241587",
-      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60890-d10241587-Reviews-AC_Hotel_Boston_Cambridge-Cambridge_Massachusetts.html",
+      "tripadvisor_id": "g2005201-d17532883",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2005201-d17532883-Reviews-Mason-Na_Chom_Thian_Sattahip_Chonburi_Province.html",
       "search_query": "Mason",
       "match_confidence": "medium",
       "matched_at": "2026-04-05T02:22:16.007Z",
       "quality_score": 0,
       "quality_flag": "likely_wrong",
-      "quality_reason": "0/1 name tokens found in slug"
+      "quality_reason": "0/1 name tokens found in slug",
+      "quality_review": "wrong",
+      "quality_corrected_url": "https://www.tripadvisor.com/Hotel_Review-g2005201-d17532883-Reviews-Mason-Na_Chom_Thian_Sattahip_Chonburi_Province.html"
     },
     "Thailand/Koh-Samui/Banyan-Tree-Samui": {
       "tripadvisor_id": "g1188000-d1796660",
