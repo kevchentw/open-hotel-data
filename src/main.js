@@ -96,7 +96,6 @@ const state = {
   ipreferMapMode: "cash",
   hiltonMapMode: "points",
   hiltonStandardOnly: true,
-  hiltonUnder60k: true,
   ipreferHasPoints: false,
   editSelectHotels: false,
   aspireCreditWithStayFilter: false,
@@ -660,6 +659,17 @@ function compareHotels(left, right) {
     return left.name.localeCompare(right.name);
   }
 
+  if (state.sort === "cpp-desc") {
+    const leftCpp = left.hiltonCpp;
+    const rightCpp = right.hiltonCpp;
+    if (leftCpp !== null && rightCpp !== null && leftCpp !== rightCpp) {
+      return rightCpp - leftCpp;
+    }
+    if (leftCpp !== null && rightCpp === null) return -1;
+    if (leftCpp === null && rightCpp !== null) return 1;
+    return left.name.localeCompare(right.name);
+  }
+
   const leftPrice = state.bucket === "iprefer"
     ? (state.ipreferMapMode === "points" ? left.ipreferPointsMin : left.ipreferCashMin)
     : state.bucket === "hilton"
@@ -770,14 +780,6 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
     !excluded.has("hiltonStandardOnly") &&
     state.hiltonStandardOnly &&
     hotel.hiltonPointsRewardType !== "Standard Room Reward"
-  ) {
-    return false;
-  }
-
-  if (
-    !excluded.has("hiltonUnder60k") &&
-    state.hiltonUnder60k &&
-    (hotel.hiltonPointsPrice === null || hotel.hiltonPointsPrice > 60000)
   ) {
     return false;
   }
@@ -1046,7 +1048,7 @@ function createHotelRow(hotel) {
               ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
               : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A")
           )}</span>
-          ${hotel.hiltonCpp !== null ? `<span class="row-price-cash">${escapeHtml(hotel.hiltonCpp.toFixed(4))}¢/pt</span>` : ""}
+          ${hotel.hiltonCpp !== null ? `<span class="row-price-cash">${escapeHtml(hotel.hiltonCpp.toFixed(2))}¢/pt</span>` : ""}
         </div>`
       : `<span class="row-price">${escapeHtml(hotel.priceLabel)}</span>`;
 
@@ -1145,7 +1147,7 @@ function renderDetailView() {
           ${hotel.hiltonCpp !== null ? `
           <div class="detail-row">
             <span>CPP</span>
-            <strong>${escapeHtml(hotel.hiltonCpp.toFixed(4))}¢/pt</strong>
+            <strong>${escapeHtml(hotel.hiltonCpp.toFixed(2))}¢/pt</strong>
           </div>` : ""}
         </div>
       </section>`
@@ -1560,7 +1562,7 @@ function renderMap() {
             state.hiltonMapMode === "points"
               ? (hotel.hiltonPointsPrice !== null ? `${formatNumber(hotel.hiltonPointsPrice)} pts` : "N/A")
               : (hotel.hiltonCashPriceUsd !== null ? formatCompactCurrency(hotel.hiltonCashPriceUsd, "USD") : "N/A")
-          )}${hotel.hiltonCpp !== null ? ` · ${escapeHtml(hotel.hiltonCpp.toFixed(4))}¢/pt` : ""}</span>`
+          )}${hotel.hiltonCpp !== null ? ` · ${escapeHtml(hotel.hiltonCpp.toFixed(2))}¢/pt` : ""}</span>`
         : `<span>${escapeHtml(hotel.priceLabel)}</span>`;
 
     marker.bindPopup(`
@@ -1703,7 +1705,6 @@ function render() {
   });
   dom.hiltonFiltersGroup.hidden = !isHilton;
   dom.hiltonStandardOnlyBtn.classList.toggle("is-active", state.hiltonStandardOnly);
-  dom.hiltonUnder60kBtn.classList.toggle("is-active", state.hiltonUnder60k);
   dom.ipreferHasPointsBtn.classList.toggle("is-active", state.ipreferHasPoints);
   const isEdit = state.bucket === "edit";
   dom.editSelectHotelsGroup.hidden = !isEdit;
@@ -1835,6 +1836,7 @@ function buildShell() {
           <select id="sort-select">
             <option value="price-asc">Lowest price</option>
             <option value="price-desc">Highest price</option>
+            <option value="cpp-desc">Best CPP</option>
             <option value="name">Name</option>
           </select>
         </label>
@@ -1857,7 +1859,6 @@ function buildShell() {
         <label id="hilton-filters-group" class="toolbar-group" hidden>
           <span>Hilton filters</span>
           <button id="hilton-standard-only-btn" class="filter-toggle-btn" type="button">Standard reward</button>
-          <button id="hilton-under-60k-btn" class="filter-toggle-btn" type="button">≤ 60k pts</button>
         </label>
 
         <label class="toolbar-group toolbar-group--amenities">
@@ -1942,7 +1943,6 @@ function buildShell() {
     fhrThcToggle: document.querySelector("#fhr-thc-toggle"),
     hiltonFiltersGroup: document.querySelector("#hilton-filters-group"),
     hiltonStandardOnlyBtn: document.querySelector("#hilton-standard-only-btn"),
-    hiltonUnder60kBtn: document.querySelector("#hilton-under-60k-btn"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
@@ -1964,12 +1964,12 @@ function bindEvents() {
       state.country = "all";
       state.overlapPlan = "all";
       state.amenities = [];
+      state.sort = nextBucket === "hilton" ? "cpp-desc" : "price-asc";
       state.ipreferHasPoints = false;
       state.editSelectHotels = false;
       state.aspireCreditWithStayFilter = false;
       state.fhrThcSubFilter = "fhr";
       state.hiltonStandardOnly = true;
-      state.hiltonUnder60k = true;
       state.shouldResetMapView = true;
       state.listPanelMode = "list";
       state.selectedHotelId = null;
@@ -2100,14 +2100,6 @@ function bindEvents() {
 
   dom.hiltonStandardOnlyBtn.addEventListener("click", () => {
     state.hiltonStandardOnly = !state.hiltonStandardOnly;
-    state.listLimit = LIST_PAGE_SIZE;
-    state.shouldResetMapView = true;
-    state.listPanelMode = "list";
-    render();
-  });
-
-  dom.hiltonUnder60kBtn.addEventListener("click", () => {
-    state.hiltonUnder60k = !state.hiltonUnder60k;
     state.listLimit = LIST_PAGE_SIZE;
     state.shouldResetMapView = true;
     state.listPanelMode = "list";
