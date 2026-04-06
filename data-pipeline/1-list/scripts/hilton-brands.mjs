@@ -28,7 +28,7 @@ export function extractBrandCode(nextData) {
   return geocodeQuery?.state?.data?.geocodePage?.location?.brandCode ?? "";
 }
 
-export function buildHotelRecord(extractHotel, brand, collectedAt) {
+export function buildHotelRecord(extractHotel, brand, collectedAt, standardLowestPointsPrice = "") {
   const address = extractHotel?.address ?? {};
   const coordinate = extractHotel?.localization?.coordinate ?? {};
   const lowestCash = extractHotel?.leadRate?.lowest ?? {};
@@ -57,6 +57,7 @@ export function buildHotelRecord(extractHotel, brand, collectedAt) {
     lowest_cash_price_display: lowestCash.rateAmountFmt ?? "",
     lowest_points_price: stringifyNumber(hhonorsLead.dailyRmPointsRate),
     points_reward_type: mapPointsRewardType(pointsTypeRaw),
+    standard_lowest_points_price: standardLowestPointsPrice,
     collected_at: collectedAt
   };
 }

@@ -176,6 +176,7 @@ test("buildHotelRecord maps points price and reward type", () => {
   const record = buildHotelRecord(MOCK_EXTRACT_HOTEL, "LXR Hotels & Resorts", "2026-04-06T00:00:00.000Z");
   assert.equal(record.lowest_points_price, "40000");
   assert.equal(record.points_reward_type, "Standard Room Reward");
+  assert.equal(record.standard_lowest_points_price, "");
 });
 
 test("buildHotelRecord stores empty strings for missing price fields", () => {
@@ -183,4 +184,10 @@ test("buildHotelRecord stores empty strings for missing price fields", () => {
   assert.equal(record.lowest_cash_price, "");
   assert.equal(record.lowest_points_price, "");
   assert.equal(record.points_reward_type, "");
+  assert.equal(record.standard_lowest_points_price, "");
+});
+
+test("buildHotelRecord uses provided standardLowestPointsPrice", () => {
+  const record = buildHotelRecord(MOCK_EXTRACT_HOTEL, "LXR Hotels & Resorts", "2026-04-06T00:00:00.000Z", "35000");
+  assert.equal(record.standard_lowest_points_price, "35000");
 });
