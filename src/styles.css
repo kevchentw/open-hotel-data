@@ -686,6 +686,7 @@ select {
   font-size: 0.78rem;
   font-weight: 600;
   color: var(--muted);
+  white-space: nowrap;
   transition:
     background-color 140ms ease,
     color 140ms ease;
