@@ -90,6 +90,7 @@ const state = {
   ipreferHasPoints: false,
   editSelectHotels: false,
   aspireCreditWithStayFilter: false,
+  fhrThcSubFilter: "fhr",
   lastTrackedBucket: null,
 };
 
@@ -663,6 +664,13 @@ function compareHotels(left, right) {
 }
 
 function hotelMatchesBucket(hotel, bucket = state.bucket) {
+  if (bucket === "fhr_thc") {
+    const sub = state.fhrThcSubFilter;
+    if (sub === "fhr") return hotel.plans.includes("amex_fhr");
+    if (sub === "thc") return hotel.plans.includes("amex_thc");
+    // "fhr+thc" — either plan
+    return hotel.plans.includes("amex_fhr") || hotel.plans.includes("amex_thc");
+  }
   const plans = PLAN_CONFIG[bucket]?.plans || [];
   return plans.some((plan) => hotel.plans.includes(plan));
 }
@@ -851,8 +859,7 @@ function formatAmenitiesButtonLabel() {
 
 function getBucketCounts() {
   const counts = {
-    thc: 0,
-    fhr: 0,
+    fhr_thc: 0,
     aspire: 0,
     iprefer: 0,
     edit: 0,
