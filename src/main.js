@@ -78,7 +78,7 @@ const PLAN_LABELS = {
   chase_edit: "Edit",
   hilton_brands: "Hilton",
   iprefer_points: "iPrefer",
-  bilt_hafh: "Bilt HAFH",
+  bilt_hafh: "Bilt",
 };
 
 const state = {
