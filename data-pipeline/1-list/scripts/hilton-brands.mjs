@@ -22,7 +22,8 @@ const BRAND_SLUGS = [
   { slug: "waldorf-astoria",          brand: "Waldorf Astoria Hotels & Resorts" },
   { slug: "lxr-hotels",              brand: "LXR Hotels & Resorts" },
   { slug: "conrad-hotels",           brand: "Conrad Hotels & Resorts" },
-  { slug: "curio-collection",        brand: "Curio Collection"}
+  { slug: "curio-collection",        brand: "Curio Collection"},
+  { slug: "nomad-hotels",            brand: "NoMad"}
 ];
 
 export function extractHotelSummaryExtractUrl(nextData) {
