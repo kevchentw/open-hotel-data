@@ -181,13 +181,12 @@ select {
   display: grid;
   grid-template-columns:
     minmax(0, 1.35fr)
+    minmax(0, 0.8fr)
+    minmax(0, 0.8fr)
+    minmax(0, 1fr)
     minmax(0, 0.75fr)
-    minmax(0, 0.75fr)
-    minmax(0, 0.75fr)
-    minmax(0, 0.9fr)
-    minmax(0, 0.7fr)
-    minmax(0, 0.9fr)
-    minmax(0, 0.8fr);
+    minmax(0, 1fr)
+    minmax(0, 0.7fr);
   gap: 10px;
   position: relative;
   z-index: 20;
@@ -218,6 +217,17 @@ select {
 
 .filter-dropdown {
   position: relative;
+}
+
+.more-filters-wrapper {
+  position: relative;
+}
+
+.more-filters-panel {
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+  min-width: 260px;
 }
 
 .filter-dropdown__toggle {
@@ -926,3 +936,71 @@ select {
   width: 100%;
   border: none;
 }
+
+.forum-review-pill {
+  background: rgba(197, 140, 43, 0.13);
+  color: #7f5713;
+}
+
+.forum-reviews-section {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+
+.forum-reviews-section h3 {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.forum-reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.forum-review {
+  padding: 12px 14px;
+  background: rgba(23, 35, 42, 0.03);
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+.forum-review__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.forum-review__author {
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+.forum-review__date {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.forum-review__source {
+  font-size: 0.78rem;
+  color: var(--teal);
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.forum-review__source:hover {
+  text-decoration: underline;
+}
+
+.forum-review__content {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: var(--ink);
+  white-space: pre-line;
+}
+
