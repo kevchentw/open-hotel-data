@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_thc",
-    "generated_at": "2026-04-06T22:07:40.928Z",
-    "record_count": 521,
-    "matched_count": 520,
+    "generated_at": "2026-04-07T04:27:49.861Z",
+    "record_count": 658,
+    "matched_count": 657,
     "unmatched_count": 1
   },
   "matches": {
@@ -3924,6 +3924,965 @@
       "search_query": "NH Collection Frankfurt Spin Tower",
       "match_confidence": "high",
       "matched_at": "2026-04-06T22:07:40.928Z"
+    },
+    "Germany/Frankfurt/Roomers-Frankfurt": {
+      "tripadvisor_id": "g187337-d1140656",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187337-d1140656-Reviews-Roomers_Frankfurt_Central-Frankfurt_Hesse.html",
+      "search_query": "Roomers Frankfurt",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:46.927Z"
+    },
+    "Germany/Mainz/Brunfels-Hotel": {
+      "tripadvisor_id": "g187393-d28043397",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187393-d28043397-Reviews-Brunfels_Hotel-Mainz_Rhineland_Palatinate.html",
+      "search_query": "Brunfels Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:53.105Z"
+    },
+    "Germany/Munich/Andaz-Munich-Schwabinger-Tor": {
+      "tripadvisor_id": "g187309-d15555300",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d15555300-Reviews-Andaz_Munich_Schwabinger_Tor-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "Andaz Munich Schwabinger Tor",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:07:59.103Z"
+    },
+    "Germany/Munich/Cortiina-Hotel": {
+      "tripadvisor_id": "g187309-d1791125",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d1791125-Reviews-Cortiina_Hotel-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "Cortiina Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:08:05.072Z"
+    },
+    "Germany/Munich/Hotel-Munchen-Palace": {
+      "tripadvisor_id": "g187309-d217948",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d217948-Reviews-Hotel_Muenchen_Palace-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "Hotel Munchen Palace",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:08:11.073Z"
+    },
+    "Germany/Munich/Louis-Hotel": {
+      "tripadvisor_id": "g187309-d1544237",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d1544237-Reviews-LOUIS_Hotel-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "Louis Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:08:17.049Z"
+    },
+    "Germany/Munich/Nh-Collection-Munchen-Bavaria": {
+      "tripadvisor_id": "g187309-d319595",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d319595-Reviews-or925-NH_Collection_Munchen_Bavaria-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "NH Collection Munchen Bavaria",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:08:23.348Z"
+    },
+    "Germany/Munich/Sofitel-Munich-Bayerpost": {
+      "tripadvisor_id": "g187309-d291533",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d291533-Reviews-Sofitel_Munich_Bayerpost-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "Sofitel Munich Bayerpost",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:08:29.346Z"
+    },
+    "Germany/Munich/The-Dean-Munich---Autograph-Collection": {
+      "tripadvisor_id": "g187309-d12202322",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187309-d12202322-Reviews-Roomers_Munich_Autograph_Collection-Munich_Upper_Bavaria_Bavaria.html",
+      "search_query": "The Dean Munich – Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:08:35.530Z"
+    },
+    "Greece/Agios-Nikolaos/Niko-Seaside-Resort-Crete-Mgallery": {
+      "tripadvisor_id": "g189414-d23986395",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189414-d23986395-Reviews-NIKO_Seaside_Resort_Crete_MGallery_Collection-Agios_Nikolaos_Lasithi_Prefecture_Crete.html",
+      "search_query": "NIKO Seaside Resort Crete MGALLERY",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:08:42.472Z"
+    },
+    "Greece/Athens/Ace-Hotel--Swim-Club-Athens": {
+      "tripadvisor_id": "g562630-d28120039",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g562630-d28120039-Reviews-Ace_Hotel_Swim_Club_Athens-Glyfada_Attica.html",
+      "search_query": "Ace Hotel & Swim Club Athens",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:08:48.403Z"
+    },
+    "Greece/Athens/Athenaeum-Intercontinental-Athens": {
+      "tripadvisor_id": "g189400-d233052",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189400-d233052-Reviews-Intercontinental_Athenaeum_Athens_By_IHG-Athens_Attica.html",
+      "search_query": "Athenaeum InterContinental Athens",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:08:54.367Z"
+    },
+    "Greece/Athens/Athens-Capital-Hotel---Mgallery-Collection": {
+      "tripadvisor_id": "g189400-d19892005",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189400-d19892005-Reviews-Athens_Capital_Center_Hotel_MGallery_Collection-Athens_Attica.html",
+      "search_query": "Athens Capital Hotel – MGallery Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:09:00.241Z"
+    },
+    "Greece/Athens/New-Hotel": {
+      "tripadvisor_id": "g189400-d206785",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189400-d206785-Reviews-New_Hotel-Athens_Attica.html",
+      "search_query": "NEW Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:09:06.274Z"
+    },
+    "Greece/Athens/Njv-Athens-Plaza": {
+      "tripadvisor_id": "g189400-d235724",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189400-d235724-Reviews-Njv_Athens_Plaza-Athens_Attica.html",
+      "search_query": "NJV Athens Plaza",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:09:13.515Z"
+    },
+    "Greece/Corfu/Domes-Of-Corfu-Autograph-Collection": {
+      "tripadvisor_id": "g2667806-d1226475",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2667806-d1226475-Reviews-Domes_Of_Corfu_Autograph_Collection-Glyfada_Corfu_Ionian_Islands.html",
+      "search_query": "Domes of Corfu, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:09:19.569Z"
+    },
+    "Greece/Elounda/Domes-Aulus-Elounda-Resort-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189416-d265374",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189416-d265374-Reviews-Domes_Aulus_Elounda_Resort_Curio_Collection_by_Hilton-Elounda_Lasithi_Prefecture_Crete.html",
+      "search_query": "Domes Aulus Elounda Resort, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:09:25.491Z"
+    },
+    "Greece/Fira/Cosmopolitan-Suites": {
+      "tripadvisor_id": "g482942-d316656",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g482942-d316656-Reviews-Cosmopolitan_Suites-Fira_Santorini_Cyclades_South_Aegean.html",
+      "search_query": "Cosmopolitan Suites",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:09:31.644Z"
+    },
+    "Greece/Imerovigli/San-Antonio": {
+      "tripadvisor_id": "g635864-d1200838",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g635864-d1200838-Reviews-San_Antonio_Luxury_Hotel-Imerovigli_Santorini_Cyclades_South_Aegean.html",
+      "search_query": "San Antonio Imerovigli Greece",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:09:37.690Z"
+    },
+    "Greece/Kamari/Sandblu-Santorini-Lxr-Hotels--Resorts": {
+      "tripadvisor_id": "g658914-d27719344",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g658914-d27719344-Reviews-Sandblu_Santorini_LXR_Hotels_Resorts-Kamari_Santorini_Cyclades_South_Aegean.html",
+      "search_query": "Sandblu Santorini, LXR Hotels & Resorts",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:27:22.451Z"
+    },
+    "Greece/Lardos/Aulus-Lindos-Rhodes-Resort-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g776010-d572243",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g776010-d572243-Reviews-Aulus_Lindos_Rhodes_Resort_Curio_Collection_by_Hilton-Lardos_Rhodes_Dodecanese_South_Ae.html",
+      "search_query": "Aulus Lindos Rhodes Resort, Curio Collection by Hilton",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:27:28.404Z"
+    },
+    "Greece/Mykonos/Myconian-Villa-Collection": {
+      "tripadvisor_id": "g4327604-d3653923",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g4327604-d3653923-Reviews-Myconian_Villa_Collection-Elia_Mykonos_Cyclades_South_Aegean.html",
+      "search_query": "Myconian Villa Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:27:34.551Z"
+    },
+    "Greece/Mykonos/Mykonos-Blanc-Hotel": {
+      "tripadvisor_id": "g659660-d12226649",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g659660-d12226649-Reviews-Branco_Mykonos-Platys_Gialos_Mykonos_Cyclades_South_Aegean.html",
+      "search_query": "Mykonos Blanc Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:27:40.549Z"
+    },
+    "Greece/Mykonos/Mykonos-Riviera-Hotel--Spa": {
+      "tripadvisor_id": "g1192001-d14193444",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1192001-d14193444-Reviews-Mykonos_Riviera_Hotel_Spa-Tourlos_Mykonos_Cyclades_South_Aegean.html",
+      "search_query": "Mykonos Riviera Hotel & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:27:46.172Z"
+    },
+    "Greece/Mykonos/Omeon-Mykonos": {
+      "tripadvisor_id": "g805388-d25393263",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g805388-d25393263-Reviews-Omeon_Mykonos-Agios_Stefanos_Mykonos_Cyclades_South_Aegean.html",
+      "search_query": "OMEON Mykonos",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:27:52.044Z"
+    },
+    "Greece/Mykonos/Semeli-Coast-Mykonos-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189430-d27702879",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189430-d27702879-Reviews-Semeli_Coast_Mykonos_Curio_Collection_By_Hilton-Mykonos_Cyclades_South_Aegean.html",
+      "search_query": "Semeli Coast Mykonos, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:27:58.106Z"
+    },
+    "Greece/Naoussa/Avant-Mar": {
+      "tripadvisor_id": "g20957382-d25930571",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g20957382-d25930571-Reviews-Avant_Mar-Naousa_Paros_Cyclades_South_Aegean.html",
+      "search_query": "Avant Mar",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:03.951Z"
+    },
+    "Greece/Nea-Roda/Avaton-Luxury-Beach-Resort": {
+      "tripadvisor_id": "g3224056-d7980601",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g3224056-d7980601-Reviews-Avaton_Luxury_Beach_Resort_Relais_Chateaux-Nea_Roda_Mt_Athos_Peninsula_Halkidiki_Regi.html",
+      "search_query": "Avaton Luxury Beach Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:09.883Z"
+    },
+    "Greece/Oia/Canaves-Ena": {
+      "tripadvisor_id": "g482941-d228905",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g482941-d228905-Reviews-Canaves_Ena-Oia_Santorini_Cyclades_South_Aegean.html",
+      "search_query": "Canaves Ena",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:15.920Z"
+    },
+    "Greece/Oia/Domes-Novos-Santorini-Autograph-Collection": {
+      "tripadvisor_id": "g23329626-d27161249",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23329626-d27161249-Reviews-Domes_Novos_Santorini_Autograph_Collection-Tholos_Santorini_Cyclades_South_Aegean.html",
+      "search_query": "Domes Novos Santorini, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:21.911Z"
+    },
+    "Greece/Rethymnon/Grecotel-Luxme-White": {
+      "tripadvisor_id": "g11898603-d264587",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g11898603-d264587-Reviews-Grecotel_LUXME_White-Pigianos_Kampos_Rethymnon_Prefecture_Crete.html",
+      "search_query": "GRECOTEL LUXME WHITE",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:27.798Z"
+    },
+    "Greece/Rethymnon/The-Royal-Senses-Resort-Crete-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g1177810-d19865453",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1177810-d19865453-Reviews-The_Royal_Senses_Resort_Spa_Crete_Curio_Collection_by_Hilton-Panormos_Rethymnon_Pref.html",
+      "search_query": "The Royal Senses Resort Crete, Curio Collection by Hilton",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:28:33.737Z"
+    },
+    "Greece/Santorini/Sea-Breeze-Santorini-Beach-Resort-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g26295569-d23955731",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26295569-d23955731-Reviews-Sea_Breeze_Santorini_Beach_Resort_Curio_Collection_By_Hilton-Exomitis_Perivolos_San.html",
+      "search_query": "Sea Breeze Santorini Beach Resort, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:39.528Z"
+    },
+    "Greece/Vouliagmeni/Divani-Apollon-Palace--Thalasso": {
+      "tripadvisor_id": "g562635-d198933",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g562635-d198933-Reviews-Divani_Apollon_Palace_Thalasso-Vouliagmeni_East_Attica_Region_Attica.html",
+      "search_query": "Divani Apollon Palace & Thalasso",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:45.422Z"
+    },
+    "Greece/Zakynthos/Domes-Aulus-Zante-Autograph-Collection": {
+      "tripadvisor_id": "g15880752-d289262",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g15880752-d289262-Reviews-Domes_Aulus_Zante_Autograph_Collection-Pefkakia_Zakynthos_Ionian_Islands.html",
+      "search_query": "Domes Aulus Zante, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:28:51.478Z"
+    },
+    "Guanajuato-MX/San-Miguel-de-Allende/Hotel-Matilda": {
+      "tripadvisor_id": "g151932-d1898206",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g151932-d1898206-Reviews-Hotel_Matilda-San_Miguel_de_Allende_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Hotel Matilda",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:28:57.378Z"
+    },
+    "Guatemala/Antigua-Guatemala/Villa-Bokeh": {
+      "tripadvisor_id": "g295366-d23563464",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g295366-d23563464-Reviews-Villa_Bokeh-Antigua_Sacatepequez_Department.html",
+      "search_query": "Villa Bokeh",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:29:03.426Z"
+    },
+    "Guerrero-MX/Zihuatanejo/La-Casa-Que-Canta": {
+      "tripadvisor_id": "g150795-d152932",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150795-d152932-Reviews-La_Casa_Que_Canta-Zihuatanejo_Zihuatanejo_de_Azueta_Pacific_Coast.html",
+      "search_query": "La Casa Que Canta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:09.978Z"
+    },
+    "Hawaii-US/Honolulu/alohilani-Resort-Waikiki-Beach": {
+      "tripadvisor_id": "g60982-d87111",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d87111-Reviews-Alohilani_Resort_Waikiki_Beach-Honolulu_Oahu_Hawaii.html",
+      "search_query": "'Alohilani Resort Waikiki Beach",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:15.847Z"
+    },
+    "Hawaii-US/Honolulu/Halepuna-Waikiki-By-Halekulani": {
+      "tripadvisor_id": "g60982-d114026",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d114026-Reviews-Halepuna_Waikiki_by_Halekulani-Honolulu_Oahu_Hawaii.html",
+      "search_query": "Halepuna Waikiki by Halekulani",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:21.870Z"
+    },
+    "Hawaii-US/Honolulu/Outrigger-Reef-Waikiki-Beach-Resort": {
+      "tripadvisor_id": "g60982-d87052",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d87052-Reviews-OUTRIGGER_Reef_Waikiki_Beach_Resort-Honolulu_Oahu_Hawaii.html",
+      "search_query": "OUTRIGGER Reef Waikiki Beach Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:27.744Z"
+    },
+    "Hawaii-US/Honolulu/Prince-Waikiki": {
+      "tripadvisor_id": "g60982-d87011",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d87011-Reviews-Prince_Waikiki-Honolulu_Oahu_Hawaii.html",
+      "search_query": "Prince Waikiki",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:33.749Z"
+    },
+    "Hawaii-US/Honolulu/Wayfinder-Waikiki": {
+      "tripadvisor_id": "g60982-d87149",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60982-d87149-Reviews-Wayfinder_Waikiki-Honolulu_Oahu_Hawaii.html",
+      "search_query": "Wayfinder Waikiki",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:39.803Z"
+    },
+    "Hawaii-US/Koloa/Koa-Kea-Resort-On-Poipu-Beach": {
+      "tripadvisor_id": "g60625-d1027174",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60625-d1027174-Reviews-Ko_a_Kea_Resort_On_Poipu_Beach-Poipu_Koloa_Kauai_Hawaii.html",
+      "search_query": "Ko'a Kea Resort on Poipu Beach",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:45.402Z"
+    },
+    "Hawaii-US/Lahaina/Hyatt-Regency-Maui-Resort--Spa": {
+      "tripadvisor_id": "g60634-d101352",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60634-d101352-Reviews-Hyatt_Regency_Maui_Resort_And_Spa-Lahaina_Maui_Hawaii.html",
+      "search_query": "Hyatt Regency Maui Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:29:51.347Z"
+    },
+    "Hawaii-US/Lahaina/The-Westin-Maui-Resort--Spa": {
+      "tripadvisor_id": "g60634-d111849",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60634-d111849-Reviews-The_Westin_Maui_Resort_Spa_Ka_anapali-Lahaina_Maui_Hawaii.html",
+      "search_query": "The Westin Maui Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:29:57.221Z"
+    },
+    "Hawaii-US/Lihue/The-Royal-Sonesta-Kauai-Resort": {
+      "tripadvisor_id": "g60623-d114035",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60623-d114035-Reviews-The_Royal_Sonesta_Kaua_i_Resort_Lihue-Lihue_Kauai_Hawaii.html",
+      "search_query": "The Royal Sonesta Kauai Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-06T22:30:04.581Z"
+    },
+    "Hawaii-US/Waikoloa/Hilton-Waikoloa-Village": {
+      "tripadvisor_id": "g60608-d89980",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60608-d89980-Reviews-Hilton_Waikoloa_Village-Waikoloa_Kohala_Coast_Island_of_Hawaii_Hawaii.html",
+      "search_query": "Hilton Waikoloa Village",
+      "match_confidence": "high",
+      "matched_at": "2026-04-06T22:30:10.514Z"
+    },
+    "Hawaii-US/Wailea/Wailea-Beach-Resort---Marriott-Maui": {
+      "tripadvisor_id": "g609129-d89973",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g609129-d89973-Reviews-Wailea_Beach_Resort_Marriott_Maui-Wailea_Maui_Hawaii.html",
+      "search_query": "Wailea Beach Resort - Marriott, Maui",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:22:15.532Z"
+    },
+    "Hungary/Budapest/Dorothea-Hotel-Budapest-Autograph-Collection": {
+      "tripadvisor_id": "g274887-d26559807",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274887-d26559807-Reviews-Dorothea_Hotel_Budapest_Autograph_Collection-Budapest_Central_Hungary.html",
+      "search_query": "Dorothea Hotel, Budapest, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:22:21.503Z"
+    },
+    "Hungary/Budapest/Kempinski-Corvinus-Budapest": {
+      "tripadvisor_id": "g274887-d276384",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274887-d276384-Reviews-Kempinski_Hotel_Corvinus_Budapest-Budapest_Central_Hungary.html",
+      "search_query": "Kempinski Corvinus Budapest",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:22:27.379Z"
+    },
+    "Hungary/Budapest/Kimpton-Bem-Budapest": {
+      "tripadvisor_id": "g274887-d27786638",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274887-d27786638-Reviews-Kimpton_BEM_Budapest_by_IHG-Budapest_Central_Hungary.html",
+      "search_query": "Kimpton BEM Budapest",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:22:33.324Z"
+    },
+    "Hungary/Budapest/Mystery-Hotel-Budapest": {
+      "tripadvisor_id": "g274887-d15124757",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274887-d15124757-Reviews-Mystery_Hotel_Budapest_Preferred_Hotels_And_Resorts-Budapest_Central_Hungary.html",
+      "search_query": "Mystery Hotel Budapest",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:22:39.249Z"
+    },
+    "Iceland/Reykjavik/Iceland-Parliament-Hotel-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189970-d24836064",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189970-d24836064-Reviews-Iceland_Parliament_Hotel_Curio_Collection_by_Hilton-Reykjavik_Capital_Region.html",
+      "search_query": "Iceland Parliament Hotel, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:22:45.217Z"
+    },
+    "Idaho-US/Ketchum/Limelight-Hotel-Ketchum": {
+      "tripadvisor_id": "g35500-d10129261",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35500-d10129261-Reviews-Limelight_Ketchum-Ketchum_Idaho.html",
+      "search_query": "Limelight Hotel Ketchum",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:22:51.058Z"
+    },
+    "Idaho-US/Sun-Valley/Sun-Valley-Resort": {
+      "tripadvisor_id": "g35614-d266580",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35614-d266580-Reviews-Sun_Valley_Inn-Sun_Valley_Idaho.html",
+      "search_query": "Sun Valley Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:22:57.011Z"
+    },
+    "Illinois-US/Chicago/Canopy-By-Hilton-Chicago-Central-Loop": {
+      "tripadvisor_id": "g35805-d23574460",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d23574460-Reviews-Canopy_by_Hilton_Chicago_Central_Loop-Chicago_Illinois.html",
+      "search_query": "Canopy by Hilton Chicago Central Loop",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:03.310Z"
+    },
+    "Illinois-US/Chicago/Chicago-Athletic-Association": {
+      "tripadvisor_id": "g35805-d1164776",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d1164776-Reviews-Chicago_Athletic_Association_Hotel-Chicago_Illinois.html",
+      "search_query": "Chicago Athletic Association",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:09.285Z"
+    },
+    "Illinois-US/Chicago/Fairmont-Chicago-Millennium-Park": {
+      "tripadvisor_id": "g35805-d114577",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d114577-Reviews-Fairmont_Chicago_Millennium_Park-Chicago_Illinois.html",
+      "search_query": "Fairmont Chicago Millennium Park",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:15.136Z"
+    },
+    "Illinois-US/Chicago/Hotel-55-Chicago-Downtown": {
+      "tripadvisor_id": "g35805-d17240522",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d17240522-Reviews-Hotel_55_Chicago_Downtown-Chicago_Illinois.html",
+      "search_query": "Hotel 55 Chicago Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:21.037Z"
+    },
+    "Illinois-US/Chicago/Intercontinental-Chicago-Magnificent-Mile": {
+      "tripadvisor_id": "g35805-d87620",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d87620-Reviews-InterContinental_Chicago_Magnificent_Mile_an_IHG_hotel-Chicago_Illinois.html",
+      "search_query": "InterContinental Chicago Magnificent Mile",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:23:27.005Z"
+    },
+    "Illinois-US/Chicago/Kimpton-Gray-Hotel": {
+      "tripadvisor_id": "g35805-d9807749",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d9807749-Reviews-Kimpton_Gray_Hotel_by_IHG-Chicago_Illinois.html",
+      "search_query": "Kimpton Gray Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:32.755Z"
+    },
+    "Illinois-US/Chicago/L7-Chicago-By-Lotte": {
+      "tripadvisor_id": "g35805-d111492",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d111492-Reviews-L7_Chicago_by_LOTTE-Chicago_Illinois.html",
+      "search_query": "L7 Chicago by Lotte",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:38.680Z"
+    },
+    "Illinois-US/Chicago/Loews-Chicago-Downtown": {
+      "tripadvisor_id": "g35805-d7181129",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d7181129-Reviews-Loews_Chicago_Hotel-Chicago_Illinois.html",
+      "search_query": "Loews Chicago Downtown",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:23:44.631Z"
+    },
+    "Illinois-US/Chicago/Nobu-Hotel-Chicago": {
+      "tripadvisor_id": "g35805-d20951654",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d20951654-Reviews-Nobu_Hotel_Chicago-Chicago_Illinois.html",
+      "search_query": "Nobu Hotel Chicago",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:50.767Z"
+    },
+    "Illinois-US/Chicago/Sable-At-Navy-Pier-Chicago-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g35805-d21280367",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d21280367-Reviews-Sable_at_Navy_Pier_Chicago_Curio_Collection_by_Hilton-Chicago_Illinois.html",
+      "search_query": "Sable at Navy Pier Chicago, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:23:56.664Z"
+    },
+    "Illinois-US/Chicago/Sofitel-Chicago-Magnificent-Mile": {
+      "tripadvisor_id": "g35805-d236299",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d236299-Reviews-Sofitel_Chicago_Magnificent_Mile-Chicago_Illinois.html",
+      "search_query": "Sofitel Chicago Magnificent Mile",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:24:02.537Z"
+    },
+    "Illinois-US/Chicago/The-Gwen-a-Luxury-Collection-Hotel": {
+      "tripadvisor_id": "g35805-d217498",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d217498-Reviews-The_Gwen_A_Luxury_Collection_Hotel_Michigan_Avenue_Chicago-Chicago_Illinois.html",
+      "search_query": "The Gwen, a Luxury Collection Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:24:08.480Z"
+    },
+    "Illinois-US/Chicago/The-Hoxton-Chicago": {
+      "tripadvisor_id": "g35805-d16735403",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d16735403-Reviews-The_Hoxton_Chicago-Chicago_Illinois.html",
+      "search_query": "The Hoxton Chicago",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:24:14.413Z"
+    },
+    "Illinois-US/Chicago/The-Royal-Sonesta-Chicago-Downtown": {
+      "tripadvisor_id": "g35805-d87603",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d87603-Reviews-The_Royal_Sonesta_Chicago_Downtown-Chicago_Illinois.html",
+      "search_query": "The Royal Sonesta Chicago Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:24:20.273Z"
+    },
+    "Illinois-US/Chicago/Viceroy-Chicago": {
+      "tripadvisor_id": "g35805-d12548391",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d12548391-Reviews-Viceroy_Chicago-Chicago_Illinois.html",
+      "search_query": "Viceroy Chicago",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:24:26.207Z"
+    },
+    "India/Bambolim/Grand-Hyatt-Goa": {
+      "tripadvisor_id": "g12412660-d2163385",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12412660-d2163385-Reviews-Grand_Hyatt_Goa-North_Goa_District_Goa.html",
+      "search_query": "Grand Hyatt Goa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:24:32.104Z"
+    },
+    "India/Bengaluru/Itc-Gardenia-Bengaluru": {
+      "tripadvisor_id": "g297628-d1567342",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297628-d1567342-Reviews-ITC_Gardenia_a_Luxury_Collection_Hotel_Bengaluru-Bengaluru_Bangalore_District_Karnatak.html",
+      "search_query": "ITC Gardenia, Bengaluru",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:24:37.966Z"
+    },
+    "India/Bengaluru/Jw-Marriott-Bengaluru-Prestige-Golfshire-Resort-And-Spa": {
+      "tripadvisor_id": "g26732807-d23877913",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26732807-d23877913-Reviews-JW_Marriott_Bengaluru_Prestige_Golfshire_Resort_Spa-Kodalagurki_Bangalore_Rural_Dis.html",
+      "search_query": "JW Marriott Bengaluru Prestige Golfshire Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:24:44.002Z"
+    },
+    "India/Cansaulim/Itc-Grand-Goa-Resort--Spa": {
+      "tripadvisor_id": "g312681-d307512",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g312681-d307512-Reviews-ITC_Grand_Goa_a_Luxury_Collection_Resort_Spa_Goa-Cansaulim_South_Goa_District_Goa.html",
+      "search_query": "ITC Grand Goa Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:24:49.909Z"
+    },
+    "India/Coorg/Taj-Madikeri-Resort--Spa-Coorg": {
+      "tripadvisor_id": "g17605251-d3324104",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g17605251-d3324104-Reviews-Taj_Madikeri_Resort_Spa_Coorg-Monnangeri_Madikeri_Taluk_Kodagu_Coorg_Karnataka.html",
+      "search_query": "Taj Madikeri Resort & Spa, Coorg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:24:55.885Z"
+    },
+    "India/Hyderabad/Itc-Kohenur-Hyderabad": {
+      "tripadvisor_id": "g297586-d14008273",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297586-d14008273-Reviews-Itc_Kohenur_A_Luxury_Collection_Hotel_Hyderabad-Hyderabad_Hyderabad_District_Telangan.html",
+      "search_query": "ITC Kohenur Hyderabad",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:25:01.738Z"
+    },
+    "India/Kochi/Taj-Malabar-Resort--Spa": {
+      "tripadvisor_id": "g23201854-d304809",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23201854-d304809-Reviews-Taj_Malabar_Resort_Spa_Cochin-Willingdon_Island_Kochi_Cochin_Ernakulam_District_Keral.html",
+      "search_query": "Taj Malabar Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:25:07.682Z"
+    },
+    "India/Majorda/Alila-Diwa-Goa": {
+      "tripadvisor_id": "g1199433-d1553491",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1199433-d1553491-Reviews-or10-Alila_Diwa_Goa-Majorda_South_Goa_District_Goa.html",
+      "search_query": "Alila Diwa Goa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:38:43.545Z"
+    },
+    "India/Mumbai/Grand-Hyatt-Mumbai": {
+      "tripadvisor_id": "g304554-d307116",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g304554-d307116-Reviews-or1240-Grand_Hyatt_Mumbai_Hotel_Residences-Mumbai_Maharashtra.html",
+      "search_query": "Grand Hyatt Mumbai",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:38:49.564Z"
+    },
+    "India/Mumbai/Sofitel-Mumbai-Bkc": {
+      "tripadvisor_id": "g304554-d2048980",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g304554-d2048980-Reviews-or610-Sofitel_Mumbai_BKC-Mumbai_Maharashtra.html",
+      "search_query": "Sofitel Mumbai BKC",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:38:55.640Z"
+    },
+    "India/Narendra-Nagar/The-Westin-Resort-And-Spa-Himalayas": {
+      "tripadvisor_id": "g297690-d25049210",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297690-d25049210-Reviews-The_Westin_Resort_Spa_Himalayas-Narendranagar_Tehri_Garhwal_District_Uttarakhand.html",
+      "search_query": "The Westin Resort and Spa Himalayas",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:39:01.729Z"
+    },
+    "India/New-Delhi/Shangri-la-Eros-New-Delhi": {
+      "tripadvisor_id": "g304551-d578527",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g304551-d578527-Reviews-Shangri_La_Eros_New_Delhi-New_Delhi_National_Capital_Territory_of_Delhi.html",
+      "search_query": "Shangri-La Eros, New Delhi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:07.903Z"
+    },
+    "Indiana-US/Indianapolis/Intercontinental-Indianapolis": {
+      "tripadvisor_id": "g37209-d27942370",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g37209-d27942370-Reviews-InterContinental_Indianapolis_by_IHG-Indianapolis_Indiana.html",
+      "search_query": "InterContinental Indianapolis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:13.688Z"
+    },
+    "Indonesia/Badung/The-Laguna-a-Luxury-Collection-Resort--Spa-Bali": {
+      "tripadvisor_id": "g297698-d301787",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297698-d301787-Reviews-The_Laguna_a_Luxury_Collection_Resort_Spa_Nusa_Dua_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+      "search_query": "The Laguna, a Luxury Collection Resort & Spa, Bali",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:39:19.700Z"
+    },
+    "Indonesia/Bintan/Hotel-Indigo-Bintan-Lagoi-Beach": {
+      "tripadvisor_id": "g1096248-d27513271",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1096248-d27513271-Reviews-Hotel_Indigo_Bintan_Lagoi_Beach_By_IHG-Lagoi_Bintan_Island_Bintan_Regency_Riau_Archi.html",
+      "search_query": "Hotel Indigo Bintan Lagoi Beach",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:25.680Z"
+    },
+    "Indonesia/Jakarta/Fairmont-Jakarta": {
+      "tripadvisor_id": "g294229-d7182851",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294229-d7182851-Reviews-Fairmont_Jakarta-Jakarta_Java.html",
+      "search_query": "Fairmont Jakarta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:31.558Z"
+    },
+    "Indonesia/Jakarta/Grand-Hyatt-Jakarta": {
+      "tripadvisor_id": "g294229-d307132",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294229-d307132-Reviews-Grand_Hyatt_Jakarta-Jakarta_Java.html",
+      "search_query": "Grand Hyatt Jakarta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:37.538Z"
+    },
+    "Indonesia/Seminyak/Hotel-Indigo-Bali-Seminyak-Beach": {
+      "tripadvisor_id": "g469404-d9595791",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g469404-d9595791-Reviews-Hotel_Indigo_Bali_Seminyak_Beach_By_IHG-Seminyak_Kuta_District_Bali.html",
+      "search_query": "Hotel Indigo Bali Seminyak Beach",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:43.598Z"
+    },
+    "Indonesia/Seminyak/W-Bali-Seminyak": {
+      "tripadvisor_id": "g13356179-d1456498",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g13356179-d1456498-Reviews-or2770-W_Bali_Seminyak-Kerobokan_Kelod_North_Kuta_Bali.html",
+      "search_query": "W Bali Seminyak",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:49.782Z"
+    },
+    "Indonesia/Tanjung-Benoa/Conrad-Bali": {
+      "tripadvisor_id": "g297698-d320013",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297698-d320013-Reviews-or1690-Conrad_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+      "search_query": "Conrad Bali",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:39:55.717Z"
+    },
+    "Indonesia/Ubud/Como-Uma-Ubud": {
+      "tripadvisor_id": "g1933359-d506292",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1933359-d506292-Reviews-COMO_Uma_Ubud_Bali-Kedewatan_Ubud_Gianyar_Regency_Bali.html",
+      "search_query": "COMO Uma Ubud",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:01.616Z"
+    },
+    "Indonesia/Ubud/Gdas-Bali-Health--Wellness-Resort": {
+      "tripadvisor_id": "g297701-d23721693",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297701-d23721693-Reviews-Gdas_Bali_Health_And_Wellness_Resort-Ubud_Gianyar_Regency_Bali.html",
+      "search_query": "Gdas Bali Health & Wellness Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:40:07.547Z"
+    },
+    "Indonesia/Ubud/Viceroy-Bali": {
+      "tripadvisor_id": "g297701-d603335",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297701-d603335-Reviews-Viceroy_Bali-Ubud_Gianyar_Regency_Bali.html",
+      "search_query": "Viceroy Bali",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:13.402Z"
+    },
+    "Iowa-US/Des-Moines/Surety-Hotel-Des-Moines-Autograph-Collection": {
+      "tripadvisor_id": "g37835-d19973605",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g37835-d19973605-Reviews-Surety_Hotel-Des_Moines_Iowa.html",
+      "search_query": "Surety Hotel Des Moines, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:40:19.343Z"
+    },
+    "Ireland/Cashel/Cashel-Palace-Hotel": {
+      "tripadvisor_id": "g212096-d23253307",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g212096-d23253307-Reviews-Cashel_Palace_Hotel-Cashel_County_Tipperary.html",
+      "search_query": "Cashel Palace Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:25.202Z"
+    },
+    "Ireland/Dublin/Intercontinental-Dublin": {
+      "tripadvisor_id": "g186605-d212658",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g186605-d212658-Reviews-or2395-Intercontinental_Dublin_An_Ihg_Hotel-Dublin_County_Dublin.html",
+      "search_query": "InterContinental Dublin",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:31.045Z"
+    },
+    "Ireland/Galway/Glenlo-Abbey-Hotel--Estate": {
+      "tripadvisor_id": "g1096597-d212831",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1096597-d212831-Reviews-Glenlo_Abbey_Hotel_Estate-Bushypark_Galway_County_Galway_Western_Ireland.html",
+      "search_query": "Glenlo Abbey Hotel & Estate",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:37.055Z"
+    },
+    "Israel/Haifa/Dan-Carmel": {
+      "tripadvisor_id": "g293982-d305649",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293982-d305649-Reviews-Dan_Carmel_Haifa-Haifa_Haifa_District.html",
+      "search_query": "Dan Carmel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:42.935Z"
+    },
+    "Israel/Tel-Aviv/Elkonin-Tel-Aviv-Hotel---Mgallery-Collection": {
+      "tripadvisor_id": "g293984-d24043481",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293984-d24043481-Reviews-Elkonin_Tel_Aviv_Hotel_MGallery_Collection-Tel_Aviv_Tel_Aviv_District.html",
+      "search_query": "Elkonin Tel Aviv Hotel - MGallery Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:48.728Z"
+    },
+    "Israel/Tel-Aviv/Hilton-Tel-Aviv": {
+      "tripadvisor_id": "g293984-d301944",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293984-d301944-Reviews-Hilton_Tel_Aviv-Tel_Aviv_Tel_Aviv_District.html",
+      "search_query": "Hilton Tel Aviv",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:40:54.595Z"
+    },
+    "Israel/Tel-Aviv/The-Drisco": {
+      "tripadvisor_id": "g297749-d12828328",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g297749-d12828328-Reviews-The_Drisco_Hotel_Tel_Aviv-Jaffa_Tel_Aviv_Tel_Aviv_District.html",
+      "search_query": "The Drisco",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:41:00.464Z"
+    },
+    "Italy/Alassio/Villa-Della-Pergola": {
+      "tripadvisor_id": "g194663-d305261",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194663-d305261-Reviews-Villa_Della_Pergola_Relais_Chateaux-Alassio_Italian_Riviera_Liguria.html",
+      "search_query": "Villa della Pergola",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:41:06.425Z"
+    },
+    "Italy/Anacapri/Hotel-Caesar-Augustus": {
+      "tripadvisor_id": "g488299-d202929",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g488299-d202929-Reviews-Caesar_Augustus_Hotel-Anacapri_Island_of_Capri_Province_of_Naples_Campania.html",
+      "search_query": "Hotel Caesar Augustus",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:41:12.408Z"
+    },
+    "Italy/Artimino/Tenuta-Di-Artimino": {
+      "tripadvisor_id": "g644270-d259984",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g644270-d259984-Reviews-Hotel_Tenuta_di_Artimino_Melia_Collection-Artimino_Carmignano_Province_of_Prato_Tuscany.html",
+      "search_query": "Tenuta di Artimino",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:41:18.466Z"
+    },
+    "Italy/Arzachena/Romazzino-A-Belmond-Hotel-Costa-Smerlda": {
+      "tripadvisor_id": "g23962141-d250799",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23962141-d250799-Reviews-Romazzino_A_Belmond_Hotel_Costa_Smeralda-Romazzino_Arzachena_Province_of_Olbia_Tempio.html",
+      "search_query": "Romazzino, A Belmond Hotel, Costa Smerlda",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T03:41:24.355Z"
+    },
+    "Italy/Avelengo/Miramonti-Boutique-Hotel": {
+      "tripadvisor_id": "g1184636-d567545",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1184636-d567545-Reviews-Miramonti_Boutique_Hotel-Avelengo_Province_of_South_Tyrol_Trentino_Alto_Adige.html",
+      "search_query": "Miramonti Boutique Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:41:30.311Z"
+    },
+    "Italy/Bologna/Hotel-Corona-Doro-1890": {
+      "tripadvisor_id": "g187801-d230509",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187801-d230509-Reviews-Hotel_Corona_d_Oro_1890-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+      "search_query": "Hotel Corona d'Oro 1890",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T03:41:36.258Z"
+    },
+    "Italy/Cagliari/Palazzo-Tirso-Cagliari-Mgallery": {
+      "tripadvisor_id": "g187881-d24137063",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187881-d24137063-Reviews-Palazzo_Tirso_Cagliari_Mgallery-Cagliari_Province_of_Cagliari_Sardinia.html",
+      "search_query": "Palazzo Tirso Cagliari MGallery",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:01.939Z"
+    },
+    "Italy/Capalbio/Locanda-Rossa": {
+      "tripadvisor_id": "g12196920-d1878398",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12196920-d1878398-Reviews-Locanda_Rossa-Pescia_Fiorentina_Capalbio_Province_of_Grosseto_Tuscany.html",
+      "search_query": "Locanda Rossa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:08.126Z"
+    },
+    "Italy/Capri/Capri-Tiberio-Palace": {
+      "tripadvisor_id": "g2467724-d575916",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2467724-d575916-Reviews-Capri_Tiberio_Palace-Province_of_Naples_Capri.html",
+      "search_query": "Capri Tiberio Palace",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:25:14.066Z"
+    },
+    "Italy/Capri/Villa-Marina-Capri-Hotel--Spa": {
+      "tripadvisor_id": "g187783-d1163332",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187783-d1163332-Reviews-Villa_Marina_Capri_Hotel-Capri_Island_of_Capri_Province_of_Naples_Campania.html",
+      "search_query": "Villa Marina Capri Hotel & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:25:19.728Z"
+    },
+    "Italy/Como/Hilton-Lake-Como": {
+      "tripadvisor_id": "g187835-d12145622",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187835-d12145622-Reviews-Hilton_Lake_Como-Como_Lake_Como_Lombardy.html",
+      "search_query": "Hilton Lake Como",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:25.695Z"
+    },
+    "Italy/Cortona/Villa-Di-Piazzano": {
+      "tripadvisor_id": "g12559247-d1580092",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g12559247-d1580092-Reviews-Hotel_Villa_Di_Piazzano-Piazzano_Tuoro_sul_Trasimeno_Province_of_Perugia_Umbria.html",
+      "search_query": "Villa di Piazzano",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:31.588Z"
+    },
+    "Italy/Fasano/Masseria-Torre-Coccaro": {
+      "tripadvisor_id": "g1575039-d278339",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1575039-d278339-Reviews-Masseria_Torre_Coccaro-Savelletri_Fasano_Province_of_Brindisi_Puglia.html",
+      "search_query": "Masseria Torre Coccaro",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:37.579Z"
+    },
+    "Italy/Florence/Anglo-American-Hotel-Florence-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g187895-d232980",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187895-d232980-Reviews-Anglo_American_Hotel_Florence_Curio_Collection_By_Hilton-Florence_Tuscany.html",
+      "search_query": "Anglo American Hotel Florence, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:43.533Z"
+    },
+    "Italy/Florence/Grand-Hotel-Minerva": {
+      "tripadvisor_id": "g187895-d230720",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187895-d230720-Reviews-Grand_Hotel_Minerva-Florence_Tuscany.html",
+      "search_query": "Grand Hotel Minerva",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:25:49.488Z"
+    },
+    "Italy/Florence/Hotel-Regency-Firenze": {
+      "tripadvisor_id": "g187895-d191161",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187895-d191161-Reviews-Hotel_Regency-Florence_Tuscany.html",
+      "search_query": "Hotel Regency, Firenze",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:25:55.459Z"
+    },
+    "Italy/Florence/Nh-Collection-Firenze-Porta-Rossa": {
+      "tripadvisor_id": "g187895-d232963",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187895-d232963-Reviews-NH_Collection_Firenze_Porta_Rossa-Florence_Tuscany.html",
+      "search_query": "NH Collection Firenze Porta Rossa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:01.486Z"
+    },
+    "Italy/Florence/Tivoli-Palazzo-Gaddi": {
+      "tripadvisor_id": "g187895-d229063",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187895-d229063-Reviews-Tivoli_Palazzo_Gaddi_Firenze_Hotel-Florence_Tuscany.html",
+      "search_query": "Tivoli Palazzo Gaddi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:07.397Z"
+    },
+    "Italy/Follonica/The-Sense-Experience-Resort": {
+      "tripadvisor_id": "g194764-d15565598",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194764-d15565598-Reviews-The_Sense_Experience_Resort-Follonica_Province_of_Grosseto_Tuscany.html",
+      "search_query": "The Sense Experience Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:13.346Z"
+    },
+    "Italy/Lacco-Ameno/San-Montano-Resort--Spa": {
+      "tripadvisor_id": "g580213-d253965",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580213-d253965-Reviews-San_Montano_Resort_Spa-Lacco_Ameno_Isola_d_Ischia_Province_of_Naples_Campania.html",
+      "search_query": "San Montano Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:19.281Z"
+    },
+    "Italy/Lagundo/Avidea": {
+      "tripadvisor_id": "g1079897-d2092815",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1079897-d2092815-Reviews-Hotel_Avidea-Lagundo_Province_of_South_Tyrol_Trentino_Alto_Adige.html",
+      "search_query": "Avidea",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:25.151Z"
+    },
+    "Italy/Malcesine/Hotel-Val-Di-Sogno": {
+      "tripadvisor_id": "g194807-d237894",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194807-d237894-Reviews-Hotel_Val_di_Sogno-Malcesine_Province_of_Verona_Veneto.html",
+      "search_query": "Hotel Val di Sogno",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:31.013Z"
+    },
+    "Italy/Merano/Castel-Fragsburg": {
+      "tripadvisor_id": "g187860-d238042",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187860-d238042-Reviews-Relais_Chateaux_Hotel_Castel_Fragsburg-Merano_Province_of_South_Tyrol_Trentino_Alto_Adi.html",
+      "search_query": "Castel Fragsburg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:36.956Z"
+    },
+    "Italy/Milan/Aethos-Milan": {
+      "tripadvisor_id": "g187849-d2254113",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d2254113-Reviews-Aethos_Milan-Milan_Lombardy.html",
+      "search_query": "Aethos Milan",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:42.958Z"
+    },
+    "Italy/Milan/Hotel-Viu-Milan": {
+      "tripadvisor_id": "g187849-d12199274",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d12199274-Reviews-Hotel_Viu_Milan-Milan_Lombardy.html",
+      "search_query": "Hotel VIU Milan",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:26:48.873Z"
+    },
+    "Italy/Milan/Me-Milan-Ii-Duca": {
+      "tripadvisor_id": "g187849-d238252",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d238252-Reviews-ME_Milan_Il_Duca-Milan_Lombardy.html",
+      "search_query": "ME Milan II Duca",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:26:54.792Z"
+    },
+    "Italy/Milan/Nemi-Hotel-Milano": {
+      "tripadvisor_id": "g187849-d32893817",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d32893817-Reviews-Nemi_Hotel_Milano-Milan_Lombardy.html",
+      "search_query": "NEMI Hotel Milano",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:00.771Z"
+    },
+    "Italy/Milan/Palazzo-Touring-Club-Milan-a-Radisson-Collection-Hotel": {
+      "tripadvisor_id": "g187849-d23337771",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d23337771-Reviews-Palazzo_Touring_Club_Milan_A_Radisson_Collection_Hotel-Milan_Lombardy.html",
+      "search_query": "Palazzo Touring Club Milan, a Radisson Collection Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:06.865Z"
+    },
+    "Italy/Milan/Straf-Hotel": {
+      "tripadvisor_id": "g187849-d291686",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d291686-Reviews-STRAFhotel_bar-Milan_Lombardy.html",
+      "search_query": "STRAF Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:27:12.754Z"
+    },
+    "Italy/Milan/Tivoli-President-Milano-Hotel": {
+      "tripadvisor_id": "g187849-d202857",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187849-d202857-Reviews-Tivoli_President_Milano_Hotel-Milan_Lombardy.html",
+      "search_query": "Tivoli President Milano Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:19.358Z"
+    },
+    "Italy/Monastero-Bormida/Villa-La-Madonna": {
+      "tripadvisor_id": "g2393857-d10131160",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2393857-d10131160-Reviews-Villa_La_Madonna-Monastero_Bormida_Province_of_Asti_Piedmont.html",
+      "search_query": "Villa La Madonna",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:25.523Z"
+    },
+    "Italy/Montignoso/Il-Bottaccio-Relais--Chateaux": {
+      "tripadvisor_id": "g1186323-d247535",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1186323-d247535-Reviews-Relais_Chateaux_Il_Bottaccio-Montignoso_Province_of_Massa_Carrara_Tuscany.html",
+      "search_query": "Il Bottaccio, Relais & Châteaux",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:31.493Z"
+    },
+    "Italy/Naples/De-Bonart-Naples-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g187785-d20008047",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187785-d20008047-Reviews-De_Bonart_Naples_Curio_Collection_by_Hilton-Naples_Province_of_Naples_Campania.html",
+      "search_query": "de Bonart Naples, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:37.970Z"
+    },
+    "Italy/Naples/Grand-Hotel-Parkers": {
+      "tripadvisor_id": "g187785-d195633",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187785-d195633-Reviews-Grand_Hotel_Parker_s-Naples_Province_of_Naples_Campania.html",
+      "search_query": "Grand Hotel Parker's",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:43.837Z"
+    },
+    "Italy/Naples/Romeo-Napoli": {
+      "tripadvisor_id": "g187785-d1226645",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187785-d1226645-Reviews-Romeo_Napoli-Naples_Province_of_Naples_Campania.html",
+      "search_query": "ROMEO Napoli",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:49.861Z"
     }
   }
 }

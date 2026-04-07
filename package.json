@@ -33,7 +33,10 @@
     "crawl:hilton-brands": "node scripts/crawl-hilton-brands.mjs",
     "sync:hotels": "node scripts/sync-hotels.mjs",
     "sync:prices": "node scripts/sync-prices.mjs",
-    "sync:google-sheet": "node scripts/sync-google-sheet.mjs"
+    "sync:google-sheet": "node scripts/sync-google-sheet.mjs",
+    "pipeline:stage2:forum-scrape": "node data-pipeline/2-enrichment/forum-reviews/scrape.mjs",
+    "pipeline:stage2:forum-process": "node data-pipeline/2-enrichment/forum-reviews/process.mjs",
+    "pipeline:stage2:forum-export": "node data-pipeline/2-enrichment/forum-reviews/export.mjs"
   },
   "dependencies": {
     "camoufox-js": "^0.9.3",
