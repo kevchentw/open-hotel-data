@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_thc",
-    "generated_at": "2026-04-07T04:27:49.861Z",
-    "record_count": 658,
-    "matched_count": 657,
+    "generated_at": "2026-04-07T13:43:20.326Z",
+    "record_count": 741,
+    "matched_count": 740,
     "unmatched_count": 1
   },
   "matches": {
@@ -3874,7 +3874,7 @@
       "tripadvisor_url": "",
       "search_query": "InterContinental Berlin",
       "match_confidence": "none",
-      "matched_at": "2026-04-06T22:06:51.997Z"
+      "matched_at": "2026-04-07T13:03:42.038Z"
     },
     "Germany/Berlin/Soho-House-Berlin": {
       "tripadvisor_id": "g187323-d1776962",
@@ -4883,6 +4883,587 @@
       "search_query": "ROMEO Napoli",
       "match_confidence": "high",
       "matched_at": "2026-04-07T04:27:49.861Z"
+    },
+    "Italy/Orta-San-Giulio/Villa-Crespi": {
+      "tripadvisor_id": "g187854-d231279",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187854-d231279-Reviews-Villa_Crespi-Orta_San_Giulio_Province_of_Novara_Piedmont.html",
+      "search_query": "Villa Crespi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:27:55.970Z"
+    },
+    "Italy/Pettenasco/Laqua-By-The-Lake": {
+      "tripadvisor_id": "g226915-d23419095",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g226915-d23419095-Reviews-Laqua_by_the_Lake-Pettenasco_Province_of_Novara_Piedmont.html",
+      "search_query": "Laqua by the Lake",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:12.420Z"
+    },
+    "Italy/Porto-Ercole/La-Roqqa": {
+      "tripadvisor_id": "g194857-d26469395",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194857-d26469395-Reviews-La_Roqqa-Porto_Ercole_Monte_Argentario_Province_of_Grosseto_Tuscany.html",
+      "search_query": "La Roqqa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:18.458Z"
+    },
+    "Italy/Porto-Rotondo/Sulia-House-Porto-Rotondo-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g608916-d1799793",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g608916-d1799793-Reviews-Sulia_House_Porto_Rotondo_Curio_Collection_By_Hilton-Porto_Rotondo_Province_of_Olbia_T.html",
+      "search_query": "Sulia House Porto Rotondo, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:24.488Z"
+    },
+    "Italy/Portovenere/Grand-Hotel-Portovenere": {
+      "tripadvisor_id": "g194862-d233345",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194862-d233345-Reviews-Grand_Hotel_Portovenere-Porto_Venere_Italian_Riviera_Liguria.html",
+      "search_query": "Grand Hotel Portovenere",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:30.330Z"
+    },
+    "Italy/Rapallo/Grand-Hotel-Bristol-Spa-Resort": {
+      "tripadvisor_id": "g187826-d233344",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187826-d233344-Reviews-Grand_Hotel_Bristol_Spa_Resort-Rapallo_Italian_Riviera_Liguria.html",
+      "search_query": "Grand Hotel Bristol Spa Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:36.242Z"
+    },
+    "Italy/Rome/Aleph-Rome-Hotel-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g187791-d270031",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d270031-Reviews-Aleph_Rome_Hotel_Curio_Collection_by_Hilton-Rome_Lazio.html",
+      "search_query": "Aleph Rome Hotel, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:42.299Z"
+    },
+    "Italy/Rome/Hotel-Lord-Byron-Roma": {
+      "tripadvisor_id": "g187791-d203143",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d203143-Reviews-Hotel_Lord_Byron-Rome_Lazio.html",
+      "search_query": "Hotel Lord Byron, Roma",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:42:48.219Z"
+    },
+    "Italy/Rome/Hotel-Raphael": {
+      "tripadvisor_id": "g187791-d203083",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d203083-Reviews-Bio_Hotel_Raphael_Relais_Chateaux-Rome_Lazio.html",
+      "search_query": "Hotel Raphael",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:42:54.163Z"
+    },
+    "Italy/Rome/Hotel-Splendide-Royal-Roma": {
+      "tripadvisor_id": "g187791-d229036",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d229036-Reviews-Hotel_Splendide_Royal-Rome_Lazio.html",
+      "search_query": "Hotel Splendide Royal Roma",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:43:00.344Z"
+    },
+    "Italy/Rome/Maalot-Roma": {
+      "tripadvisor_id": "g187791-d23681270",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d23681270-Reviews-Maalot_Roma_Small_Luxury_Hotels_Of_The_World-Rome_Lazio.html",
+      "search_query": "Maalot Roma",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:43:06.339Z"
+    },
+    "Italy/Rome/Nh-Collection-Fori-Imperiali": {
+      "tripadvisor_id": "g187791-d17506625",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d17506625-Reviews-NH_Collection_Roma_Fori_Imperiali-Rome_Lazio.html",
+      "search_query": "NH Collection Fori Imperiali",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:43:12.298Z"
+    },
+    "Italy/Rome/Nh-Collection-Roma-Giustiniano": {
+      "tripadvisor_id": "g187791-d1178206",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d1178206-Reviews-NH_Collection_Roma_Giustiniano-Rome_Lazio.html",
+      "search_query": "NH Collection Roma Giustiniano",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:43:18.260Z"
+    },
+    "Italy/Rome/Nh-Collection-Rome-Palazzo-Cinquecento": {
+      "tripadvisor_id": "g187791-d8865999",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d8865999-Reviews-NH_Collection_Roma_Palazzo_Cinquecento-Rome_Lazio.html",
+      "search_query": "NH Collection Rome Palazzo Cinquecento",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:43:24.509Z"
+    },
+    "Italy/Rome/Parco-Dei-Principi-Grand-Hotel--Spa-Roma": {
+      "tripadvisor_id": "g187791-d203141",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d203141-Reviews-Parco_dei_Principi_Grand_Hotel_SPA-Rome_Lazio.html",
+      "search_query": "Parco dei Principi Grand Hotel & Spa Roma",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:43:30.630Z"
+    },
+    "Italy/Rome/Sofitel-Rome-Villa-Borghese": {
+      "tripadvisor_id": "g187791-d229019",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d229019-Reviews-Sofitel_Roma_Villa_Borghese-Rome_Lazio.html",
+      "search_query": "Sofitel Rome Villa Borghese",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:43:36.451Z"
+    },
+    "Italy/Rome/The-First-Dolce": {
+      "tripadvisor_id": "g187791-d15327157",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d15327157-Reviews-The_First_Roma_Dolce-Rome_Lazio.html",
+      "search_query": "The First Dolce",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T04:43:42.389Z"
+    },
+    "Italy/Rome/The-First-Musica": {
+      "tripadvisor_id": "g187791-d24877982",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d24877982-Reviews-The_First_Musica-Rome_Lazio.html",
+      "search_query": "The First Musica",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:43:48.331Z"
+    },
+    "Italy/Rome/The-Hoxton-Rome": {
+      "tripadvisor_id": "g187791-d230556",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d230556-Reviews-or10-The_Hoxton_Rome-Rome_Lazio.html",
+      "search_query": "The Hoxton Rome",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:43:54.396Z"
+    },
+    "Italy/Rome/The-Tribune-Hotel": {
+      "tripadvisor_id": "g187791-d10314238",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187791-d10314238-Reviews-The_Tribune_Hotel-Rome_Lazio.html",
+      "search_query": "The Tribune Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:44:00.709Z"
+    },
+    "Italy/San-Casciano-dei-Bagni/Fonteverde-Lifestyle--Thermal-Retreat": {
+      "tripadvisor_id": "g642190-d278276",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g642190-d278276-Reviews-Fonteverde_Lifestyle_Thermal_Retreat_Tuscany-San_Casciano_dei_Bagni_Tuscany.html",
+      "search_query": "Fonteverde Lifestyle & Thermal Retreat",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:44:06.685Z"
+    },
+    "Italy/Sanremo/Royal-Hotel-Sanremo": {
+      "tripadvisor_id": "g194900-d228983",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194900-d228983-Reviews-Royal_Hotel_Sanremo-Sanremo_Italian_Riviera_Liguria.html",
+      "search_query": "Royal Hotel Sanremo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:44:12.719Z"
+    },
+    "Italy/Sant'Agnello/Hotel-Mediterraneo-Sorrento": {
+      "tripadvisor_id": "g194907-d622826",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g194907-d622826-Reviews-Hotel_Mediterraneo_Sorrento-Sant_Agnello_Province_of_Naples_Campania.html",
+      "search_query": "Hotel Mediterraneo Sorrento",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:44:18.576Z"
+    },
+    "Italy/Santa-Margherita-Ligure/Grand-Hotel-Miramare": {
+      "tripadvisor_id": "g187827-d202959",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187827-d202959-Reviews-Grand_Hotel_Miramare-Santa_Margherita_Ligure_Italian_Riviera_Liguria.html",
+      "search_query": "Grand Hotel Miramare",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:44:24.709Z"
+    },
+    "Italy/Siracusa/Ortea-Palace-Hotel-Sicily---Autograph-Collection": {
+      "tripadvisor_id": "g187891-d12209526",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187891-d12209526-Reviews-Ortea_Palace_Hotel_Sicily_Autograph_Collection-Syracuse_Province_of_Syracuse_Sicily.html",
+      "search_query": "Ortea Palace Hotel, Sicily - Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T04:44:31.446Z"
+    },
+    "Italy/Sorrento/Hotel-Belair": {
+      "tripadvisor_id": "g187782-d278313",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187782-d278313-Reviews-Hotel_Belair_Sorrento-Sorrento_Province_of_Naples_Campania.html",
+      "search_query": "Hotel Belair",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:35:16.201Z"
+    },
+    "Italy/Sorrento/Hotel-Paro-Dei-Principi-Sorrento": {
+      "tripadvisor_id": "g187782-d202923",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187782-d202923-Reviews-Parco_dei_Principi-Sorrento_Province_of_Naples_Campania.html",
+      "search_query": "Hotel Paro dei Principi Sorrento",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:35:22.309Z"
+    },
+    "Italy/Taormina/Grand-Hotel-San-Pietro-Taormina": {
+      "tripadvisor_id": "g187892-d576446",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187892-d576446-Reviews-Grand_Hotel_San_Pietro-Taormina_Province_of_Messina_Sicily.html",
+      "search_query": "Grand Hotel San Pietro Taormina",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:35:28.325Z"
+    },
+    "Italy/Taormina/Nh-Collection-Taormina": {
+      "tripadvisor_id": "g187892-d1474541",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187892-d1474541-Reviews-NH_Collection_Taormina-Taormina_Province_of_Messina_Sicily.html",
+      "search_query": "NH Collection Taormina",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:35:34.406Z"
+    },
+    "Italy/Vagliagli/Borgo-Scopeto-Wine--Country-Relais": {
+      "tripadvisor_id": "g668215-d576078",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g668215-d576078-Reviews-Borgo_Scopeto_Wine_Country_Relais-Vagliagli_Castelnuovo_Berardenga_Tuscany.html",
+      "search_query": "Borgo Scopeto Wine & Country Relais",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:35:40.426Z"
+    },
+    "Italy/Venice/Hilton-Molino-Stucky-Venice": {
+      "tripadvisor_id": "g187870-d613798",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d613798-Reviews-Hilton_Molino_Stucky_Venice-Venice_Veneto.html",
+      "search_query": "Hilton Molino Stucky Venice",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:35:46.378Z"
+    },
+    "Italy/Venice/Hyatt-Centric-Murano-Venice": {
+      "tripadvisor_id": "g681249-d4064587",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g681249-d4064587-Reviews-Hyatt_Centric_Murano_Venice-Murano_Veneto.html",
+      "search_query": "Hyatt Centric Murano Venice",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:35:52.392Z"
+    },
+    "Italy/Venice/Il-Palazzo-Experimental": {
+      "tripadvisor_id": "g187870-d17385839",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d17385839-Reviews-Il_Palazzo_Experimental-Venice_Veneto.html",
+      "search_query": "IL Palazzo Experimental",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:35:58.370Z"
+    },
+    "Italy/Venice/Metropole-Hotel-Venice": {
+      "tripadvisor_id": "g187870-d228963",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d228963-Reviews-Hotel_Metropole-Venice_Veneto.html",
+      "search_query": "Metropole Hotel, Venice",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:36:04.313Z"
+    },
+    "Italy/Venice/Nh-Collection-Murano-Villa": {
+      "tripadvisor_id": "g681249-d20047169",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g681249-d20047169-Reviews-NH_Collection_Venezia_Murano_Villa-Murano_Veneto.html",
+      "search_query": "NH Collection Murano Villa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:36:10.045Z"
+    },
+    "Italy/Venice/Nh-Collection-Venice-Grand-Hotel-Palazzo-Dei-Dogi": {
+      "tripadvisor_id": "g187870-d229009",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d229009-Reviews-NH_Collection_Venezia_Grand_Hotel_Palazzo_dei_Dogi-Venice_Veneto.html",
+      "search_query": "NH Collection Venice Grand Hotel Palazzo Dei Dogi",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:36:15.921Z"
+    },
+    "Italy/Venice/Palazzo-Nani-Venice-a-Radisson-Collection-Hotel": {
+      "tripadvisor_id": "g187870-d23372191",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d23372191-Reviews-Radisson_Collection_Hotel_Palazzo_Nani_Venice-Venice_Veneto.html",
+      "search_query": "Palazzo Nani Venice, a Radisson Collection Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:36:21.750Z"
+    },
+    "Italy/Venice/Sina-Centurion-Palace": {
+      "tripadvisor_id": "g187870-d1158623",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d1158623-Reviews-Sina_Centurion_Palace-Venice_Veneto.html",
+      "search_query": "Sina Centurion Palace",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:36:27.738Z"
+    },
+    "Italy/Verona/Due-Torri-Hotel": {
+      "tripadvisor_id": "g187871-d229041",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187871-d229041-Reviews-Due_Torri_Hotel-Verona_Province_of_Verona_Veneto.html",
+      "search_query": "Due Torri Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:36:33.807Z"
+    },
+    "Italy/Verona/Nh-Collection-Palazzo-Verona": {
+      "tripadvisor_id": "g187871-d19415319",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187871-d19415319-Reviews-NH_Collection_Palazzo_Verona-Verona_Province_of_Verona_Veneto.html",
+      "search_query": "NH Collection Palazzo Verona",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:36:39.836Z"
+    },
+    "Jalisco-MX/Guadalajara/Hilton-Guadalajara-Midtown": {
+      "tripadvisor_id": "g150798-d15036483",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150798-d15036483-Reviews-Hilton_Guadalajara_Midtown-Guadalajara_Guadalajara_Metropolitan_Area.html",
+      "search_query": "Hilton Guadalajara Midtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:36:45.793Z"
+    },
+    "Jalisco-MX/Guadalajara/Nh-Collection-Guadalajara": {
+      "tripadvisor_id": "g150798-d1546244",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150798-d1546244-Reviews-NH_Collection_Guadalajara_Providencia-Guadalajara_Guadalajara_Metropolitan_Area.html",
+      "search_query": "NH Collection Guadalajara",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:36:51.704Z"
+    },
+    "Jalisco-MX/Puerto-Vallarta/Hotel-Mousai-Puerto-Vallarta": {
+      "tripadvisor_id": "g150793-d6002592",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150793-d6002592-Reviews-or30-Hotel_Mousai_Puerto_Vallarta-Puerto_Vallarta.html",
+      "search_query": "Hotel Mousai Puerto Vallarta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:36:57.634Z"
+    },
+    "Jalisco-MX/Puerto-Vallarta/Marriott-Puerto-Vallarta-Resort--Spa": {
+      "tripadvisor_id": "g150793-d152980",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150793-d152980-Reviews-Marriott_Puerto_Vallarta_Resort_Spa-Puerto_Vallarta.html",
+      "search_query": "Marriott Puerto Vallarta Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:03.695Z"
+    },
+    "Jamaica/Montego-Bay/S-Hotel-Montego-Bay": {
+      "tripadvisor_id": "g147311-d15327038",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147311-d15327038-Reviews-S_Hotel_Montego_Bay-Montego_Bay_Saint_James_Parish_Jamaica.html",
+      "search_query": "S Hotel Montego Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:09.598Z"
+    },
+    "Jamaica/Ocho-Rios/Jamaica-Inn": {
+      "tripadvisor_id": "g147312-d148949",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147312-d148949-Reviews-Jamaica_Inn-Ocho_Rios_Saint_Ann_Parish_Jamaica.html",
+      "search_query": "Jamaica Inn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:15.508Z"
+    },
+    "Japan/Hakone/Hotel-Indigo-Hakone-Gora": {
+      "tripadvisor_id": "g298171-d17613740",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298171-d17613740-Reviews-Hotel_Indigo_Hakone_Gora_By_IHG-Hakone_machi_Ashigarashimo_gun_Kanagawa_Prefecture_Ka.html",
+      "search_query": "Hotel Indigo Hakone Gora",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:21.414Z"
+    },
+    "Japan/Hakone/Hyatt-Regency-Hakone-Resort-And-Spa": {
+      "tripadvisor_id": "g298171-d635211",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298171-d635211-Reviews-Hyatt_Regency_Hakone_Resort_and_Spa-Hakone_machi_Ashigarashimo_gun_Kanagawa_Prefecture_.html",
+      "search_query": "Hyatt Regency Hakone Resort and Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:27.308Z"
+    },
+    "Japan/Ishigaki/Ana-Intercontinental-Ishigaki-Resort": {
+      "tripadvisor_id": "g14210285-d300581",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14210285-d300581-Reviews-ANA_InterContinental_Ishigaki_Resort_by_IHG-Ishigaki_jima_Ishigaki_Okinawa_Prefecture.html",
+      "search_query": "ANA InterContinental Ishigaki Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:33.102Z"
+    },
+    "Japan/Kanazawa/Hyatt-Centric-Kanazawa": {
+      "tripadvisor_id": "g298115-d19880997",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298115-d19880997-Reviews-Hyatt_Centric_Kanazawa-Kanazawa_Ishikawa_Prefecture_Hokuriku_Chubu.html",
+      "search_query": "Hyatt Centric Kanazawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:38.984Z"
+    },
+    "Japan/Karuizawa/Hotel-Indigo-Karuizawa": {
+      "tripadvisor_id": "g325581-d23903912",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g325581-d23903912-Reviews-Hotel_Indigo_Karuizawa_By_IHG-Karuizawa_machi_Kitasaku_gun_Nagano_Prefecture_Koshinet.html",
+      "search_query": "Hotel Indigo Karuizawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:44.988Z"
+    },
+    "Japan/Kyoto/Ace-Hotel-Kyoto": {
+      "tripadvisor_id": "g298564-d20264752",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d20264752-Reviews-Ace_Hotel_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Ace Hotel Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:50.869Z"
+    },
+    "Japan/Kyoto/Hilton-Kyoto": {
+      "tripadvisor_id": "g298564-d27956605",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d27956605-Reviews-Hilton_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Hilton Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:37:57.227Z"
+    },
+    "Japan/Kyoto/Hyatt-Regency-Kyoto": {
+      "tripadvisor_id": "g298564-d601531",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d601531-Reviews-Hyatt_Regency_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Hyatt Regency Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:38:03.583Z"
+    },
+    "Japan/Kyoto/Westin-Miyako-Kyoto": {
+      "tripadvisor_id": "g298564-d578717",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298564-d578717-Reviews-The_Westin_Miyako_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
+      "search_query": "Westin Miyako Kyoto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:40:31.055Z"
+    },
+    "Japan/Nagasaki/Nagasaki-Marriott-Hotel": {
+      "tripadvisor_id": "g298568-d27098273",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298568-d27098273-Reviews-Nagasaki_Marriott_Hotel-Nagasaki_Nagasaki_Prefecture_Kyushu.html",
+      "search_query": "Nagasaki Marriott Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:40:36.965Z"
+    },
+    "Japan/Okinawa/Hilton-Okinawa-Sesoko-Resort": {
+      "tripadvisor_id": "g1120808-d19992016",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1120808-d19992016-Reviews-Hilton_Okinawa_Sesoko_Resort-Motobu_cho_Kunigami_gun_Okinawa_Prefecture_Kyushu.html",
+      "search_query": "Hilton Okinawa Sesoko Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:40:42.864Z"
+    },
+    "Japan/Okinawa/Hyatt-Regency-Seragaki-Island-Okinawa": {
+      "tripadvisor_id": "g1120809-d13994111",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1120809-d13994111-Reviews-Hyatt_Regency_Seragaki_Island_Okinawa-Onna_son_Kunigami_gun_Okinawa_Prefecture_Kyush.html",
+      "search_query": "Hyatt Regency Seragaki Island, Okinawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:40:48.776Z"
+    },
+    "Japan/Osaka/Canopy-By-Hilton-Osaka-Umeda": {
+      "tripadvisor_id": "g298566-d27951898",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d27951898-Reviews-Canopy_by_Hilton_Osaka_Umeda-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "Canopy by Hilton Osaka Umeda",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:40:54.754Z"
+    },
+    "Japan/Osaka/The-Osaka-Station-Hotel-Autograph-Collection": {
+      "tripadvisor_id": "g298566-d27747700",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298566-d27747700-Reviews-The_Osaka_Station_Hotel_Autograph_Collection-Osaka_Osaka_Prefecture_Kinki.html",
+      "search_query": "The Osaka Station Hotel, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:00.774Z"
+    },
+    "Japan/Sapporo/Chalet-Ivy-Jozankei": {
+      "tripadvisor_id": "g298560-d18816190",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298560-d18816190-Reviews-Chalet_Ivy_Jozankei-Sapporo_Hokkaido.html",
+      "search_query": "Chalet Ivy Jozankei",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:07.081Z"
+    },
+    "Japan/Sapporo/Hotel-Sosei-Sapporo---Mgallery-Collection": {
+      "tripadvisor_id": "g298560-d1082462",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298560-d1082462-Reviews-Hotel_Sosei_Sapporo_MGallery_Collection-Sapporo_Hokkaido.html",
+      "search_query": "Hotel Sosei Sapporo – MGallery Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:13.029Z"
+    },
+    "Japan/Tokyo/Ana-Intercontinental-Tokyo": {
+      "tripadvisor_id": "g14129743-d300459",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129743-d300459-Reviews-ANA_InterContinental_Tokyo_by_IHG-Akasaka_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "ANA InterContinental Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:19.586Z"
+    },
+    "Japan/Tokyo/Hilton-Tokyo": {
+      "tripadvisor_id": "g14133673-d304289",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14133673-d304289-Reviews-Hilton_Tokyo-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Hilton Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:25.806Z"
+    },
+    "Japan/Tokyo/Hotel-Toranomon-Hills": {
+      "tripadvisor_id": "g14129647-d26362434",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129647-d26362434-Reviews-Hotel_Toranomon_Hills-Toranomon_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Hotel Toranomon Hills",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:31.814Z"
+    },
+    "Japan/Tokyo/Imperial-Floors-Imperial-Hotel-Tokyo": {
+      "tripadvisor_id": "g1066443-d302435",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066443-d302435-Reviews-Imperial_Hotel_Tokyo-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Imperial Floors, Imperial Hotel, Tokyo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:41:38.034Z"
+    },
+    "Japan/Tokyo/Kimpton-Shinjuku-Tokyo": {
+      "tripadvisor_id": "g14133673-d19601940",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14133673-d19601940-Reviews-Kimpton_Shinjuku_Tokyo_By_IHG-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "Kimpton Shinjuku Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:44.696Z"
+    },
+    "Japan/Tokyo/The-Capitol-Hotel-Tokyu": {
+      "tripadvisor_id": "g1066443-d1832457",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066443-d1832457-Reviews-The_Capitol_Hotel_Tokyu-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Capitol Hotel Tokyu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:50.707Z"
+    },
+    "Japan/Tokyo/The-Prince-Park-Tower-Tokyo": {
+      "tripadvisor_id": "g14129730-d579136",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129730-d579136-Reviews-The_Prince_Park_Tower_Tokyo-Shibakoen_Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Prince Park Tower Tokyo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:41:56.671Z"
+    },
+    "Japan/Tokyo/The-Prince-Sakura-Tower-Tokyo-Autograph-Collection": {
+      "tripadvisor_id": "g14131019-d301385",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14131019-d301385-Reviews-The_Prince_Sakura_Tower_Tokyo_Autograph_Collection-Takanawa_Minato_Tokyo_Tokyo_Prefec.html",
+      "search_query": "The Prince Sakura Tower Tokyo, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:02.696Z"
+    },
+    "Japan/Tokyo/The-Strings-By-Intercontinental-Tokyo": {
+      "tripadvisor_id": "g1066451-d300471",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1066451-d300471-Reviews-Intercontinental_The_Strings_Tokyo_By_IHG-Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Strings by InterContinental Tokyo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:42:08.864Z"
+    },
+    "Japan/Tokyo/The-Tokyo-Station-Hotel": {
+      "tripadvisor_id": "g14129528-d310308",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14129528-d310308-Reviews-The_Tokyo_Station_Hotel-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "search_query": "The Tokyo Station Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:14.666Z"
+    },
+    "Japan/Yokohama/The-Westin-Yokohama-Greater-Tokyo": {
+      "tripadvisor_id": "g14134875-d23956396",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g14134875-d23956396-Reviews-The_Westin_Yokohama-Minatomirai_Nishi_Yokohama_Kanagawa_Prefecture_Kanto.html",
+      "search_query": "The Westin Yokohama, Greater Tokyo",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:42:20.842Z"
+    },
+    "Kentucky-US/Louisville/Hotel-Bourre-Bonne-Louisville-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g39604-d28021751",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g39604-d28021751-Reviews-Hotel_Bourre_Bonne_Louisville_Curio_Collection_by_Hilton-Louisville_Kentucky.html",
+      "search_query": "Hotel Bourre Bonne Louisville, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:26.690Z"
+    },
+    "Kentucky-US/Louisville/Hotel-Distil-An-Autograph-Collection": {
+      "tripadvisor_id": "g39604-d17764625",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g39604-d17764625-Reviews-Hotel_Distil_Autograph_Collection-Louisville_Kentucky.html",
+      "search_query": "Hotel Distil, An Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T13:42:32.617Z"
+    },
+    "Kentucky-US/Louisville/Omni-Louisville-Hotel": {
+      "tripadvisor_id": "g39604-d13235537",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g39604-d13235537-Reviews-Omni_Louisville_Hotel-Louisville_Kentucky.html",
+      "search_query": "Omni Louisville Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:38.636Z"
+    },
+    "Kenya/Nairobi/Kwetu-Nairobi-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g294207-d25410641",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294207-d25410641-Reviews-Kwetu_Nairobi_Curio_Collection_By_Hilton-Nairobi.html",
+      "search_query": "Kwetu Nairobi, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:44.480Z"
+    },
+    "Kenya/Nairobi/The-Social-House-Nairobi": {
+      "tripadvisor_id": "g294207-d19744017",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294207-d19744017-Reviews-The_Social_House_Nairobi_A_Preferred_Lifestyle_Hotel-Nairobi.html",
+      "search_query": "The Social House Nairobi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:50.421Z"
+    },
+    "Liechtenstein/Vaduz/Park-Hotel-Sonnenhof": {
+      "tripadvisor_id": "g190371-d253552",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190371-d253552-Reviews-Park_Hotel_Sonnenhof-Vaduz.html",
+      "search_query": "Park Hotel Sonnenhof",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:42:56.473Z"
+    },
+    "Louisiana-US/New-Orleans/Canopy-By-Hilton-New-Orleans---Downtown": {
+      "tripadvisor_id": "g60864-d23758084",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d23758084-Reviews-Canopy_By_Hilton_New_Orleans_Downtown-New_Orleans_Louisiana.html",
+      "search_query": "Canopy by Hilton New Orleans - Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:43:02.493Z"
+    },
+    "Louisiana-US/New-Orleans/Hotel-De-La-Poste---French-Quarter-a-Renaissance-Hotel": {
+      "tripadvisor_id": "g60864-d123524",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d123524-Reviews-Hotel_De_La_Poste_French_Quarter_A_Renaissance_Hotel-New_Orleans_Louisiana.html",
+      "search_query": "Hotel de la Poste - French Quarter, a Renaissance Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:43:08.467Z"
+    },
+    "Louisiana-US/New-Orleans/Hotel-Peter-And-Paul": {
+      "tripadvisor_id": "g60864-d15219988",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d15219988-Reviews-Hotel_Peter_And_Paul-New_Orleans_Louisiana.html",
+      "search_query": "Hotel Peter and Paul",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:43:14.385Z"
+    },
+    "Louisiana-US/New-Orleans/Hotel-Saint-Vincent": {
+      "tripadvisor_id": "g60864-d249682",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d249682-Reviews-Hotel_Saint_Vincent-New_Orleans_Louisiana.html",
+      "search_query": "Hotel Saint Vincent",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:43:20.326Z"
     }
   }
 }

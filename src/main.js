@@ -1082,7 +1082,7 @@ function createHotelRow(hotel) {
         <span>${escapeHtml(joinValues(hotel.planLabels))}</span>
         ${state.bucket === "edit" && hotel.chase2026Credit ? `<span class="brand-pill">$250 Chase Travel Credit Eligible</span>` : ""}
         ${state.bucket === "aspire" && hotel.aspireCreditWithStay?.yes_count > 0 ? `<span class="brand-pill">Credit without Stay</span>` : ""}
-        ${hotel.forumReviewCount > 0 ? `<span class="brand-pill forum-review-pill">${hotel.forumReviewCount} forum review${hotel.forumReviewCount !== 1 ? "s" : ""}</span>` : ""}
+        ${hotel.forumReviewCount > 0 ? `<span class="brand-pill forum-review-pill">${hotel.forumReviewCount} review${hotel.forumReviewCount !== 1 ? "s" : ""}</span>` : ""}
       </div>
     </div>
   `;
@@ -1280,7 +1280,7 @@ function renderDetailView() {
 
       ${hotel.forumReviewCount > 0 ? `
       <section class="forum-reviews-section">
-        <h3>Forum Reviews (${hotel.forumReviewCount})</h3>
+        <h3>Reviews (${hotel.forumReviewCount})</h3>
         <div class="forum-reviews-list">
           ${hotel.forumReviews.map((review) => `
             <div class="forum-review">
@@ -1926,7 +1926,7 @@ function buildShell() {
               </label>
               <label class="toolbar-group">
                 <span>Reviews</span>
-                <button id="forum-review-filter-btn" class="filter-toggle-btn" type="button">Has forum review</button>
+                <button id="forum-review-filter-btn" class="filter-toggle-btn" type="button">Has review</button>
               </label>
               <label class="toolbar-group toolbar-group--amenities">
                 <span>Amenities</span>

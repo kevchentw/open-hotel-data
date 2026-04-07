@@ -33,7 +33,7 @@ const HOTELS_FILE_URL = new URL("../../../public/data/hotels.json", import.meta.
 
 const SOURCE_TOPIC_URL = "https://www.uscardforum.com/t/topic/42589";
 const DEFAULT_CONCURRENCY = 1; // Claude CLI does not support parallel sessions
-const DEFAULT_BATCH_SIZE = 15; // posts per Claude call — balances startup overhead vs prompt size
+const DEFAULT_BATCH_SIZE = 5; // posts per Claude call — balances startup overhead vs prompt size
 
 // ---------------------------------------------------------------------------
 // Main
