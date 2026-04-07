@@ -42,6 +42,12 @@ const SOURCE_CONFIGS = [
     stageOneUrl: new URL("../1-list/hilton-brands-hotel.json", import.meta.url),
     stageTwoUrl: new URL("../2-enrichment/hilton-brands-hotel.json", import.meta.url),
     stageThreeUrl: new URL("../3-tripadvisor/hilton-brands-hotel.json", import.meta.url)
+  },
+  {
+    source: "bilt_hafh",
+    stageOneUrl: new URL("../1-list/bilt-hafh-hotel.json", import.meta.url),
+    stageTwoUrl: new URL("../2-enrichment/bilt-hafh-hotel.json", import.meta.url),
+    stageThreeUrl: new URL("../3-tripadvisor/bilt-hafh-hotel.json", import.meta.url)
   }
 ];
 
@@ -283,6 +289,7 @@ function buildCanonicalHotel(tripadvisorId, aggregate) {
     tripadvisor_id: tripadvisorId,
     tripadvisor_url: pickField(contributors, (contributor) => contributor.stageThreeMatch?.tripadvisor_url),
     amex_url: pickSourcePageUrl(contributors, ["amex_fhr", "amex_thc"]),
+    bilt_url: pickSourcePageUrl(contributors, ["bilt_hafh"]),
     chase_url: pickSourcePageUrl(contributors, ["chase_edit"]),
     hilton_url: pickSourcePageUrl(contributors, ["hilton_aspire_resort_credit", "hilton_brands"]),
     hilton_cash_currency: pickField(contributors, (contributor) =>
@@ -407,6 +414,9 @@ function buildUnmatchedRecord(record) {
     source_hotel_id: record.sourceHotelId,
     reason: getUnmatchedReason(record.hasStageThreeFile, record.stageThreeMatch),
     amex_url: isAmexSource(record.source)
+      ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
+      : "",
+    bilt_url: record.source === "bilt_hafh"
       ? firstNonEmpty([record.stageTwoHotel.detail_url, record.stageOneHotel.url])
       : "",
     chase_url: record.source === "chase_edit"

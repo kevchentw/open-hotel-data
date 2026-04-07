@@ -149,6 +149,7 @@ function buildFallbackHotels(unmatched, priceByIpreferId) {
           source: normalizeString(hotel.source),
           source_hotel_id: normalizeString(hotel.source_hotel_id),
           amex_url: normalizeString(hotel.amex_url),
+          bilt_url: normalizeString(hotel.bilt_url),
           chase_url: normalizeString(hotel.chase_url),
           hilton_url: normalizeString(hotel.hilton_url),
           iprefer_url: normalizeString(hotel.iprefer_url),
@@ -425,6 +426,7 @@ function pickHotelFields(hotel) {
   return {
     record_type: "canonical",
     amex_url: normalizeString(hotel.amex_url),
+    bilt_url: normalizeString(hotel.bilt_url),
     chase_url: normalizeString(hotel.chase_url),
     hilton_url: normalizeString(hotel.hilton_url),
     iprefer_url: normalizeString(hotel.iprefer_url),

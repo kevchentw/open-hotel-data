@@ -2,9 +2,9 @@
   "metadata": {
     "stage": "3-tripadvisor",
     "source": "amex_thc",
-    "generated_at": "2026-04-07T13:43:20.326Z",
-    "record_count": 741,
-    "matched_count": 740,
+    "generated_at": "2026-04-07T18:05:02.827Z",
+    "record_count": 1009,
+    "matched_count": 1008,
     "unmatched_count": 1
   },
   "matches": {
@@ -5464,6 +5464,1882 @@
       "search_query": "Hotel Saint Vincent",
       "match_confidence": "high",
       "matched_at": "2026-04-07T13:43:20.326Z"
+    },
+    "Louisiana-US/New-Orleans/Hyatt-Centric-French-Quarter": {
+      "tripadvisor_id": "g60864-d89054",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d89054-Reviews-Hyatt_Centric_French_Quarter_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "Hyatt Centric French Quarter",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T13:43:26.368Z"
+    },
+    "Louisiana-US/New-Orleans/Jw-Marriott-New-Orleans": {
+      "tripadvisor_id": "g60864-d111983",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d111983-Reviews-JW_Marriott_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "JW Marriott New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:36:46.770Z"
+    },
+    "Louisiana-US/New-Orleans/Kimpton-Hotel-Fontenot": {
+      "tripadvisor_id": "g60864-d309180",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d309180-Reviews-Kimpton_Hotel_Fontenot_By_IHG-New_Orleans_Louisiana.html",
+      "search_query": "Kimpton Hotel Fontenot",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:36:52.702Z"
+    },
+    "Louisiana-US/New-Orleans/Le-Meridien-New-Orleans": {
+      "tripadvisor_id": "g60864-d125161",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d125161-Reviews-or1155-Le_Meridien_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "Le Meridien New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:36:58.672Z"
+    },
+    "Louisiana-US/New-Orleans/Loews-New-Orleans": {
+      "tripadvisor_id": "g60864-d268257",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d268257-Reviews-Loews_New_Orleans_Hotel-New_Orleans_Louisiana.html",
+      "search_query": "Loews New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:04.683Z"
+    },
+    "Louisiana-US/New-Orleans/New-Orleans-Marriott-Warehouse-Arts-District-Hotel": {
+      "tripadvisor_id": "g60864-d553884",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d553884-Reviews-New_Orleans_Marriott_Warehouse_Arts_District-New_Orleans_Louisiana.html",
+      "search_query": "New Orleans Marriott Warehouse Arts District Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:37:10.601Z"
+    },
+    "Louisiana-US/New-Orleans/The-Barnett-By-Hyatt": {
+      "tripadvisor_id": "g60864-d9589302",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d9589302-Reviews-The_Barnett_JDV_by_Hyatt-New_Orleans_Louisiana.html",
+      "search_query": "The Barnett by Hyatt",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:37:16.511Z"
+    },
+    "Louisiana-US/New-Orleans/The-Eliza-Jane-Autograph-Collection": {
+      "tripadvisor_id": "g60864-d498233",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d498233-Reviews-The_Eliza_Jane_Autograph_Collection-New_Orleans_Louisiana.html",
+      "search_query": "The Eliza Jane, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:22.624Z"
+    },
+    "Louisiana-US/New-Orleans/Virgin-Hotels-New-Orleans": {
+      "tripadvisor_id": "g60864-d23463644",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60864-d23463644-Reviews-Virgin_Hotels_New_Orleans-New_Orleans_Louisiana.html",
+      "search_query": "Virgin Hotels New Orleans",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:28.664Z"
+    },
+    "Maine-US/Camden/Camden-Harbour-Inn": {
+      "tripadvisor_id": "g40550-d270575",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g40550-d270575-Reviews-Camden_Harbour_Inn-Camden_Maine.html",
+      "search_query": "Camden Harbour Inn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:34.710Z"
+    },
+    "Maine-US/Cape-Elizabeth/Inn-By-The-Sea": {
+      "tripadvisor_id": "g40554-d198688",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g40554-d198688-Reviews-Inn_by_the_Sea-Cape_Elizabeth_Maine.html",
+      "search_query": "Inn by the Sea",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:40.655Z"
+    },
+    "Maine-US/Kennebunkport/Hidden-Pond-Resort--Tree-Spa": {
+      "tripadvisor_id": "g40694-d1124914",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g40694-d1124914-Reviews-Hidden_Pond_Resort_Tree_Spa-Kennebunkport_Kennebunks_Maine.html",
+      "search_query": "Hidden Pond Resort & Tree Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:46.673Z"
+    },
+    "Maine-US/Portland/Canopy-By-Hilton-Portland-Waterfront": {
+      "tripadvisor_id": "g40827-d23255127",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g40827-d23255127-Reviews-Canopy_By_Hilton_Portland_Waterfront-Portland_Maine.html",
+      "search_query": "Canopy by Hilton Portland Waterfront",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:52.734Z"
+    },
+    "Maine-US/Portland/The-Press-Hotel-Autograph-Collection": {
+      "tripadvisor_id": "g40827-d7932773",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g40827-d7932773-Reviews-The_Press_Hotel_Autograph_Collection-Portland_Maine.html",
+      "search_query": "The Press Hotel, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:37:58.661Z"
+    },
+    "Malaysia/Kuala-Lumpur/Eq": {
+      "tripadvisor_id": "g298570-d12621892",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298570-d12621892-Reviews-EQ-Kuala_Lumpur_Wilayah_Persekutuan.html",
+      "search_query": "EQ",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:38:04.698Z"
+    },
+    "Maldives/Malé/Hard-Rock-Hotel-Maldives": {
+      "tripadvisor_id": "g23811804-d15556116",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23811804-d15556116-Reviews-Hard_Rock_Hotel_Maldives-Akasdhoo.html",
+      "search_query": "Hard Rock Hotel Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:38:10.840Z"
+    },
+    "Maldives/Raa-Atoll/The-Standard-Huruvalhi-Maldives": {
+      "tripadvisor_id": "g298339-d15808576",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298339-d15808576-Reviews-or50-The_Standard_Huruvalhi_Maldives-Raa_Atoll.html",
+      "search_query": "The Standard, Huruvalhi Maldives",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:38:16.791Z"
+    },
+    "Maldives/South-Malé-Atoll/Saii-Lagoon-Maldives-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g23353839-d15326480",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23353839-d15326480-Reviews-SAii_Lagoon_Maldives_Curio_Collection_by_Hilton-Eh_mafushi.html",
+      "search_query": "SAii Lagoon Maldives, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:38:22.828Z"
+    },
+    "Malta/St.-Julian's/Hyatt-Centric-Malta": {
+      "tripadvisor_id": "g227101-d29037263",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g227101-d29037263-Reviews-Hyatt_Centric_Malta-Saint_Julian_s_Island_of_Malta.html",
+      "search_query": "Hyatt Centric Malta",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:38:28.783Z"
+    },
+    "Maryland-US/Annapolis/Annapolis-Waterfront-Hotel-Autograph-Collection": {
+      "tripadvisor_id": "g29494-d89320",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29494-d89320-Reviews-Annapolis_Waterfront_Hotel-Annapolis_Maryland.html",
+      "search_query": "Annapolis Waterfront Hotel, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:38:34.726Z"
+    },
+    "Maryland-US/Baltimore/Canopy-By-Hilton-Baltimore-Harbor-Point": {
+      "tripadvisor_id": "g60811-d20265544",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60811-d20265544-Reviews-Canopy_by_Hilton_Baltimore_Harbor_Point-Baltimore_Maryland.html",
+      "search_query": "Canopy by Hilton Baltimore Harbor Point",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:38:41.279Z"
+    },
+    "Maryland-US/Baltimore/Revival-Baltimore": {
+      "tripadvisor_id": "g60811-d89365",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60811-d89365-Reviews-Hotel_Revival-Baltimore_Maryland.html",
+      "search_query": "Revival Baltimore",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:38:49.805Z"
+    },
+    "Maryland-US/Baltimore/Ulysses-Hotel-An-Ash-Hotel": {
+      "tripadvisor_id": "g60811-d24845047",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60811-d24845047-Reviews-Ulysses-Baltimore_Maryland.html",
+      "search_query": "Ulysses Hotel, an Ash Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:38:55.835Z"
+    },
+    "Maryland-US/Cambridge/Hyatt-Regency-Chesapeake-Bay": {
+      "tripadvisor_id": "g41038-d89396",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41038-d89396-Reviews-Hyatt_Regency_Chesapeake_Bay_Golf_Resort_Spa_&_Marina-Cambridge_Maryland.html",
+      "search_query": "Hyatt Regency Chesapeake Bay",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:39:01.735Z"
+    },
+    "Massachusetts-US/Boston/Fairmont-Copley-Plaza": {
+      "tripadvisor_id": "g60745-d111444",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d111444-Reviews-Fairmont_Copley_Plaza_Boston-Boston_Massachusetts.html",
+      "search_query": "Fairmont Copley Plaza",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:39:07.402Z"
+    },
+    "Massachusetts-US/Boston/Hotel-Aka-Back-Bay": {
+      "tripadvisor_id": "g60745-d321151",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d321151-Reviews-Hotel_Aka_Back_Bay-Boston_Massachusetts.html",
+      "search_query": "Hotel AKA Back Bay",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:39:13.131Z"
+    },
+    "Massachusetts-US/Boston/Intercontinental-Boston": {
+      "tripadvisor_id": "g60745-d620703",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d620703-Reviews-Intercontinental_Boston_By_IHG-Boston_Massachusetts.html",
+      "search_query": "InterContinental Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:39:19.077Z"
+    },
+    "Massachusetts-US/Boston/Omni-Boston-Hotel-At-The-Seaport": {
+      "tripadvisor_id": "g60745-d23469598",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d23469598-Reviews-Omni_Boston_Hotel_at_the_Seaport-Boston_Massachusetts.html",
+      "search_query": "Omni Boston Hotel at the Seaport",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:39:25.038Z"
+    },
+    "Massachusetts-US/Boston/The-Envoy-Hotel-Autograph-Collection": {
+      "tripadvisor_id": "g60745-d8112658",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d8112658-Reviews-The_Envoy_Hotel_Autograph_Collection-Boston_Massachusetts.html",
+      "search_query": "The Envoy Hotel, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:39:31.033Z"
+    },
+    "Massachusetts-US/Boston/The-Westin-Copley-Place-Boston": {
+      "tripadvisor_id": "g60745-d89617",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d89617-Reviews-The_Westin_Copley_Place_Boston-Boston_Massachusetts.html",
+      "search_query": "The Westin Copley Place, Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:39:36.939Z"
+    },
+    "Massachusetts-US/Boston/The-Whitney-Hotel-Boston": {
+      "tripadvisor_id": "g60745-d17581985",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d17581985-Reviews-The_Whitney_Hotel_Boston-Boston_Massachusetts.html",
+      "search_query": "The Whitney Hotel Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:39:42.818Z"
+    },
+    "Massachusetts-US/Boston/W-Boston": {
+      "tripadvisor_id": "g60745-d1486034",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60745-d1486034-Reviews-W_Boston-Boston_Massachusetts.html",
+      "search_query": "W Boston",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:02.385Z"
+    },
+    "Massachusetts-US/Cambridge/Kimpton-Marlowe-Hotel": {
+      "tripadvisor_id": "g60890-d259028",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60890-d259028-Reviews-Kimpton_Marlowe_Hotel_by_IHG-Cambridge_Massachusetts.html",
+      "search_query": "Kimpton Marlowe Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:08.285Z"
+    },
+    "Massachusetts-US/Edgartown/The-Winnetu-Oceanside-Resort": {
+      "tripadvisor_id": "g41558-d251713",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41558-d251713-Reviews-Winnetu_Oceanside_Resort-Edgartown_Martha_s_Vineyard_Massachusetts.html",
+      "search_query": "The Winnetu Oceanside Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:43:14.252Z"
+    },
+    "Massachusetts-US/Lexington/The-Inn-At-Hastings-Park": {
+      "tripadvisor_id": "g41643-d6204705",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41643-d6204705-Reviews-The_Inn_at_Hastings_Park-Lexington_Massachusetts.html",
+      "search_query": "The Inn at Hastings Park",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:20.165Z"
+    },
+    "Massachusetts-US/Nantucket/The-Nantucket-Hotel-And-Resort": {
+      "tripadvisor_id": "g29527-d3137433",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29527-d3137433-Reviews-The_Nantucket_Hotel_Resort-Nantucket_Massachusetts.html",
+      "search_query": "The Nantucket Hotel and Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:43:26.171Z"
+    },
+    "Massachusetts-US/Nantucket/White-Elephant": {
+      "tripadvisor_id": "g29527-d189988",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29527-d189988-Reviews-White_Elephant-Nantucket_Massachusetts.html",
+      "search_query": "White Elephant",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:32.137Z"
+    },
+    "Massachusetts-US/South-Yarmouth/Red-Jacket-Beach-Resort--Spa": {
+      "tripadvisor_id": "g41841-d94048",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41841-d94048-Reviews-Red_Jacket_Beach_Resort-South_Yarmouth_Yarmouth_Cape_Cod_Massachusetts.html",
+      "search_query": "Red Jacket Beach Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:43:38.197Z"
+    },
+    "Mauritius/Quatre-Cocos/Lux-Belle-Mare": {
+      "tripadvisor_id": "g298342-d316743",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298342-d316743-Reviews-Lux_Belle_Mare-Belle_Mare.html",
+      "search_query": "LUX Belle Mare",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:44.078Z"
+    },
+    "Mexico-City-MX/Mexico-City/Andaz-Mexico-City-Condesa": {
+      "tripadvisor_id": "g150800-d24924697",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d24924697-Reviews-Andaz_Mexico_City_Condesa-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Andaz Mexico City Condesa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:50.034Z"
+    },
+    "Mexico-City-MX/Mexico-City/Hyatt-Regency-Mexico-City": {
+      "tripadvisor_id": "g150800-d152469",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d152469-Reviews-Hyatt_Regency_Mexico_City-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Hyatt Regency Mexico City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:43:55.983Z"
+    },
+    "Mexico-City-MX/Mexico-City/Kimpton-Virgilio-Mexico-City": {
+      "tripadvisor_id": "g150800-d27420298",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d27420298-Reviews-Kimpton_Virgilio_Polanco_by_IHG-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Kimpton Virgilio Mexico City",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:44:02.228Z"
+    },
+    "Mexico-City-MX/Mexico-City/Mondrian-Mexico-City-Condesa": {
+      "tripadvisor_id": "g150800-d25107216",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d25107216-Reviews-Mondrian_Mexico_City_Condesa-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Mondrian Mexico City Condesa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:44:08.267Z"
+    },
+    "Mexico-City-MX/Mexico-City/Presidente-Intercontinental-Mexico-City-Hotel": {
+      "tripadvisor_id": "g150800-d153936",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d153936-Reviews-Intercontinental_Presidente_Mexico_City_By_IHG-Mexico_City_Central_Mexico_and_Gulf_Coas.html",
+      "search_query": "Presidente InterContinental Mexico City Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:44:14.431Z"
+    },
+    "Mexico-City-MX/Mexico-City/Umbral-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g150800-d17441211",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150800-d17441211-Reviews-Umbral_Curio_Collection_by_Hilton-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "search_query": "Umbral, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:44:20.547Z"
+    },
+    "Mexico-City-MX/Mexico-City/Volga-Hotel": {
+      "tripadvisor_id": "g293934-d23710488",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293934-d23710488-Reviews-Volga_Hotel-Baku_Absheron_Region.html",
+      "search_query": "Volga Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:44:26.496Z"
+    },
+    "Michigan-US/Bay-Harbor/The-Inn-At-Bay-Harbor": {
+      "tripadvisor_id": "g2370840-d95004",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2370840-d95004-Reviews-Inn_at_Bay_Harbor-Bay_Harbor_Petoskey_Emmet_County_Michigan.html",
+      "search_query": "The Inn at Bay Harbor",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:44:32.533Z"
+    },
+    "Michigan-US/Birmingham/Daxton-Hotel-Birmingham-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g41996-d21372028",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41996-d21372028-Reviews-Daxton_Hotel-Birmingham_Michigan.html",
+      "search_query": "Daxton Hotel Birmingham, Curio Collection by Hilton",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:44:38.475Z"
+    },
+    "Michigan-US/Birmingham/The-Townsend-Hotel": {
+      "tripadvisor_id": "g41996-d89959",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g41996-d89959-Reviews-The_Townsend_Hotel-Birmingham_Michigan.html",
+      "search_query": "The Townsend Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:44:44.437Z"
+    },
+    "Michigan-US/Detroit/Detroit-Foundation-Hotel": {
+      "tripadvisor_id": "g42139-d12130393",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g42139-d12130393-Reviews-Detroit_Foundation_Hotel-Detroit_Michigan.html",
+      "search_query": "Detroit Foundation Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:44:50.361Z"
+    },
+    "Michigan-US/Detroit/The-Godfrey-Detroit-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g42139-d25370443",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g42139-d25370443-Reviews-The_Godfrey_Detroit_Curio_Collection_By_Hilton-Detroit_Michigan.html",
+      "search_query": "The Godfrey Detroit, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:44:56.419Z"
+    },
+    "Michigan-US/Grand-Rapids/Canopy-By-Hilton-Grand-Rapids-Downtown": {
+      "tripadvisor_id": "g42256-d20265511",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g42256-d20265511-Reviews-Canopy_by_Hilton_Grand_Rapids_Downtown-Grand_Rapids_Kent_County_Michigan.html",
+      "search_query": "Canopy by Hilton Grand Rapids Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:02.358Z"
+    },
+    "Minnesota-US/Minneapolis/Canopy-By-Hilton-Minneapolis---Mill-District": {
+      "tripadvisor_id": "g43323-d14985419",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d14985419-Reviews-Canopy_By_Hilton_Minneapolis_Mill_District-Minneapolis_Minnesota.html",
+      "search_query": "Canopy by Hilton Minneapolis - Mill District",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:08.213Z"
+    },
+    "Minnesota-US/Minneapolis/Elliot-Park-Hotel": {
+      "tripadvisor_id": "g43323-d14008999",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d14008999-Reviews-Elliot_Park_Hotel_Autograph_Collection-Minneapolis_Minnesota.html",
+      "search_query": "Elliot Park Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:14.119Z"
+    },
+    "Minnesota-US/Minneapolis/Emery-An-Autograph-Collection-Hotel": {
+      "tripadvisor_id": "g43323-d1128805",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d1128805-Reviews-Emery_Autograph_Collection-Minneapolis_Minnesota.html",
+      "search_query": "Emery, an Autograph Collection Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:45:20.161Z"
+    },
+    "Minnesota-US/Minneapolis/Hyatt-Centric-Downtown-Minneapolis": {
+      "tripadvisor_id": "g43323-d217852",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d217852-Reviews-Hyatt_Centric_Downtown_Minneapolis-Minneapolis_Minnesota.html",
+      "search_query": "Hyatt Centric Downtown Minneapolis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:26.195Z"
+    },
+    "Minnesota-US/Minneapolis/The-Marquette-Hotel-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g43323-d90402",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g43323-d90402-Reviews-The_Marquette_Hotel_Curio_Collection_by_Hilton-Minneapolis_Minnesota.html",
+      "search_query": "The Marquette Hotel, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:32.142Z"
+    },
+    "Minnesota-US/Wayzata/The-Hotel-Landing": {
+      "tripadvisor_id": "g53449-d25152588",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g53449-d25152588-Reviews-The_Landing_Hotel_Pittsburgh-Pittsburgh_Pennsylvania.html",
+      "search_query": "The Hotel Landing",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:45:38.191Z"
+    },
+    "Missouri-US/Kansas-City/Crossroads-Hotel": {
+      "tripadvisor_id": "g44535-d14922663",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44535-d14922663-Reviews-Crossroads_Hotel-Kansas_City_Missouri.html",
+      "search_query": "Crossroads Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:44.221Z"
+    },
+    "Missouri-US/Kansas-City/Fontaine-Hotel": {
+      "tripadvisor_id": "g187234-d220182",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g187234-d220182-Reviews-Hotel_de_la_Fontaine-Nice_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html",
+      "search_query": "Fontaine Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:50.260Z"
+    },
+    "Missouri-US/Kansas-City/Hotel-Kansas-City": {
+      "tripadvisor_id": "g44535-d21164465",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44535-d21164465-Reviews-Hotel_Kansas_City-Kansas_City_Missouri.html",
+      "search_query": "Hotel Kansas City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:45:56.407Z"
+    },
+    "Missouri-US/Kansas-City/Loews-Kansas-City-Hotel": {
+      "tripadvisor_id": "g44535-d19243358",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44535-d19243358-Reviews-Loews_Kansas_City_Hotel-Kansas_City_Missouri.html",
+      "search_query": "Loews Kansas City Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:57:37.487Z"
+    },
+    "Missouri-US/St.-Louis/21c-Museum-Hotel-St-Louis": {
+      "tripadvisor_id": "g44881-d25414293",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44881-d25414293-Reviews-21c_Museum_Hotel_St_Louis-Saint_Louis_Missouri.html",
+      "search_query": "21c Museum Hotel St. Louis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:57:43.388Z"
+    },
+    "Missouri-US/St.-Louis/Live-By-Loews---St-Louis": {
+      "tripadvisor_id": "g44881-d19244020",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g44881-d19244020-Reviews-Live_by_Loews_St_Louis_Missouri-Saint_Louis_Missouri.html",
+      "search_query": "Live by Loews - St Louis",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:57:49.331Z"
+    },
+    "Monaco/Monaco/Columbus-Hotel-Monte-carlo-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g190406-d244581",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190406-d244581-Reviews-Columbus_Hotel_Monte_Carlo_Curio_Collection_by_Hilton-Fontvieille.html",
+      "search_query": "Columbus Hotel Monte-Carlo, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:57:55.230Z"
+    },
+    "Monaco/Monte-Carlo/Fairmont-Monte-Carlo": {
+      "tripadvisor_id": "g190409-d230423",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190409-d230423-Reviews-Fairmont_Monte_Carlo-Monte_Carlo.html",
+      "search_query": "Fairmont Monte Carlo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:58:01.219Z"
+    },
+    "Monaco/Monte-Carlo/Monte-carlo-Bay-Hotel--Resort": {
+      "tripadvisor_id": "g24110526-d575930",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g24110526-d575930-Reviews-Monte_Carlo_Bay_Hotel_Resort-Larvotto.html",
+      "search_query": "Monte-Carlo Bay Hotel & Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:58:10.243Z"
+    },
+    "Montana-US/Big-Sky/The-Summit-Hotel-At-Big-Sky-Resort": {
+      "tripadvisor_id": "g45082-d247754",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45082-d247754-Reviews-The_Summit_At_Big_Sky-Big_Sky_Montana.html",
+      "search_query": "The Summit Hotel at Big Sky Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:58:16.477Z"
+    },
+    "Montana-US/Bozeman/Kimpton-Armory-Hotel": {
+      "tripadvisor_id": "g45095-d20804618",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45095-d20804618-Reviews-Kimpton_Armory_Hotel_Bozeman-Bozeman_Montana.html",
+      "search_query": "Kimpton Armory Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:58:22.413Z"
+    },
+    "Montana-US/Pray/Sage-Lodge": {
+      "tripadvisor_id": "g45316-d14008092",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45316-d14008092-Reviews-Sage_Lodge-Pray_Montana.html",
+      "search_query": "Sage Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:58:28.449Z"
+    },
+    "Morocco/Fez/Riad-Fes---Relais--Chateaux": {
+      "tripadvisor_id": "g293733-d525818",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293733-d525818-Reviews-Riad_Fes_Relais_Chateaux-Fez_Fez_Meknes.html",
+      "search_query": "Riad Fès - Relais & Châteaux",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:58:34.725Z"
+    },
+    "Morocco/Marrakech/Fairmont-Royal-Palm-Marrakech": {
+      "tripadvisor_id": "g293734-d5598827",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d5598827-Reviews-Fairmont_Royal_Palm_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "Fairmont Royal Palm Marrakech",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:58:40.632Z"
+    },
+    "Morocco/Marrakech/La-Sultana-Marrakech": {
+      "tripadvisor_id": "g293734-d481491",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d481491-Reviews-La_Sultana_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "La Sultana Marrakech Marrakech Morocco",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:58:46.656Z"
+    },
+    "Morocco/Marrakech/Nobu-Hotel-Marrakech": {
+      "tripadvisor_id": "g293734-d3360305",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g293734-d3360305-Reviews-Nobu_Hotel_Marrakech-Marrakech_Marrakech_Safi.html",
+      "search_query": "Nobu Hotel Marrakech",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:58:58.765Z"
+    },
+    "Morocco/Marrakech/Palais-Ronsard": {
+      "tripadvisor_id": "g2626640-d16815904",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2626640-d16815904-Reviews-Palais_Ronsard-Marrakech_Safi.html",
+      "search_query": "Palais Ronsard",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:59:04.708Z"
+    },
+    "Nayarit-MX/Bahia-de-Banderas/Grand-Velas-Riviera-Nayarit": {
+      "tripadvisor_id": "g154267-d283703",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g154267-d283703-Reviews-Grand_Velas_Riviera_Nayarit-Nuevo_Nayarit_Pacific_Coast.html",
+      "search_query": "Grand Velas Riviera Nayarit Bahia de Banderas Nayarit Mexico",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:59:10.686Z"
+    },
+    "Nayarit-MX/Bahia-de-Banderas/Secrets-Bahia-Mita-Surf-And-Spa-Resort": {
+      "tripadvisor_id": "g499443-d23452846",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499443-d23452846-Reviews-Secrets_Bahia_Mita_Surf_Spa_Resort-Punta_de_Mita_Pacific_Coast.html",
+      "search_query": "Secrets Bahia Mita Surf and Spa Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:59:22.433Z"
+    },
+    "Nayarit-MX/Punta-de-Mita/W-Punta-De-Mita": {
+      "tripadvisor_id": "g27998961-d10267413",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g27998961-d10267413-Reviews-W_Punta_de_Mita-Punta_del_Burro_Bahia_de_Banderas_Municipality_Pacific_Coast.html",
+      "search_query": "W Punta de Mita",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:59:28.473Z"
+    },
+    "Nebraska-US/Omaha/The-Peregrine-Omaha-Downtown-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g60885-d19907158",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60885-d19907158-Reviews-The_Peregrine_Omaha_Downtown_Curio_Collection_by_Hilton-Omaha_Nebraska.html",
+      "search_query": "The Peregrine Omaha Downtown, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:59:34.305Z"
+    },
+    "Netherlands/Amsterdam/Andaz-Amsterdam-Prinsengracht": {
+      "tripadvisor_id": "g188590-d3526884",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d3526884-Reviews-Andaz_Amsterdam_Prinsengracht-Amsterdam_North_Holland_Province.html",
+      "search_query": "Andaz Amsterdam Prinsengracht",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:59:40.244Z"
+    },
+    "Netherlands/Amsterdam/Hotel-Okura-Amsterdam": {
+      "tripadvisor_id": "g188590-d230117",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d230117-Reviews-Hotel_Okura_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "Hotel Okura Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:59:46.315Z"
+    },
+    "Netherlands/Amsterdam/Ink-Hotel-Amsterdam---Mgallery-Collection": {
+      "tripadvisor_id": "g188590-d230120",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d230120-Reviews-INK_Hotel_Amsterdam_MGallery_Collection-Amsterdam_North_Holland_Province.html",
+      "search_query": "INK Hotel Amsterdam – MGallery Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T15:59:52.676Z"
+    },
+    "Netherlands/Amsterdam/Kimpton-Dewitt-Amsterdam": {
+      "tripadvisor_id": "g188590-d229478",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d229478-Reviews-Kimpton_De_Witt_By_IHG-Amsterdam_North_Holland_Province.html",
+      "search_query": "Kimpton DeWitt Amsterdam",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T15:59:58.666Z"
+    },
+    "Netherlands/Amsterdam/The-Hoxton-Lloyd-Amsterdam": {
+      "tripadvisor_id": "g188590-d25579401",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d25579401-Reviews-or10-The_Hoxton_Lloyd_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "The Hoxton Lloyd Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:00:04.702Z"
+    },
+    "Netherlands/Amsterdam/W-Amsterdam": {
+      "tripadvisor_id": "g188590-d8470249",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188590-d8470249-Reviews-W_Amsterdam-Amsterdam_North_Holland_Province.html",
+      "search_query": "W Amsterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:00:10.975Z"
+    },
+    "Netherlands/Maastricht/Chateau-Neercanne": {
+      "tripadvisor_id": "g188575-d27161574",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188575-d27161574-Reviews-Chateau_Neercanne-Maastricht_Limburg_Province.html",
+      "search_query": "Chateau Neercanne",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:00:16.875Z"
+    },
+    "Netherlands/Rotterdam/Nhow-Rotterdam": {
+      "tripadvisor_id": "g188632-d5270719",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g188632-d5270719-Reviews-Nhow_Rotterdam-Rotterdam_South_Holland_Province.html",
+      "search_query": "nhow Rotterdam",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:00:22.857Z"
+    },
+    "Netherlands/Valkenburg/Chateau-St-Gerlach": {
+      "tripadvisor_id": "g227912-d231420",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g227912-d231420-Reviews-Chateau_St_Gerlach-Valkenburg_Limburg_Province.html",
+      "search_query": "Chateau St. Gerlach",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:00:28.895Z"
+    },
+    "Nevada-US/Las-Vegas/Aria-Resort--Casino": {
+      "tripadvisor_id": "g45963-d91925",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d91925-Reviews-Aria_Resort_Casino-Las_Vegas_Nevada.html",
+      "search_query": "ARIA Resort & Casino",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:00:34.862Z"
+    },
+    "Nevada-US/Las-Vegas/Conrad-Las-Vegas-At-Resorts-World": {
+      "tripadvisor_id": "g45963-d23328327",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d23328327-Reviews-Conrad_Las_Vegas_at_Resorts_World-Las_Vegas_Nevada.html",
+      "search_query": "Conrad Las Vegas at Resorts World",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:08:37.041Z"
+    },
+    "Nevada-US/Las-Vegas/Durango-Casino--Resort": {
+      "tripadvisor_id": "g45963-d26728655",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d26728655-Reviews-Durango_Casino_Resort-Las_Vegas_Nevada.html",
+      "search_query": "Durango Casino & Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:08:43.096Z"
+    },
+    "Nevada-US/Las-Vegas/Mandalay-Bay-Resort--Casino": {
+      "tripadvisor_id": "g45963-d91886",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d91886-Reviews-Mandalay_Bay_Resort_Casino-Las_Vegas_Nevada.html",
+      "search_query": "Mandalay Bay Resort & Casino",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:08:48.927Z"
+    },
+    "Nevada-US/Las-Vegas/Mgm-Grand-Hotel--Casino": {
+      "tripadvisor_id": "g45963-d91891",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d91891-Reviews-MGM_Grand-Las_Vegas_Nevada.html",
+      "search_query": "MGM Grand Hotel & Casino",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:08:54.997Z"
+    },
+    "Nevada-US/Las-Vegas/Nobu-Hotel-Las-Vegas": {
+      "tripadvisor_id": "g45963-d3907285",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d3907285-Reviews-Nobu_Hotel_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Nobu Hotel Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:01.105Z"
+    },
+    "Nevada-US/Las-Vegas/Park-Mgm-Las-Vegas": {
+      "tripadvisor_id": "g45963-d97712",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d97712-Reviews-Park_MGM_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "Park MGM Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:06.951Z"
+    },
+    "Nevada-US/Las-Vegas/Red-Rock-Casino-Resort--Spa": {
+      "tripadvisor_id": "g45963-d596543",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d596543-Reviews-Red_Rock_Casino_Resort_Spa-Las_Vegas_Nevada.html",
+      "search_query": "Red Rock Casino Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:12.969Z"
+    },
+    "Nevada-US/Las-Vegas/The-Reserve-At-Park-Mgm": {
+      "tripadvisor_id": "g45963-d15182489",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d15182489-Reviews-The_Reserve_at_Park_MGM-Las_Vegas_Nevada.html",
+      "search_query": "The Reserve at Park MGM",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:18.955Z"
+    },
+    "Nevada-US/Las-Vegas/The-Venetian-Resort-Las-Vegas": {
+      "tripadvisor_id": "g45963-d97704",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d97704-Reviews-The_Venetian_Resort-Las_Vegas_Nevada.html",
+      "search_query": "The Venetian Resort Las Vegas",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:09:24.975Z"
+    },
+    "Nevada-US/Las-Vegas/Virgin-Hotels-Las-Vegas-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g33040154-d21135111",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g33040154-d21135111-Reviews-Virgin_Hotels_Las_Vegas_Curio_Collection_by_Hilton-Paradise_Nevada.html",
+      "search_query": "Virgin Hotels Las Vegas, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:31.027Z"
+    },
+    "Nevada-US/Las-Vegas/W-Las-Vegas": {
+      "tripadvisor_id": "g45963-d496876",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g45963-d496876-Reviews-or4740-W_Las_Vegas-Las_Vegas_Nevada.html",
+      "search_query": "W Las Vegas",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:36.925Z"
+    },
+    "New-Hampshire-US/Bretton-Woods/Omni-Mount-Washington-Resort-And-Spa": {
+      "tripadvisor_id": "g46031-d92144",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46031-d92144-Reviews-Omni_Mount_Washington_Resort_Spa-Bretton_Woods_New_Hampshire.html",
+      "search_query": "Omni Mount Washington Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:09:42.983Z"
+    },
+    "New-Jersey-US/Asbury-Park/The-Asbury-Hotel": {
+      "tripadvisor_id": "g29748-d10074427",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29748-d10074427-Reviews-The_Asbury_Hotel-Asbury_Park_New_Jersey.html",
+      "search_query": "The Asbury Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:09:48.881Z"
+    },
+    "New-Jersey-US/Cape-May/Congress-Hall-Hotel": {
+      "tripadvisor_id": "g46341-d92337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46341-d92337-Reviews-Congress_Hall-Cape_May_Cape_May_County_New_Jersey.html",
+      "search_query": "Congress Hall Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:09:54.887Z"
+    },
+    "New-Jersey-US/Hoboken/W-Hoboken": {
+      "tripadvisor_id": "g46515-d1235582",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46515-d1235582-Reviews-W_Hoboken-Hoboken_New_Jersey.html",
+      "search_query": "W Hoboken",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:00.917Z"
+    },
+    "New-Jersey-US/Long-Branch/Wave-Resort-On-Long-Branch-Beach": {
+      "tripadvisor_id": "g46582-d17392212",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46582-d17392212-Reviews-Wave_Resort-Long_Branch_New_Jersey.html",
+      "search_query": "Wave Resort on Long Branch Beach",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:10:07.388Z"
+    },
+    "New-Jersey-US/Princeton/Graduate-By-Hilton-Princeton": {
+      "tripadvisor_id": "g46756-d28001946",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46756-d28001946-Reviews-Graduate_By_Hilton_Princeton-Princeton_New_Jersey.html",
+      "search_query": "Graduate by Hilton Princeton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:13.242Z"
+    },
+    "New-York-US/Amagansett/The-Roundtree-Amagansett": {
+      "tripadvisor_id": "g29806-d121851",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29806-d121851-Reviews-The_Roundtree_Amagansett-Amagansett_Long_Island_New_York.html",
+      "search_query": "The Roundtree, Amagansett",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:19.227Z"
+    },
+    "New-York-US/Amenia/Troutbeck": {
+      "tripadvisor_id": "g29808-d79850",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g29808-d79850-Reviews-Troutbeck-Amenia_New_York.html",
+      "search_query": "Troutbeck",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:25.183Z"
+    },
+    "New-York-US/Brooklyn/1-Hotel-Brooklyn-Bridge": {
+      "tripadvisor_id": "g60827-d10421761",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60827-d10421761-Reviews-1_Hotel_Brooklyn_Bridge-Brooklyn_New_York.html",
+      "search_query": "1 Hotel Brooklyn Bridge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:31.102Z"
+    },
+    "New-York-US/Brooklyn/Ace-Hotel-Brooklyn": {
+      "tripadvisor_id": "g60827-d23289322",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60827-d23289322-Reviews-Ace_Hotel_Brooklyn-Brooklyn_New_York.html",
+      "search_query": "Ace Hotel Brooklyn",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:37.157Z"
+    },
+    "New-York-US/Brooklyn/Moxy-Brooklyn-Williamsburg": {
+      "tripadvisor_id": "g60827-d25274228",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60827-d25274228-Reviews-Moxy_Brooklyn_Williamsburg-Brooklyn_New_York.html",
+      "search_query": "Moxy Brooklyn Williamsburg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:43.187Z"
+    },
+    "New-York-US/Brooklyn/The-Hoxton-Williamsburg": {
+      "tripadvisor_id": "g60827-d14010788",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60827-d14010788-Reviews-The_Hoxton_Williamsburg-Brooklyn_New_York.html",
+      "search_query": "The Hoxton, Williamsburg",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:49.444Z"
+    },
+    "New-York-US/Brooklyn/The-William-Vale": {
+      "tripadvisor_id": "g60827-d8738248",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60827-d8738248-Reviews-The_William_Vale-Brooklyn_New_York.html",
+      "search_query": "The William Vale",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:10:55.470Z"
+    },
+    "New-York-US/Canandaigua/The-Lake-House-On-Canandaigua": {
+      "tripadvisor_id": "g47405-d17829036",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47405-d17829036-Reviews-The_Lake_House_On_Canandaigua-Canandaigua_Finger_Lakes_New_York.html",
+      "search_query": "The Lake House on Canandaigua",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:01.425Z"
+    },
+    "New-York-US/Garden-City/The-Garden-City-Hotel": {
+      "tripadvisor_id": "g47770-d93191",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47770-d93191-Reviews-The_Garden_City_Hotel-Garden_City_Long_Island_New_York.html",
+      "search_query": "The Garden City Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:07.349Z"
+    },
+    "New-York-US/Hunter/Scribners-Catskill-Lodge": {
+      "tripadvisor_id": "g47938-d577371",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g47938-d577371-Reviews-Scribner_s_Catskill_Lodge-Hunter_Catskill_Region_New_York.html",
+      "search_query": "Scribner's Catskill Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:13.300Z"
+    },
+    "New-York-US/New-York/1-Hotel-Central-Park": {
+      "tripadvisor_id": "g60763-d6883205",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d6883205-Reviews-1_Hotel_Central_Park-New_York_City_New_York.html",
+      "search_query": "1 Hotel Central Park",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:19.180Z"
+    },
+    "New-York-US/New-York/11-Howard": {
+      "tripadvisor_id": "g60763-d10040329",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d10040329-Reviews-11_Howard-New_York_City_New_York.html",
+      "search_query": "11 Howard",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:25.207Z"
+    },
+    "New-York-US/New-York/Andaz-5th-Avenue": {
+      "tripadvisor_id": "g60763-d1762573",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1762573-Reviews-Andaz_5th_Avenue-New_York_City_New_York.html",
+      "search_query": "Andaz 5th Avenue",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:31.306Z"
+    },
+    "New-York-US/New-York/Dream-Downtown": {
+      "tripadvisor_id": "g60763-d2173604",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d2173604-Reviews-Dream_Downtown-New_York_City_New_York.html",
+      "search_query": "Dream Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:50.603Z"
+    },
+    "New-York-US/New-York/Gansevoort-Meatpacking": {
+      "tripadvisor_id": "g60763-d287626",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d287626-Reviews-Gansevoort_Meatpacking_NYC-New_York_City_New_York.html",
+      "search_query": "Gansevoort Meatpacking",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:11:56.621Z"
+    },
+    "New-York-US/New-York/Gild-Hall-A-Thompson-Hotel": {
+      "tripadvisor_id": "g60763-d122014",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d122014-Reviews-Gild_Hall_A_Thompson_Hotel_by_Hyatt-New_York_City_New_York.html",
+      "search_query": "Gild Hall, A Thompson Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:02.686Z"
+    },
+    "New-York-US/New-York/Grayson-Hotel": {
+      "tripadvisor_id": "g60763-d24083873",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d24083873-Reviews-The_Grayson_Hotel-New_York_City_New_York.html",
+      "search_query": "Grayson Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:08.618Z"
+    },
+    "New-York-US/New-York/Hard-Rock-Hotel-New-York": {
+      "tripadvisor_id": "g60763-d23627300",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d23627300-Reviews-Hard_Rock_Hotel_New_York-New_York_City_New_York.html",
+      "search_query": "Hard Rock Hotel New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:14.671Z"
+    },
+    "New-York-US/New-York/Hyatt-Centric-Times-Square-New-York": {
+      "tripadvisor_id": "g60763-d4799063",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d4799063-Reviews-Hyatt_Centric_Times_Square_New_York-New_York_City_New_York.html",
+      "search_query": "Hyatt Centric Times Square New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:20.831Z"
+    },
+    "New-York-US/New-York/Intercontinental-Times-Square-New-York": {
+      "tripadvisor_id": "g60763-d1646128",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1646128-Reviews-InterContinental_New_York_Times_Square_by_IHG-New_York_City_New_York.html",
+      "search_query": "InterContinental Times Square, New York",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:12:26.711Z"
+    },
+    "New-York-US/New-York/Jw-Marriott-Essex-House-New-York": {
+      "tripadvisor_id": "g60763-d455186",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d455186-Reviews-JW_Marriott_Essex_House_New_York-New_York_City_New_York.html",
+      "search_query": "JW Marriott Essex House New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:32.968Z"
+    },
+    "New-York-US/New-York/Kimpton-Hotel-Eventi": {
+      "tripadvisor_id": "g60763-d1456560",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1456560-Reviews-Kimpton_Hotel_Eventi_by_IHG-New_York_City_New_York.html",
+      "search_query": "Kimpton Hotel Eventi",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:38.998Z"
+    },
+    "New-York-US/New-York/Kimpton-Theta-New-York---Times-Square": {
+      "tripadvisor_id": "g60763-d26224889",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d26224889-Reviews-Kimpton_Theta_New_York_Times_Square_By_IHG-New_York_City_New_York.html",
+      "search_query": "Kimpton Theta New York - Times Square",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:45.162Z"
+    },
+    "New-York-US/New-York/Lotte-New-York-Palace": {
+      "tripadvisor_id": "g60763-d126260",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d126260-Reviews-Lotte_New_York_Palace-New_York_City_New_York.html",
+      "search_query": "Lotte New York Palace",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:51.182Z"
+    },
+    "New-York-US/New-York/Modernhaus-Soho": {
+      "tripadvisor_id": "g60763-d1785018",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1785018-Reviews-ModernHaus_SoHo-New_York_City_New_York.html",
+      "search_query": "ModernHaus SoHo",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:12:57.025Z"
+    },
+    "New-York-US/New-York/Moxy-Nyc-East-Village": {
+      "tripadvisor_id": "g60763-d17783246",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d17783246-Reviews-Moxy_NYC_East_Village-New_York_City_New_York.html",
+      "search_query": "Moxy NYC East Village",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:02.980Z"
+    },
+    "New-York-US/New-York/Moxy-Nyc-Lower-East-Side": {
+      "tripadvisor_id": "g60763-d24140501",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d24140501-Reviews-Moxy_Nyc_Lower_East_Side-New_York_City_New_York.html",
+      "search_query": "Moxy NYC Lower East Side",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:09.034Z"
+    },
+    "New-York-US/New-York/Park-Lane-New-York": {
+      "tripadvisor_id": "g60763-d93579",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93579-Reviews-Park_Lane_Hotel_NY-New_York_City_New_York.html",
+      "search_query": "Park Lane New York",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:13:15.042Z"
+    },
+    "New-York-US/New-York/Public-Hotels": {
+      "tripadvisor_id": "g60763-d12533513",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d12533513-Reviews-PUBLIC_Hotel-New_York_City_New_York.html",
+      "search_query": "PUBLIC Hotels",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:13:21.156Z"
+    },
+    "New-York-US/New-York/Refinery-Hotel": {
+      "tripadvisor_id": "g60763-d3344640",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d3344640-Reviews-Refinery_Hotel-New_York_City_New_York.html",
+      "search_query": "Refinery Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:27.380Z"
+    },
+    "New-York-US/New-York/Smyth-Tribeca": {
+      "tripadvisor_id": "g60763-d1371825",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1371825-Reviews-Smyth_Tribeca-New_York_City_New_York.html",
+      "search_query": "Smyth Tribeca",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:33.456Z"
+    },
+    "New-York-US/New-York/Soho-Grand-Hotel": {
+      "tripadvisor_id": "g60763-d93561",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93561-Reviews-Soho_Grand_Hotel-New_York_City_New_York.html",
+      "search_query": "Soho Grand Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:39.481Z"
+    },
+    "New-York-US/New-York/The-Knickerbocker-Hotel": {
+      "tripadvisor_id": "g60763-d7255276",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d7255276-Reviews-The_Knickerbocker_Hotel-New_York_City_New_York.html",
+      "search_query": "The Knickerbocker Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:45.444Z"
+    },
+    "New-York-US/New-York/The-Manner": {
+      "tripadvisor_id": "g60763-d27983330",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d27983330-Reviews-The_Manner-New_York_City_New_York.html",
+      "search_query": "The Manner",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:51.482Z"
+    },
+    "New-York-US/New-York/The-Ned-Nomad": {
+      "tripadvisor_id": "g60763-d24898774",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d24898774-Reviews-The_Ned_Nomad-New_York_City_New_York.html",
+      "search_query": "The Ned NoMad",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:13:57.480Z"
+    },
+    "New-York-US/New-York/The-Roxy-Hotel-New-York": {
+      "tripadvisor_id": "g60763-d208455",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d208455-Reviews-The_Roxy_Hotel_New_York-New_York_City_New_York.html",
+      "search_query": "The Roxy Hotel New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:03.461Z"
+    },
+    "New-York-US/New-York/The-Standard-East-Village": {
+      "tripadvisor_id": "g60763-d1149402",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1149402-Reviews-The_Standard_East_Village-New_York_City_New_York.html",
+      "search_query": "The Standard, East Village",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:09.500Z"
+    },
+    "New-York-US/New-York/The-Standard-High-Line": {
+      "tripadvisor_id": "g60763-d1218720",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d1218720-Reviews-The_Standard_High_Line-New_York_City_New_York.html",
+      "search_query": "The Standard, High Line",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:15.729Z"
+    },
+    "New-York-US/New-York/The-Times-Square-Edition": {
+      "tripadvisor_id": "g60763-d13451795",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d13451795-Reviews-The_Times_Square_EDITION-New_York_City_New_York.html",
+      "search_query": "The Times Square EDITION",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:21.740Z"
+    },
+    "New-York-US/New-York/The-Twenty-Two-New-York": {
+      "tripadvisor_id": "g60763-d28218148",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d28218148-Reviews-The_Twenty_Two_New_York-New_York_City_New_York.html",
+      "search_query": "The Twenty Two New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:27.825Z"
+    },
+    "New-York-US/New-York/Thompson-Central-Park-New-York": {
+      "tripadvisor_id": "g60763-d93464",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d93464-Reviews-Thompson_Central_Park_New_York_by_Hyatt-New_York_City_New_York.html",
+      "search_query": "Thompson Central Park New York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:33.755Z"
+    },
+    "New-York-US/New-York/Virgin-Hotels-New-York-City": {
+      "tripadvisor_id": "g60763-d25071657",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60763-d25071657-Reviews-Virgin_Hotels_New_York_City-New_York_City_New_York.html",
+      "search_query": "Virgin Hotels New York City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:14:39.833Z"
+    },
+    "New-York-US/Queens/The-Rockaway-Hotel--Spa": {
+      "tripadvisor_id": "g48508-d20404929",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48508-d20404929-Reviews-The_Rockaway_Hotel-Rockaway_Park_Queens_New_York.html",
+      "search_query": "The Rockaway Hotel + Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:14:45.842Z"
+    },
+    "New-York-US/Saranac-Lake/Hotel-Saranac-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g48561-d12374948",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48561-d12374948-Reviews-Hotel_Saranac_Curio_Collection_by_Hilton-Saranac_Lake_New_York.html",
+      "search_query": "Hotel Saranac, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:16:58.933Z"
+    },
+    "New-York-US/Saratoga-Springs/The-Adelphi-Hotel": {
+      "tripadvisor_id": "g48562-d114517",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48562-d114517-Reviews-The_Adelphi_Hotel-Saratoga_Springs_Saratoga_County_New_York.html",
+      "search_query": "The Adelphi Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:04.910Z"
+    },
+    "New-York-US/Shelter-Island/The-Pridwin-Hotel": {
+      "tripadvisor_id": "g48596-d313847",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g48596-d313847-Reviews-The_Pridwin_Hotel_and_Cottages-Shelter_Island_Long_Island_New_York.html",
+      "search_query": "The Pridwin Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:10.852Z"
+    },
+    "New-Zealand/Auckland/Hilton-Auckland": {
+      "tripadvisor_id": "g255106-d255649",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255106-d255649-Reviews-or750-Hilton_Auckland-Auckland_Central_North_Island.html",
+      "search_query": "Hilton Auckland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:16.893Z"
+    },
+    "New-Zealand/Auckland/So-Auckland": {
+      "tripadvisor_id": "g255106-d15048156",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255106-d15048156-Reviews-or30-So_Auckland-Auckland_Central_North_Island.html",
+      "search_query": "SO/ Auckland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:22.824Z"
+    },
+    "New-Zealand/Christchurch/The-George": {
+      "tripadvisor_id": "g46637-d1194066",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g46637-d1194066-Reviews-The_George-Montclair_New_Jersey.html",
+      "search_query": "The George",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:29.325Z"
+    },
+    "New-Zealand/Wellington/Sofitel-Wellington": {
+      "tripadvisor_id": "g255115-d3874031",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g255115-d3874031-Reviews-Sofitel_Wellington_Hotel-Wellington_Greater_Wellington_North_Island.html",
+      "search_query": "Sofitel Wellington",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:35.271Z"
+    },
+    "North-Carolina-US/Asheville/Grand-Bohemian-Lodge-Asheville-Autograph-Collection": {
+      "tripadvisor_id": "g60742-d1163561",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60742-d1163561-Reviews-Grand_Bohemian_Lodge_Asheville_Autograph_Collection-Asheville_North_Carolina.html",
+      "search_query": "Grand Bohemian Lodge Asheville, Autograph Collection",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:41.277Z"
+    },
+    "North-Carolina-US/Asheville/The-Foundry-Hotel-Asheville-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g60742-d14065782",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60742-d14065782-Reviews-The_Foundry_Hotel_Asheville_Curio_Collection_By_Hilton-Asheville_North_Carolina.html",
+      "search_query": "The Foundry Hotel Asheville, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:17:47.193Z"
+    },
+    "North-Carolina-US/Asheville/The-Omni-Grove-Park-Inn-Resort-And-Spa": {
+      "tripadvisor_id": "g60742-d93940",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60742-d93940-Reviews-The_Omni_Grove_Park_Inn_Spa-Asheville_North_Carolina.html",
+      "search_query": "The Omni Grove Park Inn Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:17:53.738Z"
+    },
+    "North-Carolina-US/Charlotte/Grand-Bohemian-Hotel-Charlotte-Autograph-Collection": {
+      "tripadvisor_id": "g49022-d19414709",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g49022-d19414709-Reviews-Grand_Bohemian_Charlotte_Autograph_Collection-Charlotte_North_Carolina.html",
+      "search_query": "Grand Bohemian Hotel Charlotte, Autograph Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:17:59.603Z"
+    },
+    "North-Carolina-US/Charlotte/Kimpton-Tryon-Park-Hotel": {
+      "tripadvisor_id": "g49022-d12695078",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g49022-d12695078-Reviews-Kimpton_Tryon_Park_Hotel-Charlotte_North_Carolina.html",
+      "search_query": "Kimpton Tryon Park Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:05.503Z"
+    },
+    "North-Carolina-US/Maggie-Valley/Cataloochee-Ranch": {
+      "tripadvisor_id": "g49313-d122618",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g49313-d122618-Reviews-Cataloochee_Ranch-Maggie_Valley_North_Carolina.html",
+      "search_query": "Cataloochee Ranch",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:11.355Z"
+    },
+    "Norway/Oslo/Amerikalinjen": {
+      "tripadvisor_id": "g190479-d15619140",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g190479-d15619140-Reviews-or10-Amerikalinjen-Oslo_Eastern_Norway.html",
+      "search_query": "Amerikalinjen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:17.273Z"
+    },
+    "Nuevo-León-MX/Monterrey/Hilton-Monterrey-Valle": {
+      "tripadvisor_id": "g150782-d24995898",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150782-d24995898-Reviews-Hilton_Monterrey_Valle-Monterrey_Northern_Mexico.html",
+      "search_query": "Hilton Monterrey Valle",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:23.369Z"
+    },
+    "Ohio-US/Cincinnati/21c-Museum-Hotel-Cincinnati": {
+      "tripadvisor_id": "g60993-d3507297",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60993-d3507297-Reviews-21c_Museum_Hotel_Cincinnati-Cincinnati_Ohio.html",
+      "search_query": "21c Museum Hotel Cincinnati",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:29.342Z"
+    },
+    "Ohio-US/Cincinnati/The-Lytle-Park-Hotel": {
+      "tripadvisor_id": "g60993-d19102148",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60993-d19102148-Reviews-The_Lytle_Park_Hotel_Autograph_Collection-Cincinnati_Ohio.html",
+      "search_query": "The Lytle Park Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:35.205Z"
+    },
+    "Ohio-US/Cleveland/Kimpton-Schofield-Hotel": {
+      "tripadvisor_id": "g50207-d8656772",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g50207-d8656772-Reviews-Kimpton_Schofield_Hotel_by_IHG-Cleveland_Ohio.html",
+      "search_query": "Kimpton Schofield Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:41.113Z"
+    },
+    "Ohio-US/Columbus/Hotel-Leveque": {
+      "tripadvisor_id": "g50226-d10507713",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g50226-d10507713-Reviews-Hotel_Leveque_Autograph_Collection-Columbus_Ohio.html",
+      "search_query": "Hotel LeVeque",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:47.084Z"
+    },
+    "Ohio-US/Columbus/Le-Meridien-Columbus-The-Joseph": {
+      "tripadvisor_id": "g50226-d7182317",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g50226-d7182317-Reviews-Le_Meridien_Columbus_The_Joseph-Columbus_Ohio.html",
+      "search_query": "Le Meridien Columbus, The Joseph",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:18:53.043Z"
+    },
+    "Ohio-US/Columbus/The-Junto": {
+      "tripadvisor_id": "g50226-d25369127",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g50226-d25369127-Reviews-The_Junto-Columbus_Ohio.html",
+      "search_query": "The Junto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:18:58.935Z"
+    },
+    "Oklahoma-US/Oklahoma-City/Omni-Oklahoma-City-Hotel": {
+      "tripadvisor_id": "g51560-d21511318",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g51560-d21511318-Reviews-Omni_Oklahoma_City_Hotel-Oklahoma_City_Oklahoma.html",
+      "search_query": "Omni Oklahoma City Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:05.046Z"
+    },
+    "Oklahoma-US/Tulsa/Tulsa-Club-Hotel-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g51697-d15319209",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g51697-d15319209-Reviews-Tulsa_Club_Hotel_Curio_Collection_by_Hilton-Tulsa_Oklahoma.html",
+      "search_query": "Tulsa Club Hotel, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:10.969Z"
+    },
+    "Ontario-CA/Ottawa/Andaz-Ottawa-Byward-Market": {
+      "tripadvisor_id": "g155004-d10343280",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155004-d10343280-Reviews-Andaz_Ottawa_ByWard_Market_a_Concept_by_Hyatt-Ottawa_Ontario.html",
+      "search_query": "Andaz Ottawa Byward Market",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:16.844Z"
+    },
+    "Ontario-CA/Ottawa/Fairmont-Chateau-Laurier": {
+      "tripadvisor_id": "g155004-d182974",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155004-d182974-Reviews-or1670-Fairmont_Chateau_Laurier-Ottawa_Ontario.html",
+      "search_query": "Fairmont Chateau Laurier",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:22.791Z"
+    },
+    "Ontario-CA/Ottawa/Le-Germain-Hotel-Ottawa": {
+      "tripadvisor_id": "g155004-d13962693",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155004-d13962693-Reviews-Le_Germain_Hotel_Ottawa-Ottawa_Ontario.html",
+      "search_query": "Le Germain Hotel Ottawa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:29.337Z"
+    },
+    "Ontario-CA/Ottawa/The-Metcalfe-Hotel": {
+      "tripadvisor_id": "g155004-d643684",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155004-d643684-Reviews-The_Metcalfe_Hotel-Ottawa_Ontario.html",
+      "search_query": "The Metcalfe Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:35.212Z"
+    },
+    "Ontario-CA/Toronto/Ace-Hotel-Toronto": {
+      "tripadvisor_id": "g155019-d23972957",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d23972957-Reviews-Ace_Hotel_Toronto-Toronto_Ontario.html",
+      "search_query": "Ace Hotel Toronto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:41.176Z"
+    },
+    "Ontario-CA/Toronto/Bisha-a-Luxury-Collection-Hotel-Toronto": {
+      "tripadvisor_id": "g155019-d12483976",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d12483976-Reviews-BISHA_a_Luxury_Collection_Hotel_Toronto-Toronto_Ontario.html",
+      "search_query": "Bisha, a Luxury Collection Hotel, Toronto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:47.221Z"
+    },
+    "Ontario-CA/Toronto/Canopy-By-Hilton-Toronto---Yorkville": {
+      "tripadvisor_id": "g155019-d25020081",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d25020081-Reviews-Canopy_By_Hilton_Toronto_Yorkville-Toronto_Ontario.html",
+      "search_query": "Canopy by Hilton Toronto - Yorkville",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:19:53.133Z"
+    },
+    "Ontario-CA/Toronto/Fairmont-Royal-York": {
+      "tripadvisor_id": "g155019-d155495",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d155495-Reviews-Fairmont_Royal_York-Toronto_Ontario.html",
+      "search_query": "Fairmont Royal York",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:02.845Z"
+    },
+    "Ontario-CA/Toronto/Revery-Toronto-Downtown-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g155019-d1176198",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d1176198-Reviews-Revery_Toronto_Downtown_Curio_Collection_by_Hilton-Toronto_Ontario.html",
+      "search_query": "Revery Toronto Downtown, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:08.651Z"
+    },
+    "Ontario-CA/Toronto/Soho-Hotel-Toronto": {
+      "tripadvisor_id": "g155019-d259397",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d259397-Reviews-SoHo_Hotel_Toronto-Toronto_Ontario.html",
+      "search_query": "SoHo Hotel Toronto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:14.587Z"
+    },
+    "Ontario-CA/Toronto/The-Drake-Hotel": {
+      "tripadvisor_id": "g35805-d87645",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g35805-d87645-Reviews-The_Drake-Chicago_Illinois.html",
+      "search_query": "The Drake Hotel",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:39:20.503Z"
+    },
+    "Ontario-CA/Toronto/The-Omni-King-Edward-Hotel": {
+      "tripadvisor_id": "g155019-d183071",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d183071-Reviews-The_Omni_King_Edward_Hotel-Toronto_Ontario.html",
+      "search_query": "The Omni King Edward Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:26.629Z"
+    },
+    "Ontario-CA/Toronto/The-Yorkville-Royal-Sonesta-Hotel-Toronto": {
+      "tripadvisor_id": "g155019-d155566",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d155566-Reviews-or20-The_Yorkville_Royal_Sonesta_Hotel_Toronto-Toronto_Ontario.html",
+      "search_query": "The Yorkville Royal Sonesta Hotel Toronto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:32.586Z"
+    },
+    "Ontario-CA/Toronto/W-Toronto": {
+      "tripadvisor_id": "g155019-d185237",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155019-d185237-Reviews-W_Toronto-Toronto_Ontario.html",
+      "search_query": "W Toronto",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:38.530Z"
+    },
+    "Oregon-US/Bend/Riverhouse-Lodge": {
+      "tripadvisor_id": "g51766-d95935",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g51766-d95935-Reviews-Riverhouse_Lodge-Bend_Central_Oregon_Oregon.html",
+      "search_query": "Riverhouse Lodge",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:44.485Z"
+    },
+    "Oregon-US/Portland/Canopy-By-Hilton-Portland---Pearl-District": {
+      "tripadvisor_id": "g52024-d13294894",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52024-d13294894-Reviews-Canopy_By_Hilton_Portland_Pearl_District-Portland_Oregon.html",
+      "search_query": "Canopy by Hilton Portland - Pearl District",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:50.478Z"
+    },
+    "Oregon-US/Portland/Hilton-Portland-Downtown": {
+      "tripadvisor_id": "g52024-d96157",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52024-d96157-Reviews-Hilton_Portland_Downtown-Portland_Oregon.html",
+      "search_query": "Hilton Portland Downtown",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:39:56.479Z"
+    },
+    "Oregon-US/Portland/Kimpton-Hotel-Vintage-Portland": {
+      "tripadvisor_id": "g52024-d112196",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52024-d112196-Reviews-Kimpton_Hotel_Vintage_Portland_by_IHG-Portland_Oregon.html",
+      "search_query": "Kimpton Hotel Vintage Portland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:02.848Z"
+    },
+    "Oregon-US/Portland/Royal-Sonesta-Portland": {
+      "tripadvisor_id": "g52024-d102033",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52024-d102033-Reviews-The_Royal_Sonesta_Portland_Downtown-Portland_Oregon.html",
+      "search_query": "Royal Sonesta Portland",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:08.878Z"
+    },
+    "Oregon-US/Portland/Sentinel": {
+      "tripadvisor_id": "g52024-d571261",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52024-d571261-Reviews-Sentinel-Portland_Oregon.html",
+      "search_query": "Sentinel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:14.900Z"
+    },
+    "Oregon-US/Sunriver/Sunriver-Resort": {
+      "tripadvisor_id": "g52085-d101928",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52085-d101928-Reviews-Sunriver_Resort-Sunriver_Central_Oregon_Oregon.html",
+      "search_query": "Sunriver Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:20.759Z"
+    },
+    "Panama/Buenaventura/The-Buenaventura-Golf--Beach-Resort": {
+      "tripadvisor_id": "g26822091-d1380241",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g26822091-d1380241-Reviews-The_Buenaventura_Golf_Beach_Resort_Panama_Autograph_Collection-El_Chiru_Cocle_Provin.html",
+      "search_query": "The Buenaventura Golf & Beach Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:26.659Z"
+    },
+    "Pennsylvania-US/Bedford/Omni-Bedford-Springs-Resort-And-Spa": {
+      "tripadvisor_id": "g52178-d647574",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g52178-d647574-Reviews-Omni_Bedford_Springs_Resort_Spa-Bedford_Pennsylvania.html",
+      "search_query": "Omni Bedford Springs Resort and Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:40:32.610Z"
+    },
+    "Pennsylvania-US/Philadelphia/Aka-Rittenhouse-Square": {
+      "tripadvisor_id": "g60795-d662409",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d662409-Reviews-Aka_Rittenhouse_Square-Philadelphia_Pennsylvania.html",
+      "search_query": "AKA Rittenhouse Square",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:38.541Z"
+    },
+    "Pennsylvania-US/Philadelphia/Canopy-By-Hilton-Philadelphia-Center-City": {
+      "tripadvisor_id": "g60795-d20124571",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d20124571-Reviews-Canopy_By_Hilton_Philadelphia_Center_City-Philadelphia_Pennsylvania.html",
+      "search_query": "Canopy by Hilton Philadelphia Center City",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:44.616Z"
+    },
+    "Pennsylvania-US/Philadelphia/Hyatt-Centric-Rittenhouse-Square-Philadelphia": {
+      "tripadvisor_id": "g60795-d21113002",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d21113002-Reviews-Hyatt_Centric_Rittenhouse_Square_Philadelphia-Philadelphia_Pennsylvania.html",
+      "search_query": "Hyatt Centric Rittenhouse Square Philadelphia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:50.557Z"
+    },
+    "Pennsylvania-US/Philadelphia/Kimpton-Hotel-Monaco-Philadelphia": {
+      "tripadvisor_id": "g60795-d3226761",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d3226761-Reviews-Kimpton_Hotel_Monaco_Philadelphia_by_IHG-Philadelphia_Pennsylvania.html",
+      "search_query": "Kimpton Hotel Monaco Philadelphia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:40:56.544Z"
+    },
+    "Pennsylvania-US/Philadelphia/Loews-Philadelphia-Hotel": {
+      "tripadvisor_id": "g60795-d112132",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d112132-Reviews-Loews_Philadelphia_Hotel-Philadelphia_Pennsylvania.html",
+      "search_query": "Loews Philadelphia Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:02.527Z"
+    },
+    "Pennsylvania-US/Philadelphia/Sofitel-Philadelphia-At-Rittenhouse-Square": {
+      "tripadvisor_id": "g60795-d122343",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g60795-d122343-Reviews-Sofitel_Philadelphia_at_Rittenhouse_Square-Philadelphia_Pennsylvania.html",
+      "search_query": "Sofitel Philadelphia at Rittenhouse Square",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:08.270Z"
+    },
+    "Pennsylvania-US/Pittsburgh/Fairmont-Pittsburgh": {
+      "tripadvisor_id": "g53449-d1563869",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g53449-d1563869-Reviews-Fairmont_Pittsburgh-Pittsburgh_Pennsylvania.html",
+      "search_query": "Fairmont Pittsburgh",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:14.257Z"
+    },
+    "Pennsylvania-US/Pittsburgh/Kimpton-Hotel-Monaco-Pittsburgh": {
+      "tripadvisor_id": "g53449-d7171548",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g53449-d7171548-Reviews-Kimpton_Hotel_Monaco_Pittsburgh_by_IHG-Pittsburgh_Pennsylvania.html",
+      "search_query": "Kimpton Hotel Monaco Pittsburgh",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:20.209Z"
+    },
+    "Pennsylvania-US/Pittsburgh/The-Industrialist-Hotel-Pittsburgh": {
+      "tripadvisor_id": "g53449-d20098645",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g53449-d20098645-Reviews-The_Industrialist_Hotel_Pittsburgh_Autograph_Collection-Pittsburgh_Pennsylvania.html",
+      "search_query": "The Industrialist Hotel, Pittsburgh",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:26.079Z"
+    },
+    "Peru/Lima/Jw-Marriott-Lima": {
+      "tripadvisor_id": "g294316-d299825",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294316-d299825-Reviews-JW_Marriott_Hotel_Lima-Lima_Lima_Region.html",
+      "search_query": "JW Marriott Lima",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:41:32.102Z"
+    },
+    "Peru/Lima/Swissotel-Lima": {
+      "tripadvisor_id": "g294316-d301608",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294316-d301608-Reviews-Swissotel_Lima-Lima_Lima_Region.html",
+      "search_query": "Swissotel Lima",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:38.023Z"
+    },
+    "Philippines/Makati-City/Fairmont-Makati-Manila": {
+      "tripadvisor_id": "g298450-d3513005",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298450-d3513005-Reviews-Fairmont_Makati-Makati_Metro_Manila_Luzon.html",
+      "search_query": "Fairmont Makati Manila",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T16:41:44.000Z"
+    },
+    "Philippines/Pasay/Conrad-Manila": {
+      "tripadvisor_id": "g298452-d8431164",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g298452-d8431164-Reviews-Conrad_Manila-Pasay_Metro_Manila_Luzon.html",
+      "search_query": "Conrad Manila",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:50.044Z"
+    },
+    "Poland/Krakow/Hotel-Saski-Krakow-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g274772-d276772",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274772-d276772-Reviews-Hotel_Saski_Krakow_Curio_Collection_by_Hilton-Krakow_Lesser_Poland_Province_Southern_Po.html",
+      "search_query": "Hotel Saski Krakow, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T16:41:56.068Z"
+    },
+    "Poland/Warsaw/Nobu-Hotel-Warsaw": {
+      "tripadvisor_id": "g274856-d284135",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g274856-d284135-Reviews-Nobu_Hotel_Warsaw-Warsaw_Mazovia_Province_Central_Poland.html",
+      "search_query": "Nobu Hotel Warsaw",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:57:39.586Z"
+    },
+    "Portugal/Calheta/Saccharum-Resort": {
+      "tripadvisor_id": "g1178726-d7761891",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1178726-d7761891-Reviews-Saccharum-Calheta_Madeira_Madeira_Islands.html",
+      "search_query": "Saccharum Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:57:45.645Z"
+    },
+    "Portugal/Carvoeiro/Tivoli-Carvoeiro-Algarve-Resort": {
+      "tripadvisor_id": "g189115-d259657",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189115-d259657-Reviews-Tivoli_Carvoeiro_Algarve_Resort-Carvoeiro_Faro_District_Algarve.html",
+      "search_query": "Tivoli Carvoeiro Algarve Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:57:51.768Z"
+    },
+    "Portugal/Cascais/Farol-Hotel": {
+      "tripadvisor_id": "g189154-d280555",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189154-d280555-Reviews-Farol_Hotel-Cascais_Lisbon_District_Central_Portugal.html",
+      "search_query": "Farol Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:57:57.881Z"
+    },
+    "Portugal/Cascais/Legacy-Hotel-Cascais-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189154-d27420134",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189154-d27420134-Reviews-Legacy_Hotel_Cascais_Curio_Collection_By_Hilton-Cascais_Lisbon_District_Central_Portu.html",
+      "search_query": "Legacy Hotel Cascais, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:58:04.042Z"
+    },
+    "Portugal/Lisbon/Convent-Square-Lisbon-Hotel-Vignette-Collection": {
+      "tripadvisor_id": "g189158-d26344152",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d26344152-Reviews-Convent_Square_Lisbon_Vignette_Collection_by_IHG-Lisbon_Lisbon_District_Central_Portu.html",
+      "search_query": "Convent Square Lisbon Hotel, Vignette Collection",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:58:09.989Z"
+    },
+    "Portugal/Lisbon/Corinthia-Lisbon": {
+      "tripadvisor_id": "g189158-d276952",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d276952-Reviews-Corinthia_Lisbon-Lisbon_Lisbon_District_Central_Portugal.html",
+      "search_query": "Corinthia Lisbon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:58:17.183Z"
+    },
+    "Portugal/Lisbon/Duo-Hotel-Lisbon-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189158-d27483520",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d27483520-Reviews-DUO_Hotel_Lisbon_Curio_Collection_By_Hilton-Lisbon_Lisbon_District_Central_Portugal.html",
+      "search_query": "DUO Hotel Lisbon, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:58:23.384Z"
+    },
+    "Portugal/Lisbon/Epic-Sana-Marques": {
+      "tripadvisor_id": "g189158-d320254",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d320254-Reviews-or560-EPIC_SANA_Marques_Hotel-Lisbon_Lisbon_District_Central_Portugal.html",
+      "search_query": "Epic Sana Marques",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:58:30.061Z"
+    },
+    "Portugal/Lisbon/Hyatt-Regency-Lisboa": {
+      "tripadvisor_id": "g189158-d23799173",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d23799173-Reviews-Hyatt_Regency_Lisbon-Lisbon_Lisbon_District_Central_Portugal.html",
+      "search_query": "Hyatt Regency Lisboa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:58:36.194Z"
+    },
+    "Portugal/Lisbon/Intercontinental-Lisbon": {
+      "tripadvisor_id": "g189158-d231476",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d231476-Reviews-InterContinental_Lisbon_by_IHG-Lisbon_Lisbon_District_Central_Portugal.html",
+      "search_query": "InterContinental Lisbon",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:58:42.201Z"
+    },
+    "Portugal/Lisbon/Pousada-De-Lisboa---Praca-Do-Comercio": {
+      "tripadvisor_id": "g189158-d7778164",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d7778164-Reviews-Pousada_Lisboa_Praca_Do_Comercio-Lisbon_Lisbon_District_Central_Portugal.html",
+      "search_query": "Pousada de Lisboa - Praça do Comercio",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:58:48.188Z"
+    },
+    "Portugal/Lisbon/The-Emerald-House-Lisbon-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189158-d23810718",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189158-d23810718-Reviews-The_Emerald_House_Lisbon_Curio_Collection_By_Hilton-Lisbon_Lisbon_District_Central_Po.html",
+      "search_query": "The Emerald House Lisbon, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:58:54.178Z"
+    },
+    "Portugal/Moure/Maison-Albar---Amoure": {
+      "tripadvisor_id": "g28028521-d27934616",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g28028521-d27934616-Reviews-Maison_Albar_Amoure-Moure_Vila_Verde_Braga_District_Northern_Portugal.html",
+      "search_query": "Maison Albar - Amoure",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:00.165Z"
+    },
+    "Portugal/Porto/Casa-Da-Companhia-Vignette-Collection-By-Ihg": {
+      "tripadvisor_id": "g189180-d23505840",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189180-d23505840-Reviews-Casa_da_Companhia_Vignette_Collection_by_IHG-Porto_Porto_District_Northern_Portugal.html",
+      "search_query": "Casa da Companhia, Vignette Collection by IHG",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:06.210Z"
+    },
+    "Portugal/Porto/Cenica-Porto-Hotel-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g189180-d28106669",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189180-d28106669-Reviews-Cenica_Porto_Hotel_Curio_Collection_By_Hilton-Porto_Porto_District_Northern_Portugal.html",
+      "search_query": "Cenica Porto Hotel, Curio Collection by Hilton",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:59:12.245Z"
+    },
+    "Portugal/Porto/Nh-Collection-Porto-Batalha": {
+      "tripadvisor_id": "g189180-d7389812",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g189180-d7389812-Reviews-NH_Collection_Porto_Batalha-Porto_Porto_District_Northern_Portugal.html",
+      "search_query": "NH Collection Porto Batalha",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:18.302Z"
+    },
+    "Portugal/Vila-Nova-de-Gaia/Boeira-Garden-Hotel-Porto-Gaia-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g580268-d19630255",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580268-d19630255-Reviews-Boeira_Garden_Hotel_Porto_Gaia_Curio_Collection_by_Hilton-Vila_Nova_de_Gaia_Porto_Dis.html",
+      "search_query": "Boeira Garden Hotel Porto Gaia, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:24.357Z"
+    },
+    "Portugal/Vila-Nova-de-Gaia/Hilton-Porto-Gaia": {
+      "tripadvisor_id": "g580268-d23581709",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g580268-d23581709-Reviews-Hilton_Porto_Gaia-Vila_Nova_de_Gaia_Porto_District_Northern_Portugal.html",
+      "search_query": "Hilton Porto Gaia",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:30.236Z"
+    },
+    "Puerto-Rico/Carolina/Fairmont-El-San-Juan-Hotel": {
+      "tripadvisor_id": "g2665727-d155800",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2665727-d155800-Reviews-Fairmont_El_San_Juan_Hotel-Isla_Verde_Carolina_Puerto_Rico.html",
+      "search_query": "Fairmont El San Juan Hotel",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:36.162Z"
+    },
+    "Puerto-Rico/Carolina/The-Royal-Sonesta-San-Juan": {
+      "tripadvisor_id": "g2665727-d150446",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g2665727-d150446-Reviews-Royal_Sonesta-Isla_Verde_Carolina_Puerto_Rico.html",
+      "search_query": "The Royal Sonesta San Juan",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:59:42.192Z"
+    },
+    "Puerto-Rico/Rio-Grande/Hyatt-Regency-Grand-Reserve-Puerto-Rico": {
+      "tripadvisor_id": "g1006845-d284987",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1006845-d284987-Reviews-Hyatt_Regency_Grand_Reserve_Puerto_Rico-Rio_Grande_Puerto_Rico.html",
+      "search_query": "Hyatt Regency Grand Reserve Puerto Rico",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T17:59:48.155Z"
+    },
+    "Puerto-Rico/Rio-Grande/Wyndham-Grand-Rio-Mar-Rainforest-Beach-And-Golf-Resort": {
+      "tripadvisor_id": "g1006845-d148598",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1006845-d148598-Reviews-Wyndham_Grand_Rio_Mar_Rainforest_Beach_Golf_Resort-Rio_Grande_Puerto_Rico.html",
+      "search_query": "Wyndham Grand Rio Mar Rainforest Beach and Golf Resort",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T17:59:54.352Z"
+    },
+    "Puerto-Rico/San-Juan/Condado-Ocean-Club": {
+      "tripadvisor_id": "g147320-d12522646",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147320-d12522646-Reviews-Condado_Ocean_Club-San_Juan_Puerto_Rico.html",
+      "search_query": "Condado Ocean Club",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:00:00.292Z"
+    },
+    "Puerto-Rico/San-Juan/Hotel-El-Convento": {
+      "tripadvisor_id": "g147320-d148043",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147320-d148043-Reviews-Hotel_El_Convento-San_Juan_Puerto_Rico.html",
+      "search_query": "Hotel El Convento",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:00:06.437Z"
+    },
+    "Puerto-Rico/San-Juan/Palacio-Provincial-San-Juan-Curio-Collection-By-Hilton": {
+      "tripadvisor_id": "g147320-d23130157",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g147320-d23130157-Reviews-Palacio_Provincial_San_Juan_Curio_Collection_By_Hilton-San_Juan_Puerto_Rico.html",
+      "search_query": "Palacio Provincial San Juan, Curio Collection by Hilton",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:00:12.682Z"
+    },
+    "Qatar/Doha/Mondrian-Doha": {
+      "tripadvisor_id": "g294009-d12948576",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g294009-d12948576-Reviews-Mondrian_Doha-Doha.html",
+      "search_query": "Mondrian Doha",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:00:18.572Z"
+    },
+    "Québec-CA/La-Malbaie/Fairmont-Le-Manoir-Richelieu": {
+      "tripadvisor_id": "g499346-d183296",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g499346-d183296-Reviews-Fairmont_Le_Manoir_Richelieu-La_Malbaie_Charlevoix_Quebec.html",
+      "search_query": "Fairmont Le Manoir Richelieu",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:00:24.485Z"
+    },
+    "Québec-CA/Montréal/Fairmont-The-Queen-Elizabeth-Montreal": {
+      "tripadvisor_id": "g155032-d185747",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d185747-Reviews-Fairmont_The_Queen_Elizabeth-Montreal_Quebec.html",
+      "search_query": "Fairmont The Queen Elizabeth, Montreal",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:00:30.484Z"
+    },
+    "Québec-CA/Montréal/Hotel-Omni-Mont-royal": {
+      "tripadvisor_id": "g155032-d184305",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d184305-Reviews-Hotel_Omni_Mont_Royal-Montreal_Quebec.html",
+      "search_query": "Hotel Omni Mont-Royal",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:00:36.418Z"
+    },
+    "Québec-CA/Montréal/Hotel-William-Gray": {
+      "tripadvisor_id": "g155032-d10439823",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d10439823-Reviews-Hotel_William_Gray-Montreal_Quebec.html",
+      "search_query": "Hotel William Gray",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:15.199Z"
+    },
+    "Québec-CA/Montréal/Humaniti-Hotel-Montreal": {
+      "tripadvisor_id": "g155032-d21310045",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d21310045-Reviews-Humaniti_Hotel_Montreal_Autograph_Collection-Montreal_Quebec.html",
+      "search_query": "Humaniti Hotel Montreal",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:21.310Z"
+    },
+    "Québec-CA/Montréal/Sofitel-Montreal-Golden-Mile": {
+      "tripadvisor_id": "g155032-d254354",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d254354-Reviews-or1150-Sofitel_Montreal_Golden_Mile-Montreal_Quebec.html",
+      "search_query": "Sofitel Montreal Golden Mile",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:27.296Z"
+    },
+    "Québec-CA/Montréal/W-Montreal": {
+      "tripadvisor_id": "g155032-d497207",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d497207-Reviews-W_Montreal-Montreal_Quebec.html",
+      "search_query": "W Montreal",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:33.201Z"
+    },
+    "Québec-CA/Montréal/Warwick-Le-Crystal-Montreal": {
+      "tripadvisor_id": "g155032-d24113902",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g155032-d24113902-Reviews-Warwick_Le_Crystal_Montreal-Montreal_Quebec.html",
+      "search_query": "Warwick Le Crystal Montreal",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:02:39.175Z"
+    },
+    "Quintana-Roo-MX/Bacalar/Our-Habitas-Bacalar": {
+      "tripadvisor_id": "g1202648-d23341924",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g1202648-d23341924-Reviews-Our_Habitas_Bacalar-Bacalar_Yucatan_Peninsula.html",
+      "search_query": "Our Habitas Bacalar",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:45.132Z"
+    },
+    "Quintana-Roo-MX/Cancún/Canopy-By-Hilton-Cancun-La-Isla": {
+      "tripadvisor_id": "g150807-d18921135",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d18921135-Reviews-Canopy_by_Hilton_Cancun_La_Isla-Cancun_Yucatan_Peninsula.html",
+      "search_query": "Canopy By Hilton Cancun La Isla",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:51.184Z"
+    },
+    "Quintana-Roo-MX/Cancún/Hilton-Cancun-Mar-Caribe-All-inclusive-Resort": {
+      "tripadvisor_id": "g150807-d186909",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d186909-Reviews-Hilton_Cancun_Mar_Caribe_All_inclusive_Resort-Cancun_Yucatan_Peninsula.html",
+      "search_query": "Hilton Cancun Mar Caribe All-Inclusive Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:02:57.125Z"
+    },
+    "Quintana-Roo-MX/Cancún/Hyatt-Ziva-Cancun": {
+      "tripadvisor_id": "g150807-d152887",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d152887-Reviews-Hyatt_Ziva_Cancun-Cancun_Yucatan_Peninsula.html",
+      "search_query": "Hyatt Ziva Cancun",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:03.150Z"
+    },
+    "Quintana-Roo-MX/Cancún/Jw-Marriott-Cancun-Resort--Spa": {
+      "tripadvisor_id": "g150807-d209428",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d209428-Reviews-JW_Marriott_Cancun_Resort_Spa-Cancun_Yucatan_Peninsula.html",
+      "search_query": "JW Marriott Cancun Resort & Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:09.368Z"
+    },
+    "Quintana-Roo-MX/Cancún/Le-Blanc-Spa-Resort-Cancun---Adults-Only---All-Inclusive": {
+      "tripadvisor_id": "g150807-d154868",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d154868-Reviews-Le_Blanc_Spa_Resort_Cancun-Cancun_Yucatan_Peninsula.html",
+      "search_query": "Le Blanc Spa Resort Cancun - Adults Only - All Inclusive",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:03:15.332Z"
+    },
+    "Quintana-Roo-MX/Cancún/Sls-Playa-Mujeres": {
+      "tripadvisor_id": "g7983226-d28162941",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g7983226-d28162941-Reviews-Sls_Playa_Mujeres-Punta_Sam_Costa_Mujeres_Yucatan_Peninsula.html",
+      "search_query": "SLS Playa Mujeres",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:21.212Z"
+    },
+    "Quintana-Roo-MX/Cozumel/Intercontinental-Presidente-Cozumel-Resort-Spa": {
+      "tripadvisor_id": "g150809-d153001",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150809-d153001-Reviews-Intercontinental_Presidente_Cozumel_Resort_Spa_By_IHG-Cozumel_Yucatan_Peninsula.html",
+      "search_query": "InterContinental Presidente Cozumel Resort Spa",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:27.233Z"
+    },
+    "Quintana-Roo-MX/Holbox/Nomade-Holbox": {
+      "tripadvisor_id": "g616319-d24100802",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g616319-d24100802-Reviews-Nomade_Temple_Holbox-Holbox_Island_Yucatan_Peninsula.html",
+      "search_query": "Nomade Holbox",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:03:33.171Z"
+    },
+    "Quintana-Roo-MX/Playa-del-Carmen/Hotel-Xcaret-Arte": {
+      "tripadvisor_id": "g150812-d23353929",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d23353929-Reviews-Hotel_Xcaret_Arte-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "search_query": "Hotel Xcaret Arte",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:39.149Z"
+    },
+    "Quintana-Roo-MX/Playa-del-Carmen/Hotel-Xcaret-Mexico": {
+      "tripadvisor_id": "g150812-d13189438",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d13189438-Reviews-Hotel_Xcaret_Mexico-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "search_query": "Hotel Xcaret Mexico",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:03:45.138Z"
+    },
+    "Quintana-Roo-MX/Playa-del-Carmen/Paradisus-La-Perla": {
+      "tripadvisor_id": "g150812-d23373079",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d23373079-Reviews-Paradisus_La_Perla_Adults_Only-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "search_query": "PARADISUS LA PERLA",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:51.270Z"
+    },
+    "Quintana-Roo-MX/Playa-del-Carmen/Paradisus-Playa-Del-Carmen": {
+      "tripadvisor_id": "g150812-d2299038",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d2299038-Reviews-Paradisus_Playa_del_Carmen_Riviera_Maya-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "search_query": "Paradisus Playa del Carmen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:03:57.315Z"
+    },
+    "Quintana-Roo-MX/Playa-del-Carmen/Secrets-Moxche-Playa-Del-Carmen": {
+      "tripadvisor_id": "g150812-d23901017",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150812-d23901017-Reviews-Secrets_Moxche_Playa_del_Carmen-Playa_del_Carmen_Yucatan_Peninsula.html",
+      "search_query": "Secrets Moxche Playa del Carmen",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:03.059Z"
+    },
+    "Quintana-Roo-MX/Puerto-Morelos/Haven-Riviera-Cancun-Resort--Spa": {
+      "tripadvisor_id": "g150807-d13499839",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150807-d13499839-Reviews-Haven_Riviera_Cancun-Cancun_Yucatan_Peninsula.html",
+      "search_query": "Haven Riviera Cancun Resort & Spa",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:04:08.907Z"
+    },
+    "Quintana-Roo-MX/Tulum/Be-Tulum": {
+      "tripadvisor_id": "g23240074-d1676322",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23240074-d1676322-Reviews-Be_Tulum_Hotel-Tulum_Beach_Tulum_Yucatan_Peninsula.html",
+      "search_query": "Be Tulum",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:14.821Z"
+    },
+    "Quintana-Roo-MX/Tulum/Bespoke-Tulum": {
+      "tripadvisor_id": "g23240074-d27368400",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23240074-d27368400-Reviews-Bespoke-Tulum_Beach_Tulum_Yucatan_Peninsula.html",
+      "search_query": "Bespoke Tulum",
+      "match_confidence": "medium",
+      "matched_at": "2026-04-07T18:04:20.694Z"
+    },
+    "Quintana-Roo-MX/Tulum/Casa-Malca": {
+      "tripadvisor_id": "g23240074-d8631919",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23240074-d8631919-Reviews-Casa_Malca-Tulum_Beach_Tulum_Yucatan_Peninsula.html",
+      "search_query": "Casa Malca",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:26.658Z"
+    },
+    "Quintana-Roo-MX/Tulum/Hilton-Tulum-Riviera-Maya-All-inclusive-Resort": {
+      "tripadvisor_id": "g150813-d23608360",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150813-d23608360-Reviews-Hilton_Tulum_Riviera_Maya_All_Inclusive_Resort-Tulum_Yucatan_Peninsula.html",
+      "search_query": "Hilton Tulum Riviera Maya All-Inclusive Resort",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:32.664Z"
+    },
+    "Quintana-Roo-MX/Tulum/Kimpton-Aluna-Resort-Tulum": {
+      "tripadvisor_id": "g150813-d23035856",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150813-d23035856-Reviews-Kimpton_Aluna_Resort_Tulum-Tulum_Yucatan_Peninsula.html",
+      "search_query": "Kimpton Aluna Resort Tulum",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:38.508Z"
+    },
+    "Quintana-Roo-MX/Tulum/La-Valise-Tulum": {
+      "tripadvisor_id": "g150813-d13510523",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150813-d13510523-Reviews-La_Valise_Tulum-Tulum_Yucatan_Peninsula.html",
+      "search_query": "La Valise Tulum",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:44.349Z"
+    },
+    "Quintana-Roo-MX/Tulum/La-Zebra": {
+      "tripadvisor_id": "g23240074-d296667",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g23240074-d296667-Reviews-La_Zebra_an_SLH_Hotel-Tulum_Beach_Tulum_Yucatan_Peninsula.html",
+      "search_query": "La Zebra",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:50.266Z"
+    },
+    "Quintana-Roo-MX/Tulum/Mi-Amor": {
+      "tripadvisor_id": "g150813-d7183451",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g150813-d7183451-Reviews-Mi_Amor_Colibri_Boutique_Hotel-Tulum_Yucatan_Peninsula.html",
+      "search_query": "Mi Amor",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:04:56.395Z"
+    },
+    "Rhode-Island-US/Middletown/The-Pell": {
+      "tripadvisor_id": "g54095-d23461337",
+      "tripadvisor_url": "https://www.tripadvisor.com/Hotel_Review-g54095-d23461337-Reviews-The_Pell-Middletown_Rhode_Island.html",
+      "search_query": "The Pell",
+      "match_confidence": "high",
+      "matched_at": "2026-04-07T18:05:02.827Z"
     }
   }
 }

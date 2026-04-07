@@ -63,6 +63,12 @@ const PLAN_CONFIG = {
     plans: ["hilton_brands"],
     description: "Hilton luxury brands (Conrad, Waldorf Astoria, LXR, SLH) scraped from hilton.com with live points and cash pricing.",
   },
+  bilt_hafh: {
+    key: "bilt_hafh",
+    label: "Bilt",
+    plans: ["bilt_hafh"],
+    description: "Bilt Home Away From Home hotels eligible for Bilt Rewards points.",
+  },
 };
 
 const PLAN_LABELS = {
@@ -72,6 +78,7 @@ const PLAN_LABELS = {
   chase_edit: "Edit",
   hilton_brands: "Hilton",
   iprefer_points: "iPrefer",
+  bilt_hafh: "Bilt HAFH",
 };
 
 const state = {
@@ -318,6 +325,10 @@ function buildBucketKey(plans = []) {
 
   if (plans.includes("chase_edit")) {
     return "edit";
+  }
+
+  if (plans.includes("bilt_hafh")) {
+    return "bilt_hafh";
   }
 
   return null;
@@ -630,6 +641,7 @@ function normalizeHotel([id, rawHotel]) {
     chaseUrl: rawHotel.chase_url || "",
     hiltonUrl: rawHotel.hilton_url || "",
     ipreferUrl: rawHotel.iprefer_url || "",
+    biltUrl: rawHotel.bilt_url || "",
     tripadvisorUrl: rawHotel.tripadvisor_url || "",
     tripadvisorId: rawHotel.tripadvisor_id || "",
     summaryPrice: rawHotel.summary_price || null,
@@ -921,6 +933,7 @@ function getBucketCounts() {
     iprefer: 0,
     edit: 0,
     hilton: 0,
+    bilt_hafh: 0,
   };
 
   Object.keys(counts).forEach((bucket) => {
@@ -1187,6 +1200,9 @@ function renderDetailView() {
       : "",
     hotel.ipreferUrl
       ? `<a class="primary-button" href="${hotel.ipreferUrl}" target="_blank" rel="noreferrer" data-analytics-link="iprefer">iPrefer</a>`
+      : "",
+    hotel.biltUrl
+      ? `<a class="primary-button" href="${hotel.biltUrl}" target="_blank" rel="noreferrer" data-analytics-link="bilt">Bilt</a>`
       : "",
   ]
     .filter(Boolean)
@@ -1855,6 +1871,7 @@ function buildShell() {
               <button class="bucket-tab" data-bucket="iprefer" type="button"></button>
               <button class="bucket-tab" data-bucket="edit" type="button"></button>
               <button class="bucket-tab" data-bucket="hilton" type="button"></button>
+              <button class="bucket-tab" data-bucket="bilt_hafh" type="button"></button>
             </div>
             <div id="fhr-thc-toggle" class="map-mode-toggle" hidden>
               <button class="map-mode-toggle__btn is-active" data-subfilter="fhr" type="button">FHR</button>
