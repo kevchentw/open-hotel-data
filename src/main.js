@@ -1,6 +1,7 @@
 import "./styles.css";
 
 const HOTELS_URL = "./data/hotels.json";
+const FORUM_REVIEWS_URL = "./data/forum-reviews.json";
 const DEFAULT_BUCKET = "aspire";
 const LIST_PAGE_SIZE = 120;
 const PRICE_BUCKET_SIZE = 100;
@@ -98,6 +99,7 @@ const state = {
   hiltonStandardOnly: true,
   ipreferHasPoints: false,
   editSelectHotels: false,
+  hasForumReview: false,
   aspireCreditWithStayFilter: false,
   fhrThcSubFilter: "fhr",
   lastTrackedBucket: null,
@@ -106,6 +108,7 @@ const state = {
 let map = null;
 let markersLayer = null;
 let dom = {};
+let forumReviewsMap = new Map();
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -653,6 +656,8 @@ function normalizeHotel([id, rawHotel]) {
     hiltonCpp: toFiniteNumber(rawHotel.hilton_cpp),
     hiltonCashCurrency: rawHotel.hilton_cash_currency || "",
     hiltonPointsRewardType: rawHotel.hilton_points_reward_type || "",
+    forumReviews: [],
+    forumReviewCount: 0,
     marker: null,
   };
 
@@ -770,6 +775,10 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
   }
 
   if (!excluded.has("editSelectHotels") && state.editSelectHotels && !hotel.chase2026Credit) {
+    return false;
+  }
+
+  if (!excluded.has("hasForumReview") && state.hasForumReview && hotel.forumReviewCount === 0) {
     return false;
   }
 
@@ -1073,6 +1082,7 @@ function createHotelRow(hotel) {
         <span>${escapeHtml(joinValues(hotel.planLabels))}</span>
         ${state.bucket === "edit" && hotel.chase2026Credit ? `<span class="brand-pill">$250 Chase Travel Credit Eligible</span>` : ""}
         ${state.bucket === "aspire" && hotel.aspireCreditWithStay?.yes_count > 0 ? `<span class="brand-pill">Credit without Stay</span>` : ""}
+        ${hotel.forumReviewCount > 0 ? `<span class="brand-pill forum-review-pill">${hotel.forumReviewCount} forum review${hotel.forumReviewCount !== 1 ? "s" : ""}</span>` : ""}
       </div>
     </div>
   `;
@@ -1267,6 +1277,24 @@ function renderDetailView() {
       `
           : ""
       }
+
+      ${hotel.forumReviewCount > 0 ? `
+      <section class="forum-reviews-section">
+        <h3>Forum Reviews (${hotel.forumReviewCount})</h3>
+        <div class="forum-reviews-list">
+          ${hotel.forumReviews.map((review) => `
+            <div class="forum-review">
+              <div class="forum-review__header">
+                <span class="forum-review__author">${escapeHtml(review.author)}</span>
+                ${review.stay_date ? `<span class="forum-review__date">Stayed ${escapeHtml(review.stay_date)}</span>` : ""}
+                ${review.program ? `<span class="brand-pill">${escapeHtml(review.program)}</span>` : ""}
+                <a href="${escapeHtml(review.post_url)}" target="_blank" rel="noreferrer" class="forum-review__source">Source</a>
+              </div>
+              <p class="forum-review__content">${escapeHtml(review.content)}</p>
+            </div>
+          `).join("")}
+        </div>
+      </section>` : ""}
 
       <div class="detail-actions">
         ${sourceActions}
@@ -1730,6 +1758,7 @@ function render() {
   const isAspire = state.bucket === "aspire";
   dom.aspireCreditWithStayGroup.hidden = !isAspire;
   dom.aspireCreditWithStayBtn.classList.toggle("is-active", state.aspireCreditWithStayFilter);
+  dom.forumReviewFilterBtn.classList.toggle("is-active", state.hasForumReview);
   const isFhrThc = state.bucket === "fhr_thc";
   dom.fhrThcToggle.hidden = !isFhrThc;
   dom.fhrThcToggle.querySelectorAll("[data-subfilter]").forEach((btn) => {
@@ -1830,11 +1859,6 @@ function buildShell() {
         </label>
 
         <label class="toolbar-group">
-          <span>Brand</span>
-          <select id="brand-select"></select>
-        </label>
-
-        <label class="toolbar-group">
           <span>Chain</span>
           <select id="chain-select"></select>
         </label>
@@ -1879,23 +1903,39 @@ function buildShell() {
           <button id="hilton-standard-only-btn" class="filter-toggle-btn" type="button">Standard reward</button>
         </label>
 
-        <label class="toolbar-group toolbar-group--amenities">
-          <span>Amenities</span>
-          <div class="filter-dropdown" id="amenities-dropdown">
-            <button
-              id="amenities-toggle"
-              class="filter-dropdown__toggle"
-              type="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Any amenities
-            </button>
-            <div id="amenities-panel" class="filter-dropdown__panel" hidden>
-              <div id="amenities-menu" class="filter-dropdown__menu"></div>
+        <label class="toolbar-group">
+          <span>More</span>
+          <div class="more-filters-wrapper" id="more-filters-wrapper">
+            <button id="more-filters-btn" class="filter-toggle-btn" type="button" aria-expanded="false">+ More</button>
+            <div id="more-filters-panel" class="filter-dropdown__panel more-filters-panel" hidden>
+              <label class="toolbar-group">
+                <span>Brand</span>
+                <select id="brand-select"></select>
+              </label>
+              <label class="toolbar-group">
+                <span>Reviews</span>
+                <button id="forum-review-filter-btn" class="filter-toggle-btn" type="button">Has forum review</button>
+              </label>
+              <label class="toolbar-group toolbar-group--amenities">
+                <span>Amenities</span>
+                <div class="filter-dropdown" id="amenities-dropdown">
+                  <button
+                    id="amenities-toggle"
+                    class="filter-dropdown__toggle"
+                    type="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Any amenities
+                  </button>
+                  <div id="amenities-panel" class="filter-dropdown__panel" hidden>
+                    <div id="amenities-menu" class="filter-dropdown__menu"></div>
+                  </div>
+                </div>
+                <small id="amenities-info" hidden></small>
+              </label>
             </div>
           </div>
-          <small id="amenities-info" hidden></small>
         </label>
         </section>
       </section>
@@ -1961,6 +2001,7 @@ function buildShell() {
     fhrThcToggle: document.querySelector("#fhr-thc-toggle"),
     hiltonFiltersGroup: document.querySelector("#hilton-filters-group"),
     hiltonStandardOnlyBtn: document.querySelector("#hilton-standard-only-btn"),
+    forumReviewFilterBtn: document.querySelector("#forum-review-filter-btn"),
   };
 
   dom.overlapPlan.value = state.overlapPlan;
@@ -1986,6 +2027,7 @@ function bindEvents() {
       state.ipreferHasPoints = nextBucket === "iprefer";
       state.editSelectHotels = false;
       state.aspireCreditWithStayFilter = false;
+      state.hasForumReview = false;
       state.fhrThcSubFilter = "fhr";
       state.hiltonStandardOnly = true;
       state.shouldResetMapView = true;
@@ -2103,6 +2145,14 @@ function bindEvents() {
     render();
   });
 
+  dom.forumReviewFilterBtn.addEventListener("click", () => {
+    state.hasForumReview = !state.hasForumReview;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
   dom.ipreferMapToggle.addEventListener("click", (event) => {
     const btn = event.target.closest("[data-mode]");
     if (!btn || btn.dataset.mode === state.ipreferMapMode) return;
@@ -2170,6 +2220,22 @@ async function loadHotels() {
   state.hotelsById = new Map(state.hotels.map((hotel) => [hotel.id, hotel]));
 }
 
+async function loadForumReviews() {
+  try {
+    const response = await fetch(FORUM_REVIEWS_URL);
+    if (!response.ok) return;
+    const payload = await response.json();
+    const reviewsByHotel = payload.reviews_by_hotel || {};
+    for (const [id, reviews] of Object.entries(reviewsByHotel)) {
+      if (id !== "unmatched" && Array.isArray(reviews)) {
+        forumReviewsMap.set(id, reviews);
+      }
+    }
+  } catch {
+    // non-fatal: forum reviews are optional
+  }
+}
+
 function renderError(error) {
   const app = document.querySelector("#app");
   app.innerHTML = `
@@ -2186,7 +2252,12 @@ async function init() {
     buildShell();
     initMap();
     bindEvents();
-    await loadHotels();
+    await Promise.all([loadHotels(), loadForumReviews()]);
+    state.hotels.forEach((hotel) => {
+      const reviews = forumReviewsMap.get(hotel.id) || [];
+      hotel.forumReviews = reviews;
+      hotel.forumReviewCount = reviews.length;
+    });
     syncStateFromUrl();
     render();
     if (state.listPanelMode === "detail" && state.selectedHotelId) {
