@@ -1736,6 +1736,17 @@ function selectHotel(hotelId, { focusMap = false, showDetail = true, source = "u
   }
 }
 
+function updateMoreFiltersBadge() {
+  const activeCount = [
+    state.brand !== "all",
+    state.hasForumReview,
+    state.amenities.length > 0,
+  ].filter(Boolean).length;
+  dom.moreFiltersBtn.textContent = activeCount > 0 ? `More · ${activeCount}` : "+ More";
+  dom.moreFiltersBtn.classList.toggle("is-active", activeCount > 0);
+  dom.moreFiltersBtn.setAttribute("aria-expanded", String(!dom.moreFiltersPanel.hidden));
+}
+
 function render() {
   updateBucketTabs();
   updateFilterOptions();
@@ -1759,6 +1770,7 @@ function render() {
   dom.aspireCreditWithStayGroup.hidden = !isAspire;
   dom.aspireCreditWithStayBtn.classList.toggle("is-active", state.aspireCreditWithStayFilter);
   dom.forumReviewFilterBtn.classList.toggle("is-active", state.hasForumReview);
+  updateMoreFiltersBadge();
   const isFhrThc = state.bucket === "fhr_thc";
   dom.fhrThcToggle.hidden = !isFhrThc;
   dom.fhrThcToggle.querySelectorAll("[data-subfilter]").forEach((btn) => {
@@ -1986,6 +1998,9 @@ function buildShell() {
     amenitiesPanel: document.querySelector("#amenities-panel"),
     amenitiesMenu: document.querySelector("#amenities-menu"),
     amenitiesInfo: document.querySelector("#amenities-info"),
+    moreFiltersBtn: document.querySelector("#more-filters-btn"),
+    moreFiltersPanel: document.querySelector("#more-filters-panel"),
+    moreFiltersWrapper: document.querySelector("#more-filters-wrapper"),
     list: document.querySelector("#list-panel"),
     backToList: document.querySelector("#back-to-list"),
     loadMore: document.querySelector("#load-more"),
@@ -2090,6 +2105,12 @@ function bindEvents() {
     dom.amenitiesToggle.setAttribute("aria-expanded", String(!isOpen));
   });
 
+  dom.moreFiltersBtn.addEventListener("click", () => {
+    const isOpen = !dom.moreFiltersPanel.hidden;
+    dom.moreFiltersPanel.hidden = isOpen;
+    dom.moreFiltersBtn.setAttribute("aria-expanded", String(!isOpen));
+  });
+
   dom.amenitiesMenu.addEventListener("change", () => {
     state.amenities = [...dom.amenitiesMenu.querySelectorAll("input:checked")].map((input) => input.value);
     state.listLimit = LIST_PAGE_SIZE;
@@ -2103,12 +2124,18 @@ function bindEvents() {
       dom.amenitiesPanel.hidden = true;
       dom.amenitiesToggle.setAttribute("aria-expanded", "false");
     }
+    if (!dom.moreFiltersWrapper.contains(event.target)) {
+      dom.moreFiltersPanel.hidden = true;
+      dom.moreFiltersBtn.setAttribute("aria-expanded", "false");
+    }
   });
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       dom.amenitiesPanel.hidden = true;
       dom.amenitiesToggle.setAttribute("aria-expanded", "false");
+      dom.moreFiltersPanel.hidden = true;
+      dom.moreFiltersBtn.setAttribute("aria-expanded", "false");
     }
   });
 
