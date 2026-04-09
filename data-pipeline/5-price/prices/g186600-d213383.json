@@ -1,6 +1,140 @@
 {
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-09T01:28:51.692Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 23,
+        "cash_max": "634.00",
+        "cash_min": "333.00",
+        "points_available_nights": 20,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-05": {
+        "cash_available_nights": 30,
+        "cash_max": "751.00",
+        "cash_min": "420.00",
+        "points_available_nights": 29,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-06": {
+        "cash_available_nights": 26,
+        "cash_max": "692.00",
+        "cash_min": "389.00",
+        "points_available_nights": 26,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-07": {
+        "cash_available_nights": 31,
+        "cash_max": "780.00",
+        "cash_min": "432.00",
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "780.00",
+        "cash_min": "466.00",
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "780.00",
+        "cash_min": "534.00",
+        "points_available_nights": 30,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "780.00",
+        "cash_min": "365.00",
+        "points_available_nights": 28,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "578.00",
+        "cash_min": "365.00",
+        "points_available_nights": 30,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2026-12": {
+        "cash_available_nights": 19,
+        "cash_max": "558.00",
+        "cash_min": "316.00",
+        "points_available_nights": 19,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-04": {
+        "cash_available_nights": 29,
+        "cash_max": "444.00",
+        "cash_min": "358.00",
+        "points_available_nights": 29,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-05": {
+        "cash_available_nights": 31,
+        "cash_max": "589.00",
+        "cash_min": "395.00",
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-06": {
+        "cash_available_nights": 30,
+        "cash_max": "395.00",
+        "cash_min": "395.00",
+        "points_available_nights": 30,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-07": {
+        "cash_available_nights": 31,
+        "cash_max": "395.00",
+        "cash_min": "395.00",
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-08": {
+        "cash_available_nights": 31,
+        "cash_max": "395.00",
+        "cash_min": "395.00",
+        "points_available_nights": 31,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-09": {
+        "cash_available_nights": 30,
+        "cash_max": "395.00",
+        "cash_min": "395.00",
+        "points_available_nights": 30,
+        "points_max": "100000",
+        "points_min": "100000"
+      },
+      "2027-10": {
+        "cash_available_nights": 7,
+        "cash_max": "395.00",
+        "cash_min": "395.00",
+        "points_available_nights": 7,
+        "points_max": "100000",
+        "points_min": "100000"
+      }
+    }
+  },
   "metadata": {
-    "generated_at": "2026-04-06T15:48:43.726Z",
+    "generated_at": "2026-04-09T01:28:51.692Z",
     "stage": "5-price",
     "tripadvisor_id": "g186600-d213383"
   },
