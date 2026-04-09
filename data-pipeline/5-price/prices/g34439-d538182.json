@@ -1,6 +1,20 @@
 {
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-09T01:31:47.268Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 12,
+        "cash_max": "529.00",
+        "cash_min": "509.00",
+        "points_available_nights": 10,
+        "points_max": "75000",
+        "points_min": "75000"
+      }
+    }
+  },
   "metadata": {
-    "generated_at": "2026-04-06T15:48:43.883Z",
+    "generated_at": "2026-04-09T01:31:47.268Z",
     "stage": "5-price",
     "tripadvisor_id": "g34439-d538182"
   },

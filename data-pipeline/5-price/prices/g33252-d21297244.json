@@ -1,6 +1,57 @@
 {
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-09T01:31:44.868Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 22,
+        "cash_max": "821.00",
+        "cash_min": "514.00"
+      },
+      "2026-05": {
+        "cash_available_nights": 31,
+        "cash_max": "806.00",
+        "cash_min": "483.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 24,
+        "cash_max": "962.00",
+        "cash_min": "546.00"
+      },
+      "2026-07": {
+        "cash_available_nights": 29,
+        "cash_max": "837.00",
+        "cash_min": "567.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 31,
+        "cash_max": "619.00",
+        "cash_min": "567.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 30,
+        "cash_max": "619.00",
+        "cash_min": "525.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 31,
+        "cash_max": "619.00",
+        "cash_min": "587.00"
+      },
+      "2026-11": {
+        "cash_available_nights": 30,
+        "cash_max": "619.00",
+        "cash_min": "525.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 31,
+        "cash_max": "619.00",
+        "cash_min": "525.00"
+      }
+    }
+  },
   "metadata": {
-    "generated_at": "2026-04-06T15:48:43.872Z",
+    "generated_at": "2026-04-09T01:31:44.868Z",
     "stage": "5-price",
     "tripadvisor_id": "g33252-d21297244"
   },
