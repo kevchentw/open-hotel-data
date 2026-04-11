@@ -2,7 +2,7 @@
   "metadata": {
     "stage": "2-enrichment",
     "source": "hilton_aspire_resort_credit",
-    "generated_at": "2026-04-11T01:24:46.982Z",
+    "generated_at": "2026-04-11T01:41:42.599Z",
     "record_count": 312,
     "matched_count": 311,
     "unmatched_count": 1,
@@ -77,7 +77,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AUHETCI/14519787/website-auhetpoolbeachtop-view.jpg?impolicy=crop&cw=4969&ch=3313&gravity=NorthWest&xposition=15&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "faoapci-conrad-algarve": {
       "source_hotel_id": "faoapci-conrad-algarve",
@@ -143,7 +143,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FAOAPCI/14885966/pools-airview-2-6.jpg?impolicy=crop&cw=4219&ch=2813&gravity=NorthWest&xposition=390&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bpncici-conrad-bali": {
       "source_hotel_id": "bpncici-conrad-bali",
@@ -195,8 +195,8 @@
         "playground",
         "childcare"
       ],
-      "lowest_public_price": "170.73",
-      "lowest_public_price_display": "Rp 2,913,460",
+      "lowest_public_price": "187.8",
+      "lowest_public_price_display": "Rp 3,204,806",
       "price_currency": "IDR",
       "rate_plan_code": "HPPAP4",
       "rate_plan_name": "Honors Discount Advance Purchase",
@@ -209,7 +209,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BPNCICI/16023251/dlp1-photo-september-2021.jpg?impolicy=crop&cw=4215&ch=2810&gravity=NorthWest&xposition=392&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pptbnci-conrad-bora-bora-nui": {
       "source_hotel_id": "pptbnci-conrad-bora-bora-nui",
@@ -275,7 +275,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PPTBNCI/1377151/pool-sunset.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "olbclci-conrad-chia-laguna-sardinia": {
       "source_hotel_id": "olbclci-conrad-chia-laguna-sardinia",
@@ -335,8 +335,8 @@
         "playground",
         "childcare"
       ],
-      "lowest_public_price": "332.92",
-      "lowest_public_price_display": "284€",
+      "lowest_public_price": "330.88",
+      "lowest_public_price_display": "283€",
       "price_currency": "EUR",
       "rate_plan_code": "HPPAP4",
       "rate_plan_name": "Honors Advance Purchase Breakfast Included",
@@ -349,7 +349,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OLBCLCI/16168451/olbcl-66.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=176",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "fllcici-conrad-fort-lauderdale-beach": {
       "source_hotel_id": "fllcici-conrad-fort-lauderdale-beach",
@@ -421,7 +421,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLLCICI/10932372/hero-exterior.jpg?impolicy=crop&cw=4177&ch=2784&gravity=NorthWest&xposition=0&yposition=347",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hghyfci-conrad-hangzhou-tonglu": {
       "source_hotel_id": "hghyfci-conrad-hangzhou-tonglu",
@@ -491,7 +491,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HGHYFCI/11079942/hghyf-hotel-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "jzhcici-conrad-jiuzhaigou": {
       "source_hotel_id": "jzhcici-conrad-jiuzhaigou",
@@ -549,7 +549,7 @@
       "master_image_url": "https://www.hilton.com/im/en/JZHCICI/17047456/-exterior-day.jpg?impolicy=crop&cw=4210&ch=2807&gravity=NorthWest&xposition=394&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "usmksci-conrad-koh-samui": {
       "source_hotel_id": "usmksci-conrad-koh-samui",
@@ -613,7 +613,7 @@
       "master_image_url": "https://www.hilton.com/im/en/USMKSCI/26904807/conrad-hero-shot-pgn026.png?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rslvhvh-resorts-world-las-vegas/rooms/conrad-las-vegas": {
       "source_hotel_id": "rslvhvh-resorts-world-las-vegas/rooms/conrad-las-vegas",
@@ -677,7 +677,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASCDCI/16677704/conrad-lobby-resized.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "name",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mlehici-conrad-maldives-rangali-island": {
       "source_hotel_id": "mlehici-conrad-maldives-rangali-island",
@@ -743,7 +743,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MLEHICI/20549766/conradmaldives-ithaaundersearestaurant-ja.jpg?impolicy=crop&cw=5250&ch=3500&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orlcici-conrad-orlando": {
       "source_hotel_id": "orlcici-conrad-orlando",
@@ -813,7 +813,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLCICI/20344878/conrad-orlando-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pvrpmci-conrad-punta-de-mita": {
       "source_hotel_id": "pvrpmci-conrad-punta-de-mita",
@@ -877,8 +877,8 @@
         "playground",
         "childcare"
       ],
-      "lowest_public_price": "393.86",
-      "lowest_public_price_display": "$393",
+      "lowest_public_price": "437.18",
+      "lowest_public_price_display": "$437",
       "price_currency": "USD",
       "rate_plan_code": "HPPRP1",
       "rate_plan_name": "Honors Discount",
@@ -891,7 +891,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PVRPMCI/17822806/pvrpmci-pools-hero.jpg?impolicy=crop&cw=4800&ch=3200&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rbacici-conrad-rabat-arzana": {
       "source_hotel_id": "rbacici-conrad-rabat-arzana",
@@ -965,7 +965,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RBACICI/17878782/rbaci-293.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cuncici-conrad-tulum-riviera-maya": {
       "source_hotel_id": "cuncici-conrad-tulum-riviera-maya",
@@ -1027,7 +1027,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CUNCICI/17040551/aerial-conrad-tulum-0410167.jpg?impolicy=crop&cw=4006&ch=2670&gravity=NorthWest&xposition=0&yposition=164",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rholiqq-lindian-village-beach-resort-rhodes": {
       "source_hotel_id": "rholiqq-lindian-village-beach-resort-rhodes",
@@ -1099,7 +1099,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RHOLIQQ/19295018/lindian-village-89576.jpg?impolicy=crop&cw=4007&ch=2671&gravity=NorthWest&xposition=0&yposition=164",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "olbbrqq-baia-di-chia-resort-sardinia": {
       "source_hotel_id": "olbbrqq-baia-di-chia-resort-sardinia",
@@ -1171,7 +1171,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OLBBRQQ/15887351/baia-di-chia-resort-sardinia-monte-cogoni-beach-view.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "kylcuqq-bakers-cay-resort-key-largo": {
       "source_hotel_id": "kylcuqq-bakers-cay-resort-key-largo",
@@ -1237,7 +1237,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KYLCUQQ/11111032/dry-rocks-deck.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=3&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "opobgqq-boeira-garden-hotel-porto-gaia": {
       "source_hotel_id": "opobgqq-boeira-garden-hotel-porto-gaia",
@@ -1301,7 +1301,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OPOBGQQ/14685843/20200908-182725-2.jpg?impolicy=crop&cw=4608&ch=3072&gravity=NorthWest&xposition=0&yposition=192",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pjmcrqq-botanika-osa-peninsula": {
       "source_hotel_id": "pjmcrqq-botanika-osa-peninsula",
@@ -1373,7 +1373,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PJMCRQQ/20076166/botanika-hero-maybe.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxrsqq-boulders-resort-and-spa-scottsdale": {
       "source_hotel_id": "phxrsqq-boulders-resort-and-spa-scottsdale",
@@ -1443,7 +1443,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXRSQQ/121275/boulderpile.jpg?impolicy=crop&cw=4380&ch=2919&gravity=NorthWest&xposition=0&yposition=40",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "napvpqq-casa-mani-resort-napa-valley": {
       "source_hotel_id": "napvpqq-casa-mani-resort-napa-valley",
@@ -1501,7 +1501,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NAPVPQQ/27173323/casamani-frontfacade1-0019-r10f-1-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "eywcmqq-casa-marina-key-west": {
       "source_hotel_id": "eywcmqq-casa-marina-key-west",
@@ -1569,7 +1569,7 @@
       "master_image_url": "https://www.hilton.com/im/en/EYWCMQQ/19683551/casa-marina-key-west-4g3a2317-1-noprops.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "atlokqq-cloudland-at-mclemore-resort-lookout-mountain": {
       "source_hotel_id": "atlokqq-cloudland-at-mclemore-resort-lookout-mountain",
@@ -1637,7 +1637,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ATLOKQQ/21971967/cloudland-hotel-mclemore-summer-exterior-9-large-161-photography.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "flldhqq-the-diplomat-beach-resort-hollywood": {
       "source_hotel_id": "flldhqq-the-diplomat-beach-resort-hollywood",
@@ -1701,7 +1701,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/26896525/diplomat-beach-resort-hero-image-new-.jpg?impolicy=crop&cw=4218&ch=2812&gravity=NorthWest&xposition=391&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "herbsqq-domes-aulus-elounda-resort": {
       "source_hotel_id": "herbsqq-domes-aulus-elounda-resort",
@@ -1759,7 +1759,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HERBSQQ/25101467/main-pool-area-4-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mthfbqq-faro-blanco-resort-and-yacht-club-marathon": {
       "source_hotel_id": "mthfbqq-faro-blanco-resort-and-yacht-club-marathon",
@@ -1827,7 +1827,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MTHFBQQ/22800052/mthfbqq-resort-lighthouse-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "miagsqq-gale-south-beach": {
       "source_hotel_id": "miagsqq-gale-south-beach",
@@ -1885,7 +1885,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MIAGSQQ/8409807/miags-hotelexterior.jpg?impolicy=crop&cw=4205&ch=2803&gravity=NorthWest&xposition=0&yposition=98",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tlnspqq-grand-hotel-des-sablettes-plage": {
       "source_hotel_id": "tlnspqq-grand-hotel-des-sablettes-plage",
@@ -1947,7 +1947,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TLNSPQQ/2569805/-69a9749-pt.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=17",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sluhcqq-harbor-club-st-lucia": {
       "source_hotel_id": "sluhcqq-harbor-club-st-lucia",
@@ -2009,7 +2009,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SLUHCQQ/5100216/sluhc-harborclub-exterior1.jpg?impolicy=crop&cw=4440&ch=2960&gravity=NorthWest&xposition=280&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "agprhqq-higueron-hotel-malaga": {
       "source_hotel_id": "agprhqq-higueron-hotel-malaga",
@@ -2073,7 +2073,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AGPRHQQ/19115158/-agprhqq-exterior.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "qkbbrqq-alpenrock-breckenridge": {
       "source_hotel_id": "qkbbrqq-alpenrock-breckenridge",
@@ -2129,7 +2129,7 @@
       "master_image_url": "https://www.hilton.com/im/en/QKBBRQQ/22442316/exterior-daytime.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=33",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sanqqqq-hotel-del-coronado": {
       "source_hotel_id": "sanqqqq-hotel-del-coronado",
@@ -2201,7 +2201,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANQQQQ/16722565/hotel-del-coronado-turret-beach-pool-4500x3000.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "fllucqq-hotel-maren-fort-lauderdale-beach": {
       "source_hotel_id": "fllucqq-hotel-maren-fort-lauderdale-beach",
@@ -2267,7 +2267,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLLUCQQ/16897814/fllmarencur-exterior-aerial-04.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ctasiqq-il-piccolo-etna-golf-resort-and-spa": {
       "source_hotel_id": "ctasiqq-il-piccolo-etna-golf-resort-and-spa",
@@ -2337,7 +2337,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CTASIQQ/26995887/ilpicciolo-drone-1.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=86",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "teaibqq-indura-beach-and-golf-resort": {
       "source_hotel_id": "teaibqq-indura-beach-and-golf-resort",
@@ -2403,7 +2403,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TEAIBQQ/19224540/bicubik-0309.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "heribqq-isla-brown-resort-chania": {
       "source_hotel_id": "heribqq-isla-brown-resort-chania",
@@ -2463,7 +2463,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HERIBQQ/19892439/isla-brown-chania-drone-sunrise-view.jpg?impolicy=crop&cw=3262&ch=2175&gravity=NorthWest&xposition=868&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "athibqq-isla-brown-corinthia-resort-and-spa": {
       "source_hotel_id": "athibqq-isla-brown-corinthia-resort-and-spa",
@@ -2525,7 +2525,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ATHIBQQ/20915675/isla-brown-corinthia-day-view-drone-garden-building-beach.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "zagopqq-keight-hotel-opatija": {
       "source_hotel_id": "zagopqq-keight-hotel-opatija",
@@ -2585,7 +2585,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ZAGOPQQ/21176393/20240623-111820-1-.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=176&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "skbkrqq-koi-resort-saint-kitts": {
       "source_hotel_id": "skbkrqq-koi-resort-saint-kitts",
@@ -2645,7 +2645,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SKBKRQQ/13873128/1.-resort-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pqcpqqq-la-festa-phu-quoc": {
       "source_hotel_id": "pqcpqqq-la-festa-phu-quoc",
@@ -2699,7 +2699,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PQCPQQQ/19788888/pqcpqqq-lobby-day-01.jpg?impolicy=crop&cw=4641&ch=3094&gravity=NorthWest&xposition=179&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "psplqqq-la-quinta-resort-and-club": {
       "source_hotel_id": "psplqqq-la-quinta-resort-and-club",
@@ -2773,7 +2773,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PSPLQQQ/1350356/lqrspalaquintafacadecrop.jpg?impolicy=crop&cw=3684&ch=2456&gravity=NorthWest&xposition=658&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tlnleqq-le-hameau-des-pesquiers-ecolodge": {
       "source_hotel_id": "tlnleqq-le-hameau-des-pesquiers-ecolodge",
@@ -2833,7 +2833,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TLNLEQQ/17328366/tlnleqq-exterior.jpg?impolicy=crop&cw=4989&ch=3326&gravity=NorthWest&xposition=5&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "olbccqq-mangias-santa-teresa-sardinia": {
       "source_hotel_id": "olbccqq-mangias-santa-teresa-sardinia",
@@ -2893,7 +2893,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OLBCCQQ/25353155/dji-20250926185255-0314-d.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "curryqq-mangrove-beach-corendon-curacao-all-inclusive-resort": {
       "source_hotel_id": "curryqq-mangrove-beach-corendon-curacao-all-inclusive-resort",
@@ -2955,7 +2955,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CURRYQQ/22537733/mangrove-the-rif-jpg-3-van-8-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mlegsqq-saii-lagoon-maldives": {
       "source_hotel_id": "mlegsqq-saii-lagoon-maldives",
@@ -3019,7 +3019,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MLEGSQQ/26839646/areal-image-11-.jpg?impolicy=crop&cw=4315&ch=2877&gravity=NorthWest&xposition=342&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "jtrsbqq-sea-breeze-santorini-beach-resort": {
       "source_hotel_id": "jtrsbqq-sea-breeze-santorini-beach-resort",
@@ -3089,7 +3089,7 @@
       "master_image_url": "https://www.hilton.com/im/en/JTRSBQQ/21725442/047.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=205",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "jmkmbqq-semeli-coast-mykonos": {
       "source_hotel_id": "jmkmbqq-semeli-coast-mykonos",
@@ -3157,7 +3157,7 @@
       "master_image_url": "https://www.hilton.com/im/en/JMKMBQQ/21335262/010.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "syrslqq-skaneateles-fields-resort-and-spa": {
       "source_hotel_id": "syrslqq-skaneateles-fields-resort-and-spa",
@@ -3231,7 +3231,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SYRSLQQ/22750000/exterior-page-2.jpg?impolicy=crop&cw=4219&ch=2813&gravity=NorthWest&xposition=390&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "olbprqq-sulia-house-porto-rotondo": {
       "source_hotel_id": "olbprqq-sulia-house-porto-rotondo",
@@ -3287,7 +3287,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OLBPRQQ/17126505/hotel-aerea-2.jpg?impolicy=crop&cw=4748&ch=3165&gravity=NorthWest&xposition=0&yposition=195",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ibzseqq-cala-san-miguel-ibiza-resort": {
       "source_hotel_id": "ibzseqq-cala-san-miguel-ibiza-resort",
@@ -3349,7 +3349,7 @@
       "master_image_url": "https://www.hilton.com/im/en/IBZSEQQ/21622499/main-picture.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tparkqq-the-hiatus-clearwater-beach": {
       "source_hotel_id": "tparkqq-the-hiatus-clearwater-beach",
@@ -3411,7 +3411,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TPARKQQ/20719939/hiatus-lba-exterior-twilight.jpg?impolicy=crop&cw=4695&ch=3130&gravity=NorthWest&xposition=0&yposition=192",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "eywqqqq-the-reach-key-west": {
       "source_hotel_id": "eywqqqq-the-reach-key-west",
@@ -3475,7 +3475,7 @@
       "master_image_url": "https://www.hilton.com/im/en/EYWQQQQ/15368139/eywqq-beach-aerial-stock.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "curmgqq-the-rif-at-mangrove-beach-corendon-curacao-all-inclusive": {
       "source_hotel_id": "curmgqq-the-rif-at-mangrove-beach-corendon-curacao-all-inclusive",
@@ -3535,7 +3535,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CURMGQQ/22537740/the-rif-main-image-socials.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "herrsqq-the-royal-senses-resort-and-spa-crete": {
       "source_hotel_id": "herrsqq-the-royal-senses-resort-and-spa-crete",
@@ -3599,7 +3599,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HERRSQQ/18128694/072.jpg?impolicy=crop&cw=4075&ch=2716&gravity=NorthWest&xposition=0&yposition=141",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxssqq-the-scottsdale-resort-and-spa": {
       "source_hotel_id": "phxssqq-the-scottsdale-resort-and-spa",
@@ -3663,7 +3663,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXSSQQ/19987781/drone-pool-0260.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pbisiqq-the-singer-oceanfront-resort": {
       "source_hotel_id": "pbisiqq-the-singer-oceanfront-resort",
@@ -3723,7 +3723,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PBISIQQ/21689562/0656-240823-singer.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=48",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "auhwbqq-the-wb-abu-dhabi-hotel": {
       "source_hotel_id": "auhwbqq-the-wb-abu-dhabi-hotel",
@@ -3791,7 +3791,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AUHWBQQ/16316918/auhwbqq-the-matinee-view.jpg?impolicy=crop&cw=4724&ch=3149&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "iahwrqq-the-woodlands-resort": {
       "source_hotel_id": "iahwrqq-the-woodlands-resort",
@@ -3861,7 +3861,7 @@
       "master_image_url": "https://www.hilton.com/im/en/IAHWRQQ/16253745/exterior-panorama.jpg?impolicy=crop&cw=3483&ch=2322&gravity=NorthWest&xposition=758&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lasvgqq-virgin-hotels-las-vegas": {
       "source_hotel_id": "lasvgqq-virgin-hotels-las-vegas",
@@ -3927,7 +3927,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASVGQQ/14690232/k1scv-canyon-tower-chamber-1-copy.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bctbuqq-waterstone-resort-and-marina-boca-raton": {
       "source_hotel_id": "bctbuqq-waterstone-resort-and-marina-boca-raton",
@@ -3993,7 +3993,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BCTBUQQ/2578600/x154x-boca-raton-waterstone-hotel.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sbazdqq-zachari-dunes-on-mandalay-beach": {
       "source_hotel_id": "sbazdqq-zachari-dunes-on-mandalay-beach",
@@ -4055,7 +4055,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SBAZDQQ/17649989/zachari-dunes-aerial.jpg?impolicy=crop&cw=4452&ch=2967&gravity=NorthWest&xposition=0&yposition=16",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pujmiqq-zemi-miches-all-inclusive-resort": {
       "source_hotel_id": "pujmiqq-zemi-miches-all-inclusive-resort",
@@ -4123,7 +4123,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PUJMIQQ/23365686/zemimiches-aereal-main-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "fllbmdt-bahia-mar-fort-lauderdale-beach": {
       "source_hotel_id": "fllbmdt-bahia-mar-fort-lauderdale-beach",
@@ -4179,7 +4179,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLLBMDT/9986402/tower-building-with-ocean-view.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=145&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "nornhdt-doubletree-beach-resort-tampa-bay-north-redington-beach": {
       "source_hotel_id": "nornhdt-doubletree-beach-resort-tampa-bay-north-redington-beach",
@@ -4241,7 +4241,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NORNHDT/20470200/20240213-nornhdt-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlkadt-doubletree-alana-waikiki-beach": {
       "source_hotel_id": "hnlkadt-doubletree-alana-waikiki-beach",
@@ -4301,7 +4301,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLKADT/23909988/dta-signature-shot-updated.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=60&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "aytakdi-doubletree-antalya-kemer-all-inclusive-resort": {
       "source_hotel_id": "aytakdi-doubletree-antalya-kemer-all-inclusive-resort",
@@ -4371,7 +4371,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AYTAKDI/23164208/main-photo.jpg?impolicy=crop&cw=4218&ch=2812&gravity=NorthWest&xposition=391&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bjvtrdi-doubletree-bodrum-isil-club-all-inclusive-resort": {
       "source_hotel_id": "bjvtrdi-doubletree-bodrum-isil-club-all-inclusive-resort",
@@ -4435,7 +4435,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BJVTRDI/22679916/sharpened-ana-gorsel-revize.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "iphdldi-doubletree-damai-laut-resort": {
       "source_hotel_id": "iphdldi-doubletree-damai-laut-resort",
@@ -4503,7 +4503,7 @@
       "master_image_url": "https://www.hilton.com/im/en/IPHDLDI/17390721/iphdl-pool-aerial-shot.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dxbthdi-doubletree-dubai-jumeirah-beach": {
       "source_hotel_id": "dxbthdi-doubletree-dubai-jumeirah-beach",
@@ -4569,7 +4569,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DXBTHDI/26956299/1.jpg?impolicy=crop&cw=4191&ch=2794&gravity=NorthWest&xposition=404&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "goiabdi-doubletree-goa-arpora-baga": {
       "source_hotel_id": "goiabdi-doubletree-goa-arpora-baga",
@@ -4627,7 +4627,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GOIABDI/1816883/goiabdi-doubletree-by-hilton-goa-arpora-baga-01.jpg?impolicy=crop&cw=2250&ch=1500&gravity=NorthWest&xposition=299&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "goigddi-doubletree-goa-panaji": {
       "source_hotel_id": "goigddi-doubletree-goa-panaji",
@@ -4695,7 +4695,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GOIGDDI/8211243/goigd-swimmingpoolsunsetview.jpg?impolicy=crop&cw=3819&ch=2535&gravity=NorthWest&xposition=1181&yposition=871",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pspdpdt-doubletree-golf-resort-palm-springs": {
       "source_hotel_id": "pspdpdt-doubletree-golf-resort-palm-springs",
@@ -4759,7 +4759,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PSPDPDT/19879308/dtps-exterior-front-2023-4.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hevirdi-doubletree-islantilla-beach-golf-resort": {
       "source_hotel_id": "hevirdi-doubletree-islantilla-beach-golf-resort",
@@ -4821,7 +4821,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HEVIRDI/19138513/29.jpg?impolicy=crop&cw=4740&ch=3160&gravity=NorthWest&xposition=130&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mjvltdi-doubletree-la-torre-golf-and-spa-resort": {
       "source_hotel_id": "mjvltdi-doubletree-la-torre-golf-and-spa-resort",
@@ -4885,7 +4885,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MJVLTDI/10129398/exterior-building-2.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pdlladi-doubletree-lagoa-azores": {
       "source_hotel_id": "pdlladi-doubletree-lagoa-azores",
@@ -4941,7 +4941,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PDLLADI/21342328/fa-ade-1-2-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mlaspdi-doubletree-malta": {
       "source_hotel_id": "mlaspdi-doubletree-malta",
@@ -4999,7 +4999,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MLASPDI/23394426/1.png?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mztdtdt-doubletree-mazatlan": {
       "source_hotel_id": "mztdtdt-doubletree-mazatlan",
@@ -5063,7 +5063,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MZTDTDT/15496888/mztdt-exterior-01.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "myrdtdt-doubletree-resort-myrtle-beach-oceanfront": {
       "source_hotel_id": "myrdtdt-doubletree-resort-myrtle-beach-oceanfront",
@@ -5123,7 +5123,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/21208702/doubletree-lazy-river.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=50",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "noudidi-doubletree-noumea-ilot-maitre-resort": {
       "source_hotel_id": "noudidi-doubletree-noumea-ilot-maitre-resort",
@@ -5175,7 +5175,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NOUDIDI/15329728/doubletree-day2-drone-300dpi-9.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "miaopdt-doubletree-resort-and-spa-ocean-point-north-miami-beach": {
       "source_hotel_id": "miaopdt-doubletree-resort-and-spa-ocean-point-north-miami-beach",
@@ -5235,7 +5235,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MIAOPDT/18131684/sideclose.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "okadidi-doubletree-okinawa-chatan-resort": {
       "source_hotel_id": "okadidi-doubletree-okinawa-chatan-resort",
@@ -5291,7 +5291,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OKADIDI/6697829/drone-032use-rere-crp.jpg?impolicy=crop&cw=4129&ch=2753&gravity=NorthWest&xposition=435&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcosrdt-doubletree-orlando-at-seaworld": {
       "source_hotel_id": "mcosrdt-doubletree-orlando-at-seaworld",
@@ -5351,7 +5351,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOSRDT/16002191/aerial-view-tower-lagoon-pool-sunset-.jpg?impolicy=crop&cw=3479&ch=2319&gravity=NorthWest&xposition=0&yposition=343",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "slcywdt-doubletree-park-city-the-yarrow": {
       "source_hotel_id": "slcywdt-doubletree-park-city-the-yarrow",
@@ -5381,7 +5381,7 @@
       "master_image_url": "",
       "matched_from_resorts_list": false,
       "match_method": "none",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hktpadi-doubletree-phuket-banthai-resort": {
       "source_hotel_id": "hktpadi-doubletree-phuket-banthai-resort",
@@ -5443,7 +5443,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HKTPADI/10644512/pool-day.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "yqbqcdt-doubletree-quebec-resort": {
       "source_hotel_id": "yqbqcdt-doubletree-quebec-resort",
@@ -5505,7 +5505,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NoHotel/1659172/21106-doubletree-2-046.jpg?impolicy=crop&cw=4811&ch=3207&gravity=NorthWest&xposition=0&yposition=200",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rktmidi-doubletree-resort-and-spa-marjan-island": {
       "source_hotel_id": "rktmidi-doubletree-resort-and-spa-marjan-island",
@@ -5577,7 +5577,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RKTMIDI/23065348/drone-beach-new.jpeg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjudtdt-doubletree-san-juan": {
       "source_hotel_id": "sjudtdt-doubletree-san-juan",
@@ -5647,7 +5647,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJUDTDT/18115330/omrk6221-edit.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sezdtdi-doubletree-seychelles-allamanda-resort-and-spa": {
       "source_hotel_id": "sezdtdi-doubletree-seychelles-allamanda-resort-and-spa",
@@ -5705,7 +5705,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SEZDTDI/3607452/aerial-view-1.jpg?impolicy=crop&cw=2992&ch=1994&gravity=NorthWest&xposition=0&yposition=123",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "swadidi-doubletree-shanwei": {
       "source_hotel_id": "swadidi-doubletree-shanwei",
@@ -5765,7 +5765,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SWADIDI/11498352/hotel-exterior-day-.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=62&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sshsbdi-doubletree-sharm-el-sheikh-sharks-bay-resort": {
       "source_hotel_id": "sshsbdi-doubletree-sharm-el-sheikh-sharks-bay-resort",
@@ -5827,7 +5827,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SSHSBDI/22732537/img-3870.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "wrzrjdi-doubletree-weerawila-rajawarna-resort": {
       "source_hotel_id": "wrzrjdi-doubletree-weerawila-rajawarna-resort",
@@ -5893,7 +5893,7 @@
       "master_image_url": "https://www.hilton.com/im/en/WRZRJDI/19594440/dt-weerawila-exterior-drone-shot.jpg?impolicy=crop&cw=4802&ch=3201&gravity=NorthWest&xposition=0&yposition=192",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "iagdtdt-doubletree-fallsview-resort-and-spa-niagara-falls": {
       "source_hotel_id": "iagdtdt-doubletree-fallsview-resort-and-spa-niagara-falls",
@@ -5955,7 +5955,7 @@
       "master_image_url": "https://www.hilton.com/im/en/IAGDTDT/10080764/doubletree-fallsview-distant-exterior.jpg?impolicy=crop&cw=4600&ch=3066&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "nansidi-doubletree-resort-fiji-sonaisali-island": {
       "source_hotel_id": "nansidi-doubletree-resort-fiji-sonaisali-island",
@@ -6017,7 +6017,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NANSIDI/3597253/daybeds.jpg?impolicy=crop&cw=2248&ch=1498&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "eywdtdt-doubletree-resort-grand-key-key-west": {
       "source_hotel_id": "eywdtdt-doubletree-resort-grand-key-key-west",
@@ -6075,7 +6075,7 @@
       "master_image_url": "https://www.hilton.com/im/en/EYWDTDT/25178980/20250928-eywdtdt-dusk-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lnswvdt-doubletree-resort-lancaster": {
       "source_hotel_id": "lnswvdt-doubletree-resort-lancaster",
@@ -6135,7 +6135,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LNSWVDT/21904872/front-exterior-1-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxsjdt-doubletree-resort-paradise-valley-scottsdale": {
       "source_hotel_id": "phxsjdt-doubletree-resort-paradise-valley-scottsdale",
@@ -6199,7 +6199,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXSJDT/1855029/phxsj-north-pool-01.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "penmbdi-doubletree-resort-penang": {
       "source_hotel_id": "penmbdi-doubletree-resort-penang",
@@ -6267,7 +6267,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PENMBDI/5374008/penmbdi-exterior-1.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=11&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hwofldt-doubletree-resort-hollywood-beach": {
       "source_hotel_id": "hwofldt-doubletree-resort-hollywood-beach",
@@ -6327,7 +6327,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HWOFLDT/1194621/hwofldt-corner-king-balcony.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcofhdt-doubletree-suites-orlando": {
       "source_hotel_id": "mcofhdt-doubletree-suites-orlando",
@@ -6385,7 +6385,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOFHDT/2260105/mcofhdt-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "itohndt-grand-naniloa-hotel-hilo": {
       "source_hotel_id": "itohndt-grand-naniloa-hotel-hilo",
@@ -6443,7 +6443,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ITOHNDT/7507354/grand-naniloa-aerials-5-copy.jpg?impolicy=crop&cw=4600&ch=3066&gravity=NorthWest&xposition=0&yposition=190",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "egevcdt-highline-vail": {
       "source_hotel_id": "egevcdt-highline-vail",
@@ -6507,7 +6507,7 @@
       "master_image_url": "https://www.hilton.com/im/en/EGEVCDT/9207649/wpp-190103-03841.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "auajmes-embassy-suites-aruba-resort": {
       "source_hotel_id": "auajmes-embassy-suites-aruba-resort",
@@ -6575,7 +6575,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AUAJMES/24102356/auajm-building-aerial-view-01.jpg?impolicy=crop&cw=4219&ch=2813&gravity=NorthWest&xposition=390&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cltcces-embassy-suites-charlotte-concord-golf-resort-and-spa": {
       "source_hotel_id": "cltcces-embassy-suites-charlotte-concord-golf-resort-and-spa",
@@ -6641,7 +6641,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CLTCCES/3717223/exterior-shot-2.jpg?impolicy=crop&cw=2250&ch=1500&gravity=NorthWest&xposition=4&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "deefles-embassy-suites-deerfield-beach-resort-and-spa": {
       "source_hotel_id": "deefles-embassy-suites-deerfield-beach-resort-and-spa",
@@ -6703,7 +6703,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DEEFLES/26767359/deefles-drone-images-of-hotel-pool-beach-ocean-day-time-1.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dorpres-embassy-suites-dorado-del-mar-beach-resort": {
       "source_hotel_id": "dorpres-embassy-suites-dorado-del-mar-beach-resort",
@@ -6765,7 +6765,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DORPRES/18397177/bp-embassy-exterior2023.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "gspeses-embassy-suites-greenville-golf-resort-and-conference-center": {
       "source_hotel_id": "gspeses-embassy-suites-greenville-golf-resort-and-conference-center",
@@ -6839,7 +6839,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GSPESES/10546249/entry-drive-into-resort.jpg?impolicy=crop&cw=4600&ch=3066&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "gufbees-embassy-suites-gulf-shores-beach-resort": {
       "source_hotel_id": "gufbees-embassy-suites-gulf-shores-beach-resort",
@@ -6907,7 +6907,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GUFBEES/23942621/embassy-suites-gulf-shores-alabama-0992-1.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "myreses-embassy-suites-myrtle-beach-oceanfront-resort": {
       "source_hotel_id": "myreses-embassy-suites-myrtle-beach-oceanfront-resort",
@@ -6977,7 +6977,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MYRESES/16915659/es-facade-oceanside-no-watermarks-3000px.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=106&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcowdes-embassy-suites-orlando-lake-buena-vista-resort": {
       "source_hotel_id": "mcowdes-embassy-suites-orlando-lake-buena-vista-resort",
@@ -7045,7 +7045,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOWDES/27166714/20260121-mcowd-pool-deck-a.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcostes-embassy-suites-orlando-sunset-walk": {
       "source_hotel_id": "mcostes-embassy-suites-orlando-sunset-walk",
@@ -7109,7 +7109,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOSTES/20768499/dji-0171-enhanced-nr-2.jpg?impolicy=crop&cw=4213&ch=2809&gravity=NorthWest&xposition=393&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ecpppes-embassy-suites-panama-city-beach-resort": {
       "source_hotel_id": "ecpppes-embassy-suites-panama-city-beach-resort",
@@ -7175,7 +7175,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ECPPPES/19783351/ecppp-michael-booini.jpg?impolicy=crop&cw=4663&ch=3108&gravity=NorthWest&xposition=0&yposition=36",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "scteses-embassy-suites-scottsdale-resort": {
       "source_hotel_id": "scteses-embassy-suites-scottsdale-resort",
@@ -7239,7 +7239,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SCTESES/22833843/es-pool-view-full.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=207",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orfanes-embassy-suites-virginia-beach-oceanfront-resort": {
       "source_hotel_id": "orfanes-embassy-suites-virginia-beach-oceanfront-resort",
@@ -7307,7 +7307,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORFANES/19507302/orfan-beach-bar.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnleses-embassy-suites-waikiki-beach-walk": {
       "source_hotel_id": "hnleses-embassy-suites-waikiki-beach-walk",
@@ -7371,7 +7371,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLESES/2286675/exterioreveninglights-lighter-shorter.jpg?impolicy=crop&cw=3500&ch=2333&gravity=NorthWest&xposition=0&yposition=619",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ustboes-embassy-suites-st-augustine-beach-oceanfront-resort": {
       "source_hotel_id": "ustboes-embassy-suites-st-augustine-beach-oceanfront-resort",
@@ -7437,7 +7437,7 @@
       "master_image_url": "https://www.hilton.com/im/en/USTBOES/9971423/terrace-and-hotel.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "gcmgchx-hampton-grand-cayman-seven-mile-beach": {
       "source_hotel_id": "gcmgchx-hampton-grand-cayman-seven-mile-beach",
@@ -7477,8 +7477,8 @@
         "resort",
         "cribs"
       ],
-      "lowest_public_price": "330.13",
-      "lowest_public_price_display": "$330",
+      "lowest_public_price": "274.1",
+      "lowest_public_price_display": "$274",
       "price_currency": "USD",
       "rate_plan_code": "SHHH4A",
       "rate_plan_name": "Honors Discount Non-refundable",
@@ -7491,7 +7491,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GCMGCHX/16077531/hamptonbyhilton-grandcayman-13.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rktmahx-hampton-marjan-island": {
       "source_hotel_id": "rktmahx-hampton-marjan-island",
@@ -7557,7 +7557,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RKTMAHX/16837763/rktma-main-building1.jpg?impolicy=crop&cw=4435&ch=2957&gravity=NorthWest&xposition=282&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "okasogv-hilton-club-the-beach-resort-sesoko": {
       "source_hotel_id": "okasogv-hilton-club-the-beach-resort-sesoko",
@@ -7613,7 +7613,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OKASOGV/15490200/okaso-exterior-rendering.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=249&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "myraogv-hilton-grand-vacations-club-anderson-ocean-myrtle-beach": {
       "source_hotel_id": "myraogv-hilton-grand-vacations-club-anderson-ocean-myrtle-beach",
@@ -7667,7 +7667,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MYRAOGV/14755351/myrao-hi-res-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlhwgv-hilton-grand-vacations-club-at-hilton-hawaiian-village": {
       "source_hotel_id": "hnlhwgv-hilton-grand-vacations-club-at-hilton-hawaiian-village",
@@ -7725,7 +7725,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLHWGV/4342517/ka-hi-res-exterior.jpg?impolicy=crop&cw=4495&ch=2996&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "yyzblgv-hilton-grand-vacations-club-blue-mountain-canada": {
       "source_hotel_id": "yyzblgv-hilton-grand-vacations-club-blue-mountain-canada",
@@ -7775,7 +7775,7 @@
       "master_image_url": "https://www.hilton.com/im/en/YYZBLGV/18790534/yyzbl-hi-res-entrance.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=2",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lascsgv-hilton-grand-vacations-club-elara-center-strip-las-vegas": {
       "source_hotel_id": "lascsgv-hilton-grand-vacations-club-elara-center-strip-las-vegas",
@@ -7829,7 +7829,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASCSGV/27393517/lascs-hi-res-pool-day3-image.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=16",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lasflgv-hilton-grand-vacations-club-flamingo-las-vegas": {
       "source_hotel_id": "lasflgv-hilton-grand-vacations-club-flamingo-las-vegas",
@@ -7883,7 +7883,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASFLGV/16699505/lasfl-hi-res-exterior-with-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlgwgv-hilton-grand-vacations-club-grand-waikikian-honolulu": {
       "source_hotel_id": "hnlgwgv-hilton-grand-vacations-club-grand-waikikian-honolulu",
@@ -7941,7 +7941,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLGWGV/4342280/gw-hi-res-exterior-with-lagoon-2-.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlwbgv-hilton-grand-vacations-club-hokulani-waikiki-honolulu": {
       "source_hotel_id": "hnlwbgv-hilton-grand-vacations-club-hokulani-waikiki-honolulu",
@@ -7997,7 +7997,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLWBGV/18137179/hnlwb-hi-res-rooftop-pool.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "vpssagv-hilton-grand-vacations-club-in-sandestin-golf-and-beach-resort": {
       "source_hotel_id": "vpssagv-hilton-grand-vacations-club-in-sandestin-golf-and-beach-resort",
@@ -8047,7 +8047,7 @@
       "master_image_url": "https://www.hilton.com/im/en/VPSSAGV/19145481/vpssa-hi-res-emerald-beach-main-pool.jpg?impolicy=crop&cw=4494&ch=2996&gravity=NorthWest&xposition=0&yposition=2",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "koaklgv-hilton-grand-vacations-club-kings-land-waikoloa": {
       "source_hotel_id": "koaklgv-hilton-grand-vacations-club-kings-land-waikoloa",
@@ -8103,7 +8103,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KOAKLGV/5694231/koakl-hi-res-phase3-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=36",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "koawbgv-hilton-grand-vacations-club-kohala-suites-waikoloa": {
       "source_hotel_id": "koawbgv-hilton-grand-vacations-club-kohala-suites-waikoloa",
@@ -8157,7 +8157,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KOAWBGV/24009315/koawb-pool2.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjdgvgv-hilton-grand-vacations-club-la-pacifica-los-cabos": {
       "source_hotel_id": "sjdgvgv-hilton-grand-vacations-club-la-pacifica-los-cabos",
@@ -8223,7 +8223,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJDGVGV/13994793/sjdgv-hi-res-aerial.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcoubgv-hilton-grand-vacations-club-las-palmeras-orlando": {
       "source_hotel_id": "mcoubgv-hilton-grand-vacations-club-las-palmeras-orlando",
@@ -8273,7 +8273,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOUBGV/23547420/mcoub-ext-pool-2025-001.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sanmbgv-hilton-grand-vacations-club-marbrisa-carlsbad": {
       "source_hotel_id": "sanmbgv-hilton-grand-vacations-club-marbrisa-carlsbad",
@@ -8329,7 +8329,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANMBGV/2240545/sanmb-hi-res-portecoch-re.jpg?impolicy=crop&cw=4002&ch=2668&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "oggmbgv-hilton-grand-vacations-club-maui-bay-villas": {
       "source_hotel_id": "oggmbgv-hilton-grand-vacations-club-maui-bay-villas",
@@ -8385,7 +8385,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OGGMBGV/18366421/oggmb-hi-res-pool3.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "myrttgv-hilton-grand-vacations-club-ocean-22-myrtle-beach": {
       "source_hotel_id": "myrttgv-hilton-grand-vacations-club-ocean-22-myrtle-beach",
@@ -8443,7 +8443,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MYRTTGV/4335377/myrtt-hi-res-exterior-from-beach2.jpg?impolicy=crop&cw=4945&ch=3296&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "myroegv-hilton-grand-vacations-club-ocean-enclave-myrtle-beach": {
       "source_hotel_id": "myroegv-hilton-grand-vacations-club-ocean-enclave-myrtle-beach",
@@ -8501,7 +8501,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MYROEGV/10805455/myroe-hi-res-exterior-beach.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hhhgvgv-hilton-grand-vacations-club-ocean-oak-resort-hilton-head": {
       "source_hotel_id": "hhhgvgv-hilton-grand-vacations-club-ocean-oak-resort-hilton-head",
@@ -8555,7 +8555,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HHHGVGV/11409363/hhhgv-hi-res-porte-cochre.jpg?impolicy=crop&cw=4950&ch=3299&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "koaotgv-hilton-grand-vacations-club-ocean-tower-waikoloa-village": {
       "source_hotel_id": "koaotgv-hilton-grand-vacations-club-ocean-tower-waikoloa-village",
@@ -8615,7 +8615,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KOAOTGV/27007740/koaot-hi-res-exterior-waterway.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lasvsgv-hilton-grand-vacations-club-on-the-las-vegas-strip": {
       "source_hotel_id": "lasvsgv-hilton-grand-vacations-club-on-the-las-vegas-strip",
@@ -8671,7 +8671,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASVSGV/4340190/lasvs-hi-res-pool-with-waves.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "laslvgv-hilton-grand-vacations-club-paradise-las-vegas": {
       "source_hotel_id": "laslvgv-hilton-grand-vacations-club-paradise-las-vegas",
@@ -8723,7 +8723,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASLVGV/4336006/laslv-hi-res-pool.jpg?impolicy=crop&cw=4495&ch=2996&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcomdgv-hilton-grand-vacations-club-parc-soleil-orlando": {
       "source_hotel_id": "mcomdgv-hilton-grand-vacations-club-parc-soleil-orlando",
@@ -8781,7 +8781,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOMDGV/16513653/mcomd-hi-res-evening-main-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orlswgv-hilton-grand-vacations-club-seaworld-orlando": {
       "source_hotel_id": "orlswgv-hilton-grand-vacations-club-seaworld-orlando",
@@ -8839,7 +8839,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLSWGV/22474501/orlsw-hi-res-ext-waterfall-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "slcsegv-hilton-grand-vacations-club-sunrise-lodge-park-city": {
       "source_hotel_id": "slcsegv-hilton-grand-vacations-club-sunrise-lodge-park-city",
@@ -8891,7 +8891,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SLCSEGV/25352740/slcse-aerial-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bgicrgv-hilton-grand-vacations-club-the-crane-barbados": {
       "source_hotel_id": "bgicrgv-hilton-grand-vacations-club-the-crane-barbados",
@@ -8957,7 +8957,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BGICRGV/9823574/crane-setting-cliff-1.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=150&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnldrgv-hilton-grand-vacations-club-the-grand-islander-waikiki-honolulu": {
       "source_hotel_id": "hnldrgv-hilton-grand-vacations-club-the-grand-islander-waikiki-honolulu",
@@ -9013,7 +9013,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLDRGV/4337024/hnldr-hi-res-exterior.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=118",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orlingv-hilton-grand-vacations-club-tuscany-village-orlando": {
       "source_hotel_id": "orlingv-hilton-grand-vacations-club-tuscany-village-orlando",
@@ -9069,7 +9069,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLINGV/23565932/orlin-ext-main-pool-2025-001.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "qkbvagv-hilton-grand-vacations-club-valdoro-mountain-lodge-breckenridge": {
       "source_hotel_id": "qkbvagv-hilton-grand-vacations-club-valdoro-mountain-lodge-breckenridge",
@@ -9125,7 +9125,7 @@
       "master_image_url": "https://www.hilton.com/im/en/QKBVAGV/4342032/qkbva-hi-res-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=150&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ywswhgv-hilton-grand-vacations-club-whistler": {
       "source_hotel_id": "ywswhgv-hilton-grand-vacations-club-whistler",
@@ -9177,7 +9177,7 @@
       "master_image_url": "https://www.hilton.com/im/en/YWSWHGV/20333268/can-wsr-ext-eve-2010-lgcy-001.jpg?impolicy=crop&cw=3904&ch=2602&gravity=NorthWest&xposition=0&yposition=198",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcotkgv-hilton-vacation-club-aqua-sol-orlando": {
       "source_hotel_id": "mcotkgv-hilton-vacation-club-aqua-sol-orlando",
@@ -9231,7 +9231,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOTKGV/22505411/mcotk-hi-res-ext-waterpark-2024-001.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjdcagv-hilton-vacation-club-cabo-azul-los-cabos": {
       "source_hotel_id": "sjdcagv-hilton-vacation-club-cabo-azul-los-cabos",
@@ -9293,7 +9293,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJDCAGV/20116805/sjdca-hi-res-main-pool.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lascngv-hilton-vacation-club-cancun-resort-las-vegas": {
       "source_hotel_id": "lascngv-hilton-vacation-club-cancun-resort-las-vegas",
@@ -9349,7 +9349,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASCNGV/26999873/lascn-aerial-pool2.jpg?impolicy=crop&cw=3858&ch=2572&gravity=NorthWest&xposition=571&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcotrgv-hilton-vacation-club-cypress-pointe-orlando": {
       "source_hotel_id": "mcotrgv-hilton-vacation-club-cypress-pointe-orlando",
@@ -9403,7 +9403,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOTRGV/22439927/mcotr-hi-res-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dabdbgv-hilton-vacation-club-daytona-beach-regency": {
       "source_hotel_id": "dabdbgv-hilton-vacation-club-daytona-beach-regency",
@@ -9455,7 +9455,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DABDBGV/19340814/dbr-ext-east-view-3514-2015-rgb.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sxmflgv-hilton-vacation-club-flamingo-beach-st-maarten": {
       "source_hotel_id": "sxmflgv-hilton-vacation-club-flamingo-beach-st-maarten",
@@ -9513,7 +9513,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SXMFLGV/18137651/sxmfl-hi-res-property-aerial.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcobegv-hilton-vacation-club-grand-beach-orlando": {
       "source_hotel_id": "mcobegv-hilton-vacation-club-grand-beach-orlando",
@@ -9567,7 +9567,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOBEGV/23730819/mcobe-ext-pool-2025-001.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phflugv-hilton-vacation-club-greensprings-williamsburg": {
       "source_hotel_id": "phflugv-hilton-vacation-club-greensprings-williamsburg",
@@ -9621,7 +9621,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHFLUGV/23515473/phflu-ext-entry-2025.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "jhmkagv-hilton-vacation-club-kaanapali-beach-maui": {
       "source_hotel_id": "jhmkagv-hilton-vacation-club-kaanapali-beach-maui",
@@ -9675,7 +9675,7 @@
       "master_image_url": "https://www.hilton.com/im/en/JHMKAGV/21289346/jhmka-hi-res-aerial-beach-2.jpg?impolicy=crop&cw=3908&ch=2605&gravity=NorthWest&xposition=0&yposition=197",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tvlvagv-hilton-vacation-club-lake-tahoe-resort": {
       "source_hotel_id": "tvlvagv-hilton-vacation-club-lake-tahoe-resort",
@@ -9731,7 +9731,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TVLVAGV/18033073/tvlva-hi-res-aerial3.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=2&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sdxplgv-hilton-vacation-club-los-abrigados-sedona": {
       "source_hotel_id": "sdxplgv-hilton-vacation-club-los-abrigados-sedona",
@@ -9785,7 +9785,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SDXPLGV/25119464/lar-outdoor-pool-5790-2015-edit.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=150&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ismmygv-hilton-vacation-club-mystic-dunes-orlando": {
       "source_hotel_id": "ismmygv-hilton-vacation-club-mystic-dunes-orlando",
@@ -9843,7 +9843,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ISMMYGV/21761697/ismmy-hi-res-pool-dunes-lagoon2-1-.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orfavgv-hilton-vacation-ocean-beach-club": {
       "source_hotel_id": "orfavgv-hilton-vacation-ocean-beach-club",
@@ -9897,7 +9897,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/19264623/orfai-orfav-hi-res-exteriors-with-playground.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orfaigv-hilton-vacation-club-oceanaire-virginia-beach": {
       "source_hotel_id": "orfaigv-hilton-vacation-club-oceanaire-virginia-beach",
@@ -9951,7 +9951,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORFAIGV/18025456/orfai-hi-res-exterior-front.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=34&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pspspgv-hilton-vacation-club-palm-canyon-palm-springs": {
       "source_hotel_id": "pspspgv-hilton-vacation-club-palm-canyon-palm-springs",
@@ -10003,7 +10003,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PSPSPGV/25360910/pspsp-aerial-mountains.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcopygv-hilton-vacation-club-polynesian-isles-kissimmee": {
       "source_hotel_id": "mcopygv-hilton-vacation-club-polynesian-isles-kissimmee",
@@ -10059,7 +10059,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOPYGV/19745403/pir-outdoor-pool-3068-2015-rgb.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxragv-hilton-vacation-club-rancho-manana": {
       "source_hotel_id": "phxragv-hilton-vacation-club-rancho-manana",
@@ -10107,7 +10107,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXRAGV/18789418/phxra-hi-res-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "flgrigv-hilton-vacation-club-ridge-on-sedona": {
       "source_hotel_id": "flgrigv-hilton-vacation-club-ridge-on-sedona",
@@ -10161,7 +10161,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLGRIGV/18439074/flgri-hi-res-clubhouse-pool-with-cabanas.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "snarbgv-hilton-vacation-club-riviera-beach-and-shores": {
       "source_hotel_id": "snarbgv-hilton-vacation-club-riviera-beach-and-shores",
@@ -10211,7 +10211,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SNARBGV/22839168/snarb-hi-res-exterior-sign.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sxmrogv-hilton-vacation-club-royal-palm-st-maarten": {
       "source_hotel_id": "sxmrogv-hilton-vacation-club-royal-palm-st-maarten",
@@ -10267,7 +10267,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SXMROGV/18135070/sxmro-hi-res-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxregv-hilton-vacation-club-scottsdale-links-resort": {
       "source_hotel_id": "phxregv-hilton-vacation-club-scottsdale-links-resort",
@@ -10321,7 +10321,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXREGV/17884333/phxre-hi-res-family-pool2.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxmrgv-hilton-vacation-club-scottsdale-villa-mirage": {
       "source_hotel_id": "phxmrgv-hilton-vacation-club-scottsdale-villa-mirage",
@@ -10379,7 +10379,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXMRGV/18022051/phxmr-hi-res-aerial-property-and-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=2&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "flgsegv-hilton-vacation-club-sedona-summit": {
       "source_hotel_id": "flgsegv-hilton-vacation-club-sedona-summit",
@@ -10435,7 +10435,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLGSEGV/18757735/flgse-hi-res-sunset-pool.jpg?impolicy=crop&cw=4486&ch=2990&gravity=NorthWest&xposition=0&yposition=4",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dabcogv-hilton-vacation-club-the-cove-on-ormond-beach": {
       "source_hotel_id": "dabcogv-hilton-vacation-club-the-cove-on-ormond-beach",
@@ -10491,7 +10491,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DABCOGV/22052873/dabco-hi-res-exterior-beach-001.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phfpogv-hilton-vacation-club-the-historic-powhatan-williamsburg": {
       "source_hotel_id": "phfpogv-hilton-vacation-club-the-historic-powhatan-williamsburg",
@@ -10551,7 +10551,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHFPOGV/19872029/phfpo-hi-res-lobby-exterior.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlmogv-hilton-vacation-club-the-modern-honolulu": {
       "source_hotel_id": "hnlmogv-hilton-vacation-club-the-modern-honolulu",
@@ -10603,7 +10603,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLMOGV/20428411/hnlmo-hi-res-sunrise-pool-with-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=90&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "fllfshh-beach-house-fort-lauderdale": {
       "source_hotel_id": "fllfshh-beach-house-fort-lauderdale",
@@ -10663,7 +10663,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLLFSHH/25387147/beach-house-fort-lauderdale-a-hilton-resort-south-arial.jpg?impolicy=crop&cw=4218&ch=2812&gravity=NorthWest&xposition=391&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sanrshf-cape-rey-carlsbad-beach": {
       "source_hotel_id": "sanrshf-cape-rey-carlsbad-beach",
@@ -10725,7 +10725,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANRSHF/3270606/sanrshf-hiltonbrand-ext-sunsetpool.jpg?impolicy=crop&cw=3307&ch=2205&gravity=NorthWest&xposition=846&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjnhihh-caribe-hilton": {
       "source_hotel_id": "sjnhihh-caribe-hilton",
@@ -10793,7 +10793,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJNHIHH/3250684/beach-stretch.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tushthh-el-conquistador-tucson": {
       "source_hotel_id": "tushthh-el-conquistador-tucson",
@@ -10859,7 +10859,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TUSHTHH/3341763/hilton-tucson-el-conquistador-overview-pool-at-sunrise.jpg?impolicy=crop&cw=5000&ch=3331&gravity=NorthWest&xposition=0&yposition=199",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "auhyihi-hilton-abu-dhabi-yas-island": {
       "source_hotel_id": "auhyihi-hilton-abu-dhabi-yas-island",
@@ -10927,7 +10927,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AUHYIHI/19201279/auhyi-8325.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "alyachi-hilton-alexandria-corniche": {
       "source_hotel_id": "alyachi-hilton-alexandria-corniche",
@@ -10991,7 +10991,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ALYACHI/3160549/pool-generic-horizontal.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "alykrhi-hilton-alexandria-kings-ranch": {
       "source_hotel_id": "alykrhi-hilton-alexandria-kings-ranch",
@@ -11053,7 +11053,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ALYKRHI/3157100/hilton-kings-ranch-ex-14.tif?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dfwanhh-hilton-anatole": {
       "source_hotel_id": "dfwanhh-hilton-anatole",
@@ -11115,7 +11115,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DFWANHH/6135008/dfwan-anatole-exterior-ns-c2-10000x6500-sw-2015.jpg?impolicy=crop&cw=4915&ch=3277&gravity=NorthWest&xposition=42&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "auahhhh-hilton-aruba-caribbean-resort-and-casino": {
       "source_hotel_id": "auahhhh-hilton-aruba-caribbean-resort-and-casino",
@@ -11181,7 +11181,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AUAHHHH/15419089/1-beach-drone.jpg?impolicy=crop&cw=4750&ch=3166&gravity=NorthWest&xposition=0&yposition=183",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dpsbahi-hilton-bali-resort": {
       "source_hotel_id": "dpsbahi-hilton-bali-resort",
@@ -11247,7 +11247,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DPSBAHI/17860634/resort-overview-rev1.jpg?impolicy=crop&cw=3729&ch=2486&gravity=NorthWest&xposition=635&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bgihihh-hilton-barbados-resort": {
       "source_hotel_id": "bgihihh-hilton-barbados-resort",
@@ -11300,7 +11300,7 @@
       "price_currency": "USD",
       "rate_plan_code": "H3F",
       "rate_plan_name": "Honors Discount Semi-Flex",
-      "rate_plan_description": "至少在到达日 5 天之前变更或取消。 Hilton Honors Membership Required.",
+      "rate_plan_description": "Change or cancel up to 5 days before arrival. Hilton Honors Membership Required.",
       "brand_code": "HI",
       "ctyhocn": "BGIHIHH",
       "opened_on": "",
@@ -11309,7 +11309,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BGIHIHH/20122331/aerial-2-nov-23.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=205",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hhhrshh-hilton-beachfront-resort-and-spa-hilton-head-island": {
       "source_hotel_id": "hhhrshh-hilton-beachfront-resort-and-spa-hilton-head-island",
@@ -11371,7 +11371,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HHHRSHH/20080017/003-drn-rear-hotel-morning-hhhgr-dji-0452-hdr.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "miabmhf-hilton-bentley-miami-south-beach": {
       "source_hotel_id": "miabmhf-hilton-bentley-miami-south-beach",
@@ -11439,7 +11439,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MIABMHF/14740535/bentley-miami-pool-beach-view-4495x3000.jpg?impolicy=crop&cw=4495&ch=2996&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "miambhf-hilton-cabana-miami-beach-resort": {
       "source_hotel_id": "miambhf-hilton-cabana-miami-beach-resort",
@@ -11501,7 +11501,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MIAMBHF/17960785/hilton-cabana-1.jpg?impolicy=crop&cw=4513&ch=3009&gravity=NorthWest&xposition=122&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sidcvhi-hilton-cabo-verde-sal-resort": {
       "source_hotel_id": "sidcvhi-hilton-cabo-verde-sal-resort",
@@ -11565,7 +11565,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SIDCVHI/19185229/hcvr-exteriors-1.jpg?impolicy=crop&cw=4243&ch=2829&gravity=NorthWest&xposition=378&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cunmchh-hilton-cancun-mar-caribe-all-inclusive-resort": {
       "source_hotel_id": "cunmchh-hilton-cancun-mar-caribe-all-inclusive-resort",
@@ -11627,7 +11627,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CUNMCHH/20158277/cunmc-building-aerial-view-01.jpg?impolicy=crop&cw=4800&ch=3200&gravity=NorthWest&xposition=0&yposition=196",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cunqrhh-hilton-cancun": {
       "source_hotel_id": "cunqrhh-hilton-cancun",
@@ -11693,7 +11693,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CUNQRHH/16379617/cunqr-chill-pool-01.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ctghihh-hilton-cartagena-hotel": {
       "source_hotel_id": "ctghihh-hilton-cartagena-hotel",
@@ -11755,7 +11755,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CTGHIHH/17839143/dji-0531-v-ok.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "chibhhh-hilton-chicago-oak-brook-hills-resort-and-conference-center": {
       "source_hotel_id": "chibhhh-hilton-chicago-oak-brook-hills-resort-and-conference-center",
@@ -11825,7 +11825,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CHIBHHH/14500717/chibhhh-pool-1.jpg?impolicy=crop&cw=3991&ch=2661&gravity=NorthWest&xposition=504&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "crkpphi-hilton-clark-sun-valley-resort": {
       "source_hotel_id": "crkpphi-hilton-clark-sun-valley-resort",
@@ -11891,7 +11891,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CRKPPHI/21317703/crkpp-main-shot.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "piecbhf-hilton-clearwater-beach-resort-and-spa": {
       "source_hotel_id": "piecbhf-hilton-clearwater-beach-resort-and-spa",
@@ -11953,7 +11953,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PIECBHF/14476619/hilton-clearwater-beach-hero-panorama-2-1.jpg?impolicy=crop&cw=4219&ch=2813&gravity=NorthWest&xposition=390&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dlmhrhi-hilton-dalaman-sarigerme-resort-and-spa": {
       "source_hotel_id": "dlmhrhi-hilton-dalaman-sarigerme-resort-and-spa",
@@ -12029,7 +12029,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DLMHRHI/19496569/hiltondlm-generalview-1.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "ctyhocn",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dlugthi-hilton-dali-resort-and-spa": {
       "source_hotel_id": "dlugthi-hilton-dali-resort-and-spa",
@@ -12080,7 +12080,7 @@
       "price_currency": "CNY",
       "rate_plan_code": "HPPRP1",
       "rate_plan_name": "Honors Discount",
-      "rate_plan_description": "至少在到达日当地时间下午4点之前变更或取消。 Hilton Honors Membership Required.",
+      "rate_plan_description": "Change or cancel by 4pm local hotel time day of arrival. Hilton Honors Membership Required.",
       "brand_code": "HI",
       "ctyhocn": "DLUGTHI",
       "opened_on": "2015-12-20",
@@ -12089,24 +12089,26 @@
       "master_image_url": "https://www.hilton.com/im/en/DLUGTHI/19075378/exterior-3-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hilton-dalian-golden-pebble-beach-resort": {
       "source_hotel_id": "hilton-dalian-golden-pebble-beach-resort",
-      "detail_url": "https://www.hilton.com/en/hotels/dlugthi-hilton-dali-resort-and-spa/",
-      "detail_name": "Hilton Dali Resort & Spa",
-      "detail_address": "Qili Bridge, Gantong Temple",
-      "detail_city": "Dali",
+      "detail_url": "https://www.hilton.com/en/hotels/dlcdchi-hilton-dalian-golden-pebble-beach-resort/",
+      "detail_name": "Hilton Dalian Golden Pebble Beach Resort",
+      "detail_address": "No. 57 Hai Bin West Road Economic",
+      "detail_city": "Dalian",
       "detail_state_region": "",
       "detail_country": "China",
       "detail_country_code": "CN",
-      "detail_latitude": "25.645029",
-      "detail_longitude": "100.181761",
-      "phone_number": "+86 872 668 8888",
+      "detail_latitude": "39.0744511237",
+      "detail_longitude": "121.993366473",
+      "phone_number": "+86 411 3925 8888",
       "amenity_ids": [
+        "adjoiningRooms",
+        "beach",
         "concierge",
+        "digitalKey",
         "dining",
-        "evCharging",
         "executiveLounge",
         "fitnessCenter",
         "freeParking",
@@ -12117,12 +12119,14 @@
         "resort",
         "roomService",
         "cribs",
-        "childcare"
+        "playground"
       ],
       "amenities": [
+        "adjoining rooms",
+        "beach",
         "concierge",
+        "digital key",
         "dining",
-        "ev charging",
         "executive lounge",
         "fitness center",
         "free parking",
@@ -12133,23 +12137,23 @@
         "resort",
         "room service",
         "cribs",
-        "childcare"
+        "playground"
       ],
-      "lowest_public_price": "88.24",
-      "lowest_public_price_display": "¥602",
+      "lowest_public_price": "64.6",
+      "lowest_public_price_display": "¥441",
       "price_currency": "CNY",
-      "rate_plan_code": "HPPRP1",
-      "rate_plan_name": "Honors Discount",
-      "rate_plan_description": "至少在到达日当地时间下午4点之前变更或取消。 Hilton Honors Membership Required.",
+      "rate_plan_code": "HPPAP4",
+      "rate_plan_name": "Honors Discount Advance Purchase",
+      "rate_plan_description": "Pre-payment required and non-refundable. Hilton Honors Membership Required.",
       "brand_code": "HI",
-      "ctyhocn": "DLUGTHI",
-      "opened_on": "2015-12-20",
+      "ctyhocn": "DLCDCHI",
+      "opened_on": "2018-06-29",
       "bookable": true,
       "allow_adults_only": false,
-      "master_image_url": "https://www.hilton.com/im/en/DLUGTHI/19075378/exterior-3-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
+      "master_image_url": "https://www.hilton.com/im/en/DLCDCHI/8085231/exterior-evening.jpg?impolicy=crop&cw=4215&ch=2810&gravity=NorthWest&xposition=392&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dalrwhf-hilton-dallas-rockwall-lakefront": {
       "source_hotel_id": "dalrwhf-hilton-dallas-rockwall-lakefront",
@@ -12207,7 +12211,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DALRWHF/16631131/pool-hotel.jpg?impolicy=crop&cw=4429&ch=2953&gravity=NorthWest&xposition=285&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dabdhhf-hilton-daytona-beach-oceanfront-resort": {
       "source_hotel_id": "dabdhhf-hilton-daytona-beach-oceanfront-resort",
@@ -12265,7 +12269,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DABDHHF/16193441/beach-view-.jpg?impolicy=crop&cw=4032&ch=2688&gravity=NorthWest&xposition=0&yposition=168",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ammdshi-hilton-dead-sea-resort-and-spa": {
       "source_hotel_id": "ammdshi-hilton-dead-sea-resort-and-spa",
@@ -12313,8 +12317,8 @@
         "playground",
         "childcare"
       ],
-      "lowest_public_price": "125.95",
-      "lowest_public_price_display": "JOD 89",
+      "lowest_public_price": "144.2",
+      "lowest_public_price_display": "JOD 102",
       "price_currency": "JOD",
       "rate_plan_code": "RPADBB",
       "rate_plan_name": "Honors Staycation, Breakfast and Dinner on Us",
@@ -12327,7 +12331,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AMMDSHI/3160745/2017-06-hilton-dead-sea24277.jpg?impolicy=crop&cw=4920&ch=3280&gravity=NorthWest&xposition=4&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohhdhi-hilton-doha": {
       "source_hotel_id": "dohhdhi-hilton-doha",
@@ -12395,7 +12399,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHHDHI/23494767/20250714-dohhdi-landingpage.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohprhi-hilton-doha-the-pearl": {
       "source_hotel_id": "dohprhi-hilton-doha-the-pearl",
@@ -12465,7 +12469,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHPRHI/22552825/b-26246.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=207",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dxbjbhi-hilton-dubai-jumeirah": {
       "source_hotel_id": "dxbjbhi-hilton-dubai-jumeirah",
@@ -12531,7 +12535,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DXBJBHI/5684809/dxbjb-hiltondubaijumeirah-beachview3.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dxbpjhi-hilton-dubai-palm-jumeirah": {
       "source_hotel_id": "dxbpjhi-hilton-dubai-palm-jumeirah",
@@ -12603,7 +12607,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DXBPJHI/18097183/hero-image-palm.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=389",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dxbbrhi-hilton-dubai-the-walk": {
       "source_hotel_id": "dxbbrhi-hilton-dubai-the-walk",
@@ -12671,7 +12675,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DXBBRHI/16298714/exterior-2-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "nanhihi-hilton-fiji-beach-resort-and-spa": {
       "source_hotel_id": "nanhihi-hilton-fiji-beach-resort-and-spa",
@@ -12725,8 +12729,8 @@
       "lowest_public_price_display": "FJ$564",
       "price_currency": "FJD",
       "rate_plan_code": "HPPRP1",
-      "rate_plan_name": "HONORS DISCOUNT",
-      "rate_plan_description": "EXCLUSIVE LOWER RATE NOWHERE ELSE ONLINE. JOIN HONORS, EARN POINTS AND OTHER BENEFITS",
+      "rate_plan_name": "Honors Discount",
+      "rate_plan_description": "Change or cancel up to 21 days before arrival. Hilton Honors Membership Required.",
       "brand_code": "HI",
       "ctyhocn": "NANHIHI",
       "opened_on": "2006-04-01",
@@ -12735,7 +12739,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NANHIHI/7561114/nanhihi-family-friendly-pool-01.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "fllgrhh-hilton-fort-lauderdale-marina": {
       "source_hotel_id": "fllgrhh-hilton-fort-lauderdale-marina",
@@ -12783,7 +12787,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FLLGRHH/18903555/exterior-day-willpryce-print-cropped.jpg?impolicy=crop&cw=4737&ch=3158&gravity=NorthWest&xposition=131&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "frahghi-hilton-frankfurt-gravenbruch": {
       "source_hotel_id": "frahghi-hilton-frankfurt-gravenbruch",
@@ -12853,7 +12857,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FRAHGHI/21774477/exterior-entrance-fra1-entrance-summer-original-52001.jpg?impolicy=crop&cw=4492&ch=2994&gravity=NorthWest&xposition=0&yposition=2",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "glsgihf-hilton-galveston-island-resort": {
       "source_hotel_id": "glsgihf-hilton-galveston-island-resort",
@@ -12915,7 +12919,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GLSGIHF/22027159/hilton-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "goishhi-hilton-goa-resort": {
       "source_hotel_id": "goishhi-hilton-goa-resort",
@@ -12973,7 +12977,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GOISHHI/14238241/loungers-and-leisure-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "gumhitw-hilton-guam-resort-and-spa": {
       "source_hotel_id": "gumhitw-hilton-guam-resort-and-spa",
@@ -13033,8 +13037,8 @@
       "lowest_public_price_display": "$175",
       "price_currency": "USD",
       "rate_plan_code": "HPPAP4",
-      "rate_plan_name": "HONORS ADV PURCHASE",
-      "rate_plan_description": "ADVANCE PURCHASE DISCOUNTED PRICE FOR HONORS MEMBERS WHO BOOK DIRECT. NON REFUNDABLE.",
+      "rate_plan_name": "Honors Discount Advance Purchase",
+      "rate_plan_description": "Pre-payment required and non-refundable. Hilton Honors Membership Required.",
       "brand_code": "HI",
       "ctyhocn": "GUMHITW",
       "opened_on": "",
@@ -13043,7 +13047,7 @@
       "master_image_url": "https://www.hilton.com/im/en/GUMHITW/381065/gumhitw-hotel-exterior.jpg?impolicy=crop&cw=2250&ch=1500&gravity=NorthWest&xposition=375&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "kyohitw-hilton-gyeongju": {
       "source_hotel_id": "kyohitw-hilton-gyeongju",
@@ -13095,8 +13099,8 @@
         "playground",
         "childcare"
       ],
-      "lowest_public_price": "134.36",
-      "lowest_public_price_display": "₩198,550",
+      "lowest_public_price": "147.8",
+      "lowest_public_price_display": "₩218,405",
       "price_currency": "KRW",
       "rate_plan_code": "HPPAP4",
       "rate_plan_name": "Honors Discount Advance Purchase",
@@ -13109,7 +13113,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KYOHITW/14701616/hilton-gyeongju-exterior-image.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hghlrhi-hilton-hangzhou-qiandao-lake-resort": {
       "source_hotel_id": "hghlrhi-hilton-hangzhou-qiandao-lake-resort",
@@ -13173,7 +13177,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HGHLRHI/15166896/exterior-night-2.jpg?impolicy=crop&cw=4755&ch=3170&gravity=NorthWest&xposition=0&yposition=122",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlhvhh-hilton-hawaiian-village-waikiki-beach-resort": {
       "source_hotel_id": "hnlhvhh-hilton-hawaiian-village-waikiki-beach-resort",
@@ -13239,7 +13243,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLHVHH/16797780/aerial-image-hhv.jpg?impolicy=crop&cw=3952&ch=2635&gravity=NorthWest&xposition=523&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ppthihh-hilton-hotel-tahiti": {
       "source_hotel_id": "ppthihh-hilton-hotel-tahiti",
@@ -13299,7 +13303,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PPTHIHH/17050595/pool-tkdv-hiltah-gfx0270-hd-2.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hhqhihi-hilton-hua-hin-resort-and-spa": {
       "source_hotel_id": "hhqhihi-hilton-hua-hin-resort-and-spa",
@@ -13365,7 +13369,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HHQHIHI/23328937/aerial-picture-2.jpg?impolicy=crop&cw=4739&ch=3159&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "huzlhhi-hilton-huizhou-longmen-resort": {
       "source_hotel_id": "huzlhhi-hilton-huizhou-longmen-resort",
@@ -13423,7 +13427,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HUZLHHI/7575211/entrance.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hrghitw-hilton-hurghada-plaza": {
       "source_hotel_id": "hrghitw-hilton-hurghada-plaza",
@@ -13477,8 +13481,8 @@
         "cribs",
         "playground"
       ],
-      "lowest_public_price": "171.87",
-      "lowest_public_price_display": "$171",
+      "lowest_public_price": "133.28",
+      "lowest_public_price_display": "$133",
       "price_currency": "USD",
       "rate_plan_code": "HPPAP4",
       "rate_plan_name": "Honors Advance Purchase Breakfast Included",
@@ -13491,7 +13495,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HRGHITW/11140012/hrghi-1889.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "santphh-hilton-la-jolla-torrey-pines": {
       "source_hotel_id": "santphh-hilton-la-jolla-torrey-pines",
@@ -13557,7 +13561,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANTPHH/16630595/hotel-and-coastal-view-copy.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "laslkhf-hilton-lake-las-vegas-resort-and-spa": {
       "source_hotel_id": "laslkhf-hilton-lake-las-vegas-resort-and-spa",
@@ -13617,7 +13621,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASLKHF/5210491/laslk-hilton-lake-las-vegas-1.jpg?impolicy=crop&cw=4369&ch=2913&gravity=NorthWest&xposition=315&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjdlchh-hilton-los-cabos-beach-and-golf-resort": {
       "source_hotel_id": "sjdlchh-hilton-los-cabos-beach-and-golf-resort",
@@ -13683,7 +13687,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJDLCHH/16034839/hilton-los-cabos-beach-and-golf-resort-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "luxhitw-hilton-luxor-resort-and-spa": {
       "source_hotel_id": "luxhitw-hilton-luxor-resort-and-spa",
@@ -13743,7 +13747,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LUXHITW/4774088/luxhitw-lobby.tif?impolicy=crop&cw=3861&ch=2574&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mleaihi-hilton-maldives-amingiri-resort-and-spa": {
       "source_hotel_id": "mleaihi-hilton-maldives-amingiri-resort-and-spa",
@@ -13805,7 +13809,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MLEAIHI/17963887/mleai-aeriel.jpg?impolicy=crop&cw=3069&ch=2046&gravity=NorthWest&xposition=965&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pmicchi-hilton-mallorca-galatzo": {
       "source_hotel_id": "pmicchi-hilton-mallorca-galatzo",
@@ -13873,7 +13877,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PMICCHI/17272622/hilton-galatzo-pool-day.jpg?impolicy=crop&cw=4501&ch=3001&gravity=NorthWest&xposition=249&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mlahitw-hilton-malta": {
       "source_hotel_id": "mlahitw-hilton-malta",
@@ -13935,7 +13939,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MLAHITW/3206549/mlahitw-back-view.jpg?impolicy=crop&cw=4800&ch=3200&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mrkmhhf-hilton-marco-island-beach-resort-and-spa": {
       "source_hotel_id": "mrkmhhf-hilton-marco-island-beach-resort-and-spa",
@@ -13999,7 +14003,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MRKMHHF/6652793/lobby-greg1714-high-resolution-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rmfhihi-hilton-marsa-alam-nubian-resort": {
       "source_hotel_id": "rmfhihi-hilton-marsa-alam-nubian-resort",
@@ -14057,7 +14061,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RMFHIHI/3229481/rmfhihi-12-hotel-entrance.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mruhihi-hilton-mauritius-resort-and-spa": {
       "source_hotel_id": "mruhihi-hilton-mauritius-resort-and-spa",
@@ -14123,7 +14127,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MRUHIHI/20007206/mruhihi-hibiscus-bar-infinity-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pptmlhh-hilton-moorea-lagoon-resort-and-spa": {
       "source_hotel_id": "pptmlhh-hilton-moorea-lagoon-resort-and-spa",
@@ -14185,7 +14189,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/10583575/resort-exterior-01.jpg?impolicy=crop&cw=3789&ch=2526&gravity=NorthWest&xposition=605&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "myrbhhh-hilton-myrtle-beach-resort": {
       "source_hotel_id": "myrbhhh-hilton-myrtle-beach-resort",
@@ -14251,7 +14255,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MYRBHHH/18420128/myrbh-exterior-drone-02.tif?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=205",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "nkgnshi-hilton-nanjing-niushoushan": {
       "source_hotel_id": "nkgnshi-hilton-nanjing-niushoushan",
@@ -14317,7 +14321,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NKGNSHI/20022349/nkgns-exteriornight.jpg?impolicy=crop&cw=4410&ch=2940&gravity=NorthWest&xposition=295&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ngbqahi-hilton-ningbo-dongqian-lake": {
       "source_hotel_id": "ngbqahi-hilton-ningbo-dongqian-lake",
@@ -14389,7 +14393,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NGBQAHI/3182567/ngbqahi-exterior-main-building.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ctsnvhi-hilton-niseko-village": {
       "source_hotel_id": "ctsnvhi-hilton-niseko-village",
@@ -14440,7 +14444,7 @@
       "price_currency": "JPY",
       "rate_plan_code": "HPPRP1",
       "rate_plan_name": "Honors Discount",
-      "rate_plan_description": "至少在到达日 1 天之前变更或取消。 Hilton Honors Membership Required.",
+      "rate_plan_description": "Change or cancel up to 1 day before arrival. Hilton Honors Membership Required.",
       "brand_code": "HI",
       "ctyhocn": "CTSNVHI",
       "opened_on": "2008-07-01",
@@ -14449,7 +14453,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CTSNVHI/3489618/onsen-1.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=107&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sbyofhf-hilton-ocean-city-oceanfront-suites": {
       "source_hotel_id": "sbyofhf-hilton-ocean-city-oceanfront-suites",
@@ -14515,7 +14519,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SBYOFHF/23573326/dji-0668-exterior.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=205",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tyoodhi-hilton-odawara-resort-and-spa": {
       "source_hotel_id": "tyoodhi-hilton-odawara-resort-and-spa",
@@ -14581,7 +14585,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TYOODHI/4953537/tyoodhi-exterior1.jpg?impolicy=crop&cw=2250&ch=1500&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "okaochi-hilton-okinawa-chatan-resort": {
       "source_hotel_id": "okaochi-hilton-okinawa-chatan-resort",
@@ -14645,7 +14649,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OKAOCHI/3239957/45-days-bb.jpg?impolicy=crop&cw=4920&ch=3280&gravity=NorthWest&xposition=4&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "okamihi-hilton-okinawa-miyako-island-resort": {
       "source_hotel_id": "okamihi-hilton-okinawa-miyako-island-resort",
@@ -14709,7 +14713,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OKAMIHI/18833423/heroshot.jpg?impolicy=crop&cw=4207&ch=2804&gravity=NorthWest&xposition=0&yposition=97",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "okasehi-hilton-okinawa-sesoko-resort": {
       "source_hotel_id": "okasehi-hilton-okinawa-sesoko-resort",
@@ -14773,7 +14777,7 @@
       "master_image_url": "https://www.hilton.com/im/en/OKASEHI/18341514/hilton-okinawa-sesoko-resort-dji-0018-edit.jpg?impolicy=crop&cw=4213&ch=2809&gravity=NorthWest&xposition=393&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orlochh-hilton-orlando": {
       "source_hotel_id": "orlochh-hilton-orlando",
@@ -14837,7 +14841,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLOCHH/3239463/hilton-orlando-pool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=211&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mcobuhh-hilton-orlando-buena-vista-palace": {
       "source_hotel_id": "mcobuhh-hilton-orlando-buena-vista-palace",
@@ -14897,7 +14901,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MCOBUHH/6091846/mcobu-adultpool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orldwhh-hilton-orlando-lake-buena-vista": {
       "source_hotel_id": "orldwhh-hilton-orlando-lake-buena-vista",
@@ -14955,7 +14959,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLDWHH/18428198/exteriorhww.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "psppshf-hilton-palm-springs": {
       "source_hotel_id": "psppshf-hilton-palm-springs",
@@ -15017,7 +15021,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PSPPSHF/3356746/psppshf-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bkkhphi-hilton-pattaya": {
       "source_hotel_id": "bkkhphi-hilton-pattaya",
@@ -15083,7 +15087,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BKKHPHI/16532568/exterior-02.jpg?impolicy=crop&cw=3831&ch=2554&gravity=NorthWest&xposition=584&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pnspehf-hilton-pensacola-beach": {
       "source_hotel_id": "pnspehf-hilton-pensacola-beach",
@@ -15149,7 +15153,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PNSPEHF/19445834/pnspehf-drone2.jpg?impolicy=crop&cw=4006&ch=2670&gravity=NorthWest&xposition=0&yposition=164",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxsppr-hilton-phoenix-resort-at-the-peak": {
       "source_hotel_id": "phxsppr-hilton-phoenix-resort-at-the-peak",
@@ -15211,7 +15215,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXSPPR/26900345/phxsppr-ocotillokingbdrmview.jpg?impolicy=crop&cw=4091&ch=2728&gravity=NorthWest&xposition=454&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxtcpr-hilton-phoenix-tapatio-cliffs-resort": {
       "source_hotel_id": "phxtcpr-hilton-phoenix-tapatio-cliffs-resort",
@@ -15281,7 +15285,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXTCPR/14838185/phxtcpr-thefallsgrottolowerpool.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pnchihh-hilton-ponce-golf-and-casino-resort": {
       "source_hotel_id": "pnchihh-hilton-ponce-golf-and-casino-resort",
@@ -15349,7 +15353,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PNCHIHH/7564229/pnchi-pool-view1.jpg?impolicy=crop&cw=3500&ch=2333&gravity=NorthWest&xposition=0&yposition=333",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "caipghi-hilton-pyramids-golf": {
       "source_hotel_id": "caipghi-hilton-pyramids-golf",
@@ -15409,7 +15413,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CAIPGHI/21897610/entrance-exterior-day-6.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "zqnhqhi-hilton-queenstown-resort-and-spa": {
       "source_hotel_id": "zqnhqhi-hilton-queenstown-resort-and-spa",
@@ -15467,7 +15471,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ZQNHQHI/3321364/a79p0120.jpg?impolicy=crop&cw=4840&ch=3226&gravity=NorthWest&xposition=0&yposition=55",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rjkochi-hilton-rijeka-costabella-beach-resort-and-spa": {
       "source_hotel_id": "rjkochi-hilton-rijeka-costabella-beach-resort-and-spa",
@@ -15531,7 +15535,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RJKOCHI/18181604/hilton-costabella-72dpi-171.jpg?impolicy=crop&cw=4687&ch=3125&gravity=NorthWest&xposition=156&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sllhihi-hilton-salalah-resort": {
       "source_hotel_id": "sllhihi-hilton-salalah-resort",
@@ -15595,7 +15599,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SLLHIHI/22836448/0-exterior-main-entrance.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohsbhi-hilton-salwa-beach-resort-villas": {
       "source_hotel_id": "dohsbhi-hilton-salwa-beach-resort-villas",
@@ -15667,7 +15671,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHSBHI/17153667/dohsbhi-aerial-view.jpg?impolicy=crop&cw=4387&ch=2925&gravity=NorthWest&xposition=306&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sandmhf-hilton-san-diego-del-mar": {
       "source_hotel_id": "sandmhf-hilton-san-diego-del-mar",
@@ -15727,7 +15731,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANDMHF/3268955/sandmhf-delmar-0037.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=3&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "deshihf-hilton-sandestin-beach-golf-resort-and-spa": {
       "source_hotel_id": "deshihf-hilton-sandestin-beach-golf-resort-and-spa",
@@ -15799,7 +15803,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DESHIHF/27340242/hilton-sandestin-beach-exterior.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=208",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sqdhihi-hilton-sanqingshan-resort": {
       "source_hotel_id": "sqdhihi-hilton-sanqingshan-resort",
@@ -15861,7 +15865,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SQDHIHI/3254218/exterior-2.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=176&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sbafphh-hilton-santa-barbara-beachfront-resort": {
       "source_hotel_id": "sbafphh-hilton-santa-barbara-beachfront-resort",
@@ -15923,7 +15927,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SBAFPHH/6343045/2018-04-21-hilton-santa-barbara-beachfront-aerials-0001-1.jpg?impolicy=crop&cw=4215&ch=2810&gravity=NorthWest&xposition=392&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sfecghh-hilton-santa-fe-buffalo-thunder": {
       "source_hotel_id": "sfecghh-hilton-santa-fe-buffalo-thunder",
@@ -15989,7 +15993,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SFECGHH/3266356/pool-resaved.jpg?impolicy=crop&cw=3901&ch=2601&gravity=NorthWest&xposition=549&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "smrcnhh-hilton-santa-marta": {
       "source_hotel_id": "smrcnhh-hilton-santa-marta",
@@ -16047,7 +16051,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SMRCNHH/18130295/facade-hilton-santa-marta-1-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "syxhihi-hilton-sanya-yalong-bay-resort-and-spa": {
       "source_hotel_id": "syxhihi-hilton-sanya-yalong-bay-resort-and-spa",
@@ -16117,7 +16121,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SYXHIHI/11084162/overview1.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=11&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sctshhf-hilton-scottsdale-resort-and-villas": {
       "source_hotel_id": "sctshhf-hilton-scottsdale-resort-and-villas",
@@ -16179,7 +16183,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SCTSHHF/3271388/sctshhf-37136106-exterior.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sdxsehh-hilton-sedona-resort-at-bell-rock": {
       "source_hotel_id": "sdxsehh-hilton-sedona-resort-at-bell-rock",
@@ -16243,7 +16247,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SDXSEHH/15865997/hilton-sedona-resort-golf-view.jpg?impolicy=crop&cw=4722&ch=3148&gravity=NorthWest&xposition=139&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sezhihi-hilton-seychelles-northolme-resort-and-spa": {
       "source_hotel_id": "sezhihi-hilton-seychelles-northolme-resort-and-spa",
@@ -16305,7 +16309,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SEZHIHI/4873006/aerial-view-presidential-villa.jpg?impolicy=crop&cw=2520&ch=1680&gravity=NorthWest&xposition=236&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rrohihi-hilton-sorrento-palace": {
       "source_hotel_id": "rrohihi-hilton-sorrento-palace",
@@ -16369,7 +16373,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RROHIHI/24447202/rrohi-hotel-view.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "szzhihi-hilton-swinoujscie-resort-and-spa": {
       "source_hotel_id": "szzhihi-hilton-swinoujscie-resort-and-spa",
@@ -16431,7 +16435,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SZZHIHI/21308102/-glc1539.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tngahhi-hilton-tangier-al-houara-resort-and-spa": {
       "source_hotel_id": "tngahhi-hilton-tangier-al-houara-resort-and-spa",
@@ -16507,7 +16511,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TNGAHHI/10236446/tngah-lobby-4.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "tyotbtw-hilton-tokyo-bay": {
       "source_hotel_id": "tyotbtw-hilton-tokyo-bay",
@@ -16563,7 +16567,7 @@
       "master_image_url": "https://www.hilton.com/im/en/TYOTBTW/3346811/pool-2.jpg?impolicy=crop&cw=3883&ch=2589&gravity=NorthWest&xposition=558&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cunhihh-hilton-tulum-riviera-maya-all-inclusive-resort": {
       "source_hotel_id": "cunhihh-hilton-tulum-riviera-maya-all-inclusive-resort",
@@ -16629,7 +16633,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CUNHIHH/23564904/pool-playa-seasalt-hilton.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pvrpahh-hilton-vallarta-riviera-all-inclusive-resort": {
       "source_hotel_id": "pvrpahh-hilton-vallarta-riviera-all-inclusive-resort",
@@ -16687,7 +16691,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PVRPAHH/16244590/pvrpa-exterior-05.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "faohihi-hilton-vilamoura-as-cascatas-golf-resort-and-spa": {
       "source_hotel_id": "faohihi-hilton-vilamoura-as-cascatas-golf-resort-and-spa",
@@ -16751,7 +16755,7 @@
       "master_image_url": "https://www.hilton.com/im/en/FAOHIHI/23157344/hilton-vilamoura-main-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orfvhhf-hilton-virginia-beach-oceanfront": {
       "source_hotel_id": "orfvhhf-hilton-virginia-beach-oceanfront",
@@ -16815,7 +16819,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORFVHHF/3234501/sky-sunriseal-9964.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlwahf-hilton-waikiki-beach-resort-and-spa": {
       "source_hotel_id": "hnlwahf-hilton-waikiki-beach-resort-and-spa",
@@ -16879,7 +16883,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLWAHF/25082057/hilton-waikiki-beach-large-pool-deck-mr-lui-s-preferred-shot.jpg?impolicy=crop&cw=4618&ch=3078&gravity=NorthWest&xposition=0&yposition=147",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "koahwhh-hilton-waikoloa-village": {
       "source_hotel_id": "koahwhh-hilton-waikoloa-village",
@@ -16947,7 +16951,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KOAHWHH/16792177/2022-01-05-lagoon-waterfall-kohala-pool-dji-0013.jpg?impolicy=crop&cw=4868&ch=3245&gravity=NorthWest&xposition=0&yposition=199",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "ywsvrhf-hilton-whistler-resort-and-spa": {
       "source_hotel_id": "ywsvrhf-hilton-whistler-resort-and-spa",
@@ -17017,7 +17021,7 @@
       "master_image_url": "https://www.hilton.com/im/en/YWSVRHF/17140968/untitled-design.png?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "kdwyahi-hilton-yala-resort": {
       "source_hotel_id": "kdwyahi-hilton-yala-resort",
@@ -17063,8 +17067,8 @@
       "lowest_public_price_display": "$344",
       "price_currency": "USD",
       "rate_plan_code": "HPPAP4",
-      "rate_plan_name": "HONORS ADV PURCHASE",
-      "rate_plan_description": "ADVANCE PURCHASE DISCOUNTED PRICE FOR HONORS MEMBERS WHO BOOK DIRECT. NON REFUNDABLE.",
+      "rate_plan_name": "Honors Advance Purchase Breakfast Included",
+      "rate_plan_description": "Breakfast included. Pre-payment required and non-refundable. Hilton Honors Membership Required.",
       "brand_code": "HI",
       "ctyhocn": "KDWYAHI",
       "opened_on": "2023-08-31",
@@ -17073,7 +17077,7 @@
       "master_image_url": "https://www.hilton.com/im/en/KDWYAHI/18736694/exterior01.jpg?impolicy=crop&cw=4000&ch=2666&gravity=NorthWest&xposition=0&yposition=166",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "nkgyfhi-hilton-yuxi-fuxian-lake": {
       "source_hotel_id": "nkgyfhi-hilton-yuxi-fuxian-lake",
@@ -17135,7 +17139,7 @@
       "master_image_url": "https://www.hilton.com/im/en/NKGYFHI/6332615/nkgyfhi-chai-tea-room-002.jpg?impolicy=crop&cw=4495&ch=2996&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rslvhvh-resorts-world-las-vegas": {
       "source_hotel_id": "rslvhvh-resorts-world-las-vegas",
@@ -17197,7 +17201,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/17832517/lashhhh-lobby.png?impolicy=crop&cw=4144&ch=2762&gravity=NorthWest&xposition=0&yposition=118",
       "matched_from_resorts_list": true,
       "match_method": "name",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "oolhihi-hilton-surfers-paradise-hotel-and-residences": {
       "source_hotel_id": "oolhihi-hilton-surfers-paradise-hotel-and-residences",
@@ -17267,7 +17271,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/4838247/hsp-exterior-hero-1500x2820.jpg?impolicy=crop&cw=2250&ch=1500&gravity=NorthWest&xposition=285&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjucohh-the-condado-plaza-hotel": {
       "source_hotel_id": "sjucohh-the-condado-plaza-hotel",
@@ -17323,7 +17327,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJUCOHH/6072894/exterior-tcph-website.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=117&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "denirhh-the-inverness-denver-a-hilton-golf-and-spa-resort": {
       "source_hotel_id": "denirhh-the-inverness-denver-a-hilton-golf-and-spa-resort",
@@ -17391,7 +17395,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DENIRHH/15165491/hilton-denver-inverness-panoramic.jpg?impolicy=crop&cw=3061&ch=2041&gravity=NorthWest&xposition=969&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "pnslghh-the-lodge-at-gulf-state-park": {
       "source_hotel_id": "pnslghh-the-lodge-at-gulf-state-park",
@@ -17457,7 +17461,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PNSLGHH/13787666/lodge-may-1.jpg?impolicy=crop&cw=4209&ch=2806&gravity=NorthWest&xposition=395&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hubwhhf-the-waterfront-beach-resort": {
       "source_hotel_id": "hubwhhf-the-waterfront-beach-resort",
@@ -17521,7 +17525,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HUBWHHF/16784077/waterfront-drone-01.jpg?impolicy=crop&cw=4654&ch=3103&gravity=NorthWest&xposition=172&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "yqbmthw-homewood-suites-mont-tremblant-resort": {
       "source_hotel_id": "yqbmthw-homewood-suites-mont-tremblant-resort",
@@ -17575,7 +17579,7 @@
       "master_image_url": "https://www.hilton.com/im/en/YQBMTHW/3518518/outdoors.jpg?impolicy=crop&cw=4501&ch=3000&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "phxbmol-arizona-biltmore": {
       "source_hotel_id": "phxbmol-arizona-biltmore",
@@ -17651,7 +17655,7 @@
       "master_image_url": "https://www.hilton.com/im/en/PHXBMOL/16407911/biltmore-saguaro-pool-dusk-nopoles-1-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sancnol-beach-village-at-the-del": {
       "source_hotel_id": "sancnol-beach-village-at-the-del",
@@ -17721,7 +17725,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANCNOL/19208957/beach-village-pool-aerial-rbenson-2023.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=165",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "crockfords-las-vegas-lxr-hotels-resorts": {
       "source_hotel_id": "crockfords-las-vegas-lxr-hotels-resorts",
@@ -17785,7 +17789,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASCFOL/21899446/crockfords3000.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "name",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "hnlwiol-ka-lai-waikiki-beach": {
       "source_hotel_id": "hnlwiol-ka-lai-waikiki-beach",
@@ -17853,7 +17857,7 @@
       "master_image_url": "https://www.hilton.com/im/en/HNLWIOL/19749633/twa-day-exterior-02.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohqkol-katara-hills-doha": {
       "source_hotel_id": "dohqkol-katara-hills-doha",
@@ -17907,7 +17911,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHQKOL/18857724/dohqk-181.jpg?impolicy=crop&cw=4498&ch=2998&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sezitol-mango-house-seychelles": {
       "source_hotel_id": "sezitol-mango-house-seychelles",
@@ -17973,7 +17977,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SEZITOL/15670353/main-house-pool-3.jpg?impolicy=crop&cw=8192&ch=5461&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohpaol-maysan-doha": {
       "source_hotel_id": "dohpaol-maysan-doha",
@@ -18033,7 +18037,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHPAOL/24042429/2.jpg?impolicy=crop&cw=4646&ch=3097&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "itmolol-roku-kyoto": {
       "source_hotel_id": "itmolol-roku-kyoto",
@@ -18099,7 +18103,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ITMOLOL/16062832/exterior-day.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sanrhol-shore-house-at-the-del": {
       "source_hotel_id": "sanrhol-shore-house-at-the-del",
@@ -18165,7 +18169,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SANRHOL/17529640/shore-house-hero-oceanfront-pool.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=163",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "bjvlxol-susona-bodrum": {
       "source_hotel_id": "bjvlxol-susona-bodrum",
@@ -18233,7 +18237,7 @@
       "master_image_url": "https://www.hilton.com/im/en/BJVLXOL/22803956/copy-of-zdji-0970-1-copys.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dpsolol-umana-bali-resort": {
       "source_hotel_id": "dpsolol-umana-bali-resort",
@@ -18293,7 +18297,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DPSOLOL/20270071/dpsol-aerialshot3.jpg?impolicy=crop&cw=4213&ch=2809&gravity=NorthWest&xposition=393&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "axazbol-zemi-beach-house": {
       "source_hotel_id": "axazbol-zemi-beach-house",
@@ -18359,7 +18363,7 @@
       "master_image_url": "https://www.hilton.com/im/en/AXAZBOL/17696883/drone1.jpg?impolicy=crop&cw=4996&ch=3331&gravity=NorthWest&xposition=1&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "satcnsa-signia-la-cantera-resort-and-spa": {
       "source_hotel_id": "satcnsa-signia-la-cantera-resort-and-spa",
@@ -18425,7 +18429,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SATCNSA/23871042/plaza-san-saba.jpg?impolicy=crop&cw=4501&ch=3000&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orlhhsa-signia-by-hilton-orlando-bonnet-creek": {
       "source_hotel_id": "orlhhsa-signia-by-hilton-orlando-bonnet-creek",
@@ -18495,7 +18499,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLHHSA/18324008/pool-001-3-edit.jpg?impolicy=crop&cw=4650&ch=3100&gravity=NorthWest&xposition=2&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohkbup-fuwairit-kite-beach": {
       "source_hotel_id": "dohkbup-fuwairit-kite-beach",
@@ -18547,7 +18551,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHKBUP/18394293/fkb-aerial-3-.jpg?impolicy=crop&cw=4215&ch=2810&gravity=NorthWest&xposition=392&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "www.grandwailea.com": {
       "source_hotel_id": "www.grandwailea.com",
@@ -18615,7 +18619,7 @@
       "master_image_url": "https://www.hilton.com/im/en/JHMGWWA/17090980/03457.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "name",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "romecavalieri.com": {
       "source_hotel_id": "romecavalieri.com",
@@ -18683,7 +18687,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ROMHIWA/1325313/daytime-view-over-rome.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=4&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "name",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "lirguwa-waldorf-astoria-costa-rica-punta-cacique": {
       "source_hotel_id": "lirguwa-waldorf-astoria-costa-rica-punta-cacique",
@@ -18749,7 +18753,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LIRGUWA/22972027/aerial-shot-wacrpc.jpg?impolicy=crop&cw=4144&ch=2763&gravity=NorthWest&xposition=427&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dxbpdwa-waldorf-astoria-dubai-palm-jumeirah": {
       "source_hotel_id": "dxbpdwa-waldorf-astoria-dubai-palm-jumeirah",
@@ -18819,7 +18823,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DXBPDWA/19507396/waldorf-astoria-dubai-palm-jumeirah17.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=833",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "laswdwa-waldorf-astoria-las-vegas": {
       "source_hotel_id": "laswdwa-waldorf-astoria-las-vegas",
@@ -18885,7 +18889,7 @@
       "master_image_url": "https://www.hilton.com/im/en/LASWDWA/6996108/laswd-new-exterior-image.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=112&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sjdwawa-waldorf-astoria-los-cabos-pedregal": {
       "source_hotel_id": "sjdwawa-waldorf-astoria-los-cabos-pedregal",
@@ -18955,7 +18959,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SJDWAWA/27408246/wa-los-cabos-aerial-by-wyatt-faller-2026-crop.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=368",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "dohqtwa-waldorf-astoria-doha-lusail": {
       "source_hotel_id": "dohqtwa-waldorf-astoria-doha-lusail",
@@ -19027,7 +19031,7 @@
       "master_image_url": "https://www.hilton.com/im/en/DOHQTWA/17870256/wald-2074-hero-shot-cleaned-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "mleonwa-waldorf-astoria-maldives-ithaafushi": {
       "source_hotel_id": "mleonwa-waldorf-astoria-maldives-ithaafushi",
@@ -19091,7 +19095,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MLEONWA/24447482/wami-drone-1-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=572",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "www.waldorfastoriamonarchbeach.com": {
       "source_hotel_id": "www.waldorfastoriamonarchbeach.com",
@@ -19157,7 +19161,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SNAMOWA/14675528/snamowa-hero-exterior.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "name",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "orlbcwa-waldorf-astoria-orlando": {
       "source_hotel_id": "orlbcwa-waldorf-astoria-orlando",
@@ -19227,7 +19231,7 @@
       "master_image_url": "https://www.hilton.com/im/en/ORLBCWA/14906615/wao-pool-view-day-2-danham-2-28-19-lr.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "slcdmwa-waldorf-astoria-park-city": {
       "source_hotel_id": "slcdmwa-waldorf-astoria-park-city",
@@ -19295,7 +19299,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SLCDMWA/24129020/slcdm-pool-exterior-night-v4.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "rktwawa-waldorf-astoria-ras-al-khaimah": {
       "source_hotel_id": "rktwawa-waldorf-astoria-ras-al-khaimah",
@@ -19373,7 +19377,7 @@
       "master_image_url": "https://www.hilton.com/im/en/RKTWAWA/21525728/areal-waldorf-astoria-ras-al-khaimah.jpg?impolicy=crop&cw=4496&ch=2997&gravity=NorthWest&xposition=0&yposition=1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cunwawa-waldorf-astoria-riviera-maya": {
       "source_hotel_id": "cunwawa-waldorf-astoria-riviera-maya",
@@ -19435,7 +19439,7 @@
       "master_image_url": "https://www.hilton.com/im/en/MultiHotel/20630973/waldorf-astoria-cancun-pool-3-.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "sezpiwa-waldorf-astoria-seychelles-platte-island": {
       "source_hotel_id": "sezpiwa-waldorf-astoria-seychelles-platte-island",
@@ -19501,7 +19505,7 @@
       "master_image_url": "https://www.hilton.com/im/en/SEZPIWA/20517028/felix-studios-waldorf-astoria-platte-island-hero-full-size-jan-2024-1-161.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=205",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     },
     "cdgtpwa-waldorf-astoria-versailles-trianon-palace": {
       "source_hotel_id": "cdgtpwa-waldorf-astoria-versailles-trianon-palace",
@@ -19569,7 +19573,7 @@
       "master_image_url": "https://www.hilton.com/im/en/CDGTPWA/3662658/eu1104-ext-front.tif?impolicy=crop&cw=4992&ch=3328&gravity=NorthWest&xposition=0&yposition=0",
       "matched_from_resorts_list": true,
       "match_method": "url",
-      "enriched_at": "2026-04-11T01:24:46.982Z"
+      "enriched_at": "2026-04-11T01:41:42.599Z"
     }
   }
 }
