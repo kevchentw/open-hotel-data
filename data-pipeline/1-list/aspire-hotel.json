@@ -2,7 +2,7 @@
   "metadata": {
     "stage": "1-list",
     "source": "hilton_aspire_resort_credit",
-    "generated_at": "2026-04-04T01:58:04.495Z",
+    "generated_at": "2026-04-11T01:22:50.617Z",
     "record_count": 312,
     "source_url": "https://www.hilton.com/en/p/hilton-honors/resort-credit-eligible-hotels/"
   },
@@ -21,7 +21,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "faoapci-conrad-algarve": {
       "source": "hilton_aspire_resort_credit",
@@ -37,7 +37,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bpncici-conrad-bali": {
       "source": "hilton_aspire_resort_credit",
@@ -53,7 +53,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pptbnci-conrad-bora-bora-nui": {
       "source": "hilton_aspire_resort_credit",
@@ -69,7 +69,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "olbclci-conrad-chia-laguna-sardinia": {
       "source": "hilton_aspire_resort_credit",
@@ -85,7 +85,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "fllcici-conrad-fort-lauderdale-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -101,7 +101,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hghyfci-conrad-hangzhou-tonglu": {
       "source": "hilton_aspire_resort_credit",
@@ -117,7 +117,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "jzhcici-conrad-jiuzhaigou": {
       "source": "hilton_aspire_resort_credit",
@@ -133,7 +133,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "usmksci-conrad-koh-samui": {
       "source": "hilton_aspire_resort_credit",
@@ -149,7 +149,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rslvhvh-resorts-world-las-vegas/rooms/conrad-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -165,7 +165,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mlehici-conrad-maldives-rangali-island": {
       "source": "hilton_aspire_resort_credit",
@@ -181,7 +181,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orlcici-conrad-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -197,7 +197,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pvrpmci-conrad-punta-de-mita": {
       "source": "hilton_aspire_resort_credit",
@@ -213,7 +213,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rbacici-conrad-rabat-arzana": {
       "source": "hilton_aspire_resort_credit",
@@ -229,7 +229,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cuncici-conrad-tulum-riviera-maya": {
       "source": "hilton_aspire_resort_credit",
@@ -245,7 +245,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rholiqq-lindian-village-beach-resort-rhodes": {
       "source": "hilton_aspire_resort_credit",
@@ -261,7 +261,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "olbbrqq-baia-di-chia-resort-sardinia": {
       "source": "hilton_aspire_resort_credit",
@@ -277,7 +277,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "kylcuqq-bakers-cay-resort-key-largo": {
       "source": "hilton_aspire_resort_credit",
@@ -293,7 +293,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "opobgqq-boeira-garden-hotel-porto-gaia": {
       "source": "hilton_aspire_resort_credit",
@@ -309,7 +309,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pjmcrqq-botanika-osa-peninsula": {
       "source": "hilton_aspire_resort_credit",
@@ -325,7 +325,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxrsqq-boulders-resort-and-spa-scottsdale": {
       "source": "hilton_aspire_resort_credit",
@@ -341,7 +341,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "napvpqq-casa-mani-resort-napa-valley": {
       "source": "hilton_aspire_resort_credit",
@@ -357,7 +357,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "eywcmqq-casa-marina-key-west": {
       "source": "hilton_aspire_resort_credit",
@@ -373,7 +373,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "atlokqq-cloudland-at-mclemore-resort-lookout-mountain": {
       "source": "hilton_aspire_resort_credit",
@@ -389,7 +389,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "flldhqq-the-diplomat-beach-resort-hollywood": {
       "source": "hilton_aspire_resort_credit",
@@ -405,7 +405,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "herbsqq-domes-aulus-elounda-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -421,7 +421,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mthfbqq-faro-blanco-resort-and-yacht-club-marathon": {
       "source": "hilton_aspire_resort_credit",
@@ -437,7 +437,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "miagsqq-gale-south-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -453,7 +453,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tlnspqq-grand-hotel-des-sablettes-plage": {
       "source": "hilton_aspire_resort_credit",
@@ -469,7 +469,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sluhcqq-harbor-club-st-lucia": {
       "source": "hilton_aspire_resort_credit",
@@ -485,7 +485,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "agprhqq-higueron-hotel-malaga": {
       "source": "hilton_aspire_resort_credit",
@@ -501,7 +501,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "qkbbrqq-alpenrock-breckenridge": {
       "source": "hilton_aspire_resort_credit",
@@ -517,7 +517,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sanqqqq-hotel-del-coronado": {
       "source": "hilton_aspire_resort_credit",
@@ -533,7 +533,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "fllucqq-hotel-maren-fort-lauderdale-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -549,7 +549,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ctasiqq-il-piccolo-etna-golf-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -565,7 +565,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "teaibqq-indura-beach-and-golf-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -581,7 +581,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "heribqq-isla-brown-resort-chania": {
       "source": "hilton_aspire_resort_credit",
@@ -597,7 +597,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "athibqq-isla-brown-corinthia-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -613,7 +613,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "zagopqq-keight-hotel-opatija": {
       "source": "hilton_aspire_resort_credit",
@@ -629,7 +629,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "skbkrqq-koi-resort-saint-kitts": {
       "source": "hilton_aspire_resort_credit",
@@ -645,7 +645,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pqcpqqq-la-festa-phu-quoc": {
       "source": "hilton_aspire_resort_credit",
@@ -661,7 +661,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "psplqqq-la-quinta-resort-and-club": {
       "source": "hilton_aspire_resort_credit",
@@ -677,7 +677,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tlnleqq-le-hameau-des-pesquiers-ecolodge": {
       "source": "hilton_aspire_resort_credit",
@@ -693,7 +693,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "olbccqq-mangias-santa-teresa-sardinia": {
       "source": "hilton_aspire_resort_credit",
@@ -709,7 +709,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "curryqq-mangrove-beach-corendon-curacao-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -725,7 +725,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mlegsqq-saii-lagoon-maldives": {
       "source": "hilton_aspire_resort_credit",
@@ -741,7 +741,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "jtrsbqq-sea-breeze-santorini-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -757,7 +757,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "jmkmbqq-semeli-coast-mykonos": {
       "source": "hilton_aspire_resort_credit",
@@ -773,7 +773,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "syrslqq-skaneateles-fields-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -789,7 +789,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "olbprqq-sulia-house-porto-rotondo": {
       "source": "hilton_aspire_resort_credit",
@@ -805,7 +805,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ibzseqq-cala-san-miguel-ibiza-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -821,7 +821,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tparkqq-the-hiatus-clearwater-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -837,7 +837,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "eywqqqq-the-reach-key-west": {
       "source": "hilton_aspire_resort_credit",
@@ -853,7 +853,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "curmgqq-the-rif-at-mangrove-beach-corendon-curacao-all-inclusive": {
       "source": "hilton_aspire_resort_credit",
@@ -869,7 +869,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "herrsqq-the-royal-senses-resort-and-spa-crete": {
       "source": "hilton_aspire_resort_credit",
@@ -885,7 +885,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxssqq-the-scottsdale-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -901,7 +901,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pbisiqq-the-singer-oceanfront-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -917,7 +917,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "auhwbqq-the-wb-abu-dhabi-hotel": {
       "source": "hilton_aspire_resort_credit",
@@ -933,7 +933,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "iahwrqq-the-woodlands-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -949,7 +949,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lasvgqq-virgin-hotels-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -965,7 +965,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bctbuqq-waterstone-resort-and-marina-boca-raton": {
       "source": "hilton_aspire_resort_credit",
@@ -981,7 +981,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sbazdqq-zachari-dunes-on-mandalay-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -997,7 +997,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pujmiqq-zemi-miches-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1013,7 +1013,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "fllbmdt-bahia-mar-fort-lauderdale-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1029,7 +1029,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "nornhdt-doubletree-beach-resort-tampa-bay-north-redington-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1045,7 +1045,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlkadt-doubletree-alana-waikiki-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1061,7 +1061,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "aytakdi-doubletree-antalya-kemer-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1077,7 +1077,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bjvtrdi-doubletree-bodrum-isil-club-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1093,7 +1093,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "iphdldi-doubletree-damai-laut-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1109,7 +1109,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dxbthdi-doubletree-dubai-jumeirah-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1125,7 +1125,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "goiabdi-doubletree-goa-arpora-baga": {
       "source": "hilton_aspire_resort_credit",
@@ -1141,7 +1141,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "goigddi-doubletree-goa-panaji": {
       "source": "hilton_aspire_resort_credit",
@@ -1157,7 +1157,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pspdpdt-doubletree-golf-resort-palm-springs": {
       "source": "hilton_aspire_resort_credit",
@@ -1173,7 +1173,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hevirdi-doubletree-islantilla-beach-golf-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1189,7 +1189,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mjvltdi-doubletree-la-torre-golf-and-spa-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1205,7 +1205,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pdlladi-doubletree-lagoa-azores": {
       "source": "hilton_aspire_resort_credit",
@@ -1221,7 +1221,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mlaspdi-doubletree-malta": {
       "source": "hilton_aspire_resort_credit",
@@ -1237,7 +1237,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mztdtdt-doubletree-mazatlan": {
       "source": "hilton_aspire_resort_credit",
@@ -1253,7 +1253,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "myrdtdt-doubletree-resort-myrtle-beach-oceanfront": {
       "source": "hilton_aspire_resort_credit",
@@ -1269,7 +1269,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "noudidi-doubletree-noumea-ilot-maitre-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1285,7 +1285,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "miaopdt-doubletree-resort-and-spa-ocean-point-north-miami-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1301,7 +1301,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "okadidi-doubletree-okinawa-chatan-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1317,7 +1317,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcosrdt-doubletree-orlando-at-seaworld": {
       "source": "hilton_aspire_resort_credit",
@@ -1333,7 +1333,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "slcywdt-doubletree-park-city-the-yarrow": {
       "source": "hilton_aspire_resort_credit",
@@ -1349,7 +1349,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hktpadi-doubletree-phuket-banthai-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1365,7 +1365,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "yqbqcdt-doubletree-quebec-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1381,7 +1381,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rktmidi-doubletree-resort-and-spa-marjan-island": {
       "source": "hilton_aspire_resort_credit",
@@ -1397,7 +1397,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjudtdt-doubletree-san-juan": {
       "source": "hilton_aspire_resort_credit",
@@ -1413,7 +1413,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sezdtdi-doubletree-seychelles-allamanda-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -1429,7 +1429,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "swadidi-doubletree-shanwei": {
       "source": "hilton_aspire_resort_credit",
@@ -1445,7 +1445,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sshsbdi-doubletree-sharm-el-sheikh-sharks-bay-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1461,7 +1461,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "wrzrjdi-doubletree-weerawila-rajawarna-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1477,7 +1477,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "iagdtdt-doubletree-fallsview-resort-and-spa-niagara-falls": {
       "source": "hilton_aspire_resort_credit",
@@ -1493,7 +1493,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "nansidi-doubletree-resort-fiji-sonaisali-island": {
       "source": "hilton_aspire_resort_credit",
@@ -1509,7 +1509,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "eywdtdt-doubletree-resort-grand-key-key-west": {
       "source": "hilton_aspire_resort_credit",
@@ -1525,7 +1525,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lnswvdt-doubletree-resort-lancaster": {
       "source": "hilton_aspire_resort_credit",
@@ -1541,7 +1541,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxsjdt-doubletree-resort-paradise-valley-scottsdale": {
       "source": "hilton_aspire_resort_credit",
@@ -1557,7 +1557,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "penmbdi-doubletree-resort-penang": {
       "source": "hilton_aspire_resort_credit",
@@ -1573,7 +1573,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hwofldt-doubletree-resort-hollywood-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1589,7 +1589,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcofhdt-doubletree-suites-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -1605,7 +1605,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "itohndt-grand-naniloa-hotel-hilo": {
       "source": "hilton_aspire_resort_credit",
@@ -1621,7 +1621,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "egevcdt-highline-vail": {
       "source": "hilton_aspire_resort_credit",
@@ -1637,7 +1637,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "auajmes-embassy-suites-aruba-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1653,7 +1653,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cltcces-embassy-suites-charlotte-concord-golf-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -1669,7 +1669,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "deefles-embassy-suites-deerfield-beach-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -1685,7 +1685,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dorpres-embassy-suites-dorado-del-mar-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1701,7 +1701,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "gspeses-embassy-suites-greenville-golf-resort-and-conference-center": {
       "source": "hilton_aspire_resort_credit",
@@ -1717,7 +1717,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "gufbees-embassy-suites-gulf-shores-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1733,7 +1733,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "myreses-embassy-suites-myrtle-beach-oceanfront-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1749,7 +1749,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcowdes-embassy-suites-orlando-lake-buena-vista-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1765,7 +1765,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcostes-embassy-suites-orlando-sunset-walk": {
       "source": "hilton_aspire_resort_credit",
@@ -1781,7 +1781,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ecpppes-embassy-suites-panama-city-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1797,7 +1797,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "scteses-embassy-suites-scottsdale-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1813,7 +1813,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orfanes-embassy-suites-virginia-beach-oceanfront-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1829,7 +1829,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnleses-embassy-suites-waikiki-beach-walk": {
       "source": "hilton_aspire_resort_credit",
@@ -1845,7 +1845,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ustboes-embassy-suites-st-augustine-beach-oceanfront-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -1861,7 +1861,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "gcmgchx-hampton-grand-cayman-seven-mile-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1877,7 +1877,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rktmahx-hampton-marjan-island": {
       "source": "hilton_aspire_resort_credit",
@@ -1893,7 +1893,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "okasogv-hilton-club-the-beach-resort-sesoko": {
       "source": "hilton_aspire_resort_credit",
@@ -1909,7 +1909,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "myraogv-hilton-grand-vacations-club-anderson-ocean-myrtle-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -1925,7 +1925,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlhwgv-hilton-grand-vacations-club-at-hilton-hawaiian-village": {
       "source": "hilton_aspire_resort_credit",
@@ -1941,7 +1941,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "yyzblgv-hilton-grand-vacations-club-blue-mountain-canada": {
       "source": "hilton_aspire_resort_credit",
@@ -1957,7 +1957,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lascsgv-hilton-grand-vacations-club-elara-center-strip-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -1973,7 +1973,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lasflgv-hilton-grand-vacations-club-flamingo-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -1989,7 +1989,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlgwgv-hilton-grand-vacations-club-grand-waikikian-honolulu": {
       "source": "hilton_aspire_resort_credit",
@@ -2005,7 +2005,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlwbgv-hilton-grand-vacations-club-hokulani-waikiki-honolulu": {
       "source": "hilton_aspire_resort_credit",
@@ -2021,7 +2021,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "vpssagv-hilton-grand-vacations-club-in-sandestin-golf-and-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -2037,7 +2037,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "koaklgv-hilton-grand-vacations-club-kings-land-waikoloa": {
       "source": "hilton_aspire_resort_credit",
@@ -2053,7 +2053,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "koawbgv-hilton-grand-vacations-club-kohala-suites-waikoloa": {
       "source": "hilton_aspire_resort_credit",
@@ -2069,7 +2069,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjdgvgv-hilton-grand-vacations-club-la-pacifica-los-cabos": {
       "source": "hilton_aspire_resort_credit",
@@ -2085,7 +2085,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcoubgv-hilton-grand-vacations-club-las-palmeras-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2101,7 +2101,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sanmbgv-hilton-grand-vacations-club-marbrisa-carlsbad": {
       "source": "hilton_aspire_resort_credit",
@@ -2117,7 +2117,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "oggmbgv-hilton-grand-vacations-club-maui-bay-villas": {
       "source": "hilton_aspire_resort_credit",
@@ -2133,7 +2133,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "myrttgv-hilton-grand-vacations-club-ocean-22-myrtle-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -2149,7 +2149,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "myroegv-hilton-grand-vacations-club-ocean-enclave-myrtle-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -2165,7 +2165,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hhhgvgv-hilton-grand-vacations-club-ocean-oak-resort-hilton-head": {
       "source": "hilton_aspire_resort_credit",
@@ -2181,7 +2181,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "koaotgv-hilton-grand-vacations-club-ocean-tower-waikoloa-village": {
       "source": "hilton_aspire_resort_credit",
@@ -2197,7 +2197,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lasvsgv-hilton-grand-vacations-club-on-the-las-vegas-strip": {
       "source": "hilton_aspire_resort_credit",
@@ -2213,7 +2213,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "laslvgv-hilton-grand-vacations-club-paradise-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -2229,7 +2229,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcomdgv-hilton-grand-vacations-club-parc-soleil-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2245,7 +2245,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orlswgv-hilton-grand-vacations-club-seaworld-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2261,7 +2261,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "slcsegv-hilton-grand-vacations-club-sunrise-lodge-park-city": {
       "source": "hilton_aspire_resort_credit",
@@ -2277,7 +2277,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bgicrgv-hilton-grand-vacations-club-the-crane-barbados": {
       "source": "hilton_aspire_resort_credit",
@@ -2293,7 +2293,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnldrgv-hilton-grand-vacations-club-the-grand-islander-waikiki-honolulu": {
       "source": "hilton_aspire_resort_credit",
@@ -2309,7 +2309,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orlingv-hilton-grand-vacations-club-tuscany-village-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2325,7 +2325,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "qkbvagv-hilton-grand-vacations-club-valdoro-mountain-lodge-breckenridge": {
       "source": "hilton_aspire_resort_credit",
@@ -2341,7 +2341,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ywswhgv-hilton-grand-vacations-club-whistler": {
       "source": "hilton_aspire_resort_credit",
@@ -2357,7 +2357,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcotkgv-hilton-vacation-club-aqua-sol-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2373,7 +2373,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjdcagv-hilton-vacation-club-cabo-azul-los-cabos": {
       "source": "hilton_aspire_resort_credit",
@@ -2389,7 +2389,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lascngv-hilton-vacation-club-cancun-resort-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -2405,7 +2405,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcotrgv-hilton-vacation-club-cypress-pointe-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2421,7 +2421,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dabdbgv-hilton-vacation-club-daytona-beach-regency": {
       "source": "hilton_aspire_resort_credit",
@@ -2437,7 +2437,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sxmflgv-hilton-vacation-club-flamingo-beach-st-maarten": {
       "source": "hilton_aspire_resort_credit",
@@ -2453,7 +2453,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcobegv-hilton-vacation-club-grand-beach-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2469,7 +2469,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phflugv-hilton-vacation-club-greensprings-williamsburg": {
       "source": "hilton_aspire_resort_credit",
@@ -2485,7 +2485,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "jhmkagv-hilton-vacation-club-kaanapali-beach-maui": {
       "source": "hilton_aspire_resort_credit",
@@ -2501,7 +2501,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tvlvagv-hilton-vacation-club-lake-tahoe-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -2517,7 +2517,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sdxplgv-hilton-vacation-club-los-abrigados-sedona": {
       "source": "hilton_aspire_resort_credit",
@@ -2533,7 +2533,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ismmygv-hilton-vacation-club-mystic-dunes-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -2549,7 +2549,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orfavgv-hilton-vacation-ocean-beach-club": {
       "source": "hilton_aspire_resort_credit",
@@ -2565,7 +2565,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orfaigv-hilton-vacation-club-oceanaire-virginia-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -2581,7 +2581,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pspspgv-hilton-vacation-club-palm-canyon-palm-springs": {
       "source": "hilton_aspire_resort_credit",
@@ -2597,7 +2597,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcopygv-hilton-vacation-club-polynesian-isles-kissimmee": {
       "source": "hilton_aspire_resort_credit",
@@ -2613,7 +2613,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxragv-hilton-vacation-club-rancho-manana": {
       "source": "hilton_aspire_resort_credit",
@@ -2629,7 +2629,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "flgrigv-hilton-vacation-club-ridge-on-sedona": {
       "source": "hilton_aspire_resort_credit",
@@ -2645,7 +2645,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "snarbgv-hilton-vacation-club-riviera-beach-and-shores": {
       "source": "hilton_aspire_resort_credit",
@@ -2661,7 +2661,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sxmrogv-hilton-vacation-club-royal-palm-st-maarten": {
       "source": "hilton_aspire_resort_credit",
@@ -2677,7 +2677,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxregv-hilton-vacation-club-scottsdale-links-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -2693,7 +2693,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxmrgv-hilton-vacation-club-scottsdale-villa-mirage": {
       "source": "hilton_aspire_resort_credit",
@@ -2709,7 +2709,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "flgsegv-hilton-vacation-club-sedona-summit": {
       "source": "hilton_aspire_resort_credit",
@@ -2725,7 +2725,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dabcogv-hilton-vacation-club-the-cove-on-ormond-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -2741,7 +2741,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phfpogv-hilton-vacation-club-the-historic-powhatan-williamsburg": {
       "source": "hilton_aspire_resort_credit",
@@ -2757,7 +2757,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlmogv-hilton-vacation-club-the-modern-honolulu": {
       "source": "hilton_aspire_resort_credit",
@@ -2773,7 +2773,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "fllfshh-beach-house-fort-lauderdale": {
       "source": "hilton_aspire_resort_credit",
@@ -2789,7 +2789,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sanrshf-cape-rey-carlsbad-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -2805,7 +2805,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjnhihh-caribe-hilton": {
       "source": "hilton_aspire_resort_credit",
@@ -2821,7 +2821,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tushthh-el-conquistador-tucson": {
       "source": "hilton_aspire_resort_credit",
@@ -2837,7 +2837,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "auhyihi-hilton-abu-dhabi-yas-island": {
       "source": "hilton_aspire_resort_credit",
@@ -2853,7 +2853,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "alyachi-hilton-alexandria-corniche": {
       "source": "hilton_aspire_resort_credit",
@@ -2869,7 +2869,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "alykrhi-hilton-alexandria-kings-ranch": {
       "source": "hilton_aspire_resort_credit",
@@ -2885,7 +2885,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dfwanhh-hilton-anatole": {
       "source": "hilton_aspire_resort_credit",
@@ -2901,7 +2901,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "auahhhh-hilton-aruba-caribbean-resort-and-casino": {
       "source": "hilton_aspire_resort_credit",
@@ -2917,7 +2917,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dpsbahi-hilton-bali-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -2933,7 +2933,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bgihihh-hilton-barbados-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -2949,7 +2949,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hhhrshh-hilton-beachfront-resort-and-spa-hilton-head-island": {
       "source": "hilton_aspire_resort_credit",
@@ -2965,7 +2965,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "miabmhf-hilton-bentley-miami-south-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -2981,7 +2981,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "miambhf-hilton-cabana-miami-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -2997,7 +2997,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sidcvhi-hilton-cabo-verde-sal-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3013,7 +3013,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cunmchh-hilton-cancun-mar-caribe-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3029,7 +3029,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cunqrhh-hilton-cancun": {
       "source": "hilton_aspire_resort_credit",
@@ -3045,7 +3045,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ctghihh-hilton-cartagena-hotel": {
       "source": "hilton_aspire_resort_credit",
@@ -3061,7 +3061,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "chibhhh-hilton-chicago-oak-brook-hills-resort-and-conference-center": {
       "source": "hilton_aspire_resort_credit",
@@ -3077,7 +3077,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "crkpphi-hilton-clark-sun-valley-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3093,7 +3093,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "piecbhf-hilton-clearwater-beach-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3109,7 +3109,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dlmhrhi-hilton-dalaman-sarigerme-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3125,7 +3125,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dlugthi-hilton-dali-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3141,11 +3141,11 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
-    "dlugthi-hilton-dali-resort-and-spa--hilton-dalian-golden-pebble-beach-resort": {
+    "hilton-dalian-golden-pebble-beach-resort": {
       "source": "hilton_aspire_resort_credit",
-      "source_hotel_id": "dlugthi-hilton-dali-resort-and-spa--hilton-dalian-golden-pebble-beach-resort",
+      "source_hotel_id": "hilton-dalian-golden-pebble-beach-resort",
       "name": "Hilton Dalian Golden Pebble Beach Resort",
       "address_raw": "",
       "city": "",
@@ -3157,7 +3157,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dalrwhf-hilton-dallas-rockwall-lakefront": {
       "source": "hilton_aspire_resort_credit",
@@ -3173,7 +3173,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dabdhhf-hilton-daytona-beach-oceanfront-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3189,7 +3189,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ammdshi-hilton-dead-sea-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3205,7 +3205,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohhdhi-hilton-doha": {
       "source": "hilton_aspire_resort_credit",
@@ -3221,7 +3221,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohprhi-hilton-doha-the-pearl": {
       "source": "hilton_aspire_resort_credit",
@@ -3237,7 +3237,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dxbjbhi-hilton-dubai-jumeirah": {
       "source": "hilton_aspire_resort_credit",
@@ -3253,7 +3253,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dxbpjhi-hilton-dubai-palm-jumeirah": {
       "source": "hilton_aspire_resort_credit",
@@ -3269,7 +3269,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dxbbrhi-hilton-dubai-the-walk": {
       "source": "hilton_aspire_resort_credit",
@@ -3285,7 +3285,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "nanhihi-hilton-fiji-beach-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3301,7 +3301,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "fllgrhh-hilton-fort-lauderdale-marina": {
       "source": "hilton_aspire_resort_credit",
@@ -3317,7 +3317,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "frahghi-hilton-frankfurt-gravenbruch": {
       "source": "hilton_aspire_resort_credit",
@@ -3333,7 +3333,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "glsgihf-hilton-galveston-island-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3349,7 +3349,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "goishhi-hilton-goa-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3365,7 +3365,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "gumhitw-hilton-guam-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3381,7 +3381,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "kyohitw-hilton-gyeongju": {
       "source": "hilton_aspire_resort_credit",
@@ -3397,7 +3397,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hghlrhi-hilton-hangzhou-qiandao-lake-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3413,7 +3413,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlhvhh-hilton-hawaiian-village-waikiki-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3429,7 +3429,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ppthihh-hilton-hotel-tahiti": {
       "source": "hilton_aspire_resort_credit",
@@ -3445,7 +3445,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hhqhihi-hilton-hua-hin-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3461,7 +3461,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "huzlhhi-hilton-huizhou-longmen-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3477,7 +3477,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hrghitw-hilton-hurghada-plaza": {
       "source": "hilton_aspire_resort_credit",
@@ -3493,7 +3493,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "santphh-hilton-la-jolla-torrey-pines": {
       "source": "hilton_aspire_resort_credit",
@@ -3509,7 +3509,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "laslkhf-hilton-lake-las-vegas-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3525,7 +3525,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjdlchh-hilton-los-cabos-beach-and-golf-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3541,7 +3541,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "luxhitw-hilton-luxor-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3557,7 +3557,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mleaihi-hilton-maldives-amingiri-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3573,7 +3573,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pmicchi-hilton-mallorca-galatzo": {
       "source": "hilton_aspire_resort_credit",
@@ -3589,7 +3589,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mlahitw-hilton-malta": {
       "source": "hilton_aspire_resort_credit",
@@ -3605,7 +3605,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mrkmhhf-hilton-marco-island-beach-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3621,7 +3621,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rmfhihi-hilton-marsa-alam-nubian-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3637,7 +3637,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mruhihi-hilton-mauritius-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3653,7 +3653,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pptmlhh-hilton-moorea-lagoon-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3669,7 +3669,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "myrbhhh-hilton-myrtle-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3685,7 +3685,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "nkgnshi-hilton-nanjing-niushoushan": {
       "source": "hilton_aspire_resort_credit",
@@ -3701,7 +3701,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ngbqahi-hilton-ningbo-dongqian-lake": {
       "source": "hilton_aspire_resort_credit",
@@ -3717,7 +3717,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ctsnvhi-hilton-niseko-village": {
       "source": "hilton_aspire_resort_credit",
@@ -3733,7 +3733,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sbyofhf-hilton-ocean-city-oceanfront-suites": {
       "source": "hilton_aspire_resort_credit",
@@ -3749,7 +3749,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tyoodhi-hilton-odawara-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3765,7 +3765,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "okaochi-hilton-okinawa-chatan-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3781,7 +3781,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "okamihi-hilton-okinawa-miyako-island-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3797,7 +3797,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "okasehi-hilton-okinawa-sesoko-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3813,7 +3813,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orlochh-hilton-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -3829,7 +3829,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mcobuhh-hilton-orlando-buena-vista-palace": {
       "source": "hilton_aspire_resort_credit",
@@ -3845,7 +3845,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orldwhh-hilton-orlando-lake-buena-vista": {
       "source": "hilton_aspire_resort_credit",
@@ -3861,7 +3861,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "psppshf-hilton-palm-springs": {
       "source": "hilton_aspire_resort_credit",
@@ -3877,7 +3877,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bkkhphi-hilton-pattaya": {
       "source": "hilton_aspire_resort_credit",
@@ -3893,7 +3893,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pnspehf-hilton-pensacola-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -3909,7 +3909,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxsppr-hilton-phoenix-resort-at-the-peak": {
       "source": "hilton_aspire_resort_credit",
@@ -3925,7 +3925,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxtcpr-hilton-phoenix-tapatio-cliffs-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3941,7 +3941,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pnchihh-hilton-ponce-golf-and-casino-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -3957,7 +3957,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "caipghi-hilton-pyramids-golf": {
       "source": "hilton_aspire_resort_credit",
@@ -3973,7 +3973,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "zqnhqhi-hilton-queenstown-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -3989,7 +3989,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rjkochi-hilton-rijeka-costabella-beach-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4005,7 +4005,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sllhihi-hilton-salalah-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4021,7 +4021,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohsbhi-hilton-salwa-beach-resort-villas": {
       "source": "hilton_aspire_resort_credit",
@@ -4037,7 +4037,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sandmhf-hilton-san-diego-del-mar": {
       "source": "hilton_aspire_resort_credit",
@@ -4053,7 +4053,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "deshihf-hilton-sandestin-beach-golf-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4069,7 +4069,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sqdhihi-hilton-sanqingshan-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4085,7 +4085,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sbafphh-hilton-santa-barbara-beachfront-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4101,7 +4101,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sfecghh-hilton-santa-fe-buffalo-thunder": {
       "source": "hilton_aspire_resort_credit",
@@ -4117,7 +4117,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "smrcnhh-hilton-santa-marta": {
       "source": "hilton_aspire_resort_credit",
@@ -4133,7 +4133,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "syxhihi-hilton-sanya-yalong-bay-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4149,7 +4149,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sctshhf-hilton-scottsdale-resort-and-villas": {
       "source": "hilton_aspire_resort_credit",
@@ -4165,7 +4165,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sdxsehh-hilton-sedona-resort-at-bell-rock": {
       "source": "hilton_aspire_resort_credit",
@@ -4181,7 +4181,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sezhihi-hilton-seychelles-northolme-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4197,7 +4197,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rrohihi-hilton-sorrento-palace": {
       "source": "hilton_aspire_resort_credit",
@@ -4213,7 +4213,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "szzhihi-hilton-swinoujscie-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4229,7 +4229,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tngahhi-hilton-tangier-al-houara-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4245,7 +4245,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "tyotbtw-hilton-tokyo-bay": {
       "source": "hilton_aspire_resort_credit",
@@ -4261,7 +4261,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cunhihh-hilton-tulum-riviera-maya-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4277,7 +4277,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pvrpahh-hilton-vallarta-riviera-all-inclusive-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4293,7 +4293,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "faohihi-hilton-vilamoura-as-cascatas-golf-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4309,7 +4309,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orfvhhf-hilton-virginia-beach-oceanfront": {
       "source": "hilton_aspire_resort_credit",
@@ -4325,7 +4325,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlwahf-hilton-waikiki-beach-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4341,7 +4341,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "koahwhh-hilton-waikoloa-village": {
       "source": "hilton_aspire_resort_credit",
@@ -4357,7 +4357,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "ywsvrhf-hilton-whistler-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4373,7 +4373,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "kdwyahi-hilton-yala-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4389,7 +4389,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "nkgyfhi-hilton-yuxi-fuxian-lake": {
       "source": "hilton_aspire_resort_credit",
@@ -4405,7 +4405,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rslvhvh-resorts-world-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -4421,7 +4421,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "oolhihi-hilton-surfers-paradise-hotel-and-residences": {
       "source": "hilton_aspire_resort_credit",
@@ -4437,7 +4437,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjucohh-the-condado-plaza-hotel": {
       "source": "hilton_aspire_resort_credit",
@@ -4453,7 +4453,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "denirhh-the-inverness-denver-a-hilton-golf-and-spa-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4469,7 +4469,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "pnslghh-the-lodge-at-gulf-state-park": {
       "source": "hilton_aspire_resort_credit",
@@ -4485,7 +4485,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hubwhhf-the-waterfront-beach-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4501,7 +4501,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "yqbmthw-homewood-suites-mont-tremblant-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4517,7 +4517,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "phxbmol-arizona-biltmore": {
       "source": "hilton_aspire_resort_credit",
@@ -4533,7 +4533,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sancnol-beach-village-at-the-del": {
       "source": "hilton_aspire_resort_credit",
@@ -4549,11 +4549,11 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
-    "rslvhvh-resorts-world-las-vegas--crockfords-las-vegas-lxr-hotels-resorts": {
+    "crockfords-las-vegas-lxr-hotels-resorts": {
       "source": "hilton_aspire_resort_credit",
-      "source_hotel_id": "rslvhvh-resorts-world-las-vegas--crockfords-las-vegas-lxr-hotels-resorts",
+      "source_hotel_id": "crockfords-las-vegas-lxr-hotels-resorts",
       "name": "Crockfords Las Vegas, LXR Hotels & Resorts",
       "address_raw": "",
       "city": "",
@@ -4565,7 +4565,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "hnlwiol-ka-lai-waikiki-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -4581,7 +4581,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohqkol-katara-hills-doha": {
       "source": "hilton_aspire_resort_credit",
@@ -4597,7 +4597,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sezitol-mango-house-seychelles": {
       "source": "hilton_aspire_resort_credit",
@@ -4613,7 +4613,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohpaol-maysan-doha": {
       "source": "hilton_aspire_resort_credit",
@@ -4629,7 +4629,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "itmolol-roku-kyoto": {
       "source": "hilton_aspire_resort_credit",
@@ -4645,7 +4645,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sanrhol-shore-house-at-the-del": {
       "source": "hilton_aspire_resort_credit",
@@ -4661,7 +4661,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "bjvlxol-susona-bodrum": {
       "source": "hilton_aspire_resort_credit",
@@ -4677,7 +4677,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dpsolol-umana-bali-resort": {
       "source": "hilton_aspire_resort_credit",
@@ -4693,7 +4693,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "axazbol-zemi-beach-house": {
       "source": "hilton_aspire_resort_credit",
@@ -4709,7 +4709,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "satcnsa-signia-la-cantera-resort-and-spa": {
       "source": "hilton_aspire_resort_credit",
@@ -4725,7 +4725,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orlhhsa-signia-by-hilton-orlando-bonnet-creek": {
       "source": "hilton_aspire_resort_credit",
@@ -4741,7 +4741,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohkbup-fuwairit-kite-beach": {
       "source": "hilton_aspire_resort_credit",
@@ -4757,7 +4757,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "www.grandwailea.com": {
       "source": "hilton_aspire_resort_credit",
@@ -4773,7 +4773,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "romecavalieri.com": {
       "source": "hilton_aspire_resort_credit",
@@ -4789,7 +4789,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "lirguwa-waldorf-astoria-costa-rica-punta-cacique": {
       "source": "hilton_aspire_resort_credit",
@@ -4805,7 +4805,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dxbpdwa-waldorf-astoria-dubai-palm-jumeirah": {
       "source": "hilton_aspire_resort_credit",
@@ -4821,7 +4821,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "laswdwa-waldorf-astoria-las-vegas": {
       "source": "hilton_aspire_resort_credit",
@@ -4837,7 +4837,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sjdwawa-waldorf-astoria-los-cabos-pedregal": {
       "source": "hilton_aspire_resort_credit",
@@ -4853,7 +4853,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "dohqtwa-waldorf-astoria-doha-lusail": {
       "source": "hilton_aspire_resort_credit",
@@ -4869,7 +4869,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "mleonwa-waldorf-astoria-maldives-ithaafushi": {
       "source": "hilton_aspire_resort_credit",
@@ -4885,7 +4885,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "www.waldorfastoriamonarchbeach.com": {
       "source": "hilton_aspire_resort_credit",
@@ -4901,7 +4901,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "orlbcwa-waldorf-astoria-orlando": {
       "source": "hilton_aspire_resort_credit",
@@ -4917,7 +4917,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "slcdmwa-waldorf-astoria-park-city": {
       "source": "hilton_aspire_resort_credit",
@@ -4933,7 +4933,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "rktwawa-waldorf-astoria-ras-al-khaimah": {
       "source": "hilton_aspire_resort_credit",
@@ -4949,7 +4949,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cunwawa-waldorf-astoria-riviera-maya": {
       "source": "hilton_aspire_resort_credit",
@@ -4965,7 +4965,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "sezpiwa-waldorf-astoria-seychelles-platte-island": {
       "source": "hilton_aspire_resort_credit",
@@ -4981,7 +4981,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     },
     "cdgtpwa-waldorf-astoria-versailles-trianon-palace": {
       "source": "hilton_aspire_resort_credit",
@@ -4997,7 +4997,7 @@
       "chain": "Hilton",
       "latitude": "",
       "longitude": "",
-      "collected_at": "2026-04-04T01:58:04.495Z"
+      "collected_at": "2026-04-11T01:22:50.617Z"
     }
   }
 }

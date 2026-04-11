@@ -242,11 +242,11 @@ function createUniqueSourceHotelId(usedSourceHotelIds, baseSourceHotelId, name, 
     return baseSourceHotelId;
   }
 
-  let candidate = `${baseSourceHotelId}--${slugifyValue(name)}`;
+  let candidate = slugifyValue(name);
   let counter = 2;
 
   while (usedSourceHotelIds.has(candidate) && usedSourceHotelIds.get(candidate) !== currentKey) {
-    candidate = `${baseSourceHotelId}--${slugifyValue(name)}-${counter}`;
+    candidate = `${slugifyValue(name)}-${counter}`;
     counter += 1;
   }
 
