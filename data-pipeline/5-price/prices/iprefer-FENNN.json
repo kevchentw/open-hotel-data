@@ -1,0 +1,93 @@
+{
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-15T16:07:58.966Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 4,
+        "cash_max": "1370.00",
+        "cash_min": "928.00"
+      },
+      "2026-06": {
+        "cash_available_nights": 1,
+        "cash_max": "934.00",
+        "cash_min": "934.00"
+      },
+      "2026-08": {
+        "cash_available_nights": 1,
+        "cash_max": "1149.00",
+        "cash_min": "1149.00"
+      },
+      "2026-09": {
+        "cash_available_nights": 2,
+        "cash_max": "1196.00",
+        "cash_min": "1149.00"
+      },
+      "2026-10": {
+        "cash_available_nights": 1,
+        "cash_max": "1715.00",
+        "cash_min": "1715.00"
+      },
+      "2026-12": {
+        "cash_available_nights": 1,
+        "cash_max": "965.00",
+        "cash_min": "965.00"
+      },
+      "2027-01": {
+        "cash_available_nights": 26,
+        "cash_max": "1517.00",
+        "cash_min": "1086.00"
+      },
+      "2027-02": {
+        "cash_available_nights": 28,
+        "cash_max": "4202.00",
+        "cash_min": "652.00"
+      },
+      "2027-03": {
+        "cash_available_nights": 8,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-04": {
+        "cash_available_nights": 30,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-05": {
+        "cash_available_nights": 31,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-06": {
+        "cash_available_nights": 30,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-07": {
+        "cash_available_nights": 31,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-08": {
+        "cash_available_nights": 31,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-09": {
+        "cash_available_nights": 30,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      },
+      "2027-10": {
+        "cash_available_nights": 14,
+        "cash_max": "4202.00",
+        "cash_min": "4202.00"
+      }
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-04-15T16:07:58.974Z",
+    "iprefer_source_id": "FENNN",
+    "stage": "5-price"
+  }
+}
