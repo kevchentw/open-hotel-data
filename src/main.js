@@ -116,6 +116,7 @@ const state = {
   hiltonMapMode: "points",
   hiltonStandardOnly: true,
   ipreferHasPoints: false,
+  choiceHasPoints: false,
   editSelectHotels: false,
   hasForumReview: false,
   aspireCreditWithStayFilter: false,
@@ -812,6 +813,10 @@ function hotelMatchesActiveFilters(hotel, excludedFilters = []) {
   }
 
   if (!excluded.has("ipreferHasPoints") && state.ipreferHasPoints && hotel.ipreferPointsMin === null) {
+    return false;
+  }
+
+  if (!excluded.has("choiceHasPoints") && state.choiceHasPoints && hotel.choicePointsValue === null) {
     return false;
   }
 
@@ -1849,6 +1854,7 @@ function render() {
   dom.hiltonFiltersGroup.hidden = !isHilton;
   dom.hiltonStandardOnlyBtn.classList.toggle("is-active", state.hiltonStandardOnly);
   dom.ipreferHasPointsBtn.classList.toggle("is-active", state.ipreferHasPoints);
+  dom.choiceHasPointsBtn.classList.toggle("is-active", state.choiceHasPoints);
   const isEdit = state.bucket === "edit";
   dom.editSelectHotelsGroup.hidden = !isEdit;
   dom.editSelectHotelsBtn.classList.toggle("is-active", state.editSelectHotels);
@@ -1984,7 +1990,8 @@ function buildShell() {
 
         <label id="iprefer-has-points-group" class="toolbar-group" hidden>
           <span>iPrefer filter</span>
-          <button id="iprefer-has-points-btn" class="filter-toggle-btn" type="button">Has points ability</button>
+          <button id="iprefer-has-points-btn" class="filter-toggle-btn" type="button">Has iPrefer Pts</button>
+          <button id="choice-has-points-btn" class="filter-toggle-btn" type="button">Has Choice Pts</button>
         </label>
 
         <label id="edit-select-hotels-group" class="toolbar-group" hidden>
@@ -2097,6 +2104,7 @@ function buildShell() {
     hiltonMapToggle: document.querySelector("#hilton-map-toggle"),
     ipreferHasPointsGroup: document.querySelector("#iprefer-has-points-group"),
     ipreferHasPointsBtn: document.querySelector("#iprefer-has-points-btn"),
+    choiceHasPointsBtn: document.querySelector("#choice-has-points-btn"),
     editSelectHotelsGroup: document.querySelector("#edit-select-hotels-group"),
     editSelectHotelsBtn: document.querySelector("#edit-select-hotels-btn"),
     aspireCreditWithStayGroup: document.querySelector("#aspire-credit-with-stay-group"),
@@ -2128,6 +2136,7 @@ function bindEvents() {
       state.amenities = [];
       state.sort = (nextBucket === "hilton" || nextBucket === "iprefer") ? "cpp-desc" : "price-asc";
       state.ipreferHasPoints = nextBucket === "iprefer";
+      state.choiceHasPoints = false;
       state.editSelectHotels = false;
       state.aspireCreditWithStayFilter = false;
       state.hasForumReview = false;
@@ -2238,6 +2247,14 @@ function bindEvents() {
 
   dom.ipreferHasPointsBtn.addEventListener("click", () => {
     state.ipreferHasPoints = !state.ipreferHasPoints;
+    state.listLimit = LIST_PAGE_SIZE;
+    state.shouldResetMapView = true;
+    state.listPanelMode = "list";
+    render();
+  });
+
+  dom.choiceHasPointsBtn.addEventListener("click", () => {
+    state.choiceHasPoints = !state.choiceHasPoints;
     state.listLimit = LIST_PAGE_SIZE;
     state.shouldResetMapView = true;
     state.listPanelMode = "list";
