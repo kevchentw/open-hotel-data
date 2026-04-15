@@ -1084,10 +1084,26 @@ function createHotelRow(hotel) {
   button.className = "hotel-row";
   button.dataset.hotelId = hotel.id;
   const rowPriceHtml = state.bucket === "iprefer"
-    ? `<div class="row-price-iprefer">
-        <span class="row-price">${escapeHtml(hotel.ipreferPriceLabel)}</span>
-        ${hotel.ipreferCashMin !== null ? `<span class="row-price-cash">${escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency))}</span>` : ""}
-      </div>`
+    ? (() => {
+        const ipreferLine = `${escapeHtml(hotel.ipreferPriceLabel)} iPrefer pts`;
+        const choiceLine = hotel.choicePointsValue !== null ? `${escapeHtml(formatNumber(hotel.choicePointsValue))} Choice pts` : null;
+        const cashLine = hotel.ipreferCashMin !== null ? escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency)) : null;
+        let primary, secondaries;
+        if (state.ipreferMapMode === "choice" && choiceLine) {
+          primary = choiceLine;
+          secondaries = [ipreferLine, cashLine];
+        } else if (state.ipreferMapMode === "cash" && cashLine) {
+          primary = cashLine;
+          secondaries = [ipreferLine, choiceLine];
+        } else {
+          primary = ipreferLine;
+          secondaries = [choiceLine, cashLine];
+        }
+        return `<div class="row-price-iprefer">
+          <span class="row-price">${primary}</span>
+          ${secondaries.filter(Boolean).map((s) => `<span class="row-price-cash">${s}</span>`).join("")}
+        </div>`;
+      })()
     : state.bucket === "hilton"
       ? `<div class="row-price-iprefer">
           <span class="row-price">${escapeHtml(
