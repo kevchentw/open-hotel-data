@@ -1410,6 +1410,13 @@ function syncListToMapViewport() {
 
 function markerHtml(hotel) {
   if (state.bucket === "iprefer") {
+    if (state.ipreferMapMode === "choice") {
+      const label = hotel.choicePointsValue !== null
+        ? `${Math.round(hotel.choicePointsValue / 1000)}k`
+        : "N/A";
+      return `<div class="map-pin ${mapPinClass(hotel)}" style="${mapPinStyle(hotel)}">${escapeHtml(label)}</div>`;
+    }
+
     if (state.ipreferMapMode === "points") {
       const label = hotel.ipreferPointsMin !== null
         ? `${formatNumber(hotel.ipreferPointsMin / 1000)}k`
@@ -1462,6 +1469,9 @@ function markerHtml(hotel) {
 
 function mapPinClass(hotel) {
   if (state.bucket === "iprefer") {
+    if (state.ipreferMapMode === "choice") {
+      return hotel.choicePointsValue !== null ? "map-pin--priced" : "map-pin--pending";
+    }
     const hasValue = state.ipreferMapMode === "points"
       ? hotel.ipreferPointsMin !== null
       : hotel.ipreferCashMin !== null;
@@ -1519,6 +1529,10 @@ function getChoicePointsBucketColor(pointsValue) {
 
 function mapPinStyle(hotel) {
   if (state.bucket === "iprefer") {
+    if (state.ipreferMapMode === "choice") {
+      return `--pin-color: ${getChoicePointsBucketColor(hotel.choicePointsValue)};`;
+    }
+
     if (state.ipreferMapMode === "points") {
       return `--pin-color: ${getPointsBucketColor(hotel.ipreferPointsMin)};`;
     }
@@ -1562,7 +1576,11 @@ function hexToRgb(hex) {
 function getLowestPriceHotel(hotels) {
   const getValue = (hotel) => {
     if (state.bucket === "iprefer") {
-      return state.ipreferMapMode === "points" ? hotel.ipreferPointsMin : hotel.ipreferCashMin;
+      return state.ipreferMapMode === "choice"
+        ? hotel.choicePointsValue
+        : state.ipreferMapMode === "points"
+          ? hotel.ipreferPointsMin
+          : hotel.ipreferCashMin;
     }
 
     if (state.bucket === "hilton") {
