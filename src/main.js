@@ -27,6 +27,17 @@ const POINTS_COLOR_STOPS = [
   { bucketStart: 100000, color: "#7d4e57" },
   { bucketStart: 150000, color: "#355070" },
 ];
+const CHOICE_POINTS_BUCKET_SIZE = 5000;
+const CHOICE_POINTS_COLOR_STOPS = [
+  { bucketStart: 20000, color: "#2a9d8f" },
+  { bucketStart: 30000, color: "#65b96f" },
+  { bucketStart: 40000, color: "#e9c46a" },
+  { bucketStart: 50000, color: "#f4a261" },
+  { bucketStart: 60000, color: "#e76f51" },
+  { bucketStart: 70000, color: "#c8553d" },
+  { bucketStart: 80000, color: "#7d4e57" },
+  { bucketStart: 90000, color: "#355070" },
+];
 const WORLD_VIEW = {
   center: [20, 0],
   zoom: 2,
@@ -629,6 +640,12 @@ function normalizeHotel([id, rawHotel]) {
     ipreferCpp: (ipreferSummary.cashMin !== null && ipreferSummary.pointsMin !== null && ipreferSummary.pointsMin > 0)
       ? ipreferSummary.cashMin / ipreferSummary.pointsMin * 100
       : null,
+    choicePointsValue: toFiniteNumber(rawHotel.choice_prices?.choice_points_value),
+    choiceCpp: (() => {
+      const cpv = toFiniteNumber(rawHotel.choice_prices?.choice_points_value);
+      const cash = ipreferSummary.cashMin;
+      return (cash !== null && cpv !== null && cpv > 0) ? cash / cpv * 100 : null;
+    })(),
     ipreferPriceLabel: formatIpreferPointsLabel(ipreferSummary.pointsMin, ipreferSummary.pointsMax),
     priceLabel: formatCurrency(priceValue, rawHotel.summary_price?.currency || rawHotel.currency || "USD"),
     priceSubLabel:
@@ -1494,6 +1511,10 @@ function getPriceBucketColor(priceValue) {
 
 function getPointsBucketColor(pointsValue) {
   return getBucketColor(pointsValue, POINTS_BUCKET_SIZE, POINTS_COLOR_STOPS);
+}
+
+function getChoicePointsBucketColor(pointsValue) {
+  return getBucketColor(pointsValue, CHOICE_POINTS_BUCKET_SIZE, CHOICE_POINTS_COLOR_STOPS);
 }
 
 function mapPinStyle(hotel) {
