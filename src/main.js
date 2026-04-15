@@ -1819,6 +1819,9 @@ function syncStateFromUrl() {
       state.sort = "cpp-iprefer-desc";
       state.ipreferHasPoints = true;
     }
+    if (resolvedBucket === "hilton") {
+      state.sort = "cpp-hilton-desc";
+    }
   }
   if (hotelId) {
     state.selectedHotelId = hotelId;
