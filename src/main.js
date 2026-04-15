@@ -1791,6 +1791,9 @@ function render() {
   trackBucketView();
   const isIprefer = state.bucket === "iprefer";
   dom.ipreferMapToggle.hidden = !isIprefer;
+  dom.ipreferMapToggle.querySelectorAll("[data-mode]").forEach((b) => {
+    b.classList.toggle("is-active", b.dataset.mode === state.ipreferMapMode);
+  });
   dom.ipreferHasPointsGroup.hidden = !isIprefer;
   const isHilton = state.bucket === "hilton";
   dom.hiltonMapToggle.hidden = !isHilton;
@@ -2008,7 +2011,8 @@ function buildShell() {
               <h2>Map</h2>
               <div id="iprefer-map-toggle" class="map-mode-toggle" hidden>
                 <button class="map-mode-toggle__btn is-active" data-mode="cash" type="button">Cash</button>
-                <button class="map-mode-toggle__btn" data-mode="points" type="button">Points</button>
+                <button class="map-mode-toggle__btn" data-mode="points" type="button">iPrefer Pts</button>
+                <button class="map-mode-toggle__btn" data-mode="choice" type="button">Choice Pts</button>
               </div>
               <div id="hilton-map-toggle" class="map-mode-toggle" hidden>
                 <button class="map-mode-toggle__btn" data-mode="cash" type="button">Cash</button>
