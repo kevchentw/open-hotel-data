@@ -711,9 +711,12 @@ function compareHotels(left, right) {
     return left.name.localeCompare(right.name);
   }
 
-  if (state.sort === "cpp-desc") {
-    const leftCpp = state.bucket === "iprefer" ? left.ipreferCpp : left.hiltonCpp;
-    const rightCpp = state.bucket === "iprefer" ? right.ipreferCpp : right.hiltonCpp;
+  if (state.sort === "cpp-iprefer-desc" || state.sort === "cpp-choice-desc" || state.sort === "cpp-hilton-desc") {
+    const field = state.sort === "cpp-iprefer-desc" ? "ipreferCpp"
+      : state.sort === "cpp-choice-desc" ? "choiceCpp"
+      : "hiltonCpp";
+    const leftCpp = left[field];
+    const rightCpp = right[field];
     if (leftCpp !== null && rightCpp !== null && leftCpp !== rightCpp) {
       return rightCpp - leftCpp;
     }
@@ -723,12 +726,16 @@ function compareHotels(left, right) {
   }
 
   const leftPrice = state.bucket === "iprefer"
-    ? (state.ipreferMapMode === "points" ? left.ipreferPointsMin : left.ipreferCashMin)
+    ? (state.ipreferMapMode === "choice" ? left.choicePointsValue
+      : state.ipreferMapMode === "points" ? left.ipreferPointsMin
+      : left.ipreferCashMin)
     : state.bucket === "hilton"
       ? (state.hiltonMapMode === "points" ? left.hiltonEffectivePointsPrice : left.hiltonCashPriceUsd)
       : left.priceValue;
   const rightPrice = state.bucket === "iprefer"
-    ? (state.ipreferMapMode === "points" ? right.ipreferPointsMin : right.ipreferCashMin)
+    ? (state.ipreferMapMode === "choice" ? right.choicePointsValue
+      : state.ipreferMapMode === "points" ? right.ipreferPointsMin
+      : right.ipreferCashMin)
     : state.bucket === "hilton"
       ? (state.hiltonMapMode === "points" ? right.hiltonEffectivePointsPrice : right.hiltonCashPriceUsd)
       : right.priceValue;
@@ -1026,6 +1033,23 @@ function updateFilterOptions() {
 
   dom.overlapPlan.disabled = overlapOptions.length === 0;
   dom.overlapPlan.value = state.overlapPlan;
+  const baseSortOptions = [
+    { value: "price-asc", label: "Lowest price" },
+    { value: "price-desc", label: "Highest price" },
+  ];
+  const cppSortOptions = state.bucket === "iprefer"
+    ? [
+        { value: "cpp-iprefer-desc", label: "Best iPrefer CPP" },
+        { value: "cpp-choice-desc", label: "Best Choice CPP" },
+      ]
+    : state.bucket === "hilton"
+      ? [{ value: "cpp-hilton-desc", label: "Best Hilton CPP" }]
+      : [];
+  const sortOptions = [...baseSortOptions, ...cppSortOptions, { value: "name", label: "Name" }];
+  if (!sortOptions.some((o) => o.value === state.sort)) {
+    state.sort = sortOptions[0].value;
+  }
+  dom.sort.innerHTML = sortOptions.map((o) => `<option value="${o.value}">${escapeHtml(o.label)}</option>`).join("");
   dom.sort.value = state.sort;
 
   const amenityOptions = readAmenityOptions(getScopedHotels(["amenities"]));
@@ -1775,7 +1799,7 @@ function syncStateFromUrl() {
     }
     // Apply iprefer defaults when loading directly onto the iprefer tab
     if (resolvedBucket === "iprefer") {
-      state.sort = "cpp-desc";
+      state.sort = "cpp-iprefer-desc";
       state.ipreferHasPoints = true;
     }
   }
@@ -1980,12 +2004,7 @@ function buildShell() {
 
         <label class="toolbar-group">
           <span>Sort</span>
-          <select id="sort-select">
-            <option value="price-asc">Lowest price</option>
-            <option value="price-desc">Highest price</option>
-            <option value="cpp-desc">Best CPP</option>
-            <option value="name">Name</option>
-          </select>
+          <select id="sort-select"></select>
         </label>
 
         <label id="iprefer-has-points-group" class="toolbar-group" hidden>
@@ -2134,7 +2153,9 @@ function bindEvents() {
       state.country = "all";
       state.overlapPlan = "all";
       state.amenities = [];
-      state.sort = (nextBucket === "hilton" || nextBucket === "iprefer") ? "cpp-desc" : "price-asc";
+      state.sort = nextBucket === "iprefer" ? "cpp-iprefer-desc"
+        : nextBucket === "hilton" ? "cpp-hilton-desc"
+        : "price-asc";
       state.ipreferHasPoints = nextBucket === "iprefer";
       state.choiceHasPoints = false;
       state.editSelectHotels = false;
