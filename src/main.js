@@ -1709,7 +1709,24 @@ function renderMap() {
     });
 
     const popupPriceHtml = state.bucket === "iprefer"
-      ? `<span>${escapeHtml(hotel.ipreferPriceLabel)}${hotel.ipreferCashMin !== null ? ` · ${escapeHtml(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency))}` : ""}</span>`
+      ? (() => {
+          const parts = [];
+          if (state.ipreferMapMode === "choice") {
+            parts.push(hotel.choicePointsValue !== null ? `${formatNumber(hotel.choicePointsValue)} choice pts` : "N/A");
+            parts.push(hotel.ipreferPriceLabel);
+          } else if (state.ipreferMapMode === "cash") {
+            if (hotel.ipreferCashMin !== null) parts.push(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency));
+            else parts.push("N/A");
+            parts.push(hotel.ipreferPriceLabel);
+          } else {
+            parts.push(hotel.ipreferPriceLabel);
+            if (hotel.choicePointsValue !== null) parts.push(`${formatNumber(hotel.choicePointsValue)} choice`);
+          }
+          if (state.ipreferMapMode !== "cash" && hotel.ipreferCashMin !== null) {
+            parts.push(formatCompactCurrency(hotel.ipreferCashMin, hotel.ipreferCurrency));
+          }
+          return `<span>${parts.map(escapeHtml).join(" · ")}</span>`;
+        })()
       : state.bucket === "hilton"
         ? `<span>${escapeHtml(
             state.hiltonMapMode === "points"
