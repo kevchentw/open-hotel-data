@@ -1,4 +1,49 @@
 {
+  "choice": {
+    "choice_points_value": "45000",
+    "fetched_at": "2026-04-15T16:17:57.787Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 12
+      },
+      "2026-05": {
+        "choice_available_nights": 15
+      },
+      "2026-06": {
+        "choice_available_nights": 11
+      },
+      "2026-07": {
+        "choice_available_nights": 26
+      },
+      "2026-08": {
+        "choice_available_nights": 21
+      },
+      "2026-09": {
+        "choice_available_nights": 26
+      },
+      "2026-10": {
+        "choice_available_nights": 22
+      },
+      "2026-11": {
+        "choice_available_nights": 21
+      },
+      "2026-12": {
+        "choice_available_nights": 31
+      },
+      "2027-01": {
+        "choice_available_nights": 30
+      },
+      "2027-02": {
+        "choice_available_nights": 28
+      },
+      "2027-03": {
+        "choice_available_nights": 31
+      },
+      "2027-04": {
+        "choice_available_nights": 15
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T04:02:42.836Z",
@@ -51,7 +96,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T04:02:42.836Z",
+    "generated_at": "2026-04-15T16:17:57.787Z",
     "iprefer_source_id": "BIOGH",
     "stage": "5-price"
   }

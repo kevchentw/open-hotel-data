@@ -1,13 +1,58 @@
 {
-  "iprefer": {
-    "currency": "USD",
-    "fetched_at": "2026-04-09T01:28:19.687Z",
+  "choice": {
+    "choice_points_value": "74000",
+    "fetched_at": "2026-04-15T16:14:40.129Z",
     "months": {
       "2026-04": {
-        "cash_available_nights": 23,
+        "choice_available_nights": 17
+      },
+      "2026-05": {
+        "choice_available_nights": 31
+      },
+      "2026-06": {
+        "choice_available_nights": 30
+      },
+      "2026-07": {
+        "choice_available_nights": 31
+      },
+      "2026-08": {
+        "choice_available_nights": 31
+      },
+      "2026-09": {
+        "choice_available_nights": 30
+      },
+      "2026-10": {
+        "choice_available_nights": 31
+      },
+      "2026-11": {
+        "choice_available_nights": 30
+      },
+      "2026-12": {
+        "choice_available_nights": 26
+      },
+      "2027-01": {
+        "choice_available_nights": 31
+      },
+      "2027-02": {
+        "choice_available_nights": 26
+      },
+      "2027-03": {
+        "choice_available_nights": 31
+      },
+      "2027-04": {
+        "choice_available_nights": 15
+      }
+    }
+  },
+  "iprefer": {
+    "currency": "USD",
+    "fetched_at": "2026-04-15T16:09:10.881Z",
+    "months": {
+      "2026-04": {
+        "cash_available_nights": 17,
         "cash_max": "504.00",
         "cash_min": "504.00",
-        "points_available_nights": 23,
+        "points_available_nights": 17,
         "points_max": "75000",
         "points_min": "75000"
       },
@@ -100,17 +145,17 @@
         "points_min": "75000"
       },
       "2027-04": {
-        "cash_available_nights": 8,
+        "cash_available_nights": 15,
         "cash_max": "520.00",
         "cash_min": "520.00",
-        "points_available_nights": 8,
+        "points_available_nights": 15,
         "points_max": "75000",
         "points_min": "75000"
       }
     }
   },
   "metadata": {
-    "generated_at": "2026-04-09T01:28:19.687Z",
+    "generated_at": "2026-04-15T16:14:40.129Z",
     "stage": "5-price",
     "tripadvisor_id": "g153445-d1209463"
   },

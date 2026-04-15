@@ -1,4 +1,67 @@
 {
+  "choice": {
+    "choice_points_value": "27000",
+    "fetched_at": "2026-04-15T16:21:05.983Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 6
+      },
+      "2026-05": {
+        "choice_available_nights": 13
+      },
+      "2026-06": {
+        "choice_available_nights": 14
+      },
+      "2026-07": {
+        "choice_available_nights": 19
+      },
+      "2026-08": {
+        "choice_available_nights": 24
+      },
+      "2026-09": {
+        "choice_available_nights": 25
+      },
+      "2026-10": {
+        "choice_available_nights": 30
+      },
+      "2026-11": {
+        "choice_available_nights": 27
+      },
+      "2026-12": {
+        "choice_available_nights": 27
+      },
+      "2027-01": {
+        "choice_available_nights": 26
+      },
+      "2027-02": {
+        "choice_available_nights": 21
+      },
+      "2027-03": {
+        "choice_available_nights": 31
+      },
+      "2027-04": {
+        "choice_available_nights": 30
+      },
+      "2027-05": {
+        "choice_available_nights": 30
+      },
+      "2027-06": {
+        "choice_available_nights": 30
+      },
+      "2027-07": {
+        "choice_available_nights": 31
+      },
+      "2027-08": {
+        "choice_available_nights": 31
+      },
+      "2027-09": {
+        "choice_available_nights": 30
+      },
+      "2027-10": {
+        "choice_available_nights": 14
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T04:10:53.030Z",
@@ -101,7 +164,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T04:10:53.030Z",
+    "generated_at": "2026-04-15T16:21:05.983Z",
     "iprefer_source_id": "LISTO",
     "stage": "5-price"
   }

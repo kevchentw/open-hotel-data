@@ -1,4 +1,40 @@
 {
+  "choice": {
+    "choice_points_value": "47000",
+    "fetched_at": "2026-04-15T16:17:47.798Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 12
+      },
+      "2026-05": {
+        "choice_available_nights": 23
+      },
+      "2026-06": {
+        "choice_available_nights": 24
+      },
+      "2026-07": {
+        "choice_available_nights": 22
+      },
+      "2026-08": {
+        "choice_available_nights": 31
+      },
+      "2026-09": {
+        "choice_available_nights": 30
+      },
+      "2026-10": {
+        "choice_available_nights": 31
+      },
+      "2026-11": {
+        "choice_available_nights": 30
+      },
+      "2026-12": {
+        "choice_available_nights": 30
+      },
+      "2027-01": {
+        "choice_available_nights": 27
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T03:59:22.229Z",
@@ -46,7 +82,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T03:59:22.229Z",
+    "generated_at": "2026-04-15T16:17:47.798Z",
     "iprefer_source_id": "BCNMM",
     "stage": "5-price"
   }

@@ -2,6 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 
 const RATE_CALENDAR_BASE = "https://ptgapis.com/rate-calendar/v2";
+const PROPERTY_SEARCH_BASE = "https://ptgapis.com/property-search/v1?site=PreferredHotels";
+const CHOICE_POINTS_BODY = JSON.stringify({ nid: {}, participates_in_choice_points: {}, choice_points_value: {} });
 const IPREFER_POINTS_INPUT_URL = new URL("../1-list/iprefer-points-hotel.json", import.meta.url);
 const CANONICAL_INPUT_URL = new URL("../4-unique/hotel.json", import.meta.url);
 const PRICE_DIRECTORY_URL = new URL("./prices/", import.meta.url);
@@ -131,6 +133,14 @@ export function shouldFetchIprefer(artifact, forceRefresh) {
   return !isRecord(artifact?.iprefer);
 }
 
+export function shouldFetchChoice(artifact, forceRefresh) {
+  if (forceRefresh) {
+    return true;
+  }
+
+  return !isRecord(artifact?.choice);
+}
+
 export function buildNidLookup(ipreferHotels) {
   const map = new Map();
 
@@ -166,6 +176,97 @@ async function fetchRateCalendar(nid, rateCode) {
   return isRecord(payload?.results) ? payload.results : {};
 }
 
+export async function fetchChoicePointsInfo(nids) {
+  if (!nids.length) {
+    return new Map();
+  }
+
+  const url = `${PROPERTY_SEARCH_BASE}&nids=[${nids.join(",")}]`;
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { accept: "application/json", "content-type": "text/plain;charset=UTF-8" },
+    body: CHOICE_POINTS_BODY
+  });
+
+  if (!response.ok) {
+    throw new Error(`Choice points property search failed: HTTP ${response.status}`);
+  }
+
+  const payload = await response.json();
+  const map = new Map();
+
+  for (const property of Object.values(payload.properties ?? {})) {
+    if (property?.participates_in_choice_points === "1" && property?.choice_points_value) {
+      map.set(String(property.nid), String(property.choice_points_value));
+    }
+  }
+
+  return map;
+}
+
+async function fetchChoiceCalendar(nid) {
+  const url = new URL(RATE_CALENDAR_BASE);
+  url.searchParams.set("nid", nid);
+  url.searchParams.set("program", "CH");
+  url.searchParams.set("adults", "1");
+  url.searchParams.set("children", "0");
+
+  const response = await fetch(url, {
+    headers: { accept: "application/json" }
+  });
+
+  if (!response.ok) {
+    throw new Error(`Choice points rate calendar fetch failed: HTTP ${response.status} for nid=${nid}`);
+  }
+
+  const payload = await response.json();
+  return isRecord(payload?.results) ? payload.results : {};
+}
+
+export function aggregateChoiceAvailability(results) {
+  if (!isRecord(results)) {
+    return {};
+  }
+
+  const byMonth = {};
+
+  for (const [date, entry] of Object.entries(results)) {
+    if (!isAvailableNight(entry)) {
+      continue;
+    }
+
+    const month = date.slice(0, 7);
+    if (!byMonth[month]) {
+      byMonth[month] = 0;
+    }
+    byMonth[month] += 1;
+  }
+
+  return sortObjectKeys(
+    Object.fromEntries(
+      Object.entries(byMonth).map(([month, count]) => [
+        month,
+        { choice_available_nights: count }
+      ])
+    )
+  );
+}
+
+async function fetchChoiceRates(nid, choicePointsValue) {
+  const results = await fetchChoiceCalendar(nid);
+  const months = aggregateChoiceAvailability(results);
+
+  if (!Object.keys(months).length) {
+    return null;
+  }
+
+  return sortObjectKeys({
+    choice_points_value: choicePointsValue,
+    fetched_at: new Date().toISOString(),
+    months
+  });
+}
+
 async function fetchIpreferRates(nid) {
   const [pointsResults, cashResults] = await Promise.all([
     fetchRateCalendar(nid, "IPPOINTS"),
@@ -196,6 +297,11 @@ export async function writeIpreferArtifacts() {
   ]);
 
   const nidLookup = buildNidLookup(ipreferPointsPayload.hotels ?? {});
+
+  // Batch-fetch Choice Points eligibility for all known nids
+  const allNids = [...new Set(nidLookup.values())];
+  const choicePointsLookup = await fetchChoicePointsInfo(allNids);
+  console.log(`[iprefer] ${choicePointsLookup.size}/${allNids.length} hotels participate in Choice Points`);
 
   // Hotels in canonical registry matched to a TripAdvisor ID
   const canonicalHotels = Object.entries(canonicalRegistry.hotels)
@@ -245,24 +351,45 @@ export async function writeIpreferArtifacts() {
     const artifactUrl = new URL(`${tripadvisorId}.json`, PRICE_DIRECTORY_URL);
     const existing = await readJsonOptional(artifactUrl);
 
-    if (!shouldFetchIprefer(existing, FORCE_REFRESH)) {
+    const needsIprefer = shouldFetchIprefer(existing, FORCE_REFRESH);
+    const choicePointsValue = choicePointsLookup.get(nid);
+    const needsChoice = choicePointsValue && shouldFetchChoice(existing, FORCE_REFRESH);
+
+    if (!needsIprefer && !needsChoice) {
       skipped += 1;
       return;
     }
 
     try {
-      const ipreferData = await fetchIpreferRates(nid);
+      const artifact = { ...(existing ?? {}) };
 
-      if (!ipreferData) {
-        console.warn(`[iprefer] no data returned for ${tripadvisorId} (nid=${nid})`);
-        noData += 1;
+      if (needsIprefer) {
+        const ipreferData = await fetchIpreferRates(nid);
+        if (ipreferData) {
+          artifact.iprefer = ipreferData;
+        } else {
+          console.warn(`[iprefer] no data returned for ${tripadvisorId} (nid=${nid})`);
+          noData += 1;
+        }
+      }
+
+      if (needsChoice) {
+        const choiceData = await fetchChoiceRates(nid, choicePointsValue);
+        if (choiceData) {
+          artifact.choice = choiceData;
+        }
+      }
+
+      if (!artifact.iprefer && !artifact.choice) {
         return;
       }
 
-      const updated = sortObjectKeys({ ...(existing ?? {}), iprefer: ipreferData, metadata: buildMetadata(tripadvisorId, existing) });
+      const updated = sortObjectKeys({ ...artifact, metadata: buildMetadata(tripadvisorId, existing) });
       await writeFile(artifactUrl, `${JSON.stringify(updated, null, 2)}\n`, "utf8");
       fetched += 1;
-      console.log(`[iprefer] ${tripadvisorId} months=${Object.keys(ipreferData.months).length}`);
+      const ipreferMonths = artifact.iprefer ? Object.keys(artifact.iprefer.months).length : 0;
+      const choiceMonths = artifact.choice ? Object.keys(artifact.choice.months).length : 0;
+      console.log(`[iprefer] ${tripadvisorId} iprefer_months=${ipreferMonths} choice_months=${choiceMonths}`);
     } catch (error) {
       console.warn(`[iprefer] fetch failed for ${tripadvisorId}: ${error.message}`);
       failed += 1;
@@ -276,24 +403,45 @@ export async function writeIpreferArtifacts() {
     const artifactUrl = new URL(`${artifactKey}.json`, PRICE_DIRECTORY_URL);
     const existing = await readJsonOptional(artifactUrl);
 
-    if (!shouldFetchIprefer(existing, FORCE_REFRESH)) {
+    const needsIprefer = shouldFetchIprefer(existing, FORCE_REFRESH);
+    const choicePointsValue = choicePointsLookup.get(nid);
+    const needsChoice = choicePointsValue && shouldFetchChoice(existing, FORCE_REFRESH);
+
+    if (!needsIprefer && !needsChoice) {
       skipped += 1;
       return;
     }
 
     try {
-      const ipreferData = await fetchIpreferRates(nid);
+      const artifact = { ...(existing ?? {}) };
 
-      if (!ipreferData) {
-        console.warn(`[iprefer] no data returned for ${artifactKey} (nid=${nid})`);
-        noData += 1;
+      if (needsIprefer) {
+        const ipreferData = await fetchIpreferRates(nid);
+        if (ipreferData) {
+          artifact.iprefer = ipreferData;
+        } else {
+          console.warn(`[iprefer] no data returned for ${artifactKey} (nid=${nid})`);
+          noData += 1;
+        }
+      }
+
+      if (needsChoice) {
+        const choiceData = await fetchChoiceRates(nid, choicePointsValue);
+        if (choiceData) {
+          artifact.choice = choiceData;
+        }
+      }
+
+      if (!artifact.iprefer && !artifact.choice) {
         return;
       }
 
-      const updated = sortObjectKeys({ ...(existing ?? {}), iprefer: ipreferData, metadata: buildFallbackMetadata(sourceHotelId, existing) });
+      const updated = sortObjectKeys({ ...artifact, metadata: buildFallbackMetadata(sourceHotelId, existing) });
       await writeFile(artifactUrl, `${JSON.stringify(updated, null, 2)}\n`, "utf8");
       fetched += 1;
-      console.log(`[iprefer] ${artifactKey} months=${Object.keys(ipreferData.months).length}`);
+      const ipreferMonths = artifact.iprefer ? Object.keys(artifact.iprefer.months).length : 0;
+      const choiceMonths = artifact.choice ? Object.keys(artifact.choice.months).length : 0;
+      console.log(`[iprefer] ${artifactKey} iprefer_months=${ipreferMonths} choice_months=${choiceMonths}`);
     } catch (error) {
       console.warn(`[iprefer] fetch failed for ${artifactKey}: ${error.message}`);
       failed += 1;

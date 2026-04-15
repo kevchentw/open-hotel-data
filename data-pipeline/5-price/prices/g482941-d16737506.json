@@ -1,4 +1,28 @@
 {
+  "choice": {
+    "choice_points_value": "40000",
+    "fetched_at": "2026-04-15T16:16:36.216Z",
+    "months": {
+      "2026-05": {
+        "choice_available_nights": 27
+      },
+      "2026-06": {
+        "choice_available_nights": 26
+      },
+      "2026-07": {
+        "choice_available_nights": 31
+      },
+      "2026-08": {
+        "choice_available_nights": 30
+      },
+      "2026-09": {
+        "choice_available_nights": 28
+      },
+      "2026-10": {
+        "choice_available_nights": 17
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-09T01:32:02.154Z",
@@ -54,7 +78,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-09T01:32:02.154Z",
+    "generated_at": "2026-04-15T16:16:36.216Z",
     "stage": "5-price",
     "tripadvisor_id": "g482941-d16737506"
   },

@@ -1,4 +1,28 @@
 {
+  "choice": {
+    "choice_points_value": "63000",
+    "fetched_at": "2026-04-15T16:25:52.057Z",
+    "months": {
+      "2026-05": {
+        "choice_available_nights": 11
+      },
+      "2026-10": {
+        "choice_available_nights": 25
+      },
+      "2026-11": {
+        "choice_available_nights": 7
+      },
+      "2027-01": {
+        "choice_available_nights": 12
+      },
+      "2027-03": {
+        "choice_available_nights": 16
+      },
+      "2027-04": {
+        "choice_available_nights": 3
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T04:23:58.400Z",
@@ -92,7 +116,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T04:23:58.400Z",
+    "generated_at": "2026-04-15T16:25:52.057Z",
     "iprefer_source_id": "ZHJAA",
     "stage": "5-price"
   }

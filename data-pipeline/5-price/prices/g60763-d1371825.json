@@ -1,4 +1,46 @@
 {
+  "choice": {
+    "choice_points_value": "57000",
+    "fetched_at": "2026-04-15T16:16:39.573Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 4
+      },
+      "2026-05": {
+        "choice_available_nights": 19
+      },
+      "2026-06": {
+        "choice_available_nights": 21
+      },
+      "2026-07": {
+        "choice_available_nights": 26
+      },
+      "2026-08": {
+        "choice_available_nights": 31
+      },
+      "2026-09": {
+        "choice_available_nights": 30
+      },
+      "2026-10": {
+        "choice_available_nights": 31
+      },
+      "2026-11": {
+        "choice_available_nights": 30
+      },
+      "2026-12": {
+        "choice_available_nights": 31
+      },
+      "2027-01": {
+        "choice_available_nights": 31
+      },
+      "2027-02": {
+        "choice_available_nights": 28
+      },
+      "2027-03": {
+        "choice_available_nights": 31
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-09T01:32:15.612Z",
@@ -137,7 +179,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-09T01:32:15.612Z",
+    "generated_at": "2026-04-15T16:16:39.573Z",
     "stage": "5-price",
     "tripadvisor_id": "g60763-d1371825"
   },

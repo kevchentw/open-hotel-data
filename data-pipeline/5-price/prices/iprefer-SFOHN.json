@@ -1,4 +1,28 @@
 {
+  "choice": {
+    "choice_points_value": "29000",
+    "fetched_at": "2026-04-15T16:23:51.148Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 12
+      },
+      "2026-05": {
+        "choice_available_nights": 31
+      },
+      "2026-06": {
+        "choice_available_nights": 23
+      },
+      "2027-01": {
+        "choice_available_nights": 10
+      },
+      "2027-02": {
+        "choice_available_nights": 5
+      },
+      "2027-03": {
+        "choice_available_nights": 21
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T04:18:20.734Z",
@@ -54,7 +78,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T04:18:20.734Z",
+    "generated_at": "2026-04-15T16:23:51.148Z",
     "iprefer_source_id": "SFOHN",
     "stage": "5-price"
   }

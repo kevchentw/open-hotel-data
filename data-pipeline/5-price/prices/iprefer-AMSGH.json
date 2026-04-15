@@ -1,4 +1,49 @@
 {
+  "choice": {
+    "choice_points_value": "36000",
+    "fetched_at": "2026-04-15T16:17:08.045Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 7
+      },
+      "2026-05": {
+        "choice_available_nights": 16
+      },
+      "2026-06": {
+        "choice_available_nights": 17
+      },
+      "2026-07": {
+        "choice_available_nights": 23
+      },
+      "2026-08": {
+        "choice_available_nights": 21
+      },
+      "2026-09": {
+        "choice_available_nights": 22
+      },
+      "2026-10": {
+        "choice_available_nights": 30
+      },
+      "2026-11": {
+        "choice_available_nights": 26
+      },
+      "2026-12": {
+        "choice_available_nights": 26
+      },
+      "2027-01": {
+        "choice_available_nights": 3
+      },
+      "2027-02": {
+        "choice_available_nights": 25
+      },
+      "2027-03": {
+        "choice_available_nights": 30
+      },
+      "2027-04": {
+        "choice_available_nights": 1
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T03:59:11.223Z",
@@ -140,7 +185,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T03:59:11.223Z",
+    "generated_at": "2026-04-15T16:17:08.045Z",
     "iprefer_source_id": "AMSGH",
     "stage": "5-price"
   }

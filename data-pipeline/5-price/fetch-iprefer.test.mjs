@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { aggregatePointsMonths, aggregateCashMonths, buildMonthlyStats, shouldFetchIprefer, buildNidLookup } from "./fetch-iprefer.mjs";
+import { aggregatePointsMonths, aggregateCashMonths, buildMonthlyStats, shouldFetchIprefer, shouldFetchChoice, buildNidLookup, aggregateChoiceAvailability } from "./fetch-iprefer.mjs";
 
 test("aggregatePointsMonths groups available nights by month", () => {
   const results = {
@@ -115,4 +115,41 @@ test("buildNidLookup maps synxis_id to nid, skips entries missing either field",
 
 test("buildNidLookup returns empty map for empty input", () => {
   assert.deepEqual(buildNidLookup({}), new Map());
+});
+
+test("aggregateChoiceAvailability counts available nights per month", () => {
+  const results = {
+    "2026-04-10": { is_available: true, has_inventory: true, allows_check_in: true, rate: 251, tax: 67, points: 0 },
+    "2026-04-11": { is_available: true, has_inventory: true, allows_check_in: true, rate: 251, tax: 67, points: 0 },
+    "2026-04-12": { is_available: false, has_inventory: true, allows_check_in: true, rate: 251, tax: 67, points: 0 },
+    "2026-05-01": { is_available: true, has_inventory: true, allows_check_in: true, rate: 251, tax: 67, points: 0 }
+  };
+  assert.deepEqual(aggregateChoiceAvailability(results), {
+    "2026-04": { choice_available_nights: 2 },
+    "2026-05": { choice_available_nights: 1 }
+  });
+});
+
+test("aggregateChoiceAvailability returns empty object for empty results", () => {
+  assert.deepEqual(aggregateChoiceAvailability({}), {});
+});
+
+test("aggregateChoiceAvailability skips unavailable nights", () => {
+  const results = {
+    "2026-04-10": { is_available: false, has_inventory: true, allows_check_in: true, rate: 251, tax: 67, points: 0 },
+    "2026-04-11": { is_available: true, has_inventory: false, allows_check_in: true, rate: 251, tax: 67, points: 0 }
+  };
+  assert.deepEqual(aggregateChoiceAvailability(results), {});
+});
+
+test("shouldFetchChoice returns true when artifact has no choice field", () => {
+  assert.equal(shouldFetchChoice({ iprefer: { months: {} } }, false), true);
+});
+
+test("shouldFetchChoice returns false when choice already present and no force refresh", () => {
+  assert.equal(shouldFetchChoice({ choice: { months: {} } }, false), false);
+});
+
+test("shouldFetchChoice returns true when force refresh is set even if choice exists", () => {
+  assert.equal(shouldFetchChoice({ choice: { months: {} } }, true), true);
 });

@@ -230,21 +230,34 @@ function formatIpreferPointsLabel(pointsMin, pointsMax) {
 
 function buildIpreferSummary(rawHotel) {
   const ipreferPrices = rawHotel.iprefer_prices;
-  if (!ipreferPrices || typeof ipreferPrices !== "object" || Array.isArray(ipreferPrices)) {
-    return { pointsMin: null, pointsMax: null, cashMin: null, cashMax: null, currency: "USD", months: [] };
+  const choicePrices = rawHotel.choice_prices;
+  const hasIprefer = ipreferPrices && typeof ipreferPrices === "object" && !Array.isArray(ipreferPrices);
+  const hasChoice = choicePrices && typeof choicePrices === "object" && !Array.isArray(choicePrices);
+
+  if (!hasIprefer && !hasChoice) {
+    return { pointsMin: null, pointsMax: null, cashMin: null, cashMax: null, currency: "USD", choicePointsValue: null, months: [] };
   }
 
-  const currency = ipreferPrices.currency || "USD";
+  const currency = (hasIprefer && ipreferPrices.currency) || "USD";
+  const choicePointsValue = hasChoice ? toFiniteNumber(choicePrices.choice_points_value) : null;
   let pointsMin = null;
   let pointsMax = null;
   let cashMin = null;
   let cashMax = null;
+
+  // Collect all month keys from both iprefer and choice
+  const allMonthKeys = new Set([
+    ...Object.keys((hasIprefer && ipreferPrices.months) || {}),
+    ...Object.keys((hasChoice && choicePrices.months) || {}),
+  ]);
+
   const months = [];
 
-  for (const [monthKey, data] of Object.entries(ipreferPrices.months || {})) {
-    if (!data || typeof data !== "object") {
-      continue;
-    }
+  for (const monthKey of allMonthKeys) {
+    const ipreferData = hasIprefer ? (ipreferPrices.months || {})[monthKey] : null;
+    const choiceData = hasChoice ? (choicePrices.months || {})[monthKey] : null;
+
+    const data = ipreferData && typeof ipreferData === "object" ? ipreferData : {};
 
     const pMin = toFiniteNumber(data.points_min);
     const pMax = toFiniteNumber(data.points_max);
@@ -270,12 +283,14 @@ function buildIpreferSummary(rawHotel) {
       cashMax: cMax,
       cashAvailableNights: typeof data.cash_available_nights === "number" ? data.cash_available_nights : null,
       pointsAvailableNights: typeof data.points_available_nights === "number" ? data.points_available_nights : null,
+      choiceAvailableNights: choiceData && typeof choiceData === "object" && typeof choiceData.choice_available_nights === "number"
+        ? choiceData.choice_available_nights : null,
     });
   }
 
   months.sort((left, right) => left.key.localeCompare(right.key));
 
-  return { pointsMin, pointsMax, cashMin, cashMax, currency, months };
+  return { pointsMin, pointsMax, cashMin, cashMax, currency, choicePointsValue, months };
 }
 
 function formatCurrency(value, currency = "USD") {
@@ -546,6 +561,7 @@ function renderIpreferPricePattern(hotel) {
   }
 
   const hasPoints = hotel.ipreferMonths.some((m) => m.pointsMin !== null);
+  const hasChoice = hotel.choicePointsValue !== null && hotel.ipreferMonths.some((m) => m.choiceAvailableNights !== null);
 
   const rows = hotel.ipreferMonths
     .map((month) => {
@@ -563,11 +579,18 @@ function renderIpreferPricePattern(hotel) {
         ? `${escapeHtml(formatNumber(month.pointsMin))}${month.pointsMax !== null && month.pointsMax !== month.pointsMin ? `–${escapeHtml(formatNumber(month.pointsMax))}` : ""}${ptsNights}`
         : `<span class="iprefer-table__muted">—</span>`;
 
+      const choiceCell = hasChoice
+        ? (month.choiceAvailableNights !== null
+          ? `${escapeHtml(formatNumber(hotel.choicePointsValue))} <span class="iprefer-table__muted">${escapeHtml(String(month.choiceAvailableNights))}d</span>`
+          : `<span class="iprefer-table__muted">—</span>`)
+        : "";
+
       return `
         <tr>
           <td class="iprefer-table__month">${escapeHtml(month.label)}</td>
           <td class="iprefer-table__cash">${cashCell}</td>
           ${hasPoints ? `<td class="iprefer-table__points">${ptsCell}</td>` : ""}
+          ${hasChoice ? `<td class="iprefer-table__points">${choiceCell}</td>` : ""}
         </tr>`;
     })
     .join("");
@@ -592,7 +615,8 @@ function renderIpreferPricePattern(hotel) {
           <tr>
             <th>Month</th>
             <th>Cash</th>
-            ${hasPoints ? "<th>Points</th>" : ""}
+            ${hasPoints ? "<th>iPrefer Pts</th>" : ""}
+            ${hasChoice ? "<th>Choice Pts</th>" : ""}
           </tr>
         </thead>
         <tbody>${rows}</tbody>
@@ -653,12 +677,10 @@ function normalizeHotel([id, rawHotel]) {
     ipreferCpp: (ipreferSummary.cashMin !== null && ipreferSummary.pointsMin !== null && ipreferSummary.pointsMin > 0)
       ? ipreferSummary.cashMin / ipreferSummary.pointsMin * 100
       : null,
-    choicePointsValue: toFiniteNumber(rawHotel.choice_prices?.choice_points_value),
-    choiceCpp: (() => {
-      const cpv = toFiniteNumber(rawHotel.choice_prices?.choice_points_value);
-      const cash = ipreferSummary.cashMin;
-      return (cash !== null && cpv !== null && cpv > 0) ? cash / cpv * 100 : null;
-    })(),
+    choicePointsValue: ipreferSummary.choicePointsValue,
+    choiceCpp: (ipreferSummary.cashMin !== null && ipreferSummary.choicePointsValue !== null && ipreferSummary.choicePointsValue > 0)
+      ? ipreferSummary.cashMin / ipreferSummary.choicePointsValue * 100
+      : null,
     ipreferPriceLabel: formatIpreferPointsLabel(ipreferSummary.pointsMin, ipreferSummary.pointsMax),
     priceLabel: formatCurrency(priceValue, rawHotel.summary_price?.currency || rawHotel.currency || "USD"),
     priceSubLabel:
@@ -2029,8 +2051,10 @@ function buildShell() {
 
         <label id="iprefer-has-points-group" class="toolbar-group" hidden>
           <span>iPrefer filter</span>
-          <button id="iprefer-has-points-btn" class="filter-toggle-btn" type="button">Has iPrefer Pts</button>
-          <button id="choice-has-points-btn" class="filter-toggle-btn" type="button">Has Choice Pts</button>
+          <div class="split-btn-group">
+            <button id="iprefer-has-points-btn" class="filter-toggle-btn split-left" type="button">iPrefer Pts</button>
+            <button id="choice-has-points-btn" class="filter-toggle-btn split-right" type="button">Choice Pts</button>
+          </div>
         </label>
 
         <label id="edit-select-hotels-group" class="toolbar-group" hidden>

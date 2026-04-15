@@ -1,4 +1,52 @@
 {
+  "choice": {
+    "choice_points_value": "69000",
+    "fetched_at": "2026-04-15T16:18:47.699Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 11
+      },
+      "2026-05": {
+        "choice_available_nights": 23
+      },
+      "2026-06": {
+        "choice_available_nights": 22
+      },
+      "2026-07": {
+        "choice_available_nights": 24
+      },
+      "2026-08": {
+        "choice_available_nights": 31
+      },
+      "2026-09": {
+        "choice_available_nights": 25
+      },
+      "2026-10": {
+        "choice_available_nights": 20
+      },
+      "2026-11": {
+        "choice_available_nights": 30
+      },
+      "2026-12": {
+        "choice_available_nights": 31
+      },
+      "2027-01": {
+        "choice_available_nights": 31
+      },
+      "2027-02": {
+        "choice_available_nights": 28
+      },
+      "2027-03": {
+        "choice_available_nights": 31
+      },
+      "2027-04": {
+        "choice_available_nights": 22
+      },
+      "2027-05": {
+        "choice_available_nights": 11
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-05T04:04:10.595Z",
@@ -76,7 +124,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-05T04:04:10.595Z",
+    "generated_at": "2026-04-15T16:18:47.699Z",
     "iprefer_source_id": "BOSCH",
     "stage": "5-price"
   }

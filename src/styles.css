@@ -668,6 +668,25 @@ select {
   color: white;
 }
 
+.split-btn-group {
+  display: flex;
+  width: 100%;
+}
+
+.split-btn-group .filter-toggle-btn {
+  flex: 1;
+  border-radius: 0;
+}
+
+.split-btn-group .split-left {
+  border-radius: 12px 0 0 12px;
+  border-right: none;
+}
+
+.split-btn-group .split-right {
+  border-radius: 0 12px 12px 0;
+}
+
 .row-price-iprefer {
   display: flex;
   flex-direction: column;

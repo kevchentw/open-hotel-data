@@ -111,6 +111,10 @@ function buildCanonicalHotels(hotels, priceByTripadvisorId, aspireCreditByTripad
           canonicalHotel.iprefer_prices = priceSummary.ipreferPrices;
         }
 
+        if (priceSummary.choicePrices) {
+          canonicalHotel.choice_prices = priceSummary.choicePrices;
+        }
+
         const rawCash = canonicalHotel.hilton_cash_price;
         const rawCurrency = canonicalHotel.hilton_cash_currency;
         const rawPoints = canonicalHotel.hilton_standard_points_price || canonicalHotel.hilton_points_price;
@@ -183,6 +187,10 @@ function buildFallbackHotels(unmatched, priceByIpreferId) {
 
         if (priceSummary?.ipreferPrices) {
           entry.iprefer_prices = priceSummary.ipreferPrices;
+        }
+
+        if (priceSummary?.choicePrices) {
+          entry.choice_prices = priceSummary.choicePrices;
         }
 
         const rawCash = entry.hilton_cash_price;
@@ -355,7 +363,8 @@ function summarizePrices(payload) {
     prices,
     currency: normalizeString(firstPrice.currency) || normalizeString(summaryPrice?.currency),
     summaryPrice,
-    ipreferPrices: summarizeIpreferPrices(payload.iprefer)
+    ipreferPrices: summarizeIpreferPrices(payload.iprefer),
+    choicePrices: summarizeChoicePrices(payload.choice)
   };
 }
 
@@ -398,6 +407,44 @@ function summarizeIpreferPrices(iprefer) {
   return sortObjectKeys({
     currency: normalizeString(iprefer.currency),
     fetched_at: normalizeString(iprefer.fetched_at),
+    months
+  });
+}
+
+function summarizeChoicePrices(choice) {
+  if (!isRecord(choice) || !isRecord(choice.months)) {
+    return null;
+  }
+
+  const choicePointsValue = normalizeString(choice.choice_points_value);
+  if (!choicePointsValue) {
+    return null;
+  }
+
+  const months = sortEntriesObject(
+    Object.fromEntries(
+      Object.entries(choice.months)
+        .map(([month, data]) => {
+          if (!isRecord(data)) {
+            return null;
+          }
+
+          const entry = {};
+          if (typeof data.choice_available_nights === "number") entry.choice_available_nights = data.choice_available_nights;
+
+          return [month, sortObjectKeys(entry)];
+        })
+        .filter(Boolean)
+    )
+  );
+
+  if (!Object.keys(months).length) {
+    return null;
+  }
+
+  return sortObjectKeys({
+    choice_points_value: choicePointsValue,
+    fetched_at: normalizeString(choice.fetched_at),
     months
   });
 }

@@ -1,4 +1,67 @@
 {
+  "choice": {
+    "choice_points_value": "35000",
+    "fetched_at": "2026-04-15T16:15:36.149Z",
+    "months": {
+      "2026-04": {
+        "choice_available_nights": 17
+      },
+      "2026-05": {
+        "choice_available_nights": 30
+      },
+      "2026-06": {
+        "choice_available_nights": 27
+      },
+      "2026-07": {
+        "choice_available_nights": 31
+      },
+      "2026-08": {
+        "choice_available_nights": 31
+      },
+      "2026-09": {
+        "choice_available_nights": 30
+      },
+      "2026-10": {
+        "choice_available_nights": 31
+      },
+      "2026-11": {
+        "choice_available_nights": 28
+      },
+      "2026-12": {
+        "choice_available_nights": 31
+      },
+      "2027-01": {
+        "choice_available_nights": 31
+      },
+      "2027-02": {
+        "choice_available_nights": 28
+      },
+      "2027-03": {
+        "choice_available_nights": 31
+      },
+      "2027-04": {
+        "choice_available_nights": 30
+      },
+      "2027-05": {
+        "choice_available_nights": 31
+      },
+      "2027-06": {
+        "choice_available_nights": 30
+      },
+      "2027-07": {
+        "choice_available_nights": 31
+      },
+      "2027-08": {
+        "choice_available_nights": 31
+      },
+      "2027-09": {
+        "choice_available_nights": 30
+      },
+      "2027-10": {
+        "choice_available_nights": 14
+      }
+    }
+  },
   "iprefer": {
     "currency": "USD",
     "fetched_at": "2026-04-09T01:30:13.213Z",
@@ -158,7 +221,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-04-09T01:30:13.213Z",
+    "generated_at": "2026-04-15T16:15:36.149Z",
     "stage": "5-price",
     "tripadvisor_id": "g189934-d7940665"
   }
