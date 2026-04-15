@@ -571,7 +571,19 @@ function renderIpreferPricePattern(hotel) {
     })
     .join("");
 
+  const cppParts = [];
+  if (hotel.ipreferCpp !== null) {
+    cppParts.push(`iPrefer CPP: ${hotel.ipreferCpp.toFixed(2)}¢/pt`);
+  }
+  if (hotel.choiceCpp !== null) {
+    cppParts.push(`Choice CPP: ${hotel.choiceCpp.toFixed(2)}¢/pt`);
+  }
+  const cppSummary = cppParts.length > 0
+    ? `<div class="detail-row">${escapeHtml(cppParts.join("  |  "))}</div>`
+    : "";
+
   return `
+    ${cppSummary}
     <section class="sampled-price-pattern" aria-label="iPrefer price availability">
       <span class="sampled-price-pattern__eyebrow">iPrefer availability by month</span>
       <table class="iprefer-table">
